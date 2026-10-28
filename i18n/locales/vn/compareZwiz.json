@@ -1,0 +1,197 @@
+{
+  "compareZwiz": {
+    "meta": {
+      "title": "Cluega IM vs ZWIZ.AI | Cluega",
+      "description": "Vượt lên tương tác bề mặt của chatbot theo từ khoá, khoá vào dữ liệu chốt đơn private thực để chạy quảng cáo chính xác và mở khoá ROAS cao hơn."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA IM VS. ZWIZ.AI",
+      "title": "Biến tương tác private thành tài sản dữ liệu chính xác để scale quảng cáo",
+      "subtitle": "Vượt lên tương tác bề mặt của chatbot theo từ khoá, khoá vào dữ liệu chốt đơn private thực để chạy quảng cáo chính xác và mở khoá ROAS cao hơn.",
+      "ctaStart": "Đặt lịch Demo",
+      "ctaDemo": "Tư vấn giải pháp",
+      "cluegaLabel": "Cluega IM",
+      "zwizLabel": "ZWIZ.AI",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "ZWIZ.AI vs Cluega IM",
+      "colDimension": "Tiêu chí so sánh",
+      "colZwiz": "ZWIZ.AI",
+      "colCluega": "Cluega IM",
+      "rows": [
+        {
+          "dimension": "Khác biệt định vị",
+          "zwiz": "Chatbot AI nội địa Thái Lan: tự trả lời chat／bình luận, quản lý Rich Menu, tích điểm thành viên",
+          "cluega": "Hạ tầng tài sản dữ liệu private và quy kết marketing cho thị trường toàn cầu"
+        },
+        {
+          "dimension": "Kênh hỗ trợ",
+          "zwiz": "LINE OA (thế mạnh bản địa tại Thái Lan)／FB／IG／TikTok／WhatsApp",
+          "cluega": "Hợp nhất danh tính đa nền tảng LINE OA／Zalo／WhatsApp／Messenger"
+        },
+        {
+          "dimension": "Ngưỡng khởi điểm",
+          "zwiz": "Giá gói trên website khoảng THB 21,000–36,000 (bao gồm dịch vụ triển khai)",
+          "cluega": "Thuê SaaS từ $999／tháng + tính phí theo kết quả chốt đơn (Outcome-based): hội thoại chưa chốt chỉ thu phí sàn bù chi phí tính toán"
+        },
+        {
+          "dimension": "Hiệu quả quy kết",
+          "zwiz": "Lấy lượng tương tác, bình luận và click làm trung tâm; tuyên bố hỗ trợ quy kết click từ quảng cáo TikTok sang Messenger",
+          "cluega": "Lấy “đẩy đơn chốt private thật về quảng cáo” làm trung tâm: ROAS thật ở mức độ chi tiết theo giai đoạn chốt đơn"
+        },
+        {
+          "dimension": "Luồng làm việc cốt lõi",
+          "zwiz": "Dựng Rich Menu cơ bản, tự trả lời và broadcast, phân hạng tích điểm thành viên",
+          "cluega": "Đọc ngữ nghĩa hội thoại → định vị MMT L0–L6 → quy kết quảng cáo → ghi ngược khép vòng (CAPI)"
+        },
+        {
+          "dimension": "Độ sâu dữ liệu",
+          "zwiz": "Dữ liệu của các module chat／tích điểm／đặt hẹn tương đối phân tán",
+          "cluega": "Hồ sơ khách hàng hợp nhất xuyên kênh, mỗi lần quy kết đều kèm log kiểm toán được"
+        },
+        {
+          "dimension": "Khách hàng mục tiêu",
+          "zwiz": "SME Thái Lan, social commerce và đội CSKH",
+          "cluega": "Media Buyer hướng hiệu quả và đội performance của thương hiệu"
+        },
+        {
+          "dimension": "Tình huống phù hợp nhất",
+          "zwiz": "Lên nhanh tương tác tài khoản LINE chính thức và tự động hoá CSKH",
+          "cluega": "Chạy quảng cáo hiệu quả và đào sâu private cho mục tiêu ROAS private và quyết định scale ngân sách"
+        }
+      ],
+      "footnote": "＊Thông tin đối thủ được tổng hợp từ website chính thức và dữ liệu công khai của bên thứ ba (đối chiếu 2026-07), thực tế lấy công bố chính thức của họ làm chuẩn.",
+      "ctaStart": "Đặt lịch Demo",
+      "ctaDemo": "Tư vấn giải pháp"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Vì sao các đội xuyên biên giới và hướng hiệu quả chuyển từ ZWIZ.AI sang Cluega IM?",
+      "items": [
+        {
+          "title": "Bù phần phễu Pixel không thấy, nuôi thuật toán quảng cáo bằng tín hiệu chính xác",
+          "body": "Dữ liệu của ZWIZ dừng ở tầng tương tác — trả lời bao nhiêu, bấm vào cái gì. Cluega IM ghi ngược các đơn chốt thật L5／L6 trong private về Meta／TikTok (CAPI), bù phần chuyển đổi private mà Pixel của nền tảng không đo được, để thuật toán nhận được tín hiệu “tệp đối tượng chịu trả tiền” và càng chạy càng chính xác."
+        },
+        {
+          "title": "Hợp nhất danh tính đa nền tảng, cùng một người mua không bị tính phí trùng",
+          "body": "Khách vào từ LINE, rồi lại xuất hiện trên WhatsApp／Zalo? Cluega IM hợp nhất dấu vết đa kênh của cùng một người mua ở tầng danh tính (Identity Merge): lịch sử hội thoại được thống nhất, chốt đơn chỉ tính một lần, quy kết và tính phí đều không trùng lặp, không thổi phồng."
+        },
+        {
+          "title": "Nối lại chuỗi hội thoại và chốt đơn “không thể theo dõi ở cấp cá nhân”",
+          "body": "Sau Click-to-Message, nền tảng không còn thấy người nữa — đó chính là hộp đen của private. Cluega IM đọc ngữ nghĩa từng cuộc hội thoại, định vị giai đoạn chốt đơn và nối lại toàn bộ chuỗi từ click quảng cáo đến đơn chốt trong tin nhắn riêng, để số phận hạ nguồn của từng mẫu quảng cáo trở nên rõ ràng."
+        },
+        {
+          "title": "Tính phí theo kết quả chốt đơn (Outcome-based), lợi ích trùng khớp hoàn toàn",
+          "body": "So với gói cố định có kèm dịch vụ triển khai, Cluega IM chỉ thu phí hiệu quả khi AI thực sự đẩy hội thoại lên tầng chốt đơn; hội thoại nhiều nhưng chưa chốt chỉ thu phí sàn bù chi phí tính toán. Bạn kiếm được tiền thì chúng tôi mới kiếm được — đây là cam kết được viết cứng vào cấu trúc tính phí."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          { "type": "field", "label": "ID tài khoản quảng cáo", "value": "7535737911069753842" },
+          { "type": "field", "label": "Tên quảng cáo", "value": "0609-Quảng cáo tin nhắn-EcoSip" },
+          { "type": "field", "label": "ID quảng cáo", "value": "1866940736964473" },
+          { "type": "field", "label": "ID nội dung", "value": "1867515992671681" },
+          {
+            "type": "preview",
+            "label": "Xem trước nội dung",
+            "brand": "EcoSip",
+            "value": "Video quảng bá bình giữ nhiệt"
+          },
+          { "type": "field", "label": "ID tài khoản mạng xã hội", "value": "EcoSip" }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Thời gian tạo",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Tổng sự kiện",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Chi phí chốt đơn trung bình",
+        "legend": "Tất cả"
+      },
+      "identity": {
+        "keyword": "Số điện thoại",
+        "lead": "Lead giá trị cao"
+      },
+      "billing": {
+        "steps": [
+          "Khách lần đầu hỏi về sản phẩm",
+          "AI nhận diện nhu cầu, tương tác liên tục",
+          "AI đưa ra giải pháp tuỳ chỉnh"
+        ],
+        "success": "Chuyển đổi thành công: Lead hợp lệ",
+        "outcome": "Đạt Outcome: tính phí $0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "EVERY CHANNEL, ONE ATTRIBUTION ENGINE",
+      "title": "Không chỉ trả lời CSKH, mà nắm trọn dữ liệu toàn phễu của private toàn cầu",
+      "items": [
+        {
+          "title": "Phủ toàn kênh",
+          "body": "Tích hợp LINE OA・Zalo・WhatsApp・FB／IG…, hội thoại và sự kiện chốt đơn xuyên kênh được hợp nhất vào một hồ sơ khách hàng duy nhất."
+        },
+        {
+          "title": "Phễu MMT L0–L6",
+          "body": "Từ hội thoại ý định cao, thu thập lead đến hoàn tất thanh toán, mỗi cuộc hội thoại tự định vị, thang tính phí tương ứng một-một với giai đoạn chốt đơn."
+        },
+        {
+          "title": "Chủ quyền dữ liệu",
+          "body": "Log quy kết kiểm toán được, sự kiện chốt đơn ghi ngược cùng nguồn; tuân thủ GDPR, PDPL và quy định của từng thị trường, dữ liệu không rò rỉ, không huấn luyện chéo tenant."
+        },
+        {
+          "title": "Cộng tác đội nhóm",
+          "body": "Hỗ trợ API／MCP và luồng phối hợp với CSKH, người thật tiếp nhận lấy dấu thời gian handoff làm mốc, ranh giới công của AI và của người rõ ràng, kiểm toán được."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Tôi nên chọn giải pháp nào?",
+      "zwiz": {
+        "label": "Chọn ZWIZ.AI",
+        "body": "Bạn cần lên nhanh chatbot tiếng Thái, Rich Menu và marketing tích điểm, thích gói trả một lần và để nhà cung cấp lo phần triển khai; tương tác và tự động hoá CSKH là toàn bộ mục tiêu."
+      },
+      "cluega": {
+        "label": "Chọn Cluega IM",
+        "body": "Bạn đang chạy quảng cáo Meta／TikTok／LINE và cần quy kết ở cấp chốt đơn: mẫu quảng cáo nào mang về hội thoại thực sự trả tiền, người mua xuyên kênh chỉ tính một lần, dữ liệu hiệu quả ghi ngược về nền tảng để scale — và tính phí theo Outcome để nền tảng và bạn cùng chung lợi ích."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả chi tiết bạn có thể muốn biết trước khi liên hệ đội ngũ của chúng tôi.",
+      "contact": "Liên hệ kinh doanh",
+      "items": [
+        {
+          "q": "Đang dùng ZWIZ.AI để vận hành LINE OA, có còn cần Cluega IM không?",
+          "a": "Hoàn toàn có thể chạy song song. ZWIZ tiếp tục phụ trách tương tác và tự động hoá CSKH, Cluega IM tiếp quản tầng quy kết: đẩy tiến độ hội thoại, thông tin thu thập và đơn chốt về nguồn quảng cáo. Khi mục tiêu của bạn nâng cấp từ “trả lời nhanh” lên “quy kết đúng”, Cluega IM chính là mảnh còn thiếu."
+        },
+        {
+          "q": "Cluega IM có ảnh hưởng đến cấu hình bot ZWIZ.AI hiện có không?",
+          "a": "Không. Cluega IM kết nối qua API chính thức của kênh, tương thích với Rich Menu và các quy tắc tự trả lời hiện có; bạn có thể thử nghiệm quy kết trên một kênh trước, rồi mở rộng phạm vi quản lý dần."
+        },
+        {
+          "q": "ZWIZ.AI và Cluega IM khác nhau thế nào về dữ liệu quảng cáo?",
+          "a": "ZWIZ cho bạn chỉ số tương tác (lượng tin nhắn, click, bình luận); Cluega IM cho bạn quy kết chốt đơn — mỗi đơn chốt L5／L6 trỏ về campaign／adset／creative, và ROAS thật được tính ở mức độ chi tiết theo giai đoạn chốt đơn. Bên trước đo sự náo nhiệt, bên sau đo công việc kinh doanh."
+        },
+        {
+          "q": "Cluega IM xử lý người mua xuyên kênh (ví dụ LINE và Zalo) thế nào?",
+          "a": "Cùng một khách được tính cuộc riêng theo từng kênh, nhưng được hợp nhất ở tầng danh tính: lịch sử hội thoại và sự kiện chốt đơn về một hồ sơ duy nhất, một đơn chốt chỉ tính một lần và chỉ thu phí một lần, đồng thời vẫn trỏ về được nguồn quảng cáo ban đầu."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Dùng Cluega IM để thiết lập nền tảng private vượt xa hệ CSKH truyền thống.",
+      "ctaStart": "Đặt lịch Demo",
+      "ctaDemo": "Tư vấn giải pháp"
+    }
+  }
+}

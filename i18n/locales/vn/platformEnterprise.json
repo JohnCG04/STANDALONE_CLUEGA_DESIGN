@@ -1,0 +1,206 @@
+{
+  "platformEnterprise": {
+    "hero": {
+      "eyebrowNew": "Enterprise",
+      "eyebrowLabel": "Đặt lịch Demo →",
+      "title": "Hệ thống làm việc AI riêng, xây dựng cho doanh nghiệp lớn",
+      "sub1": "Không phải một công cụ AI có sẵn — mà là người đồng hành thông minh thực sự hiểu doanh nghiệp của bạn.",
+      "sub2": "Từ kho tri thức doanh nghiệp đến kỹ năng tùy chỉnh, mỗi phản hồi của AI đều gắn chặt với nghiệp vụ của bạn."
+    },
+    "heroMock": {
+      "project": "Ra mắt cửa hàng 11.11",
+      "taskTitle": "Làm mới sản phẩm bán chạy 11.11",
+      "activity": "Hoạt động",
+      "workspace": "Không gian làm việc",
+      "favorites": "Yêu thích",
+      "sidebarMain": ["Hộp thư", "Việc của tôi", "Đánh giá", "Nhịp độ"],
+      "sidebarWorkspace": ["Sáng kiến", "Dự án", "Thêm"],
+      "favoriteItems": ["Ra mắt cửa hàng 11.11", "Tác vụ Agent", "Làm mới sản phẩm", "Thông tin vận hành"],
+      "descBefore": "Chuẩn bị nội dung và giá 11.11 đã cập nhật cho top",
+      "descAfter": "hàng đầu trên Shopee và TikTok Shop, rồi đẩy bản nháp để duyệt thay vì lên thẳng.",
+      "act1": "Cluega đã tạo tác vụ qua Lark thay cho Audrey · 2 phút trước",
+      "act2": "Triage Intelligence đã thêm nhãn Promo và Shopee · 2 phút trước",
+      "act3": "Cluega được Chloe kết nối · Đã đổi 12 sản phẩm · Bản nháp chờ bạn duyệt · 2 phút trước",
+      "act4": "Cluega chuyển từ Cần làm sang Đang xử lý · vừa xong",
+      "time4min": "4 phút trước",
+      "timeJustNow": "vừa xong",
+      "msgAudrey": "Hiện tại banner 11.11 của chúng ta vẫn hiển thị giá tháng trước…",
+      "msgChloe": "có thể xử lý giúp không?",
+      "statusInProgress": "Đang xử lý",
+      "priorityHigh": "Cao",
+      "metaConnected": "Chloe đã kết nối Cluega với",
+      "examining": "Đang kiểm tra danh mục cửa hàng…",
+      "workedFor": "Đã xử lý 7 giây",
+      "pushedDraft": "Đã đẩy và mở bản nháp. Thay đổi:",
+      "change1": "viết lại 12 tiêu đề với hook 11.11",
+      "change2": "áp dụng giá & nhãn chiến dịch",
+      "changedFiles": "Đã đổi 2 tệp",
+      "preview": "Xem trước",
+      "draftBadge": "Bản nháp",
+      "updateStorefront": "Cập nhật cửa hàng 11.11",
+      "inputPlaceholder": "Hãy cho Cluega biết cần làm gì tiếp…"
+    },
+    "intakeMock": {
+      "headerTitle": "Cluega",
+      "user1Name": "Adrian",
+      "user1Time": "10:31",
+      "user1Msg": "Chúng tôi dự định đưa bình giữ nhiệt thông minh EcoSip ra thị trường châu Âu trong quý tới. Dựa trên dữ liệu riêng của doanh nghiệp, nên xây dựng định vị sản phẩm cốt lõi và chiến lược giá thế nào để hoàn toàn phù hợp với quy chuẩn thương hiệu của chúng tôi?",
+      "botName": "Cluega",
+      "botTime": "10:32",
+      "retrieving": "🔍 Đang tra cứu kho tri thức doanh nghiệp EcoSip... Đã đọc: [DOC-2026] Sổ tay sản phẩm bình giữ nhiệt EcoSip_EN.pdf, [BRAND-01] Nhận diện thương hiệu & quy chuẩn thị giác toàn cầu.pdf, [DATA-926] Báo cáo dữ liệu thị trường đồ giữ nhiệt chân không châu Âu 2025",
+      "frameworkTitle": "【Khung chiến lược thâm nhập thị trường châu Âu của EcoSip】",
+      "point1": "🎯 Định vị sản phẩm cốt lõi: công nghệ nước uống bền vững cao cấp. Theo 《Quy chuẩn nhận diện thương hiệu toàn cầu》 (trang 14), chúng ta phải nhấn mạnh công nghệ giữ nhiệt chân không hai lớp độc quyền và bao bì không nhựa thân thiện môi trường, để thu hút chính xác nhóm khách hàng cao cấp coi trọng môi trường ở châu Âu.",
+      "point2": "💰 Chiến lược giá: dữ liệu thị trường cho thấy bình giữ nhiệt tầm trung–cao ở châu Âu bán lẻ trong khoảng €45 đến €60. Để giữ định vị cao cấp của EcoSip và đảm bảo cạnh tranh, đề xuất giá bán lẻ (MSRP) là €49.99.",
+      "point3": "📋 Rà soát tuân thủ: tất cả vật liệu dùng cho sản phẩm này đều đã đạt chứng nhận kép EU LFGB và RoHS được ghi nhận trong thư viện quy trình nội bộ.",
+      "inputText": "hãy dựa trên khung này, soạn một thông cáo báo chí quốc tế B2B cho sự kiện ra mắt tại thị trường châu Âu.",
+      "col0Title": "All Documents",
+      "col1Title": "Technical & Brand",
+      "col2Title": "Market & Cases",
+      "col3Title": "Operations & SOP",
+      "cards": {
+        "DOC-2026": { "title": "Sổ tay sản phẩm bình giữ nhiệt thông minh EcoSip", "tags": ["#Thông số sản phẩm", "#Giữ nhiệt chân không"] },
+        "BRAND-01": { "title": "Nhận diện thương hiệu toàn cầu & quy chuẩn ứng dụng thị giác VI 2026", "tags": ["#Tông thương hiệu", "#Nhận diện thị giác"] },
+        "CERT-302": { "title": "Kho chứng nhận tuân thủ EU (LFGB, RoHS, CE)", "tags": ["#Rà soát tuân thủ", "#Tiêu chuẩn quốc tế"] },
+        "DATA-926": { "title": "Báo cáo xu hướng thị trường & dữ liệu đối thủ đồ giữ nhiệt chân không châu Âu 2025", "tags": ["#Nghiên cứu thị trường", "#Phân tích đối thủ"] },
+        "CASE-108": { "title": "Nghiên cứu ca thành công lịch sử về chiến lược thâm nhập thị trường Bắc Mỹ (GTM)", "tags": ["#Chiến lược toàn cầu", "#Phân tích ca"] },
+        "DATA-188": { "title": "Bảng phân tích ma trận giá & tính lợi nhuận biên toàn cầu", "tags": ["#Dữ liệu tài chính"] },
+        "SOP-148": { "title": "Hướng dẫn ứng xử chuẩn cho thành công khách hàng & hậu mãi toàn cầu (FAQ)", "tags": ["#Thành công khách hàng", "#Quy trình SOP"] },
+        "OPS-640": { "title": "Giao thức vận hành quản lý chuỗi cung ứng & logistics xuyên biên giới toàn cầu", "tags": ["#Logistics xuyên biên giới", "#Quy trình nội bộ"] }
+      }
+    },
+    "planMock": {
+      "panelTitle": "Skill",
+      "groups": {
+        "g1": {
+          "name": "Tự động hóa nghiệp vụ cốt lõi",
+          "children": ["Tự động kết nối lead đại lý CRM", "SOP làm mẫu tùy chỉnh & xếp lịch nhà máy", "Trả lời đa ngôn ngữ inquiry B2B nước ngoài"]
+        },
+        "g2": {
+          "name": "Báo cáo & phân tích thông minh",
+          "children": ["Tự động tạo báo cáo thị trường toàn cầu", "Tự động phân loại ý định mua sỉ"]
+        }
+      },
+      "rows": {
+        "r1": { "title": "Theo dõi mua sỉ của đại lý", "seg1": "Tự động trích xuất lead mới", "seg2": "Tự động tạo báo giá" },
+        "r2": { "title": "Tạo báo cáo thị trường ngành", "seg1": "Tự động thu thập dữ liệu thị trường", "seg2": "AI phân tích & tạo biểu đồ" },
+        "r3": { "title": "Khởi động SOP làm mẫu tùy chỉnh", "seg1": "Phân tích Logo ➔ tạo ảnh mô phỏng ➔ xếp lịch nhà máy" }
+      },
+      "gaNode": "Kích hoạt: yêu cầu tùy chỉnh từ website"
+    },
+    "buildMock": {
+      "msg1": "Đã nhận tệp tải lên! Đang tự động nhận diện định dạng và nội dung...",
+      "msg2pre": "Nguồn tải lên: ",
+      "msg2folder": "Thư mục EcoSip",
+      "msg3": "🔍 Đang phân tích nền và trích xuất văn bản cốt lõi:",
+      "msg4a": "Đã phân tích thành công tệp gốc đa định dạng (API / văn bản)",
+      "msg4b": "EcoSip_2026_thông-số-sản-phẩm-mới-nhất.pdf ｜ phân-tích-đối-thủ.xlsx",
+      "msg5": "AI đã hoàn tất khớp cấu trúc kho tri thức...",
+      "thinking": "Phân tích xong — chọn hoặc tạo thư mục mới để lưu vào...",
+      "pickerSearch": "Chọn thư mục để lưu vào",
+      "folders": {
+        "f1": "Sổ tay kỹ thuật & thông số sản phẩm",
+        "f2": "Nhận diện thương hiệu & quy chuẩn VI toàn cầu",
+        "f3": "Thông tin thị trường & ca lịch sử toàn cầu",
+        "f4": "Giao thức chuỗi cung ứng & logistics xuyên biên giới",
+        "f5": "Bảng định giá tài chính & tính lợi nhuận biên",
+        "new": "Thư mục mới"
+      }
+    },
+    "diffMock": {
+      "fileNote": "Engine ngành động",
+      "left": {
+        "comment9": "Logic cốt lõi: tự động phát hiện tồn kho thấp",
+        "comment15": "Tự động chạy: quy trình nhập bổ sung từ nhà cung cấp"
+      },
+      "right": {
+        "comment9": "Logic cốt lõi: tự động phát hiện giao dịch giá trị cao",
+        "comment15": "Tự động chạy: quy trình xác minh danh tính & tuân thủ"
+      }
+    },
+    "logoWordmarks": ["Salesforce", "HubSpot", "Meta Ads", "TikTok Ads", "Google Ads", "Lark"],
+    "intro": {
+      "lead": "AI thông thường không hiểu nghiệp vụ của bạn.",
+      "rest": "Các trợ lý AI trên thị trường chỉ trả lời «câu hỏi chung chung». Khi nhân viên hỏi về sổ tay sản phẩm, dữ liệu CRM hay chiến lược quảng cáo của công ty bạn, chúng chỉ biết ngơ ngác."
+    },
+    "triad": {
+      "purpose": {
+        "title": "Đứt gãy tri thức",
+        "body": "AI không biết về sản phẩm, quy trình, quyết định lịch sử của công ty bạn, lần nào cũng phải giải thích lại"
+      },
+      "agents": {
+        "title": "Ốc đảo hệ thống",
+        "body": "CRM, nền tảng quảng cáo, hệ thống tài chính mạnh ai nấy làm, AI không thể kết nối dữ liệu"
+      },
+      "speed": {
+        "title": "Lặp lại kém hiệu quả",
+        "body": "Cùng một quy trình thao tác, nhân viên lặp lại mỗi ngày, chẳng có gì gọi là tự động hóa"
+      }
+    },
+    "blocks": {
+      "intake": {
+        "cta": "Kho tri thức",
+        "title": "Kho tri thức doanh nghiệp\nđể AI thực sự hiểu công ty bạn",
+        "body": "Đưa toàn bộ tri thức doanh nghiệp vào kho tri thức Cluega——sổ tay sản phẩm, ca thực tế lịch sử, quy chuẩn thương hiệu, dữ liệu thị trường, quy trình nội bộ……Trước mỗi cuộc đối thoại và khi thực thi tác vụ, AI luôn ưu tiên đọc và hiểu các nội dung riêng của doanh nghiệp này, đảm bảo mỗi câu trả lời, mỗi tư liệu đầu ra đều có căn cứ và là thông tin hữu ích phù hợp với thực tế doanh nghiệp.",
+        "sublinks": ["Trung tâm tri thức thống nhất", "AI ưu tiên học", "Liên tục cập nhật đồng bộ"]
+      },
+      "plan": {
+        "cta": "Skill tùy chỉnh",
+        "title": "Skill tùy chỉnh doanh nghiệp\nAI làm việc theo cách của bạn",
+        "body": "Mỗi doanh nghiệp có quy trình nghiệp vụ khác nhau. Hệ thống Skill tùy chỉnh của Cluega cho phép bạn trang bị cho AI những năng lực riêng theo nhu cầu——dù là kết nối hệ thống CRM, tự động tạo báo cáo ngành, hay thực thi quy trình làm việc đặc thù của công ty bạn. Đây không phải «cấu hình một công cụ», mà là tùy chỉnh cho doanh nghiệp bạn một người thực thi AI thực sự hiểu nghiệp vụ.",
+        "sublinks": ["Kết nối dữ liệu CRM", "Tự động tạo báo cáo quảng cáo", "Thẩm định hợp đồng thông minh", "Tạo hàng loạt tư liệu thương hiệu", "Nhắc theo dõi khách hàng tự động", "Dự báo & phân tích doanh số"]
+      },
+      "build": {
+        "cta": "Cách vận hành",
+        "title": "Ba bước hoàn tất\nđể AI thành trợ lý cấp doanh nghiệp",
+        "body": "Tải toàn bộ tài liệu, dữ liệu, quy trình, quy chuẩn của bạn lên kho tri thức doanh nghiệp. Hỗ trợ nhiều định dạng như PDF, Word, Excel, trang web, kết nối API…, dữ liệu công việc hiện có không cần thay đổi.",
+        "sublinks": ["Đưa tri thức doanh nghiệp vào", "Cấu hình kỹ năng tùy chỉnh", "AI bắt đầu thực thi thông minh"]
+      },
+      "diffs": {
+        "cta": "Phù hợp với ai",
+        "title": "Tùy chỉnh doanh nghiệp\nphù hợp với những bối cảnh này",
+        "body": "Dù ngành của bạn quy mô lớn đến đâu, quy trình phức tạp ra sao, giải pháp tùy chỉnh doanh nghiệp của Cluega đều có thể khởi đầu từ hệ thống và dữ liệu hiện có của bạn, dựng riêng một giải pháp AI chuyên biệt.",
+        "sublinks": ["TMĐT & bán lẻ", "Đại lý quảng cáo", "Dịch vụ tài chính", "Y tế sức khỏe", "Sản xuất", "Cơ sở giáo dục", "Công ty công nghệ", "Thương hiệu chuỗi"]
+      },
+      "monitor": {
+        "cta": "Số liệu kết quả",
+        "title": "Để con số lên tiếng",
+        "body": "Chúng tôi nói bằng kết quả đo lường được, để mỗi đồng đầu tư đều thấy rõ hồi đáp.",
+        "sublinks": ["85% độ chính xác phản hồi lần đầu", "3× hiệu suất công việc", "14 năm tích lũy marketing số"]
+      }
+    },
+    "changelog": {
+      "title": "Cập nhật gần đây",
+      "viewAll": "Xem tất cả cập nhật",
+      "c1": {
+        "title": "Kho tri thức doanh nghiệp hỗ trợ đồng bộ API thời gian thực",
+        "body": "Bổ sung khả năng kết nối API, nội dung kho tri thức cập nhật là có hiệu lực ngay, AI luôn nắm bắt động thái mới nhất của doanh nghiệp……"
+      },
+      "c2": {
+        "title": "Chợ Skill bổ sung sáu kỹ năng doanh nghiệp lớn",
+        "body": "Từ kết nối dữ liệu CRM đến phân tích dự báo doanh số, các kỹ năng tùy chỉnh dùng ngay liên tục được mở rộng, bao phủ thêm nhiều bối cảnh nghiệp vụ……"
+      }
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "Để AI thực sự đọc hiểu tri thức doanh nghiệp của bạn.",
+        "name": "Kho tri thức doanh nghiệp",
+        "role": "Gắn chặt với nghiệp vụ"
+      },
+      "t2": {
+        "quote": "Trang bị cho AI những kỹ năng riêng của doanh nghiệp.",
+        "name": "Skill tùy chỉnh doanh nghiệp",
+        "role": "Làm theo cách của bạn"
+      },
+      "t3": {
+        "quote": "Ba bước lên hệ thống, nhân viên không cần nền tảng kỹ thuật.",
+        "name": "Triển khai nhanh",
+        "role": "Dùng được ngay"
+      }
+    },
+    "finalCta": {
+      "title": "Sẵn sàng để AI thực sự hiểu doanh nghiệp của bạn chưa?",
+      "primary": "Đặt lịch demo doanh nghiệp ngay",
+      "secondary": "Liên hệ đội ngũ kinh doanh →"
+    }
+  }
+}

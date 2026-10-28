@@ -1,0 +1,146 @@
+{
+  "solutionsCreatives": {
+    "meta": {
+      "title": "Creative Teams | Cluega",
+      "description": "Designers, editors and creators use Cluega — frontier AI models, layer control and team collaboration fused into one; from concept generation and remixing variants to fine detail work, everything happens on the same boundless canvas, and every generation is infused with real, proven viral conversion logic."
+    },
+    "hero": {
+      "kicker": "Cluega for Creatives",
+      "title": "Let creation keep pace with your thinking",
+      "subtitle": "Designers, editors and creators use Cluega — frontier AI models, layer control and team collaboration fused into one; from concept generation and remixing variants to fine detail work, everything happens on the same boundless canvas, and every generation is infused with real, proven viral conversion logic.",
+      "ctaStart": "Get started free",
+      "ctaContact": "Talk to sales"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "A boundless creative canvas where intelligence converges",
+          "body": "Every asset is laid out visually and flat, putting a definitive end to the folder hell of never finding your files. You can zoom out for a bird’s-eye view of the whole project at any moment, or zoom instantly to pixel-level detail — concept generation, remixing variants and fine detail work all happen in one place."
+        },
+        {
+          "title": "No more blind generation — every click leaves a trail",
+          "body": "The ART engine no longer generates blindly. It connects deeply to CDP ad performance and IM customer-conversion data, automatically identifies high-conversion DNA, and mass-multiplies it into a stronger asset matrix — so creative grows on real ROI."
+        },
+        {
+          "title": "Shoulder to shoulder with industry leaders",
+          "body": "Access 400+ models, monitor ad markets in 184+ languages, sub-50ms response — hand the heaviest generation and retrieval compute to a creative core proven at scale."
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "One platform, running the full creative process from inspiration to finished cut",
+      "learnMore": "Learn more",
+      "tabs": [
+        {
+          "tab": "A creative core built on viral big data",
+          "subtitle": "Every generation, infused with viral conversion logic",
+          "body": "Every time you generate an asset, the system retrieves viral hits and hot topics in real time behind the scenes — locking onto trending tags and deconstructing the logic of the top 1% of viral copy, injecting “viral conversion logic” straight into your copy, assets and video."
+        },
+        {
+          "tab": "Precise AI visual compositing",
+          "subtitle": "Blend your product perfectly into any scene",
+          "body": "Through image-to-image technology, it precisely analyzes lighting and structure, blending your product perfectly into the scene to create high-quality imagery — no manual tweaking of tedious parameters."
+        },
+        {
+          "tab": "Visual production at scale",
+          "subtitle": "Weeks of image production, cut down to minutes",
+          "body": "Through structured workflows, generate matrix-style batches across multiple products, producing high-quality assets at lightning speed — a month of social content, done in minutes and auto-scheduled across channels."
+        },
+        {
+          "tab": "Competitor creative radar",
+          "subtitle": "While you sleep, AI finds your rival’s hand from last night",
+          "body": "Every TikTok, Meta or Instagram link you mention while chatting with AI, Cluega automatically ingests and analyzes in the background. After you close the window, the engine keeps running through the small hours — by morning you’ll receive yesterday’s results and a benchmarked creative brief."
+        }
+      ]
+    },
+    "built": {
+      "title": "Built for creative teams",
+      "overview": "Cluega lets creators hand repetitive production to AI, and keep their time for real creativity.",
+      "cards": [
+        {
+          "title": "Chat is creation",
+          "body": "Give AI complex instructions in natural language; Cluega automatically plans the execution path, picks the best-fit model, and renders the result straight onto your canvas."
+        },
+        {
+          "title": "Real-time online collaboration",
+          "body": "Support live team cursor trails, real-time comment feedback and parallel generation — you and the whole team spark ideas together in the same creative space."
+        },
+        {
+          "title": "Precise local repainting",
+          "body": "Say goodbye to the long wait of regenerating the whole image! Just mark the area to adjust, and Cluega refines the detail precisely while perfectly preserving the original image elements."
+        }
+      ]
+    },
+    "quote": {
+      "text": "We handed the tedious grunt work — light compositing, local repainting — to AI, precisely so everyone can escape the pointless “image-editing hell” and save their brainpower for creativity that truly matters.",
+      "name": "Zerix",
+      "role": "Head of AI Engineering @ Cluega"
+    },
+    "finalCta": {
+      "title": "Your inspiration, calling the world’s leading generative models directly",
+      "coverage": "GPT · Claude · Gemini · runway · Wan · Luma AI · Stability.ai · Black Forest Labs · Hailuo AI · Pika · KlingAI · RECRAFT · ByteDance Seed · Moonvalley",
+      "subtitle": "One workspace, calling the world’s leading models — Cluega automatically switches to the best-fit model for each task; you just voice your idea, and leave the rest to it.",
+      "ctaStart": "Get started free",
+      "ctaDemo": "Book a demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "Cross-account delivery health",
+        "updated": "Updated hourly",
+        "cost": "Cost",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "Live" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "Live" },
+          { "name": "Nova HK — Google Ads", "status": "In review" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "Review and Apply",
+        "rows": [
+          "Keep the high-reach combo and scale budget — CTR has beaten the benchmark by 32% for 5 days straight",
+          "Advantage+ audience overlap too high — merge 3 ad sets to save 18% of cost",
+          "TikTok creative fatigue — frequency broke 3.2 within 7 days, rotate in 2 new creatives"
+        ]
+      },
+      "accounts": {
+        "title": "Ad Accounts Overview",
+        "subtitle": "Authorize to analyze",
+        "stageLabel": "Maturity",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Setup" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Cold Start" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Optimization" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 Pipeline" }
+        ]
+      },
+      "maturity": {
+        "title": "Account Maturity Stages (M0–M5)",
+        "note": "The system determines the current stage automatically from historical data, and filters out noise metrics unrelated to that stage.",
+        "stages": ["M0 Cold Start", "M1 Learning", "M2 Growth", "M3 Optimization", "M4 Scaling", "M5 Flywheel"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 Learning"
+      },
+      "grading": {
+        "title": "Ad Set Grading (S / A / B / C / D)",
+        "legend": "S rising star, one tap to add budget · D candidate to pause",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Cluega management log",
+        "channels": "On rejection, push to",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "Based on 7-day ROAS, suggest cutting Meta budget 12% and raising Google 18%.", "time": "2 min ago" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "Generated 3 sets of holiday creative copy and applied them to the cold-start ad sets.", "time": "14 min ago" },
+          { "actor": "Ethan Chen", "tag": "Manual", "text": "Raised the \"Spring Sale — Conversions\" bid to $12.", "time": "1 hr ago" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "nav": {
+    "skip": "跳到主要內容",
+    "home": "Cluega home",
+    "platform": "平臺",
+    "customers": "客戶",
+    "pricing": "定價",
+    "products": {
+      "ai": "Cluega AI",
+      "im": "Cluega IM",
+      "art": "Cluega Art",
+      "cdp": "Cluega CDP"
+    },
+    "utility": {
+      "resources": "資源",
+      "solutions": "查找解決方案",
+      "login": "登入"
+    },
+    "cta": "點擊申請",
+    "solutions": "解決方案",
+    "solutionsMenu": {
+      "agency": "代理商團隊",
+      "brand": "品牌團隊",
+      "creative": "創意團隊"
+    },
+    "language": "語言",
+    "banner": {
+      "dismiss": "關閉橫幅"
+    },
+    "mega": {
+      "platform": {
+        "sections": {
+          "system": {
+            "title": "Cluega 系統",
+            "items": {
+              "ai": {
+                "label": "認識 Cluega AI",
+                "description": "構建深度數據洞察"
+              },
+              "im": {
+                "label": "IM即時通訊系統",
+                "description": "跨渠道即時互動"
+              }
+            }
+          },
+          "insightsGrowth": {
+            "title": "數據與洞察",
+            "items": {
+              "adOptimization": {
+                "label": "廣告投放與優化",
+                "description": "智能投放診斷"
+              },
+              "marketingDashboard": {
+                "label": "即時營銷儀錶盤",
+                "description": "實時業績監控"
+              },
+              "marketInsights": {
+                "label": "市場洞察",
+                "description": "洞察市場趨勢"
+              },
+              "imMessaging": {
+                "label": "Agent",
+                "description": "在通訊軟體裡指揮你的行銷助理"
+              },
+              "ecommerce": {
+                "label": "電商運營",
+                "description": "智能店鋪運維"
+              }
+            }
+          },
+          "models": {
+            "title": "Cluega支持的模型",
+            "items": {
+              "aiDialog": {
+                "label": "AI 對話與模型",
+                "description": "400+ 專業領域模型"
+              },
+              "aiVisual": {
+                "label": "AI 視覺設計",
+                "description": "秒級生成廣告素材"
+              }
+            }
+          },
+          "agent": {
+            "title": "Agent",
+            "items": {
+              "fullyManaged": {
+                "label": "全託管",
+                "description": "24/7 自動運轉任務"
+              },
+              "dogclaw": {
+                "label": "Dogclaw",
+                "description": "網頁數據採集工具"
+              }
+            }
+          },
+          "community": {
+            "title": "社區",
+            "items": {
+              "teamPermissions": {
+                "label": "團隊協作與權限",
+                "description": "安全管理工作空間"
+              },
+              "enterprise": {
+                "label": "企業級定制",
+                "description": "專屬私有化方案"
+              },
+              "resources": {
+                "label": "資源與社區",
+                "description": "探索提示詞與技能"
+              }
+            }
+          }
+        },
+        "side": {
+          "title": "開始使用",
+          "items": {
+            "contactUs": "聯繫我們"
+          }
+        }
+      },
+      "resources": {
+        "sections": {
+          "support": {
+            "title": "支持",
+            "items": {
+              "helpCenter": {
+                "label": "幫助中心",
+                "description": "深入瞭解 Cluega 的功能"
+              },
+              "academy": {
+                "label": "學院",
+                "description": "Cluega 核心功能詳情"
+              }
+            }
+          },
+          "developers": {
+            "title": "開發者",
+            "items": {
+              "developerDocs": {
+                "label": "開發者文檔",
+                "description": "Build with the Cluega MCP, API, and SDK"
+              }
+            }
+          },
+          "partners": {
+            "title": "合作夥伴",
+            "items": {
+              "partnerProgram": {
+                "label": "合作夥伴計劃",
+                "description": "開發者、創作者及顧問"
+              }
+            }
+          }
+        },
+        "side": {
+          "title": "公司",
+          "items": {
+            "changelog": "更新日誌 / 產品變更",
+            "announcements": "官方公告",
+            "engineeringBlog": "工程技術博客",
+            "careers": "招賢納士 / 職業機會"
+          }
+        }
+      },
+      "pricing": {
+        "sections": {
+          "products": {
+            "title": "Cluega 定價",
+            "items": {
+              "im": {
+                "label": "Cluega IM",
+                "description": "IM 與 CDP 代幣定價"
+              },
+              "ai": {
+                "label": "Cluega AI",
+                "description": "AI 模型與點數定價"
+              }
+            }
+          }
+        }
+      }
+    },
+    "aboutUs": "關於我們"
+  },
+  "supportChat": {
+    "placeholder": "Ask anything...",
+    "messagePlaceholder": "Message...",
+    "supportTitle": "Cluega Support",
+    "attachImagesOrFiles": "附加圖片或檔案",
+    "defaultAgentMessage": "您好，您正在與 Cluega 的 AI Agent 對話。今天有什麼可以幫您？",
+    "suggestions": {
+      "revenueEfficiency": {
+        "title": "問題一",
+        "question": "Cluega AI 是如何幫助我的團隊提升營收效率的？",
+        "response": "嗨！我是 Cluega 的 AI 助理。Cluega 通過自然語言交互，讓您的團隊能直接「與數據對話」。\n\n我們將跨平台的廣告、通訊與訂單數據整合進我們的 Cluega AI。您的團隊不再需要手動整理報表，AI 會自動掃描機會、診斷問題並生成可執行的決策建議。這能將原本需要數小時的營運複盤縮短至 30 秒。\n\n想要了解更多功能，可以聯繫我們，請 {link} 留下你的聯繫方式",
+        "responseLinkLabel": "點擊這裡"
+      },
+      "crossPlatformData": {
+        "title": "問題二",
+        "question": "Cluega 是如何處理並理解我跨平台的複雜數據的?",
+        "response": "這是我們的核心技術所在。Cluega 採用了 MCP 協議 (Model Context Protocol) 作為通訊中樞。\n\n當您連接 TikTok、Meta 或 Shopify 後，系統會自動將這些碎片數據結構化，構建出具備「品牌意識」的工作上下文。這意味著 AI 不僅能看到數字，還能理解這背後的業務邏輯，從而給出真正符合品牌調性的優化建議。"
+      },
+      "firstProject": {
+        "title": "問題三",
+        "question": "作為初次使用者，我該如何快速啟動我的第一個 AI 營運項目？",
+        "response": "啟動非常簡單，只需三個步驟:\n\na. 應用授權：在「能力」菜單中串接您的廣告與社媒帳號。\n\nb. 輸入指令：在對話框中輸入「幫我分析昨日成效」或「建立一個推廣計劃」。\n\nc. 確認執行：審閱 AI 給出的建議方案並點擊「執行」。\n\n現在註冊即可獲得 1,000 個啟動 Token，{link}。",
+        "responseLinkLabel": "點擊開始使用"
+      }
+    }
+  },
+  "trial": {
+    "titleLine1": "立即領取 1,000 啟動 Token,",
+    "titleLine2": "體驗 14 天全智能決策。",
+    "primaryCta": "立即免費嘗試",
+    "secondaryCta": "瞭解計費模式",
+    "emailLabel": "Your email address",
+    "emailPlaceholder": "Your email address",
+    "mobileSubmit": "Send me a demo"
+  },
+  "profileMenu": {
+    "personalization": "個人化",
+    "account": "帳戶",
+    "settings": "設定",
+    "homepage": "首頁",
+    "help": "說明",
+    "docs": "文件",
+    "signOut": "登出",
+    "signOutConfirmTitle": "確定要登出 Cluega 嗎？",
+    "signOutConfirmBody": "下次您需要重新登入。",
+    "credits": "積分",
+    "freePlan": "免費方案",
+    "upgrade": "升級"
+  },
+  "pricing": {
+    "title": "價格",
+    "subtitle": "按 token 計費 —— 無訂閱，用多少付多少。",
+    "free": "每個帳戶每月獲贈 1,000 個免費代幣。",
+    "tokens": "代幣",
+    "cta": "免費開始",
+    "popular": "最受歡迎",
+    "note": "1 代幣 = $0.01。可隨時購買；已購買的代幣不會過期。"
+  },
+  "moduleAccess": {
+    "eyebrow": "Cluega CDP",
+    "title": "此模組尚未啟用",
+    "subtitle": "請聯絡銷售團隊，為您的工作區啟用 Cluega CDP。啟用後，請再次檢查以繼續使用。",
+    "retry": "再次檢查"
+  },
+  "contactSales": {
+    "title": "開始使用 Cluega",
+    "subtitle": "花 3 分鐘告訴我們你的需求，我們會為你配置專屬 AI Agent",
+    "stepHint": "第 {current} / {total} 步",
+    "next": "下一步",
+    "back": "返回",
+    "submit": "送出，開始配置我的 AI Agent",
+    "successTitle": "正在為你的品牌建立專屬數據智庫...",
+    "successSubtitle": "這將需要幾秒鐘，請不要關閉此頁面",
+    "successTitleFinal": "您已完成設定！",
+    "successSubtitleFinal": "Cluega 專員將會審查您的資料，並盡快與您聯絡，為您啟動專屬 AI Agent。",
+    "submitError": "提交失敗，請稍後再試。",
+    "submitErrorInvalid": "資料似乎有誤，請檢查後再送出。",
+    "tabs": {
+      "label": "選擇聯繫方式",
+      "form": "填寫需求",
+      "contact": "聯繫我們"
+    },
+    "contact": {
+      "title": "直接聯繫我們",
+      "subtitle": "不想填表也沒關係。透過以下任一管道找到我們的商務團隊，我們會盡快回覆。",
+      "channelsLabel": "聯繫商務團隊",
+      "qrHint": "掃碼透過 LINE 與我們聯繫。",
+      "hints": {
+        "line": "加入官方帳號",
+        "linkedin": "關注公司主頁",
+        "zalo": "透過 Zalo 與我們聯繫"
+      },
+      "channels": {
+        "email": "Email",
+        "line": "LINE",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp Business",
+        "whatsappHongKong": "WhatsApp Business（香港）",
+        "whatsappVietnam": "WhatsApp Business（越南）",
+        "phone": "電話 / DID",
+        "skype": "Skype",
+        "telegram": "Telegram Business",
+        "zalo": "Zalo",
+        "kakao": "KakaoTalk",
+        "teams": "Microsoft Teams",
+        "zoom": "Zoom"
+      }
+    },
+    "submitted": {
+      "title": "已收到你的資料！",
+      "subtitle": "Cluega 專員將會審查您的資料，並盡快與您聯絡。在此之前，你可以先直接聯繫我們的商務團隊，或立即進入系統開始體驗。",
+      "contactTitle": "商務聯繫方式",
+      "enterSystem": "進入系統",
+      "backHome": "返回首頁",
+      "channels": {
+        "email": "Email",
+        "phone": "電話",
+        "zalo": "Zalo",
+        "wechat": "WeChat",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "resumeTitle": "要從上次中斷的地方繼續嗎？",
+    "resumeYes": "繼續填寫",
+    "resumeNo": "重新開始",
+    "panel": {
+      "title": "不再為工具付費，只為結果買單",
+      "benefits": {
+        "automation": {
+          "title": "全鏈路自動化",
+          "desc": "洞察、創意、投放到歸因，一條龍交給 AI Agent，告別人工素材迭代"
+        },
+        "target": {
+          "title": "只為結果付費",
+          "desc": "Click-to-Sales 全週期追蹤，看得到每一筆廣告真正帶來的成交"
+        },
+        "lock": {
+          "title": "你的數據只屬於你",
+          "desc": "品牌資產結構化沉澱成永不流失的私有智庫，越用越聰明"
+        }
+      },
+      "modelsLabel": "支持 400+ 主流大模型，每個任務自動選最適合的那一個",
+      "ratingLabel": "客戶好評的導入與支援"
+    },
+    "voice": {
+      "title": "Cluega 語音對談",
+      "desc": "留下簡短需求，我們會安排對口的專員與你聯繫。",
+      "button": "語音對談"
+    },
+    "step1": {
+      "title": "你的品牌",
+      "companyName": "品牌 / 公司名稱",
+      "companyNamePlaceholder": "輸入品牌 / 公司名稱",
+      "website": "官方網站",
+      "websitePlaceholder": "yourbrand.com",
+      "email": "商務 Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "手機號",
+      "phonePlaceholder": "+84 / +86 手機號",
+      "messaging": "常用聊天軟件帳號",
+      "messagingPlaceholder": "帳號 / ID",
+      "messagingPlatformPlaceholder": "選擇聊天軟件",
+      "messagingOptions": {
+        "zalo": "Zalo",
+        "whatsapp": "WhatsApp",
+        "wechat": "WeChat",
+        "telegram": "Telegram",
+        "line": "LINE",
+        "messenger": "Messenger",
+        "other": "其他"
+      }
+    },
+    "step2": {
+      "title": "你的產品屬於哪個領域？",
+      "subtitle": "（單選，呼應你們要做的垂直小模型）",
+      "options": {
+        "beauty": "美妝保養",
+        "gaming": "遊戲",
+        "retail": "電商零售",
+        "electronics": "消費電子",
+        "beverage": "食品飲料",
+        "fashion": "服飾時尚",
+        "other": "其他"
+      }
+    },
+    "step3": {
+      "title": "你主要在哪些渠道投放？",
+      "subtitle": "（複選）",
+      "options": {
+        "tiktok": "TikTok",
+        "meta": "Meta(FB/IG)",
+        "google": "Google",
+        "whatsapp": "WhatsApp",
+        "zalo": "Zalo",
+        "ecom": "Shopee / Lazada",
+        "other": "其他"
+      }
+    },
+    "step4": {
+      "title": "你目前每月的廣告預算大約是多少？",
+      "subtitle": "（單選）",
+      "options": {
+        "under5k": "< $5K",
+        "5kTo50k": "$5K–$50K",
+        "50kTo200k": "$50K–$200K",
+        "above200k": "$200K 以上"
+      }
+    },
+    "step5": {
+      "title": "你現在最大的痛點是？",
+      "subtitle": "（複選 + 「其他」可填）",
+      "otherPlaceholder": "請輸入你的其他痛點...",
+      "options": {
+        "manpower": "素材迭代太耗人力",
+        "attribution": "跨平台歸因算不準",
+        "efficiency": "手動調價優化沒效率",
+        "scattered": "數據分散難整合",
+        "scaling": "成效好但難複製放大",
+        "other": "其他"
+      }
+    },
+    "step6": {
+      "title": "最後，你是？",
+      "subtitle": "（單選）",
+      "goalLabel": "（選填）一句話說說你最想達成的目標：",
+      "goalPlaceholder": "例如：提升廣告 ROI 30% 或自動化日常報表",
+      "options": {
+        "founder": "品牌主 / 創辦人",
+        "marketingHead": "行銷負責人",
+        "buyer": "投手 / 優化師",
+        "operator": "電商營運",
+        "agency": "代理商",
+        "other": "其他"
+      }
+    }
+  },
+  "jobApplication": {
+    "brand": {
+      "title": "在 AdOS 賽道的黃金窗口期，成為定義者，而非追隨者",
+      "subtitle": "加入 Cluega AI，與全球 300+ 頂尖工程師與商務專家一起，用 AI 重新定義全球品牌的廣告決策方式。",
+      "benefits": {
+        "frontier": {
+          "title": "前沿 AI 技術環境",
+          "desc": "全公司 MCP 協議架構，率先接觸營銷賽道最前沿的大模型應用。"
+        },
+        "global": {
+          "title": "全球化視野與足跡",
+          "desc": "以越南胡志明市為研發心臟，商務網絡覆蓋全球。"
+        },
+        "results": {
+          "title": "結果驅動與豐厚回報",
+          "desc": "成果驅動而非資歷晉升。提供具全球競爭力的薪酬結構，早期員工更享有可觀的期權激勵。"
+        }
+      },
+      "proofLabel": "支持 400+ 主流大模型。",
+      "rating": "驅動億級規模廣告大盤，用技術實現可量化增長"
+    },
+    "title": "加入 Cluega",
+    "subtitle": "提交您的職位申請，與全球頂尖團隊共同構建下一代營銷基礎設施。",
+    "stepHint": "第 {current} / {total} 步",
+    "next": "下一步",
+    "back": "返回",
+    "submit": "送出申請",
+    "optional": "（選填）",
+    "submittingTitle": "正在提交您的職位申請...",
+    "submittingSubtitle": "這將需要幾秒鐘，請不要關閉此頁面",
+    "submitError": "提交失敗，請稍後再試。",
+    "submitErrorInvalid": "資料似乎有誤，請檢查後再送出。",
+    "successTitle": "投遞成功！",
+    "successSubtitle": "感謝你選擇 Cluega AI，我們的 HR 團隊與各部門 Leader 將在 7 個工作天內認真評估您的資料。期待與你一起在黃金窗口期，成為 AdOS 賽道的定義者！",
+    "resumeTitle": "要從上次中斷的地方繼續嗎？",
+    "resumeYes": "繼續填寫",
+    "resumeNo": "重新開始",
+    "step1": {
+      "fullName": "姓名 / Full Name",
+      "fullNamePlaceholder": "輸入您的姓名",
+      "email": "聯絡電子信箱 / Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "聯絡電話 / Phone Number",
+      "phonePlaceholder": "輸入您的聯絡電話",
+      "department": "心儀職能方向 / Desired Department",
+      "departmentPlaceholder": "請選擇職能方向",
+      "departmentOptions": {
+        "aiProduct": "AI 產品 & 策略",
+        "engineering": "技術工程",
+        "dataScience": "數據科學 & 歸因",
+        "business": "全球商務拓展",
+        "creative": "創意 & 設計",
+        "marketingGrowth": "行銷 & 增長",
+        "noMatch": "沒有找到匹配職位（主動投遞）"
+      },
+      "location": "期望工作地點 / Preferred Location",
+      "locationPlaceholder": "請選擇工作地點",
+      "locationOptions": {
+        "hcmc": "胡志明市",
+        "kl": "吉隆坡",
+        "sg": "新加坡",
+        "sh": "上海",
+        "hk": "香港",
+        "tw": "台北",
+        "london": "倫敦",
+        "berlin": "柏林",
+        "nyc": "紐約",
+        "la": "洛杉磯",
+        "toronto": "多倫多",
+        "remote": "遠程"
+      }
+    },
+    "step2": {
+      "resume": "上傳個人簡歷 / Upload Resume (CV)",
+      "resumeHint": "支持 PDF / Word。",
+      "resumeButton": "選擇檔案",
+      "resumeEmpty": "尚未選擇檔案",
+      "linkedin": "LinkedIn 個人檔案網址",
+      "linkedinPlaceholder": "https://linkedin.com/in/...",
+      "portfolio": "專業社群 / 作品集連結 (GitHub, Portfolio, Medium 等)",
+      "portfolioPlaceholder": "https://github.com/..."
+    },
+    "step3": {
+      "q1": "Q1：分享一個你解決過最驕傲的技術、產品或商務難題。",
+      "q1Placeholder": "請描述你解決過最驕傲的難題...",
+      "q2": "Q2：你最擅長、或目前最感興趣的 AI 工具/大模型應用（如：素材生成、Agent 研發、MCP 協議等）是什麼？",
+      "q2Placeholder": "請分享你最感興趣的 AI 工具或應用..."
+    }
+  },
+  "footer": {
+    "columns": {
+      "platform": {
+        "title": "平臺",
+        "items": {
+          "knowAi": "認識 Cluega AI",
+          "im": "IM即時通訊系統",
+          "adOptimization": "廣告投放與優化",
+          "marketInsights": "市場洞察",
+          "ecommerce": "電商運營",
+          "marketingDashboard": "即時營銷儀錶盤",
+          "agent": "Agent",
+          "aiDialog": "AI 對話與模型",
+          "aiVisual": "AI 視覺設計",
+          "fullyManaged": "全託管",
+          "dogclaw": "Dogclaw",
+          "teamPermissions": "團隊協作與權限",
+          "resources": "資源社區"
+        }
+      },
+      "solutions": {
+        "title": "解決方案",
+        "items": {
+          "agency": "代理商團隊",
+          "brand": "品牌團隊",
+          "creative": "創意團隊"
+        }
+      },
+      "resources": {
+        "title": "資源",
+        "items": {
+          "helpCenter": "幫助中心",
+          "partnerProgram": "合作夥伴計劃",
+          "engineeringBlog": "工程技術博客"
+        }
+      },
+      "compare": {
+        "title": "比較",
+        "items": {
+          "pancake": "與 Pancake 對比",
+          "zwiz": "與 ZWIZ.AI 對比",
+          "smartly": "與 Smartly.io 對比",
+          "madgicx": "與 Madgicx 對比",
+          "storeclaw": "與 StoreClaw 對比",
+          "ryze": "與 Ryze AI 對比"
+        }
+      },
+      "download": {
+        "title": "下載",
+        "items": {
+          "mobile": "行動應用",
+          "desktop": "桌面應用程式",
+          "browser": "My Browser"
+        }
+      },
+      "company": {
+        "title": "公司",
+        "items": {
+          "about": "關於我們",
+          "pricing": "定價方案",
+          "careers": "招賢納士 / 職業機會",
+          "contactUs": "聯繫我們"
+        }
+      }
+    },
+    "social": {
+      "facebook": "Cluega Facebook",
+      "linkedin": "Cluega LinkedIn",
+      "line": "Cluega LINE"
+    }
+  },
+  "uploads": {
+    "tooLarge": "此檔案過大。上限為 {limit}，您的檔案為 {size}。請改用較小的檔案。",
+    "tooLargeVideo": "此影片過大。上限為 {limit}，您的檔案為 {size}。請改用較短的影片，或先壓縮再上傳。",
+    "tooLongMedia": "此檔案過長。上限為 {minutes} 分鐘，您的檔案長 {length}。請改用較短的檔案。",
+    "tooLargeServer": "此檔案超過 {limit} 上限。請改用較小的檔案。",
+    "tooLargeServerImage": "此圖片超過上限：最大 {limit}、{pixels} 像素。請改用較小的圖片。",
+    "tooLargeServerVideo": "此影片超過 {limit} 上限。請改用較短的影片，或先壓縮再上傳。",
+    "thisFile": "超過上限",
+    "unsupportedType": "無法上傳 {type} 格式的檔案。系統支援圖片、影片、音訊、PDF、Office 文件，以及文字格式（CSV、TXT、Markdown、HTML、JSON、XML）。",
+    "tooManyAttachments": "每則訊息最多只能附加 {limit} 個檔案，因此這個檔案未被加入。請在下一則訊息中傳送其餘檔案。",
+    "unsupportedTypeGeneric": "無法上傳此檔案格式。系統支援圖片、影片、音訊、PDF、Office 文件，以及文字格式（CSV、TXT、Markdown、HTML、JSON、XML）。",
+    "storageUnavailable": "媒體儲存服務暫時無法使用，請稍後再試。",
+    "storageFull": "公司儲存空間不足以存放此檔案：已使用 {used} / {total}。請釋放空間或升級方案後再試。",
+    "storageFullNoFigures": "公司儲存空間不足以存放此檔案。請釋放空間或升級方案後再試。",
+    "storageFullPreflight": "此檔案大於公司剩餘的儲存空間：已使用 {used} / {total}。尚未上傳任何內容。請釋放空間或升級方案。",
+    "storageGraceExceeded": "儲存空間已滿：{after} 將超過 {limit} 的寬限上限（{capacity} + 10%）。尚未上傳任何內容。請釋放空間、購買點數或升級方案後再試。",
+    "storageGraceExceededPreflight": "儲存空間已滿：{after} 將超過 {limit} 的寬限上限（{capacity} + 10%）。尚未上傳任何內容。請釋放空間、購買點數或升級方案。",
+    "unauthorized": "登入工作階段已過期，請重新登入後再上傳。",
+    "failed": "上傳失敗（錯誤 {status}），請再試一次。",
+    "failedToast": "無法上傳 {name}",
+    "failedLabel": "上傳失敗",
+    "emptyFile": "{name} 是空檔案（0 位元組），因此未上傳。",
+    "contentMismatch": "{name} 看起來不是有效的 {type} 檔案，可能已損毀、為空，或是從其他格式改名而來。",
+    "corruptFile": "{name} 已損毀，無法開啟，因此未上傳。",
+    "videoUnplayable": "無法播放 {name}：檔案已損毀，或使用此瀏覽器無法讀取的格式，因此未上傳。請轉換為 MP4（H.264）後再試一次。",
+    "failedToastMany": "無法上傳 {count} 個檔案",
+    "deduplicated": "此檔案已在您的媒體庫中 — 系統直接連結既有檔案，未重複儲存。",
+    "documentInvalid": "無法讀取此檔案。檔案可能為空、已損壞，或內容與副檔名不符。",
+    "serverError": "伺服器無法處理此檔案，請稍後再試。",
+    "documentUnreadable": "無法讀取「{name}」。掃描檔或受保護的檔案可能不支援。",
+    "types": {
+      "images": "圖片",
+      "video": "視頻",
+      "audio": "音頻",
+      "documents": "PDF 和 Office 文件",
+      "text": "文本和 CSV"
+    },
+    "typeListSeparator": "、",
+    "dropOverCap": "只能附加 {cap} 個文件，其餘 {dropped} 個未添加。",
+    "dropFolders": "無法附加文件夾，請拖入其中的文件。",
+    "dropUnsupported": "部分文件無法附加。我們支持 {types}。",
+    "documentIndexUnavailable": "已讀取「{name}」，但目前無法建立索引。請稍後再附加一次。",
+    "documentReaderUnavailable": "無法處理「{name}」：此環境的文件讀取服務無法使用。",
+    "documentUnsupported": "「{name}」的格式目前尚無法讀取。",
+    "documentFailed": "「{name}」未完成處理。請重新附加；若持續失敗請回報。",
+    "documentStillProcessing": "「{name}」仍在處理中，目前耗時比預期長。請稍候再試一次。",
+    "documentScanUnavailable": "「{name}」是掃描檔（頁面圖片，沒有文字），目前系統還無法讀取掃描檔。重新附加也無法解決；請改用可選取文字的版本。",
+    "uploading": "上傳中 {percent}%",
+    "uploadStalled": "此檔案的上傳已停止進展。請檢查網路連線後重新附加。",
+    "uploadTimeout": "伺服器確認此次上傳的時間過長。請重新附加；若仍持續發生，請改用較小的檔案。",
+    "network": "上傳時連線中斷。請檢查網路連線後重新附加。",
+    "archiveTooLarge": "此 .zip 太大無法開啟：解壓後最多 {limit}，最多 {entries} 個檔案。",
+    "archiveInvalid": "無法開啟此 .zip。檔案可能已損毀、已加密，或包含不安全的路徑。",
+    "archiveCreativeTab": "此處無法附加 .zip。請先解壓縮，再附加其中的檔案。",
+    "archiveIgnored": "已略過 {name} 中的 {count} 個系統檔案。",
+    "archiveEntry": {
+      "too_many_attachments": "未加入：此訊息的檔案數已達上限。",
+      "nested_archive": "未加入：不會開啟 .zip 內的壓縮檔，請先解壓縮。",
+      "unsupported_type": "未加入：無法附加此類型的檔案。",
+      "compression_ratio": "未加入：此檔案解壓後的大小異常。",
+      "quota_exceeded": "未加入：公司的儲存空間已滿。",
+      "too_large": "未加入：此檔案超過上傳上限。",
+      "store_failed": "未加入：無法儲存此檔案，請試著單獨附加。"
+    }
+  },
+  "notFound": {
+    "title": "找不到頁面",
+    "body": "你要找的頁面不存在，或可能已經移動。",
+    "action": "返回首頁"
+  },
+  "desktopNotice": {
+    "computerMouseUsing": "Cluega 正在使用你的滑鼠，請先不要移動，馬上就還給你。",
+    "computerUserTookOver": "Cluega 已暫停，因為你正在使用電腦，沒有再按任何東西。",
+    "continue": "繼續",
+    "keepPaused": "保持暫停",
+    "cancel": "取消"
+  }
+}

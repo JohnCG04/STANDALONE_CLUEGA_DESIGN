@@ -1,0 +1,146 @@
+{
+  "solutionsAgency": {
+    "meta": {
+      "title": "For Agencies | Cluega",
+      "description": "The world's top agencies use Cluega to run their clients' cross-platform advertising——many accounts, big budgets, 24/7 automatic optimization, one entry point in full control, with 100% of the final decision kept in your hands."
+    },
+    "hero": {
+      "kicker": "Cluega for Agencies",
+      "title": "Empower every client account, handed to an AI that watches the board for you",
+      "subtitle": "The world's top agencies use Cluega to run their clients' cross-platform advertising——many accounts, big budgets, 24/7 automatic optimization, one entry point in full control, with 100% of the final decision kept in your hands.",
+      "ctaStart": "Start for free",
+      "ctaContact": "Contact sales"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "Complete cross-account visibility",
+          "body": "Every hour it refreshes the ad status of every client account under your name, across TikTok, Meta and Google——no more switching between a dozen back-office dashboards; the delivery health of all your clients on a single screen."
+        },
+        {
+          "title": "Data that turns straight into action",
+          "body": "No vague optimization advice. The system distills every issue into a concrete, data-backed instruction you can click to run, or hand to AI management with one tap——delivery efficiency lifted more than tenfold."
+        },
+        {
+          "title": "Shoulder to shoulder with the industry leaders",
+          "body": "800,000,000+ marketing data signals processed weekly, 5,200,000+ protocol tasks executed automatically each month, sub-50ms response latency, 99.98% always-on——hand the heaviest cross-platform computation to a delivery engine proven at scale."
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "One platform to manage the full delivery lifecycle of every client",
+      "learnMore": "Learn more",
+      "tabs": [
+        {
+          "tab": "Real-time monitoring hub",
+          "subtitle": "Authorize and account intelligence goes live",
+          "body": "The moment you connect an ad account, Cluega analyzes its full history in the background——from conversion volume and cost trends to creative performance and audience saturation. No tedious setup at all; deep analysis runs instantly."
+        },
+        {
+          "tab": "Account maturity grading",
+          "subtitle": "Every account matched to the strategy for its stage",
+          "body": "A brand-new account and one that has run for two years need completely different strategies. Cluega automatically classifies accounts into the six M0–M5 maturity stages (from cold start to flywheel), filtering out noise at each stage so it only analyzes the core metrics that truly matter."
+        },
+        {
+          "tab": "Ad set grading",
+          "subtitle": "Know in a second which ad set is worth betting on",
+          "body": "By jointly assessing the two dimensions of \"data confidence\" and \"performance momentum,\" it scores every ad set precisely. From grade S (rising star, one tap to add budget) to grade D (a candidate to pause), so every cent of client budget is spent where it counts."
+        },
+        {
+          "tab": "AI-managed delivery",
+          "subtitle": "Set the boundaries, and AI runs autonomously within them",
+          "body": "Once account data hits the goals you set, turn on management——add budget, pause ad sets, rotate creative, and AI executes directly. When an ad is rejected it pushes to Lark / Line; just confirm on your phone, no need to watch the back office."
+        }
+      ]
+    },
+    "built": {
+      "title": "Built for agencies",
+      "overview": "Cluega lets agencies serve more client accounts with fewer people, and turns delivery results into something predictable and deliverable.",
+      "cards": [
+        {
+          "title": "Centralized multi-client management",
+          "body": "All client accounts, plans and review statuses managed centrally through a single unified interface——no more bouncing between back offices."
+        },
+        {
+          "title": "Human–AI command room",
+          "body": "GPT tunes budgets, Claude generates suggestions, partners bid manually——all recorded on the same timeline, so anyone who takes over knows the whole picture in a second."
+        },
+        {
+          "title": "Client reports from a single sentence",
+          "body": "Type the metrics you want to see and Cluega automatically pulls data from authorized platforms, builds charts and syncs in real time——weekly client reports delivered in minutes."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Before, just switching between everyone's back offices ate up half a day; now one screen shows every status, even review progress is crystal clear, and delivery efficiency has genuinely gone way up",
+      "name": "Marcus Vance",
+      "role": "Senior Performance Marketer @ Cluega"
+    },
+    "finalCta": {
+      "title": "Every platform your clients advertise on, connected through one entry point",
+      "coverage": "TikTok Ads · Meta · Google Ads · Google Analytics · Shopify · TikTok Shop · Shopee · Lazada · Amazon · WhatsApp · Zalo · LINE · Lark",
+      "subtitle": "Authorize and it's connected——let Cluega access data on your behalf and unlock the smoothest multi-client growth collaboration.",
+      "ctaStart": "Start for free",
+      "ctaDemo": "Book a Demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "Cross-account delivery health",
+        "updated": "Updated hourly",
+        "cost": "Cost",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "Live" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "Live" },
+          { "name": "Nova HK — Google Ads", "status": "In review" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "Review and Apply",
+        "rows": [
+          "Keep the high-reach combo and scale budget — CTR has beaten the benchmark by 32% for 5 days straight",
+          "Advantage+ audience overlap too high — merge 3 ad sets to save 18% of cost",
+          "TikTok creative fatigue — frequency broke 3.2 within 7 days, rotate in 2 new creatives"
+        ]
+      },
+      "accounts": {
+        "title": "Ad Accounts Overview",
+        "subtitle": "Authorize to analyze",
+        "stageLabel": "Maturity",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Setup" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Cold Start" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Optimization" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 Pipeline" }
+        ]
+      },
+      "maturity": {
+        "title": "Account Maturity Stages (M0–M5)",
+        "note": "The system determines the current stage automatically from historical data, and filters out noise metrics unrelated to that stage.",
+        "stages": ["M0 Cold Start", "M1 Learning", "M2 Growth", "M3 Optimization", "M4 Scaling", "M5 Flywheel"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 Learning"
+      },
+      "grading": {
+        "title": "Ad Set Grading (S / A / B / C / D)",
+        "legend": "S rising star, one tap to add budget · D candidate to pause",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Cluega management log",
+        "channels": "On rejection, push to",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "Based on 7-day ROAS, suggest cutting Meta budget 12% and raising Google 18%.", "time": "2 min ago" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "Generated 3 sets of holiday creative copy and applied them to the cold-start ad sets.", "time": "14 min ago" },
+          { "actor": "Ethan Chen", "tag": "Manual", "text": "Raised the \"Spring Sale — Conversions\" bid to $12.", "time": "1 hr ago" }
+        ]
+      }
+    }
+  }
+}

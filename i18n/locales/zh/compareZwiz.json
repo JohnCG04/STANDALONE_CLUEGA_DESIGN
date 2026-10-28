@@ -1,0 +1,217 @@
+{
+  "compareZwiz": {
+    "meta": {
+      "title": "Cluega IM vs ZWIZ.AI | Cluega",
+      "description": "超越關鍵詞聊天機器人的表層互動，鎖定私域真實成交數據精準投放，解鎖更高的 ROAS。"
+    },
+    "hero": {
+      "eyebrow": "CLUEGA IM VS. ZWIZ.AI",
+      "title": "讓私域互動轉化為驅動廣告放量的精準數據資產",
+      "subtitle": "超越關鍵詞聊天機器人的表層互動，鎖定私域真實成交數據精準投放，解鎖更高的 ROAS。",
+      "ctaStart": "預約 Demo",
+      "ctaDemo": "諮詢方案",
+      "cluegaLabel": "Cluega IM",
+      "zwizLabel": "ZWIZ.AI",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "ZWIZ.AI vs Cluega IM",
+      "colDimension": "對比維度",
+      "colZwiz": "ZWIZ.AI",
+      "colCluega": "Cluega IM",
+      "rows": [
+        {
+          "dimension": "定位差異",
+          "zwiz": "泰國本土 AI 聊天機器人：自動回覆聊天／留言、Rich Menu 管理、會員集點",
+          "cluega": "面向全球市場的私域數據資產與行銷歸因基礎設施"
+        },
+        {
+          "dimension": "支援渠道",
+          "zwiz": "LINE OA（泰國原生強項）／FB／IG／TikTok／WhatsApp",
+          "cluega": "LINE OA／Zalo／WhatsApp／Messenger 多平台身份合併"
+        },
+        {
+          "dimension": "入門門檻",
+          "zwiz": "官網套餐價格約 THB 21,000–36,000（含建置服務）",
+          "cluega": "SaaS 訂閱 $999／月起＋按成交結果（Outcome-based）計費：未成交會話僅收算力底費"
+        },
+        {
+          "dimension": "歸因效果",
+          "zwiz": "以互動量、留言與點擊為中心；宣稱支援 TikTok 廣告到 Messenger 的點擊歸因",
+          "cluega": "以「私域真實成交回推廣告」為中心：成交階段粒度的真實 ROAS"
+        },
+        {
+          "dimension": "核心工作流",
+          "zwiz": "基礎 Rich Menu 建置、自動回覆與廣播、會員集點分級",
+          "cluega": "對話語意判讀 → MMT L0–L6 落位 → 廣告歸因 → 閉環回寫（CAPI）"
+        },
+        {
+          "dimension": "數據縱深",
+          "zwiz": "聊天／集點／預約各模組數據相對分散",
+          "cluega": "跨渠道統一客戶檔案，每筆歸因附可稽核日誌"
+        },
+        {
+          "dimension": "目標客戶",
+          "zwiz": "泰國 SME、社群電商與客服團隊",
+          "cluega": "成效型投手（Media Buyer）與品牌成效團隊"
+        },
+        {
+          "dimension": "最適使用情境",
+          "zwiz": "快速上線 LINE 官方帳號互動與客服自動化",
+          "cluega": "追求私域 ROAS 與廣告放量決策的成效投放與私域深耕"
+        }
+      ],
+      "footnote": "＊競品資訊整理自其官網與公開第三方資料（2026-07 查核），實際以對方官方公布為準。",
+      "ctaStart": "預約 Demo",
+      "ctaDemo": "諮詢方案"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "為什麼跨境與成效團隊從 ZWIZ.AI 轉向 Cluega IM？",
+      "items": [
+        {
+          "title": "補足 Pixel 漏斗，餵養廣告演算法精準訊號",
+          "body": "ZWIZ 的數據停在互動層——回覆了多少、點了什麼。Cluega IM 把私域裡的 L5／L6 真實成交回寫 Meta／TikTok（CAPI），補足平台 Pixel 量不到的私域轉化，讓演算法拿到「會付錢的受眾」訊號，越投越準。"
+        },
+        {
+          "title": "跨平台身份合併，同一買家不重複計價",
+          "body": "客戶從 LINE 進來、又在 WhatsApp／Zalo 出現？Cluega IM 在身份層（Identity Merge）合併同一買家的跨渠道足跡：對話歷史統一、成交只認一次，歸因與計費都不重複、不灌水。"
+        },
+        {
+          "title": "接回「無法個人化追蹤」的對話與成交鏈路",
+          "body": "Click-to-Message 之後，平台就看不到人了——這正是私域的黑箱。Cluega IM 逐通判讀對話語意、定位成交階段，把廣告點擊到私聊成交的整條鏈路接回來，讓每支廣告的下游命運清清楚楚。"
+        },
+        {
+          "title": "按成交結果（Outcome-based）計費，利益完全一致",
+          "body": "對比含建置服務的固定套餐，Cluega IM 只在 AI 真正把對話推進到成交層時收取成效費；高量但未成交的會話僅收覆蓋算力的託管底費。你賺錢，我們才賺錢——這是計費結構寫死的承諾。"
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          {
+            "type": "field",
+            "label": "廣告賬號ID",
+            "value": "7535737911069753842"
+          },
+          {
+            "type": "field",
+            "label": "廣告名稱",
+            "value": "0609-私訊廣告-EcoSip"
+          },
+          {
+            "type": "field",
+            "label": "廣告ID",
+            "value": "1866940736964473"
+          },
+          {
+            "type": "field",
+            "label": "素材ID",
+            "value": "1867515992671681"
+          },
+          {
+            "type": "preview",
+            "label": "素材預覽",
+            "brand": "EcoSip",
+            "value": "保溫杯推廣視頻"
+          },
+          {
+            "type": "field",
+            "label": "社交媒體賬號ID",
+            "value": "EcoSip"
+          }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "創建時間",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "事件總數",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "成交平均成本",
+        "legend": "全部"
+      },
+      "identity": {
+        "keyword": "電話",
+        "lead": "高價值線索"
+      },
+      "billing": {
+        "steps": [
+          "用戶首次諮詢產品",
+          "AI 辨識痛點、持續互動",
+          "AI 提供客製化方案"
+        ],
+        "success": "成功轉化：有效線索",
+        "outcome": "Outcome 達成：收費$0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "EVERY CHANNEL, ONE ATTRIBUTION ENGINE",
+      "title": "不只做客服回覆，更全面掌控全球私域的全漏斗數據",
+      "items": [
+        {
+          "title": "全渠道涵蓋",
+          "body": "整合 LINE OA・Zalo・WhatsApp・FB／IG 等，跨渠道對話與成交事件統一到單一客戶檔案。"
+        },
+        {
+          "title": "MMT L0–L6 漏斗",
+          "body": "從高意向對話、獲取線索到完成支付，每通會話自動落位，計費刻度與成交階段一一對應。"
+        },
+        {
+          "title": "數據主權",
+          "body": "歸因日誌可稽核、成交事件同源回寫；遵循 GDPR、PDPL 等各市場法規，資料不外流、不跨租戶訓練。"
+        },
+        {
+          "title": "團隊協作",
+          "body": "支援 API／MCP 與客服協作流程，真人接手以 handoff 時間戳為界，AI 與人工的功勞邊界清楚可稽核。"
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "我該如何選擇？",
+      "zwiz": {
+        "label": "選擇 ZWIZ.AI",
+        "body": "你需要快速上線泰語聊天機器人、Rich Menu 與集點行銷，偏好一次性套餐、由服務商包辦建置，互動與客服自動化就是全部目標。"
+      },
+      "cluega": {
+        "label": "選擇 Cluega IM",
+        "body": "你在投 Meta／TikTok／LINE 廣告，並且需要成交級歸因：哪支廣告帶來的對話真正付了錢、跨渠道買家只算一次、成效數據回寫平台放大投放——並以 Outcome 計費讓平台與你利益一致。"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "常見問題",
+      "subtitle": "在與我們團隊聯繫之前，您可能想了解的所有細節。",
+      "contact": "聯繫銷售",
+      "items": [
+        {
+          "q": "已在使用 ZWIZ.AI 經營 LINE OA，還需要 Cluega IM 嗎？",
+          "a": "完全可以並行。ZWIZ 繼續負責互動與客服自動化，Cluega IM 接管歸因層：把對話推進度、留資與成交回推到廣告來源。當你的目標從「回得快」升級為「歸得準」，Cluega IM 就是缺的那一塊。"
+        },
+        {
+          "q": "Cluega IM 會影響現有的 ZWIZ.AI 機器人設定嗎？",
+          "a": "不會。Cluega IM 以渠道官方 API 接入，與現有 Rich Menu、自動回覆規則相容；你可以先在單一渠道試點歸因，再逐步擴大託管範圍。"
+        },
+        {
+          "q": "ZWIZ.AI 與 Cluega IM 在廣告數據上有何不同？",
+          "a": "ZWIZ 給你的是互動指標（訊息量、點擊、留言）；Cluega IM 給你的是成交歸因——每筆 L5／L6 成交回指 campaign／adset／素材，並以成交階段為粒度計算真實 ROAS。前者衡量熱鬧，後者衡量生意。"
+        },
+        {
+          "q": "Cluega IM 如何處理跨渠道（如 LINE 與 Zalo）的買家？",
+          "a": "同一客戶跨渠道分別計通，但於身份層合併：對話歷史與成交事件統一到單一檔案，同一筆成交只認一次、只計費一次，且能回指最初的廣告來源。"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "以 Cluega IM 建立超越傳統客服系統的私域基線。",
+      "ctaStart": "預約 Demo",
+      "ctaDemo": "諮詢方案"
+    }
+  }
+}

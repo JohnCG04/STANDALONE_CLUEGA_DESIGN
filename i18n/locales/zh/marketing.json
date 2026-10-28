@@ -1,0 +1,28 @@
+{
+  "marketing": {
+    "review": {
+      "leadTable": {
+        "materialOpenVideoPreview": "播放此素材"
+      },
+      "tableGrid": {
+        "deleteCancel": "取消",
+        "entityAd": "廣告",
+        "entityAdgroup": "廣告組",
+        "entityCampaign": "廣告活動",
+        "entityMaterial": "素材",
+        "materialFallbackName": "未命名素材",
+        "materialLoading": "正在載入素材…",
+        "statusToggleConfirmTitleDisable": "要關閉這個{entity}嗎？",
+        "statusToggleConfirmTitleEnable": "要重新開啟這個{entity}嗎？",
+        "statusToggleConfirmDescriptionDisable": "確認後，{name} 立即停止投放。之後可以再開啟，但中斷的時段補不回來。",
+        "statusToggleConfirmDescriptionEnable": "{name} 會恢復投放，並開始消耗預算。",
+        "statusToggleConfirmDisable": "關閉",
+        "statusToggleConfirmEnable": "開啟",
+        "switchToggleAd": "開啟或關閉此廣告",
+        "switchToggleAdgroup": "開啟或關閉此廣告組",
+        "switchToggleCampaign": "開啟或關閉此廣告活動",
+        "switchToggleMaterial": "開啟或關閉此素材"
+      }
+    }
+  }
+}

@@ -1,0 +1,1880 @@
+{
+  "platformDevelopers": {
+    "common": {
+      "viewDocs": "Đặt lịch Demo",
+      "browseApps": "Cài Cluega"
+    },
+    "hero": {
+      "eyebrow": "DogClaw · Trình kết nối trình duyệt",
+      "title": "Kết nối. Ủy quyền. Giao cho AI.",
+      "description": "Gắn AI của Cluega vào trình duyệt bạn đã đăng nhập và ủy quyền, chạy insight marketing xuyên trang bằng chính môi trường và IP egress của bạn—mô hình, chế độ thực thi, môi trường trình duyệt, cả ba chiều đều do bạn chọn."
+    },
+    "modules": {
+      "title": "Một tác vụ. Ba chiều. Bạn quyết định.",
+      "description": "Mô hình, chế độ và môi trường trình duyệt—tách biệt, phối hợp tùy ý.",
+      "cards": {
+        "agent": "Không phụ thuộc mô hình: Claude, GPT, Gemini, thậm chí mô hình tự lưu trữ của bạn—tự do đổi “bộ não quyết định.” Thêm mô hình mới không cần học lại giao diện.",
+        "tools": "Chế độ DOM (mặc định) đọc văn bản trang có cấu trúc—nhanh và tiết kiệm token; gặp UI dạng Canvas/hình ảnh/không chuẩn thì chuyển chế độ thị giác một chạm—có cảnh báo rõ chi phí cao hơn.",
+        "systems": "Trình duyệt local, trình duyệt cloud từ xa, hoặc proxy riêng—chọn một. IP egress và proxy hoàn toàn do bạn tự chuẩn bị và quản lý; Cluega không cung cấp IP pool, không tích hợp proxy.",
+        "oauth": "Template dựng sẵn cho theo dõi giá đối thủ, đánh giá hiệu quả tài khoản của bạn, v.v.—đã điền sẵn mô hình và chế độ gợi ý. Chọn template là có ngay khung tác vụ để chạy.",
+        "clients": "Dựa trên mô hình/chế độ/số bước dự kiến, ước tính khoảng chi phí trước khi gửi; chạy xong báo lại usage token thực tế, thời gian và chi phí."
+      },
+      "visualLabels": {
+        "localModel": "Mô hình cục bộ",
+        "localBrowser": "Trình duyệt local",
+        "remoteBrowser": "Trình duyệt từ xa",
+        "customProxyEnv": "Proxy riêng",
+        "templateMonitoring": "Đang giám sát template"
+      }
+    },
+    "api": {
+      "title": "Dùng trình duyệt bạn đã đăng nhập.",
+      "description": "Cluega dùng session sẵn có. Cài một lần, ủy quyền một lần—không lặp thiết lập.",
+      "intro": {
+        "title": "Dùng chính trình duyệt bạn đã đăng nhập sẵn.",
+        "descriptionPrefix": "DogClaw tận dụng ",
+        "descriptionHighlight": "phiên đăng nhập sẵn có và môi trường cục bộ",
+        "descriptionSuffix": " của trình duyệt bạn. Cài extension một lần, cấp quyền một lần, sau đó dùng ngay—không còn phải thiết lập lại, đăng nhập lại mỗi lần."
+      },
+      "quote": "Trước đây mỗi kịch bản giám sát đối thủ đều phải bảo trì riêng; giờ chỉ cần chọn model, chọn DOM, áp template là chạy—cắt bỏ hẳn một tầng kỹ thuật.",
+      "quoteLabel": "Lucas Miller",
+      "quoteCaption": "Cluega",
+      "cta": "Xem quy trình cài đặt",
+      "cards": {
+        "rest": "Cài đặt và ủy quyền một lần. Tải extension DogClaw Chrome → đăng nhập Cluega → ủy quyền trình duyệt này → chạy kiểm tra kết nối để xác nhận kết nối, IP egress và độ trễ. Xong thì icon DogClaw xuất hiện trên thanh công cụ.",
+        "webhooks": "Khởi chạy từ mọi thiết bị. Bắt đầu tác vụ từ điện thoại hoặc thiết bị khác, trình duyệt desktop đã ủy quyền và luôn online sẽ chạy nền.",
+        "oauth": "Offline vẫn có phương án dự phòng. Khi trình duyệt quen dùng mất kết nối, hệ thống chủ động báo cho bạn—chuyển sang môi trường do Cluega quản lý, hoặc yêu cầu thiết bị đó online lại. Không bao giờ âm thầm thất bại."
+      },
+      "installLog": {
+        "header": "Tải extension DogClaw → đăng nhập Cluega",
+        "step1": "Đang ủy quyền trình duyệt này... thành công",
+        "step2": "Đang chạy kiểm tra kết nối (Connection Test)...",
+        "status": "Trạng thái kết nối: Đã xác nhận (Connected)",
+        "egressIp": "IP egress: 210.XX.XX.XX",
+        "latency": "Độ trễ: 15ms",
+        "step3": "Icon DogClaw đã xuất hiện trên thanh công cụ"
+      }
+    },
+    "sdk": {
+      "title": "Thấy từng bước. Dừng bất cứ lúc nào.",
+      "description": "Mỗi bước được stream trực tiếp, hành động nhạy cảm cần bạn duyệt trực tiếp, toàn bộ audit trail được lưu lại. Quyền kiểm soát luôn ở bạn.",
+      "cta": "Tìm hiểu thiết kế bảo mật",
+      "cards": {
+        "entry": "Xem trực tiếp từng thao tác của agent qua stream tiến trình; tab bị điều khiển luôn có đánh dấu rõ ràng, bạn luôn biết tab nào đang bị kiểm soát.",
+        "forms": "Hành động nhạy cảm luôn cần xác nhận thủ công. Bất cứ điều gì liên quan đến chi tiêu, đổi cài đặt tài khoản, xóa dữ liệu—agent luôn tạm dừng, chờ bạn đồng ý rõ ràng trên bảng điều khiển mới tiếp tục; quá hạn chưa xác nhận sẽ tự động dừng an toàn.",
+        "functions": "Dừng một chạm. Bấm icon extension là dừng ngay việc điều khiển—không cần đợi tác vụ chạy xong."
+      },
+      "quoteLabel": "Lucas Miller",
+      "quote": "DogClaw sử dụng chính session và môi trường bạn đã tự ủy quyền. Chúng tôi không cung cấp tính năng vượt qua nhận diện nền tảng, phá CAPTCHA hay giả mạo danh tính—hạ tầng do bạn tự chuẩn bị và tự quản lý, chúng tôi giữ vị thế trung lập và tuân thủ.",
+      "quoteCaption": "Trưởng nhóm DogClaw · Cluega",
+      "modernQuote": "Điều khiến đội ngũ yên tâm nhất là tính năng “dừng một chạm” và phải gật đầu đồng ý với các hành động nhạy cảm—AI chạy trên chính dashboard của chúng tôi, nhưng chúng tôi chưa từng mất quyền kiểm soát.",
+      "modernQuoteLabel": "Alexander Cross",
+      "modernQuoteCaption": "Cluega",
+      "entryMockup": {
+        "step1": "Đang định vị chính xác phần tử cần click",
+        "step2": "Đang đọc cấu trúc DOM của trang",
+        "step3": "Đang tự động nhập từ khóa mục tiêu"
+      },
+      "formsMockup": {
+        "alertLabel": "Phát hiện hành động nhạy cảm",
+        "alertValue": "Đang cố xóa cài đặt tài khoản cơ sở dữ liệu",
+        "confirmLabel": "Phải đồng ý rõ ràng trên bảng điều khiển mới tiếp tục",
+        "confirmTitle": "Chọn hành động ủy quyền:",
+        "timeout": "Quá hạn chưa xác nhận sẽ dừng",
+        "approve": "Đồng ý, cho phép Agent tiếp tục",
+        "reject": "Từ chối, dừng tác vụ ngay",
+        "debug": "Vào chế độ debug, tự tay tiếp quản",
+        "toggle": "Tự động chặn mọi hành động nhạy cảm"
+      },
+      "functionsMockup": {
+        "step1": "Nhấn \"Stop\"",
+        "step2": "Buộc dừng Agent tiếp quản",
+        "step3": "Trả lại quyền điều khiển"
+      }
+    },
+    "apps": {
+      "visualLabels": {
+        "securityIsolation": "Cô lập an toàn: chỉ xem là dữ liệu thuần túy"
+      },
+      "features": {
+        "04": {
+          "description": "Nội dung trang chỉ là dữ liệu, không phải lệnh. Bảo vệ prompt injection tích hợp sẵn: “lệnh” ẩn trong trang không thể kích hoạt hành động nhạy cảm hay gửi dữ liệu ra ngoài."
+        },
+        "05": {
+          "description": "Không đụng đến thông tin đăng nhập của bạn. DogClaw không xử lý, không lưu, không truyền mật khẩu tài khoản—chỉ hoạt động trong session trình duyệt hiện có của bạn."
+        },
+        "06": {
+          "description": "Dấu vết có thể phát lại và xóa được. Metadata thao tác mặc định giữ 30 ngày rồi tự xóa; snapshot nội dung trang mặc định không giữ hoặc xóa sau thời gian ngắn—bạn có thể xóa thủ công bất cứ lúc nào, hoặc tắt snapshot chỉ giữ metadata."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Sẵn sàng giao trình duyệt cho AI?",
+      "description": "Cài DogClaw, chọn mô hình, chế độ, môi trường và gửi tác vụ insight đầu tiên.",
+      "button": "Cài Cluega",
+      "ui": {
+        "configTitle": "Thông số lõi AI",
+        "configModel": "model / claude",
+        "configMode": "mode: insights",
+        "configMonth": "February",
+        "configYear": "2026",
+        "toggleOff": "Ngoại tuyến",
+        "toggleOn": "DogClaw đã bật",
+        "envLabel": "Chọn môi trường thực thi",
+        "envSelected": "Node IP riêng (Đài Bắc)",
+        "envSearch": "Tìm môi trường khả dụng khác...",
+        "envOptions": ["AWS-US-East-01 (192.168.1.10)", "GCP-JP-Tokyo-02 (10.0.4.25)", "Local-Residential-01 (IP dân dụng riêng)"],
+        "checkOn": "Bật truyền tải cách ly Cookie",
+        "checkOff": "Tắt thu thập vân tay Canvas",
+        "logTitle": "Nhật ký thực thi DogClaw",
+        "logSteps": ["DogClaw đã gắn kết thành công", "Đã mô phỏng và tải DOM trang đích", "Phân tích nội dung, trích đặc trưng chính", "Đã gửi tác vụ insight và tạo báo cáo"],
+        "badgeTitle": "Nhận diện đặc trưng an toàn tác vụ",
+        "badgeRows": [
+          { "label": "Bảo mật liên lạc", "desc": "Đã bắt tay an toàn với môi trường nền." },
+          { "label": "Chống tiêm lệnh", "desc": "Đã chặn lệnh độc hại, 0 kích hoạt lõi." },
+          { "label": "Hợp quy", "badges": ["Kênh hợp quy", "Zero rủi ro", "Văn bản thuần"] }
+        ],
+        "stopButton": "Buộc dừng tác vụ"
+      }
+    },
+    "trust": {
+      "title": "Hạ tầng trung lập, sinh ra để đi đường dài.",
+      "description": "Chúng tôi không bẻ khóa CAPTCHA, không né tránh chống bot, không tích hợp giả mạo fingerprint. Hạ tầng do bạn tự chuẩn bị và quản lý—Cluega luôn đứng về phía trung lập và tuân thủ. Công cụ đánh cược với kiểm soát rủi ro của nền tảng sẽ bị động ngay khi nền tảng siết chặt; hạ tầng trung lập mới là thứ đi được đường dài.",
+      "stat": "10,800 NEUTRAL INFRA RUNS IN THE PAST YEAR"
+    },
+    "scenarios": {
+      "title": "Sinh ra cho insight marketing.",
+      "description": "DogClaw là cánh tay nối dài của sản phẩm insight Cluega vào trang web. Cùng một bộ năng lực ba chiều, áp dụng cho sáu kịch bản insight marketing.",
+      "items": {
+        "pricing": "Theo dõi nội dung & giá đối thủ",
+        "sentiment": "Insight đánh giá & dư luận",
+        "creative": "Cảm hứng creative quảng cáo & landing page",
+        "ownedAccounts": "Insight hiệu quả tài khoản sở hữu",
+        "search": "Insight vị trí tìm kiếm & từ khóa",
+        "audience": "Nghiên cứu đối tượng & xu hướng"
+      }
+    }
+  },
+  "promptLibraryQuote": {
+    "title": "Prompt library testimonial",
+    "lines": [
+      "Trước đây, dữ liệu quảng cáo, các cuộc trò chuyện qua newsletter và đơn hàng cửa hàng giống như những mảnh rời rạc. Cluega đã phá vỡ hoàn toàn các silo dữ liệu đó và hợp nhất chúng thành một bộ não thương hiệu duy nhất. Giờ đây, tôi chỉ cần nhập chỉ dẫn bằng ngôn ngữ tự nhiên trong ô nhập như đang trò chuyện, và thuật toán sẽ tự động thực thi mọi quyết định tối ưu trên nhiều nền tảng ở tốc độ mili giây."
+    ],
+    "caption": "Cluega AI Systems",
+    "role": "Hệ thống AI Marketing"
+  },
+  "platformAsk": {
+    "finalCta": {
+      "heading": "Tạm biệt việc phân tích dữ liệu rườm rà, để AI tức thì tạo ra đề xuất tối ưu cho bạn.",
+      "demo": "Đặt lịch Demo",
+      "start": "Bắt đầu miễn phí"
+    },
+    "askAiFlow": {
+      "thinking": "Đang suy nghĩ...",
+      "userPrompt": "Chào, tôi muốn chạy quảng cáo tin nhắn TikTok để thu lead khách hàng.",
+      "intro": {
+        "p1": "Trước khi bắt đầu chạy, cần xác nhận sẽ dùng những tài khoản quảng cáo nào.",
+        "p2": "Bạn muốn tôi đề xuất tài khoản, hay tự chọn từ danh sách đầy đủ?",
+        "chipSuggest": "Đề xuất tài khoản quảng cáo",
+        "chipManual": "Chọn từ danh sách tài khoản"
+      },
+      "scan": {
+        "title": "🔍 Đã quét các tài khoản quảng cáo của bạn, dưới đây là các tài khoản **có chi tiêu thực trong 7 ngày qua** (đã chọn sẵn), vui lòng xác nhận:",
+        "confirm": "Xác nhận lựa chọn (2)",
+        "selectedBubble": "✅ Đã chọn: OutdoorLisa Official, Kirkbadwaik Kirkbadwaik"
+      },
+      "diagnosis": {
+        "linked": "✅ Đã liên kết tài khoản quảng cáo TikTok của bạn (OutdoorLisa Official).",
+        "title": "📊 Chẩn đoán lịch sử phân phối:",
+        "b1": "• Chi tiêu 30 ngày gần nhất $2,418, tổng cộng 312 tin nhắn",
+        "b2": "• CPA trung bình: $8.4 USD (chuẩn ngành $9.6)",
+        "b3": "• CPA mục tiêu đề xuất: $7.0 USD (giảm 17%)",
+        "choose": "Vui lòng chọn tài khoản TikTok dùng để đăng bài:",
+        "bubble": "@OutdoorLisa Official"
+      },
+      "category": {
+        "scanned": "🔍 Đã quét thư viện nội dung của tài khoản này, tổng cộng 18 video.",
+        "verdict": "📔 Phân loại nội dung: **Bán buôn tai nghe Bluetooth (Bluetooth Earphones Wholesale)**",
+        "confirmMode": "Để khớp chiến lược phân phối tối ưu, vui lòng xác nhận mô hình kinh doanh:",
+        "chipB2B": "B2B bán buôn",
+        "chipB2C": "B2C bán lẻ đơn sản phẩm"
+      },
+      "locked": {
+        "p1": "👍 Đã khóa chế độ **B2B bán buôn**.",
+        "p2": "Bạn có muốn mở rộng kho ý tưởng qua “Thư viện thị trường Cluega” để tiếp cận nhiều nhà mua hàng quốc tế hơn không?",
+        "chipYes": "Có, mở rộng kho ý tưởng",
+        "chipNo": "Tạm thời chưa cần"
+      },
+      "subcategory": {
+        "title": "Vui lòng chọn tiểu ngành B2B có tỷ lệ chuyển đổi cao:",
+        "chipFactory": "Quay thực tế nhà máy / chuỗi cung ứng",
+        "chipExpo": "Hội chợ quốc tế / gặp khách hàng",
+        "chipQc": "Kiểm định sản phẩm / chứng nhận chất lượng"
+      },
+      "videos": {
+        "p1": "🎬 Đã lấy 3 video xu hướng có tỷ lệ hỏi hàng cao từ thư viện thị trường quốc tế (tỷ lệ hỏi hàng trung bình 6.8%).",
+        "p2": "Chọn một video để AI nhân bản / viết lại thông minh (tránh vấn đề bản quyền):",
+        "pick": "Chọn",
+        "bubble": "#2 OEM Production Line"
+      },
+      "script": {
+        "p1": "📝 AI đã tạo kịch bản tối ưu:",
+        "copy": "**Nội dung quảng cáo:** “Kết nối trực tiếp nhà máy gốc Thâm Quyến, báo giá sỉ tai nghe Bluetooth TWS phản hồi trong 24h, MOQ từ 100.”",
+        "videoPrompt": "**Video Prompt:** Toàn cảnh xưởng sản xuất → cận cảnh dây chuyền SMT → khách Tây gật đầu → kho xuất hàng → CTA.",
+        "storyboard": "**Phân cảnh:** 0–2s móc câu nỗi đau / 2–6s năng lực nhà máy / 6–10s trình chứng nhận / 10–15s CTA.",
+        "confirmQ": "Xác nhận tạo video?",
+        "chipConfirm": "Xác nhận tạo",
+        "chipAdjust": "Điều chỉnh thêm lần nữa"
+      },
+      "preset": {
+        "done": "✅ Đã tạo xong video (4K, 15s, H.264).",
+        "title": "📔 Đã áp dụng cấu hình lượng hóa:",
+        "b1": "• Ngân sách ngày: $50 USD",
+        "b2": "• Khu vực: VN / TH / MY (vùng thương mại trọng điểm Đông Nam Á)",
+        "b3": "• Đối tượng: TMĐT / bán buôn / điện tử 3C, tuổi 25–45",
+        "confirmQ": "Vui lòng xác nhận cấu hình trên:",
+        "chipPush": "Xác nhận, đẩy lên tài khoản đăng bài",
+        "chipAdjust": "Điều chỉnh ngân sách / khu vực"
+      },
+      "cta": {
+        "welcome": "💬 Lời chào tin nhắn tức thời: “Hi! Bạn muốn nhận bảng giá xuất xưởng hôm nay chứ?”",
+        "cardTitle": "🎯 Tiêu đề thẻ CTA: “Get Today's Factory Price List”",
+        "button": "🔘 Nút CTA: “Send Message”",
+        "covers": "Đã tạo 3 ảnh bìa AI, vui lòng chọn một:",
+        "chip1": "Image #1 Ngoại cảnh nhà máy",
+        "chip2": "Image #2 Xếp chồng sản phẩm",
+        "chip3": "Image #3 Đàm phán với khách Tây"
+      },
+      "deploy": {
+        "success": "🎉 Đã triển khai thành công công cụ quảng cáo lượng hóa, dashboard lượng hóa động đã được tạo.",
+        "synced": "🔗 [Trang quản lý tài sản tài khoản Cluega] Đã đồng bộ 3 tài khoản mạng xã hội sau:",
+        "dashboard": "UK - Dashboard động chiến dịch tin nhắn tai nghe Bluetooth"
+      }
+    },
+    "hero": {
+      "subtitle": "Để dữ liệu lên tiếng và insight tự hành động. Vượt qua phân tích thủ công rườm rà, bước vào kỷ nguyên ra quyết định theo mili giây."
+    },
+    "askAnything": {
+      "examples": {
+        "analysisPrompt": "Phân tích chi tiêu, ROAS và vị trí quảng cáo tốt nhất của bình giữ nhiệt EcoSip trên Meta và TikTok trong 7 ngày qua.",
+        "analysisThought": "Đang phân tích...",
+        "visualizationThought": "Đang tạo biểu đồ...",
+        "okPrompt": "Trực quan hóa thành biểu đồ",
+        "diagnosisPrompt": "Vì sao tỷ lệ chuyển đổi tại Malaysia tuần này giảm? Hãy chẩn đoán nguyên nhân và đưa ra đề xuất.",
+        "diagnosisThought": "Đang chẩn đoán...",
+        "diagnosisActionPrompt": "Chẩn đoán",
+        "diagnosisActionThought": "Đang tạo bảng chẩn đoán...",
+        "planLaunchPrompt": "Theo đề xuất, hãy phát hành kế hoạch khuyến mãi mùa xuân EcoSip với ngân sách $180/ngày và bật tự động quản lý toàn phần.",
+        "planLaunchThought": "Đang phát hành kế hoạch...",
+        "planListPrompt": "Danh sách kế hoạch",
+        "planListThought": "Đang tải danh sách kế hoạch..."
+      },
+      "chart": {
+        "ariaLabel": "Biểu đồ chi tiêu quảng cáo và ROAS trong 7 ngày gần nhất",
+        "cost": "COST",
+        "roas": "ROAS"
+      },
+      "performanceTable": {
+        "headers": {
+          "placement": "Vị trí quảng cáo",
+          "platform": "Nền tảng",
+          "cvr": "Tỷ lệ chuyển đổi",
+          "cpc": "Chi phí mỗi nhấp",
+          "rating": "Đánh giá"
+        },
+        "ratings": {
+          "conversionKing": "🏆 Vua chuyển đổi",
+          "lowestTrafficCost": "💰 Chi phí lưu lượng thấp nhất",
+          "stableGrowthPoint": "Điểm tăng trưởng ổn định"
+        }
+      },
+      "analysis": {
+        "intro": "Tôi đã lấy dữ liệu toàn phễu 7 ngày gần nhất và phân tích câu hỏi của bạn như sau:",
+        "spendLabel": "Chi tiêu quảng cáo (Spend):",
+        "spendBody": "Tổng chi tiêu toàn nền tảng là $6,450.00. Trong đó Meta chiếm $2,050.00, TikTok chiếm $2,800.00, Google Ads bù phần còn lại.",
+        "roasLabel": "Hiệu quả hoàn vốn (ROAS):",
+        "roasBody": "ROAS tổng thể tăng 12% so với tuần trước. TikTok mạnh nhất (3.4x), Google Ads theo sát (4.1x), còn Meta cần tối ưu cấu trúc (2.9x).",
+        "placementLabel": "Vị trí quảng cáo tốt nhất (Best Placement):",
+        "placementBody": "Dữ liệu cho thấy TikTok Feed có tỷ lệ chuyển đổi cao nhất (4.2%), còn Instagram Reels có chi phí nhấp thấp nhất ($0.42).",
+        "chartPrompt": "Bạn có muốn tôi trực quan hóa dữ liệu này thành biểu đồ không?",
+        "chartPromptCta": "Trực quan hóa thành biểu đồ"
+      },
+      "visualization": {
+        "intro": "Được, đây là biểu đồ chi tiêu quảng cáo và ROAS của từng nền tảng trong 7 ngày gần nhất:",
+        "recommendation": "Theo dữ liệu quy attribution từ CDP, TikTok Feed vẫn còn dư địa tăng trưởng. Bạn có muốn tôi chuyển ngân sách từ các chiến dịch chuyển đổi Meta kém hiệu quả sang vị trí này và đề xuất nội dung tăng ngân sách cho hai vị trí quảng cáo tốt nhất này không?",
+        "replyPrefix": "Trả lời",
+        "execute": "Chuyển ngân sách",
+        "executeSuffix": "tôi sẽ chuẩn bị phương án phân bổ lại ngân sách; trả lời",
+        "creative": "Đề xuất creative",
+        "creativeSuffix": "tôi sẽ đề xuất nội dung tăng ngân sách cho hai vị trí quảng cáo tốt nhất này."
+      },
+      "diagnosis": {
+        "intro": "Đã chẩn đoán xong. Dựa trên dữ liệu theo dõi thời gian thực từ CDP cho Malaysia (Region 3), tôi phát hiện 3 vấn đề cốt lõi khiến tỷ lệ chuyển đổi giảm:",
+        "issues": [
+          "Mỏi creative: tần suất video chủ lực đã đạt 4.8, CTR giảm từ 2.4% xuống 1.9%.",
+          "Lệch ngân sách: 68% ngân sách trong chiến dịch Advantage+ đang được phân bổ cho nhóm đối tượng chi phí cao.",
+          "Trễ tải trang: LCP của landing page trên mobile là 4.2s, gây thất thoát 71% lưu lượng."
+        ],
+        "prompt": "Bạn có muốn xem checklist chẩn đoán chi tiết và các hành động sửa lỗi không?",
+        "promptCta": "Chẩn đoán"
+      },
+      "diagnosisAction": {
+        "intro": "Đây là",
+        "introCta": "danh sách vấn đề cần sửa",
+        "recommendation": "Tôi đã sẵn sàng script sửa lỗi. Bạn có muốn tôi tự động thực thi các tối ưu trên không?",
+        "execute": "Thực thi"
+      },
+      "diagnosticTable": {
+        "title": "📊 Thành phần dữ liệu: Danh sách chẩn đoán thông minh",
+        "headers": {
+          "target": "Đối tượng chẩn đoán",
+          "metric": "Chỉ số bất thường",
+          "baseline": "Giá trị chuẩn",
+          "current": "Giá trị hiện tại",
+          "action": "Hành động AI đề xuất"
+        },
+        "rows": {
+          "creative": {
+            "target": "Creative VID_05",
+            "metric": "Tỷ lệ nhấp (CTR)",
+            "baseline": "2.4%",
+            "current": "1.9%",
+            "action": "Tạm dừng và thay creative ART mới"
+          },
+          "budget": {
+            "target": "Phân bổ ngân sách",
+            "metric": "Chi phí chuyển đổi (CPA)",
+            "baseline": "$8.40",
+            "current": "$14.20",
+            "action": "Nghiêng ngân sách sang nhóm nam giới chuyển đổi cao"
+          },
+          "page": {
+            "target": "Hiệu năng trang",
+            "metric": "Thời gian tải (LCP)",
+            "baseline": "2.5s",
+            "current": "4.2s",
+            "action": "Bật nén WebP và lazy-load"
+          }
+        }
+      },
+      "planLaunch": {
+        "intro": "Đã nhận yêu cầu phát hành kế hoạch. Tôi đang đồng bộ kế hoạch khuyến mãi mùa xuân EcoSip xuống các tài khoản Meta, TikTok và Google Ads.",
+        "items": {
+          "status": {
+            "label": "Trạng thái:",
+            "body": "Đã gửi yêu cầu bắt tay API."
+          },
+          "optimization": {
+            "label": "Tối ưu:",
+            "body": "AI đã hoàn tất kiểm duyệt trước creative, dự kiến rút ngắn 60% thời gian xét duyệt nền tảng."
+          },
+          "monitoring": {
+            "label": "Giám sát:",
+            "body": "Đã bật chiến lược tự động cắt lỗ 24/7. Khi CPA vượt $4.80, hệ thống sẽ tự động tạm dừng chi tiêu."
+          }
+        },
+        "prompt": "Bạn có muốn xem danh sách phân phối kế hoạch theo thời gian thực không?",
+        "promptCta": "Danh sách kế hoạch"
+      },
+      "planList": {
+        "intro": "Được, đây là danh sách phân phối thời gian thực hiện đang do tôi quản lý:",
+        "recommendation": "Hệ thống đã khóa mục tiêu ROAS. Bạn có muốn tôi tạo một dashboard marketing thời gian thực chuyên dụng để theo dõi tiến độ bất cứ lúc nào không? Trả lời",
+        "dashboard": "Dashboard"
+      },
+      "adPlanTable": {
+        "title": "My AD Campaign Plans",
+        "headers": {
+          "name": "Tên kế hoạch",
+          "budget": "Ngân sách/ngày ($)",
+          "period": "Thời gian chạy",
+          "status": "Trạng thái"
+        },
+        "rows": {
+          "spring": {
+            "name": "Kế hoạch khuyến mãi mùa xuân EcoSip",
+            "budget": "$180.00",
+            "period": "04.17 - 05.31",
+            "status": "Đang chạy"
+          },
+          "scenario": {
+            "name": "Kế hoạch bối cảnh cắm trại EcoSip",
+            "budget": "$80.00",
+            "period": "05.01 - 05.21",
+            "status": "Đã duyệt"
+          },
+          "test": {
+            "name": "Kế hoạch thử nghiệm EcoSip 3%",
+            "budget": "$80.00",
+            "period": "05.15 - 05.29",
+            "status": "Đang xét duyệt"
+          }
+        }
+      }
+    },
+    "footer": {
+      "line1": "Sinh ra cho hiệu suất ra quyết định. Hợp nhất bằng dữ liệu full-stack.",
+      "line2": "Vận hành bởi động cơ quyết định thông minh Cluega AI.",
+      "contact": "Liên hệ chuyên gia giải pháp",
+      "signup": "Đăng ký ngay 1000 Token"
+    },
+    "promptLibrary": {
+      "title": "Biến kinh nghiệm của các media buyer hàng đầu thế giới thành playbook marketing kích hoạt bằng một cú nhấp.",
+      "description": "Dùng ngay prompt cộng đồng Cluega, kỹ năng mô hình lớn, agent tự vận hành và module quản lý trọn gói để biến việc khởi chạy và tối ưu quảng cáo phức tạp thành công việc thường ngày.",
+      "cards": {
+        "tiktok-ads": {
+          "title": "TikTok Ads",
+          "description": "Chạy và theo dõi hiệu quả quảng cáo TikTok",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "meta": {
+          "title": "Meta",
+          "description": "Quản lý quảng cáo Facebook và Instagram",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "shopify": {
+          "title": "Shopify",
+          "description": "Đơn hàng và quản lý dữ liệu thương mại điện tử toàn cầu",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "Tin nhắn WhatsApp Business và hỗ trợ khách hàng toàn cầu",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "google-sheets": {
+          "title": "Google Sheets",
+          "description": "Đọc/ghi bảng tính realtime và cộng tác trên cloud",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "google-ads": {
+          "title": "Google Ads",
+          "description": "Quảng cáo Google Search và Mạng Display toàn cầu",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "zalo": {
+          "title": "Zalo",
+          "description": "Tin nhắn và tương tác qua Zalo Official Account toàn cầu",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "tiktok-shop": {
+          "title": "TikTok Shop",
+          "description": "Đơn hàng TikTok Shop và đồng bộ sản phẩm toàn cầu",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "line": {
+          "title": "LINE",
+          "description": "Tin nhắn LINE Official Account và tương tác khách hàng toàn cầu",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        },
+        "lark": {
+          "title": "Lark",
+          "description": "Cộng tác nhóm xuyên biên giới, nhắn tin và quản lý lịch",
+          "badgeLabel": "Ủy quyền ứng dụng Cluega"
+        }
+      }
+    },
+    "universalContext": {
+      "poweredBy": "Powered by Brand",
+      "whyTitle": "Vì sao Cluega làm được tất cả điều này?",
+      "features": {
+        "semanticIntent": {
+          "title": "Phân tích ý định ngữ nghĩa",
+          "description": "Chuyển ngôn ngữ tự nhiên của nhà quảng cáo trực tiếp thành lệnh API hệ thống. Dù dữ liệu toàn phễu mở rộng theo quy mô, tốc độ truy xuất vẫn ở mức mili giây."
+        },
+        "brandAssets": {
+          "title": "Nền tảng tài sản riêng của thương hiệu",
+          "description": "Cấy giọng điệu thương hiệu, chi tiết sản phẩm cốt lõi và phương pháp bán hàng vào tầng nền hệ thống, đảm bảo đầu ra và phản hồi của AI Agent không lệch định vị."
+        },
+        "patternRecognition": {
+          "title": "Nhận diện biến động và mô hình thông minh",
+          "description": "Tự động truy vết chéo hiệu quả biên và dữ liệu tương tác đa nền tảng. Cluega AI tập trung vào đỉnh tăng trưởng và xu hướng bất thường toàn cục, không chỉ lãi lỗ của từng ad group."
+        },
+        "appConnections": {
+          "title": "Kết nối liền mạch ứng dụng toàn cầu",
+          "description": "Kết nối WhatsApp, Zalo, TikTok Ads, Shopify và nhiều kênh khác. Phá vỡ silo dữ liệu, đưa hội thoại đa kênh và hiệu quả quảng cáo về cùng một hệ thần kinh thương hiệu."
+        },
+        "localization": {
+          "title": "Bản địa hóa đa ngôn ngữ xuyên biên giới",
+          "description": "Làm chủ chính xác ngôn ngữ từng quốc gia. Giao tiếp với khách hàng toàn cầu bằng sắc thái văn hóa bản địa hoặc tạo creative bản địa hóa hàng loạt."
+        }
+      }
+    },
+    "customerIntelligence": {
+      "title": "Vận hành đơn giản, nhưng là một tác nhân toàn diện với hiệu suất cao.",
+      "tabs": {
+        "media-buyer": {
+          "label": "Quản lý phân phối",
+          "headline": "Biến tín hiệu dữ liệu chính xác thành quyết định lợi nhuận ở cấp mili-giây.",
+          "description": "AI tự động giám sát chi phí biên đa nền tảng, đảm bảo từng đồng ngân sách được chuyển hóa thành lợi nhuận đúng thời điểm tối ưu."
+        },
+        "creative-director": {
+          "label": "Giám đốc sáng tạo",
+          "headline": "Trích xuất “gen” thắng lớn để sản lượng hình ảnh không vượt quá logic kinh doanh.",
+          "description": "Neo dữ liệu chuyển đổi với đặc trưng thị giác, thúc đẩy ART engine tạo ra ma trận creative có “sức sống chuyển đổi”."
+        },
+        "customer-success": {
+          "label": "Trưởng CSKH",
+          "headline": "Trao cho mọi cuộc hội thoại toàn cầu quyền chủ động thương hiệu và sức bật chốt đơn.",
+          "description": "Hợp nhất trung tâm attribution IM để mỗi phản hồi inbox chạm đúng động cơ mua thật của khách hàng."
+        },
+        "founders": {
+          "label": "Nhà sáng lập",
+          "headline": "Xây dựng “sổ cái full-stack thương hiệu” duy nhất để nắm nhịp tăng trưởng toàn cầu.",
+          "description": "Chắt lọc tài sản thương hiệu từ các silo dữ liệu rời rạc, để mọi bước mở rộng chiến lược đều có căn cứ."
+        },
+        "market-consultant": {
+          "label": "Tư vấn thị trường",
+          "headline": "Từ nhiễu thị trường khổng lồ, chắt lọc lộ trình chiến lược cho điểm tăng trưởng tiếp theo.",
+          "description": "Dựa trên mô hình hóa dữ liệu full-funnel từ CDP, cung cấp tư vấn thị trường khách quan, khoa học và có thể triển khai cho toàn vòng đời."
+        }
+      },
+      "preview": {
+        "common": {
+          "addObject": "Thêm đối tượng"
+        },
+        "media-buyer": {
+          "conversation": {
+            "userPrompt": "Giúp tôi tối ưu kế hoạch quảng cáo: EcoSip Bình giữ nhiệt — Khuyến mãi Xuân/Hè, và phân bổ ngân sách.",
+            "reply1": {
+              "searching": "🔍 Đang tìm kiếm kế hoạch toàn cục...",
+              "locked": "Đã khóa: \"EcoSip Bình giữ nhiệt — Khuyến mãi Xuân/Hè\"",
+              "diagnosis": "📊 Phân tích chẩn đoán thông minh: CPA cao hơn chuẩn 23%, do creative Meta chính bị mỏi và phân bổ ngân sách sai."
+            },
+            "labels": {
+              "attribute": "Thuộc tính:",
+              "value": "Giá trị:"
+            },
+            "plans": {
+              "plan1": {
+                "header": "Cluega AI // Budget allocation",
+                "title": "Phương án 1:",
+                "attribute": "Điều phối lại ngân sách đa kênh",
+                "value": "Meta giảm $1,200.00 ➡ Tăng TikTok Feed $1,800.00"
+              },
+              "plan2": {
+                "header": "Meta Ads // Creative optimization",
+                "title": "Phương án 2:",
+                "attribute": "Tự động thay creative",
+                "value": "Tạm dừng creative mỏi VID_05 ➡ Thay bằng ART mới VID_v14_Hook"
+              },
+              "plan3": {
+                "header": "TikTok Ads // Bid cap optimization",
+                "title": "Phương án 3:",
+                "attribute": "Điều chỉnh trần giá thầu",
+                "value": "Target CPA $4.80 ➡ $4.12"
+              }
+            },
+            "reply3": {
+              "oldPrompt": "Trả lời “Thực thi” để tự động đồng bộ ngay tất cả thay đổi tham số đã chấp nhận lên API backend TikTok và Meta.",
+              "modifiedLabel": "Sửa thành:",
+              "prompt": "Vui lòng xác nhận có thực thi các thao tác trên không?",
+              "execute": "Thực thi",
+              "imageButton": "[Hình ảnh]"
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Kế hoạch phân phối",
+              "items": [
+                "Mã chiến dịch",
+                "CPA mục tiêu",
+                "Trần ngân sách",
+                "+ 12 chiều dữ liệu khác"
+              ]
+            },
+            "center": {
+              "title": "AI tác vụ thực thi",
+              "items": [
+                "Triển khai theo rule",
+                "Tín hiệu ngân sách từ API",
+                "Xử lý ngoại lệ"
+              ]
+            },
+            "right": {
+              "title": "Phản hồi hiệu quả",
+              "items": [
+                "ROAS hỗ trợ",
+                "Mức dùng Token",
+                "Số chuyển đổi"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Tên kế hoạch",
+              "Mục tiêu chiến lược",
+              "Trạng thái realtime",
+              "Quyền thực thi ngân sách",
+              "(Tương tác bổ sung) Kích hoạt cảnh báo"
+            ],
+            "rows": [
+              {
+                "name": "TikTok_APAC_Sản_Phẩm_Mới",
+                "goal": "CPA < $4.5",
+                "status": "AI tự động tối ưu",
+                "permission": "System",
+                "interaction": "0 lần"
+              },
+              {
+                "name": "Meta_Tăng_Trưởng_Toàn_Cầu",
+                "goal": "Tối đa hóa chuyển đổi",
+                "status": "Đã đạt mục tiêu (CPA $3.2)",
+                "permission": "Admin",
+                "interaction": "1 lần (tự chỉnh bid)"
+              },
+              {
+                "name": "Google_Ma_Trận_Từ_Khóa",
+                "goal": "Giữ ROAS",
+                "status": "Tự tạm dừng để tiết kiệm",
+                "permission": "System",
+                "interaction": "0 lần"
+              },
+              {
+                "name": "X_Ads_Đẩy_Khuyến_Mãi",
+                "goal": "Tối đa độ phủ",
+                "status": "Dữ liệu trả về bị chậm",
+                "permission": "Admin",
+                "interaction": "2 lần"
+              }
+            ]
+          }
+        },
+        "creative-director": {
+          "conversation": {
+            "userPrompt": "Gene creative hiệu quả nhất tuần trước là gì?",
+            "taskHeader": "Cluega AI: Đã phân tích đường chuyển đổi — 3 thành phần visual nổi bật:",
+            "suggestedLabel": "Hành động đề xuất",
+            "suggestedAction": "Bạn có muốn tạo biến thể creative dựa trên đặc điểm của các video này không?"
+          },
+          "geneCard": {
+            "title": "🧬 Thư viện gene viral ART",
+            "playAll": "Phát tất cả",
+            "rows": {
+              "hook": {
+                "title": "Hook gây tò mò 3 giây",
+                "assetId": "(VID_V14_Hook)",
+                "metric": "(Giữ chân cao hơn 42%)",
+                "playLabel": "Phát hook gây tò mò 3 giây"
+              },
+              "closeup": {
+                "title": "Cận cảnh macro chi tiết sản phẩm",
+                "assetId": "(VID_S05_CloseUp)",
+                "metric": "(CTR 3.8%)",
+                "playLabel": "Phát cận cảnh macro chi tiết sản phẩm"
+              },
+              "scenario": {
+                "title": "So sánh bối cảnh giải quyết pain point",
+                "assetId": "(VID_W21_Scenario)",
+                "metric": "(ROAS 4.2x)",
+                "playLabel": "Phát so sánh bối cảnh giải quyết pain point"
+              }
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "DNA creative thắng",
+              "items": [
+                "Thành phần hình ảnh",
+                "Từ khóa tần suất cao",
+                "Thời lượng xem",
+                "+ 7 chiều dữ liệu khác"
+              ]
+            },
+            "center": {
+              "title": "ART engine tạo nội dung",
+              "items": [
+                "Ngữ cảnh thương hiệu",
+                "Biến số ma trận asset",
+                "Chuyển phong cách"
+              ]
+            },
+            "right": {
+              "title": "Trung tâm phân phối",
+              "items": [
+                "Kho media TikTok",
+                "FB Creative Hub",
+                "Lịch đẩy asset"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Loại asset",
+              "Nhãn tín hiệu thắng",
+              "Tiến độ AI tạo nội dung",
+              "Tiềm năng ROI",
+              "(Tương tác bổ sung) Tệp phù hợp"
+            ],
+            "rows": [
+              {
+                "asset": "Biến_Thể_Video_Ngắn_V14",
+                "signal": "Mở đầu giật mạnh + đảo chiều",
+                "progress": "Đã hoàn tất (1.000 bộ)",
+                "roi": "Tiềm năng cao",
+                "audience": "Gen Z"
+              },
+              {
+                "asset": "Poster_Tĩnh_S05",
+                "signal": "Tương phản cao + UI khuyến mãi",
+                "progress": "Đang render (45/100)",
+                "roi": "Tiềm năng trung bình",
+                "audience": "Người mới đi làm"
+              },
+              {
+                "asset": "Series_Kịch_Bản_W21",
+                "signal": "Kể chuyện giàu cảm xúc",
+                "progress": "Đã đồng bộ vào media library",
+                "roi": "Rất tốt",
+                "audience": "Nữ có ý định mua cao"
+              },
+              {
+                "asset": "Video_Mô_Phỏng_UGV",
+                "signal": "Góc nhìn review thực tế",
+                "progress": "Đang chờ dữ liệu feed",
+                "roi": "Đang chờ đánh giá",
+                "audience": "Nhóm mua sắm xuyên biên giới"
+              }
+            ]
+          }
+        },
+        "customer-success": {
+          "conversation": {
+            "userPrompt": "Viết một tin nhắn kéo lại khách đã hỏi về thuế quan trên WhatsApp rồi rời đi.",
+            "taskHeader": "Cluega CS Agent: Bản nháp đã sẵn sàng. Nhấn vào thẻ để xem trước và chỉnh sửa:",
+            "suggestedLabel": "Hành động đề xuất",
+            "suggestedAction": "Trả lời \"Gửi\" để triển khai mẫu cá nhân hóa này trực tiếp lên WhatsApp và gửi hàng loạt ngay."
+          },
+          "draftCard": {
+            "previewLabel": "Nội dung gửi hàng loạt WhatsApp:",
+            "previewTitle": "Ưu đãi đơn đầu VIP EcoSip & thông báo hỗ trợ toàn bộ thuế quan",
+            "previewBody": "Xin chào, cảm ơn bạn đã quan tâm đến EcoSip. Chúng tôi nhận thấy bạn còn do dự khi thanh toán. Để bạn yên tâm trải nghiệm, chúng tôi đã chuẩn bị mã giảm giá riêng. Đặt hàng hôm nay và chúng tôi sẽ hỗ trợ toàn bộ thuế quan...",
+            "channel": "WhatsApp",
+            "batchLabel": "nội dung gửi hàng loạt:",
+            "subject": "Ưu đãi đơn đầu VIP EcoSip & thông báo hỗ trợ toàn bộ thuế quan",
+            "message": {
+              "line1": "Xin chào, cảm ơn bạn đã quan tâm đến EcoSip. Chúng tôi nhận thấy bạn còn do dự khi thanh toán.",
+              "line2": "Để bạn yên tâm trải nghiệm, chúng tôi đã chuẩn bị mã giảm giá riêng. Đặt hàng hôm nay và chúng tôi sẽ hỗ trợ toàn bộ",
+              "line3": "thuế quan..."
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Lead từ tin nhắn",
+              "items": [
+                "Mã khách hàng",
+                "Nguồn kênh",
+                "Tóm tắt tương tác",
+                "+ 6 chiều dữ liệu khác"
+              ]
+            },
+            "center": {
+              "title": "Trung tâm attribution IM",
+              "items": [
+                "Asset ID khớp",
+                "Từ khóa trùng khớp",
+                "Chấm điểm ý định"
+              ]
+            },
+            "right": {
+              "title": "Bảng điều khiển chốt đơn",
+              "items": [
+                "Giá trị đơn hàng",
+                "LTV dự kiến",
+                "Tốc độ chốt"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Mã khách hàng",
+              "Kênh tư vấn / liên hệ",
+              "Nguồn quảng cáo / asset quy về",
+              "Điểm ý định mua",
+              "(Tương tác bổ sung) AI can thiệp"
+            ],
+            "rows": [
+              {
+                "customerId": "User_SJ_9981",
+                "channel": "WhatsApp",
+                "source": "[VID_02] Váy mùa hè",
+                "intent": "Ý định cao",
+                "aiAction": "Gửi mã giảm giá"
+              },
+              {
+                "customerId": "User_DC_7362",
+                "channel": "Zalo",
+                "source": "[IMG_05] Ảnh chiến dịch khuyến mãi",
+                "intent": "Đang tư vấn",
+                "aiAction": "QA sản phẩm"
+              },
+              {
+                "customerId": "User_KL_4430",
+                "channel": "TikTok DM",
+                "source": "Traffic tự nhiên từ trang thương hiệu",
+                "intent": "Mới tìm hiểu",
+                "aiAction": "Không"
+              },
+              {
+                "customerId": "User_RT_5512",
+                "channel": "Messenger",
+                "source": "[VID_12] Gợi ý kiểu influencer",
+                "intent": "Đang cân nhắc",
+                "aiAction": "Đặt lịch gọi"
+              }
+            ]
+          }
+        },
+        "founders": {
+          "conversation": {
+            "userPrompt": "Thị phần hiện tại và rào cản cạnh tranh của tôi tại APAC và Bắc Mỹ đang như thế nào?",
+            "suggestedLabel": "Hành động đề xuất",
+            "suggestedAction": "Bảng tăng trưởng realtime khu vực APAC."
+          },
+          "search": {
+            "label": "Đã tìm: CDP nội bộ & đối thủ, 8 nguồn dữ liệu"
+          },
+          "sources": {
+            "shopify": {
+              "label": "shopify",
+              "short": "S"
+            },
+            "stripe": {
+              "label": "stripe",
+              "short": "St"
+            },
+            "meta": {
+              "label": "meta",
+              "short": "M"
+            },
+            "tiktok": {
+              "label": "tiktok",
+              "short": "T"
+            }
+          },
+          "summary": {
+            "intro": "Here's what you should know:",
+            "body": "Nhóm sản phẩm bình giữ nhiệt của chúng ta đã vượt 54,2% thị phần hiển thị toàn kênh tại APAC, dẫn trước thương hiệu kế tiếp hơn 15%. Sau khi kết nối thanh toán với sổ cái quy đổi IM, LTV tăng 28% và hiệu suất tái sử dụng ngân sách đạt mức cao kỷ lục. Tại Bắc Mỹ, đặc điểm AOV cao cho thấy nên tăng độ phủ các nhãn lối sống trung lưu."
+          },
+          "metrics": {
+            "share": {
+              "value": "54.2%",
+              "label": "thị phần APAC"
+            },
+            "ltv": {
+              "value": "+28%",
+              "label": "tăng LTV"
+            },
+            "lead": {
+              "value": "+15%",
+              "label": "lợi thế dẫn trước"
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Tài sản tổ chức",
+              "items": [
+                "Đội nhóm khu vực",
+                "Số lượng dự án",
+                "Số dư Token",
+                "+ 4 chiều dữ liệu khác"
+              ]
+            },
+            "center": {
+              "title": "Giám sát toàn cục",
+              "items": [
+                "Sức khỏe API",
+                "Độ phủ chiến lược",
+                "Log thực thi"
+              ]
+            },
+            "right": {
+              "title": "Báo cáo tài chính",
+              "items": [
+                "Tốc độ burn realtime",
+                "Biên CPA",
+                "Lợi nhuận dự phóng"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Hạng mục giám sát",
+              "Phạm vi phủ",
+              "Trạng thái vận hành realtime",
+              "Mức cảnh báo",
+              "(Tương tác bổ sung) Kết nối"
+            ],
+            "rows": [
+              {
+                "item": "Quản lý full-funnel APAC",
+                "scope": "TikTok / Meta",
+                "status": "Vận hành ổn định",
+                "alert": "Bình thường",
+                "connectivity": "Đã kết nối Slack"
+              },
+              {
+                "item": "Billing Token",
+                "scope": "Chương trình AI toàn cục",
+                "status": "Số dư an toàn (85%)",
+                "alert": "Bỏ qua",
+                "connectivity": "Đã đồng bộ email"
+              },
+              {
+                "item": "Trung tâm kết nối API",
+                "scope": "Toàn bộ tuyến liên lạc",
+                "status": "Meta API dao động",
+                "alert": "Trung bình",
+                "connectivity": "Hệ thống tự phục hồi"
+              },
+              {
+                "item": "Giám sát nội dung thương hiệu",
+                "scope": "Kho asset AI",
+                "status": "Khớp thương hiệu 100%",
+                "alert": "Thấp",
+                "connectivity": "Đã cập nhật chứng chỉ bảo mật"
+              }
+            ]
+          }
+        },
+        "market-consultant": {
+          "conversation": {
+            "userPrompt": "Tháng sau, các ngành hàng TMĐT Đông Nam Á nào có tiềm năng hoàn vốn cao nhất?",
+            "taskHeader": "Cluega Planner: Phát hiện 2 cửa sổ chiến lược tiềm năng cao, đề xuất can thiệp:",
+            "suggestedLabel": "Hành động đề xuất",
+            "suggestedAction": "Bạn có muốn tôi tạo white paper phân tích chiến lược toàn chu kỳ thị trường APAC không?"
+          },
+          "tasks": {
+            "festival": {
+              "title": "Giai đoạn khuyến mãi lễ hội Malaysia (dự kiến 14 ngày chi phí traffic tổng hợp ở vùng thấp)",
+              "status": "Cửa sổ chiến lược / Focus"
+            },
+            "green": {
+              "title": "Thử nghiệm quảng cáo chồng lấn chéo cho nhóm “lối sống xanh lành mạnh”",
+              "status": "Đề xuất thử nghiệm / Trial"
+            }
+          }
+        }
+      }
+    },
+    "intelligence": {
+      "title": "Hệ thống Cluega AI được thiết kế theo cách bạn làm việc và logic kinh doanh của bạn.",
+      "cards": {
+        "real": {
+          "title": "Dòng dữ liệu thật, không ảo giác.",
+          "description": "Mọi chẩn đoán, phân tích và cơ sở ra quyết định đều được đồng bộ realtime từ API nền tảng social, luồng đơn hàng cửa hàng và hiệu quả lịch sử đã xác thực."
+        },
+        "permissions": {
+          "title": "Vùng an toàn cưỡng chế, riêng tư tuyệt đối.",
+          "description": "Cluega tuân thủ nghiêm quyền API node và giới hạn ngân sách Token của bạn. Hệ thống chủ động vận hành trong sandbox an toàn, không vượt quyền và không vượt ranh giới."
+        },
+        "suggestions": {
+          "title": "AI chuẩn bị. Con người quyết định.",
+          "description": "Bạn luôn ở trung tâm điều phối. Hệ thống tinh gọn các tham số phức tạp thành quyết định cụ thể, còn quyền phê duyệt, tinh chỉnh hoặc từ chối cuối cùng vẫn 100% thuộc về bạn."
+        }
+      },
+      "integrations": {
+        "tiktokAds": {
+          "name": "TikTok Ads",
+          "description": "Triển khai và theo dõi hiệu quả quảng cáo TikTok"
+        },
+        "meta": {
+          "name": "Meta",
+          "description": "Quản lý quảng cáo Facebook và Instagram"
+        },
+        "googleAds": {
+          "name": "Google Ads",
+          "description": "Chạy quảng cáo Google Search và Display"
+        },
+        "googleAnalytics": {
+          "name": "Google Analytics",
+          "description": "Phân tích lưu lượng website và chuyển đổi"
+        }
+      }
+    },
+    "capabilities": {
+      "breakDown": {
+        "title": "Cùng nhau phân tích vấn đề",
+        "description": "Cluega xây dựng dựa trên ý tưởng của bạn, mở rộng logic và đơn giản hóa sự phức tạp từng bước một."
+      },
+      "tackle": {
+        "title": "Giải quyết công việc khó khăn nhất",
+        "description": "Cluega cung cấp sự hợp tác cấp chuyên gia cho những việc bạn cần hoàn thành——từ lập trình sản phẩm đến phân tích dữ liệu quan trọng."
+      },
+      "explore": {
+        "title": "Khám phá điều tiếp theo",
+        "description": "Như một chuyên gia trong túi bạn, việc cộng tác với Cluega mở rộng khả năng xây dựng của bạn khi làm một mình hoặc với đội nhóm."
+      }
+    }
+  },
+  "platformAi": {
+    "hero": {
+      "eyebrow": "Tầng mô hình dành cho Marketing",
+      "titleLead": "Một cổng vào duy nhất,",
+      "titleHighlight": "điều phối mọi mô hình trên thế giới.",
+      "subtitle": "Kết nối hơn 400 mô hình, mặt tiền chỉ trao cho bạn một cổng vào thống nhất. Cluega tự động chuyển sang mô hình phù hợp nhất theo từng tác vụ marketing, và biến mỗi lần tương tác thành tài sản của riêng doanh nghiệp bạn.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Đặt lịch Demo",
+      "badge": "Auto · 400+ models · Marketing-native",
+      "widget": {
+        "title": "Cluega AI",
+        "cycles": [
+          {
+            "prompt": "Dự báo giúp tôi giá thầu quảng cáo Meta cho đợt sale lớn tuần tới, CPA nên đặt thế nào?",
+            "result": "Ước tính CPA tốt nhất tuần tới là $18. Đã cấu hình sẵn mô hình quản lý CPA cho bạn, chỉ cần bật một chạm là tự động tối ưu và giảm 12.4%...",
+            "model": "GPT-4o"
+          },
+          {
+            "prompt": "Bài content cho sản phẩm mới EcoSip, nên nhấn điểm nào mới hợp tông thương hiệu?",
+            "result": "Theo giám sát dư luận cộng đồng toàn mạng, công chúng cực kỳ quan tâm độ an toàn của vật liệu. Đề xuất khóa hai bối cảnh «Thép không gỉ y tế 100%» và «Giữ lạnh lâu», đã tự động tạo...",
+            "model": "Claude 3.5"
+          },
+          {
+            "prompt": "Bắt giúp tôi trend đang hot nhất trên mạng xã hội, làm thành quảng cáo TikTok rồi đăng luôn.",
+            "result": "Đã khơi thông luồng tự nhiên trên mạng xã hội! Toàn bộ nguyên liệu sáng tạo mới đã được tạo trọn gói và lên sóng trực tiếp, dự kiến giúp bạn tiết kiệm 18%...",
+            "model": "Gemini 1.5 Pro"
+          }
+        ]
+      }
+    },
+    "logoWall": {
+      "transition": "Kết nối hơn 400 mô hình — chúng tôi chỉ điều phối cho marketing.",
+      "capsule": "+ 400 models"
+    },
+    "auto": {
+      "titleLead": "Mô hình Auto:",
+      "titleRest": "đúng tác vụ, đúng mô hình.",
+      "subtitle": "Cluega hiểu logic marketing đằng sau việc chạy quảng cáo số—điều gì nên giao cho mô hình thông minh cao để ra quyết định, điều gì nên đẩy cho mô hình nhỏ để làm sạch dữ liệu. Thông qua phân luồng động và bộ nhớ đệm Prompt, chúng tôi giúp hệ thống cắt giảm 90% chi phí điện toán.",
+      "cards": {
+        "flagship": {
+          "title": "Tác vụ cần trí tuệ cao giao cho mô hình hàng đầu",
+          "body": "Chiến lược phân phối, dự đoán giá thầu, quyết định sáng tạo—những tác vụ cần “suy nghĩ sâu” được tự động định tuyến đến mô hình hàng đầu, đảm bảo chất lượng quyết định không bị giảm sút.",
+          "visual": {
+            "bubble": "Giúp tôi lên chiến lược tổng thể cho đợt Black Friday của EcoSip.",
+            "midLabel": "Trung tâm quyết định chiến lược",
+            "midTitle": "Chi phí toàn thị trường sắp tăng, đề xuất đặt CPA ở mức $22-$25.",
+            "midStatus": "Phân bổ ngân sách: Meta 60% / Google 40%",
+            "lowLabel": "Căn chỉnh ngữ cảnh thương hiệu",
+            "lowTitle": "Chất liệu đang được bàn luận sôi nổi trên toàn mạng; nội dung chốt ở “thép không gỉ cấp y tế”.",
+            "lowSubtitle": "Đã căn chỉnh theo tông thương hiệu, lọc bỏ các mở rộng không hiệu quả",
+            "button": "Xem tất cả"
+          }
+        },
+        "small": {
+          "title": "Việc nặng nhọc giao cho mô hình nhỏ",
+          "body": "Làm sạch dữ liệu, gắn nhãn, phân loại hàng loạt, xử lý nguyên liệu—các tác vụ tần suất cao, độ phức tạp thấp được mô hình nhỏ xử lý hàng loạt. Đây chính là nơi tiết kiệm được 90% chi phí.",
+          "visual": {
+            "bubble": "Phân loại hàng loạt 500 mẫu quảng cáo cũ của tháng trước theo tỷ lệ nhấp cao/thấp.",
+            "line1": "GPT-4o-mini đã xử lý xong.",
+            "line2": "Tác vụ tần suất cao được tự động định tuyến, giúp bạn tiết kiệm 90% chi phí điện toán.",
+            "cardLabel": "Báo cáo phân loại hàng loạt",
+            "cardTitle": "500 mẫu quảng cáo đã tự động chia nhóm theo CTR cao/thấp",
+            "highGroup": "Nhóm hiệu quả",
+            "highCount": "đã phân loại 120 mẫu",
+            "lowGroup": "Nhóm kém hiệu quả",
+            "lowCount": "đã phân loại 380 mẫu..."
+          }
+        },
+        "cache": {
+          "title": "Bộ nhớ đệm Prompt, phản hồi mili-giây",
+          "body": "Các kịch bản marketing lặp lại rất nhiều. Prompt trúng bộ nhớ đệm phản hồi tức thì, không còn đốt điện toán lặp đi lặp lại cho cùng một việc.",
+          "visual": {
+            "bubble": "Tệp đối tượng quảng cáo Meta có vẻ đã mệt mỏi; hôm nay CTR của bình giữ nhiệt rớt dưới 1%, ROAS giảm còn 1.2. Chiến dịch vẫn đang chạy, giờ cứu thế nào?",
+            "statusLabel": "Đã trúng Prompt cache",
+            "solutionsLabel": "Giải pháp:",
+            "sol1Lead": "Cầm máu cho creative:",
+            "sol1Text": "tắt ngay 2 nhóm hình-chữ cũ có tần suất trên 3.5 và hôm nay kém nhất, chuyển 30% ngân sách sang creative “video ngắn mở hộp” dự phòng.",
+            "sol2Lead": "Làm sạch tệp đối tượng:",
+            "sol2Text": "kiểm tra tệp tùy chỉnh, đảm bảo đã “loại trừ người mua trong 30 ngày qua” một cách nghiêm ngặt, và mở rộng tệp bằng cách nâng tỷ lệ Lookalike (tệp tương tự) từ 1% lên 3%–5%.",
+            "sol3Lead": "Phòng thủ ngân sách:",
+            "sol3Text": "nếu trước 4 giờ chiều CPM (chi phí mỗi nghìn lượt hiển thị) vẫn chưa hạ, nghĩa là phiên đấu giá quá nóng; lập tức giảm 50% ngân sách của series này và mở series mới chạy “thêm vào giỏ hàng” để khởi động."
+          }
+        },
+        "token": {
+          "title": "Một Token ở mặt tiền, tối ưu động ở phía sau",
+          "body": "Phía khách hàng chỉ tiêu thụ “Token marketing” thống nhất, còn phía sau chúng tôi thực hiện chênh lệch điện toán thời gian thực (Token Arbitrage) giữa hơn 400 mô hình. Tính phí đơn giản, chi phí tối ưu.",
+          "visual": {
+            "bubble": "Giúp tôi làm 10 video ngắn bán hàng TikTok bằng tiếng Anh-Mỹ cho sản phẩm mới EcoSip, tự động hoàn thành lồng tiếng và tạo hình ảnh.",
+            "hint": "Front end đã quyết toán thống nhất:",
+            "hintStrong": "3,200 Tokens",
+            "cardHeader": "Dây chuyền tạo video đa mô hình",
+            "cardButton": "Preview",
+            "row1Title": "GPT-4o-mini (300 Tokens) | Viết kịch bản",
+            "row2Title": "ElevenLabs (900 Tokens) | Tổng hợp giọng nói",
+            "row3Title": "Runway Gen-3 (2,000 Tokens) | Tạo video bán hàng"
+          }
+        }
+      },
+      "quote": {
+        "text": "Cùng một ngân sách, Cluega tiết kiệm mọi phần điện toán có thể, và biến tất cả thành hiệu quả phân phối.",
+        "author": "Ryan",
+        "role": "Media Buying Manager, Cluega"
+      }
+    },
+    "industry": {
+      "titleLead": "Không chỉ trung chuyển,",
+      "titleRest": "còn có mô hình ngành tự nghiên cứu.",
+      "subtitle": "Mô hình thông thường không hiểu “luật ngầm của việc mua lượng game” hay “nhịp điệu của đợt khuyến mãi lớn thương mại điện tử”. Trên nền các mô hình thông thường, Cluega tôi luyện mô hình marketing chuyên biệt cho từng ngành dọc—viết know-how ngành vào bên trong mô hình.",
+      "tabs": {
+        "game": {
+          "title": "Mô hình marketing ngành game",
+          "description": "Tích hợp sẵn hiểu biết về ROAS, LTV, chu kỳ thu hồi, ngôn ngữ nguyên liệu mua lượng, tổ hợp kênh. Nó không phải “mô hình trò chuyện giỏi hơn”, mà là “mô hình hiểu việc mua lượng giỏi hơn”.",
+          "visual": {
+            "prompt": "Creative TikTok cho game casual biến hiện hỗn hợp tại thị trường Mỹ, phong cách hình ảnh nào chạy ra CPI thấp hơn mà vẫn đảm bảo tỷ lệ giữ chân ngày kế?",
+            "model": "Cluega-GameLLM"
+          }
+        },
+        "library": {
+          "title": "Thư viện mô hình ngành có thể mở rộng",
+          "description": "Thương mại điện tử · tài chính trả góp · đăng ký App · thu hút khách qua IM bản địa… Các mô hình ngành liên tục mở rộng, mỗi mô hình đều kế thừa năng lực điều phối và ngữ cảnh của Cluega.",
+          "visual": {
+            "cards": [
+              {
+                "text": "Tích hợp sẵn mô hình dự báo GMV, tối ưu chính xác ROI thương mại điện tử xuyên biên giới",
+                "model": "Cluega-EcomLLM"
+              },
+              {
+                "text": "Hiểu sâu tỷ lệ nợ xấu và phân luồng, nâng cao chuyển đổi trả góp tài chính",
+                "model": "Cluega-FinLLM"
+              },
+              {
+                "text": "Phân tích động hành vi chi trả tuần đầu, giảm tỷ lệ rời bỏ đăng ký App",
+                "model": "Cluega-SubLLM"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "context": {
+      "titleLead": "Dù chuyển bao nhiêu mô hình,",
+      "titleRest": "vẫn luôn ghi nhớ thương hiệu của bạn.",
+      "subtitle": "Cluega xây dựng kho tri thức riêng cho doanh nghiệp, lưu giữ trọn vẹn tài sản thương hiệu cốt lõi, ngữ cảnh sáng tạo và tài sản dữ liệu sinh ra khi mọi nhân viên tương tác trên các mô hình khác nhau. Dù bên dưới gọi mô hình nào, ngữ cảnh luôn thuộc về bạn.",
+      "cards": {
+        "store": {
+          "title": "Tự động căn chỉnh tông thương hiệu",
+          "body": "Tải tài liệu doanh nghiệp lên là Cluega tự động đọc và hiểu sâu ngay. Dù cả nhóm dùng mô hình nền tảng nào, hệ thống vẫn tự hiệu chỉnh, đảm bảo mỗi dòng nội dung và mỗi hình ảnh tạo ra đều khớp chính xác với thiết lập thương hiệu.",
+          "visual": {
+            "tabLabel": "Cluega",
+            "user1Name": "Cluega 1.2 Lite",
+            "user1Text": "Đã đọc và phân tích thành công tệp 《Sách trắng Hình ảnh & Nội dung Thương hiệu 2026.pdf》 bạn tải lên. Đã tự động khóa tông cốt lõi: chất công nghệ, điềm tĩnh khách quan, tinh gọn chuyên nghiệp.",
+            "user2Name": "Sarah Chen"
+          }
+        },
+        "switch": {
+          "title": "Tích lũy và dự báo thông minh dữ liệu kinh doanh",
+          "body": "Lưu giữ trọn vẹn tài sản dữ liệu cốt lõi. Cluega không chỉ khóa an toàn dữ liệu lịch sử, mà còn dựa trên hiệu suất quá khứ để tự động phát hiện vấn đề phân phối hiện tại và dự báo chính xác xu hướng tương lai.",
+          "visual": {
+            "headerTitle": "Dự án phân phối sản phẩm mới EcoSip Q1 2026",
+            "tab1Label": "Lưu trữ dữ liệu",
+            "tab2Label": "Chẩn đoán thông minh",
+            "row1Label": "Trạng thái lưu trữ",
+            "row1Value": "Đã đồng bộ",
+            "row2Label": "Chu kỳ phân phối",
+            "row2Value": "2026.01.01 - 2026.03.31",
+            "row3Label": "Người phụ trách",
+            "row3Value": "Alex Wong"
+          }
+        },
+        "compound": {
+          "title": "Tính liên tục ngữ cảnh xuyên mô hình",
+          "body": "Ghi lại trọn vẹn mạch tiến hóa của tư liệu và nội dung. Khi nhân sự liên phòng ban chuyển sang mô hình khác, AI vẫn tiếp nối chính xác ngữ cảnh trước đó, giúp sáng tạo và chiến lược marketing nối tiếp liền mạch.",
+          "visual": {
+            "centerTitle": "Thư viện kịch bản EcoSip",
+            "centerSubtitle": "Mạch tiến hóa kịch bản",
+            "centerItem0": "v1.0_Concept tối giản Bắc Âu",
+            "centerItem1": "v1.1_Bối cảnh điểm đau văn phòng",
+            "centerItem2": "v1.2_Đánh giá chuyên sâu chất titan",
+            "centerItem3": "v2.0_Hình ảnh ngoài trời đồ uống mát mùa hè",
+            "centerItem4": "v2.1_Ưu đãi mở khóa early-bird giới hạn",
+            "rightTitle": "Thư viện kịch bản máy pha cà phê thông minh",
+            "rightSubtitle": "Mạch tiến hóa kịch bản",
+            "rightItem0": "v1.0_Thẩm mỹ đánh thức buổi sáng",
+            "rightItem1": "v2.0_Quán cà phê tại gia cuối tuần",
+            "rightItem2": "v2.1_Hướng dẫn vẽ latte cho người mới"
+          }
+        }
+      },
+      "flywheel": {
+        "body": "Khi nhân viên gọi AI trong Cluega, thực thi phân phối, và thấy “kết quả rõ ràng” thông qua hệ thống phân bổ, quá trình này tạo thành một vòng khép kín. Mỗi đợt dữ liệu phân phối lại được nạp về ngữ cảnh của Cluega, giúp lần tạo sinh AI tiếp theo hiểu thương hiệu của bạn hơn nữa.",
+        "center": "Universal Context",
+        "outerLabel": "Mô hình có thể đổi, ngữ cảnh không mất.",
+        "steps": {
+          "generate": "Gọi AI tạo sinh",
+          "execute": "Thực thi phân phối",
+          "attribute": "Phân bổ thấy kết quả rõ ràng",
+          "settle": "Lắng đọng về ngữ cảnh"
+        }
+      }
+    },
+    "security": {
+      "titleLead": "Bảo mật cấp doanh nghiệp,",
+      "titleRest": "tích hợp ngay ở tầng nền.",
+      "subtitle": "Đa mô hình, đa nhân viên, đa tổ chức thuê—mọi điều phối đều chạy trên nền cách ly và phân quyền cấp doanh nghiệp. Bảo mật không phải tùy chọn thêm, mà là mặc định của Cluega.",
+      "cards": {
+        "isolation": {
+          "title": "Cách ly dữ liệu đa tổ chức thuê",
+          "body": "Cách ly dữ liệu vật lý giữa các tổ chức thuê (cấp ClickHouse), tài sản doanh nghiệp không rò rỉ, không lẫn lộn."
+        },
+        "rbac": {
+          "title": "Phân quyền chi tiết (RBAC / IAM)",
+          "body": "Phân quyền theo vai trò và quản lý danh tính—ai được gọi mô hình nào, xem dữ liệu nào, toàn bộ đều kiểm soát và kiểm toán được."
+        },
+        "compliance": {
+          "title": "Tuân thủ và ủy quyền",
+          "body": "Ủy quyền OAuth, phân quyền theo phạm vi người dùng, tuân thủ dữ liệu bản địa (bao gồm PDPL)—thiết kế bảo mật xuyên suốt mỗi lần gọi mô hình."
+        }
+      },
+      "trustStrip": "Multi-tenant · RBAC · OAuth · PDPL-ready"
+    },
+    "platformShelf": {
+      "titleLead": "Mô hình chỉ là điểm khởi đầu.",
+      "subtitle": "Từ điều phối mô hình mở rộng đến nền tảng trí tuệ marketing hoàn chỉnh. Mỗi mô-đun chia sẻ chung một bộ ngữ cảnh và nền tảng bảo mật.",
+      "items": {
+        "ai": "Tìm hiểu Cluega AI",
+        "im": "Hệ thống nhắn tin IM thời gian thực",
+        "adOptimization": "Phân phối & tối ưu quảng cáo",
+        "marketingDashboard": "Dashboard marketing thời gian thực",
+        "marketInsights": "Insight thị trường",
+        "ecommerce": "Vận hành thương mại điện tử",
+        "agent": "Agent",
+        "aiVisual": "Thiết kế hình ảnh AI"
+      }
+    },
+    "cta": {
+      "heading": "Giao đúng nhiệm vụ cho đúng mô hình, hệ thống tự động giúp bạn tiết kiệm sức tính toán.",
+      "demo": "Đặt lịch Demo",
+      "start": "Bắt đầu miễn phí"
+    }
+  },
+  "partners": {
+    "announcement": "Ra mắt: tái tổ hợp nguyên liệu tự động × điều phối bất đồng bộ xuyên ngày — quyết định mua lượng chạy trong hàng rào an toàn.",
+    "hero": {
+      "eyebrow": "Agent mua lượng toàn quyền quản lý",
+      "title": "Bạn chỉ cần đặt mục tiêu, việc mua lượng giao cho hệ thống.",
+      "subtitle": "Chỉ cần đặt số lượng mục tiêu và CPA cho 7 ngày; cập nhật nguyên liệu, phân phối, điều chỉnh ngân sách... đều được nhiều agent phối hợp quyết định trong hàng rào an toàn, và chủ động báo cáo qua Lark. Chúng tôi không làm tự động hóa theo quy tắc cài sẵn, mà mã hóa khả năng phán đoán của một chuyên gia tối ưu quảng cáo kỳ cựu thành một hệ thống bạn có thể giao toàn quyền.",
+      "primaryCta": "Đặt lịch Demo",
+      "secondaryCta": "Xem cách vận hành"
+    },
+    "team": {
+      "title": "Một đội ngũ AI mua lượng luôn trực tuyến",
+      "subtitle": "Không phải chatbot — mà là vòng điều khiển đa agent, mỗi vai trò làm tốt một việc.",
+      "items": {
+        "diagnostician": {
+          "name": "Chuyên gia chẩn đoán",
+          "description": "đọc dữ liệu và chỉ ra nguyên nhân: nguyên liệu mỏi, đối tượng bão hòa, kẹt ở giai đoạn học."
+        },
+        "strategist": {
+          "name": "Chiến lược gia",
+          "description": "quyết định bước tiếp theo và mức độ, trong giới hạn của playbook ngành."
+        },
+        "creative": {
+          "name": "Sáng tạo",
+          "description": "tái tổ hợp nguyên liệu đã kiểm chứng (hook × clip × CTA) thành phương án thử thách, thay vì tạo mới từ con số không."
+        },
+        "critic": {
+          "name": "Kiểm soát rủi ro",
+          "description": "rà soát mọi khoản chi trước khi xảy ra, chặn ảo giác và hành động nguy hiểm."
+        },
+        "executor": {
+          "name": "Bộ thực thi",
+          "description": "chỉ gọi các hành động trong danh sách trắng đã xác thực tham số, và bắt buộc ranh giới giữa các tổ chức thuê."
+        },
+        "reflector": {
+          "name": "Phản tư／ghi nhớ",
+          "description": "tích lũy bộ nhớ theo từng tài khoản và đưa kết quả mỗi vòng trở lại quyết định kế tiếp."
+        }
+      }
+    },
+    "ladder": {
+      "title": "Quyền tự chủ là «giành được», không phải «được cho»",
+      "subtitle": "Bắt đầu từ chế độ tư vấn L1, dùng tỷ lệ đồng thuận quyết định khách quan, tiến từng cấp lên L3 toàn quyền quản lý.",
+      "items": {
+        "l1": {
+          "name": "L1 Chế độ tư vấn",
+          "scope": [
+            "chẩn đoán & đề xuất toàn trình",
+            "mọi hành động cần bạn phê duyệt",
+            "tích lũy nhật ký quyết định và tỷ lệ đồng thuận",
+            "có thể bắt đầu ngay khi lên hệ thống."
+          ],
+          "footer": "Điều kiện thăng cấp: tỷ lệ đồng thuận ≥ 70%, liên tục 2 tuần."
+        },
+        "l2": {
+          "name": "L2 Bán quản lý",
+          "scope": [
+            "hành động rủi ro thấp (đổi nguyên liệu, điều chỉnh ngân sách nhỏ) tự động thực thi",
+            "rủi ro cao vẫn cần bạn quyết",
+            "có cổng kiểm tra tuân thủ thương hiệu."
+          ],
+          "footer": "Điều kiện thăng cấp: tỷ lệ đồng thuận ≥ 80%, liên tục 3 tuần, 0 sự cố nghiêm trọng."
+        },
+        "l3": {
+          "name": "L3 Toàn quyền quản lý (có hàng rào)",
+          "scope": [
+            "hoàn toàn tự động, bị ràng buộc bởi trần cứng và kiểm soát rủi ro",
+            "tự động hoàn nguyên về trạng thái tốt gần nhất khi có bất thường",
+            "tương tác đầy đủ qua Lark + giám sát sức khỏe."
+          ],
+          "footer": "Tầng trên: L4 điều phối danh mục xuyên tài khoản / xuyên campaign."
+        }
+      },
+      "ctaText": "Muốn biết tài khoản của bạn hiện đạt tới cấp nào? Hãy trò chuyện với chúng tôi.",
+      "ctaButton": "Đặt lịch Demo"
+    },
+    "onboarding": {
+      "title": "Bốn bước giao việc mua lượng cho hệ thống",
+      "subtitle": "Lộ trình từ kết nối đến toàn quyền quản lý, rủi ro được giải phóng từng cấp.",
+      "steps": {
+        "connect": {
+          "title": "Kết nối tài khoản & mục tiêu",
+          "description": "kết nối nền tảng quảng cáo và MMP; đặt số lượng mục tiêu và CPA cho 7 ngày."
+        },
+        "advisory": {
+          "title": "Chạy tư vấn (L1)",
+          "description": "hệ thống chẩn đoán và đề xuất, bạn phê duyệt, tỷ lệ đồng thuận bắt đầu tích lũy."
+        },
+        "semi": {
+          "title": "Bán quản lý (L2)",
+          "description": "rủi ro thấp tự động, rủi ro cao do bạn quyết, cổng tuân thủ thương hiệu hoạt động."
+        },
+        "full": {
+          "title": "Toàn quyền có hàng rào (L3)",
+          "description": "tự động hoàn toàn sau khi đạt ngưỡng, hàng rào cứng và tự động hoàn nguyên bật đầy đủ."
+        }
+      },
+      "cta": "Bắt đầu bước một"
+    },
+    "demo": {
+      "title": "Muốn xem nó chạy trên tài khoản của bạn?",
+      "subtitle": "Để lại thông tin liên hệ, chúng tôi sẽ demo một vòng quyết định hoàn chỉnh trên một ngành thực tế.",
+      "fields": {
+        "name": "Họ tên",
+        "company": "Công ty",
+        "platform": "Nền tảng quảng cáo chính",
+        "spend": "Quy mô mua lượng/tháng",
+        "email": "Email"
+      },
+      "submit": "Đặt lịch Demo"
+    },
+    "trust": {
+      "title": "Vì sao dám giao tiền thật cho nó",
+      "subtitle": "Với mô hình định giá theo kết quả, Cluega gánh rủi ro quyết định — nên hàng rào, tuân thủ và cách ly không phải tính năng cộng thêm, mà là nền móng.",
+      "items": {
+        "guardrails": {
+          "name": "Hệ thống hàng rào",
+          "description": "trần ngân sách cứng không thể ghi đè · giới hạn tốc độ thay đổi · circuit breaker tự động tạm dừng và hoàn nguyên khi bất thường · cổng DRS · danh sách trắng hành động · lưu nhật ký kiểm toán cho mọi quyết định."
+        },
+        "brand": {
+          "name": "Cổng tuân thủ thương hiệu",
+          "description": "Logo và thành phần cố định được mã hóa tổng hợp chính xác, không đưa vào mô hình tạo sinh nên không bị ảo giác làm sai lệch; trước khi lên sóng tự động QA đối chiếu bảng màu thương hiệu và chính sách nền tảng."
+        },
+        "isolation": {
+          "name": "Cách ly đa tổ chức thuê",
+          "description": "mỗi tác vụ bị giới hạn nghiêm ngặt trong một tổ chức thuê, bộ thực thi bắt buộc kiểm tra ranh giới; nguyên liệu và dữ liệu quảng cáo lưu trữ và mã hóa theo từng tổ chức thuê (khóa quản lý trong OCI Vault)."
+        }
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "items": {
+        "q1": {
+          "question": "Toàn quyền quản lý có tiêu tiền bừa bãi không?",
+          "answer": "Không. Có trần ngân sách cứng không thể ghi đè, giới hạn tốc độ và circuit breaker; khi bất thường tự động tạm dừng và hoàn nguyên, mọi khoản chi đều qua kiểm soát rủi ro trước."
+        },
+        "q2": {
+          "question": "Tôi có thể chưa bật toàn tự động không?",
+          "answer": "Được. Bắt đầu từ chế độ tư vấn L1, bạn phê duyệt từng hành động, tốc độ trao quyền hoàn toàn do bạn quyết định."
+        },
+        "q3": {
+          "question": "Dữ liệu quá ít có giữ được CPA không?",
+          "answer": "Đây là giới hạn vật lý — con người hay AI đều không giữ nổi. Khi độ tin cậy quá thấp (DRS thấp), hệ thống chuyển sang xem chỉ số dẫn dắt hoặc đứng yên, thay vì đoán bừa."
+        },
+        "q4": {
+          "question": "Nguyên liệu có bị AI tạo bừa không? Thương hiệu có bị lệch không?",
+          "answer": "Logo và thành phần cố định được mã hóa tổng hợp, không đưa vào mô hình tạo sinh; trước khi lên sóng tự động đối chiếu bảng màu thương hiệu và chính sách nền tảng, không đạt thì chặn lại."
+        },
+        "q5": {
+          "question": "Có xung đột với Advantage+/Smart+ của nền tảng không?",
+          "answer": "Không. Tầng đặt giá nhường cho nền tảng; agent chỉ thao tác ở tầng danh mục và tầng chiến lược nguyên liệu, tránh giai đoạn học của nền tảng, không điều chỉnh trùng hướng."
+        }
+      }
+    },
+    "explore": {
+      "title": "Khám phá thêm năng lực của Cluega",
+      "items": {
+        "im": {
+          "title": "Cluega IM Attribution",
+          "description": "kết nối các chuyển đổi sâu xuyên TikTok → Web → Zalo/LINE, một năng lực phân bổ hiếm nơi làm được.",
+          "cta": "Tìm hiểu thêm →"
+        },
+        "mosaic": {
+          "title": "Cluega Customer Success vận hành",
+          "description": "không muốn tự quản tài khoản? Giao vận hành cho Chuyên viên Customer Success của Cluega.",
+          "cta": "Tìm hiểu thêm →"
+        }
+      }
+    }
+  },
+  "commerceOps": {
+    "hero": {
+      "newPill": "Ra mắt · Agent Vận hành TMĐT",
+      "title": "Một agent vận hành cửa hàng của bạn mỗi ngày.",
+      "subtitle": "Kết nối Shopee, Lazada, TikTok Shop và Zalo/LINE. Cluega tự chẩn đoán cửa hàng, tăng lưu lượng, sản xuất nội dung và quản lý listing đa kênh — báo cáo cho bạn qua Lark. Chúng tôi mã hóa khả năng phán đoán vận hành TMĐT Đông Nam Á thành một hệ thống tự ra tay.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Xem nó chạy"
+    },
+    "platforms": {
+      "heading": "Một agent · mọi kênh TMĐT & IM của bạn"
+    },
+    "values": {
+      "title": "Một cách mới để vận hành thương mại điện tử",
+      "items": {
+        "commerce": {
+          "fig": "0.2",
+          "title": "Sinh ra cho TMĐT",
+          "description": "được định hình từ kiến thức thực chiến vận hành TMĐT Đông Nam Á, không phải chatbot thông thường."
+        },
+        "agents": {
+          "fig": "0.3",
+          "title": "Vận hành bởi các agent",
+          "description": "nhiều agent chuyên trách phối hợp: chẩn đoán, tăng trưởng, nội dung, vận hành."
+        },
+        "speed": {
+          "fig": "0.4",
+          "title": "Thiết kế cho tốc độ",
+          "description": "hoạt động 24/7, chẩn đoán tức thì khi bất thường, một câu lệnh chạy xuyên các bước."
+        }
+      }
+    },
+    "features": {
+      "items": {
+        "diagnose": {
+          "eyebrow": "1.0 Chẩn đoán",
+          "title": "Biết chỗ nào trục trặc trước khi bị lỗ",
+          "subtitle": "Cluega theo dõi đơn hàng, tồn kho và tỷ lệ chuyển đổi 24/7. Khi có biến động, nó không chỉ báo cho bạn — mà chẩn đoán nguyên nhân và chỉ bạn cách sửa, trước cả khi bạn mở trang quản trị.",
+          "subpages": [
+            "1.1 Giám sát sức khỏe",
+            "1.2 Chẩn đoán bất thường",
+            "1.3 Gợi ý khắc phục",
+            "1.4 Báo cáo Lark"
+          ]
+        },
+        "grow": {
+          "eyebrow": "2.0 Tăng trưởng",
+          "title": "Xuất hiện ở mọi nơi người mua tìm kiếm",
+          "subtitle": "Để sản phẩm của bạn được tìm thấy trên Google, tìm kiếm TikTok và được gợi ý bởi AI search như ChatGPT, Perplexity — mà không cần hiểu sự khác biệt giữa SEO và GEO.",
+          "subpages": [
+            "2.1 SEO",
+            "2.2 GEO",
+            "2.3 Nội dung sản phẩm",
+            "2.4 Tối ưu trong sàn"
+          ]
+        },
+        "content": {
+          "eyebrow": "3.0 Nội dung",
+          "title": "Nội dung cả tháng, xong trong vài phút",
+          "subtitle": "Cluega tạo nội dung mạng xã hội cho cả tháng trong một lần, lên lịch đa kênh và theo dõi hiệu quả. Nó học loại nội dung nào hiệu quả nhất và điều chỉnh theo thời gian, giảm mạnh việc thủ công.",
+          "subpages": [
+            "3.1 Tạo nội dung",
+            "3.2 Lên lịch",
+            "3.3 Theo dõi hiệu quả",
+            "3.4 Thư viện nguyên liệu"
+          ]
+        },
+        "expand": {
+          "eyebrow": "4.0 Mở rộng",
+          "title": "Mỗi kênh có một playbook, bạn có tất cả",
+          "subtitle": "Tích hợp sẵn kỹ năng vận hành cho Shopee, Lazada, TikTok Shop và Shopify. Mở rộng sang kênh mới mà không cần bắt đầu từ con số không, và theo dõi hiệu quả mọi kênh ở một nơi.",
+          "subpages": [
+            "4.1 Shopee",
+            "4.2 Lazada",
+            "4.3 TikTok Shop",
+            "4.4 Báo cáo hợp nhất"
+          ]
+        },
+        "operate": {
+          "eyebrow": "5.0 Vận hành",
+          "title": "Một câu lệnh chạy xuyên các bước",
+          "subtitle": "Ra lệnh bằng hội thoại và Cluega thực thi xuyên các bước trên cửa hàng của bạn: vận hành hội thoại, kỹ năng tự động, kết nối kênh, lên lịch toàn quyền — bốn mô-đun, một engine vận hành.",
+          "subpages": [
+            "5.1 Vận hành hội thoại",
+            "5.2 Kỹ năng tự động",
+            "5.3 Kết nối kênh",
+            "5.4 Lên lịch toàn quyền"
+          ]
+        }
+      }
+    },
+    "proof": {
+      "quote": "(trích dẫn khách hàng thực tế)",
+      "author": "Tên · Thương hiệu",
+      "scale": "Cluega vận hành hằng ngày cho hàng nghìn cửa hàng Đông Nam Á"
+    },
+    "finalCta": {
+      "title": "Xây cho thế hệ người bán tiếp theo. Dùng được ngay hôm nay.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Liên hệ kinh doanh"
+    }
+  },
+  "agentBlog": {
+    "announcement": {
+      "text": "IM Attribution mới đã ra mắt: kết nối mọi cuộc trò chuyện trên LINE và Zalo về ROI quảng cáo của bạn",
+      "cta": "Tìm hiểu ngay"
+    },
+    "hero": {
+      "category": "Sản phẩm",
+      "date": "Tháng 6, 2026",
+      "readTime": "Đọc 4 phút",
+      "author": "[Tên tác giả]",
+      "title": "Cluega Agent ra mắt: cộng tác với Agent để quản lý quảng cáo ngay trong app nhắn tin",
+      "excerpt": "Không cần đổi trang quản trị, không cần học công cụ mới. Ngay trong các app nhắn tin bạn dùng mỗi ngày, ra lệnh bằng một câu và Agent sẽ chạy quảng cáo, trả lời khách, kéo dữ liệu cho bạn; sau khi giao quảng cáo cho nó quản lý, nó chủ động báo cáo hiệu quả, phát hiện bất thường và cảnh báo sớm, nhắn riêng cho bạn khi cần quyết — như có thêm một cộng sự marketing trực 24/7, và mọi bước đều có thể quy kết."
+    },
+    "featured": {
+      "product": {
+        "category": "Sản phẩm",
+        "date": "Th2 2026",
+        "title": "Không chỉ ra lệnh — giao quảng cáo cho Agent và nó chủ động báo cáo cho bạn",
+        "excerpt": "Sau khi giao quảng cáo cho Cluega quản lý, nó liên tục báo cáo hiệu quả trong app nhắn tin, cảnh báo bất thường trước, và nhắn riêng cho bạn khi cần quyết định. Bạn trả lời một câu là điều chỉnh được, toàn bộ cộng tác nằm trong cùng một cuộc trò chuyện.",
+        "author": "[Tên]",
+        "role": "Sản phẩm"
+      },
+      "perspective": {
+        "category": "Quan điểm",
+        "date": "Th4 2026",
+        "title": "Ở Đông Nam Á, nơi chốt đơn thực sự là app nhắn tin, không phải website",
+        "excerpt": "Quyết định mua sắm ở Việt Nam và Thái Lan diễn ra phần lớn trên LINE OA và Zalo. Không thấy phần này là bỏ lỡ một nửa chuyển đổi.",
+        "author": "[Tên]",
+        "role": "Nhà sáng lập"
+      },
+      "company": {
+        "category": "Công ty",
+        "date": "Th8 2025",
+        "title": "Sứ mệnh của Cluega: hạ tầng quy kết cho performance marketing Đông Nam Á",
+        "excerpt": "Chúng tôi không làm thêm một dashboard nữa. Chúng tôi bù vào tầng mà cả ngành đang thiếu — marketing qua app nhắn tin có thể quy kết.",
+        "author": "[Tên]",
+        "role": "CEO & Đồng sáng lập"
+      }
+    },
+    "latest": {
+      "title": "Insight mới nhất",
+      "categories": {
+        "all": "Tất cả",
+        "product": "Sản phẩm",
+        "guides": "Hướng dẫn",
+        "inside": "Hậu trường",
+        "perspectives": "Quan điểm",
+        "company": "Công ty"
+      }
+    },
+    "articles": {
+      "p1": {
+        "title": "Cluega Agent ra mắt: cộng tác với Agent để quản lý quảng cáo trong app nhắn tin",
+        "excerpt": "Không cần trang quản trị, ra lệnh bằng hội thoại để hoàn tất marketing và bán hàng, toàn trình quy kết."
+      },
+      "p2": {
+        "title": "Giao quảng cáo cho Agent và nó chủ động báo cáo cho bạn",
+        "excerpt": "Sau khi giao, nó liên tục đẩy báo cáo hiệu quả, cảnh báo bất thường và việc cần quyết trong app nhắn tin; bạn trả lời một câu là điều chỉnh được, tất cả trong cùng một cuộc trò chuyện."
+      },
+      "p3": {
+        "title": "IM Attribution: kết nối hội thoại Zalo, LINE về ROI quảng cáo của bạn",
+        "excerpt": "Bù vào đoạn đứt gãy trong tin nhắn riêng, đưa hội thoại và chốt đơn trở lại chuỗi quy kết."
+      },
+      "p4": {
+        "title": "TikTok → Web → IM: quy kết sâu toàn chuỗi",
+        "excerpt": "Theo dõi xuyên nền tảng toàn bộ hành trình từ click quảng cáo đến chốt đơn trong app nhắn tin."
+      },
+      "p5": {
+        "title": "Custom Skills: trang bị kiến thức ngành cho Agent của bạn",
+        "excerpt": "Cho trợ lý kiến thức chuyên môn và kịch bản theo từng lĩnh vực."
+      },
+      "p6": {
+        "title": "Bộ nhớ bền + máy tính đám mây: trợ lý marketing trực 24/7 không rớt",
+        "excerpt": "Giữ toàn bộ ngữ cảnh, làm việc liên tục xuyên hội thoại, xuyên ngày."
+      },
+      "p7": {
+        "title": "Một danh tính AI thương hiệu nhất quán",
+        "excerpt": "Được huấn luyện theo quy trình của bạn và tích hợp với công cụ hiện có."
+      },
+      "g1": {
+        "title": "Đọc phễu chuyển đổi IM trong performance marketing Đông Nam Á thế nào",
+        "excerpt": "Biến tương tác tin nhắn riêng thành tín hiệu hành động, chớp lấy mọi cơ hội ngay lúc đó."
+      },
+      "g2": {
+        "title": "Từ chạy quảng cáo kiểu founder đến cỗ máy chạy quảng cáo mở rộng được",
+        "excerpt": "Sau khi nhà sáng lập tự tay chạy, làm sao giao quy trình cho hệ thống và Agent."
+      },
+      "g3": {
+        "title": "Đội mua media tự động hóa việc vặt bằng Agent thế nào",
+        "excerpt": "Nghiên cứu, trả lời, theo đuôi — để con người tập trung vào đơn thực sự chốt được."
+      },
+      "g4": {
+        "title": "5 quy trình marketing AI đáng chạy ngay",
+        "excerpt": "Kèm ví dụ câu lệnh có thể thử trực tiếp trong Cluega Agent."
+      },
+      "i1": {
+        "title": "Vì sao chúng tôi tên là Cluega",
+        "excerpt": "Câu chuyện đằng sau tên thương hiệu."
+      },
+      "i2": {
+        "title": "Chúng tôi tổ chức Agent Hackathon nội bộ đầu tiên",
+        "excerpt": "Một cuối tuần, trao năng lực Agent vào tay đội ngũ để xem điều gì nảy nở."
+      },
+      "v1": {
+        "title": "Ở Đông Nam Á, nơi chốt đơn thực sự là app nhắn tin, không phải website",
+        "excerpt": "Quyết định mua sắm ở Việt Nam và Thái Lan diễn ra phần lớn trên LINE OA và Zalo."
+      },
+      "v2": {
+        "title": "Marketing thế hệ mới thuần AI: quy kết sẽ được viết lại",
+        "excerpt": "Agent không chỉ tóm tắt, mà thực sự hoàn thành công việc cho bạn."
+      },
+      "v3": {
+        "title": "Vì sao thêm một dashboard nữa cũng không cứu được quảng cáo của bạn",
+        "excerpt": "Thứ thiếu không phải nhiều biểu đồ hơn, mà là một tầng marketing IM có thể quy kết."
+      },
+      "c1": {
+        "title": "Sứ mệnh của Cluega: hạ tầng quy kết cho performance marketing Đông Nam Á",
+        "excerpt": "Chúng tôi bù vào tầng mà cả ngành đang thiếu."
+      }
+    }
+  },
+  "collab": {
+    "hero": {
+      "chip": "Sarah Lin is collaborating on this session",
+      "h1Lead": "Cộng tác, ",
+      "h1Highlight": "không đánh đổi",
+      "h1Rest": " an toàn của bất kỳ tài sản nào.",
+      "subtitle": "Chia sẻ hội thoại, mời cả nhóm cùng sáng tạo, kiểm soát chi tiết ai thấy gì — một hệ thống phân quyền giúp agency và nhãn hàng cộng tác liền mạch.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Đặt lịch Demo"
+    },
+    "preview": {
+      "title": "Bước vào không gian cộng tác Cluega.",
+      "subtitle": "Chỉ một câu, biến hội thoại thành không gian mà cả nhóm đều có thể đóng góp."
+    },
+    "share": {
+      "title": "Chia sẻ mượt mà — chỉ đúng người mới thấy.",
+      "points": {
+        "link": {
+          "title": "Tạo liên kết chia sẻ chỉ một cú nhấp.",
+          "desc": "Nhấn chia sẻ là gửi lời mời; người kia chỉ thấy phạm vi hội thoại này, dữ liệu các tài khoản quảng cáo khác của bạn không bị rò rỉ — cách ly diễn ra ở tầng dữ liệu, không chỉ ẩn ở giao diện."
+        },
+        "session": {
+          "title": "Một phiên, bao nhiêu người cũng được.",
+          "desc": "Đối tác agency, quản lý nhãn hàng, designer — mời tất cả vào cùng một hội thoại; thay người không cần cấp quyền lại, thu hồi có hiệu lực tức thì."
+        },
+        "data": {
+          "title": "Quyền dữ liệu đi theo tài khoản.",
+          "desc": "Dữ liệu quảng cáo chưa được cấp quyền bị che hoàn toàn ngay cả trong cùng một phiên; AI đã phân tích tài khoản của bạn nhưng người kia không thấy bất cứ gì ngoài phạm vi được cấp."
+        }
+      },
+      "seatLabels": {
+        "operator": "Ghế vận hành",
+        "collaborator": "Ghế cộng tác"
+      },
+      "members": {
+        "sarah": "Tham gia 3 phút trước · Agency",
+        "chris": "Tham gia 12 phút trước · Nhãn hàng",
+        "mike": "Tham gia 24 phút trước · Agency",
+        "jenny": "Đang chờ chấp nhận lời mời · Nhãn hàng",
+        "kevin": "Tham gia 1 giờ trước · Agency",
+        "lisa": "Tham gia 2 giờ trước · Nhãn hàng",
+        "alex": "Tham gia 3 giờ trước · Agency"
+      }
+    },
+    "quote": {
+      "text": "Trước đây cộng tác xuyên công ty là mỗi lần đổi người phụ trách lại phải thiết lập lại cả đống tài khoản; giờ chỉ cần cấp quyền cho công ty đối tác, ai tiếp quản cũng không phải thiết lập lại — tiết kiệm một nửa thời gian bàn giao.",
+      "name": "Phó TGĐ Zhang",
+      "title": "Giám đốc Marketing số · Một tập đoàn hàng tiêu dùng",
+      "avatar": "Z"
+    },
+    "tabs": {
+      "label": "Đồng sáng tạo · Tải xuống · Chỉnh sửa",
+      "title": "AI tạo bản nháp, bạn tinh chỉnh, mang đi chỉ một cú nhấp.",
+      "items": {
+        "cocreate": {
+          "title": "Đồng sáng tạo: cùng ra lệnh cho AI",
+          "desc": "Mời bất kỳ thành viên nào vào hội thoại; mọi người đều có thể bổ sung chỉ thị và góp ý cho AI, mỗi thao tác đều ghi lại người thực hiện, truy vết toàn trình."
+        },
+        "download": {
+          "title": "Tải tài liệu hội thoại chỉ một cú nhấp",
+          "desc": "Báo cáo phân tích, kịch bản quảng cáo, tóm tắt chiến lược do AI tạo tải thẳng ra PDF, Word hoặc Markdown, giữ nguyên định dạng, dùng họp được ngay."
+        },
+        "edit": {
+          "title": "Chỉnh sửa nguyên liệu tức thì",
+          "desc": "Không ưng ảnh quảng cáo vừa tạo? Tách nền, chỉnh kích thước, tạo lại một phần ngay trong Cluega, sửa xong là chạy được."
+        },
+        "video": {
+          "title": "Gia công lại video và nội dung",
+          "desc": "Video quảng cáo có thể chỉnh thời lượng, thay phụ đề; nội dung có thể sửa lại ngay trong hội thoại, AI nhớ ý định chỉnh sửa của bạn nên lần sau tạo chuẩn hơn."
+        }
+      }
+    },
+    "bento": {
+      "title": "Mọi thao tác cộng tác đều được ghi lại đầy đủ trong Cluega.",
+      "items": {
+        "audit": {
+          "h3": "Theo dõi từng lần cấp quyền.",
+          "desc": "Ai làm gì với tài khoản quảng cáo nào, vào lúc nào — dấu vết kiểm toán đầy đủ, đạt yêu cầu tuân thủ trong một lần."
+        },
+        "credit": {
+          "h3": "Nắm chi tiêu trong một cái nhìn.",
+          "desc": "Ai kích hoạt tác vụ AI nào, đốt bao nhiêu điểm — sổ sách minh bạch, không vượt chi."
+        },
+        "matrix": {
+          "h3": "Vai trò rõ ràng, không lấn ranh.",
+          "desc": "Một ma trận thấy rõ mỗi người được làm gì — thao tác rủi ro cao tự động yêu cầu phê duyệt, xóa thì luôn bị cấm."
+        },
+        "expiry": {
+          "h3": "Hết hợp đồng, quyền tự hết hiệu lực.",
+          "desc": "Quyền xuyên công ty có thể đặt thời hạn; hết hợp đồng hệ thống tự thu hồi truy cập — không cần theo dõi thủ công, không để lại hậu họa."
+        }
+      }
+    },
+    "features": {
+      "title": "Cộng tác chỉ là khởi đầu. Cluega kết nối trọn vẹn quy trình của bạn.",
+      "items": {
+        "chat": {
+          "title": "Hội thoại quảng cáo AI",
+          "desc": "Phân tích dữ liệu quảng cáo và tạo báo cáo chiến lược trực tiếp với AI"
+        },
+        "accounts": {
+          "title": "Kết nối tài khoản quảng cáo",
+          "desc": "Đồng bộ OAuth một chạm cho Meta, Google, TikTok"
+        },
+        "assets": {
+          "title": "Tạo nguyên liệu",
+          "desc": "AI tạo ảnh, video, nội dung, dùng ngay cho quảng cáo"
+        },
+        "dashboard": {
+          "title": "Bảng điều khiển chi tiêu",
+          "desc": "Chi phí quảng cáo và điểm tiêu thụ, nắm trọn trong một màn hình"
+        },
+        "collab": {
+          "title": "Cộng tác nhóm & phân quyền",
+          "desc": "Chia sẻ hội thoại, đồng sáng tạo, phân quyền chi tiết, tài sản an toàn"
+        },
+        "automation": {
+          "title": "Phân phối tự động",
+          "desc": "AI Agent thay con người thực hiện tối ưu quảng cáo"
+        },
+        "security": {
+          "title": "Kiểm toán & bảo mật",
+          "desc": "Lưu vết toàn trình, thao tác truy vết được, tuân thủ nhẹ nhàng"
+        },
+        "billing": {
+          "title": "Điểm & tính phí",
+          "desc": "Sổ điểm minh bạch, dùng bao nhiêu trả bấy nhiêu, lợi nhuận rõ ràng"
+        }
+      }
+    },
+    "cta": {
+      "title": "Mời cả nhóm, bắt đầu từ hôm nay.",
+      "subtitle": "Ghế cộng tác miễn phí vĩnh viễn. Dùng thử Pro 14 ngày, không cần thẻ tín dụng.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Đặt lịch Demo kinh doanh"
+    }
+  },
+  "platformAgent": {
+    "hero": {
+      "eyebrow": "Cluega dành cho Nhóm IM Agent",
+      "h1Line1": "Triển khai Agent của bạn vào",
+      "h1Line2": "IM bạn dùng hàng ngày",
+      "subtitle": "Marketing không nên chỉ xảy ra trong ứng dụng web Cluega. Triển khai Agent vào Telegram, LINE, Lark — trò chuyện bất cứ lúc nào, giao nhiệm vụ bất cứ lúc nào, nhận kết quả bất cứ lúc nào. Được xây dựng cho marketing.",
+      "primaryCta": "Triển khai ngay →",
+      "secondaryCta": "Liên hệ để biết thêm"
+    },
+    "logoStrip": {
+      "label": "Một cổng vào, điều phối hơn 400 mô hình hàng đầu thế giới"
+    },
+    "valueProp1": {
+      "eyebrow": "Tích hợp IM liền mạch",
+      "label": "Chỉ huy Agent ngay trong IM quen thuộc nhất của bạn",
+      "description": "Không cần mở trình duyệt hay chuyển đổi công cụ. Gửi tin nhắn trên Telegram và Agent của bạn ngay lập tức hiểu ý định, kích hoạt kỹ năng và trả kết quả. Chat là lệnh. IM là không gian làm việc của bạn.",
+      "chart": {
+        "tooltipLabel": "Nhiệm vụ đã thực thi",
+        "tooltipValue": "238 nhiệm vụ"
+      }
+    },
+    "valueProp2": {
+      "eyebrow": "Thực thi bền vững",
+      "label": "Lưu trữ bền vững trên đám mây — trợ lý không bao giờ dừng, kể cả khi offline.",
+      "description": "Agent chạy trong không gian làm việc liên tục trên đám mây của Cluega. Các tác vụ dài thực thi không đồng bộ — ngắt kết nối không làm gián đoạn — kết quả được đẩy về IM khi xong. Bộ nhớ tồn tại xuyên suốt, giúp Agent ngày càng thông minh hơn.",
+      "cards": {
+        "statusRunning": "Đang chạy",
+        "statusDone": "Hoàn thành",
+        "task1Name": "Nghiên cứu thị trường chuyên sâu",
+        "task2Name": "Phân tích dữ liệu đối thủ",
+        "task3Name": "Tạo chân dung người dùng"
+      }
+    },
+    "valueProp3": {
+      "eyebrow": "Lớp kỹ năng tùy chỉnh",
+      "label": "Tích hợp sẵn gói kỹ năng cốt lõi, hòa quyện hoàn hảo với logic nghiệp vụ của bạn",
+      "description": "Trang bị cho Agent các gói kỹ năng theo ngành dọc: báo cáo quảng cáo, giám sát đối thủ, tạo nội dung sáng tạo, tối ưu hóa AAIGS được quản lý... Logic kinh doanh của bạn chính là kiến thức chuyên môn của Agent.",
+      "list": {
+        "unit": "lượt",
+        "name1": "Báo cáo quảng cáo",
+        "name2": "Giám sát đối thủ",
+        "name3": "Tạo nội dung sáng tạo",
+        "name4": "Quản lý AIGS",
+        "name5": "Phân tích dữ liệu",
+        "name6": "Tối ưu tự động"
+      }
+    },
+    "testimonial": {
+      "quote": "\"Mỗi sáng, việc đầu tiên tôi phải làm là mở hàng chục tab để thủ công kéo dữ liệu. Bây giờ tôi gửi một tin Telegram và Agent của tôi gửi báo cáo đầy đủ trong vòng 10 phút. Cluega giúp nhóm tôi thực sự dành thời gian cho các quyết định quan trọng.\"",
+      "author": "Marcus Vance",
+      "role": "Growth Marketing Director",
+      "cta": "Đặt lịch Demo"
+    },
+    "featureA": {
+      "eyebrow": "Tích hợp kênh IM",
+      "title": "Triển khai Agent của bạn cho Sales & Marketing",
+      "description": "Cluega Agent tích hợp gốc với Telegram, LINE và Lark. Liên kết một chạm qua mã QR — không cần nền tảng kỹ thuật. Operator có thể trò chuyện với Agent và đưa ra lệnh nhiệm vụ từ bất kỳ đâu, bất kỳ lúc nào.",
+      "cta": "Tìm hiểu thêm"
+    },
+    "featureB": {
+      "eyebrow": "Giao thức tác vụ dài không đồng bộ",
+      "title": "Nhiệm vụ tốn vài phút? Tắt điện thoại, chờ thông báo thôi.",
+      "description": "Runtime bền vững của Cluega: hệ thống tệp xuyên tác vụ / terminal / trạng thái lưu dài. Agent xác nhận (ACK) nhiệm vụ ngay lập tức và tiếp tục chạy trên đám mây — với cập nhật tiến độ được đẩy theo thời gian thực. Operator ngắt kết nối không ảnh hưởng đến việc thực thi.",
+      "cta": "Tìm hiểu thêm",
+      "notification": {
+        "sender": "Cluega Agent",
+        "time": "vừa xong",
+        "title": "Nhiệm vụ đã hoàn thành",
+        "body": "Báo cáo giờ ngành thời trang Bắc Mỹ đã sẵn sàng, chạm để xem"
+      }
+    },
+    "featureC": {
+      "eyebrow": "Lớp kỹ năng",
+      "title": "Không phải trợ lý đa năng — hệ thống chỉ huy chuyên biệt cho ngành của bạn",
+      "description": "Lớp kỹ năng của Cluega theo mô hình Agent Registry, cho phép operator trang bị cho Agent kiến thức chuyên ngành dọc. Bao gồm gói kỹ năng marketing cốt lõi tích hợp sẵn, cộng với hỗ trợ tải lên các quy tắc kinh doanh tùy chỉnh. Phân cấp quyền L0–L3 với xác nhận kép cho các hành động chi tiêu — an toàn và có kiểm soát.",
+      "cta": "Tìm hiểu thêm",
+      "picker": {
+        "title": "Chọn mẫu kỹ năng",
+        "newBadge": "Mới",
+        "card1": "Tạo kỹ năng mới",
+        "card2": "Báo cáo quảng cáo",
+        "card3": "Giám sát đối thủ",
+        "card4": "Tạo nội dung sáng tạo",
+        "card5": "Phân tích dữ liệu",
+        "card6": "Tối ưu tự động"
+      }
+    },
+    "caseStudy": {
+      "title": "Nhóm thương mại điện tử xuyên biên giới có thể hoàn tất triển khai Agent và nhận báo cáo nhiệm vụ đầu tiên chỉ trong 30 phút",
+      "description": "Thông qua Cluega Agent, công việc kéo dữ liệu hàng ngày được rút ngắn từ '2 giờ làm thủ công' xuống còn 'gửi một tin nhắn Telegram, tự động giao trong 10 phút' — đồng thời kết nối tối ưu hóa ủy quyền AAIGS, kích hoạt toàn diện hiệu quả phân phối, hiện thực hóa tăng trưởng ổn định và bền vững cho doanh nghiệp."
+    },
+    "channelBand": {
+      "title": "Để Agent của bạn làm việc trên",
+      "subtitle": "Chỉ huy Agent hoàn thành các nhiệm vụ marketing ngay trong IM hàng ngày của nhóm bạn",
+      "comingSoon": "Sắp ra mắt"
+    },
+    "finalCta": {
+      "headingPrefix": "Vận hành Agent của bạn với",
+      "subtitle": "Triển khai Cluega Agent vào IM của bạn — dù bạn ở đâu, nhiệm vụ vẫn ở đó.",
+      "primaryCta": "Triển khai ngay →",
+      "secondaryCta": "Đặt lịch Demo"
+    }
+  }
+}

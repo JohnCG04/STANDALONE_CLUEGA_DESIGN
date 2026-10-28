@@ -1,0 +1,353 @@
+{
+  "careers": {
+    "meta": {
+      "title": "招賢納士 / 職業機會 | Cluega",
+      "description": "加入 Cluega，與我們一起打造定義下一代 AI 行銷的團隊。查看跨地區的開放職位、福利與團隊文化。"
+    },
+    "hero": {
+      "eyebrow": "招賢納士 / 職業機會",
+      "title": "我們重新定義 AI 驅動營銷的未來",
+      "subtitle": "加入正在構建全球首個 Outcome-as-a-Service 廣告智能平台的核心團隊",
+      "cta": "查看開放職位"
+    },
+    "mission": {
+      "eyebrow": "我們的使命",
+      "statement": "打造 AI 原生的全鏈路行銷作業系統，讓品牌從「為工具付費」跨越為「為結果買單」",
+      "body1": "Cluega AI 是全球首個以結果為導向的廣告決策平台（AdOS）。我們率先在營銷領域引入 Model Context Protocol（MCP），讓洞察、創意、投放、歸因從繁瑣的人工操作進化為秒級自動決策。",
+      "body2": "我們以越南胡志明市為研發根基，在東南亞、大中華區、歐洲、北美同步布局商務團隊，共同構建下一代全球營銷基礎設施。",
+      "stats": {
+        "gmv": {
+          "value": "$800M+",
+          "label": "年管理廣告流水目標 GMV"
+        },
+        "engineers": {
+          "value": "300+",
+          "label": "胡志明市技術中心工程師"
+        },
+        "regions": {
+          "value": "4大洲",
+          "label": "全球業務覆蓋區域"
+        },
+        "experience": {
+          "value": "14年",
+          "label": "核心團隊數字營銷積累"
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "我們的福利",
+      "items": {
+        "pay": {
+          "name": "具競爭力薪酬 + 期權",
+          "description": "與全球同階段 AI 公司對標的薪資結構，早期員工享有可觀期權激勵，按各地市場基准定薪。"
+        },
+        "globalVision": {
+          "name": "全球化視野 & 出差機會",
+          "description": "參與 GDC、Gamescom、Affiliate World 等全球頂級展會，直接對接歐美亞太核心品牌與媒體代理商。"
+        },
+        "growth": {
+          "name": "快速成長通道",
+          "description": "成果驅動而非資歷晉升。在 AdOS 賽道的第一梯隊公司，你的影響力就是你的發展速度。"
+        },
+        "aiTech": {
+          "name": "前沿 AI 技術環境",
+          "description": "全公司 MCP 協議架構，率先接觸營銷賽道最前沿的大模型應用：素材生成、投放自動化、歸因建模。"
+        },
+        "localCare": {
+          "name": "本地化員工關懷",
+          "description": "按所在地提供差異化福利：胡志明市 Grade A 辦公室 + 餐補；歐美地區彈性遠程 + 健康津貼。"
+        },
+        "learning": {
+          "name": "學習型組織文化",
+          "description": "定期跨國技術分享與 AI 工具培訓；Dogclaw 歸因模型等核心創新由內部孵化，鼓勵每人做真正的問題解決者。"
+        }
+      }
+    },
+    "roles": {
+      "title": "我們正在全球範圍內尋找同頻的人",
+      "subtitle": "加入 Cluega AI，在 AdOS 賽道的黃金窗口期成為定義者，而非追隨者",
+      "tableNote": "表格說明：研發基地 = 越南胡志明市為主 + 當地分部少量；全球商務/本地分部 = 各區商務銷售本地化",
+      "empty": "沒有符合條件的職位，換個篩選條件試試。",
+      "allDepartments": "所有部門",
+      "allLocations": "所有地區",
+      "columns": {
+        "position": "職位",
+        "rdBase": "研發基地",
+        "globalLocal": "全球商務/本地分部"
+      },
+      "groups": {
+        "aiProduct": {
+          "title": "AI 產品 & 策略",
+          "items": {
+            "aiPm": {
+              "title": "AI 產品經理 — AdOS 平台",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "新加坡 · 香港 · 紐約（遠程）"
+            },
+            "marketingStrategist": {
+              "title": "行銷 AI 策略師",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "上海 · 吉隆坡 · 倫敦（遠程）"
+            },
+            "promptEngineer": {
+              "title": "Prompt 工程師 / LLM 應用工程師",
+              "rdBase": "胡志明市（主）+ 各分部少量",
+              "globalLocal": "全遠程可"
+            }
+          }
+        },
+        "engineering": {
+          "title": "技術工程",
+          "items": {
+            "backend": {
+              "title": "後端工程師 — AI Agent 系統",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "倫敦 · 紐約 少量本地研發"
+            },
+            "fullstack": {
+              "title": "全棧工程師 — 廣告投放平台",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "上海 · 台北 少量本地研發"
+            },
+            "dataEngineer": {
+              "title": "數據工程師 — CDP 用戶數據平台",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "新加坡 少量本地研發"
+            },
+            "mcpEngineer": {
+              "title": "MCP 協議集成工程師",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "各分部均可配置"
+            },
+            "complianceEngineer": {
+              "title": "合規工程師 — GDPR/數據安全",
+              "rdBase": "胡志明市 協作",
+              "globalLocal": "倫敦（必選）· 紐約 本地研發"
+            }
+          }
+        },
+        "dataScience": {
+          "title": "數據科學 & 歸因",
+          "items": {
+            "attributionScientist": {
+              "title": "廣告歸因科學家 — Dogclaw 模型",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "香港 · 紐約 遠程協作"
+            },
+            "mlEngineer": {
+              "title": "機器學習工程師 — 行銷模型",
+              "rdBase": "胡志明市（主）+ 多倫多 少量",
+              "globalLocal": "全遠程可"
+            },
+            "biAnalyst": {
+              "title": "商業智能分析師",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "上海 · 台北 · 吉隆坡"
+            }
+          }
+        },
+        "business": {
+          "title": "全球商務拓展",
+          "items": {
+            "salesDirector": {
+              "title": "全球銷售總監 — 歐美市場",
+              "rdBase": "",
+              "globalLocal": "紐約 · 倫敦（本地）"
+            },
+            "accountManager": {
+              "title": "大客戶經理 — 媒體代理商",
+              "rdBase": "",
+              "globalLocal": "吉隆坡 · 上海 · 倫敦（本地）"
+            },
+            "bdManager": {
+              "title": "商務拓展經理 — 亞太品牌直客",
+              "rdBase": "",
+              "globalLocal": "新加坡 · 香港 · 台北（本地）"
+            },
+            "partnerManager": {
+              "title": "合作夥伴經理 — TikTok MMT",
+              "rdBase": "",
+              "globalLocal": "胡志明市 · 吉隆坡 · 上海（本地）"
+            },
+            "greaterChinaSales": {
+              "title": "大中華區銷售經理",
+              "rdBase": "",
+              "globalLocal": "上海 · 香港（本地）"
+            },
+            "naCustomerSuccess": {
+              "title": "北美區客戶成功經理",
+              "rdBase": "",
+              "globalLocal": "紐約 · 多倫多（本地）"
+            }
+          }
+        },
+        "creative": {
+          "title": "創意 & 設計",
+          "items": {
+            "creativeStrategist": {
+              "title": "AI 創意策略師 (AI Creative Strategist)",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "台北 · 倫敦 遠程"
+            },
+            "uxDesigner": {
+              "title": "品牌 & UX 設計師 (Brand & UX Designer)",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "各地遠程可"
+            }
+          }
+        },
+        "marketing": {
+          "title": "行銷 & 增長",
+          "items": {
+            "cmo": {
+              "title": "全球行銷負責人 / CMO",
+              "rdBase": "胡志明市 或 遠程",
+              "globalLocal": "新加坡 · 紐約（優先）"
+            },
+            "overseasMarketing": {
+              "title": "出海行銷經理 — KOL/KOC 運營",
+              "rdBase": "胡志明市（主）",
+              "globalLocal": "上海 · 台北 遠程"
+            },
+            "contentSeo": {
+              "title": "歐美市場內容行銷 & SEO",
+              "rdBase": "",
+              "globalLocal": "倫敦 · 紐約 本地"
+            },
+            "greaterChinaContent": {
+              "title": "大中華區內容行銷",
+              "rdBase": "",
+              "globalLocal": "上海 · 台北 本地"
+            }
+          }
+        }
+      },
+      "callout": {
+        "title": "沒有找到匹配的職位？",
+        "description": "無論你在哪裡，只要你在意結果、熱愛技術、有全球化視野——我們都想認識你。主動告訴我們你是誰。",
+        "cta": "主動投遞簡歷"
+      }
+    },
+    "places": {
+      "hcmc": "胡志明市",
+      "kl": "吉隆坡",
+      "sg": "新加坡",
+      "sh": "上海",
+      "hk": "香港",
+      "tw": "台北",
+      "london": "倫敦",
+      "berlin": "柏林",
+      "nyc": "紐約",
+      "la": "洛杉磯",
+      "toronto": "多倫多",
+      "remote": "遠程"
+    },
+    "global": {
+      "title": "我們的根在亞洲，我們的舞台在全球",
+      "subtitle": "無論你在胡志明市、上海、倫敦還是紐約，你都在同一個使命下工作——用 AI 重新定義全球品牌的廣告決策方式。",
+      "stats": {
+        "engineers": {
+          "value": "300+",
+          "label": "胡志明市核心技術中心"
+        },
+        "offices": {
+          "value": "4大洲9城",
+          "label": "全球辦公室布局"
+        },
+        "customers": {
+          "value": "100+",
+          "label": "服務全球核心品牌客戶"
+        },
+        "experience": {
+          "value": "14年",
+          "label": "核心團隊行業積累"
+        }
+      },
+      "photosAlt": "Cluega 團隊合照",
+      "locationsEyebrow": "我們的辦公室",
+      "locationsTitle": "根扎亞洲，戰略全球",
+      "locationsSubtitle": "越南是我們的研發心臟，全球是我們的市場舞台。我們在4大洲構建本地化團隊，將 AdOS 技術能力嵌入每一個核心廣告市場",
+      "estPrefix": "成立於",
+      "locations": {
+        "hcmc": {
+          "name": "胡志明市",
+          "role": "全球研發總部 · 產品 · AI 工程 · 平台架構",
+          "headcount": "主力 300+ 工程師"
+        },
+        "kl": {
+          "name": "吉隆坡",
+          "role": "商務拓展 · 客戶成功 · 少量本地研發（合規/集成）",
+          "headcount": "20–40 人"
+        },
+        "sg": {
+          "name": "新加坡",
+          "role": "區域 HQ · 金融/企業客戶對接 · 合規註冊實體",
+          "headcount": "10–20 人"
+        },
+        "sh": {
+          "name": "上海 / 香港",
+          "role": "大陸品牌客戶 BD · 媒體代理商合作 · 少量研發（中國區平台集成）",
+          "headcount": "20–40 人"
+        },
+        "tw": {
+          "name": "台北",
+          "role": "創意技術 · 內容營銷 · 出海品牌服務",
+          "headcount": "10–20 人"
+        },
+        "london": {
+          "name": "倫敦",
+          "role": "歐洲區總部 · 媒體代理商 BD · 本地研發（GDPR 合規）",
+          "headcount": "20–30 人"
+        },
+        "berlin": {
+          "name": "柏林",
+          "role": "遊戲/電商客戶拓展 · Gamescom 展會據點",
+          "headcount": "5–15 人"
+        },
+        "nyc": {
+          "name": "紐約",
+          "role": "北美區總部 · 大品牌直客 · 媒體代理 · 少量本地研發",
+          "headcount": "20–40 人"
+        },
+        "la": {
+          "name": "洛杉磯",
+          "role": "北美區總部 · 大品牌直客 · 媒體代理 · 少量本地研發",
+          "headcount": "20–40 人"
+        },
+        "toronto": {
+          "name": "多倫多",
+          "role": "北美溢出市場 · 技術人才補充",
+          "headcount": "5–15 人"
+        }
+      }
+    },
+    "values": {
+      "title": "在 Cluega，我們這樣踐行",
+      "subtitle": "指引我們跨越地區、驅動全球化增長的核心價值觀。",
+      "items": {
+        "results": {
+          "name": "結果即一切",
+          "description": "我們不收工具費，我們讓品牌為成果買單。每一個決策都指向可量化的增長，而非流程的完成——無論你在哪個城市工作。"
+        },
+        "speed": {
+          "name": "速度即競爭力",
+          "description": "從洞察到投放的秒級自動決策是我們的核心承諾。在 AdOS 賽道，先行者定義規則，我們要在每一個市場都先一步。"
+        },
+        "globalLocal": {
+          "name": "全球思維，本地執行",
+          "description": "以東南亞為研發根基，以歐美亞太為市場舞台。跨文化協作是我們每天的日常——我們相信最好的答案來自多樣視角。"
+        }
+      }
+    },
+    "ecosystem": {
+      "title": "我們的生態合作夥伴",
+      "subtitle": "串聯廣告渠道、電商數據、即時通訊觸點與前沿 AI 模型，構成 Cluega 的增長作業生態。",
+      "gridLabel": "Cluega 生態合作夥伴標識"
+    },
+    "cta": {
+      "title": "準備好和我們一起打造了嗎？",
+      "subtitle": "瀏覽開放職位，找到屬於你的位置。",
+      "button": "查看開放職位"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "platformVisualDesign": {
+    "hero": {
+      "label": "The creative canvas where intelligence converges",
+      "title": "Let creation keep pace with thought.",
+      "lead": "Cluega is a boundless, free-form canvas. Here, frontier AI models, layer control, and team collaboration blend seamlessly into one. From concept generation and remixing variations to fine detail refinement — it all happens in the same place.",
+      "ctaPrimary": "Try it now",
+      "ctaSecondary": "Contact us"
+    },
+    "features": {
+      "items": {
+        "b1": {
+          "title": "Boundless workspace",
+          "body": "Every asset laid out flat and in plain view — the end of folder hell where files go missing. Zoom out to take in the whole project at a glance, or zoom straight in to pixel-level detail in an instant."
+        },
+        "b2": {
+          "title": "Switch freely across every modality",
+          "body": "On any single canvas node, switch seamlessly between image, video, and upscale models at any time — without breaking your creative flow or ever leaving the page."
+        },
+        "b3": {
+          "title": "Real-time online collaboration",
+          "body": "Live teammate cursors, instant comment feedback, and parallel generation. You and your whole team spark ideas together, in sync, on the same creative surface."
+        }
+      }
+    },
+    "techniques": {
+      "eyebrow": "Workflow Library",
+      "title": "Put proven visual workflows to work instantly",
+      "lead": "Cluega Workflows are reusable production lines built by Cluega and top creators worldwide. Find a template that fits your project and run it directly, or open it in your canvas to fine-tune in one click.",
+      "cta": "Explore more workflows ↗"
+    },
+    "modelStrip": {
+      "label": "One workspace, every leading model in the world"
+    },
+    "blocks": {
+      "remix": {
+        "title": "AI Visual Precision Compositing",
+        "lead": "Using Image-to-Image technology, it precisely reads lighting and structure to seamlessly blend the product into the scene, producing high-quality imagery."
+      },
+      "stills": {
+        "title": "Visual Production at Scale",
+        "lead": "With structured workflows, you can run matrix-style batch generation across multiple products, compressing weeks of image production into minutes for rapid, high-quality output."
+      }
+    },
+    "adDataCore": {
+      "title": "An AI creation core with advertising big data built in",
+      "lead": "Every time you generate an asset, the system retrieves viral hits and trending topics in real time behind the scenes — injecting “viral conversion logic” straight into your copy, assets, and videos.",
+      "userMessage": "I want to generate TikTok ad creative for a summer oil-control serum.",
+      "aiResponse1": "Got it! Launching 【Viral Database Lookup】...",
+      "retrieval": {
+        "heading": "Querying big data...",
+        "connect": "Connecting to the TikTok ad big-data warehouse",
+        "tagsLabel": "Locked onto trending beauty tags:",
+        "tags": ["#SummerOilControl", "#NoMeltdown", "#OilfieldSkin"],
+        "decode": "Deconstructing the Skill logic behind Top 1% viral copy...",
+        "inject": "Viral DNA successfully injected into the assets!"
+      },
+      "aiResponse2": "Your ad creative is ready! This time we injected the viral Skills of “pain-point punch” and “golden first 3 seconds.”",
+      "results": {
+        "script": {
+          "title": "Summer Oil-Control Serum Ad Script",
+          "note": "Injected: big-data Top 1% viral Hook"
+        },
+        "video": {
+          "title": "Summer Oil-Control Serum Ad Video",
+          "note": "Injected: high-CTR trending visual elements"
+        }
+      },
+      "downloadButton": "Confirm download (2)"
+    },
+    "chat": {
+      "eyebrow": "Chat to create",
+      "title": "Describe your idea — leave the rest to Cluega.",
+      "lead": "Give the AI complex instructions directly in plain language. Cluega automatically plans the execution path, selects the best-fit model, and renders the result straight onto your canvas — no fiddly parameters to tweak."
+    },
+    "gallery": {
+      "title": "Made on Cluega",
+      "cta": "Start creating →"
+    },
+    "modelLibrary": {
+      "eyebrow": "The model library",
+      "title": "Every leading model in the world, orchestrated freely anytime, anywhere.",
+      "lead": "Say goodbye to juggling subscriptions across platforms. From image generation to motion editing, switch core models freely right on the canvas — keeping your creative flow in one seamless take."
+    },
+    "howItWorks": {
+      "title": "From the first spark to the final shot.",
+      "lead": "No fiddly steps, no long waits. Just type your idea straight onto the canvas and fine-tune whenever you like — Cluega handles the shot transitions and the finishing details for you.",
+      "steps": {
+        "s1": { "title": "Start creating", "body": "Sketch anywhere on the canvas. A description, a style reference image, or a local file — any of them can be your starting point." },
+        "s2": { "title": "Refine freely", "body": "Wire up nodes to restyle, edit locally, animate, or upscale. Every edit stays intuitive and visible, and you can redo it anytime." },
+        "s3": { "title": "Export and collaborate", "body": "Export the high-resolution final in one click; need to collaborate? Just share the canvas link so your team connects seamlessly in the same workspace." }
+      }
+    },
+    "videoPipeline": {
+      "eyebrow": "Smart storyboard",
+      "title": "Let your idea auto-expand into a coherent storyboard.",
+      "lead": "Enter your creative concept and Cluega proactively organizes it into a logical visual storyline. From style setup and shot layout to the final cut, the whole production line lays out flat and in plain view — no heavy lifting required, just fine-tune on the canvas whenever you like.",
+      "promptText": "A 30-second minimalist ad showcasing smart noise-cancelling headphones. Set in a white, minimalist home space with soft natural light, emphasizing calm and premium texture.",
+      "assetsFooter": "4 reference assets",
+      "storyboardFooter": "3 shots",
+      "videoFooter": "1080p · 4:3 · no watermark"
+    },
+    "editInPlace": {
+      "eyebrow": "Edit in place",
+      "title": "Pinpoint precisely, reshape locally.",
+      "lead": "Mark a control point at the exact spot you want to change, type your edit, and Cluega precisely regenerates just that region — right on the canvas, with no need to regenerate the whole image.",
+      "steps": {
+        "s1": { "title": "Mark the spot to edit", "body": "Click the exact area of the image you want to adjust." },
+        "s2": { "title": "Type a specific instruction", "body": "Describe your edit precisely in text — e.g. “add a brand logo” or “change the background to light gray-blue”." },
+        "s3": { "title": "Finish the local regenerate", "body": "Cluega regenerates in place at the chosen spot, keeping every other element of the image perfectly intact." }
+      }
+    },
+    "engines": {
+      "label": "AI engines",
+      "title": "The most powerful AI engines, unified under one layer.",
+      "desc": "Cluega owns and orchestrates 20+ leading models — Nano Banana, GPT-Image, Gen-4.5, and more. You never pick one.",
+      "cards": {
+        "nano": { "desc": "High-fidelity image generation & editing, perfectly on-brand." },
+        "gpt": { "desc": "Auto-routes between models — you never have to choose." },
+        "video": { "desc": "Ad video with real motion & feed-ready pacing." }
+      },
+      "moreModels": "+ and 20+ more models in the system"
+    },
+    "capabilities": {
+      "label": "Core capabilities",
+      "title": "Seven capabilities, one system.",
+      "desc": "Everything an image tool doesn't have: intelligence from winning data, self-routing, self-checking quality.",
+      "items": {
+        "c41": {
+          "heading": "Trained on what's already winning.",
+          "body": "Cluega reads the TikTok Ads database and pulls the CTR Top 1% creatives in your category. A three-stage retrieval funnel distills the winning “visual DNA.” Every asset starts from proven performance."
+        },
+        "c42": {
+          "heading": "You never pick a model again.",
+          "body": "Cluega reads the task and automatically selects and switches between the right models for the best result at the right cost."
+        },
+        "c43": {
+          "heading": "Models that understand your industry.",
+          "body": "Specialized stacks tuned per vertical — Game, Ecommerce, SaaS — so output speaks your market's language from the first generation."
+        },
+        "c44": {
+          "heading": "Every asset is checked before you see it.",
+          "body": "A closed Plan-Act-Check-Reflect loop verifies OCR, geometry, and color, locates defects, and repairs them in place. Up to three passes."
+        },
+        "c45": {
+          "heading": "Switch models. Keep everything.",
+          "body": "Brand Guideline, product, strategy, campaign data, and customer insights travel with every request, through any number of models."
+        },
+        "c46": {
+          "heading": "Every creative makes the next one smarter.",
+          "body": "The insight flywheel learns from creative history, campaign results, and conversion data — and watches competitors and CTR trends."
+        },
+        "c47": {
+          "heading": "Models change weekly. Your workflow shouldn't.",
+          "body": "Cluega is the stable operating layer between you and the entire AI ecosystem — adopt what's new without changing how you work."
+        }
+      }
+    },
+    "steps": {
+      "label": "Orchestration in action",
+      "title": "From brief to campaign-ready, automatically.",
+      "desc": "Describe the goal. Cluega retrieves what wins, routes the models, generates, and checks itself.",
+      "items": {
+        "a": { "title": "Describe the outcome", "body": "A plain-language goal; Cluega plans the asset set." },
+        "b": { "title": "Retrieve · route · generate", "body": "Winning-DNA in, the right models run in sequence." },
+        "c": { "title": "Check · repair · ship", "body": "Auto-QA, in-place repair, export-ready." }
+      }
+    },
+    "spec": {
+      "items": {
+        "s1": { "body": "On-image text matches the brief, renders cleanly." },
+        "s2": { "body": "VLM checks proportions, anatomy, product shape." },
+        "s3": { "body": "Brand-color and gamut validation." },
+        "s4": { "body": "Locate the defect, inpaint in place, re-check." },
+        "s5": { "body": "Max 3 passes, then ship best + flag for review." }
+      }
+    },
+    "lifecycle": {
+      "label": "The AdOS lifecycle",
+      "title": "One operating system, across the whole marketing lifecycle.",
+      "badge": "you are here",
+      "more": "Learn more →",
+      "items": {
+        "l1": { "body": "Read what's winning, from TikTok CTR and competitors." },
+        "l2": { "body": "Generate high-converting image & video assets." },
+        "l3": { "body": "Automate delivery and budget decisions." },
+        "l4": { "body": "Attribute results back to every asset." }
+      }
+    },
+    "trust": {
+      "label": "Security & trust",
+      "title": "Enterprise-grade by default.",
+      "items": {
+        "t1": { "title": "Context never leaks", "body": "Brand, product, and strategy data stay scoped and isolated across every model call." },
+        "t2": { "title": "Nothing lost on switch", "body": "Model changes never drop data, context, or accumulated assets." },
+        "t3": { "title": "Your assets stay yours", "body": "Every generated creative is owned, stored, and reusable as a business knowledge asset." }
+      }
+    },
+    "orchestrationLayer": {
+      "label": "The orchestration layer",
+      "title": "The operating layer between your business and every AI model."
+    },
+    "quotes": {
+      "q1": { "text": "“We stopped managing AI tools and started shipping winning ads. Cluega became the operating system everything runs through.”" },
+      "q2": { "text": "“Same brief, an order-of-magnitude lift in CTR.”" },
+      "q3": { "text": "“Newest model live on day one, zero workflow change.”" }
+    },
+    "stat": {
+      "text": "marketing teams produce winning creative with Cluega — from startups to enterprises."
+    },
+    "closing": {
+      "title": "Built for the future. Available today.",
+      "text": "One operating system. 20+ models. Trained on what wins.",
+      "ctaPrimary": "Get started",
+      "ctaSecondary": "Contact sales"
+    },
+    "finalCta": {
+      "title": "No limits on inspiration — let your next idea run free.",
+      "lead": "Start your free trial now and unlock the entire model lineup.",
+      "ctaPrimary": "Try it now",
+      "ctaSecondary": "Contact sales"
+    }
+  }
+}

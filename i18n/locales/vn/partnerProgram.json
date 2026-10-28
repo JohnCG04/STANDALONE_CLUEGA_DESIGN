@@ -1,0 +1,224 @@
+{
+  "partnerProgram": {
+    "meta": {
+      "title": "Chương trình Đối tác Cluega AI | Cluega",
+      "description": "Chương trình đối tác bản địa toàn cầu của Cluega: chúng tôi đang tuyển các công ty marketing bản địa, đối tác phân phối phần mềm / công nghệ, cùng các đối tác giới thiệu cá nhân, để cùng nhau đưa việc chạy quảng cáo bằng AI vào thị trường của bạn."
+    },
+    "hero": {
+      "pill": "Đang tuyển đối tác bản địa toàn cầu",
+      "title": "Chương trình Đối tác Cluega AI",
+      "subhead": "Chúng tôi đang tuyển các công ty marketing bản địa, đối tác phân phối phần mềm / công nghệ, cùng các đối tác giới thiệu cá nhân, để cùng nhau đưa việc chạy quảng cáo bằng AI vào thị trường của bạn.",
+      "applyCta": "Đăng ký làm đối tác",
+      "secondaryCta": "Xem các loại đối tác"
+    },
+    "stats": {
+      "items": {
+        "models": { "num": "400+", "label": "mô hình tích hợp sẵn · định tuyến Auto" },
+        "billing": { "num": "Tính phí kép", "label": "Tín dụng + hoa hồng vận hành trọn gói" },
+        "attribution": { "num": "Quy gán IM", "label": "vd. WhatsApp · hào bảo vệ bản địa" },
+        "engine": { "num": "M0–M5 · T0–T3", "label": "Engine ủy quyền AAIGS" }
+      }
+    },
+    "about": {
+      "title": "Về Cluega AI",
+      "body": "Cluega AI là ứng dụng marketing «dùng AI để chạy quảng cáo, dùng AI để tạo nội dung». Bạn không phải tự thiết kế ảnh, dựng video hay canh bảng điều khiển — AI tự tạo nội dung quảng cáo (ảnh, video, bài viết) và tự chủ ra các quyết định vận hành: đấu giá, ngân sách, tệp đối tượng và bật/tắt. Bên trong tích hợp sẵn hơn 400+ mô hình + định tuyến Auto tự chọn phương án tối ưu chi phí, kết hợp cơ chế tính phí kép «tín dụng (tự phục vụ) + hoa hồng vận hành trọn gói (theo hiệu quả)», và xây nên hào bảo vệ bản địa bằng quy gán private-domain qua IM (như WhatsApp) cùng engine ủy quyền AAIGS (độ trưởng thành tài khoản M0–M5, bậc ủy quyền T0–T3)."
+    },
+    "why": {
+      "eyebrow": "Vì sao hợp tác với Cluega",
+      "title": "Dễ bán hơn, dễ bàn giao hơn, kiếm được nhiều hơn",
+      "cards": {
+        "turnkey": {
+          "title": "AI chạy quảng cáo + tạo nội dung, dùng ngay",
+          "body": "AI tự làm ảnh, dựng video, viết nội dung và tự chủ chạy quảng cáo; hơn 400+ mô hình tích hợp sẵn, định tuyến Auto tự chọn phương án tối ưu chi phí, không cần cấu hình, không cần tự mang API — trong khi đối thủ chỉ có một mô hình BYO duy nhất, bạn bán được ngay từ ngày đầu."
+        },
+        "billing": {
+          "title": "Tính phí gắn với hiệu quả",
+          "body": "Kép giữa tín dụng + hoa hồng vận hành trọn gói; khách hàng giao tài khoản cho AI tự chạy, chỉ trả tiền theo hiệu quả — rẻ hơn cả một cấp độ so với agency truyền thống, dễ chào, dễ chốt."
+        },
+        "moat": {
+          "title": "Hào bảo vệ bản địa",
+          "body": "Quy gán private-domain qua IM nhìn thấy những giao dịch mà pixel của nền tảng không thấy; lớp vận hành AI tuân thủ được thiết kế riêng cho thị trường bản địa — khác biệt về cấu trúc mà các công cụ phương Tây không làm được."
+        }
+      }
+    },
+    "types": {
+      "title": "Ba loại đối tác",
+      "intro": "Dù bạn là agency bản địa, nhà phân phối phần mềm, hay một cá nhân có tệp khách hàng, đều có một hướng đi phù hợp.",
+      "cards": {
+        "agency": {
+          "tag": "Đối tác Giải pháp",
+          "name": "Agency Marketing / Chạy quảng cáo bản địa",
+          "who": "Phù hợp: agency performance, media buyer, đội chạy quảng cáo thương mại điện tử",
+          "body": "Dùng Cluega để AI tự tạo nội dung và chạy quảng cáo cho nhiều khách hàng, mở rộng năng lực bàn giao bằng AI, và hưởng mức chia sẻ doanh thu cạnh tranh."
+        },
+        "tech": {
+          "tag": "Đối tác Công nghệ",
+          "name": "Nhà phân phối phần mềm & Đối tác công nghệ",
+          "who": "Phù hợp: nhà phân phối SaaS, đại lý phần mềm, tích hợp hệ thống, phát triển connector",
+          "body": "Phân phối license Cluega gắn vào sản phẩm sẵn có, cùng xây connector qua MCP tùy chỉnh, và tham gia chia lợi nhuận các dự án Skill tùy chỉnh / lưu trữ."
+        },
+        "referral": {
+          "tag": "Đối tác Giới thiệu",
+          "name": "Cá nhân / Đối tác giới thiệu",
+          "who": "Phù hợp: cố vấn, freelancer, KOL, người dẫn dắt cộng đồng",
+          "body": "Giới thiệu khách hàng là hưởng ngay mức chia thường xuyên, không cần đội kỹ thuật hay chi phí ban đầu, được cấp link riêng, tài nguyên và công cụ theo dõi."
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Quyền lợi đối tác",
+      "title": "Thắng · Bàn giao · Tăng trưởng",
+      "groups": {
+        "win": {
+          "k": "Thắng",
+          "items": [
+            "Dòng cơ hội đủ điều kiện & hỗ trợ bán hàng chung",
+            "Tài nguyên và kịch bản bán hàng bản địa hóa",
+            "Có thể trao đổi về độc quyền thị trường",
+            "Tài khoản demo & công cụ tính ROI để thuyết phục khách ngay tại chỗ"
+          ]
+        },
+        "deliver": {
+          "k": "Bàn giao",
+          "items": [
+            "Nội dung quảng cáo do AI tạo (ảnh/video/bài viết) + chạy tự chủ trọn gói, bao trọn chi phí quá trình",
+            "Hơn 400+ mô hình tích hợp sẵn · định tuyến Auto",
+            "Engine ủy quyền AAIGS (giao quyền có kiểm soát rủi ro + bánh đà dữ liệu)",
+            "Hỗ trợ kỹ thuật ưu tiên & kênh Lark / Slack riêng + SLA"
+          ]
+        },
+        "grow": {
+          "k": "Tăng trưởng",
+          "items": [
+            "Mức chia sẻ doanh thu thường xuyên cạnh tranh",
+            "Marketing chung & xuất hiện trong danh bạ đối tác",
+            "Tài nguyên customer success & hỗ trợ CSM",
+            "Dự án biên lợi nhuận cao: Skill tùy chỉnh / lưu trữ riêng"
+          ]
+        }
+      }
+    },
+    "model": {
+      "title": "Cách bạn kiếm tiền",
+      "intro": "Ba dòng doanh thu, thương lượng theo vai trò, quy mô và khối lượng vận hành. Nguyên tắc cốt lõi: khách hàng dùng càng sâu, khối lượng vận hành càng lớn, bạn kiếm càng nhiều.",
+      "cards": {
+        "subscription": {
+          "h": "Chia sẻ phân phối gói thuê bao",
+          "nature": "Thường xuyên · thương lượng",
+          "body": "Chia sẻ thường xuyên trên các gói thuê bao hằng tháng (theo tín dụng) mà bạn phân phối — khách hàng gia hạn thì bạn tiếp tục có thu nhập."
+        },
+        "managed": {
+          "h": "Chia sẻ hiệu quả vận hành trọn gói",
+          "nature": "Tăng theo chi tiêu",
+          "body": "Tính theo «chi tiêu quảng cáo × hoa hồng»; mức chia tăng theo quy mô vận hành; với khách hàng vẫn thấp hơn nhiều so với agency truyền thống."
+        },
+        "project": {
+          "h": "Chia lợi nhuận dự án",
+          "nature": "Một lần · biên cao",
+          "body": "Chia lợi nhuận một lần cho các dự án Skill tùy chỉnh doanh nghiệp (bàn giao là mua đứt) và triển khai lưu trữ riêng."
+        }
+      },
+      "note": "Các bậc chia sẻ cụ thể không công bố ra ngoài; phương án đầy đủ được cung cấp trong buổi trao đổi đối tác sau khi bạn đăng ký."
+    },
+    "eligibility": {
+      "title": "Điều kiện đối tác",
+      "intro": "Đạt các điều kiện dưới đây là có thể đăng ký; chúng tôi coi trọng năng lực thực tế và mức phù hợp thị trường hơn là quy mô — đối tác giới thiệu cá nhân có ngưỡng thấp nhất.",
+      "cards": {
+        "solution": {
+          "name": "Đối tác Giải pháp",
+          "req": "Công ty hoặc đội marketing / chạy quảng cáo đăng ký hợp pháp tại bản địa; có kinh nghiệm quảng cáo số thực tế với khách hàng đang hoạt động (gợi ý ≥ 3 tài khoản quảng cáo đang hoạt động hoặc chi tiêu hằng tháng ổn định); có năng lực phục vụ nhiều khách hàng; và hoàn thành chứng nhận nền tảng Cluega."
+        },
+        "technology": {
+          "name": "Đối tác Công nghệ",
+          "req": "Có năng lực phát triển hoặc phân phối phần mềm, cùng sản phẩm hoặc tệp khách hàng có thể tích hợp với nền tảng; sẵn sàng tích hợp qua connector MCP tùy chỉnh / API; và vượt qua đánh giá kỹ thuật cùng bảo mật của Cluega."
+        },
+        "referral": {
+          "name": "Đối tác Giới thiệu",
+          "req": "Có mạng lưới khách hàng hoặc sức ảnh hưởng tại thị trường mục tiêu (cố vấn, freelancer, KOL, người dẫn dắt cộng đồng); không cần năng lực kỹ thuật hay chi phí ban đầu; đồng ý điều khoản giới thiệu và dùng link theo dõi riêng."
+        }
+      },
+      "common": {
+        "label": "Điều kiện chung",
+        "body": "Ký thỏa thuận hợp tác và tuân thủ quy định dữ liệu bản địa (PDPL / lưu trú dữ liệu); chỉ định đầu mối phụ trách; và đồng thuận với nguyên tắc lấy hiệu quả làm trọng, tuân thủ làm đầu của Cluega."
+      }
+    },
+    "how": {
+      "title": "Quy trình tham gia",
+      "steps": {
+        "apply": { "name": "Đăng ký", "body": "Điền biểu mẫu đăng ký, mô tả thị trường, tệp khách hàng và loại đối tác của bạn." },
+        "evaluate": { "name": "Đánh giá & kích hoạt", "body": "Trao đổi 30 phút; chúng tôi mở sandbox, tài nguyên hỗ trợ và phương án đối tác." },
+        "launch": { "name": "Cùng lên sóng", "body": "Đưa nhóm khách hàng đầu tiên vào, bán và bàn giao chung, chúng tôi sát cánh hỗ trợ." },
+        "grow": { "name": "Tăng trưởng & chia lợi nhuận", "body": "Khối lượng vận hành mở rộng thì mức chia tăng theo; định kỳ rà soát tối ưu." }
+      }
+    },
+    "fit": {
+      "title": "Dành cho ai",
+      "items": [
+        "Bạn có khách hàng bản địa và kinh nghiệm chạy quảng cáo tại chính thị trường của mình.",
+        "Bạn phục vụ khách hàng thương mại điện tử, thương hiệu hoặc performance, hiểu rõ cuộc chơi hiệu quả.",
+        "Bạn muốn dùng AI để tự tạo nội dung và chạy quảng cáo, mở rộng năng lực bàn giao, nhưng không muốn tự xây mô hình và hạ tầng.",
+        "Bạn coi trọng việc tuân thủ bản địa và các giao dịch qua private-domain IM (như WhatsApp)."
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "items": {
+        "q1": {
+          "q": "Tôi có cần tự chuẩn bị mô hình hay API không?",
+          "a": "Không cần. Cluega đã tích hợp sẵn hơn 400+ mô hình cùng định tuyến Auto, dùng ngay; cả bạn lẫn khách hàng đều không phải tự mang API."
+        },
+        "q2": {
+          "q": "Hỗ trợ những thị trường và quốc gia nào?",
+          "a": "Hướng đến toàn cầu. Quy gán private-domain qua IM và lớp vận hành tuân thủ đều được thiết kế cho thị trường bản địa, có thể cấu hình theo thị trường của bạn; chúng tôi liên tục hợp tác với đối tác bản địa ở nhiều quốc gia, mở rộng thị trường dần dần, hoan nghênh trao đổi."
+        },
+        "q3": {
+          "q": "Tôi không có đội kỹ thuật, có thể tham gia không?",
+          "a": "Có. Đối tác cá nhân / giới thiệu không cần bất kỳ năng lực kỹ thuật nào — bạn giới thiệu khách hàng, chúng tôi lo bàn giao và hỗ trợ."
+        },
+        "q4": {
+          "q": "Lợi nhuận được tính như thế nào?",
+          "a": "Ba dòng doanh thu thương lượng theo vai trò, quy mô và khối lượng vận hành; các bậc cụ thể không công bố ra ngoài, phương án đầy đủ được cung cấp trong buổi trao đổi đối tác sau khi bạn đăng ký."
+        },
+        "q5": {
+          "q": "Khách hàng do tôi đưa vào, dữ liệu thuộc về ai?",
+          "a": "Khách hàng do đối tác đưa vào thuộc về đối tác; có sẵn triển khai ClickHouse riêng và lưu trú dữ liệu tại bản địa, hỗ trợ tuân thủ như PDPL."
+        }
+      }
+    },
+    "apply": {
+      "title": "Đăng ký & liên hệ",
+      "intro": "Sẵn sàng cùng nhau làm lớn hiệu quả chưa? Điền đăng ký trực tuyến, hoặc gửi email trực tiếp, chúng tôi sẽ liên hệ trong vòng 2 ngày làm việc để sắp xếp buổi trao đổi đối tác 30 phút.",
+      "form": {
+        "name": "Họ và tên",
+        "namePh": "Tên của bạn",
+        "company": "Công ty / thương hiệu",
+        "companyPh": "Tên công ty (cá nhân có thể để trống)",
+        "email": "Email",
+        "emailPh": "you@company.com",
+        "market": "Thị trường / quốc gia",
+        "marketPh": "Thị trường / quốc gia bạn phục vụ",
+        "type": "Loại đối tác",
+        "typeOptions": {
+          "agency": "Agency marketing / chạy quảng cáo bản địa",
+          "tech": "Nhà phân phối phần mềm / đối tác công nghệ",
+          "referral": "Cá nhân / đối tác giới thiệu"
+        },
+        "scale": "Tệp khách hàng / ngân sách quảng cáo hằng tháng",
+        "scalePh": "vd. 20 khách hàng TMĐT · chi tiêu $80K/tháng",
+        "message": "Điều bạn muốn cho chúng tôi biết",
+        "messagePh": "Tệp khách hàng, công cụ đang dùng, mục tiêu bạn muốn đạt…",
+        "consent": "Khi gửi, bạn đồng ý để Cluega liên hệ về việc hợp tác đối tác. Chúng tôi sẽ không dùng thông tin của bạn cho mục đích nào khác.",
+        "submit": "Gửi đăng ký",
+        "subject": "Đăng ký đối tác Cluega",
+        "error": "Gửi không thành công. Vui lòng thử lại sau, hoặc email trực tiếp cho chúng tôi:"
+      },
+      "done": "✓ Đã nhận được đăng ký của bạn, chúng tôi sẽ liên hệ trong vòng 2 ngày làm việc.",
+      "contact": {
+        "emailLabel": "Email",
+        "email": "partners@cluega.com",
+        "webLabel": "Web",
+        "web": "cluega.com/partners"
+      }
+    }
+  }
+}

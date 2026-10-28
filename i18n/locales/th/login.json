@@ -1,0 +1,81 @@
+{
+  "login": {
+    "welcomeBack": "ยินดีต้อนรับกลับมา",
+    "title": "เข้าสู่ระบบหรือสมัครใช้งาน",
+    "subtitle": "เริ่มสร้างสรรค์ด้วย Cluega",
+    "google": "ดำเนินการต่อด้วย Google",
+    "apple": "ดำเนินการต่อด้วย Apple",
+    "sso": "ดำเนินการต่อด้วย SSO",
+    "or": "หรือ",
+    "emailLabel": "อีเมล",
+    "passwordLabel": "รหัสผ่าน",
+    "emailPlaceholder": "ป้อนอีเมลของคุณ",
+    "passwordPlaceholder": "ป้อนรหัสผ่านของคุณ",
+    "forgotPassword": "ลืมรหัสผ่าน",
+    "forgotPasswordUnavailable": "ยังไม่รองรับการกู้คืนรหัสผ่าน",
+    "signIn": "เข้าสู่ระบบ",
+    "continue": "ดำเนินการต่อ",
+    "showPassword": "แสดงรหัสผ่าน",
+    "hidePassword": "ซ่อนรหัสผ่าน",
+    "comingSoon": "เร็วๆ นี้",
+    "registerPrompt": "ยังไม่มีบัญชีใช่ไหม",
+    "register": "สมัครใช้งาน",
+    "signingIn": "กำลังกลับไปยังแอป...",
+    "signingInWeb": "กำลังเข้าสู่ระบบ...",
+    "loading": "กำลังโหลดหน้าเข้าสู่ระบบ...",
+    "demoHint": "บัญชีทดลอง: demo@cluega.com / cluega-demo",
+    "terms": "ข้อกำหนดการให้บริการ",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "footerFrom": "จาก",
+    "chooseOrganization": "เลือกองค์กร",
+    "chooseOrganizationHint": "เลือกองค์กรที่คุณต้องการเข้าใช้งานต่อ",
+    "chooseOrganizationBack": "ใช้บัญชีอื่น",
+    "errors": {
+      "missingNonce": "ไม่พบ nonce สำหรับการเข้าสู่ระบบ โปรดเปิดหน้านี้จากแอป Cluega บนอุปกรณ์",
+      "unsupportedPlatform": "ไม่รู้จักแพลตฟอร์มของไคลเอนต์ โปรดเข้าสู่ระบบด้วยแอป Cluega ที่รองรับ",
+      "platformNotReady": "ยังไม่เปิดใช้แพลตฟอร์มนี้ ขณะนี้รองรับเฉพาะเดสก์ท็อป ส่วน iOS และ Android จะมาเร็วๆ นี้",
+      "unsupportedFlow": "ไม่รองรับขั้นตอนการเข้าสู่ระบบนี้",
+      "invalidCredentials": "อีเมลหรือรหัสผ่านไม่ถูกต้อง โปรดใช้บัญชีที่ระบบสร้างให้",
+      "loginFailed": "เข้าสู่ระบบไม่ได้ โปรดตรวจสอบว่าเชื่อมต่อ CDP API และ Mid-platform ได้",
+      "organizationChallengeExpired": "การเลือกองค์กรหมดเวลาแล้ว โปรดเข้าสู่ระบบอีกครั้ง",
+      "googleNotSupported": "ยังไม่รองรับการเข้าสู่ระบบด้วย Google โปรดใช้อีเมลและรหัสผ่าน",
+      "captchaRequired": "โปรดผ่านการตรวจสอบความปลอดภัยก่อน",
+      "captchaFailed": "การตรวจสอบความปลอดภัยไม่สำเร็จ โปรดยืนยันอีกครั้งก่อนเข้าสู่ระบบ",
+      "captchaUnavailable": "โหลดการตรวจสอบความปลอดภัยไม่ได้ โปรดโหลดหน้าใหม่หรือปิดตัวบล็อกโฆษณาแล้วลองอีกครั้ง"
+    }
+  },
+  "setupPassword": {
+    "title": "ตั้งรหัสผ่านของคุณ",
+    "subtitle": "เปิดใช้งานบัญชี Cluega ของคุณเพื่อดำเนินการต่อ",
+    "password": "รหัสผ่าน",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "showPassword": "แสดงรหัสผ่าน",
+    "hidePassword": "ซ่อนรหัสผ่าน",
+    "submit": "ตั้งรหัสผ่าน",
+    "submitting": "กำลังเปิดใช้งาน...",
+    "successTitle": "เปิดใช้งานบัญชีแล้ว",
+    "successBody": "ตั้งรหัสผ่านเรียบร้อยแล้ว คุณเข้าสู่ระบบได้แล้ว",
+    "goToLogin": "ไปที่หน้าเข้าสู่ระบบ",
+    "openDesktop": "เปิด Cluega Desktop",
+    "continue": "ดำเนินการต่อ",
+    "errors": {
+      "missingToken": "ไม่พบโทเค็นคำเชิญ",
+      "passwordTooShort": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+      "passwordMismatch": "รหัสผ่านไม่ตรงกัน",
+      "invalidToken": "ลิงก์คำเชิญนี้ไม่ถูกต้องหรือหมดอายุแล้ว",
+      "weakPassword": "รหัสผ่านคาดเดาง่ายเกินไป",
+      "policyRequired": "โปรดอ่านและยอมรับนโยบายทั้งหมดเพื่อดำเนินการต่อ",
+      "unknown": "เปิดใช้งานคำเชิญนี้ไม่ได้"
+    },
+    "policies": {
+      "agree": "ฉันได้อ่านและยอมรับ",
+      "view": "ดู",
+      "hide": "ซ่อน",
+      "types": {
+        "tos": "ข้อกำหนดการให้บริการ",
+        "privacy": "นโยบายความเป็นส่วนตัว",
+        "generic": "นโยบาย"
+      }
+    }
+  }
+}

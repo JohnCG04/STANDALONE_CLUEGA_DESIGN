@@ -1,0 +1,200 @@
+{
+  "platformResources": {
+    "hero": {
+      "badge": "社區",
+      "title": "Cluega 集成了所有營銷技能與提示詞及模型",
+      "subtitle": "提示詞、技能、全託管任務、AI 模型排名——一切你需要的，都在這裡。",
+      "primaryCta": "免費開始使用",
+      "secondaryCta": "了解更多"
+    },
+    "showcase": {
+      "title": "社區裡有你需要的一切。",
+      "subtitle": "解鎖提示詞、技能、全託管任務與模型排名，讓廣告工作直接提速。",
+      "tabs": {
+        "prompts": "提示詞",
+        "skills": "技能",
+        "managed": "全託管",
+        "ranking": "AI 模型排名"
+      },
+      "platformFilters": {
+        "all": "All",
+        "googleAds": "Google Ads",
+        "metaAds": "Meta Ads",
+        "googleAnalytics": "Google Analytics",
+        "searchConsole": "Search Console",
+        "tiktokAds": "TikTok Ads"
+      },
+      "prompts": {
+        "title": "Prompts",
+        "description": "最實用的提示——複製並貼上到 Cluega 中，將方括號 [ ] 內的所有內容替換為您自己的資訊。",
+        "categoryFilters": {
+          "all": "所有類別",
+          "quickAnalysis": "快速分析",
+          "keywords": "關鍵字",
+          "creative": "有創造力的",
+          "costBidding": "費用與投標",
+          "reporting": "報告",
+          "scheduling": "日程安排"
+        },
+        "cards": {
+          "accountHealth": {
+            "platform": "Google Ads",
+            "title": "帳戶健康度審計",
+            "body": "掃描全部廣告帳戶，找出按預估金額影響排序的前5大問題，包含預算損耗、品質分、廣告素材匹配度，並給出每項問題的修復預期收益。"
+          },
+          "weeklyDiagnosis": {
+            "platform": "Meta Ads",
+            "title": "週度診斷",
+            "body": "對比最近7天與前7天各平台廣告表現，找出 ROAS、CPA、CPC 的最大差異項，分析根本原因，區分品牌與非品牌流量。"
+          },
+          "threeOpportunities": {
+            "platform": "Google Ads",
+            "title": "十大機遇",
+            "body": "橫跨 Google + Meta 找出排名前10的優化機會，按預估影響金額排序，每項附具體操作建議與預期改善幅度。"
+          },
+          "negativeKeywords": {
+            "platform": "Google Analytics",
+            "title": "否定關鍵字掃描",
+            "body": "提取近30天搜尋詞報告，找出20個最浪費預算的無效關鍵字，分析轉化偏低的根本原因並給出否定建議清單。"
+          }
+        }
+      },
+      "skills": {
+        "title": "技能",
+        "description": "啟用內建技能，讓 Cluega 在任務中自動運用對應的能力。",
+        "searchPlaceholder": "搜索技能",
+        "filterOfficial": "官方",
+        "bannerTitle": "新增自訂技能",
+        "bannerDescription": "添加技能以解鎖您或團隊的新功能。",
+        "bannerButton": "＋ 新增",
+        "badgeOfficial": "官方認證",
+        "badgeEnabled": "已啟用",
+        "updatedLabel": "更新於 2026年4月23日",
+        "cards": {
+          "tiktok": {
+            "name": "tiktok-ads-generator",
+            "body": "專為 TikTok 打造的高轉化短影音廣告腳本與分鏡生成器。根據產品特點自動輸出吸睛開場、痛點疊加與強烈 CTA，全面提升素材品質。"
+          },
+          "meta": {
+            "name": "meta-creative-matrix",
+            "body": "針對 Meta（Facebook / Instagram）的多組別廣告文案與視覺矩陣規劃工具。支援依受眾熱度自動派生最優文案組合。"
+          },
+          "google": {
+            "name": "google-search-optimizer",
+            "body": "Google 關鍵字搜尋廣告優化專家。自動分析產業競爭度，批量生成高相關性廣告標題與說明，智慧排除低效流量詞。"
+          },
+          "omni": {
+            "name": "omni-ad-brief-compiler",
+            "body": "跨平台廣告素材需求單自動化生成工具。一鍵將產品賣點轉化為符合各平台規格的拍攝指令與設計說明。"
+          }
+        }
+      },
+      "managed": {
+        "title": "託管任務說明",
+        "description": "針對廣告投放、分析與報告場景，挑選對應的全託管技能模組，設定後 AI 7×24 自動執行。",
+        "categoryFilters": {
+          "all": "所有類別",
+          "creativeGen": "素材生成",
+          "audienceInsights": "受眾洞察",
+          "budgetBidding": "預算與出價",
+          "reporting": "報告"
+        },
+        "manageButton": "託管",
+        "manageHint": "點擊【託管】啟動自動執行",
+        "cards": {
+          "highRoas": {
+            "platform": "Meta Ads",
+            "category": "預算與出價",
+            "title": "高 ROAS 自動加價",
+            "body": "監控當日 ROAS 表現，達到 250% 且轉化量達標時，自動為廣告組加碼預算 20%，抓住高效時段放量機會。"
+          },
+          "creativeViolation": {
+            "platform": "TikTok Ads",
+            "category": "素材生成",
+            "title": "素材違規審智停",
+            "body": "24 小時內同一素材被平台拒絕超過 2 次，系統自動下架該素材並即時通知帳戶負責人。"
+          },
+          "keywordRoas": {
+            "platform": "Google Ads",
+            "category": "預算與出價",
+            "title": "關鍵字 ROAS 跌破策略",
+            "body": "偵測核心關鍵字過去3天 ROAS 跌破 100%，自動下調出價並切換策略，止損同時保留流量。"
+          },
+          "pixelAlert": {
+            "platform": "Meta Ads",
+            "category": "報告",
+            "title": "Pixel 數據斷流預警",
+            "body": "即時偵測 Pixel 轉化事件回傳量降為 0，在影響廣告學習期前自動發出系統修復通知。"
+          }
+        }
+      },
+      "ranking": {
+        "title": "AI 模型排名",
+        "description": "基於數百萬用戶透過 Cluega 存取模型的基準測試和真實使用資料，每週更新。",
+        "chartTitle": "頂級模型",
+        "chartSubtitle": "Cluega 中模型的每週使用情況",
+        "leaderboardTitle": "LLM 排行榜",
+        "leaderboardSubtitle": "比較 Cluega 上最受歡迎的模型",
+        "filterButton": "本星期",
+        "rows": {
+          "r1": { "name": "DeepSeek V4 快閃記憶體", "provider": "深度求索", "usage": "3.29 兆代幣" },
+          "r2": { "name": "GLM-4.6", "provider": "智譜AI", "usage": "3.01 兆代幣" },
+          "r3": { "name": "Claude Sonnet 4.6", "provider": "Anthropic", "usage": "2.87 兆代幣" },
+          "r4": { "name": "GPT-5", "provider": "OpenAI", "usage": "2.64 兆代幣" },
+          "r5": { "name": "Llama 4 Maverick", "provider": "Meta", "usage": "1.92 兆代幣" },
+          "r6": { "name": "Gemini 2.5 Pro", "provider": "Google", "usage": "1.48 兆代幣" },
+          "r7": { "name": "Grok 3 Turbo", "provider": "xAI", "usage": "1.21 兆代幣" },
+          "r8": { "name": "Moonshot v2", "provider": "Moonshot AI", "usage": "9480 億代幣" },
+          "r9": { "name": "Qwen 3 Max", "provider": "阿里雲", "usage": "7040 億代幣" },
+          "r10": { "name": "Cohere Command R+", "provider": "Cohere", "usage": "6830 億代幣" },
+          "r11": { "name": "Mistral Large 3", "provider": "Mistral", "usage": "6020 億代幣" },
+          "r12": { "name": "Nemotron 3 Super（免費）", "provider": "NVIDIA", "usage": "5950 億代幣" },
+          "r13": { "name": "Phi-4 Vision", "provider": "Microsoft", "usage": "5210 億代幣" },
+          "r14": { "name": "Falcon 3", "provider": "TII", "usage": "4870 億代幣" },
+          "r15": { "name": "Inflection 3", "provider": "Inflection", "usage": "4310 億代幣" },
+          "r16": { "name": "MiniMax M1", "provider": "MiniMax", "usage": "3710 億代幣" }
+        }
+      }
+    },
+    "discover": {
+      "title": "探索社區資源。",
+      "subtitle": "提示詞、技能、全託管任務一站搜尋，找到最適合你廣告場景的 AI 工作方式。",
+      "searchPlaceholder": "搜尋提示詞、技能或任務…",
+      "categories": {
+        "all": "所有資源",
+        "prompts": "提示詞",
+        "skills": "技能",
+        "managed": "全託管",
+        "ranking": "AI 模型排名"
+      },
+      "badgeOfficial": "官方認證",
+      "cards": {
+        "p1": { "platform": "Google Ads", "title": "帳戶健康度審計", "body": "掃描全部廣告帳戶，找出按預估金額影響排序的前5大問題，逐項給出修復預期收益。" },
+        "p2": { "platform": "Meta Ads", "title": "週度診斷", "body": "對比近7天與前7天廣告表現，自動找出 ROAS、CPA、CPC 最大差異項並分析根因。" },
+        "p3": { "platform": "Google Ads", "title": "十大機遇", "body": "橫跨 Google + Meta 找出排名前10的優化機會，按預估影響金額排序，每項附具體操作建議與預期改善幅度。" },
+        "p4": { "platform": "Google Analytics", "title": "否定關鍵字掃描", "body": "提取近30天搜尋詞報告，找出20個最浪費預算的無效關鍵字，分析轉化偏低的根本原因並給出否定建議清單。" },
+        "s1": { "name": "tiktok-ads-generator", "body": "高轉化短影音腳本與分鏡生成器，自動輸出吸睛開場、痛點疊加與強烈 CTA。" },
+        "s2": { "name": "meta-creative-matrix", "body": "依受眾熱度自動派生廣告文案與視覺矩陣，冷/溫/熱受眾輸出最優組合。" },
+        "s3": { "name": "google-search-optimizer", "body": "Google 關鍵字搜尋廣告優化專家。自動分析產業競爭度，批量生成高相關性廣告標題與說明，智慧排除低效流量詞。" },
+        "s4": { "name": "omni-ad-brief-compiler", "body": "跨平台廣告素材需求單自動化生成工具。一鍵將產品賣點轉化為符合各平台規格的拍攝指令與設計說明。" },
+        "s5": { "name": "pmax-asset-shaper", "body": "Google 效果最大化廣告（PMax）資產群組規劃器。全面覆蓋文字、圖片、影音素材的規格與腳本配置，協助演算法在 YouTube、Gmail、多媒體廣告網進行最佳化投..." },
+        "s6": { "name": "tiktok-trend-aligner", "body": "實時追蹤 TikTok 熱門音樂、迷因與熱梗的素材適配器。快速將當下流行趨勢與品牌廣告痛點相結合，輸出具備原生感的推廣腳本，降低廣告感並提升用戶停留時長..." },
+        "s7": { "name": "meta-hook-variant", "body": "針對 Meta 動態消息（Feed）與 Reels 的廣告黃金開頭（Hook）批量生成器。提供問題引導、數據震驚、反直覺陳述等 5 大心理學框架，大幅降低素材的跳出率..." },
+        "s8": { "name": "cross-channel-copywriter", "body": "一鍵實現「一稿多投」的跨渠道廣告文案轉化工具。輸入核心產品賣點，自動適配 TikTok 的社群口語化、Meta 的故事感引導、以及 Google 的高相關性文案..." },
+        "s9": { "name": "Targeting ad-audience-persona", "body": "基於廣告投放邏輯的受眾畫像與標籤推薦器。深度剖析目標客群的內在動機與痛點，自動輸出對應的 Meta 利基與興趣標籤組合與 TikTok 行為標籤建議，實現精準..." },
+        "s10": { "name": "landing-page-aligner", "body": "廣告素材與一頁式落地頁（Landing Page）文案一致性審查器。確保 TikTok/Meta 廣告創意與頁面首屏（Above the Fold）的價值主張完美匹配，降低高跳出..." },
+        "m1": { "platform": "Meta Ads", "category": "預算與出價", "title": "高 ROAS 自動加價", "body": "ROAS 達標時自動加碼預算 20%，抓住高效時段放量，無需人工監控。" },
+        "m2": { "platform": "TikTok Ads", "category": "素材生成", "title": "素材違規審智停", "body": "同一素材24小時被拒超過2次，自動下架並即時通知負責人處理。" },
+        "m3": { "platform": "Google Ads", "category": "預算與出價", "title": "關鍵字 ROAS 崩跌策略", "body": "過去 3 天核心關鍵字 ROAS 跌破 100%，自動下調出價並切換策略。" },
+        "m4": { "platform": "Meta Ads", "category": "報告", "title": "Pixel 數據斷流預警", "body": "偵測 Pixel 轉化事件回傳為 0，自動發出系統補修通知。" },
+        "m5": { "platform": "Search Console", "category": "報告", "title": "搜尋查詢報告掃描", "body": "彙整過去 30 天搜尋詞報告，標記高跳出、零轉化字詞建議否定。" },
+        "m6": { "platform": "Meta Ads", "category": "受眾洞察", "title": "受眾興趣標籤推導", "body": "依產品定位推導 Meta 利基興趣標籤，並輸出 TikTok 行為標籤建議。" }
+      }
+    },
+    "cta": {
+      "title": "立即加入 Cluega 社區。",
+      "subtitle": "這裡有 Cluega 官方為你準備的提示詞、技能與全託管，你也可以上傳個人技能，打造你的專屬 AI 工作台。",
+      "primaryCta": "免費加入社區"
+    }
+  }
+}

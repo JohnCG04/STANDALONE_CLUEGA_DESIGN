@@ -1,0 +1,197 @@
+{
+  "compareZwiz": {
+    "meta": {
+      "title": "Cluega IM vs ZWIZ.AI | Cluega",
+      "description": "Go beyond the surface interactions of a keyword chatbot: lock onto real private-domain sales data to buy media precisely and unlock higher ROAS."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA IM VS. ZWIZ.AI",
+      "title": "Turn private-domain interaction into precise data assets that scale your ads",
+      "subtitle": "Go beyond the surface interactions of a keyword chatbot: lock onto real private-domain sales data to buy media precisely and unlock higher ROAS.",
+      "ctaStart": "Book a demo",
+      "ctaDemo": "Talk to sales",
+      "cluegaLabel": "Cluega IM",
+      "zwizLabel": "ZWIZ.AI",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "ZWIZ.AI vs Cluega IM",
+      "colDimension": "Dimension",
+      "colZwiz": "ZWIZ.AI",
+      "colCluega": "Cluega IM",
+      "rows": [
+        {
+          "dimension": "Positioning",
+          "zwiz": "Thailand-native AI chatbot: auto-replies for chat／comments, Rich Menu management, membership points",
+          "cluega": "Private-domain data-asset and marketing-attribution infrastructure built for global markets"
+        },
+        {
+          "dimension": "Supported channels",
+          "zwiz": "LINE OA (its native strength in Thailand)／FB／IG／TikTok／WhatsApp",
+          "cluega": "Multi-platform identity merging across LINE OA／Zalo／WhatsApp／Messenger"
+        },
+        {
+          "dimension": "Entry threshold",
+          "zwiz": "Website package pricing around THB 21,000–36,000 (implementation service included)",
+          "cluega": "SaaS subscription from $999／month + outcome-based billing on closed sales: unconverted conversations only carry a compute base fee"
+        },
+        {
+          "dimension": "Attribution outcome",
+          "zwiz": "Centred on interaction volume, comments and clicks; claims support for click attribution from TikTok ads to Messenger",
+          "cluega": "Centred on \"pushing real private-domain sales back to ads\": true ROAS at sales-stage granularity"
+        },
+        {
+          "dimension": "Core workflow",
+          "zwiz": "Basic Rich Menu setup, auto-replies and broadcasts, membership point tiers",
+          "cluega": "Conversation semantics read → MMT L0–L6 placement → ad attribution → closed-loop write-back (CAPI)"
+        },
+        {
+          "dimension": "Data depth",
+          "zwiz": "Data from the chat／points／booking modules is relatively fragmented",
+          "cluega": "A unified cross-channel customer profile, with an auditable log on every attribution"
+        },
+        {
+          "dimension": "Target customer",
+          "zwiz": "Thai SMEs, social commerce and customer-service teams",
+          "cluega": "Performance media buyers and brand performance teams"
+        },
+        {
+          "dimension": "Best fit",
+          "zwiz": "Quickly launching LINE official account interactions and support automation",
+          "cluega": "Performance buying and deep private-domain work aimed at private-domain ROAS and scaling decisions"
+        }
+      ],
+      "footnote": "＊Competitor information is compiled from their official sites and public third-party sources (verified 2026-07); their own official announcements take precedence.",
+      "ctaStart": "Book a demo",
+      "ctaDemo": "Talk to sales"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Why cross-border and performance teams move from ZWIZ.AI to Cluega IM",
+      "items": [
+        {
+          "title": "Fill the gap the Pixel funnel misses and feed the ad algorithm precise signals",
+          "body": "ZWIZ's data stops at the interaction layer — how many replies, what got clicked. Cluega IM writes real L5／L6 private-domain sales back to Meta／TikTok (CAPI), filling in the private-domain conversions platform Pixels can't measure, so the algorithm receives a genuine \"audiences who pay\" signal and gets sharper the longer you run."
+        },
+        {
+          "title": "Cross-platform identity merging, so one buyer is never billed twice",
+          "body": "A customer arrives via LINE, then reappears on WhatsApp／Zalo? Cluega IM merges that buyer's cross-channel footprint at the identity layer (Identity Merge): conversation history is unified and the sale counts once, so attribution and billing are never duplicated or inflated."
+        },
+        {
+          "title": "Reconnect the conversation and sales chain that \"can't be tracked individually\"",
+          "body": "After Click-to-Message, the platform can't see the person any more — that's exactly the private-domain black box. Cluega IM reads the semantics of each conversation, pinpoints the sales stage and reconnects the entire chain from ad click to DM sale, making the downstream fate of every ad completely clear."
+        },
+        {
+          "title": "Outcome-based billing, perfectly aligned interests",
+          "body": "Compared with fixed packages that bundle implementation services, Cluega IM charges a performance fee only when the AI genuinely pushes a conversation into the sales tier; high-volume conversations that don't convert only carry a base fee covering compute. We earn when you earn — a promise hard-coded into the billing structure."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          { "type": "field", "label": "Ad account ID", "value": "7535737911069753842" },
+          { "type": "field", "label": "Ad name", "value": "0609-DM Ad-EcoSip" },
+          { "type": "field", "label": "Ad ID", "value": "1866940736964473" },
+          { "type": "field", "label": "Creative ID", "value": "1867515992671681" },
+          {
+            "type": "preview",
+            "label": "Creative preview",
+            "brand": "EcoSip",
+            "value": "Insulated bottle promo video"
+          },
+          { "type": "field", "label": "Social account ID", "value": "EcoSip" }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Created",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Total events",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Avg. cost per conversion",
+        "legend": "All"
+      },
+      "identity": {
+        "keyword": "Phone number",
+        "lead": "High-value lead"
+      },
+      "billing": {
+        "steps": [
+          "Prospect's first product inquiry",
+          "AI identifies pain points, keeps engaging",
+          "AI delivers a tailored solution"
+        ],
+        "success": "Converted: qualified lead",
+        "outcome": "Outcome reached: $0.99 charged"
+      }
+    },
+    "highlights": {
+      "eyebrow": "EVERY CHANNEL, ONE ATTRIBUTION ENGINE",
+      "title": "Not just replying to customers — full control of full-funnel data across global private domains",
+      "items": [
+        {
+          "title": "Every channel covered",
+          "body": "Integrates LINE OA・Zalo・WhatsApp・FB／IG and more, with cross-channel conversations and sales events unified into a single customer profile."
+        },
+        {
+          "title": "MMT L0–L6 funnel",
+          "body": "From high-intent conversations through lead capture to completed payment, every conversation is placed automatically, and the billing scale maps one-to-one onto sales stages."
+        },
+        {
+          "title": "Data sovereignty",
+          "body": "Attribution logs are auditable and sales events are written back from the same source; compliant with GDPR, PDPL and other market-specific regulations, with no data leaving and no cross-tenant training."
+        },
+        {
+          "title": "Team collaboration",
+          "body": "Supports API／MCP and agent collaboration flows; human takeover is bounded by the handoff timestamp, so the credit boundary between AI and people stays clear and auditable."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Which one should I choose?",
+      "zwiz": {
+        "label": "Choose ZWIZ.AI",
+        "body": "You need a Thai-language chatbot, Rich Menu and points marketing live quickly, you prefer a one-off package with implementation handled by the vendor, and interaction plus support automation is the whole goal."
+      },
+      "cluega": {
+        "label": "Choose Cluega IM",
+        "body": "You're buying Meta／TikTok／LINE ads and need sales-level attribution: which ad produced conversations that actually paid, cross-channel buyers counted once, performance data written back to platforms to scale spend — with outcome-based billing that aligns the platform's interests with yours."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you might want to know before you reach out to our team.",
+      "contact": "Contact sales",
+      "items": [
+        {
+          "q": "We already run LINE OA on ZWIZ.AI — do we still need Cluega IM?",
+          "a": "They run side by side perfectly well. ZWIZ keeps owning interaction and support automation while Cluega IM takes over the attribution layer: pushing conversation progress, captured leads and closed sales back to the ad source. When your goal upgrades from \"reply fast\" to \"attribute right\", Cluega IM is the missing piece."
+        },
+        {
+          "q": "Will Cluega IM affect our existing ZWIZ.AI bot setup?",
+          "a": "No. Cluega IM connects through the channels' official APIs and is compatible with your existing Rich Menu and auto-reply rules; you can pilot attribution on a single channel first and expand the managed scope step by step."
+        },
+        {
+          "q": "How do ZWIZ.AI and Cluega IM differ on ad data?",
+          "a": "ZWIZ gives you interaction metrics (message volume, clicks, comments); Cluega IM gives you sales attribution — every L5／L6 sale points back to campaign／adset／creative, and true ROAS is computed at sales-stage granularity. The former measures noise, the latter measures business."
+        },
+        {
+          "q": "How does Cluega IM handle buyers across channels (say LINE and Zalo)?",
+          "a": "The same customer is counted per channel for conversations but merged at the identity layer: conversation history and sales events land in a single profile, one sale counts once and is billed once, and it still points back to the original ad source."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Use Cluega IM to set a private-domain baseline that goes far beyond traditional support systems.",
+      "ctaStart": "Book a demo",
+      "ctaDemo": "Talk to sales"
+    }
+  }
+}

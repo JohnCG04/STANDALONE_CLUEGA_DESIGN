@@ -1,0 +1,659 @@
+{
+  "nav": {
+    "skip": "Chuyển tới nội dung chính",
+    "home": "Trang chủ Cluega",
+    "platform": "Nền tảng",
+    "customers": "Khách hàng",
+    "pricing": "Bảng giá",
+    "products": {
+      "ai": "Cluega AI",
+      "im": "Cluega IM",
+      "art": "Cluega Art",
+      "cdp": "Cluega CDP"
+    },
+    "utility": {
+      "resources": "Tài nguyên",
+      "solutions": "Tìm giải pháp",
+      "login": "Đăng nhập"
+    },
+    "cta": "Đăng ký ngay",
+    "solutions": "Giải pháp",
+    "solutionsMenu": {
+      "agency": "Đội đại lý",
+      "brand": "Đội thương hiệu",
+      "creative": "Đội sáng tạo"
+    },
+    "language": "Ngôn ngữ",
+    "banner": {
+      "dismiss": "Đóng banner"
+    },
+    "mega": {
+      "platform": {
+        "sections": {
+          "system": {
+            "title": "Hệ thống Cluega",
+            "items": {
+              "ai": {
+                "label": "Tìm hiểu Cluega AI",
+                "description": "Xây dựng insight dữ liệu chuyên sâu"
+              },
+              "im": {
+                "label": "Hệ thống nhắn tin IM thời gian thực",
+                "description": "Tương tác thời gian thực đa kênh"
+              }
+            }
+          },
+          "insightsGrowth": {
+            "title": "Dữ liệu & Insight (Insights & Growth)",
+            "items": {
+              "adOptimization": {
+                "label": "Phân phối & tối ưu quảng cáo",
+                "description": "Chẩn đoán phân phối quảng cáo thông minh"
+              },
+              "marketingDashboard": {
+                "label": "Dashboard marketing thời gian thực",
+                "description": "Giám sát hiệu suất thời gian thực"
+              },
+              "marketInsights": {
+                "label": "Insight thị trường",
+                "description": "Nắm bắt xu hướng thị trường"
+              },
+              "imMessaging": {
+                "label": "Agent",
+                "description": "Điều khiển trợ lý marketing trong app nhắn tin"
+              },
+              "ecommerce": {
+                "label": "Vận hành thương mại điện tử",
+                "description": "Vận hành cửa hàng thông minh"
+              }
+            }
+          },
+          "models": {
+            "title": "Các mô hình Cluega hỗ trợ",
+            "items": {
+              "aiDialog": {
+                "label": "Hội thoại AI & mô hình",
+                "description": "400+ mô hình chuyên ngành"
+              },
+              "aiVisual": {
+                "label": "Thiết kế hình ảnh AI",
+                "description": "Tạo creative quảng cáo trong vài giây"
+              }
+            }
+          },
+          "agent": {
+            "title": "Agent",
+            "items": {
+              "fullyManaged": {
+                "label": "Toàn quyền quản lý",
+                "description": "Tự động vận hành nhiệm vụ 24/7"
+              },
+              "dogclaw": {
+                "label": "Dogclaw",
+                "description": "Công cụ thu thập dữ liệu web"
+              }
+            }
+          },
+          "community": {
+            "title": "Cộng đồng",
+            "items": {
+              "teamPermissions": {
+                "label": "Cộng tác nhóm & phân quyền",
+                "description": "Quản lý không gian làm việc an toàn"
+              },
+              "enterprise": {
+                "label": "Tùy chỉnh doanh nghiệp",
+                "description": "Giải pháp triển khai riêng tư"
+              },
+              "resources": {
+                "label": "Tài nguyên & cộng đồng",
+                "description": "Khám phá prompt và kỹ năng"
+              }
+            }
+          }
+        },
+        "side": {
+          "title": "Bắt đầu",
+          "items": {
+            "contactUs": "Liên hệ chúng tôi"
+          }
+        }
+      },
+      "resources": {
+        "sections": {
+          "support": {
+            "title": "Hỗ trợ",
+            "items": {
+              "helpCenter": {
+                "label": "Trung tâm trợ giúp",
+                "description": "Tìm hiểu sâu về tính năng Cluega"
+              },
+              "academy": {
+                "label": "Học viện",
+                "description": "Chi tiết tính năng cốt lõi của Cluega"
+              }
+            }
+          },
+          "developers": {
+            "title": "Nhà phát triển",
+            "items": {
+              "developerDocs": {
+                "label": "Tài liệu cho nhà phát triển",
+                "description": "Build with the Cluega MCP, API, and SDK"
+              }
+            }
+          },
+          "partners": {
+            "title": "Đối tác",
+            "items": {
+              "partnerProgram": {
+                "label": "Chương trình đối tác",
+                "description": "Dành cho nhà phát triển, nhà sáng tạo và tư vấn"
+              }
+            }
+          }
+        },
+        "side": {
+          "title": "Công ty",
+          "items": {
+            "changelog": "Changelog / Cập nhật sản phẩm",
+            "announcements": "Thông báo chính thức",
+            "engineeringBlog": "Blog kỹ thuật",
+            "careers": "Tuyển dụng / Cơ hội nghề nghiệp"
+          }
+        }
+      },
+      "pricing": {
+        "sections": {
+          "products": {
+            "title": "Bảng giá Cluega",
+            "items": {
+              "im": {
+                "label": "Cluega IM",
+                "description": "Giá IM & token CDP"
+              },
+              "ai": {
+                "label": "Cluega AI",
+                "description": "Giá mô hình AI & tín dụng"
+              }
+            }
+          }
+        }
+      }
+    },
+    "aboutUs": "Về chúng tôi"
+  },
+  "supportChat": {
+    "placeholder": "Hỏi bất cứ điều gì...",
+    "messagePlaceholder": "Nhắn tin...",
+    "supportTitle": "Cluega Support",
+    "attachImagesOrFiles": "Đính kèm hình ảnh hoặc tệp",
+    "defaultAgentMessage": "Xin chào, bạn đang trò chuyện với AI Agent của Cluega. Hôm nay tôi có thể giúp gì cho bạn?",
+    "suggestions": {
+      "revenueEfficiency": {
+        "title": "Câu hỏi 1",
+        "question": "Cluega AI giúp đội ngũ của tôi nâng cao hiệu quả doanh thu như thế nào?",
+        "response": "Chào bạn! Tôi là trợ lý AI của Cluega. Thông qua tương tác bằng ngôn ngữ tự nhiên, Cluega giúp đội ngũ của bạn có thể trực tiếp “đối thoại với dữ liệu”.\n\nChúng tôi tích hợp dữ liệu quảng cáo, tin nhắn và đơn hàng đa nền tảng vào Cluega AI. Đội ngũ của bạn không còn cần tổng hợp báo cáo thủ công. AI sẽ tự động quét cơ hội, chẩn đoán vấn đề và tạo ra các đề xuất quyết định có thể thực thi. Việc này có thể rút ngắn các buổi rà soát vận hành vốn mất nhiều giờ xuống còn 30 giây.\n\nNếu muốn tìm hiểu thêm tính năng, bạn có thể liên hệ với chúng tôi. Vui lòng {link} để để lại thông tin liên hệ.",
+        "responseLinkLabel": "nhấn vào đây"
+      },
+      "crossPlatformData": {
+        "title": "Câu hỏi 2",
+        "question": "Cluega xử lý và hiểu dữ liệu phức tạp đa nền tảng của tôi như thế nào?",
+        "response": "Đây chính là công nghệ cốt lõi của chúng tôi. Cluega sử dụng giao thức MCP (Model Context Protocol) làm trung tâm giao tiếp.\n\nSau khi bạn kết nối TikTok, Meta hoặc Shopify, hệ thống sẽ tự động cấu trúc hóa những dữ liệu rời rạc này và xây dựng bối cảnh làm việc có “nhận thức thương hiệu”. Điều đó có nghĩa là AI không chỉ nhìn thấy các con số, mà còn hiểu logic kinh doanh phía sau, từ đó đưa ra các đề xuất tối ưu thực sự phù hợp với giọng điệu thương hiệu."
+      },
+      "firstProject": {
+        "title": "Câu hỏi 3",
+        "question": "Là người dùng lần đầu, tôi nên khởi động dự án vận hành AI đầu tiên của mình nhanh như thế nào?",
+        "response": "Việc khởi động rất đơn giản, chỉ cần ba bước:\n\na. Ủy quyền ứng dụng: kết nối tài khoản quảng cáo và mạng xã hội của bạn trong menu “Năng lực”.\n\nb. Nhập chỉ dẫn: nhập “Hãy phân tích hiệu quả hôm qua cho tôi” hoặc “Tạo một kế hoạch quảng bá” trong khung chat.\n\nc. Xác nhận thực thi: xem lại phương án AI đề xuất và nhấn “Thực thi”.\n\nĐăng ký ngay để nhận 1.000 Token khởi động. {link}.",
+        "responseLinkLabel": "bắt đầu sử dụng"
+      }
+    }
+  },
+  "trial": {
+    "titleLine1": "Nhận ngay 1.000 Token khởi động,",
+    "titleLine2": "trải nghiệm 14 ngày quyết định thông minh toàn diện.",
+    "primaryCta": "Thử miễn phí ngay",
+    "secondaryCta": "Tìm hiểu cách tính phí",
+    "emailLabel": "Địa chỉ email của bạn",
+    "emailPlaceholder": "Địa chỉ email của bạn",
+    "mobileSubmit": "Gửi tôi bản demo"
+  },
+  "profileMenu": {
+    "personalization": "Cá nhân hóa",
+    "account": "Tài khoản",
+    "settings": "Cài đặt",
+    "homepage": "Trang chủ",
+    "help": "Trợ giúp",
+    "docs": "Tài liệu",
+    "signOut": "Đăng xuất",
+    "signOutConfirmTitle": "Đăng xuất khỏi Cluega?",
+    "signOutConfirmBody": "Bạn sẽ cần đăng nhập lại vào lần tới.",
+    "credits": "Điểm",
+    "freePlan": "Gói miễn phí",
+    "upgrade": "Nâng cấp"
+  },
+  "pricing": {
+    "title": "Bảng giá",
+    "subtitle": "Tính theo token — không thuê bao. Dùng bao nhiêu trả bấy nhiêu.",
+    "free": "Mỗi tài khoản được 1.000 token miễn phí mỗi tháng.",
+    "tokens": "token",
+    "cta": "Dùng thử miễn phí",
+    "popular": "Phổ biến nhất",
+    "note": "1 token = $0.01. Mua thêm bất cứ lúc nào; token đã mua không hết hạn."
+  },
+  "moduleAccess": {
+    "eyebrow": "Cluega CDP",
+    "title": "Module này chưa được kích hoạt",
+    "subtitle": "Liên hệ đội ngũ kinh doanh để kích hoạt Cluega CDP cho workspace của bạn. Sau khi được kích hoạt, hãy kiểm tra lại để tiếp tục.",
+    "retry": "Kiểm tra lại"
+  },
+  "contactSales": {
+    "title": "Bắt đầu với Cluega",
+    "subtitle": "Dành 3 phút chia sẻ nhu cầu của bạn, chúng tôi sẽ thiết lập AI Agent riêng cho bạn",
+    "stepHint": "Bước {current} / {total}",
+    "next": "Tiếp theo",
+    "back": "Quay lại",
+    "submit": "Gửi, Bắt đầu cấu hình AI Agent",
+    "successTitle": "Đang xây dựng kho lưu trữ dữ liệu thông minh riêng cho thương hiệu của bạn...",
+    "successSubtitle": "Quá trình này mất vài giây, vui lòng không đóng trang này",
+    "successTitleFinal": "Hoàn tất cấu hình!",
+    "successSubtitleFinal": "Chuyên viên Cluega sẽ xem xét thông tin và liên hệ với bạn trong thời gian sớm nhất để bắt đầu.",
+    "submitError": "Gửi không thành công, vui lòng thử lại sau ít phút.",
+    "submitErrorInvalid": "Thông tin có vẻ chưa hợp lệ, vui lòng kiểm tra lại rồi gửi.",
+    "tabs": {
+      "label": "Chọn cách liên hệ",
+      "form": "Điền nhu cầu",
+      "contact": "Liên hệ"
+    },
+    "contact": {
+      "title": "Liên hệ trực tiếp với chúng tôi",
+      "subtitle": "Không muốn điền form cũng không sao. Liên hệ đội ngũ kinh doanh qua bất kỳ kênh nào bên dưới, chúng tôi sẽ phản hồi sớm nhất.",
+      "channelsLabel": "Liên hệ đội ngũ kinh doanh",
+      "qrHint": "Quét mã để nhắn tin với chúng tôi trên LINE.",
+      "hints": {
+        "line": "Thêm tài khoản chính thức",
+        "linkedin": "Theo dõi trang công ty",
+        "zalo": "Nhắn tin với chúng tôi trên Zalo"
+      },
+      "channels": {
+        "email": "Email",
+        "line": "LINE",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp Business",
+        "whatsappHongKong": "WhatsApp Business (Hồng Kông)",
+        "whatsappVietnam": "WhatsApp Business (Việt Nam)",
+        "phone": "Điện thoại / DID",
+        "skype": "Skype",
+        "telegram": "Telegram Business",
+        "zalo": "Zalo",
+        "kakao": "KakaoTalk",
+        "teams": "Microsoft Teams",
+        "zoom": "Zoom"
+      }
+    },
+    "submitted": {
+      "title": "Đã nhận được thông tin của bạn!",
+      "subtitle": "Chuyên viên Cluega sẽ xem xét thông tin và liên hệ với bạn trong thời gian sớm nhất. Trong lúc chờ, bạn có thể liên hệ trực tiếp đội ngũ kinh doanh, hoặc vào hệ thống dùng thử ngay.",
+      "contactTitle": "Liên hệ đội ngũ kinh doanh",
+      "enterSystem": "Vào hệ thống",
+      "backHome": "Về trang chủ",
+      "channels": {
+        "email": "Email",
+        "phone": "Điện thoại",
+        "zalo": "Zalo",
+        "wechat": "WeChat",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "resumeTitle": "Bạn có muốn tiếp tục từ phần đã bỏ dở không?",
+    "resumeYes": "Tiếp tục điền",
+    "resumeNo": "Bắt đầu lại",
+    "panel": {
+      "title": "Không trả tiền cho công cụ, chỉ trả cho kết quả",
+      "benefits": {
+        "automation": {
+          "title": "Tự động hóa toàn chuỗi",
+          "desc": "Từ insight, sáng tạo, chạy quảng cáo đến quy kết — giao trọn cho AI Agent, không còn lặp thủ công từng mẫu"
+        },
+        "target": {
+          "title": "Chỉ trả tiền cho kết quả",
+          "desc": "Theo dõi trọn vòng Click-to-Sales, thấy rõ từng đơn hàng mà mỗi quảng cáo thực sự mang lại"
+        },
+        "lock": {
+          "title": "Dữ liệu của bạn là của riêng bạn",
+          "desc": "Tài sản thương hiệu được cấu trúc hóa thành kho tri thức riêng không bao giờ thất thoát, càng dùng càng thông minh"
+        }
+      },
+      "modelsLabel": "Hỗ trợ 400+ mô hình lớn hàng đầu, mỗi tác vụ tự chọn mô hình phù hợp nhất",
+      "ratingLabel": "Khách hàng đánh giá cao khâu triển khai và hỗ trợ"
+    },
+    "voice": {
+      "title": "Trò chuyện thoại với Cluega",
+      "desc": "Để lại yêu cầu ngắn gọn, chúng tôi sẽ cử đúng chuyên viên liên hệ với bạn.",
+      "button": "Trò chuyện thoại"
+    },
+    "step1": {
+      "title": "Thương hiệu của bạn",
+      "companyName": "Tên thương hiệu / Công ty",
+      "companyNamePlaceholder": "Nhập tên thương hiệu / công ty",
+      "website": "Trang web chính thức",
+      "websitePlaceholder": "yourbrand.com",
+      "email": "Email công việc",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "Nhập số điện thoại",
+      "messaging": "Tài khoản ứng dụng nhắn tin thường dùng",
+      "messagingPlaceholder": "Tài khoản / ID",
+      "messagingPlatformPlaceholder": "Chọn ứng dụng",
+      "messagingOptions": {
+        "zalo": "Zalo",
+        "whatsapp": "WhatsApp",
+        "wechat": "WeChat",
+        "telegram": "Telegram",
+        "line": "LINE",
+        "messenger": "Messenger",
+        "other": "Khác"
+      }
+    },
+    "step2": {
+      "title": "Sản phẩm của bạn thuộc lĩnh vực nào?",
+      "subtitle": "(Chọn một, để tối ưu mô hình chuyên biệt)",
+      "options": {
+        "beauty": "Làm đẹp & Mỹ phẩm",
+        "gaming": "Trò chơi",
+        "retail": "Bán lẻ & E-commerce",
+        "electronics": "Điện tử tiêu dùng",
+        "beverage": "Thực phẩm & Đồ uống",
+        "fashion": "Thời trang & May mặc",
+        "other": "Khác"
+      }
+    },
+    "step3": {
+      "title": "Bạn chủ yếu chạy quảng cáo trên các kênh nào?",
+      "subtitle": "(Chọn nhiều)",
+      "options": {
+        "tiktok": "TikTok",
+        "meta": "Meta(FB/IG)",
+        "google": "Google",
+        "whatsapp": "WhatsApp",
+        "zalo": "Zalo",
+        "ecom": "Shopee / Lazada",
+        "other": "Khác"
+      }
+    },
+    "step4": {
+      "title": "Ngân sách quảng cáo hàng tháng hiện tại của bạn là bao nhiêu?",
+      "subtitle": "(Chọn một)",
+      "options": {
+        "under5k": "< $5K",
+        "5kTo50k": "$5K–$50K",
+        "50kTo200k": "$50K–$200K",
+        "above200k": "Trên $200K"
+      }
+    },
+    "step5": {
+      "title": "Điểm đau lớn nhất của bạn hiện tại là gì?",
+      "subtitle": "(Chọn nhiều + Có thể tự điền 'Khác')",
+      "otherPlaceholder": "Vui lòng nhập điểm đau khác của bạn...",
+      "options": {
+        "manpower": "Tạo & thử nghiệm nội dung tốn quá nhiều nhân lực",
+        "attribution": "Đối chiếu quy chuẩn đa nền tảng không chuẩn xác",
+        "efficiency": "Tự điều chỉnh giá và tối ưu hóa không hiệu quả",
+        "scattered": "Dữ liệu phân tán khó tích hợp",
+        "scaling": "Hiệu quả tốt nhưng khó nhân bản rộng",
+        "other": "Khác"
+      }
+    },
+    "step6": {
+      "title": "Cuối cùng, vai trò của bạn là gì?",
+      "subtitle": "(Chọn một)",
+      "goalLabel": "(Không bắt buộc) Hãy mô tả mục tiêu lớn nhất của bạn bằng một câu ngắn gọn:",
+      "goalPlaceholder": "Ví dụ: Tăng ROI quảng cáo lên 30% hoặc tự động hóa báo cáo hàng ngày",
+      "options": {
+        "founder": "Chủ thương hiệu / Người sáng lập",
+        "marketingHead": "Trưởng bộ phận Marketing",
+        "buyer": "Người tối ưu hóa quảng cáo / Buyer",
+        "operator": "Vận hành E-commerce",
+        "agency": "Agency quảng cáo",
+        "other": "Khác"
+      }
+    }
+  },
+  "jobApplication": {
+    "brand": {
+      "title": "Nắm bắt cửa sổ vàng của kỷ nguyên AdOS — trở thành người định nghĩa, không phải kẻ theo sau",
+      "subtitle": "Gia nhập Cluega AI, cùng hơn 300 kỹ sư và chuyên gia kinh doanh hàng đầu toàn cầu, dùng AI định nghĩa lại cách các thương hiệu toàn cầu ra quyết định quảng cáo.",
+      "benefits": {
+        "frontier": {
+          "title": "Môi trường công nghệ AI tiên phong",
+          "desc": "Kiến trúc giao thức MCP toàn công ty, tiếp cận sớm nhất các ứng dụng mô hình lớn tiên tiến nhất trong lĩnh vực marketing."
+        },
+        "global": {
+          "title": "Tầm nhìn & dấu ấn toàn cầu",
+          "desc": "Lấy TP. Hồ Chí Minh, Việt Nam làm trái tim R&D, mạng lưới kinh doanh phủ khắp toàn cầu."
+        },
+        "results": {
+          "title": "Hướng kết quả & đãi ngộ hậu hĩnh",
+          "desc": "Thăng tiến theo thành quả chứ không theo thâm niên. Cung cấp cơ cấu lương cạnh tranh toàn cầu, nhân viên giai đoạn đầu còn được hưởng quyền chọn cổ phiếu đáng kể."
+        }
+      },
+      "proofLabel": "Hỗ trợ hơn 400 mô hình lớn phổ biến.",
+      "rating": "Vận hành ngân sách quảng cáo quy mô tỷ đô, hiện thực hóa tăng trưởng đo lường được bằng công nghệ"
+    },
+    "title": "Gia nhập Cluega",
+    "subtitle": "Gửi hồ sơ ứng tuyển của bạn và cùng đội ngũ hàng đầu thế giới xây dựng hạ tầng marketing thế hệ mới.",
+    "stepHint": "Bước {current} / {total}",
+    "next": "Tiếp theo",
+    "back": "Quay lại",
+    "submit": "Gửi hồ sơ",
+    "optional": "(Tùy chọn)",
+    "submittingTitle": "Đang gửi hồ sơ ứng tuyển của bạn...",
+    "submittingSubtitle": "Quá trình này mất vài giây, vui lòng không đóng trang này",
+    "submitError": "Gửi không thành công, vui lòng thử lại sau ít phút.",
+    "submitErrorInvalid": "Thông tin có vẻ chưa hợp lệ, vui lòng kiểm tra lại rồi gửi.",
+    "successTitle": "Ứng tuyển thành công!",
+    "successSubtitle": "Cảm ơn bạn đã chọn Cluega AI. Đội ngũ HR và các Leader bộ phận sẽ đánh giá kỹ lưỡng hồ sơ của bạn trong vòng 7 ngày làm việc. Mong được cùng bạn nắm bắt cửa sổ vàng và trở thành người định nghĩa đường đua AdOS!",
+    "resumeTitle": "Tiếp tục từ nơi bạn đã dừng?",
+    "resumeYes": "Tiếp tục điền",
+    "resumeNo": "Bắt đầu lại",
+    "step1": {
+      "fullName": "Họ và tên",
+      "fullNamePlaceholder": "Nhập họ và tên của bạn",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "Nhập số điện thoại của bạn",
+      "department": "Bộ phận mong muốn",
+      "departmentPlaceholder": "Chọn bộ phận",
+      "departmentOptions": {
+        "aiProduct": "Sản phẩm & Chiến lược AI",
+        "engineering": "Kỹ thuật công nghệ",
+        "dataScience": "Khoa học dữ liệu & Attribution",
+        "business": "Phát triển kinh doanh toàn cầu",
+        "creative": "Sáng tạo & Thiết kế",
+        "marketingGrowth": "Marketing & Tăng trưởng",
+        "noMatch": "Không tìm thấy vị trí phù hợp (ứng tuyển chủ động)"
+      },
+      "location": "Địa điểm làm việc mong muốn",
+      "locationPlaceholder": "Chọn địa điểm",
+      "locationOptions": {
+        "hcmc": "TP. Hồ Chí Minh",
+        "kl": "Kuala Lumpur",
+        "sg": "Singapore",
+        "sh": "Thượng Hải",
+        "hk": "Hồng Kông",
+        "tw": "Đài Bắc",
+        "london": "London",
+        "berlin": "Berlin",
+        "nyc": "New York",
+        "la": "Los Angeles",
+        "toronto": "Toronto",
+        "remote": "Làm việc từ xa"
+      }
+    },
+    "step2": {
+      "resume": "Tải lên hồ sơ (CV)",
+      "resumeHint": "Hỗ trợ PDF / Word.",
+      "resumeButton": "Chọn tệp",
+      "resumeEmpty": "Chưa chọn tệp",
+      "linkedin": "Đường dẫn hồ sơ LinkedIn",
+      "linkedinPlaceholder": "https://linkedin.com/in/...",
+      "portfolio": "Liên kết cộng đồng chuyên môn / Portfolio (GitHub, Portfolio, Medium, v.v.)",
+      "portfolioPlaceholder": "https://github.com/..."
+    },
+    "step3": {
+      "q1": "Q1: Chia sẻ một bài toán kỹ thuật, sản phẩm hoặc kinh doanh mà bạn tự hào nhất khi giải quyết.",
+      "q1Placeholder": "Mô tả bài toán bạn tự hào nhất khi giải quyết...",
+      "q2": "Q2: Công cụ AI / ứng dụng mô hình lớn nào bạn giỏi nhất hoặc quan tâm nhất hiện nay (ví dụ: tạo nội dung, phát triển Agent, giao thức MCP)?",
+      "q2Placeholder": "Chia sẻ công cụ hoặc ứng dụng AI bạn quan tâm nhất..."
+    }
+  },
+  "footer": {
+    "columns": {
+      "platform": {
+        "title": "Nền tảng",
+        "items": {
+          "knowAi": "Tìm hiểu Cluega AI",
+          "im": "Hệ thống nhắn tin IM thời gian thực",
+          "adOptimization": "Phân phối & tối ưu quảng cáo",
+          "marketInsights": "Insight thị trường",
+          "ecommerce": "Vận hành thương mại điện tử",
+          "marketingDashboard": "Dashboard marketing thời gian thực",
+          "agent": "Agent",
+          "aiDialog": "Hội thoại AI & mô hình",
+          "aiVisual": "Thiết kế hình ảnh AI",
+          "fullyManaged": "Toàn quyền quản lý",
+          "dogclaw": "Dogclaw",
+          "teamPermissions": "Cộng tác nhóm & phân quyền",
+          "resources": "Tài nguyên & cộng đồng"
+        }
+      },
+      "solutions": {
+        "title": "Giải pháp",
+        "items": {
+          "agency": "Đội đại lý",
+          "brand": "Đội thương hiệu",
+          "creative": "Đội sáng tạo"
+        }
+      },
+      "resources": {
+        "title": "Tài nguyên",
+        "items": {
+          "helpCenter": "Trung tâm trợ giúp",
+          "partnerProgram": "Chương trình đối tác",
+          "engineeringBlog": "Blog kỹ thuật"
+        }
+      },
+      "compare": {
+        "title": "So sánh",
+        "items": {
+          "pancake": "So sánh với Pancake",
+          "zwiz": "So sánh với ZWIZ.AI",
+          "smartly": "So sánh với Smartly.io",
+          "madgicx": "So sánh với Madgicx",
+          "storeclaw": "So sánh với StoreClaw",
+          "ryze": "So sánh với Ryze AI"
+        }
+      },
+      "download": {
+        "title": "Tải xuống",
+        "items": {
+          "mobile": "Ứng dụng di động",
+          "desktop": "Ứng dụng máy tính",
+          "browser": "My Browser"
+        }
+      },
+      "company": {
+        "title": "Công ty",
+        "items": {
+          "about": "Về chúng tôi",
+          "pricing": "Gói giá",
+          "careers": "Tuyển dụng / Cơ hội nghề nghiệp",
+          "contactUs": "Liên hệ chúng tôi"
+        }
+      }
+    },
+    "social": {
+      "facebook": "Cluega Facebook",
+      "linkedin": "Cluega LinkedIn",
+      "line": "Cluega LINE"
+    }
+  },
+  "uploads": {
+    "tooLarge": "File này quá lớn. Giới hạn là {limit}, file của bạn {size}. Hãy chọn file nhỏ hơn.",
+    "tooLargeVideo": "Video này quá lớn. Giới hạn là {limit}, file của bạn {size}. Hãy chọn video ngắn hơn hoặc nén lại trước khi tải lên.",
+    "tooLongMedia": "File này quá dài. Giới hạn là {minutes} phút, file của bạn dài {length}. Hãy chọn file ngắn hơn.",
+    "tooLargeServer": "Tệp này vượt quá giới hạn {limit}. Hãy chọn tệp nhỏ hơn.",
+    "tooLargeServerImage": "Ảnh này vượt giới hạn: tối đa {limit} và {pixels} pixel. Hãy chọn ảnh nhỏ hơn.",
+    "tooLargeServerVideo": "Video này vượt quá giới hạn {limit}. Hãy chọn video ngắn hơn hoặc nén lại trước khi tải lên.",
+    "thisFile": "lớn hơn mức đó",
+    "unsupportedType": "Không tải lên được file định dạng {type}. Hệ thống hỗ trợ hình ảnh, video, âm thanh, PDF, tài liệu Office và các định dạng văn bản (CSV, TXT, Markdown, HTML, JSON, XML).",
+    "tooManyAttachments": "Mỗi tin nhắn chỉ đính kèm được {limit} file, nên file này chưa được thêm. Gửi những file còn lại ở tin nhắn sau nhé.",
+    "unsupportedTypeGeneric": "Không tải lên được định dạng file này. Hệ thống hỗ trợ hình ảnh, video, âm thanh, PDF, tài liệu Office và các định dạng văn bản (CSV, TXT, Markdown, HTML, JSON, XML).",
+    "storageUnavailable": "Kho lưu trữ media đang tạm thời không truy cập được. Vui lòng thử lại sau ít phút.",
+    "storageFull": "Dung lượng công ty không đủ cho tệp này: đã dùng {used} / {total}. Hãy giải phóng dung lượng hoặc nâng cấp gói rồi thử lại.",
+    "storageFullNoFigures": "Dung lượng công ty không đủ cho tệp này. Hãy giải phóng dung lượng hoặc nâng cấp gói rồi thử lại.",
+    "storageFullPreflight": "Tệp này lớn hơn dung lượng công ty còn lại: đã dùng {used} / {total}. Chưa tải lên gì. Hãy giải phóng dung lượng hoặc nâng cấp gói.",
+    "storageGraceExceeded": "Hết dung lượng: {after} sẽ vượt mức ân hạn {limit} ({capacity} + 10%). Chưa tải lên gì. Hãy giải phóng dung lượng, mua credit hoặc nâng cấp gói rồi thử lại.",
+    "storageGraceExceededPreflight": "Hết dung lượng: {after} sẽ vượt mức ân hạn {limit} ({capacity} + 10%). Chưa tải lên gì. Hãy giải phóng dung lượng, mua credit hoặc nâng cấp gói.",
+    "unauthorized": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại rồi tải lên lần nữa.",
+    "failed": "Tải lên thất bại (lỗi {status}). Vui lòng thử lại.",
+    "failedToast": "Không thể tải lên {name}",
+    "failedLabel": "Tải lên thất bại",
+    "emptyFile": "{name} trống (0 byte) nên không được tải lên.",
+    "contentMismatch": "{name} không giống một tệp {type} hợp lệ. Tệp có thể bị hỏng, rỗng hoặc đã bị đổi đuôi từ định dạng khác.",
+    "corruptFile": "{name} bị hỏng và không mở được nên không được tải lên.",
+    "videoUnplayable": "Không phát được {name}: tệp bị hỏng hoặc dùng định dạng trình duyệt không đọc được, nên không được tải lên. Hãy chuyển sang MP4 (H.264) rồi thử lại.",
+    "failedToastMany": "Không thể tải lên {count} tệp",
+    "deduplicated": "File này đã có trong thư viện của bạn — hệ thống dùng lại bản cũ thay vì lưu trùng.",
+    "documentInvalid": "Không đọc được tệp này. Tệp có thể rỗng, bị hỏng, hoặc nội dung không khớp với phần mở rộng của tệp.",
+    "serverError": "Máy chủ không xử lý được tệp này. Vui lòng thử lại sau ít phút.",
+    "documentUnreadable": "Không đọc được “{name}”. Tệp scan hoặc tệp bị bảo vệ có thể không được hỗ trợ.",
+    "types": {
+      "images": "hình ảnh",
+      "video": "video",
+      "audio": "âm thanh",
+      "documents": "tệp PDF và Office",
+      "text": "văn bản và CSV"
+    },
+    "typeListSeparator": ", ",
+    "dropOverCap": "Chỉ đính được {cap} tệp — {dropped} tệp còn lại không được thêm.",
+    "dropFolders": "Không đính được thư mục. Hãy thả các tệp bên trong.",
+    "dropUnsupported": "Một số tệp không đính được. Chúng tôi nhận {types}.",
+    "documentIndexUnavailable": "Đã đọc được “{name}” nhưng chưa lập chỉ mục được lúc này. Bạn đính kèm lại sau ít phút.",
+    "documentReaderUnavailable": "Không xử lý được “{name}”: bộ đọc tài liệu chưa sẵn sàng trên hệ thống này.",
+    "documentUnsupported": "“{name}” thuộc định dạng hệ thống chưa đọc được.",
+    "documentFailed": "“{name}” chưa xử lý xong. Bạn đính kèm lại; nếu vẫn lỗi thì báo lại giúp.",
+    "documentStillProcessing": "“{name}” vẫn đang được xử lý — việc này đang mất nhiều thời gian hơn bình thường. Vui lòng đợi thêm rồi thử lại.",
+    "documentScanUnavailable": "“{name}” là bản scan (ảnh chụp trang, không có chữ) và hệ thống hiện chưa đọc được bản scan. Đính kèm lại sẽ không giúp được; bản có chữ chọn được sẽ dùng được.",
+    "uploading": "Đang tải lên {percent}%",
+    "uploadStalled": "Việc tải file này lên đã dừng, không còn tiến triển. Kiểm tra kết nối rồi đính kèm lại.",
+    "uploadTimeout": "Máy chủ phản hồi quá lâu cho lần tải lên này. Đính kèm lại; nếu vẫn lặp lại, thử file nhỏ hơn.",
+    "network": "Kết nối bị ngắt khi đang tải lên. Kiểm tra kết nối rồi đính kèm lại.",
+    "archiveTooLarge": "File .zip này quá lớn để mở: tối đa {limit} sau khi giải nén và {entries} file.",
+    "archiveInvalid": "Không mở được file .zip này. File có thể bị hỏng, có mật khẩu, hoặc chứa đường dẫn không an toàn.",
+    "archiveCreativeTab": "Không đính kèm .zip ở đây được. Hãy giải nén rồi đính kèm từng file.",
+    "archiveIgnored": "Đã bỏ qua {count} file hệ thống trong {name}.",
+    "archiveEntry": {
+      "too_many_attachments": "Chưa thêm: tin nhắn đã đủ số file tối đa.",
+      "nested_archive": "Chưa thêm: không mở file nén nằm trong .zip. Hãy giải nén nó trước.",
+      "unsupported_type": "Chưa thêm: loại file này không đính kèm được.",
+      "compression_ratio": "Chưa thêm: file này giải nén ra lớn bất thường so với bản nén.",
+      "quota_exceeded": "Chưa thêm: dung lượng lưu trữ của công ty đã đầy.",
+      "too_large": "Chưa thêm: file này vượt giới hạn tải lên.",
+      "store_failed": "Chưa thêm: không lưu được file này. Thử đính kèm riêng file đó."
+    }
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "body": "Trang bạn đang tìm không tồn tại hoặc có thể đã được chuyển đi.",
+    "action": "Về trang chủ"
+  },
+  "desktopNotice": {
+    "computerMouseUsing": "Cluega đang dùng chuột — bạn đừng di chuột, sẽ trả lại ngay.",
+    "computerUserTookOver": "Cluega đã dừng vì bạn đang dùng máy. Không bấm thêm gì.",
+    "continue": "Tiếp tục",
+    "keepPaused": "Dừng",
+    "cancel": "Hủy"
+  }
+}

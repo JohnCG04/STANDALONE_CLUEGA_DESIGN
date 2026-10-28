@@ -1,0 +1,197 @@
+{
+  "engineeringBlog": {
+    "hero": {
+      "eyebrow": "Cluega Engineering Blog"
+    },
+    "latest": {
+      "title": "Latest articles",
+      "all": "All articles"
+    },
+    "categories": {
+      "ai": "AI",
+      "product": "Product",
+      "infra": "Infrastructure",
+      "web": "Web",
+      "inside": "Inside Cluega"
+    },
+    "stats": {
+      "pullRequests": "{count} pull requests merged in the past year"
+    },
+    "cta": {
+      "title": "Want to help redefine how marketing gets done?",
+      "link": "Careers at Cluega"
+    },
+    "detail": {
+      "back": "Engineering blog",
+      "toc": "Table of contents",
+      "placeholder": "This post is still being written. The full write-up — architecture diagrams, code, and production numbers — will land right here."
+    },
+    "datePattern": "{mon} '{yy}",
+    "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "posts": {
+      "streaming-workflow-forms": {
+        "title": "Turning backend-streamed forms into interactive UI",
+        "summary": "The AI writes the workflow while the frontend renders the picker: one data contract wiring backend events to React components.",
+        "role": "Principal Software Engineer"
+      },
+      "dogclaw-executor-runtime": {
+        "title": "Dogclaw Executor: one runtime, local and cloud modes",
+        "summary": "How the same task description runs both in a user's browser and across our container fleet.",
+        "role": "Head of Platform Engineering"
+      },
+      "mcp-dynamic-context-injection": {
+        "title": "The trade-offs of dynamic context injection over MCP",
+        "summary": "More tools make the model dumber. How we feed each turn only what the model actually needs.",
+        "role": "Head of AI Engineering",
+        "article": {
+          "lead": "When building LLM-based agent systems, we keep walking into the same trap: \"MCP (Model Context Protocol) makes adding tools so easy — let's just mount every API, every database query and every external integration we have!\"",
+          "problemsIntro": "But once your agent is carrying 50 — or several hundred — MCP tools, the wheels come off:",
+          "problems": [
+            "**Tool-calling accuracy falls off a cliff**: the model starts pairing things up at random, picking the wrong tool or passing the wrong arguments.",
+            "**Reasoning degrades (the model \"gets dumber\")**: long, irrelevant context takes over a finite context window and squeezes the attention the model needs for complex reasoning.",
+            "**Latency and API cost climb**: every request carries dozens of tool descriptions, and the prompt token count rises in a straight line."
+          ],
+          "contradiction": "**The core tension**: tool capability grows by \"addition\", while the damage context complexity does to reasoning quality grows \"exponentially\".",
+          "question": "So how do we feed the model, on every single turn, **exactly the context and tools it actually needs**?",
+          "s1": {
+            "title": "Why do \"more tools\" make the model dumber?",
+            "intro": "Seen through the lens of LLM attention and prompt engineering, too many tools cause three distinct problems:",
+            "points": [
+              "**Attention Noise**: an LLM's attention mechanism is finite. When the prompt is packed with tool schemas that have nothing to do with the current question, attention gets diluted and the model misses what actually matters (Lost in the Middle).",
+              "**Schema Collision**: when several tools do near-identical jobs (say `search_user_by_email` and `get_user_profile`), the similar descriptions sharply raise the model's perplexity at decision time.",
+              "**Token Budget Waste**: MCP tool JSON schemas tend to be verbose. A few dozen of them can occupy 3k–8k tokens before the conversation even opens, and the room left for reasoning in between is badly compressed."
+            ]
+          },
+          "s2": {
+            "title": "The core architecture of dynamic context injection: Two-Stage Routing",
+            "intro": "To fix this, we can't load every tool at once in the `system_prompt` or at MCP client init — we have to adopt **two-stage retrieval / routing**.",
+            "diagram": [
+              "[ User Input ]",
+              "      │",
+              "      ▼",
+              "┌─────────────────────────────────┐",
+              "│ Stage 1: Dynamic Filter         │  <-- Lightweight router (Vector Search / Intent Classifier)",
+              "│ (3~5 picked from 100+ Tools)    │",
+              "└───────────────┬─────────────────┘",
+              "                │ Selected Tools",
+              "                ▼",
+              "┌─────────────────────────────────┐",
+              "│ Stage 2: LLM Reasoning & Exec   │  <-- Core LLM (slimmed Prompt & Tools injected)",
+              "└─────────────────────────────────┘"
+            ],
+            "vector": {
+              "title": "Strategy A: tool retrieval backed by vector search",
+              "intro": "Embed the name + description of every MCP tool ahead of time and store them in a vector DB.",
+              "steps": [
+                "**Query**: take the user's current query (plus the last two turns of conversation).",
+                "**Retrieve**: pull the top-K (say top 3~5) most semantically relevant MCP tools.",
+                "**Inject**: inject only those 3~5 tool JSON schemas into the MCP session for the current turn."
+              ]
+            },
+            "router": {
+              "title": "Strategy B: intent router (a lightweight intent classifier)",
+              "intro": "Use a very fast, very cheap small model (Claude 3.5 Haiku or GPT-4o-mini, for instance) as the **gatekeeper**.",
+              "points": [
+                "First let the small model decide: \"which module does this query belong to? (DevOps, User System, Billing, …)\"",
+                "Then load the MCP tool group that module maps to, dynamically."
+              ]
+            }
+          },
+          "s3": {
+            "title": "Context slimming: the engineering details",
+            "intro": "Beyond filtering the tools themselves, **what a tool returns once it runs (tool output)** is the other main culprit behind context bloat.",
+            "filtering": {
+              "title": "① Tool Result Filtering & Summarization",
+              "body": "An MCP tool often returns an enormous JSON payload — a 500-line API response, say. Hand that straight back to the model and the next turn blows up.",
+              "points": [
+                "**What we do**: configure `Response Truncation` or a `Json Path Selector` on the MCP server or in client middleware, keeping only the keys the model needs to reason with."
+              ]
+            },
+            "eviction": {
+              "title": "② Stateful Context Eviction",
+              "body": "Some tools only ever need to run once (`get_current_timestamp` or `fetch_user_id`, for example).",
+              "points": [
+                "Once that tool has a result and it is written to an intermediate variable, later turns can **\"compress or replace\" the original tool call history and its huge output with a short prompt summary** — there's no need to carry the full tool log on every turn that follows."
+              ]
+            }
+          },
+          "s4": {
+            "title": "The art of the trade-off: an evaluation table",
+            "intro": "Putting dynamic injection into practice really means making the following engineering trade-offs:",
+            "table": {
+              "head": ["Dimension", "Static injection (Static All)", "Dynamic injection (Dynamic Filtering)"],
+              "rows": {
+                "accuracy": [
+                  "Accuracy & reasoning quality",
+                  "🔴 Poor (with many tools it hallucinates / picks wrong)",
+                  "🟢 Strong (the model focuses on a handful of options)"
+                ],
+                "ttft": [
+                  "Time to first token (TTFT)",
+                  "🔴 High (more prompt tokens, slower processing)",
+                  "🟡 Medium (adds one router / vector lookup, but the LLM itself runs faster)"
+                ],
+                "complexity": [
+                  "Architectural complexity",
+                  "🟢 Very low (just connect and go)",
+                  "🔴 Higher (you maintain a router, a vector index and tool lifecycle)"
+                ],
+                "recall": [
+                  "Recall",
+                  "🟢 100% (every tool is on stage)",
+                  "🟡 Depends on router quality (if the router misses it, the LLM can do nothing)"
+                ]
+              }
+            },
+            "note": "**Engineering note**: the biggest risk in dynamic injection is the **false negative — a tool that should have been recalled wasn't**. So general-purpose base tools (`reply_to_user`, `ask_clarification`) should be set to **always-active**, and only domain-specific tools go into the dynamic retrieval pool."
+          },
+          "outro": {
+            "title": "Closing",
+            "p1": "What makes an agent reliable is not \"how many APIs it connects to\" — it is \"how focused it can stay\".",
+            "p2": "MCP gives us an extraordinarily powerful standard for connectivity, but as architects we can't hand the entire burden to the LLM's context window. **Two-stage tool routing** plus **dynamic context slimming** — feeding the model the purest, most relevant context on every turn — is what keeps an agent both quick and smart."
+          }
+        }
+      },
+      "ascii-hero-render-pipeline": {
+        "title": "Three thousand characters, zero dropped frames",
+        "summary": "Distance fields, a character density ramp, and 30fps: a walkthrough of the ASCII pipeline behind our hero.",
+        "role": "Distinguished Engineer"
+      },
+      "clickhouse-ad-metrics": {
+        "title": "Six months moving ad metrics from Postgres to ClickHouse",
+        "summary": "Aggregating billions of delivery rows, from thirty seconds down to two hundred milliseconds.",
+        "role": "Lead Infrastructure Engineer"
+      },
+      "where-the-hard-problems-live": {
+        "title": "Where the hard problems in marketing AI actually live",
+        "summary": "Not the model — metric definitions, account permissions, and the business rules that have no correct answer.",
+        "role": "VP of Engineering"
+      },
+      "creative-dna-reverse-engineering": {
+        "title": "Reverse-engineering creative DNA from closed orders",
+        "summary": "How we break \"which creative actually drove the order\" into reusable generation constraints.",
+        "role": "Staff ML Engineer"
+      },
+      "multi-tenant-ad-account-sync": {
+        "title": "Idempotency in multi-tenant ad account sync",
+        "summary": "Platform rate limits, expiring tokens, and duplicate callbacks: every failure mode one sync pipeline has to absorb.",
+        "role": "Senior Backend Engineer"
+      },
+      "prompt-eval-harness": {
+        "title": "Writing tests for prompts that are allowed to fail",
+        "summary": "Prompt tuning without an eval set is superstition. How we made every change something we can regress against.",
+        "role": "Research Lead, LLM Systems"
+      },
+      "edge-rendering-i18n": {
+        "title": "Three languages, one route table: i18n at the edge",
+        "summary": "Switching languages without a full page reload, and without giving up first-paint speed.",
+        "role": "Engineering Manager, Growth"
+      },
+      "agent-tool-permissions": {
+        "title": "Giving agents enough access to work, not enough to hurt",
+        "summary": "Tool grants, second confirmations, and audit logs: three things to add before an agent reaches production.",
+        "role": "Head of AI Research"
+      }
+    }
+  }
+}

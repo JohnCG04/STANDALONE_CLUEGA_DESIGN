@@ -1,0 +1,45 @@
+{
+  "legal": {
+    "footer": {
+      "servicesAgreement": "Cluega 服務協議",
+      "privacyPolicy": "Cluega 隱私政策與資料處理附錄",
+      "cookieSettings": "Cookie 設定"
+    },
+    "cookie": {
+      "banner": {
+        "ariaLabel": "Cookie 同意設定",
+        "body": "我們在本網站與產品上使用 Cookie。嚴格必要的 Cookie 讓你保持登入並維護平台安全 — 這些一律啟用。在你同意的前提下，我們也使用功能性 Cookie 記住語言等偏好，以及分析 Cookie 量測網站的使用情形。點選「管理 Cookie」設定偏好，或「拒絕非必要 Cookie」以拒絕。詳情請見[Cookie 政策](/legal/cookies)。",
+        "acceptAll": "全部接受",
+        "reject": "拒絕非必要 Cookie",
+        "manage": "管理 Cookie"
+      },
+      "center": {
+        "brand": "Cluega",
+        "title": "Cookie 偏好設定中心",
+        "body": "當您造訪我們的網站或使用我們的產品時，我們會在您的裝置上儲存 Cookie。嚴格必要的 Cookie 確保網站如預期運作——您無法選擇停用，因為平台運作必須依賴它們。點擊下方類別可了解更多，並可使用切換開關變更您的偏好。更多資訊請參閱我們的 [Cookie 政策](/legal/cookies)。",
+        "manageTitle": "管理同意偏好",
+        "confirm": "確認我的選擇",
+        "close": "關閉",
+        "expand": "展開說明",
+        "collapse": "收起說明",
+        "categories": {
+          "necessary": {
+            "name": "嚴格必要",
+            "status": "一律啟用",
+            "description": "維持您的登入狀態並保障平台安全。"
+          },
+          "functionality": {
+            "name": "功能性",
+            "status": "可開啟／關閉",
+            "description": "記住您的偏好設定，例如語言。"
+          },
+          "analytics": {
+            "name": "分析",
+            "status": "分析 Cookie",
+            "description": "量測網站的使用情形 — 哪些頁面被瀏覽、訪客從何而來 — 以便我們改進。透過 Google Tag Manager 載入，在你開啟此項之前完全不會載入。預設為關閉。"
+          }
+        }
+      }
+    }
+  }
+}

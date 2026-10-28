@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.*
+
+# Next.js / build output
+.next
+out
+build
+dist
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment — real values never leave the machine; .env.example documents them
+.env
+.env*
+!.env.example
+
+# Vercel
+.vercel
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Tooling caches
+.eslintcache
+coverage
+.turbo
+
+# Editors / OS
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Secrets that should never be committed
+*.pem
+*.key
+
+# Local backups
+*.bak
+*.bak-*

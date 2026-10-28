@@ -1,0 +1,206 @@
+{
+  "platformEnterprise": {
+    "hero": {
+      "eyebrowNew": "Enterprise",
+      "eyebrowLabel": "Book Demo →",
+      "title": "A dedicated AI work system built for large enterprises",
+      "sub1": "Not an off-the-shelf AI tool — an intelligent partner that truly understands your enterprise.",
+      "sub2": "From your enterprise knowledge base to custom skills, every AI response is deeply tied to your business."
+    },
+    "heroMock": {
+      "project": "11.11 store launch",
+      "taskTitle": "Refresh 11.11 best-sellers",
+      "activity": "Activity",
+      "workspace": "Workspace",
+      "favorites": "Favorites",
+      "sidebarMain": ["Inbox", "My tasks", "Reviews", "Pulse"],
+      "sidebarWorkspace": ["Initiatives", "Projects", "More"],
+      "favoriteItems": ["11.11 store launch", "Agent tasks", "Listing refresh", "Ops Insights"],
+      "descBefore": "Stage updated 11.11 creative and pricing for the top",
+      "descAfter": "across Shopee and TikTok Shop, then push a draft for review instead of going live blind.",
+      "act1": "Cluega created the task via Lark on behalf of Audrey · 2min ago",
+      "act2": "Triage Intelligence added the labels Promo and Shopee · 2min ago",
+      "act3": "Cluega connected by Chloe · Changed 12 listings · Draft awaiting your review · 2min ago",
+      "act4": "Cluega moved from Todo to In Progress · just now",
+      "time4min": "4min ago",
+      "timeJustNow": "just now",
+      "msgAudrey": "Right now our 11.11 banners still show last month's prices…",
+      "msgChloe": "can you take a stab at this?",
+      "statusInProgress": "In Progress",
+      "priorityHigh": "High",
+      "metaConnected": "Chloe connected Cluega to",
+      "examining": "Examining the store catalog…",
+      "workedFor": "Worked for 7s",
+      "pushedDraft": "Pushed and opened a draft. Changes:",
+      "change1": "rewrite 12 titles with 11.11 hooks",
+      "change2": "apply campaign prices & badges",
+      "changedFiles": "Changed 2 files",
+      "preview": "Preview",
+      "draftBadge": "Draft",
+      "updateStorefront": "Update 11.11 storefront",
+      "inputPlaceholder": "Tell Cluega what to do next…"
+    },
+    "intakeMock": {
+      "headerTitle": "Cluega",
+      "user1Name": "Adrian",
+      "user1Time": "10:31",
+      "user1Msg": "We're planning to bring the EcoSip smart insulated bottle to the European market next quarter. Based on our enterprise-specific data, how should we set the core product positioning and pricing strategy so it perfectly fits our brand guidelines?",
+      "botName": "Cluega",
+      "botTime": "10:32",
+      "retrieving": "🔍 Searching the EcoSip enterprise knowledge base... Read: [DOC-2026] EcoSip smart bottle product manual_EN.pdf, [BRAND-01] Global brand identity & visual guidelines.pdf, [DATA-926] Europe vacuum-insulated drinkware market report 2025",
+      "frameworkTitle": "【EcoSip Europe Market-Entry Strategic Framework】",
+      "point1": "🎯 Core product positioning: premium sustainable hydration tech. Per the 《Global Brand Identity Guidelines》 (p.14), we must emphasize the patented double-wall vacuum insulation and zero-plastic eco packaging to precisely attract Europe's premium, sustainability-conscious consumers.",
+      "point2": "💰 Pricing strategy: market data shows European mid-to-high-end insulated bottles retail between €45 and €60. To hold EcoSip's premium positioning while staying competitive, we recommend an MSRP of €49.99.",
+      "point3": "📋 Compliance review: every material used in this product has passed the EU LFGB and RoHS dual certification recorded in the internal process library.",
+      "inputText": "based on this framework, draft a B2B international press release for the European launch event.",
+      "col0Title": "All Documents",
+      "col1Title": "Technical & Brand",
+      "col2Title": "Market & Cases",
+      "col3Title": "Operations & SOP",
+      "cards": {
+        "DOC-2026": { "title": "EcoSip smart insulated bottle product manual", "tags": ["#Product specs", "#Vacuum insulation"] },
+        "BRAND-01": { "title": "Global brand identity & VI visual application guidelines 2026", "tags": ["#Brand tone", "#Visual identity"] },
+        "CERT-302": { "title": "EU compliance certification archive (LFGB, RoHS, CE)", "tags": ["#Compliance", "#Intl standards"] },
+        "DATA-926": { "title": "Europe vacuum drinkware market trends & competitor data report 2025", "tags": ["#Market research", "#Competitor analysis"] },
+        "CASE-108": { "title": "North America market-entry (GTM) historical success case study", "tags": ["#Global strategy", "#Case review"] },
+        "DATA-188": { "title": "Global pricing matrix & margin actuarial analysis sheet", "tags": ["#Financial data"] },
+        "SOP-148": { "title": "Global customer success & after-sales standard response guide (FAQ)", "tags": ["#Customer success", "#SOP process"] },
+        "OPS-640": { "title": "Global supply chain & cross-border logistics integration protocol", "tags": ["#Cross-border logistics", "#Internal process"] }
+      }
+    },
+    "planMock": {
+      "panelTitle": "Skill",
+      "groups": {
+        "g1": {
+          "name": "Core business automation",
+          "children": ["Auto-sync CRM dealer leads", "Custom sampling & factory scheduling SOP", "Multilingual replies to overseas B2B inquiries"]
+        },
+        "g2": {
+          "name": "Smart reporting & analytics",
+          "children": ["Auto-generate global market reports", "Auto-classify bulk-purchase intent"]
+        }
+      },
+      "rows": {
+        "r1": { "title": "Dealer bulk-purchase follow-up", "seg1": "Auto-extract new leads", "seg2": "Auto-generate quotes" },
+        "r2": { "title": "Industry market report generation", "seg1": "Auto-fetch market data", "seg2": "AI insights & chart generation" },
+        "r3": { "title": "Kick off custom sampling SOP", "seg1": "Parse Logo ➔ generate mockup ➔ factory scheduling" }
+      },
+      "gaNode": "Trigger: website customization request"
+    },
+    "buildMock": {
+      "msg1": "Got the upload! Auto-detecting file formats and contents...",
+      "msg2pre": "Upload source: ",
+      "msg2folder": "EcoSip folder",
+      "msg3": "🔍 Parsing in the background and extracting the core text:",
+      "msg4a": "Successfully parsed multi-format source files (API / text)",
+      "msg4b": "EcoSip_2026_latest_product_specs.pdf ｜ market_competitor_analysis.xlsx",
+      "msg5": "AI has finished matching the knowledge-base structure...",
+      "thinking": "Analysis complete — choose or create a folder to save into...",
+      "pickerSearch": "Choose a folder to save into",
+      "folders": {
+        "f1": "Product tech & spec manual",
+        "f2": "Brand identity & global VI guidelines",
+        "f3": "Global market intel & historical cases",
+        "f4": "Supply chain & cross-border logistics protocol",
+        "f5": "Financial pricing & margin actuarial sheet",
+        "new": "New folder"
+      }
+    },
+    "diffMock": {
+      "fileNote": "Dynamic industry engine",
+      "left": {
+        "comment9": "Core logic: auto-detect low stock",
+        "comment15": "Auto-run: supplier restock flow"
+      },
+      "right": {
+        "comment9": "Core logic: auto-detect high-value transaction risk",
+        "comment15": "Auto-run: identity verification & compliance flow"
+      }
+    },
+    "logoWordmarks": ["Salesforce", "HubSpot", "Meta Ads", "TikTok Ads", "Google Ads", "Lark"],
+    "intro": {
+      "lead": "Generic AI doesn't understand your business.",
+      "rest": "AI assistants on the market only answer “generic questions.” The moment an employee asks about your product manuals, CRM data or ad strategy, they're left clueless."
+    },
+    "triad": {
+      "purpose": {
+        "title": "Knowledge gaps",
+        "body": "AI doesn't know your company's products, processes or past decisions — you have to explain everything from scratch each time"
+      },
+      "agents": {
+        "title": "System silos",
+        "body": "CRM, ad platforms and finance systems each go their own way, and AI can't connect the data"
+      },
+      "speed": {
+        "title": "Repetitive and inefficient",
+        "body": "The same workflows, repeated by employees every day, with no automation to speak of"
+      }
+    },
+    "blocks": {
+      "intake": {
+        "cta": "Knowledge base",
+        "title": "Enterprise knowledge base\nso AI truly understands your company",
+        "body": "Bring all of your enterprise knowledge into the Cluega knowledge base——product manuals, historical cases, brand guidelines, market data, internal processes……Before every conversation and task, AI reads and understands this enterprise-specific content first, ensuring every answer and every asset it produces is grounded and genuinely fits your business reality.",
+        "sublinks": ["Unified knowledge center", "AI learns first", "Continuous sync updates"]
+      },
+      "plan": {
+        "cta": "Custom Skills",
+        "title": "Enterprise custom Skills\nAI works your way",
+        "body": "Every enterprise runs its business differently. Cluega's custom Skill system lets you equip AI with dedicated capabilities for your own needs——whether connecting your CRM, auto-generating industry reports, or running workflows unique to your company. This isn't “configuring a tool” — it's customizing an AI operator for your enterprise that truly understands the business.",
+        "sublinks": ["CRM data integration", "Auto ad reporting", "Smart contract review", "Bulk brand asset generation", "Automated follow-up reminders", "Sales forecasting & analysis"]
+      },
+      "build": {
+        "cta": "How it works",
+        "title": "Three steps\nto make AI an enterprise-grade assistant",
+        "body": "Upload your documents, data, processes and guidelines to the enterprise knowledge base in one place. It supports PDF, Word, Excel, web pages, API integration and more — your existing work materials need no changes.",
+        "sublinks": ["Import enterprise knowledge", "Configure custom skills", "AI starts executing intelligently"]
+      },
+      "diffs": {
+        "cta": "Who it's for",
+        "title": "Enterprise customization\nfit for these scenarios",
+        "body": "No matter how large your industry or how complex your processes, Cluega's enterprise customization can start from your existing systems and data to build a tailored AI solution.",
+        "sublinks": ["E-commerce & retail", "Ad agencies", "Financial services", "Healthcare", "Manufacturing", "Education", "Tech companies", "Retail chains"]
+      },
+      "monitor": {
+        "cta": "Results in numbers",
+        "title": "Numbers speak",
+        "body": "We let measurable results do the talking, so every bit of investment shows a clear return.",
+        "sublinks": ["85% first-response accuracy", "3× work efficiency", "14 years of digital marketing"]
+      }
+    },
+    "changelog": {
+      "title": "Recent updates",
+      "viewAll": "View all updates",
+      "c1": {
+        "title": "Enterprise knowledge base now supports real-time API sync",
+        "body": "Added API integration — knowledge base updates take effect instantly, so AI always has the latest enterprise context……"
+      },
+      "c2": {
+        "title": "Skill marketplace adds six major enterprise skills",
+        "body": "From CRM data integration to sales forecasting, ready-to-use custom skills keep expanding to cover more business scenarios……"
+      }
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "Let AI truly read and understand your enterprise knowledge.",
+        "name": "Enterprise knowledge base",
+        "role": "Deeply tied to your business"
+      },
+      "t2": {
+        "quote": "Equip AI with skills built for your enterprise.",
+        "name": "Enterprise custom Skills",
+        "role": "Works your way"
+      },
+      "t3": {
+        "quote": "Live in three steps — no technical background needed.",
+        "name": "Fast deployment",
+        "role": "Ready out of the box"
+      }
+    },
+    "finalCta": {
+      "title": "Ready to let AI truly understand your enterprise?",
+      "primary": "Book an enterprise demo",
+      "secondary": "Contact sales →"
+    }
+  }
+}

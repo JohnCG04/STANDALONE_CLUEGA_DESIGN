@@ -1,0 +1,27 @@
+{
+  "label": "Mẹo",
+  "skills": [
+    "Thử thêm một kỹ năng để điều chỉnh hành vi của agent đúng với nhu cầu của bạn.",
+    "Chọn một kỹ năng trước khi gửi — agent sẽ thông minh hơn cho tác vụ cụ thể của bạn.",
+    "Muốn câu trả lời tập trung hơn? Chọn một kỹ năng để định hướng cách agent suy nghĩ.",
+    "Kỹ năng giúp agent sắc bén hơn. Chọn một cái trong khung soạn để phù hợp với quy trình của bạn."
+  ],
+  "research": [
+    "Bạn có thể yêu cầu agent nghiên cứu hoặc tìm kiếm bất kỳ trang web nào cho bạn.",
+    "Cần thông tin mới? Yêu cầu agent tìm trên web và trích dẫn nguồn.",
+    "Thử yêu cầu agent tra cứu thông tin trực tuyến — nó có thể duyệt và tóm tắt cho bạn.",
+    "Agent có thể nghiên cứu đối thủ, xu hướng hay bất kỳ chủ đề nào trên web — chỉ cần hỏi."
+  ],
+  "workflow": [
+    "Tạo và tối ưu chiến dịch bằng workflow — chọn một nền tảng bên dưới và xem điều kỳ diệu.",
+    "Muốn chạy quảng cáo? Nhấp vào một nền tảng để bắt đầu workflow chiến dịch có hướng dẫn.",
+    "Chạy chiến dịch nhiều bước tự động — chọn một nền tảng để khởi động workflow.",
+    "Tối ưu chiến dịch hiện có qua workflow — chọn một nền tảng để bắt đầu."
+  ],
+  "general": [
+    "Hãy nói rõ mục tiêu — càng nhiều ngữ cảnh, agent làm việc càng tốt.",
+    "Bạn có thể hỏi tiếp bằng ngôn ngữ tự nhiên; agent nhớ toàn bộ cuộc trò chuyện.",
+    "Yêu cầu agent giải thích kế hoạch trước khi hành động nếu bạn muốn xem các bước.",
+    "Kết hợp một kỹ năng với yêu cầu rõ ràng để nhận kết quả phù hợp và khả thi."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "label": "Tip",
+  "skills": [
+    "Try injecting a Skill to tailor the agent's behaviour to exactly what you need.",
+    "Pick a Skill before you send — it makes the agent smarter for your specific task.",
+    "Want more focused answers? Select a Skill to steer how the agent thinks.",
+    "Skills sharpen the agent. Choose one from the composer to fit it to your workflow."
+  ],
+  "research": [
+    "You can ask the agent to research or search any website for you.",
+    "Need fresh information? Ask the agent to search the web and cite its sources.",
+    "Try asking the agent to look something up online — it can browse and summarize for you.",
+    "The agent can research competitors, trends, or any topic on the open web — just ask."
+  ],
+  "workflow": [
+    "Create and optimize a campaign with a workflow — pick a platform below and watch it happen.",
+    "Want to launch ads? Click a platform to start a guided campaign workflow.",
+    "Run a multi-step campaign automatically — choose a platform to kick off the workflow.",
+    "Optimize an existing campaign through a workflow — select a platform to begin."
+  ],
+  "general": [
+    "Be specific about your goal — the more context you give, the better the agent performs.",
+    "You can follow up in plain language; the agent remembers the conversation.",
+    "Ask the agent to explain its plan before it acts if you want to review the steps.",
+    "Combine a Skill with a clear request to get tailored, actionable results."
+  ]
+}

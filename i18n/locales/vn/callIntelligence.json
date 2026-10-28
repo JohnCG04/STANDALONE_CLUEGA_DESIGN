@@ -1,0 +1,489 @@
+{
+  "callIntelligence": {
+    "hero": {
+      "badge": "AI Đại lý quảng cáo",
+      "headline": "Hoàn thành việc chạy quảng cáo đa nền tảng phức tạp chỉ bằng những chỉ dẫn đơn giản.",
+      "description": "Tạm biệt quy trình thiết lập quảng cáo rườm rà. Chỉ cần nói với Cluega AI các từ khóa quảng cáo của bạn, hệ thống sẽ tự động tạo quảng cáo đa nền tảng (TikTok, Meta, Google). Từ đề xuất tài khoản quảng cáo, nhắm chọn đối tượng đến phân bổ ngân sách, mọi thứ đều được xử lý dễ dàng.",
+      "primaryCta": "Sử dụng ngay",
+      "secondaryCta": "Liên hệ chúng tôi",
+      "emailLabel": "Địa chỉ email của bạn",
+      "emailPlaceholder": "Địa chỉ email của bạn",
+      "demo": {
+        "ariaLabel": "Animation Cluega AI đề xuất tài khoản quảng cáo",
+        "userCommand": "Chào, tôi muốn chạy quảng cáo tin nhắn riêng TikTok để lấy lead khách hàng.",
+        "initialResponse": "Trước khi bắt đầu chạy, cần xác nhận trước sẽ sử dụng những tài khoản quảng cáo nào. Bạn muốn tôi đề xuất tài khoản, hay tự chọn từ danh sách đầy đủ?",
+        "suggestButton": "Đề xuất tài khoản quảng cáo",
+        "chooseFromListButton": "Chọn từ danh sách tài khoản",
+        "scanResult": "Đã quét các tài khoản quảng cáo dưới tên bạn. Dưới đây là các tài khoản có chi tiêu thực tế trong 7 ngày qua (đã được chọn sẵn), vui lòng xác nhận:",
+        "idLabel": "ID",
+        "confirmButton": "Xác nhận lựa chọn (2)"
+      }
+    },
+    "insights": {
+      "titleMain": "Một chỉ lệnh nói tự nhiên giải phóng lưu lượng không giới hạn.",
+      "titleMuted": "Mọi chi tiết chạy quảng cáo và thay đổi dữ liệu trên nhiều nền tảng đều có thể truy vết.",
+      "chapters": {
+        "focus": {
+          "title": "Phân tích nhanh tệp khách hàng vàng",
+          "description": "Bật chế độ tập trung vào audience, AI tự động nhận diện tệp khách hàng vàng và ngăn lãng phí ngân sách."
+        },
+        "action-plan": {
+          "title": "Một nhấp chạy quảng cáo đa nền tảng",
+          "description": "Đồng bộ triển khai toàn kênh, mở ra kỷ nguyên marketing hiệu quả chỉ trong một giây."
+        },
+        "global-transcript": {
+          "title": "Một nhấp bản địa hóa creative đa ngôn ngữ",
+          "description": "Tạo Hook quảng cáo đa ngôn ngữ chỉ bằng một nhấp, tự động thích ứng với thị trường quốc tế, hỗ trợ hơn 100 ngôn ngữ."
+        },
+        "account-dashboard": {
+          "title": "Biết toàn cảnh tài khoản chỉ với một cú nhấp",
+          "description": "Đăng nhập Cluega, các xu hướng chỉ số quảng cáo cốt lõi hiện rõ trong nháy mắt. Đồng thời liệt kê các vấn đề cần xử lý, không đưa ra lời khuyên tối ưu chung chung mà kèm theo chỉ thị cụ thể có dữ liệu hỗ trợ, để bạn nhấp là thực thi.",
+          "visual": {
+            "headerTitle": "Danh sách tài khoản",
+            "metrics": {
+              "cost": { "label": "Cost", "value": "$15,632", "delta": "+18%", "caption": "Tổng chi phí & mức tăng" },
+              "roas": { "label": "ROAS", "value": "2.35x", "delta": "-12%", "caption": "Tỷ suất & mức đạt mục tiêu" },
+              "conversions": { "label": "Conversions", "value": "650", "delta": "+5%", "caption": "Số chuyển đổi & tỷ lệ" }
+            },
+            "chart": { "startDate": "Apr 22", "endDate": "May 22" },
+            "issues": {
+              "title": "Top Issues to Fix",
+              "analyze": "Phân tích",
+              "action": "Xem & áp dụng",
+              "items": {
+                "materialFatigue": "Nội dung quảng cáo bình giữ nhiệt bị bão hòa, CTR giảm 5 ngày liên tiếp...",
+                "budgetImbalance": "Nhóm quảng cáo Advantage+ Shopping phân bổ ngân sách mất cân đối...",
+                "landingPage": "Thời gian tải trang đích ảnh hưởng chuyển đổi trên di động..."
+              }
+            }
+          }
+        }
+      }
+    },
+    "triptych": {
+      "header": {
+        "title": "Từ một câu lệnh đến doanh thu hiệu quả — tất cả được Cluega xử lý dễ dàng.",
+        "description": "Tìm kiếm, điều chỉnh, tối ưu chính xác — để AI lo từng ad set cho bạn."
+      },
+      "cards": {
+        "preciseTargeting": {
+          "title": "Định hướng chính xác",
+          "description": "Cluega AI đọc hiểu hoàn hảo hội thoại nói, tự động chuyển ý tưởng của bạn thành nhắm chọn audience và phân bổ ngân sách chính xác nhất trên mọi nền tảng."
+        },
+        "crossPlatform": {
+          "title": "Kết nối đa nền tảng không rào cản",
+          "description": "Tạm biệt các backend rời rạc! Cluega tự động kết nối mọi kênh, quản lý tất cả kế hoạch và trạng thái duyệt trong một nơi."
+        },
+        "intuitiveEdits": {
+          "title": "Chỉnh sửa trực quan, đồng bộ trong giây",
+          "description": "Đây không chỉ là dashboard dữ liệu. Bật/tắt quảng cáo và điều chỉnh ngân sách trực tiếp trong bảng thống nhất, đồng bộ thời gian thực lên mọi nền tảng media."
+        }
+      }
+    },
+    "integration": {
+      "title": "Đồng bộ tức thì, bắt đầu không rào cản.",
+      "description": "Cluega có thể kết nối trực tiếp với các tài khoản marketing chính thức Meta Ads, TikTok Ads và Google Ads của bạn."
+    },
+    "templates": {
+      "header": {
+        "title": "Nhiều phương thức chạy quảng cáo.",
+        "description": "Ghép chính xác lộ trình tăng trưởng phù hợp nhất với sản phẩm của bạn."
+      },
+      "tabsLabel": "Phương thức chạy quảng cáo",
+      "more": "Thêm→",
+      "advantagesLabel": "Danh sách lợi thế chạy quảng cáo của Cluega:",
+      "cardDescription": "Dùng Cluega AI để tự động cấu hình, hỗ trợ duyệt và quản lý nhịp phân phối.",
+      "tabs": {
+        "productPromotion": {
+          "label": "Quảng bá sản phẩm",
+          "title": "Quảng bá sản phẩm",
+          "advantages": [
+            "Chạy đa nền tảng một nhấp",
+            "Hỗ trợ duyệt thông minh",
+            "Dữ liệu đạt mục tiêu, AI tự động tiếp quản"
+          ]
+        },
+        "appPromotion": {
+          "label": "Quảng bá ứng dụng",
+          "title": "Quảng bá ứng dụng",
+          "advantages": [
+            "Thu hút người dùng mới hợp nhất một nhấp",
+            "Tối ưu duyệt sự kiện trả phí sâu",
+            "Ủy thác hai chiều sự kiện và giá trị"
+          ]
+        },
+        "leadCollection": {
+          "label": "Thu thập lead",
+          "title": "Thu thập lead",
+          "advantages": [
+            "Quảng cáo tin nhắn riêng",
+            "Quảng cáo biểu mẫu"
+          ]
+        }
+      }
+    },
+    "allInOne": {
+      "header": {
+        "titleLead": "Bộ não quảng cáo của kỷ nguyên AI, ",
+        "titleRest": "theo dõi toàn vòng đời và ra quyết định tự động."
+      },
+      "connect": {
+        "title": "Account Intelligence — ủy quyền là khởi động",
+        "description": "Mỗi khi bạn kết nối tài khoản quảng cáo, Cluega sẽ tự động phân tích toàn bộ lịch sử trong nền — từ lượng chuyển đổi, xu hướng chi phí đến hiệu quả creative và độ bão hòa audience. Không cần bất kỳ thiết lập rườm rà nào, ủy quyền xong là phân tích chuyên sâu vận hành ngay lập tức.",
+        "linkLabel": "+ Liên kết",
+        "tiles": {
+          "tiktok": { "name": "TikTok Ads", "description": "Chạy và theo dõi hiệu quả quảng cáo TikTok" },
+          "meta": { "name": "Meta", "description": "Quản lý quảng cáo Facebook và Instagram" },
+          "google": { "name": "Google Ads", "description": "Quảng cáo Google Tìm kiếm và Mạng hiển thị" }
+        }
+      },
+      "accounts": {
+        "title": "Ad Accounts Overview",
+        "rows": {
+          "tiktok": { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Setup" },
+          "meta": { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Cold Start" },
+          "instagram": { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Optimization" },
+          "google": { "name": "Google_HQ_Flagship_Flywheel_Main", "stage": "M5 Flywheel" }
+        }
+      },
+      "maturity": {
+        "title": "Account Maturity Stages (M0–M5) — nắm chính xác vòng đời tài khoản",
+        "description": "Không phải tài khoản nào cũng cần chiến lược vận hành giống nhau. Một tài khoản vừa khởi chạy và một tài khoản đã chạy hai năm cần những chiến lược hoàn toàn khác nhau. Cluega tự động phân loại tài khoản thành sáu giai đoạn trưởng thành M0–M5 (từ khởi động nguội đến giai đoạn bánh đà), lọc bỏ nhiễu ở từng giai đoạn, chỉ phân tích những chỉ số cốt lõi thực sự quan trọng cho bạn."
+      },
+      "grading": {
+        "title": "Ad Set Grading (S / A / B / C / D) — biết ngay nhóm quảng cáo nào đáng đặt cược",
+        "description": "Cluega đánh giá tổng hợp hai chiều dữ liệu tin cậy và động lực hiệu suất để chấm điểm chính xác từng nhóm quảng cáo. Từ hạng S (ngôi sao tiềm năng, một nhấp tăng ngân sách) đến hạng D (ứng viên dừng chạy), giúp bạn dùng ngân sách đúng nơi sắc bén nhất.",
+        "rows": {
+          "lookalikePurchase": {
+            "name": "AdSet_Lookalike_Purchase_1%",
+            "platform": "TikTok Ads",
+            "date": "May 22"
+          },
+          "broadInterest": {
+            "name": "AdSet_Broad_Interest_Fashion",
+            "platform": "Meta Ads",
+            "date": "May 22"
+          },
+          "retargeting": {
+            "name": "AdSet_Retargeting_VV_30D",
+            "platform": "Google Ads",
+            "date": "May 22"
+          },
+          "sportswear": {
+            "name": "AdSet_Interests_Sportswear",
+            "platform": "Instagram Ads",
+            "date": "May 22"
+          }
+        }
+      },
+      "features": {
+        "mcpReady": {
+          "title": "Quyết định phân phối do AI ủy thác",
+          "description": "Cluega là nền tảng quảng cáo được thiết kế cho AI Agent, biến phân tích quảng cáo thành chỉ thị thực thi trong tích tắc. Bật chế độ ủy thác để thực thi chính xác mà không cần suy luận lần hai."
+        },
+        "burstDetection": {
+          "title": "Không bỏ lỡ đợt bùng nổ của tài khoản mới",
+          "description": "Nếu tài khoản mới bùng nổ chuyển đổi trong vòng 24 giờ, Cluega lập tức kích hoạt chế độ quan sát 72 giờ: khóa ngân sách để tránh phán đoán sai và liên tục theo dõi, ngay khi đạt chuẩn liền nâng cấp thành \"ngôi sao tiềm năng\" và chủ động thông báo."
+        },
+        "fatigueIntelligence": {
+          "title": "Cảnh báo sớm sự suy giảm của tài khoản cũ",
+          "description": "Cluega tính lại điểm động lượng của từng nhóm quảng cáo mỗi ngày, liên tục theo dõi tín hiệu suy giảm. Ngay khi xếp hạng rơi xuống hạng C (cảnh báo suy giảm), hệ thống lập tức chủ động chẩn đoán nguyên nhân và đưa ra hướng tối ưu cụ thể."
+        },
+        "alwaysCurrent": {
+          "title": "Tự động cập nhật mỗi ngày",
+          "description": "Trạng thái tài khoản quảng cáo thay đổi mỗi ngày. Cluega tính lại phân hạng của tất cả tài khoản vào rạng sáng mỗi ngày, đảm bảo khi AI hoặc chuyên viên tối ưu của bạn ra quyết định phân phối, họ luôn nắm trong tay trạng thái mới nhất tại thời điểm hiện tại."
+        }
+      }
+    },
+    "finalCta": {
+      "heading": "Tạm biệt cấu hình đa nền tảng rườm rà — chỉ một câu lệnh để vận hành phân phối hiệu quả.",
+      "demo": "Đặt lịch Demo",
+      "start": "Bắt đầu miễn phí"
+    },
+    "management": {
+      "header": {
+        "title": "Quản lý không tốn công sức.",
+        "description": "Mọi chi tiết sau khi quảng cáo vận hành đều nằm trong tầm kiểm soát của bạn."
+      },
+      "cards": {
+        "planMonitoring": {
+          "title": "Giám sát kế hoạch quảng cáo theo thời gian thực",
+          "description": "Góc nhìn toàn cục được xây dựng cho quản lý đa nền tảng. Trạng thái tức thời và tiến độ duyệt của mọi kế hoạch đều rõ ràng trong nháy mắt, không cần chuyển qua lại giữa các nền tảng."
+        },
+        "accountDashboard": {
+          "title": "Tích hợp tài khoản đa nền tảng và dashboard dữ liệu tức thời",
+          "description": "Từ một lối vào duy nhất, bạn có thể chuyển đổi giữa các tài khoản quảng bá đa nền tảng bất cứ lúc nào, gọi dữ liệu phễu cốt lõi theo thời gian thực và nắm các chỉ số tăng trưởng giá trị nhất."
+        },
+        "manualAdjustments": {
+          "title": "Điều chỉnh thủ công trên panel trực quan",
+          "description": "Quyền kiểm soát chính xác đến cấp nhóm quảng cáo. Bạn có thể tạm dừng quảng cáo bằng công tắc một chạm bất cứ lúc nào, chỉnh thủ công giá thầu và ngân sách, rồi đồng bộ thay đổi lên các nền tảng media lớn chỉ trong mili giây."
+        },
+        "autoDiagnosis": {
+          "title": "Phòng chỉ huy quảng cáo phối hợp người và AI",
+          "description": "Hợp nhất hành vi AI, thao tác của đội ngũ và dữ liệu media trên cùng một dòng thời gian. Dù là GPT điều chỉnh ngân sách, Claude tạo đề xuất tối ưu hay đồng đội đặt giá thầu thủ công, mọi bản ghi đều được theo dõi đầy đủ — ai tiếp nhận cũng nắm toàn cục trong tích tắc.",
+          "visual": {
+            "headerTitle": "Nhật ký ủy thác Cluega",
+            "entries": {
+              "budgetPlan": {
+                "action": "đã lập kế hoạch ngân sách quảng cáo",
+                "text": "Dựa trên ROAS 7 ngày gần đây, đề xuất giảm ngân sách Meta 12% và tăng Google 18%."
+              },
+              "optimization": {
+                "action": "đã tạo đề xuất tối ưu",
+                "text": "Với 3 nhóm quảng cáo kém hiệu quả, đề xuất tạm dừng và phân bổ lại ngân sách sang nhóm ROAS cao."
+              },
+              "manualBid": {
+                "action": "đã điều chỉnh chiến lược đặt giá thủ công",
+                "text": "Tăng giá thầu mỗi chuyển đổi của nhóm quảng cáo “Khuyến mãi mùa xuân – Chuyển đổi” từ $8 lên $12."
+              }
+            }
+          }
+        }
+      },
+      "quote": "Thông qua một giao diện tích hợp duy nhất, tôi không chỉ có thể nắm tiến độ quảng cáo trên mọi nền tảng bất cứ lúc nào, mà còn trực tiếp điều chỉnh thủ công. Điều này giúp hiệu suất chạy quảng cáo tăng hơn mười lần!",
+      "quoteAuthor": "Trần Tư Dĩnh",
+      "quoteTitle": "Phó Chủ tịch Marketing số"
+    },
+    "quote": {
+      "title": "Chứng thực về quy trình chạy quảng cáo",
+      "content": "Cluega AI đã thay đổi hoàn toàn quy trình chạy quảng cáo của chúng tôi. Trước đây mỗi ngày chúng tôi phải tự chỉnh giá thầu và thay creative trong ba dashboard quảng cáo; giờ AI tự động tối ưu, giúp tiết kiệm 80% thời gian làm việc!",
+      "headline": "Lâm Nhã Đình",
+      "description": "Giám đốc Marketing hiệu suất"
+    },
+    "visuals": {
+      "adPlanTable": {
+        "ariaLabel": "Xem trước bảng kế hoạch AD",
+        "title": "Kế hoạch AD của tôi",
+        "createPlan": "Tạo kế hoạch mới",
+        "view": "Xem",
+        "headers": {
+          "name": "Tên kế hoạch",
+          "budget": "Ngân sách",
+          "period": "Thời gian chạy",
+          "status": "Trạng thái duyệt",
+          "action": "Thao tác"
+        },
+        "rows": {
+          "springSummer": {
+            "name": "EcoSip Bình giữ nhiệt — Đề xuất Xuân/Hè",
+            "budget": "$180/ngày",
+            "period": "2026-04-17 ~ 2026-05-31",
+            "status": "Đang chạy"
+          },
+          "lookalike": {
+            "name": "EcoSip Bình giữ nhiệt — Thử nghiệm Lookalike 3%",
+            "budget": "$80/ngày",
+            "period": "2026-05-15 ~ 2026-05-29",
+            "status": "Đang duyệt"
+          },
+          "mothersDay": {
+            "name": "EcoSip Bình giữ nhiệt — Giảm giá Ngày của Mẹ",
+            "budget": "$120/ngày",
+            "period": "2026-05-05 ~ 2026-05-12",
+            "status": "Đã kết thúc"
+          }
+        }
+      },
+      "adPlanDetailCard": {
+        "ariaLabel": "Xem trước chi tiết kế hoạch AD",
+        "title": "Kế hoạch AD của tôi",
+        "tabDetails": "Chi tiết",
+        "fields": {
+          "planName": "Tên kế hoạch",
+          "budget": "Ngân sách",
+          "period": "Thời gian chạy",
+          "status": "Trạng thái duyệt"
+        },
+        "sample": {
+          "planName": "EcoSip Bình giữ nhiệt — Chiến dịch Xuân/Hè",
+          "budget": "$180/ngày",
+          "period": "2026-04-17 ~ 2026-05-31",
+          "status": "Đang chạy"
+        }
+      },
+      "audiencePie": {
+        "slices": {
+          "age18_24": "18–24 tuổi",
+          "age25_34": "25–34 tuổi",
+          "age35_44": "35–44 tuổi",
+          "age45plus": "Trên 45 tuổi"
+        }
+      },
+      "transcript": {
+        "tabLabel": "Cluega AI",
+        "messages": {
+          "user": {
+            "sender": "Audrey",
+            "content": "Sản phẩm của tôi là bình sữa cho em bé"
+          },
+          "ai": {
+            "sender": "Cluega AI",
+            "content": "Dựa trên sản phẩm của bạn, hệ thống đề xuất audience: nữ 25–38, ngân sách: $100/ngày"
+          }
+        }
+      },
+      "adsTable": {
+        "ariaLabel": "Xem trước bảng bật/tắt quảng cáo",
+        "headers": {
+          "toggle": "Bật/Tắt",
+          "name": "Tên",
+          "campaignBudget": "Ngân sách chiến dịch"
+        },
+        "statuses": {
+          "enabled": "Đã bật",
+          "paused": "Đã tạm dừng"
+        },
+        "rows": {
+          "row1": { "name": "0506-TH-Mục tiêu trả phí...", "budget": "25 USD" },
+          "row2": { "name": "0421-TH-Mục tiêu trả phí...", "budget": "47 USD" },
+          "row3": { "name": "0424-TH-Mục tiêu trả phí...", "budget": "30 USD" },
+          "row4": { "name": "0421-TH-Mục tiêu trả phí...", "budget": "30 USD" }
+        }
+      },
+      "accountDashboard": {
+        "seriesTitle": "Bình giữ nhiệt chân không hai lớp EcoSip — Đề xuất Xuân/Hè · SKU sản phẩm: ECO-TM-500ML · Thị trường mục tiêu: Anh",
+        "selector": {
+          "emptyTitle": "Chưa chọn tài khoản",
+          "emptySubtitle": "0 nền tảng",
+          "selectAll": "Chọn tất cả"
+        },
+        "metrics": {
+          "spend": "Chi tiêu",
+          "roas": "Tỷ suất hoàn vốn quảng cáo"
+        },
+        "chart": {
+          "cost": "CHI PHÍ",
+          "roas": "ROAS"
+        },
+        "table": {
+          "headers": {
+            "channel": "Kênh",
+            "adSpend": "Chi tiêu quảng cáo",
+            "roas": "ROAS"
+          }
+        },
+        "channels": {
+          "meta": "Meta Ads",
+          "tiktok": "TikTok Ads"
+        }
+      },
+      "aiDiagnosisRadar": {
+        "ariaLabel": "Xem trước radar chẩn đoán AI",
+        "diagnosisLine1": "Chẩn đoán quảng cáo bình giữ nhiệt Meta Ads",
+        "diagnosisLine2": "mệt mỏi creative, tần suất đạt",
+        "diagnosisLine3": "4.8 khiến CPM tăng.",
+        "leftAction": "Tạm dừng nhóm creative mệt mỏi",
+        "rightAction": "Ra mắt hai video ngắn góc mới"
+      },
+      "promoCards": {
+        "product": {
+          "multiPlatform": {
+            "title": "Triển khai đa nền tảng chỉ với một cú nhấp chuột",
+            "body": "Kết nối TikTok Shop, Amazon và Shopify, v.v. Một câu lệnh tự động đồng bộ tài sản và thông số sản phẩm ECO-TM-500ML để tạo quảng cáo đa nền tảng — thuật toán đảm nhận đấu giá.",
+            "footerLabel": "📊 Dữ liệu EcoSip",
+            "metrics": {
+              "budget": { "label": "Ngân sách:", "value": "$180/ngày" },
+              "roas": { "label": "ROAS:", "value": "4.21x" },
+              "gmv": { "label": "GMV:", "value": "$12,480" }
+            }
+          },
+          "reviewAssist": {
+            "title": "Hỗ trợ duyệt thông minh",
+            "body": "AI tự động kiểm tra trước tính tuân thủ ảnh chính và trang chi tiết sản phẩm, tránh từ khóa dễ bị từ chối trên sàn thương mại, rút ngắn thời gian duyệt trung bình 60% và đẩy nhanh tiến độ phê duyệt.",
+            "footerLabel": "📊 Dữ liệu EcoSip",
+            "metrics": {
+              "passRate": { "label": "Tỷ lệ qua tiền duyệt:", "value": "98.4%" }
+            }
+          },
+          "budgetSchedule": {
+            "title": "Dữ liệu đạt mục tiêu, AI tự động tiếp quản",
+            "body": "Khi dữ liệu tài khoản đạt mục tiêu bạn đã đặt ra, hãy bật chế độ quản lý — Cluega sẽ tiếp quản các quyết định quảng cáo. Tăng ngân sách, tạm dừng nhóm quảng cáo, luân phiên nội dung quảng cáo, AI trực tiếp thực thi. Bạn đặt ra ranh giới, AI tự vận hành trong phạm vi ranh giới đó.",
+            "footerLabel": "📊 Dữ liệu EcoSip",
+            "metrics": {
+              "conversions": { "label": "Số chuyển đổi:", "value": "1,284 lần" },
+              "cpa": { "label": "CPA:", "value": "$9.72" }
+            }
+          }
+        },
+        "app": {
+          "unifiedAcquisition": {
+            "title": "Thu hút người dùng mới hợp nhất một nhấp",
+            "body": "Hỗ trợ thu hút và tái kích hoạt người dùng App. Một nhấp đồng bộ cấu hình tải xuống và Deep Linking.",
+            "footerLabel": "📊 Dữ liệu cục bộ",
+            "metrics": {
+              "downloads": { "label": "Tổng lượt tải:", "value": "8,432" },
+              "installCost": { "label": "Chi phí mỗi lần cài:", "value": "$1.20" },
+              "ctr": { "label": "CTR:", "value": "3.15%" }
+            }
+          },
+          "reviewOptimization": {
+            "title": "Tối ưu duyệt",
+            "body": "Kiểm tra trước đường dẫn tuân thủ Deep Linking, tránh bị gỡ ứng dụng khi chính sách App Store / Google Play thay đổi.",
+            "footerLabel": "📊 Dữ liệu cục bộ",
+            "metrics": {
+              "complianceRate": { "label": "Tỷ lệ duyệt tuân thủ:", "value": "98%" }
+            }
+          },
+          "eventValueCustody": {
+            "title": "Ủy thác hai chiều sự kiện và giá trị",
+            "body": "Ủy thác kép AEO (tối ưu sự kiện) / VO (tối ưu giá trị), giúp thuật toán nhắm người dùng cá voi giá trị cao với nạp lớn và đăng ký trọng số cao.",
+            "footerLabel": "📊 Dữ liệu cục bộ",
+            "metrics": {
+              "deepPayments": { "label": "Số thanh toán sâu:", "value": "342 lần" },
+              "roas": { "label": "ROAS:", "value": "5.12x" },
+              "aov": { "label": "Giá trị đơn:", "value": "$85.00" }
+            }
+          }
+        },
+        "lead": {
+          "dmAds": {
+            "title": "Quảng cáo tin nhắn riêng",
+            "body": "Tạo tương tác một-một đáng tin cậy tức thì. Dù qua DM trên nền tảng hay chuyển sang WhatsApp và công cụ nhắn tin khác, đội sale có thể tư vấn ấm áp, giải quyết nghi ngại linh hoạt và giữ khách làm traffic tư nhân cho remarketing dài hạn.",
+            "footerLabel": "📊 Dữ liệu cục bộ",
+            "metrics": {
+              "conversations": { "label": "Số cuộc hội thoại:", "value": "1,342 lần" },
+              "conversationCost": { "label": "Chi phí mỗi hội thoại:", "value": "$0.89" },
+              "spend": { "label": "Ngân sách đã tiêu:", "value": "$1,194.38" },
+              "replyRate": { "label": "Tỷ lệ phản hồi:", "value": "98.5%" }
+            }
+          },
+          "formAds": {
+            "title": "Quảng cáo biểu mẫu",
+            "body": "Luồng chuyển đổi tối giản, hiệu quả. Sau khi nhấn, form điền sẵn mở trong App — không mất khách do chuyển trang. Hệ thống tự điền thông tin cơ bản, thu hút lead có ý định với ma sát thấp. Phù hợp sản phẩm chuẩn hóa hoặc ngành cần gọi điện follow-up.",
+            "footerLabel": "📊 Dữ liệu trình diễn cục bộ",
+            "metrics": {
+              "formSubmissions": { "label": "Số form thu thập:", "value": "142" },
+              "leadCost": { "label": "Chi phí mỗi lead:", "value": "$4.20" },
+              "conversionRate": { "label": "Tỷ lệ chuyển đổi:", "value": "12.4%" },
+              "accuracyRate": { "label": "Độ chính xác thông tin lead:", "value": "94.2%" }
+            }
+          }
+        }
+      },
+      "cluegaLiteCard": {
+        "ariaLabel": "Xem trước hội thoại chạy quảng cáo đa nền tảng Cluega 1.2 Lite",
+        "appTitle": "Cluega 1.2 Lite",
+        "userCommand": "Chào, tôi muốn chạy quảng cáo tin nhắn riêng TikTok để lấy lead khách hàng.",
+        "initialResponse": "Trước khi bắt đầu chạy, cần xác nhận sẽ sử dụng những tài khoản quảng cáo nào.\n\nBạn muốn tôi đề xuất tài khoản, hay tự chọn từ danh sách đầy đủ?",
+        "userReply": "Chọn từ danh sách tài khoản",
+        "accountListIntro": "📋 Dưới đây là toàn bộ tài khoản quảng cáo dưới tên bạn, vui lòng chọn tài khoản dùng lần này:",
+        "idLabel": "ID",
+        "confirmButton": "Xác nhận lựa chọn (3)",
+        "accounts": {
+          "outdoorLisa": {
+            "name": "OutdoorLisa Official",
+            "id": "7412933288821"
+          },
+          "kirkbadwaik": {
+            "name": "Kirkbadwaik Kirkbadwaik",
+            "id": "act_1379890938736"
+          },
+          "ecoSipUk": {
+            "name": "EcoSip UK Shopping",
+            "id": "924-836-1257"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "platformCommerceOps": {
+    "hero": {
+      "eyebrowNew": "New",
+      "eyebrowLabel": "Agent →",
+      "title": "One agent that runs your store, every day.",
+      "sub1": "Connect Shopee, Lazada, TikTok Shop and Zalo/LINE. Cluega diagnoses your store, grows traffic, produces content and manages listings across channels — reported to you on Lark.",
+      "sub2": "We encode SEA commerce judgment into a system that acts on its own."
+    },
+    "heroMock": {
+      "topbar": {
+        "task": "TikTok Shop",
+        "issueId": "SHOP-2026"
+      },
+      "sidebar": {
+        "main": {
+          "inbox": "Operations Inbox",
+          "tasks": "Active Tasks",
+          "reviews": "Pending Approval",
+          "pulse": "Live Pulse"
+        },
+        "workspaceLabel": "Workspace",
+        "workspace": {
+          "initiatives": "Initiatives",
+          "projects": "Projects",
+          "more": "More"
+        },
+        "favoritesLabel": "Channels",
+        "favorites": {
+          "tiktok": "TikTok Shop",
+          "facebook": "Facebook",
+          "zalo": "Zalo",
+          "line": "LINE"
+        }
+      },
+      "center": {
+        "counter": "02 / 145",
+        "title": "Automated store health diagnosis",
+        "desc": "Cluega has completed today's routine diagnosis. It detected a surge in TikTok Shop livestream traffic but critically low stock, while private-channel response rates for the Facebook page and Zalo/LINE were disrupted during late-night hours. The system has automatically generated a cross-channel allocation plan and traffic-boosting content.",
+        "activityLabel": "Activity",
+        "act1": "Cluega received customer quote requests and stock alerts via Facebook Messenger.",
+        "act1Time": "2min ago",
+        "act2": "The AI diagnosis system automatically added the labels \"Traffic drop\" and \"Private-channel decline\".",
+        "act2Time": "2min ago",
+        "comment1": {
+          "name": "Sophia",
+          "time": "4 min ago",
+          "text": "Conversion for Vietnam women's fashion on TikTok Shop is low right now — the main images don't seem appealing enough for the local Southeast Asian market..."
+        },
+        "comment2": {
+          "name": "Cluega",
+          "time": "just now",
+          "text": "Got it — regenerating high-click-through content and main images based on Southeast Asian e-commerce shopping habits."
+        },
+        "act3": "Cluega connected · Updated 12 listings · Draft awaiting review · 2min ago",
+        "act4": "Cluega moved status from \"Todo\" to \"In Progress\" · just now"
+      },
+      "meta": {
+        "gmv": "GMV: $48,250 USD (+12%)",
+        "cr": "CR: 1.8% (↓ 0.4%)",
+        "assignee": "Sophia",
+        "agent": "Cluega"
+      },
+      "agent": {
+        "connected": "Sophia connected Cluega to SHOP-2026",
+        "examining": "🔍 Deep-diagnosing TikTok traffic and Facebook livestream order-capture conversion...",
+        "worked": "Deep diagnosis complete, took 7s",
+        "pushed": "🚀 Running daily cross-channel operations:",
+        "change1Label": "TikTok_Shop_Batch",
+        "change1Body": "Batch-replace high-conversion livestream main images and auto-update listing status",
+        "change2Label": "Social_Media_Push",
+        "change2Body": "Auto-generate Indonesia/Vietnam trending-keyword posts, ready to broadcast to FB page, Zalo and LINE",
+        "inventory": "Stock level: 14 hot products with turnover < 3 days",
+        "output": "Output: Southeast Asia best-seller ops copy & assets pack.zip",
+        "placeholder": "Assign a task or ask anything…"
+      }
+    },
+    "intakeMock": {
+      "thread": {
+        "title": "Operations Alert",
+        "m1": {
+          "name": "Cluega",
+          "time": "4:38 PM",
+          "text": "Anomaly alert: The Vietnam store on TikTok Shop saw conversion suddenly drop 45% in the past hour. Competitor analysis shows the main rival just launched a \"Buy One Get One Free\" campaign, making our pricing uncompetitive. If left unaddressed, we estimate a potential profit loss of $1,200 USD today."
+        },
+        "m2": {
+          "name": "Marcus",
+          "time": "4:38 PM",
+          "text": "Have you diagnosed the cause? What profit room do we currently have to adjust accordingly?"
+        },
+        "m3": {
+          "name": "Cluega",
+          "time": "4:38 PM",
+          "text": "Diagnosis complete: I recommend activating the \"Multi-item discount\" auto-fix immediately. Based on current supply-chain inventory and margins, I've found the optimal solution: set \"Buy 2, get 15% off\" — matching the competitor's appeal while maintaining an 18% net margin."
+        },
+        "inputMention": "@Cluega",
+        "inputText": "Run the optimization plan and add follow-up tracking to the board"
+      },
+      "columns": {
+        "backlog": "Backlog",
+        "todo": "Optimization pending approval",
+        "progress": "Cluega auto-executing",
+        "done": "Done"
+      },
+      "cards": {
+        "OPS-2085": { "title": "Audit slow-moving SKUs", "l1": "Inventory" },
+        "OPS-2092": { "title": "Bundle aging winter stock" },
+        "OPS-2061": { "title": "Trim underperforming ad sets" },
+        "OPS-2104": { "title": "Remove out-of-stock Shopee links", "l1": "Inventory" },
+        "SHOP-102": { "title": "Adjust Vietnam TikTok to buy-2-get-15%-off", "l1": "Loss risk", "l2": "Price optimization" },
+        "SHOP-103": { "title": "LINE OA new-customer welcome message not responding", "l1": "Conversion anomaly" },
+        "SYS-099": { "title": "Upgrade Cluega smart-pricing model", "l1": "System upgrade" },
+        "SHOP-118": { "title": "Lazada coupon not auto-applying", "l1": "Promo issue" },
+        "WORK-771": { "title": "Batch-replace low-quality TikTok Shop main images", "status": "Running" },
+        "MKT-402": { "title": "Mass-broadcast viral Facebook copy for traffic", "l1": "Content output" },
+        "STOCK-501": { "title": "Auto-allocate Zalo inventory to prevent stockouts", "l1": "Stock alert", "status": "Running" },
+        "OPS-771": { "title": "Refresh Zalo OA broadcast" },
+        "OPS-640": { "title": "Reprice clearance bundle" }
+      }
+    },
+    "planMock": {
+      "title": "Key channel hosting",
+      "g1": { "name": "Traditional search & commerce", "c1": "Google", "c2": "TikTok", "c3": "Local community" },
+      "g2": { "name": "Smart generative search optimization", "c1": "ChatGPT", "c2": "Perplexity" },
+      "r1": { "title": "TikTok search matrix", "s1": "Keyword alignment", "s2": "Weight optimization" },
+      "r2": { "title": "ChatGPT", "s1": "Semantic structure", "s2": "Recommendation testing" },
+      "r3": { "title": "Google omni-traffic", "s1": "Traffic amplification" }
+    },
+    "monitorBoard": {
+      "pulseTitle": "Cluega",
+      "listen": "Running",
+      "projects": "User command: “Sync last month’s winning posts to TikTok Shop, generate a full month of social scheduling, and auto-track the data!”",
+      "cycleTitle": "Core operating-engine performance",
+      "agent1": "SyncEngine",
+      "agent2": "ContentAI",
+      "agent3": "OmniTracker",
+      "proj1": {
+        "name": "Channel connect & auto-skills",
+        "status": "Ready",
+        "p1": "One-tap connected Shopify and TikTok Shop channels.",
+        "p2": "Auto-skills loaded: AI captures web-wide trending winners and big-sale product picks."
+      },
+      "proj2": {
+        "name": "2. Schedule hosting & performance tracking (Schedule & Tracking)",
+        "status": "Processing",
+        "p1": "July’s cross-channel winning social content has been bulk-generated.",
+        "p2": "The auto-scheduling bot is ready; OmniTracker is building the data-reporting model in one place."
+      }
+    },
+    "diffMock": {
+      "left": {
+        "c1": "Skill module: automated defense skills (loss prevention, stock control)",
+        "guardArg": "Shopify_Standalone",
+        "c9": "[Skill 01] Auto-track competitors and adjust prices intelligently",
+        "onArg": "competitor price drop detected",
+        "mProfit": "currentProfitMargin",
+        "mUndercut": "undercutCompetitor",
+        "c12": "cut $50 to counter",
+        "mHold": "holdTheLine",
+        "holdArg": "profit guardline hit, do not match",
+        "c18": "[Skill 02] Built-in auto-enrollment & price control for four-platform campaigns",
+        "mSignup": "autoJoinCampaign",
+        "activityVal": "double-digit campaigns & flash sales",
+        "c22": "cap whole-store discount at 20% off, prevent stacked-coupon losses",
+        "c23": "auto-lock campaign-exclusive stock after successful enrollment"
+      },
+      "right": {
+        "c1": "Skill module: automated growth skills (capture traffic, expand channels)",
+        "agentArg": "Southeast Asia cross-border market",
+        "c9": "[Skill 03] Built-in smart generative search optimization (GEO)",
+        "mEncode": "encodeOmnichannelAssets",
+        "style1": "semantic recommendation tuning",
+        "style2": "ranking-weight boost tuning",
+        "style3": "global keyword domination",
+        "c16": "[Skill 04] A month of social content, scheduled across all channels in minutes",
+        "mBatch": "generateMonthlyBundle",
+        "durComment": "a full month of content",
+        "toneVal": "local viral internet slang",
+        "mPublish": "autoScheduleAcrossChannels"
+      }
+    },
+    "logoWordmarks": ["Shopee", "Lazada", "TikTok Shop", "Shopify", "Zalo OA", "LINE OA"],
+    "intro": {
+      "lead": "A new way to run commerce.",
+      "rest": "Shaped by real SEA commerce, powered by agents, designed for speed."
+    },
+    "triad": {
+      "purpose": {
+        "title": "Built for commerce",
+        "body": "Shaped by real SEA commerce ops, not a generic chatbot."
+      },
+      "agents": {
+        "title": "Powered by AI agents",
+        "body": "Specialists collaborate: diagnose, grow, create, operate."
+      },
+      "speed": {
+        "title": "Designed for speed",
+        "body": "Always on, instant diagnosis, one instruction runs end-to-end."
+      }
+    },
+    "blocks": {
+      "intake": {
+        "cta": "Diagnose",
+        "title": "Know what's wrong\nbefore it costs you",
+        "body": "Cluega watches orders, inventory and conversion around the clock. When something shifts, it doesn't just alert you — it diagnoses the cause and tells you how to fix it, before you open the dashboard.",
+        "sublinks": ["Health monitor", "Anomaly diagnosis", "Fix suggestions", "Lark reports"]
+      },
+      "plan": {
+        "cta": "Grow",
+        "title": "Show up everywhere\nbuyers search",
+        "body": "Get your products found on Google and TikTok search, and recommended by AI search like ChatGPT and Perplexity — without learning the difference between SEO and GEO.",
+        "sublinks": ["SEO", "GEO", "Product copy", "On-site optimization"]
+      },
+      "build": {
+        "cta": "Content",
+        "title": "A month of content\nin minutes",
+        "body": "Cluega generates a full month of social content, schedules it across channels, and tracks performance — learning what works and adapting over time, cutting manual work dramatically.",
+        "sublinks": ["Generation", "Scheduling", "Performance", "Asset library"]
+      },
+      "diffs": {
+        "cta": "Expand",
+        "title": "Every channel has a playbook.\nYou have them all",
+        "body": "Built-in skills for Shopee, Lazada, TikTok Shop and Shopify. Expand to new channels without starting from scratch, and track every channel's performance in one place.",
+        "sublinks": ["Shopee", "Lazada", "TikTok Shop", "Unified reporting"]
+      },
+      "monitor": {
+        "cta": "Operate",
+        "title": "One instruction\nruns end-to-end",
+        "body": "Give an instruction in chat and Cluega executes across steps on your store: conversational ops, automated skills, channel connectors and scheduled autonomy — four modules, one ops engine.",
+        "sublinks": ["Chat ops", "Skills", "Connectors", "Scheduled autonomy"]
+      }
+    },
+    "changelog": {
+      "title": "Unlock more Cluega skills",
+      "c1": {
+        "title": "AI Visual Design",
+        "body": "Generate viral creatives in seconds",
+        "link": "Go to AI Visual Design"
+      },
+      "c2": {
+        "title": "Agent",
+        "body": "Command your marketing assistant right inside your messaging app",
+        "link": "Explore fully-managed mode"
+      }
+    },
+    "buildMock": {
+      "log1": "Command received! Launching the \"July Southeast Asia omni-channel social matrix best-seller content\" generation task.",
+      "log2": "Analyzing the tone, visual style and click performance of high-converting TikTok and FB posts from the past 90 days...",
+      "log3": "The learning algorithm has locked onto this month's trending searches and big-promo tags for the Indonesia, Vietnam and Thailand markets.",
+      "cmd": "[Cluega_AI_Content_Generator] --mode=batch_generate --duration=30_days",
+      "cmdResult": "➔ Done: 28 TikTok short-video scripts, 30 FB best-seller posts, 30 Zalo/LINE promo push notifications.",
+      "log5": "Cross-channel auto-scheduling synced in place: daily golden-traffic slots from 7/1–7/31.",
+      "thinking": "Evaluating the content-performance prediction model, continuously optimizing the time-based adjustment mechanism...",
+      "assignPlaceholder": "Assign a performance-tracking owner"
+    },
+    "monitorMock": {
+      "title": "Cluega",
+      "listen": "Running",
+      "command": "User command: \"Sync last month's best-sellers to TikTok Shop, generate a full month of social scheduling, and auto-track the data for me!\"",
+      "chartTitle": "Core operations engine — live performance",
+      "steps": {
+        "s1": {
+          "name": "Channel connection & auto skills",
+          "status": "Ready",
+          "points": [
+            "Connected Shopify and TikTok Shop channels in one click.",
+            "Auto skills loaded: AI captures trending best-sellers and big-promo product picks across the web."
+          ]
+        },
+        "s2": {
+          "name": "2. Scheduling & performance tracking (Schedule & Tracking)",
+          "status": "Processing",
+          "points": [
+            "July's cross-channel best-seller social content has been batch-generated.",
+            "The auto-scheduling bot is ready; OmniTracker is building the data feedback model in one place."
+          ]
+        }
+      }
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "We packed the complex cross-platform APIs and tedious click-by-click logic into a single brain that thinks. In Cluega, you're not talking to a machine — you're talking to the combined operations of tens of thousands of top sellers.",
+        "name": "Kin",
+        "role": "Chief Technology Officer"
+      },
+      "t2": {
+        "quote": "We didn't just wire features together — we re-architected the data flow of cross-platform operations, turning tedious inventory control and cross-platform content scheduling into a smoothly executed automation Playbook.",
+        "name": "Jimmy",
+        "role": "VP of Engineering"
+      }
+    },
+    "finalCta": {
+      "title": "Built for the next generation\nof sellers. Available today.",
+      "primary": "Start free",
+      "secondary": "Contact sales"
+    }
+  }
+}

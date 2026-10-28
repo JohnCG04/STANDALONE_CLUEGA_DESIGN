@@ -1,0 +1,378 @@
+{
+  "reporting": {
+    "finalCta": {
+      "heading": "Kết nối nền tảng để tự động dựng báo cáo, luôn thấy rõ tình trạng dữ liệu chân thực nhất.",
+      "demo": "Đặt lịch Demo",
+      "start": "Bắt đầu miễn phí"
+    },
+    "hero": {
+      "badge": "Dashboard marketing thời gian thực",
+      "title": "Dữ liệu không bao giờ dừng, quyết định marketing diễn ra tức thì.",
+      "description": "Cluega có thể tự động lấy dữ liệu lịch sử và thời gian thực từ các nền tảng bạn đã ủy quyền, đồng thời tự động tạo biểu đồ. Loại bỏ việc tổng hợp báo cáo thủ công mỗi ngày, để dữ liệu đa nền tảng trở nên rõ ràng trong nháy mắt.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Liên hệ chúng tôi",
+      "emailLabel": "Email công việc",
+      "emailPlaceholder": "Email công việc",
+      "mobileBoards": {
+        "paidMarketing": {
+          "title": "Marketing trả phí",
+          "subtitle": "Tổng quan hiệu quả quảng cáo."
+        },
+        "regionalMarket": {
+          "title": "Thị trường khu vực",
+          "subtitle": "Dữ liệu tăng trưởng kinh doanh toàn cầu."
+        },
+        "smartDecisions": {
+          "title": "Quyết định thông minh",
+          "subtitle": "Insight marketing và hướng dẫn hành động."
+        }
+      },
+      "adFatigueList": {
+        "title": "Quảng cáo đang chạy — Trạng thái mệt mỏi",
+        "rows": {
+          "storyFlash": {
+            "name": "Story — Khuyến mãi chớp nhoáng 24h",
+            "badge": "Nên thay",
+            "freq": "Freq 3.2x",
+            "spend": "$1,840",
+            "ctr": "CTR Δ -18%"
+          },
+          "reelsKitchen": {
+            "name": "Video ngắn Reels — Mở hộp trong bếp",
+            "badge": "Hiệu suất khỏe",
+            "freq": "Freq 2.0x",
+            "spend": "$1,580",
+            "ctr": "CTR Δ +14%"
+          },
+          "staticBundle": {
+            "name": "Ảnh tĩnh — Bộ ba bán chạy",
+            "badge": "Tiếp tục theo dõi",
+            "freq": "Freq 2.4x",
+            "spend": "$1,490",
+            "ctr": "CTR Δ -6%"
+          }
+        }
+      },
+      "usLeadLocations": {
+        "title": "Phân bố khách hàng tiềm năng tại Mỹ"
+      },
+      "wonDealsByRegion": {
+        "title": "Số giao dịch theo khu vực",
+        "legend": {
+          "us": "Mỹ",
+          "emea": "Châu Âu"
+        }
+      },
+      "brandVsNonbrand": {
+        "title": "Tỷ trọng ROAS thương hiệu vs phi thương hiệu",
+        "summary": "Chi tiêu $3,460  •  Doanh thu $14,920",
+        "brandLabel": "Thương hiệu",
+        "nonBrandLabel": "Phi thương hiệu",
+        "bars": {
+          "spend": "Chi tiêu",
+          "revenue": "Doanh thu"
+        }
+      },
+      "impressionFrequency": {
+        "title": "Lượt hiển thị hằng ngày & tần suất tài khoản",
+        "impressions": "Lượt hiển thị",
+        "frequency": "Tần suất"
+      },
+      "countryRevenueChart": {
+        "title": "Phân tích doanh thu và chi tiêu theo quốc gia",
+        "legendAriaLabel": "Chú giải",
+        "legend": {
+          "spend": "Chi tiêu",
+          "revenue": "Doanh thu"
+        },
+        "countries": {
+          "china": "Trung Quốc",
+          "vietnam": "Việt Nam",
+          "malaysia": "Malaysia",
+          "thailand": "Thái Lan"
+        }
+      },
+      "adSpendSummary": {
+        "label": "Chi tiêu quảng cáo lũy kế",
+        "currency": "US",
+        "subLabel": "Dữ liệu khung 14 ngày"
+      },
+      "agentsReportMenu": {
+        "title": "Agents",
+        "reports": {
+          "usMarketThermos": "Báo cáo nghiên cứu thông tin sản phẩm túi giữ nhiệt tại thị trường Mỹ",
+          "tiktokCampingCup": "Phân tích xu hướng creative cốc giữ nhiệt cắm trại trên TikTok",
+          "metaLookalike": "Báo cáo thử nghiệm tệp đối tượng Meta Lookalike 3%"
+        }
+      },
+      "adFormatDonut": {
+        "title": "Tỷ trọng chi tiêu theo định dạng quảng cáo",
+        "subtitle": "Dòng ngân sách tiêu hao trong 14 ngày qua.",
+        "centerLabel": "Chi tiêu quảng cáo",
+        "formats": {
+          "reelsShortVideo": "Video ngắn Reels",
+          "staticImage": "Hình ảnh tĩnh",
+          "carouselAds": "Quảng cáo carousel",
+          "regularVideo": "Video thông thường",
+          "limitedTimeOfferStories": "Story ưu đãi có thời hạn"
+        }
+      },
+      "pipelineFunnel": {
+        "title": "Ma trận cơ hội marketing",
+        "buttons": {
+          "g4Purchase": "Mua G4 — 10.000 USD",
+          "localAction": "Hành động địa phương — Điều hướng một chạm",
+          "websiteCall": "Cuộc gọi website — 50 điểm",
+          "storeCall": "Cuộc gọi cửa hàng — 50 điểm"
+        }
+      }
+    },
+    "tabs": {
+      "reportingEngine": "Báo cáo dữ liệu thờigian thực",
+      "paidAds": "Quảng cáo trả phí AI"
+    },
+    "engine": {
+      "titleMuted": "Được xây dựng cho mọi nhà quảng cáo và đội ngũ chạy ads, ",
+      "titleMain": "một engine báo cáo dữ liệu thời gian thực",
+      "description": "Tự động kéo dữ liệu, tạo biểu đồ tức thì và tạm biệt thao tác thủ công. Ngay khi hiệu quả biến động, bạn có thể nhìn rõ trạng thái dữ liệu trong nháy mắt và đưa ra quyết định marketing đúng nhất bất cứ lúc nào.",
+      "cards": {
+        "ctrDecay": {
+          "title": "Đi sâu vào chi tiết, nhìn thấu từng quảng cáo.",
+          "description": "Tự động theo dõi biến động tỷ lệ nhấp (CTR) trong 14 ngày sau khi video chạy, xác định chính xác creative đang lão hóa và ngăn lãng phí ngân sách quảng cáo.",
+          "visual": {
+            "ads": {
+              "springSet": {
+                "name": "Bộ mùa xuân — Video UGC v3",
+                "badge": "Nên thay",
+                "freq": "Freq 4.1x",
+                "spend": "$2,840",
+                "ctr": "CTR Δ -28%"
+              },
+              "reelsReview": {
+                "name": "Video ngắn Reels — Tổng hợp đánh giá tốt",
+                "badge": "Hiệu suất khỏe",
+                "freq": "Freq 1.7x",
+                "spend": "$1,320",
+                "ctr": "CTR Δ +9%"
+              }
+            }
+          }
+        },
+        "audienceOverlap": {
+          "title": "Nhìn rõ trùng lặp tệp khách hàng trong một biểu đồ, chấm dứt tình trạng quảng cáo tự cạnh tranh.",
+          "description": "Trực quan hóa tỷ lệ trùng lặp tệp khách hàng giữa các nhóm quảng cáo, giúp bạn thấy ngay rủi ro tự cạnh tranh trong phiên đấu giá. Từ đó loại trừ tệp khách hàng có căn cứ và tránh lãng phí ngân sách do phân phối trùng lặp.",
+          "visual": {
+            "columns": {
+              "lal1": "LAL 1%",
+              "lal3": "LAL 3%",
+              "interest": "Sở thích",
+              "retargeting": "Tiếp thị lại"
+            },
+            "rows": {
+              "lalPurchased": "LAL 1% — Người đã mua",
+              "lalCart": "LAL 3% — Giỏ hàng",
+              "homeDecor": "Sở thích — Trang trí nhà cửa",
+              "aromatherapy": "Sở thích — Liệu pháp hương thơm",
+              "retargeting30": "Tiếp thị lại trong 30 ngày"
+            }
+          }
+        },
+        "adRanking": {
+          "title": "Tạo dashboard mà đội ngũ thực sự sử dụng.",
+          "description": "Biến hiệu suất creative, xu hướng chuyển đổi và mức độ ưu tiên phân phối thành một dashboard dễ đọc ngay từ cái nhìn đầu tiên, để cả đội biết quảng cáo nào nên được đẩy tiếp theo.",
+          "visual": {
+            "items": {
+              "springSet": "Bộ mùa xuân — UGC v3",
+              "staticSubscription": "Ảnh tĩnh — Quảng bá đăng ký",
+              "candleCarousel": "Carousel chủ lực — Dòng nến",
+              "mothersDayGift": "Ảnh tĩnh — Hộp quà Ngày của Mẹ",
+              "flashStory": "Story — Flash sale 24h",
+              "fragranceCarousel": "Quảng cáo carousel — Bộ hương thơm",
+              "restockStory": "Story — Hàng về lại",
+              "diffuserCarousel": "Quảng cáo carousel — Dòng máy khuếch tán"
+            }
+          }
+        },
+        "collaboration": {
+          "title": "Chỉ số cốt lõi 14 ngày: Nhìn thấu sức khỏe chiến dịch trong nháy mắt.",
+          "description": "Tổng hợp 6 chỉ số cốt lõi gồm chi tiêu quảng cáo, tần suất hiển thị, CTR và CPA. Hỗ trợ bạn khoá chặt biến động dữ liệu cốt lõi mọi lúc, làm căn cứ quyết định tối ưu ngân sách.",
+          "kpi": {
+            "spend": {
+              "title": "Chi tiêu",
+              "note": "Khung 14 ngày"
+            },
+            "activeAds": {
+              "title": "Số quảng cáo đang chạy",
+              "note": "7 nhóm nên thay"
+            },
+            "avgFrequency": {
+              "title": "Tần suất trung bình",
+              "note": "▲ +19% so với 7 ngày trước"
+            },
+            "avgCtr": {
+              "title": "CTR trung bình",
+              "note": "▼ -22% so với 7 ngày trước"
+            },
+            "avgCpm": {
+              "title": "CPM trung bình",
+              "note": "▲ +14% so với 7 ngày trước"
+            },
+            "avgCpa": {
+              "title": "CPA trung bình",
+              "note": "▲ +20% so với 7 ngày trước"
+            }
+          }
+        }
+      }
+    },
+    "exploration": {
+      "titleMuted": "Khám phá dữ liệu trực quan tối đa: ",
+      "titleMain": "dữ liệu lịch sử dài hạn và dữ liệu thời gian thực cùng tồn tại liền mạch",
+      "description": "Dù dữ liệu quảng cáo lịch sử tích lũy lớn đến đâu, Cluega vẫn có thể lưu trữ với độ chính xác cao và cập nhật liên tục 24/7, giúp bạn nhìn rõ biến động của các chỉ số nền tảng chỉ trong vài giây.",
+      "items": {
+        "group": {
+          "title": "Đồng bộ dữ liệu cốt lõi của chiến dịch theo thời gian thực",
+          "description": "Dữ liệu tự động đồng bộ và làm mới. Liên tục theo dõi các chiều dữ liệu cốt lõi của hoạt động chạy quảng cáo như tần suất hiển thị, độ lệch CPA, mức độ chồng lặp đối tượng và hiệu quả tiêu hao ngân sách, hiển thị ngay trạng thái tài khoản chân thực nhất, không có độ trễ.",
+          "visual": {
+            "ariaLabel": "Sức khỏe creative và các chỉ số cốt lõi của chiến dịch",
+            "scoreLabel": "Sức khỏe creative",
+            "metrics": {
+              "impressionFrequency": {
+                "title": "Tần suất hiển thị",
+                "note": "▲ Vượt ngưỡng an toàn"
+              },
+              "ctrTrend": {
+                "title": "Xu hướng CTR",
+                "note": "▲ Giảm 22% so với tuần trước"
+              },
+              "cpaCostDrift": {
+                "title": "Độ lệch chi phí CPA",
+                "note": "▲ Chi phí quảng cáo bão hòa tăng"
+              },
+              "audienceOverlapRate": {
+                "title": "Tỷ lệ chồng lặp đối tượng",
+                "note": "▲ 3 nhóm quảng cáo có tệp đối tượng chồng lặp >30%"
+              },
+              "cpmCostDrift": {
+                "title": "Độ lệch chi phí CPM",
+                "note": "▲ Chi phí đấu giá tăng"
+              },
+              "budgetConsumptionEfficiency": {
+                "title": "Hiệu quả tiêu hao ngân sách",
+                "note": "▲ Pareto OK; 4 nhóm quảng cáo đóng góp 60% tiêu hao"
+              }
+            }
+          }
+        },
+        "target": {
+          "title": "Đặt mục tiêu và theo dõi tiến độ",
+          "description": "So sánh hiệu suất trực tiếp với mục tiêu để các buổi review hằng tuần bắt đầu từ đúng ngữ cảnh."
+        },
+        "hourlyReport": {
+          "title": "Nắm bắt hiệu suất trong ngày theo từng giờ",
+          "description": "Theo dõi chi phí, doanh thu, ROAS và chi phí chuyển đổi thực theo từng giờ, đối chiếu các kênh như TikTok, Meta, Zalo theo từng giờ để nhanh chóng phát hiện khung giờ bất thường và giờ cao điểm, giúp bạn điều chỉnh phân phối ngay trong đợt chạy."
+        },
+        "history": {
+          "title": "Tích lũy và phân tích dữ liệu lịch sử đã lưu trữ",
+          "description": "Cluega hỗ trợ lưu trữ dữ liệu lịch sử dài hạn. Bạn có thể đối chiếu ngang tệp khách hàng tùy chỉnh remarketing đã tích lũy trong 60 ngày qua với biến động chi tiêu, giúp nhìn rõ xu hướng dài hạn tại các điểm ra quyết định quan trọng.",
+          "visual": {
+            "title": "Phân tích chi tiêu quảng cáo theo tháng (2025 vs 2026)",
+            "legendAriaLabel": "So sánh theo năm",
+            "legend2025": "Tháng 1-tháng 4 năm 2025",
+            "legend2026": "Tháng 1-tháng 4 năm 2026",
+            "axis": {
+              "120": "$120K",
+              "90": "$90K",
+              "60": "$60K",
+              "30": "$30K"
+            },
+            "months": {
+              "jan": {
+                "zh": "Thg 1",
+                "en": "Jan"
+              },
+              "feb": {
+                "zh": "Thg 2",
+                "en": "Feb"
+              },
+              "mar": {
+                "zh": "Thg 3",
+                "en": "Mar"
+              },
+              "apr": {
+                "zh": "Thg 4",
+                "en": "Apr"
+              }
+            },
+            "tooltip": {
+              "title": "Chi tiêu quảng cáo (Spend)",
+              "change": "↗ +20%",
+              "month2026": "Tháng 3 năm 2026",
+              "month2025": "Tháng 3 năm 2025",
+              "label": "Chi tiêu quảng cáo...",
+              "value2026": "USD 120,000.00",
+              "value2025": "USD 100,000.00"
+            }
+          }
+        }
+      }
+    },
+    "examples": {
+      "cards": {
+        "impressionFrequencyTrend": {
+          "title": "Xu hướng lượt hiển thị và tần suất quảng cáo",
+          "description": "Theo dõi biến động đối chiếu giữa lượt hiển thị hằng ngày và tần suất hiển thị. Nắm bắt trực quan tổng lưu lượng và mức độ bão hòa của tệp đối tượng.",
+          "visual": {
+            "impressions": "Lượt hiển thị",
+            "frequency": "Tần suất"
+          }
+        },
+        "adFormatSpendShare": {
+          "title": "Tỷ trọng chi tiêu theo định dạng quảng cáo",
+          "description": "Trực quan hóa tỷ lệ tiêu hao ngân sách và số tiền cụ thể của từng định dạng quảng cáo. Giúp bạn luôn nắm rõ cách phân bổ ngân sách cho từng loại creative."
+        },
+        "brandVsNonbrandRoas": {
+          "title": "Tỷ trọng ROAS thương hiệu vs phi thương hiệu",
+          "description": "Đối chiếu ngang phân bổ chi tiêu quảng cáo và doanh thu giữa nhóm thương hiệu và phi thương hiệu. Nắm bắt trực quan hiệu quả ROAS của các creative có định vị khác nhau."
+        },
+        "cumulativeAdSpend": {
+          "title": "Chi tiêu quảng cáo lũy kế",
+          "description": "Trực quan hóa tổng chi tiêu lũy kế trên tất cả nền tảng quảng cáo. Giúp bạn luôn nắm rõ mức tiêu hao ngân sách tổng thể.",
+          "visual": {
+            "spendLabel": "CHI TIÊU",
+            "spendValue": "US $860,420.00",
+            "subtitle": "Chi tiêu quảng cáo lũy kế"
+          }
+        },
+        "promptDashboard": {
+          "title": "Tạo dashboard marketing bằng một câu lệnh",
+          "description": "Nhập prompt về chỉ số bạn muốn xem, Cluega sẽ tự động lấy dữ liệu từ các nền tảng bạn đã ủy quyền, tạo biểu đồ và liên tục đồng bộ cập nhật theo thờigian thực.",
+          "visual": {
+            "step1Title": "Nhập prompt",
+            "step1Desc": "Mô tả bằng ngôn ngữ tự nhiên những gì bạn muốn xem",
+            "step2Title": "Phân tích nguồn dữ liệu",
+            "step2Desc": "AI nhận diện các nền tảng và trường liên quan",
+            "step3Title": "Kéo dữ liệu ủy quyền",
+            "step3Desc": "Lấy dữ liệu mới nhất từ Meta / Google / TikTok",
+            "step4Title": "Xây dựng bộ biểu đồ",
+            "step4Desc": "Tự động chọn dạng trực quan phù hợp nhất",
+            "step5Title": "Đồng bộ thờigian thực",
+            "step5Desc": "Tự động làm mới chỉ số mỗi 5 phút"
+          }
+        },
+        "weeklyPriorities": {
+          "title": "Hạng mục ưu tiên điều chỉnh tuần này",
+          "description": "Phân tích tổng hợp các bất thường đa chiều như creative mệt mỏi, chồng lặp tệp đối tượng và tiêu hao ngân sách, rồi sắp xếp theo mức độ khẩn cấp từ cao đến thấp. Giúp bạn nhanh chóng khóa đúng lỗ hổng marketing.",
+          "visual": {
+            "title": "Ưu tiên điều chỉnh tuần này",
+            "items": {
+              "1": { "text": "Đặc biệt mùa xuân lãng phí $1,180.", "badge": "Cao" },
+              "2": { "text": "3 nhóm quảng cáo chồng lặp >30%.", "badge": "Cao" },
+              "3": { "text": "Carousel chủ lực — Dòng nến lãng phí $940.", "badge": "TB" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

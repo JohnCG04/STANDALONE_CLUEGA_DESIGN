@@ -1,0 +1,330 @@
+{
+  "reporting": {
+    "finalCta": {
+      "heading": "Connect your platforms to build reports automatically — always see the truest state of your data.",
+      "demo": "Book a Demo",
+      "start": "Start for free"
+    },
+    "hero": {
+      "badge": "Real-time marketing dashboard",
+      "title": "Data never stops, and marketing decisions happen in real time.",
+      "description": "Cluega can automatically pull historical and real-time data from the platforms you authorize, then build charts automatically. Skip the daily manual reporting work and see cross-platform data clearly at a glance.",
+      "primaryCta": "Start for free",
+      "secondaryCta": "Contact us",
+      "emailLabel": "Work email",
+      "emailPlaceholder": "Work email",
+      "mobileBoards": {
+        "paidMarketing": {
+          "title": "Paid Marketing",
+          "subtitle": "Ad performance overview."
+        },
+        "regionalMarket": {
+          "title": "Regional Markets",
+          "subtitle": "Global business growth data."
+        },
+        "smartDecisions": {
+          "title": "Smart Decisions",
+          "subtitle": "Marketing insights and action guide."
+        }
+      },
+      "adFatigueList": {
+        "title": "Active ads — Fatigue status",
+        "rows": {
+          "storyFlash": {
+            "name": "Stories — 24h flash promotion",
+            "badge": "Replace suggested",
+            "freq": "Freq 3.2x",
+            "spend": "$1,840",
+            "ctr": "CTR Δ -18%"
+          },
+          "reelsKitchen": {
+            "name": "Reels short video — Kitchen unboxing",
+            "badge": "Healthy performance",
+            "freq": "Freq 2.0x",
+            "spend": "$1,580",
+            "ctr": "CTR Δ +14%"
+          },
+          "staticBundle": {
+            "name": "Static image — Best-selling three-piece set",
+            "badge": "Keep watching",
+            "freq": "Freq 2.4x",
+            "spend": "$1,490",
+            "ctr": "CTR Δ -6%"
+          }
+        }
+      },
+      "usLeadLocations": {
+        "title": "US Lead Distribution"
+      },
+      "wonDealsByRegion": {
+        "title": "Deals by Region",
+        "legend": {
+          "us": "US",
+          "emea": "Europe"
+        }
+      },
+      "brandVsNonbrand": {
+        "title": "Brand vs non-brand ROAS share",
+        "summary": "Spend $3,460  •  Revenue $14,920",
+        "brandLabel": "Brand",
+        "nonBrandLabel": "Non-brand",
+        "bars": {
+          "spend": "Spend",
+          "revenue": "Revenue"
+        }
+      },
+      "impressionFrequency": {
+        "title": "Daily impressions & account frequency",
+        "impressions": "Impressions",
+        "frequency": "Frequency"
+      },
+      "countryRevenueChart": {
+        "title": "Revenue and spend analysis by country",
+        "legendAriaLabel": "Legend",
+        "legend": {
+          "spend": "Spend",
+          "revenue": "Revenue"
+        },
+        "countries": {
+          "china": "China",
+          "vietnam": "Vietnam",
+          "malaysia": "Malaysia",
+          "thailand": "Thailand"
+        }
+      },
+      "adSpendSummary": {
+        "label": "Cumulative ad spend",
+        "currency": "US",
+        "subLabel": "14-day window data"
+      },
+      "agentsReportMenu": {
+        "title": "Agents",
+        "reports": {
+          "usMarketThermos": "US market thermos product information research report",
+          "tiktokCampingCup": "TikTok camping thermos creative trend analysis",
+          "metaLookalike": "Meta Lookalike 3% audience test report"
+        }
+      },
+      "adFormatDonut": {
+        "title": "Ad format spend share",
+        "subtitle": "Where budget was spent over the past 14 days.",
+        "centerLabel": "Ad spend",
+        "formats": {
+          "reelsShortVideo": "Reels short video",
+          "staticImage": "Static image",
+          "carouselAds": "Carousel ads",
+          "regularVideo": "Regular video",
+          "limitedTimeOfferStories": "Limited-time offer stories"
+        }
+      },
+      "pipelineFunnel": {
+        "title": "Marketing Opportunity Matrix",
+        "buttons": {
+          "g4Purchase": "G4 Purchase — $10,000",
+          "localAction": "Local Action — One-click navigation",
+          "websiteCall": "Website Call — 50 points",
+          "storeCall": "Store Call — 50 points"
+        }
+      }
+    },
+    "tabs": {
+      "reportingEngine": "Real-time Reporting Engine",
+      "paidAds": "AI Paid Ads"
+    },
+    "engine": {
+      "titleMuted": "Built for every advertiser and media buying team, ",
+      "titleMain": "a real-time data reporting engine",
+      "description": "Automatically pull data, build charts in real time, and say goodbye to manual work. The moment performance shifts, see the state of your data at a glance and make the right marketing decision anytime.",
+      "cards": {
+        "ctrDecay": {
+          "title": "Drill into the details and see every ad clearly.",
+          "description": "Automatically track CTR fluctuations within 14 days after a video launches, accurately identify aging creatives, and prevent wasted ad budget.",
+          "visual": {
+            "ads": {
+              "springSet": {
+                "name": "Spring set — UGC video v3",
+                "badge": "Replace suggested",
+                "freq": "Freq 4.1x",
+                "spend": "$2,840",
+                "ctr": "CTR Δ -28%"
+              },
+              "reelsReview": {
+                "name": "Reels short video — Review highlights",
+                "badge": "Healthy performance",
+                "freq": "Freq 1.7x",
+                "spend": "$1,320",
+                "ctr": "CTR Δ +9%"
+              }
+            }
+          }
+        },
+        "audienceOverlap": {
+          "title": "See audience overlap in one chart and end ad auction cannibalization.",
+          "description": "Visualize the audience overlap ratio across ad sets, and spot auction cannibalization risk at a glance. Exclude audiences with confidence and avoid wasted budget from duplicate delivery.",
+          "visual": {
+            "columns": {
+              "lal1": "LAL 1%",
+              "lal3": "LAL 3%",
+              "interest": "Interest",
+              "retargeting": "Retargeting"
+            },
+            "rows": {
+              "lalPurchased": "LAL 1% — Purchasers",
+              "lalCart": "LAL 3% — Cart",
+              "homeDecor": "Interests — Home decor",
+              "aromatherapy": "Interests — Aromatherapy",
+              "retargeting30": "Retargeting within 30 days"
+            }
+          }
+        },
+        "adRanking": {
+          "title": "Create dashboards teams actually use.",
+          "description": "Turn creative performance, conversion trends, and delivery priorities into a dashboard your team can read at a glance, so everyone knows which ad to push next.",
+          "visual": {
+            "items": {
+              "springSet": "Spring set — UGC v3",
+              "staticSubscription": "Static image — Subscription promotion",
+              "candleCarousel": "Hero carousel — Candle series",
+              "mothersDayGift": "Static image — Mother's Day gift set",
+              "flashStory": "Story — 24h flash sale",
+              "fragranceCarousel": "Carousel ad — Fragrance bundle",
+              "restockStory": "Story — Restock launch",
+              "diffuserCarousel": "Carousel ad — Diffuser series"
+            }
+          }
+        },
+        "collaboration": {
+          "title": "14-Day Core Metrics: See campaign health at a glance.",
+          "description": "Aggregates 6 key metrics including ad spend, display frequency, CTR, and CPA. Helps you lock in on core data fluctuations anytime and make budget optimization decisions.",
+          "kpi": {
+            "spend": { "title": "Spend", "note": "14-day window" },
+            "activeAds": { "title": "Active ads", "note": "7 sets suggested to replace" },
+            "avgFrequency": { "title": "Avg frequency", "note": "▲ +19% vs previous 7 days" },
+            "avgCtr": { "title": "Avg CTR", "note": "▼ -22% vs previous 7 days" },
+            "avgCpm": { "title": "Avg CPM", "note": "▲ +14% vs previous 7 days" },
+            "avgCpa": { "title": "Avg CPA", "note": "▲ +20% vs previous 7 days" }
+          }
+        }
+      }
+    },
+    "exploration": {
+      "titleMuted": "Deeply intuitive data exploration: ",
+      "titleMain": "long-term history and real-time data coexist seamlessly",
+      "description": "No matter how large your accumulated historical ad data becomes, Cluega stores it with high precision and updates it continuously 24/7, helping you see changes in underlying metrics within seconds.",
+      "items": {
+        "group": {
+          "title": "Sync core campaign data in real time",
+          "description": "Data syncs and refreshes automatically. Continuously track core campaign dimensions such as impression frequency, CPA drift, audience overlap, and budget consumption efficiency, presenting the most accurate, delay-free account status in real time.",
+          "visual": {
+            "ariaLabel": "Creative health and core campaign metrics",
+            "scoreLabel": "Creative health",
+            "metrics": {
+              "impressionFrequency": { "title": "Impression frequency", "note": "▲ Above the safe limit" },
+              "ctrTrend": { "title": "CTR trend", "note": "▲ Down 22% week over week" },
+              "cpaCostDrift": { "title": "CPA cost drift", "note": "▲ Saturated ad costs rising" },
+              "audienceOverlapRate": { "title": "Audience overlap rate", "note": "▲ 3 ad sets have audience overlap >30%" },
+              "cpmCostDrift": { "title": "CPM cost drift", "note": "▲ Auction costs rising" },
+              "budgetConsumptionEfficiency": { "title": "Budget consumption efficiency", "note": "▲ Pareto OK; 4 ad sets support 60% spend" }
+            }
+          }
+        },
+        "target": {
+          "title": "Set targets and track progress",
+          "description": "Compare live performance against goals so weekly reviews start with the right context."
+        },
+        "hourlyReport": {
+          "title": "Track intraday performance hour by hour",
+          "description": "Follow spend, revenue, ROAS, and true cost per conversion at hourly granularity, comparing channels like TikTok, Meta, and Zalo hour by hour to quickly surface intraday anomalies and peak windows so you can adjust delivery within the flight."
+        },
+        "history": {
+          "title": "Accumulate and analyze stored historical data",
+          "description": "Cluega supports long-term historical data storage. You can compare accumulated remarketing custom audiences and spend changes from the past 60 days side by side, helping you see long-term trends clearly at key decision points.",
+          "visual": {
+            "title": "Monthly ad spend YoY analysis (2025 vs 2026)",
+            "legendAriaLabel": "Year comparison",
+            "legend2025": "Jan-Apr 2025",
+            "legend2026": "Jan-Apr 2026",
+            "axis": {
+              "120": "$120K",
+              "90": "$90K",
+              "60": "$60K",
+              "30": "$30K"
+            },
+            "months": {
+              "jan": { "zh": "Jan", "en": "Jan" },
+              "feb": { "zh": "Feb", "en": "Feb" },
+              "mar": { "zh": "Mar", "en": "Mar" },
+              "apr": { "zh": "Apr", "en": "Apr" }
+            },
+            "tooltip": {
+              "title": "Ad spend (Spend)",
+              "change": "↗ +20%",
+              "month2026": "Mar 2026",
+              "month2025": "Mar 2025",
+              "label": "Ad spend...",
+              "value2026": "USD 120,000.00",
+              "value2025": "USD 100,000.00"
+            }
+          }
+        }
+      }
+    },
+    "examples": {
+      "cards": {
+        "impressionFrequencyTrend": {
+          "title": "Ad impression and frequency trends",
+          "description": "Track the comparative changes between daily impressions and impression frequency. Understand overall traffic and audience saturation at a glance.",
+          "visual": {
+            "impressions": "Impressions",
+            "frequency": "Frequency"
+          }
+        },
+        "adFormatSpendShare": {
+          "title": "Ad format spend share",
+          "description": "Visualize the budget consumption share and exact spend amount across different ad formats. Easily keep track of budget allocation for every type of creative."
+        },
+        "brandVsNonbrandRoas": {
+          "title": "Brand vs non-brand ROAS share",
+          "description": "Compare ad spend and revenue distribution between brand and non-brand campaigns side by side. Understand the ROAS efficiency of creatives with different positioning at a glance."
+        },
+        "cumulativeAdSpend": {
+          "title": "Cumulative ad spend",
+          "description": "Visualize the total accumulated spend across all ad platforms. Easily keep track of the overall budget consumption level at any time.",
+          "visual": {
+            "spendLabel": "SPEND",
+            "spendValue": "US $860,420.00",
+            "subtitle": "Cumulative ad spend"
+          }
+        },
+        "promptDashboard": {
+          "title": "Generate a marketing dashboard with one sentence",
+          "description": "Enter the metric prompt you want to view, and Cluega will automatically retrieve data from the platforms you authorized, build charts, and continuously sync updates in real time.",
+          "visual": {
+            "step1Title": "Enter prompt",
+            "step1Desc": "Describe what you want to see in natural language",
+            "step2Title": "Parse data sources",
+            "step2Desc": "AI identifies relevant platforms and fields",
+            "step3Title": "Pull authorized data",
+            "step3Desc": "Fetch latest data from Meta / Google / TikTok",
+            "step4Title": "Build chart combos",
+            "step4Desc": "Auto-select the best visualization",
+            "step5Title": "Real-time sync",
+            "step5Desc": "Auto-refresh metrics every 5 min"
+          }
+        },
+        "weeklyPriorities": {
+          "title": "This week's priority adjustments",
+          "description": "Analyze multidimensional anomalies such as creative fatigue, audience overlap, and budget consumption, then rank them from most to least urgent. This helps you quickly lock onto marketing gaps.",
+          "visual": {
+            "title": "This Week's Priority Adjustments",
+            "items": {
+              "1": { "text": "Spring special wasted $1,180.", "badge": "High" },
+              "2": { "text": "3 ad sets have overlap >30%.", "badge": "High" },
+              "3": { "text": "Hero carousel — Candle series wasted $940.", "badge": "Med" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

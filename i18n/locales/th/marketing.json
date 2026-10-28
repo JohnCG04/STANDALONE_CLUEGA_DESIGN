@@ -1,0 +1,28 @@
+{
+  "marketing": {
+    "review": {
+      "leadTable": {
+        "materialOpenVideoPreview": "เล่นครีเอทีฟนี้"
+      },
+      "tableGrid": {
+        "deleteCancel": "ยกเลิก",
+        "entityAd": "โฆษณา",
+        "entityAdgroup": "กลุ่มโฆษณา",
+        "entityCampaign": "แคมเปญ",
+        "entityMaterial": "ครีเอทีฟ",
+        "materialFallbackName": "ครีเอทีฟที่ไม่มีชื่อ",
+        "materialLoading": "กำลังโหลดครีเอทีฟ…",
+        "statusToggleConfirmTitleDisable": "ปิด{entity}นี้ใช่ไหม",
+        "statusToggleConfirmTitleEnable": "เปิด{entity}นี้อีกครั้งใช่ไหม",
+        "statusToggleConfirmDescriptionDisable": "{name} จะหยุดแสดงทันทีที่คุณยืนยัน คุณเปิดกลับมาได้ภายหลัง แต่ชั่วโมงที่พลาดไปจะไม่ได้คืนมา",
+        "statusToggleConfirmDescriptionEnable": "{name} จะกลับมาแสดงอีกครั้งและเริ่มใช้จ่ายตามงบประมาณ",
+        "statusToggleConfirmDisable": "ปิด",
+        "statusToggleConfirmEnable": "เปิด",
+        "switchToggleAd": "เปิดหรือปิดโฆษณานี้",
+        "switchToggleAdgroup": "เปิดหรือปิดกลุ่มโฆษณานี้",
+        "switchToggleCampaign": "เปิดหรือปิดแคมเปญนี้",
+        "switchToggleMaterial": "เปิดหรือปิดครีเอทีฟนี้"
+      }
+    }
+  }
+}

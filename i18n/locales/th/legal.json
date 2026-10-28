@@ -1,0 +1,45 @@
+{
+  "legal": {
+    "footer": {
+      "servicesAgreement": "Cluega Services Agreement",
+      "privacyPolicy": "Cluega Privacy Policy & Data Processing Addendum",
+      "cookieSettings": "Cookie settings"
+    },
+    "cookie": {
+      "banner": {
+        "ariaLabel": "Cookie consent",
+        "body": "We use cookies on this website and product. Strictly necessary cookies keep you signed in and keep the platform secure — these are always on. With your consent, we also use functionality cookies to remember preferences such as language, and analytics cookies to measure how the site is used. Click “Manage cookies” to set your preferences, or “Reject non-essential cookies” to decline them. For more information, see our [Cookie Policy](/legal/cookies).",
+        "acceptAll": "Accept all",
+        "reject": "Reject non-essential cookies",
+        "manage": "Manage cookies"
+      },
+      "center": {
+        "brand": "Cluega",
+        "title": "Cookie Preference Center",
+        "body": "When you visit our website or use our product, we store cookies on your device. Strictly necessary cookies ensure the site works as intended — you cannot opt out of these, as they are required for the platform to function. Click on the category below to learn more, and use the toggle to change your preference. For more information, see our [Cookie Policy](/legal/cookies).",
+        "manageTitle": "Manage Consent Preferences",
+        "confirm": "Confirm my choices",
+        "close": "Close",
+        "expand": "Show details",
+        "collapse": "Hide details",
+        "categories": {
+          "necessary": {
+            "name": "Strictly necessary",
+            "status": "Always active",
+            "description": "Keeps you signed in and secures the platform."
+          },
+          "functionality": {
+            "name": "Functionality",
+            "status": "Toggle on/off",
+            "description": "Remembers your preferences, such as language."
+          },
+          "analytics": {
+            "name": "Analytics",
+            "status": "Analytics cookies",
+            "description": "Measures how the website is used — which pages are visited and how people arrive — so we can improve it. Loaded through Google Tag Manager, and not loaded at all until you turn this on. Off by default."
+          }
+        }
+      }
+    }
+  }
+}

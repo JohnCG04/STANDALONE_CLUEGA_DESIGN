@@ -1,0 +1,146 @@
+{
+  "solutionsBrand": {
+    "meta": {
+      "title": "Brand Teams | Cluega",
+      "description": "Enterprise brand teams use Cluega to break down the data silos between ads, conversations and orders, building a dedicated AI revenue-growth hub — no matter which model runs underneath, the context always belongs to you."
+    },
+    "hero": {
+      "kicker": "Cluega for Brands",
+      "title": "Give your brand a marketing brain that truly belongs to you",
+      "subtitle": "Enterprise brand teams use Cluega to break down the data silos between ads, conversations and orders, building a dedicated AI revenue-growth hub — no matter which model runs underneath, the context always belongs to you.",
+      "ctaStart": "Get started free",
+      "ctaContact": "Talk to sales"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "Give data a real “business context”",
+          "body": "Every metric, creative, dialogue and decision converges here. This isn’t just stacking tools — it’s a full-stack operating foundation built for your team, where every call runs on top of your brand’s context."
+        },
+        {
+          "title": "Real API data, no AI hallucinations",
+          "body": "Every diagnosis, analysis and decision basis the system produces is synced 100% in real time from the social-platform APIs you connect, your store order flow and real historical performance — optimization is no longer guesswork."
+        },
+        {
+          "title": "Shoulder to shoulder with industry leaders",
+          "body": "Sub-50ms response latency, 99.98% always-on uptime, physical multi-tenant data isolation, and local compliance including PDPL — enterprise-grade architecture, ready out of the box."
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "One platform, carrying your brand’s full-lifecycle assets",
+      "learnMore": "Learn more",
+      "tabs": [
+        {
+          "tab": "Brand-owned assets",
+          "subtitle": "Embed your brand into the system’s core",
+          "body": "Embed your brand’s tone of voice, core product details and sales methodology into the system’s core. Ensure AI’s output and replies never drift from your positioning — no matter which large model everyone calls underneath."
+        },
+        {
+          "tab": "Data as an asset",
+          "subtitle": "Turn IM leads straight into precise audiences",
+          "body": "Close the traffic loop perfectly. The precise leads accumulated in IM can be packaged into a custom Audience with one click, and applied directly to precise ad targeting afterwards — a complete brand data flywheel."
+        },
+        {
+          "tab": "Full-funnel cost visibility",
+          "subtitle": "See real conversions right inside your ad account",
+          "body": "Inside Cluega’s ad accounts you can directly see how MMT and CRM conversion counts link to front-end ads, and even know the real conversion cost — attribution is no longer broken."
+        },
+        {
+          "tab": "Enterprise-grade security",
+          "subtitle": "Security isn’t an add-on, it’s the default",
+          "body": "Physical multi-tenant data isolation (ClickHouse-grade), fine-grained permissions (RBAC / IAM), OAuth authorization and local data compliance (including PDPL) — security by design runs through every single model call."
+        }
+      ]
+    },
+    "built": {
+      "title": "Built for brand teams",
+      "overview": "Cluega lets brands bring scattered data, creative and conversations back into one brand brain, and makes every dollar of spend traceable to real revenue.",
+      "cards": [
+        {
+          "title": "Automatic brand-tone alignment",
+          "body": "Upload enterprise documents and they’re read and deeply understood automatically, ensuring every line of copy and every visual generated matches your brand settings precisely."
+        },
+        {
+          "title": "Cross-model context continuity",
+          "body": "It records the full evolution of assets and copy; when switching between different models across departments, AI still picks up exactly where the context left off."
+        },
+        {
+          "title": "Pay for real results",
+          "body": "Say goodbye to expensive, unpredictable token billing — pay only for states like “qualified leads” and “orders,” from $0.99 each."
+        }
+      ]
+    },
+    "quote": {
+      "text": "We help clients bridge the data silos between ads and orders, surfacing real attribution and performance in real time, which dramatically lifts delivery efficiency and drives revenue growth.",
+      "name": "Marcus Vance",
+      "role": "Senior Performance Marketer @ Cluega"
+    },
+    "finalCta": {
+      "title": "Every platform your brand data flows through, brought back into one brain",
+      "coverage": "GPT · Claude · Gemini · deepseek · TikTok Ads · Meta · Google Ads · Shopify · WhatsApp · Zalo · LINE · Lark",
+      "subtitle": "Multi-model, multi-employee, multi-tenant — every dispatch runs on enterprise-grade isolation and permissions. Security is Cluega’s default.",
+      "ctaStart": "Get started free",
+      "ctaDemo": "Book a demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "Cross-account delivery health",
+        "updated": "Updated hourly",
+        "cost": "Cost",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "Live" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "Live" },
+          { "name": "Nova HK — Google Ads", "status": "In review" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "Review and Apply",
+        "rows": [
+          "Keep the high-reach combo and scale budget — CTR has beaten the benchmark by 32% for 5 days straight",
+          "Advantage+ audience overlap too high — merge 3 ad sets to save 18% of cost",
+          "TikTok creative fatigue — frequency broke 3.2 within 7 days, rotate in 2 new creatives"
+        ]
+      },
+      "accounts": {
+        "title": "Ad Accounts Overview",
+        "subtitle": "Authorize to analyze",
+        "stageLabel": "Maturity",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Setup" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Cold Start" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Optimization" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 Pipeline" }
+        ]
+      },
+      "maturity": {
+        "title": "Account Maturity Stages (M0–M5)",
+        "note": "The system determines the current stage automatically from historical data, and filters out noise metrics unrelated to that stage.",
+        "stages": ["M0 Cold Start", "M1 Learning", "M2 Growth", "M3 Optimization", "M4 Scaling", "M5 Flywheel"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 Learning"
+      },
+      "grading": {
+        "title": "Ad Set Grading (S / A / B / C / D)",
+        "legend": "S rising star, one tap to add budget · D candidate to pause",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Cluega management log",
+        "channels": "On rejection, push to",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "Based on 7-day ROAS, suggest cutting Meta budget 12% and raising Google 18%.", "time": "2 min ago" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "Generated 3 sets of holiday creative copy and applied them to the cold-start ad sets.", "time": "14 min ago" },
+          { "actor": "Ethan Chen", "tag": "Manual", "text": "Raised the \"Spring Sale — Conversions\" bid to $12.", "time": "1 hr ago" }
+        ]
+      }
+    }
+  }
+}

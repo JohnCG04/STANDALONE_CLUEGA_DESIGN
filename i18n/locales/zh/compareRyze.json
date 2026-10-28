@@ -1,0 +1,252 @@
+{
+  "compareRyze": {
+    "meta": {
+      "title": "Cluega AI vs Ryze AI | Cluega",
+      "description": "Cluega AI 有專有數據底座：所有授權接入的應用數據持續匯流，生成永不停歇的即時儀表盤；400+ 模型內含、不限制模型，從投放、素材到私域歸因開箱即用。"
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. RYZE AI",
+      "title": "一個接進廣告帳戶的 MCP，還是一整層 AI 營銷基礎設施？",
+      "subtitle": "Ryze 讓你的 Claude 能操作 Google／Meta 廣告——前提是你自備大模型訂閱，且數據停留在每次對話裡。Cluega AI 有專有數據底座：所有授權接入的應用數據持續匯流，生成永不停歇的即時儀表盤；400+ 模型內含、不限制模型，從投放、素材到私域歸因開箱即用。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo",
+      "cluegaLabel": "Cluega AI",
+      "ryzeLabel": "Ryze AI",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Ryze AI vs Cluega AI",
+      "colDimension": "對比維度",
+      "colRyze": "Ryze AI",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "定位差異",
+          "ryze": "AI 廣告自動駕駛工具＋MCP 連接器",
+          "cluega": "AI 營銷基礎設施：模型、投放、素材、歸因一體"
+        },
+        {
+          "dimension": "模型支援",
+          "ryze": "以 Claude 為核心；MCP 使用需自備 Claude／ChatGPT 訂閱（BYO）",
+          "cluega": "內含 400+ 模型（Claude／GPT／Gemini／DeepSeek＋主流圖像視頻模型），Auto 路由自動選最劃算"
+        },
+        {
+          "dimension": "MCP 能力",
+          "ryze": "官方 MCP 連接器接 Google／Meta 等（公測階段免費）",
+          "cluega": "Enterprise／Agency 支援自定義 MCP 接入與多租戶架構"
+        },
+        {
+          "dimension": "定價",
+          "ryze": "據公開資料：入門約 $10／週、主力 $89／月（含 7 天免費試用）、電商全案 $1,499／月；積分單位未公開定義",
+          "cluega": "$12／週試用；$99／$599／$1,499／月；積分透明錨定（1 積分＝$0.001）"
+        },
+        {
+          "dimension": "計費對齊",
+          "ryze": "訂閱費固定，與投放成效無關",
+          "cluega": "全託管按廣告消耗 4%→2.5%→1.5% 提成，計費直接對齊成效"
+        },
+        {
+          "dimension": "支援平台",
+          "ryze": "Google／Meta／TikTok／LinkedIn 等廣告平台",
+          "cluega": "Meta／Google／TikTok 投放＋TikTok Shop／Amazon／Shopify 電商生態＋LINE／Zalo／WhatsApp 私域歸因"
+        },
+        {
+          "dimension": "數據底座",
+          "ryze": "數據依附各平台與 GA4，報表按排程推送",
+          "cluega": "專有數據底座：授權應用數據持續匯流，自動生成 24／7 即時更新的儀表盤"
+        },
+        {
+          "dimension": "模型自由度",
+          "ryze": "綁定自備的 Claude／ChatGPT 訂閱",
+          "cluega": "不限制模型：400+ 模型任選任 pin，Auto 路由自動調度，Enterprise 亦可 BYO"
+        },
+        {
+          "dimension": "歸因縱深",
+          "ryze": "GA4／Search Console 層級的網站轉化追蹤",
+          "cluega": "IM 私域成交歸因：私聊裡的下單付款回推廣告，Pixel 看不到的也歸得到"
+        },
+        {
+          "dimension": "最適使用情境",
+          "ryze": "個人投手用自己的 Claude 快速操作廣告帳戶",
+          "cluega": "團隊級自主投放、多模型工作流與成效計費"
+        }
+      ],
+      "footnote": "＊競品資訊整理自其官網與公開第三方資料（2026-07 查核），實際以對方官方公布為準。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "為什麼投放團隊從 Ryze 轉向 Cluega AI？",
+      "items": [
+        {
+          "title": "不限制模型：400+ 模型內含，不鎖你在任何一家",
+          "body": "Ryze 的 MCP 路線要求你自己維護 Claude／ChatGPT 訂閱，模型選擇綁死在單一家。Cluega AI 採購並內含 400+ 模型：文案用 Claude、分析用 Gemini、出圖用 FLUX、出片用 Veo——任選任 pin，Auto 路由自動選最劃算，昂貴模型自動扣更多積分，結構上不會吃虧，也不用管任何 API key。"
+        },
+        {
+          "title": "專有數據底座：儀表盤永不停歇",
+          "body": "會話式 AI 的天生限制是「問一次、答一次」，數據停留在每次對話裡。Cluega AI 的專有數據底座把所有授權接入的應用數據——廣告帳戶、私域對話、成交事件、CRM——持續匯流，自動生成 24／7 即時更新的儀表盤：消耗異動、ROAS 波動、素材疲勞，不用等你發問就先看到。AI 在上面決策，你在上面監督。"
+        },
+        {
+          "title": "MCP 不只是入口，是可定製的集成層",
+          "body": "用 MCP 連上廣告帳戶只是第一步。Cluega 的 Enterprise／Agency 方案支援自定義 MCP 接入——把你的 CRM、資料庫、內部系統接進同一個 AI 工作流與同一個數據底座，多租戶架構讓代理商為每個客戶隔離治理。工具接得上，生意才接得住。"
+        },
+        {
+          "title": "歸因是結構性差異",
+          "body": "Ryze 的成效追蹤停在 GA4 與網站轉化；全球卻有大量成交發生在 WhatsApp／LINE／Zalo 私聊。Cluega 的 IM 私域歸因把私聊成交回推到 campaign 與素材——AI 的每個投放決策，都建立在別人看不到的成交數據上。"
+        }
+      ]
+    },
+    "panels": {
+      "adDashboard": {
+        "headerTitle": "帳號列表",
+        "metrics": {
+          "cost": {
+            "label": "Cost",
+            "value": "$15,632",
+            "delta": "+18%",
+            "caption": "總花費與增幅"
+          },
+          "roas": {
+            "label": "ROAS",
+            "value": "2.35x",
+            "delta": "-12%",
+            "caption": "回報率與達標率"
+          },
+          "conversions": {
+            "label": "Conversions",
+            "value": "650",
+            "delta": "+5%",
+            "caption": "轉換數與轉換率"
+          }
+        },
+        "chart": {
+          "startDate": "Apr 22",
+          "endDate": "May 22"
+        },
+        "issues": {
+          "title": "Top Issues to Fix",
+          "analyze": "Analyze",
+          "action": "Review and Apply",
+          "items": {
+            "materialFatigue": "保溫杯廣告素材疲勞，CTR 連續 5 天下滑...",
+            "budgetImbalance": "Advantage+ 購物廣告組合預算分配不平衡...",
+            "landingPage": "落地頁載入時間影響行動端轉換..."
+          }
+        }
+      },
+      "creativeTracking": {
+        "header": "素材成效追蹤",
+        "rows": [
+          {
+            "name": "抗老精華_短影音_痛點對比",
+            "metric": "引導諮詢",
+            "value": "128",
+            "unit": "次"
+          },
+          {
+            "name": "早C晚A_圖文_成分解析",
+            "metric": "建立訂單",
+            "value": "86",
+            "unit": "筆"
+          },
+          {
+            "name": "修護霜_KOL體驗_限時組合",
+            "metric": "付款成交",
+            "value": "45",
+            "unit": "筆"
+          }
+        ]
+      },
+      "risk": {
+        "headline": "監測到 [視頻廣告 ID: #V9876] 存在合規風險",
+        "time": "1小時前",
+        "statusLabel": "風控報告已生成",
+        "reportTitle": "語義分析報告：視頻 1:15 處疑似涉及醫療功效誇大",
+        "reportBody": "已觸發平台風控規則 #R71-2，建議暫停該素材或修剪違規片段。",
+        "expandRules": "顯示 4 個相關風控語義規則",
+        "uploadLine": "Julian 已上傳 [視頻素材: Promo_V3.mp4]",
+        "uploadTime": "2小時前",
+        "expandDetection": "顯示檢測詳情"
+      },
+      "routing": {
+        "bubble": "幫我規劃 EcoSip 黑五大促的整體策略。",
+        "midLabel": "策略決策中樞",
+        "midTitle": "大盤成本將上揚，建議 CPA 設為 $22-$25。",
+        "midStatus": "預算配比：Meta 60% / Google 40%",
+        "lowLabel": "品牌語境對齊",
+        "lowTitle": "全網輿情熱議材質，文案鎖定「醫療級不鏽鋼」。",
+        "lowSubtitle": "已對齊品牌調性，過濾無效延展",
+        "button": "查看全部"
+      }
+    },
+    "highlights": {
+      "eyebrow": "MCP & DOGCLAW HYBRID ENGINE",
+      "title": "不只接上廣告帳戶，更給團隊一整層 AI 營銷基礎設施",
+      "items": [
+        {
+          "title": "400+ 模型與 Auto 路由",
+          "body": "大模型、圖像、視頻模型全內含、不限制模型，自動選最劃算，亦可 pin 指定模型。"
+        },
+        {
+          "title": "專有數據底座",
+          "body": "授權應用數據持續匯流，自動生成永不停歇的即時儀表盤，異動先於提問被看見。"
+        },
+        {
+          "title": "自定義 MCP",
+          "body": "Enterprise／Agency 級接入自有系統，多租戶治理，AAIGS 分級授權。"
+        },
+        {
+          "title": "全託管 L4 與私域歸因",
+          "body": "AI 自主投放按消耗提成、成本全包；Zalo／WhatsApp 真實成交回推廣告——結構性的數據優勢。"
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "我該如何選擇？",
+      "ryze": {
+        "label": "選擇 Ryze AI",
+        "body": "你是個人投手或小團隊、已有 Claude 訂閱，想以最低成本讓 AI 快速接上 Google／Meta 帳戶做日常審計與優化，暫不需要私域歸因與多模型工作流。"
+      },
+      "cluega": {
+        "label": "選擇 Cluega AI",
+        "body": "你要的是團隊級能力：多模型開箱即用、AI 可審計地自主投放、私域成交歸因閉環，以及與成效對齊的提成計費——而不是又一個要自己拼裝的工具。"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "常見問題",
+      "subtitle": "在與我們團隊聯繫之前，您可能想了解的所有細節。",
+      "contact": "聯繫銷售",
+      "items": [
+        {
+          "q": "Cluega AI 也支援 MCP 嗎？",
+          "a": "支援。Enterprise 方案起提供自定義 MCP 接入，Agency 方案再加多租戶架構——不只是「用 MCP 連廣告帳戶」，而是把你的 CRM、資料庫與內部系統接進 AI 工作流。"
+        },
+        {
+          "q": "需要自備模型 API key 嗎？",
+          "a": "不需要。400+ 模型由 Cluega 採購內含，積分按成本反推扣取；Enterprise 以上如有特殊需求亦支援 BYO 自帶模型，兩種模式可並存。"
+        },
+        {
+          "q": "Auto 路由是怎麼選模型的？",
+          "a": "依任務類型自動挑選最劃算的模型：高量分類走經濟模型、成交臨門走旗艦模型、出圖出片依需求路由到對應模型。你也可以 pin 指定模型，計費按該模型成本透明扣取。"
+        },
+        {
+          "q": "即時儀表盤需要另外設定或付費嗎？",
+          "a": "不需要。應用一經授權接入，數據就持續匯流進 Cluega 的專有數據底座，儀表盤自動生成、即時更新、永不停歇——廣告消耗、MMT 漏斗、素材表現與私域成交在同一面板上，也可依團隊角色自訂視圖。"
+        },
+        {
+          "q": "從 Ryze 遷移過來的成本高嗎？",
+          "a": "低。廣告帳戶以官方 API 授權接入即可，歷史數據自動納入 AAIGS 分級評估；你可以先用自助模式（$99／月）跑素材與優化，驗證後再逐帳戶開啟全託管。"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "以 Cluega AI 讓 AI 投放，從工具升級為基礎設施。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    }
+  }
+}

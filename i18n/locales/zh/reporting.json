@@ -1,0 +1,387 @@
+{
+  "reporting": {
+    "finalCta": {
+      "heading": "串接平台自動建表，隨時看清最真實的數據現狀。",
+      "demo": "預約 Demo",
+      "start": "免費開始使用"
+    },
+    "hero": {
+      "badge": "即時行銷儀錶盤",
+      "title": "數據永遠不停歇，行銷決策即時發生。",
+      "description": "Cluega 能自動從你授權的平台拉取歷史與即時數據、自動建圖。免去每日手動整理報表的繁瑣，讓跨平台數據一目了然。",
+      "primaryCta": "免費開始",
+      "secondaryCta": "聯係我們",
+      "emailLabel": "工作電子郵件",
+      "emailPlaceholder": "工作電子郵件",
+      "mobileBoards": {
+        "paidMarketing": {
+          "title": "付費行銷",
+          "subtitle": "廣告投放效益總覽。"
+        },
+        "regionalMarket": {
+          "title": "地區市場",
+          "subtitle": "全球業務成長數據。"
+        },
+        "smartDecisions": {
+          "title": "智慧決策",
+          "subtitle": "行銷洞察與行動指南。"
+        }
+      },
+      "adFatigueList": {
+        "title": "活躍廣告 — 疲勞狀態",
+        "rows": {
+          "storyFlash": {
+            "name": "限時動態 — 24h 快閃促銷",
+            "badge": "建議更換",
+            "freq": "Freq 3.2x",
+            "spend": "$1,840",
+            "ctr": "CTR Δ -18%"
+          },
+          "reelsKitchen": {
+            "name": "Reels 短影音 — 廚房開箱",
+            "badge": "表現健康",
+            "freq": "Freq 2.0x",
+            "spend": "$1,580",
+            "ctr": "CTR Δ +14%"
+          },
+          "staticBundle": {
+            "name": "靜態圖 — 熱銷三件套",
+            "badge": "持續觀察",
+            "freq": "Freq 2.4x",
+            "spend": "$1,490",
+            "ctr": "CTR Δ -6%"
+          }
+        }
+      },
+      "usLeadLocations": {
+        "title": "美國潛在客戶分佈"
+      },
+      "wonDealsByRegion": {
+        "title": "各地區成交量",
+        "legend": {
+          "us": "美國",
+          "emea": "歐洲"
+        }
+      },
+      "brandVsNonbrand": {
+        "title": "品牌 vs 非品牌投報佔比",
+        "summary": "花費 $3,460  •  營收 $14,920",
+        "brandLabel": "品牌",
+        "nonBrandLabel": "非品牌",
+        "bars": {
+          "spend": "花費",
+          "revenue": "營收"
+        }
+      },
+      "impressionFrequency": {
+        "title": "每日曝光量 & 帳戶頻次",
+        "impressions": "曝光量",
+        "frequency": "頻次"
+      },
+      "countryRevenueChart": {
+        "title": "各國營收與花費分析",
+        "legendAriaLabel": "圖例",
+        "legend": {
+          "spend": "花費",
+          "revenue": "營收"
+        },
+        "countries": {
+          "china": "中國",
+          "vietnam": "越南",
+          "malaysia": "馬來西亞",
+          "thailand": "泰國"
+        }
+      },
+      "adSpendSummary": {
+        "label": "廣告累計花費",
+        "currency": "US",
+        "subLabel": "14 天窗口期數據"
+      },
+      "agentsReportMenu": {
+        "title": "Agents",
+        "reports": {
+          "usMarketThermos": "美國市場保溫包產品資訊研究報告",
+          "tiktokCampingCup": "TikTok 露營保溫杯素材趨勢分析",
+          "metaLookalike": "Meta Lookalike 3%受眾測試報告"
+        }
+      },
+      "adFormatDonut": {
+        "title": "廣告形式花費佔比",
+        "subtitle": "過往14天的預算消耗流向。",
+        "centerLabel": "廣告花費",
+        "formats": {
+          "reelsShortVideo": "Reels 短視頻",
+          "staticImage": "靜態圖片",
+          "carouselAds": "輪播廣告",
+          "regularVideo": "常規視頻",
+          "limitedTimeOfferStories": "限時優惠動態"
+        }
+      },
+      "pipelineFunnel": {
+        "title": "行銷機會矩陣",
+        "buttons": {
+          "g4Purchase": "G4購買 - 一萬元",
+          "localAction": "本地行動 - 一鍵導航",
+          "websiteCall": "網站來電 - 50點",
+          "storeCall": "門市通話 - 50點"
+        }
+      }
+    },
+    "tabs": {
+      "reportingEngine": "即時數據報表引擎",
+      "paidAds": "AI 廣告投放"
+    },
+    "engine": {
+      "titleMuted": "專為所有廣告主與投放團隊打造的",
+      "titleMain": "即時數據報表引擎",
+      "description": "數據自動拉取、即時建圖、告別手動。讓你在成效波動的瞬間，一眼看清數據現狀，隨時做出最對的行銷決策。",
+      "cards": {
+        "ctrDecay": {
+          "title": "深鑽細節，看透每一個廣告。",
+          "description": "自動追蹤影片 14 天內的點擊率（CTR）波動，精準揪出老化素材，防止浪費廣告預算。",
+          "visual": {
+            "ads": {
+              "springSet": {
+                "name": "春季套裝 — UGC 影片 v3",
+                "badge": "建議更換",
+                "freq": "Freq 4.1x",
+                "spend": "$2,840",
+                "ctr": "CTR Δ -28%"
+              },
+              "reelsReview": {
+                "name": "Reels 短影音 — 好評合集",
+                "badge": "表現健康",
+                "freq": "Freq 1.7x",
+                "spend": "$1,320",
+                "ctr": "CTR Δ +9%"
+              }
+            }
+          }
+        },
+        "audienceOverlap": {
+          "title": "一圖洞察受眾重疊，終結廣告競價蠶食。",
+          "description": "直觀呈現各廣告組受眾的重疊比例，一眼看清競價蠶食風險。讓你有據可依地做好受眾排除，避免重複投放造成的預算浪費。",
+          "visual": {
+            "columns": {
+              "lal1": "LAL 1%",
+              "lal3": "LAL 3%",
+              "interest": "興趣",
+              "retargeting": "再行銷"
+            },
+            "rows": {
+              "lalPurchased": "LAL 1% — 已購買者",
+              "lalCart": "LAL 3% — 購物車",
+              "homeDecor": "興趣愛好 — 居家佈置",
+              "aromatherapy": "興趣愛好 — 芳香療法",
+              "retargeting30": "30天內再行銷"
+            }
+          }
+        },
+        "adRanking": {
+          "title": "打造團隊真正會用的儀表板。",
+          "description": "將素材成效、轉化趨勢與投放優先級整理成一目了然的儀表板，讓團隊快速看懂下一步該推哪支廣告。",
+          "visual": {
+            "items": {
+              "springSet": "春季套裝 — UGC v3",
+              "staticSubscription": "靜態圖 — 訂閱推廣",
+              "candleCarousel": "主打輪播 — 蠟燭系列",
+              "mothersDayGift": "靜態圖 — 母親節禮包",
+              "flashStory": "限時動態 — 24h 快閃促銷",
+              "fragranceCarousel": "輪播廣告 — 香氛組合",
+              "restockStory": "限時動態 — 補貨上架",
+              "diffuserCarousel": "輪播廣告 — 擴香系列"
+            }
+          }
+        },
+        "collaboration": {
+          "title": "「14 日核心指標」，一眼看清投放健康度。",
+          "description": "彙整廣告花費、展示頻次、點擊率與 CPA 等 6 大關鍵指標。協助你隨時鎖定核心數據的起伏，作為優化預算的決策依據。",
+          "kpi": {
+            "spend": {
+              "title": "花費",
+              "note": "14 天窗口期"
+            },
+            "activeAds": {
+              "title": "活躍廣告數",
+              "note": "7 組建議更換"
+            },
+            "avgFrequency": {
+              "title": "平均頻次",
+              "note": "▲ 較前 7 天 +19%"
+            },
+            "avgCtr": {
+              "title": "平均點擊率",
+              "note": "▼ 較前 7 天 -22%"
+            },
+            "avgCpm": {
+              "title": "平均千次展示成本",
+              "note": "▲ 較前 7 天 +14%"
+            },
+            "avgCpa": {
+              "title": "平均單次成效成本",
+              "note": "▲ 較前 7 天 +20%"
+            }
+          }
+        }
+      }
+    },
+    "exploration": {
+      "titleMuted": "極致直觀的數據探索：",
+      "titleMain": "長效歷史與即時數據無縫並存",
+      "description": "無論累積的歷史廣告數據多麼龐大，Cluega 均能高精度儲存，並做到 24 小時不間斷更新，幫您秒級看清底層指標變動。",
+      "items": {
+        "group": {
+          "title": "即時同步投放核心數據",
+          "description": "數據自動同步刷新。不間斷地追蹤展示頻次、CPA 漂移、受眾重疊與預算消耗效率等核心投放維度，即時呈現最真實、無延遲的帳戶現狀。",
+          "visual": {
+            "ariaLabel": "素材健康度與核心投放指標",
+            "scoreLabel": "素材健康度",
+            "metrics": {
+              "impressionFrequency": {
+                "title": "展示頻次",
+                "note": "▲ 超過安全上限"
+              },
+              "ctrTrend": {
+                "title": "CTR 趨勢",
+                "note": "▲ 週環比下滑 22%"
+              },
+              "cpaCostDrift": {
+                "title": "CPA 成本漂移",
+                "note": "▲ 飽和廣告成本上升"
+              },
+              "audienceOverlapRate": {
+                "title": "受眾重疊率",
+                "note": "▲ 3 組廣告組受眾重疊 >30%"
+              },
+              "cpmCostDrift": {
+                "title": "CPM 成本漂移",
+                "note": "▲ 競價成本上漲"
+              },
+              "budgetConsumptionEfficiency": {
+                "title": "預算消耗效率",
+                "note": "▲ Pareto OK；4 組廣告支撐 60% 消耗"
+              }
+            }
+          }
+        },
+        "target": {
+          "title": "設定目標並追蹤進度",
+          "description": "將即時表現與目標比較，讓每週檢討從正確脈絡開始。"
+        },
+        "hourlyReport": {
+          "title": "分時掌握當日投放即時表現",
+          "description": "以小時為粒度追蹤花費、營收、ROAS 與真實成交成本，並依 TikTok、Meta、Zalo 等渠道逐時對比，快速抓出當天的異常時段與高峰紅利，讓你在檔期內即時調整投放。"
+        },
+        "history": {
+          "title": "累積並分析儲存之歷史數據",
+          "description": "Cluega 支持長效歷史數據儲存。您可以橫向對照過往 60 天累積的再行銷自訂受眾與花費變化，協助您在關鍵決策點看清長效趨勢。",
+          "visual": {
+            "title": "月度廣告消耗同比分析（2025 vs 2026）",
+            "legendAriaLabel": "年份比較",
+            "legend2025": "2025年1月——4月",
+            "legend2026": "2026年1月——4月",
+            "axis": {
+              "120": "$120K",
+              "90": "$90K",
+              "60": "$60K",
+              "30": "$30K"
+            },
+            "months": {
+              "jan": {
+                "zh": "一月",
+                "en": "Jan"
+              },
+              "feb": {
+                "zh": "二月",
+                "en": "Feb"
+              },
+              "mar": {
+                "zh": "三月",
+                "en": "Mar"
+              },
+              "apr": {
+                "zh": "四月",
+                "en": "Apr"
+              }
+            },
+            "tooltip": {
+              "title": "廣告消耗 (Spend)",
+              "change": "↗ +20%",
+              "month2026": "2026 年 3 月",
+              "month2025": "2025 年 3 月",
+              "label": "廣告消耗...",
+              "value2026": "USD 120,000.00",
+              "value2025": "USD 100,000.00"
+            }
+          }
+        }
+      }
+    },
+    "examples": {
+      "cards": {
+        "impressionFrequencyTrend": {
+          "title": "廣告曝光與頻次趨勢",
+          "description": "追蹤每日曝光量與展示頻次的對照變動。直觀掌握整體流量與受眾飽和度。",
+          "visual": {
+            "impressions": "曝光量",
+            "frequency": "頻次"
+          }
+        },
+        "adFormatSpendShare": {
+          "title": "廣告形式花費佔比",
+          "description": "直觀呈現不同廣告形式的預算消耗比例與具體金額。方便你隨時掌握各類素材的預算分配。"
+        },
+        "brandVsNonbrandRoas": {
+          "title": "品牌 vs 非品牌投報佔比",
+          "description": "橫向對照品牌與非品牌的廣告花費與營收分佈。直觀掌握不同定位素材的投報效益。"
+        },
+        "cumulativeAdSpend": {
+          "title": "廣告累計花費",
+          "description": "直觀呈現所有廣告平台的累計消耗總額。方便你隨時掌握大盤整體的預算消耗水位。",
+          "visual": {
+            "spendLabel": "SPEND",
+            "spendValue": "US $860,420.00",
+            "subtitle": "廣告累計花費"
+          }
+        },
+        "promptDashboard": {
+          "title": "一句話生成行銷儀錶盤",
+          "description": "輸入你想查看的指標提示詞，Cluega會自動從您授權的平台取得資料、建立圖表，並持續即時同步更新。",
+          "visual": {
+            "step1Title": "輸入提示詞",
+            "step1Desc": "用自然語言描述你想看的標",
+            "step2Title": "解析資料來源",
+            "step2Desc": "AI 識別涉及的平台與欄位",
+            "step3Title": "拉取授權數據",
+            "step3Desc": "從 Meta / Google / TikTok 獲取最新資料",
+            "step4Title": "建立圖表組合",
+            "step4Desc": "自動挑選最合適的視覺化式",
+            "step5Title": "即時同步更新",
+            "step5Desc": "每 5 分鐘自動刷新指標"
+          }
+        },
+        "weeklyPriorities": {
+          "title": "本週優先調整項目",
+          "description": "綜合分析素材疲勞、受眾重疊與預算消耗等多維度異常，依緊迫程度由重到輕排序。協助你迅速鎖定行銷漏洞。",
+          "visual": {
+            "title": "本週優先調整項目",
+            "items": {
+              "1": {
+                "text": "春季特輯浪費了 $1,180。",
+                "badge": "高"
+              },
+              "2": {
+                "text": "3 個廣告組重疊度 >30%。",
+                "badge": "高"
+              },
+              "3": {
+                "text": "主打輪播 — 蠟燭系列浪費了 $940。",
+                "badge": "中"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

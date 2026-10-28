@@ -1,0 +1,197 @@
+{
+  "comparePancake": {
+    "meta": {
+      "title": "Cluega IM vs Pancake | Cluega",
+      "description": "Pancake is good at keeping messages and orders across many pages under control; Cluega IM goes one step further — automatically merging the same buyer's cross-channel footprint at the identity layer, turning private-domain conversations into attributable, billable sales data."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA IM VS. PANCAKE",
+      "title": "Trace every Zalo sale back to the exact TikTok ad it came from",
+      "subtitle": "Pancake is good at keeping messages and orders across many pages under control, and it can send events back to ad platforms; Cluega IM goes one step further — automatically merging the same buyer's cross-channel footprint at the identity layer, turning private-domain conversations into attributable, billable sales data. Your own lead-capture rules define the conversion scale, so every dollar of ad budget lines up with a real sale.",
+      "ctaStart": "Book a demo",
+      "ctaDemo": "Talk to sales",
+      "cluegaLabel": "Cluega IM",
+      "pancakeLabel": "Pancake",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Pancake vs Cluega IM",
+      "colDimension": "Dimension",
+      "colPancake": "Pancake",
+      "colCluega": "Cluega IM",
+      "rows": [
+        {
+          "dimension": "Positioning",
+          "pancake": "Omnichannel chat + POS operations suite: messages, comments, orders, inventory, fulfilment",
+          "cluega": "Private-domain marketing operating system (AdOS): a performance engine running conversation → sales stage → ad attribution"
+        },
+        {
+          "dimension": "Supported channels",
+          "pancake": "FB／IG／TikTok Shop／Zalo／Shopee／Lazada and more (unified at the operations layer)",
+          "cluega": "LINE OA／Zalo／WhatsApp／Messenger and more (connected across both the operations and attribution layers)"
+        },
+        {
+          "dimension": "Entry threshold",
+          "pancake": "Subscription priced by connections and seats, with 3／6／12-month plans",
+          "cluega": "SaaS subscription from $999／month + outcome-based billing on closed sales: unconverted conversations only carry a compute base fee"
+        },
+        {
+          "dimension": "Attribution outcome",
+          "pancake": "Can send events back to Meta／Google／TikTok／WhatsApp／IG and others via Pancake CRM; what goes back are discrete events such as orders and forms",
+          "cluega": "TikTok／Meta／Google ads → private-domain conversation → sale, same-source attribution across the full chain, with auditable reasoning attached to every attribution"
+        },
+        {
+          "dimension": "Cross-platform identity",
+          "pancake": "The phone number is the de facto merge key, and matching is manual",
+          "cluega": "Automatic merge at the identity layer (Identity Merge): the same buyer across Zalo／LINE／WhatsApp counts as one sale only"
+        },
+        {
+          "dimension": "Conversion definition",
+          "pancake": "Can send back preset events such as purchase, appointment form, conversation started and lead collection; mostly rule-triggered, not a continuous sales-stage scale",
+          "cluega": "MMT L0–L6 funnel, where L1–L6 are yours to define from your lead-capture and sales rules: phone number left＝L2, appointment booked＝L3, order placed＝L5, payment completed＝L6"
+        },
+        {
+          "dimension": "Target customer",
+          "pancake": "E-commerce sellers, live-commerce and customer-service teams",
+          "cluega": "Performance advertisers, media buyers, agencies"
+        },
+        {
+          "dimension": "Best fit",
+          "pancake": "High-volume customer service, order taking and fulfilment operations",
+          "cluega": "Ad-driven private-domain acquisition, sales attribution and ROAS scaling"
+        }
+      ],
+      "footnote": "＊Competitor information is compiled from their official sites and public third-party sources (verified 2026-07); their own official announcements take precedence.",
+      "ctaStart": "Book a demo",
+      "ctaDemo": "Talk to sales"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Why performance teams still need Cluega IM on top of Pancake",
+      "items": [
+        {
+          "title": "One buyer across three apps, one sale counted once",
+          "body": "Pancake CRM can send events back to Meta／Google／TikTok, but when the same buyer shows up on Zalo, LINE and WhatsApp, that's three IDs that don't know each other — in practice you match phone numbers by hand, and the smallest mismatch means double counting. Cluega IM automatically merges that buyer's cross-channel behaviour at the identity layer: the customer clicks in from a TikTok ad, adds you on Zalo, and pays in DMs three days later — that sale points back to the original campaign, adset and creative, counted once and never billed twice."
+        },
+        {
+          "title": "You define the scale, and every level carries its reasoning",
+          "body": "What ad platforms can receive is a list of preset events, triggered or not by rules. What Cluega IM gives you is a continuous scale: a large model reads the semantics of each conversation and places it in real time against the lead-capture rules you set — phone number left is L2, appointment booked is L3, payment completed is L6. The difference isn't whether events \"can be sent back\", it's that every level carries its reasoning, is auditable and billable, and can also go back to the ad platform as a conversion signal."
+        },
+        {
+          "title": "Ads that bring orders, and ads that bring conversations that will close",
+          "body": "Filtering ad IDs backwards from an order report only shows you the end that already closed; conversations still in progress have nowhere to sit. Cluega IM computes true ROAS at sales-stage granularity: a conversation that reached L3／L4 but hasn't paid still has value, so a media buyer sees not just \"which ad has produced orders\" but \"which ad deserves more budget\" — instead of only surface metrics like DM volume and new friend counts."
+        },
+        {
+          "title": "Performance fees only on closed sales, so billing is aligned with you",
+          "body": "Beyond the subscription, AI-managed selling is settled on the conversation's final MMT state: unconverted conversations only carry a base fee that covers compute, and you pay the matching performance fee only when the AI genuinely pushes the conversation into the sales tier. Your bill always tracks performance, never message volume."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          { "type": "field", "label": "Ad account ID", "value": "7535737911069753842" },
+          { "type": "field", "label": "Ad name", "value": "0609-DM Ad-EcoSip" },
+          { "type": "field", "label": "Ad ID", "value": "1866940736964473" },
+          { "type": "field", "label": "Creative ID", "value": "1867515992671681" },
+          {
+            "type": "preview",
+            "label": "Creative preview",
+            "brand": "EcoSip",
+            "value": "Insulated bottle promo video"
+          },
+          { "type": "field", "label": "Social account ID", "value": "EcoSip" }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Created",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Total events",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Avg. cost per conversion",
+        "legend": "All"
+      },
+      "identity": {
+        "keyword": "Phone number",
+        "lead": "High-value lead"
+      },
+      "billing": {
+        "steps": [
+          "Prospect's first product inquiry",
+          "AI identifies pain points, keeps engaging",
+          "AI delivers a tailored solution"
+        ],
+        "success": "Converted: qualified lead",
+        "outcome": "Outcome reached: $0.99 charged"
+      }
+    },
+    "highlights": {
+      "eyebrow": "EVERY CHANNEL, ONE ATTRIBUTION ENGINE",
+      "title": "Not just managing messages and orders — owning full-funnel data across global private domains",
+      "items": [
+        {
+          "title": "Every channel covered",
+          "body": "Conversations and sales events from Zalo・LINE・WhatsApp・Messenger land in a single customer profile, so attribution never breaks when the channel changes."
+        },
+        {
+          "title": "MMT L0–L6 funnel",
+          "body": "Every conversation is placed into a sales stage automatically; from high-intent chat to completed payment, every funnel layer is visible and countable."
+        },
+        {
+          "title": "Data sovereignty",
+          "body": "Every attribution carries an auditable log, and events are written back in a closed loop via API／Webhook／postback; customer data never leaves and is never used for cross-tenant training."
+        },
+        {
+          "title": "Team collaboration",
+          "body": "Supports API／MCP and human-in-the-loop work; manual intervention is bounded by the handoff timestamp, so credit for the AI and for your agents is counted cleanly."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Which one should I choose?",
+      "pancake": {
+        "label": "Choose Pancake",
+        "body": "Your core pain is high-volume customer service, order taking, inventory and fulfilment, and you need a mature e-commerce operations back office; your send-back needs are mostly standard events, you don't need custom sales-stage scales or automatic cross-channel identity merging, and you don't need billing tied to performance."
+      },
+      "cluega": {
+        "label": "Choose Cluega IM",
+        "body": "You grow through advertising across TikTok／Meta／Google, you need to know which ad each private-domain sale came from, you need the same buyer never billed twice across platforms, and you want billing perfectly aligned with performance."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you might want to know before you reach out to our team.",
+      "contact": "Contact sales",
+      "items": [
+        {
+          "q": "We already use Pancake — can we layer Cluega IM on top?",
+          "a": "Yes, and it's a common pairing. Pancake keeps handling customer service and order operations while Cluega IM focuses on the attribution layer: connect the same channels and you can start pushing private-domain sales back to ads. The two complement each other, and you don't need to migrate your existing workflow."
+        },
+        {
+          "q": "How does cross-platform attribution from TikTok to Zalo actually work?",
+          "a": "Cluega IM merges ad click parameters, conversation events and captured identity (phone number／social ID) into a single customer profile at the identity layer. The same customer is counted per channel for conversations but merged for attribution — one sale counts once, and still points back to its ad source."
+        },
+        {
+          "q": "Can the conversion definition be customised?",
+          "a": "Yes. The business reading of MMT L1–L6 is configured from your own lead-capture and sales rules: you can map \"phone number left\", \"appointment booked\" and \"payment info added\" to explicit levels, and both billing and reporting follow your definitions."
+        },
+        {
+          "q": "Can we use it before connecting our order system back?",
+          "a": "Yes. For non-closed-loop customers without sales write-back, billing is capped at the observable lead-capture stage (MMT L3／L4), or switched to subscription + a committed package; once API／Webhook write-back is in place you can enable full L5／L6 sales billing, so you're never \"billed for sales you can't see\"."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "With Cluega IM, private-domain conversations become the confidence behind scaling ad spend.",
+      "ctaStart": "Book a demo",
+      "ctaDemo": "Talk to sales"
+    }
+  }
+}

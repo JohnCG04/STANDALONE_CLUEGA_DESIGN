@@ -1,0 +1,197 @@
+{
+  "engineeringBlog": {
+    "hero": {
+      "eyebrow": "Blog kỹ thuật Cluega"
+    },
+    "latest": {
+      "title": "Bài viết mới nhất",
+      "all": "Tất cả bài viết"
+    },
+    "categories": {
+      "ai": "AI",
+      "product": "Sản phẩm",
+      "infra": "Hạ tầng",
+      "web": "Kỹ thuật frontend",
+      "inside": "Bên trong Cluega"
+    },
+    "stats": {
+      "pullRequests": "{count} pull request đã được merge trong 12 tháng qua"
+    },
+    "cta": {
+      "title": "Cùng định nghĩa lại cách làm marketing?",
+      "link": "Cơ hội nghề nghiệp tại Cluega"
+    },
+    "detail": {
+      "back": "Blog kỹ thuật",
+      "toc": "Mục lục",
+      "placeholder": "Bài viết đang được hoàn thiện. Nội dung đầy đủ — kèm sơ đồ kiến trúc, đoạn mã và số liệu chạy thật — sẽ được bổ sung ngay tại đây."
+    },
+    "datePattern": "{mon}/{yy}",
+    "monthsShort": ["Th1", "Th2", "Th3", "Th4", "Th5", "Th6", "Th7", "Th8", "Th9", "Th10", "Th11", "Th12"],
+    "posts": {
+      "streaming-workflow-forms": {
+        "title": "Biến biểu mẫu backend stream về thành UI tương tác",
+        "summary": "AI vừa sinh quy trình, frontend vừa render biểu mẫu lựa chọn: một data contract duy nhất nối sự kiện backend với component React.",
+        "role": "Kỹ sư phần mềm trưởng"
+      },
+      "dogclaw-executor-runtime": {
+        "title": "Dogclaw Executor: runtime chạy song song local và cloud",
+        "summary": "Cùng một mô tả tác vụ, làm sao chạy được cả trên trình duyệt người dùng lẫn cụm container của chúng tôi.",
+        "role": "Trưởng bộ phận Kỹ thuật nền tảng"
+      },
+      "mcp-dynamic-context-injection": {
+        "title": "Đánh đổi khi tiêm ngữ cảnh động qua MCP",
+        "summary": "Càng nhiều tool, model càng kém. Cách chúng tôi chỉ đưa vào mỗi lượt hội thoại đúng thứ model thật sự cần.",
+        "role": "Trưởng bộ phận Kỹ thuật AI",
+        "article": {
+          "lead": "Khi xây dựng hệ thống Agent dựa trên LLM, chúng ta rất hay rơi vào một cái bẫy: \"MCP (Model Context Protocol) đã giúp việc mở rộng công cụ dễ đến thế, vậy thì cứ gắn hết tất cả API, truy vấn cơ sở dữ liệu và mọi kết nối hệ thống bên ngoài vào đi!\"",
+          "problemsIntro": "Nhưng đến khi Agent của bạn cõng theo 50, thậm chí hàng trăm MCP Tools, thảm hoạ bắt đầu:",
+          "problems": [
+            "**Độ chính xác của Tool Calling tụt dốc không phanh**: mô hình bắt đầu \"râu ông nọ cắm cằm bà kia\", chọn nhầm công cụ hoặc truyền sai tham số.",
+            "**Khả năng suy luận kém đi (\"mô hình bị ngu\")**: phần ngữ cảnh dài và không liên quan chiếm hết Context Window vốn có hạn, ép nhỏ không gian chú ý dành cho tư duy logic phức tạp (Reasoning).",
+            "**Latency và chi phí API tăng vọt**: mỗi Request đều mang theo vài chục Tool Description, số Prompt Token tăng theo đường thẳng."
+          ],
+          "contradiction": "**Mâu thuẫn cốt lõi**: năng lực công cụ mở rộng theo \"phép cộng\", nhưng tác động tiêu cực của độ phức tạp ngữ cảnh lên chất lượng suy luận lại tăng theo \"hàm mũ\".",
+          "question": "Vậy ở mỗi lượt (Turn) hội thoại, làm sao để **chỉ đưa cho mô hình đúng phần ngữ cảnh và công cụ nó thật sự cần**?",
+          "s1": {
+            "title": "Vì sao \"càng nhiều công cụ, mô hình càng ngu\"?",
+            "intro": "Nhìn từ cơ chế Attention của LLM và góc độ Prompt Engineering, quá nhiều công cụ chủ yếu tạo ra ba điểm đau:",
+            "points": [
+              "**Attention Noise (nhiễu chú ý)**: cơ chế Attention của mô hình ngôn ngữ lớn là hữu hạn. Khi Prompt ngập tràn Tool Schema không liên quan đến câu hỏi hiện tại, Attention bị phân tán, khiến mô hình bỏ sót đúng thông tin then chốt (Lost in the Middle).",
+              "**Schema Collision (xung đột định nghĩa)**: khi nhiều công cụ có chức năng gần nhau (ví dụ `search_user_by_email` và `get_user_profile`), các Description tương tự nhau sẽ làm tăng mạnh độ phân vân (Perplexity) lúc LLM ra quyết định.",
+              "**Token Budget Waste (lãng phí ngân sách Token)**: JSON Schema của MCP Tool thường rất chi tiết; vài chục công cụ cộng lại có thể ngốn 3k–8k Tokens ngay từ đầu ván, phần không gian còn lại cho Reasoning ở giữa bị nén rất mạnh."
+            ]
+          },
+          "s2": {
+            "title": "Kiến trúc lõi của tiêm ngữ cảnh động: Two-Stage Routing",
+            "intro": "Để giải quyết vấn đề này, ta không thể nạp toàn bộ công cụ một lần trong `system_prompt` hay lúc khởi tạo MCP Client, mà buộc phải dùng **Two-Stage Retrieval / Routing (truy hồi và định tuyến hai giai đoạn)**.",
+            "diagram": [
+              "[ User Input ]",
+              "      │",
+              "      ▼",
+              "┌─────────────────────────────────┐",
+              "│ Stage 1: Dynamic Filter         │  <-- Router nhẹ (Vector Search / Intent Classifier)",
+              "│ (3~5 picked from 100+ Tools)    │  <-- Lọc 3~5 từ 100+ Tools",
+              "└───────────────┬─────────────────┘",
+              "                │ Selected Tools",
+              "                ▼",
+              "┌─────────────────────────────────┐",
+              "│ Stage 2: LLM Reasoning & Exec   │  <-- LLM lõi (nhận Prompt & Tools đã tinh gọn)",
+              "└─────────────────────────────────┘"
+            ],
+            "vector": {
+              "title": "Chiến lược A: Tool Retrieval dựa trên Vector Search",
+              "intro": "Chuyển Name + Description của toàn bộ MCP Tools thành Embedding từ trước và lưu vào Vector DB.",
+              "steps": [
+                "**Query**: lấy User Query hiện tại của người dùng (cùng 2 lượt hội thoại gần nhất).",
+                "**Retrieve**: truy hồi Top-K (ví dụ Top 3~5) MCP Tools liên quan nhất theo độ tương đồng ngữ nghĩa.",
+                "**Inject**: chỉ tiêm JSON Schema của 3~5 Tool đó vào MCP Session của lượt hội thoại hiện tại."
+              ]
+            },
+            "router": {
+              "title": "Chiến lược B: Intent Router (bộ phân loại ý định nhẹ)",
+              "intro": "Dùng một mô hình nhỏ cực nhanh, cực rẻ (như Claude 3.5 Haiku hoặc GPT-4o-mini) làm **Gatekeeper**.",
+              "points": [
+                "Trước hết để mô hình nhỏ phán đoán: \"Query này thuộc module nào? (ví dụ: DevOps, User System, Billing)\"",
+                "Dựa trên phân loại module, nạp động đúng MCP Tool Group tương ứng."
+              ]
+            }
+          },
+          "s3": {
+            "title": "Chi tiết kỹ thuật của việc làm gọn ngữ cảnh (Context Slimming)",
+            "intro": "Ngoài việc lọc động bản thân Tool, **kết quả trả về sau khi công cụ chạy (Tool Output)** cũng là thủ phạm chính khiến ngữ cảnh phình to.",
+            "filtering": {
+              "title": "① Tool Result Filtering & Summarization",
+              "body": "MCP Tool thường trả về một JSON payload khổng lồ (ví dụ API Response dài 500 dòng); nếu ném thẳng về cho mô hình thì lượt hội thoại kế tiếp là vỡ trận.",
+              "points": [
+                "**Cách làm**: cấu hình `Response Truncation` hoặc `Json Path Selector` ở phía MCP Server hay middleware của Client, chỉ giữ lại những Key mà mô hình cần cho việc tính toán."
+              ]
+            },
+            "eviction": {
+              "title": "② Stateful Context Eviction (nhớ đệm và dọn dẹp theo trạng thái)",
+              "body": "Có những Tool chỉ cần chạy đúng một lần (ví dụ `get_current_timestamp` hoặc `fetch_user_id`).",
+              "points": [
+                "Sau khi công cụ đã có kết quả và ghi vào biến trung gian, ở các lượt hội thoại sau ta có thể **\"nén/thay thế\" lịch sử Tool Call cùng phần output khổng lồ bằng một bản tóm tắt Prompt ngắn gọn**, không cần mang theo toàn bộ Tool Log ở mỗi lượt tiếp theo."
+              ]
+            }
+          },
+          "s4": {
+            "title": "Nghệ thuật đánh đổi: bảng đánh giá Trade-offs",
+            "intro": "Khi triển khai tiêm động, thực chất chúng ta đang cân nhắc mấy đánh đổi kỹ thuật sau:",
+            "table": {
+              "head": ["Tiêu chí", "Tiêm tĩnh toàn bộ (Static All)", "Tiêm động chọn lọc (Dynamic Filtering)"],
+              "rows": {
+                "accuracy": [
+                  "Độ chính xác & chất lượng suy luận",
+                  "🔴 Kém (nhiều công cụ thì dễ ảo giác／chọn sai)",
+                  "🟢 Tốt (mô hình tập trung vào rất ít lựa chọn)"
+                ],
+                "ttft": [
+                  "Độ trễ token đầu tiên (TTFT)",
+                  "🔴 Cao (nhiều Prompt Token, xử lý chậm)",
+                  "🟡 Trung bình (thêm một lần Router / truy hồi Vector, nhưng LLM xử lý nhanh hơn)"
+                ],
+                "complexity": [
+                  "Độ phức tạp kiến trúc",
+                  "🟢 Cực thấp (nối thẳng là chạy)",
+                  "🔴 Khá cao (phải duy trì Router, Vector Index và Tool Lifecycle)"
+                ],
+                "recall": [
+                  "Độ bao phủ (Recall)",
+                  "🟢 100% (mọi công cụ đều có mặt)",
+                  "🟡 Phụ thuộc chất lượng Router (Router không chọn trúng thì LLM cũng bó tay)"
+                ]
+              }
+            },
+            "note": "**Gợi ý kỹ thuật**: rủi ro lớn nhất của tiêm động là **False Negative (công cụ đáng lẽ phải được gọi ra thì lại không)**. Vì vậy các công cụ nền tảng dùng chung (như `reply_to_user`, `ask_clarification`) nên đặt ở chế độ **Always-Active (thường trú)**, chỉ những công cụ chuyên biệt mới đi vào bể truy hồi động."
+          },
+          "outro": {
+            "title": "Lời kết",
+            "p1": "Chìa khoá để tạo ra một Agent đáng tin không nằm ở chỗ nó \"nối được bao nhiêu API\", mà ở chỗ nó \"tập trung được đến đâu\".",
+            "p2": "MCP mang lại năng lực kết nối chuẩn hoá cực mạnh, nhưng với vai trò kiến trúc sư, chúng ta không thể đẩy toàn bộ gánh nặng sang Context Window của LLM. **Two-Stage Tool Routing** cùng **Dynamic Context Slimming** — đưa cho mô hình đúng phần ngữ cảnh thuần khiết và liên quan nhất ở mỗi lượt hội thoại — mới là lời giải giúp Agent luôn nhanh nhạy và thông minh."
+          }
+        }
+      },
+      "ascii-hero-render-pipeline": {
+        "title": "Ba nghìn ký tự cho một animation không rớt khung hình",
+        "summary": "Distance field, thang mật độ ký tự và 30 khung hình mỗi giây: mổ xẻ pipeline ASCII ở hero trang chủ.",
+        "role": "Kỹ sư xuất sắc"
+      },
+      "clickhouse-ad-metrics": {
+        "title": "Sáu tháng chuyển chỉ số quảng cáo từ Postgres sang ClickHouse",
+        "summary": "Truy vấn tổng hợp trên hàng tỷ dòng chi tiết phân phối, từ ba mươi giây xuống còn hai trăm mili giây.",
+        "role": "Kỹ sư hạ tầng chủ chốt"
+      },
+      "where-the-hard-problems-live": {
+        "title": "Phần khó thật sự của AI marketing nằm ở đâu?",
+        "summary": "Không phải mô hình, mà là định nghĩa số liệu, phân quyền tài khoản và những quy tắc nghiệp vụ không có đáp án chuẩn.",
+        "role": "Phó Chủ tịch Kỹ thuật"
+      },
+      "creative-dna-reverse-engineering": {
+        "title": "Truy ngược DNA của creative từ đơn hàng đã chốt",
+        "summary": "Cách chúng tôi bóc tách \"phiên bản creative nào thật sự mang lại đơn\" thành các điều kiện sinh có thể tái sử dụng.",
+        "role": "Kỹ sư ML cấp cao"
+      },
+      "multi-tenant-ad-account-sync": {
+        "title": "Thiết kế idempotent cho đồng bộ tài khoản quảng cáo đa tenant",
+        "summary": "Rate limit của nền tảng, token hết hạn và callback lặp: tất cả tình huống xấu một pipeline đồng bộ phải xử lý.",
+        "role": "Kỹ sư backend cấp cao"
+      },
+      "prompt-eval-harness": {
+        "title": "Viết bộ test biết thất bại cho prompt",
+        "summary": "Tối ưu prompt mà không có tập đánh giá thì chỉ là cảm tính. Cách chúng tôi khiến mọi thay đổi đều hồi quy được.",
+        "role": "Trưởng nhóm Nghiên cứu hệ thống LLM"
+      },
+      "edge-rendering-i18n": {
+        "title": "Ba ngôn ngữ, một bộ route: đa ngữ hoá bằng edge rendering",
+        "summary": "Đổi ngôn ngữ mà không phải tải lại cả trang, đồng thời không hy sinh tốc độ khung hình đầu tiên.",
+        "role": "Quản lý Kỹ thuật, Growth"
+      },
+      "agent-tool-permissions": {
+        "title": "Cho agent đủ quyền, nhưng không đủ để gây hoạ",
+        "summary": "Cấp quyền tool, xác nhận hai bước và nhật ký kiểm toán: ba thứ phải có trước khi agent lên production.",
+        "role": "Trưởng bộ phận Nghiên cứu AI"
+      }
+    }
+  }
+}

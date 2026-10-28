@@ -1,0 +1,200 @@
+{
+  "platformResources": {
+    "hero": {
+      "badge": "Cộng đồng",
+      "title": "Cluega tích hợp mọi kỹ năng tiếp thị, prompt và mô hình",
+      "subtitle": "Prompt, kỹ năng, tác vụ toàn quyền quản lý, xếp hạng mô hình AI — mọi thứ bạn cần, tất cả ở đây.",
+      "primaryCta": "Bắt đầu miễn phí",
+      "secondaryCta": "Tìm hiểu thêm"
+    },
+    "showcase": {
+      "title": "Cộng đồng có mọi thứ bạn cần.",
+      "subtitle": "Mở khóa prompt, kỹ năng, tác vụ toàn quyền quản lý và xếp hạng mô hình để tăng tốc công việc quảng cáo của bạn.",
+      "tabs": {
+        "prompts": "Prompt",
+        "skills": "Kỹ năng",
+        "managed": "Toàn quyền quản lý",
+        "ranking": "Xếp hạng mô hình AI"
+      },
+      "platformFilters": {
+        "all": "Tất cả",
+        "googleAds": "Google Ads",
+        "metaAds": "Meta Ads",
+        "googleAnalytics": "Google Analytics",
+        "searchConsole": "Search Console",
+        "tiktokAds": "TikTok Ads"
+      },
+      "prompts": {
+        "title": "Prompts",
+        "description": "Những prompt thực dụng nhất — sao chép và dán vào Cluega, rồi thay toàn bộ nội dung trong dấu ngoặc vuông [ ] bằng thông tin của riêng bạn.",
+        "categoryFilters": {
+          "all": "Tất cả danh mục",
+          "quickAnalysis": "Phân tích nhanh",
+          "keywords": "Từ khóa",
+          "creative": "Sáng tạo",
+          "costBidding": "Chi phí & đấu giá",
+          "reporting": "Báo cáo",
+          "scheduling": "Lên lịch"
+        },
+        "cards": {
+          "accountHealth": {
+            "platform": "Google Ads",
+            "title": "Kiểm tra sức khỏe tài khoản",
+            "body": "Quét toàn bộ tài khoản quảng cáo, tìm ra 5 vấn đề lớn nhất xếp theo mức tác động ước tính — gồm hao hụt ngân sách, điểm chất lượng và độ khớp của tài nguyên — kèm lợi ích dự kiến khi khắc phục từng vấn đề."
+          },
+          "weeklyDiagnosis": {
+            "platform": "Meta Ads",
+            "title": "Chẩn đoán hằng tuần",
+            "body": "So sánh 7 ngày gần nhất với 7 ngày trước đó trên mọi nền tảng, tìm các chênh lệch lớn nhất về ROAS, CPA, CPC, phân tích nguyên nhân gốc rễ và tách lưu lượng thương hiệu khỏi phi thương hiệu."
+          },
+          "threeOpportunities": {
+            "platform": "Google Ads",
+            "title": "Mười cơ hội lớn",
+            "body": "Rà soát cả Google + Meta để tìm 10 cơ hội tối ưu hàng đầu, xếp theo mức tác động ước tính, mỗi cơ hội kèm đề xuất hành động cụ thể và mức cải thiện dự kiến."
+          },
+          "negativeKeywords": {
+            "platform": "Google Analytics",
+            "title": "Quét từ khóa phủ định",
+            "body": "Lấy báo cáo cụm từ tìm kiếm 30 ngày gần đây, tìm ra 20 từ khóa lãng phí ngân sách nhất, phân tích nguyên nhân chuyển đổi thấp và đưa ra danh sách từ khóa phủ định được đề xuất."
+          }
+        }
+      },
+      "skills": {
+        "title": "Kỹ năng",
+        "description": "Bật các kỹ năng tích hợp sẵn để Cluega tự động áp dụng năng lực phù hợp trong từng tác vụ.",
+        "searchPlaceholder": "Tìm kỹ năng",
+        "filterOfficial": "Chính thức",
+        "bannerTitle": "Thêm kỹ năng tùy chỉnh",
+        "bannerDescription": "Thêm kỹ năng để mở khóa tính năng mới cho bạn hoặc nhóm của bạn.",
+        "bannerButton": "＋ Thêm",
+        "badgeOfficial": "Chứng nhận chính thức",
+        "badgeEnabled": "Đã bật",
+        "updatedLabel": "Cập nhật ngày 23/4/2026",
+        "cards": {
+          "tiktok": {
+            "name": "tiktok-ads-generator",
+            "body": "Trình tạo kịch bản và phân cảnh quảng cáo video ngắn chuyển đổi cao dành riêng cho TikTok. Tự động cho ra mở đầu hút mắt, dồn điểm đau và CTA mạnh mẽ, nâng toàn diện chất lượng tài nguyên."
+          },
+          "meta": {
+            "name": "meta-creative-matrix",
+            "body": "Công cụ hoạch định ma trận nội dung và hình ảnh quảng cáo đa nhóm cho Meta (Facebook / Instagram). Hỗ trợ tự động sinh tổ hợp nội dung tối ưu theo độ \"nóng\" của tệp khán giả."
+          },
+          "google": {
+            "name": "google-search-optimizer",
+            "body": "Chuyên gia tối ưu quảng cáo tìm kiếm theo từ khóa của Google. Tự động phân tích mức độ cạnh tranh của ngành, tạo hàng loạt tiêu đề và mô tả có độ liên quan cao, loại bỏ thông minh các từ khóa kém hiệu quả."
+          },
+          "omni": {
+            "name": "omni-ad-brief-compiler",
+            "body": "Công cụ tự động tạo phiếu yêu cầu tài nguyên quảng cáo đa nền tảng. Chỉ một thao tác, biến điểm bán của sản phẩm thành chỉ dẫn quay dựng và mô tả thiết kế phù hợp quy cách từng nền tảng."
+          }
+        }
+      },
+      "managed": {
+        "title": "Giới thiệu tác vụ quản lý",
+        "description": "Với các tình huống chạy quảng cáo, phân tích và báo cáo, hãy chọn mô-đun kỹ năng toàn quyền quản lý tương ứng; sau khi thiết lập, AI tự động chạy 7×24.",
+        "categoryFilters": {
+          "all": "Tất cả danh mục",
+          "creativeGen": "Tạo tài nguyên",
+          "audienceInsights": "Thấu hiểu khán giả",
+          "budgetBidding": "Ngân sách & đấu giá",
+          "reporting": "Báo cáo"
+        },
+        "manageButton": "Quản lý",
+        "manageHint": "Nhấn [Quản lý] để bắt đầu tự động chạy",
+        "cards": {
+          "highRoas": {
+            "platform": "Meta Ads",
+            "category": "Ngân sách & đấu giá",
+            "title": "Tự động tăng giá khi ROAS cao",
+            "body": "Theo dõi ROAS trong ngày; khi đạt 250% và lượng chuyển đổi đạt chỉ tiêu, tự động tăng 20% ngân sách cho nhóm quảng cáo để nắm bắt khung giờ hiệu quả cao."
+          },
+          "creativeViolation": {
+            "platform": "TikTok Ads",
+            "category": "Tạo tài nguyên",
+            "title": "Tự động dừng tài nguyên vi phạm",
+            "body": "Nếu cùng một tài nguyên bị nền tảng từ chối quá 2 lần trong 24 giờ, hệ thống tự động gỡ tài nguyên đó và thông báo ngay cho người phụ trách tài khoản."
+          },
+          "keywordRoas": {
+            "platform": "Google Ads",
+            "category": "Ngân sách & đấu giá",
+            "title": "Chiến lược khi ROAS từ khóa tụt ngưỡng",
+            "body": "Phát hiện ROAS của từ khóa cốt lõi tụt dưới 100% trong 3 ngày qua, tự động hạ giá thầu và chuyển chiến lược, vừa cắt lỗ vừa giữ lưu lượng."
+          },
+          "pixelAlert": {
+            "platform": "Meta Ads",
+            "category": "Báo cáo",
+            "title": "Cảnh báo gián đoạn dữ liệu Pixel",
+            "body": "Phát hiện theo thời gian thực khi lượng sự kiện chuyển đổi Pixel trả về giảm về 0, tự động gửi thông báo khắc phục trước khi ảnh hưởng đến giai đoạn học của quảng cáo."
+          }
+        }
+      },
+      "ranking": {
+        "title": "Xếp hạng mô hình AI",
+        "description": "Dựa trên các bài kiểm tra benchmark và dữ liệu sử dụng thực tế từ hàng triệu người dùng truy cập mô hình qua Cluega. Cập nhật hằng tuần.",
+        "chartTitle": "Mô hình hàng đầu",
+        "chartSubtitle": "Lượng dùng mô hình hằng tuần trên Cluega",
+        "leaderboardTitle": "Bảng xếp hạng LLM",
+        "leaderboardSubtitle": "So sánh các mô hình được ưa chuộng nhất trên Cluega",
+        "filterButton": "Tuần này",
+        "rows": {
+          "r1": { "name": "DeepSeek V4 Flash", "provider": "DeepSeek", "usage": "3,29 nghìn tỷ token" },
+          "r2": { "name": "GLM-4.6", "provider": "Zhipu AI", "usage": "3,01 nghìn tỷ token" },
+          "r3": { "name": "Claude Sonnet 4.6", "provider": "Anthropic", "usage": "2,87 nghìn tỷ token" },
+          "r4": { "name": "GPT-5", "provider": "OpenAI", "usage": "2,64 nghìn tỷ token" },
+          "r5": { "name": "Llama 4 Maverick", "provider": "Meta", "usage": "1,92 nghìn tỷ token" },
+          "r6": { "name": "Gemini 2.5 Pro", "provider": "Google", "usage": "1,48 nghìn tỷ token" },
+          "r7": { "name": "Grok 3 Turbo", "provider": "xAI", "usage": "1,21 nghìn tỷ token" },
+          "r8": { "name": "Moonshot v2", "provider": "Moonshot AI", "usage": "948 tỷ token" },
+          "r9": { "name": "Qwen 3 Max", "provider": "Alibaba Cloud", "usage": "704 tỷ token" },
+          "r10": { "name": "Cohere Command R+", "provider": "Cohere", "usage": "683 tỷ token" },
+          "r11": { "name": "Mistral Large 3", "provider": "Mistral", "usage": "602 tỷ token" },
+          "r12": { "name": "Nemotron 3 Super (Miễn phí)", "provider": "NVIDIA", "usage": "595 tỷ token" },
+          "r13": { "name": "Phi-4 Vision", "provider": "Microsoft", "usage": "521 tỷ token" },
+          "r14": { "name": "Falcon 3", "provider": "TII", "usage": "487 tỷ token" },
+          "r15": { "name": "Inflection 3", "provider": "Inflection", "usage": "431 tỷ token" },
+          "r16": { "name": "MiniMax M1", "provider": "MiniMax", "usage": "371 tỷ token" }
+        }
+      }
+    },
+    "discover": {
+      "title": "Khám phá tài nguyên cộng đồng.",
+      "subtitle": "Tìm kiếm prompt, kỹ năng và tác vụ toàn quyền quản lý ở một nơi để tìm ra cách làm việc bằng AI phù hợp nhất với tình huống quảng cáo của bạn.",
+      "searchPlaceholder": "Tìm prompt, kỹ năng hoặc tác vụ…",
+      "categories": {
+        "all": "Tất cả tài nguyên",
+        "prompts": "Prompt",
+        "skills": "Kỹ năng",
+        "managed": "Toàn quyền quản lý",
+        "ranking": "Xếp hạng mô hình AI"
+      },
+      "badgeOfficial": "Chính thức",
+      "cards": {
+        "p1": { "platform": "Google Ads", "title": "Kiểm tra sức khỏe tài khoản", "body": "Quét toàn bộ tài khoản quảng cáo, tìm ra 5 vấn đề lớn nhất xếp theo mức tác động ước tính, đưa ra lợi ích dự kiến khi khắc phục từng mục." },
+        "p2": { "platform": "Meta Ads", "title": "Chẩn đoán hằng tuần", "body": "So sánh 7 ngày gần nhất với 7 ngày trước đó, tự động tìm các chênh lệch lớn nhất về ROAS, CPA, CPC và phân tích nguyên nhân gốc rễ." },
+        "p3": { "platform": "Google Ads", "title": "Mười cơ hội lớn", "body": "Rà soát cả Google + Meta để tìm 10 cơ hội tối ưu hàng đầu, xếp theo mức tác động ước tính, mỗi cơ hội kèm đề xuất hành động cụ thể và mức cải thiện dự kiến." },
+        "p4": { "platform": "Google Analytics", "title": "Quét từ khóa phủ định", "body": "Lấy báo cáo cụm từ tìm kiếm 30 ngày gần đây, tìm ra 20 từ khóa lãng phí ngân sách nhất, phân tích nguyên nhân chuyển đổi thấp và đưa ra danh sách từ khóa phủ định được đề xuất." },
+        "s1": { "name": "tiktok-ads-generator", "body": "Trình tạo kịch bản và phân cảnh video ngắn chuyển đổi cao, tự động cho ra mở đầu hút mắt, dồn điểm đau và CTA mạnh mẽ." },
+        "s2": { "name": "meta-creative-matrix", "body": "Tự động sinh nội dung quảng cáo và ma trận hình ảnh theo độ \"nóng\" của khán giả, cho ra tổ hợp tối ưu cho tệp lạnh/ấm/nóng." },
+        "s3": { "name": "google-search-optimizer", "body": "Chuyên gia tối ưu quảng cáo tìm kiếm theo từ khóa của Google. Tự động phân tích mức độ cạnh tranh của ngành, tạo hàng loạt tiêu đề và mô tả có độ liên quan cao, loại bỏ thông minh các từ khóa kém hiệu quả." },
+        "s4": { "name": "omni-ad-brief-compiler", "body": "Công cụ tự động tạo phiếu yêu cầu tài nguyên quảng cáo đa nền tảng. Chỉ một thao tác, biến điểm bán của sản phẩm thành chỉ dẫn quay dựng và mô tả thiết kế phù hợp quy cách từng nền tảng." },
+        "s5": { "name": "pmax-asset-shaper", "body": "Trình quy hoạch nhóm tài nguyên cho quảng cáo Performance Max (PMax) của Google. Bao quát đầy đủ quy cách và cấu hình kịch bản cho tài nguyên chữ, hình ảnh, video, giúp thuật toán tối ưu phân phối trên YouTube, Gmail và mạng hiển thị..." },
+        "s6": { "name": "tiktok-trend-aligner", "body": "Bộ điều phối tài nguyên bám sát nhạc, meme và trend hot trên TikTok theo thời gian thực. Nhanh chóng kết hợp xu hướng hiện tại với điểm đau quảng cáo của thương hiệu, cho ra kịch bản mang cảm giác bản địa, giảm chất quảng cáo và tăng thời lượng xem..." },
+        "s7": { "name": "meta-hook-variant", "body": "Bộ tạo hàng loạt câu mở đầu (Hook) vàng cho quảng cáo trên Meta Feed và Reels. Cung cấp 5 khung tâm lý học như dẫn dắt bằng câu hỏi, gây sốc bằng số liệu, phát biểu phản trực giác..., giảm mạnh tỷ lệ thoát của tài nguyên..." },
+        "s8": { "name": "cross-channel-copywriter", "body": "Công cụ chuyển đổi nội dung quảng cáo đa kênh, một thao tác đăng nhiều nơi từ một bản thảo. Nhập điểm bán cốt lõi, tự động thích ứng giọng đời thường của TikTok, mạch kể chuyện của Meta và nội dung liên quan cao của Google..." },
+        "s9": { "name": "Targeting ad-audience-persona", "body": "Bộ gợi ý chân dung và thẻ khán giả dựa trên logic phân phối quảng cáo. Phân tích sâu động cơ và điểm đau của tệp mục tiêu, tự động cho ra tổ hợp thẻ ngách và sở thích Meta cùng gợi ý thẻ hành vi TikTok tương ứng, đạt độ chính xác..." },
+        "s10": { "name": "landing-page-aligner", "body": "Bộ rà soát tính nhất quán giữa tài nguyên quảng cáo và nội dung trang đích một trang (Landing Page). Đảm bảo sáng tạo TikTok/Meta khớp hoàn hảo với thông điệp giá trị ở phần đầu trang (Above the Fold), giảm tỷ lệ thoát cao..." },
+        "m1": { "platform": "Meta Ads", "category": "Ngân sách & đấu giá", "title": "Tự động tăng giá khi ROAS cao", "body": "Khi ROAS đạt chỉ tiêu, tự động tăng 20% ngân sách để nắm bắt khung giờ hiệu quả cao, không cần giám sát thủ công." },
+        "m2": { "platform": "TikTok Ads", "category": "Tạo tài nguyên", "title": "Tự động dừng tài nguyên vi phạm", "body": "Khi cùng một tài nguyên bị từ chối quá 2 lần trong 24 giờ, tự động gỡ xuống và thông báo ngay cho người phụ trách xử lý." },
+        "m3": { "platform": "Google Ads", "category": "Ngân sách & đấu giá", "title": "Chiến lược khi ROAS từ khóa lao dốc", "body": "Khi ROAS của từ khóa cốt lõi tụt dưới 100% trong 3 ngày qua, tự động hạ giá thầu và chuyển chiến lược." },
+        "m4": { "platform": "Meta Ads", "category": "Báo cáo", "title": "Cảnh báo gián đoạn dữ liệu Pixel", "body": "Phát hiện khi sự kiện chuyển đổi Pixel trả về 0 và tự động gửi thông báo sửa chữa hệ thống." },
+        "m5": { "platform": "Search Console", "category": "Báo cáo", "title": "Quét báo cáo truy vấn tìm kiếm", "body": "Tổng hợp báo cáo cụm từ tìm kiếm 30 ngày qua, đánh dấu các từ có tỷ lệ thoát cao, không chuyển đổi và đề xuất phủ định." },
+        "m6": { "platform": "Meta Ads", "category": "Thấu hiểu khán giả", "title": "Suy luận thẻ sở thích khán giả", "body": "Dựa trên định vị sản phẩm để suy ra thẻ sở thích ngách Meta và cho ra gợi ý thẻ hành vi TikTok." }
+      }
+    },
+    "cta": {
+      "title": "Tham gia cộng đồng Cluega ngay.",
+      "subtitle": "Tại đây có prompt, kỹ năng và tác vụ toàn quyền quản lý do đội ngũ Cluega chuẩn bị sẵn cho bạn; bạn cũng có thể tải lên kỹ năng cá nhân để xây dựng bàn làm việc AI của riêng mình.",
+      "primaryCta": "Tham gia cộng đồng miễn phí"
+    }
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "button": {
+    "label": "Hướng dẫn",
+    "aria": "Mở hướng dẫn từng bước",
+    "workflowLabel": "Hướng dẫn quy trình"
+  },
+  "drawer": {
+    "kicker": "Hướng dẫn từng bước",
+    "close": "Đóng",
+    "progress": "Tiến độ",
+    "completed": "Đã hoàn thành hướng dẫn — tuyệt vời!",
+    "start": "Bắt đầu hướng dẫn",
+    "continue": "Tiếp tục hướng dẫn",
+    "restart": "Làm lại hướng dẫn",
+    "helpArticle": "Mở bài viết trợ giúp",
+    "remaining": "Còn {count} bước",
+    "minutes": "khoảng {count} phút",
+    "showMe": "Chỉ cho tôi",
+    "skip": "Bỏ qua hướng dẫn",
+    "help": "Trợ giúp",
+    "readyTitle": "Bạn đã sẵn sàng",
+    "readyBody": "Bạn đã nắm được cách dùng — bắt tay vào việc với Cluega AI thôi.",
+    "ctaFallback": "Bắt đầu làm việc",
+    "review": "Xem lại {count} bước"
+  },
+  "tour": {
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "done": "Hoàn tất",
+    "close": "Đóng",
+    "helpLink": "Xem thêm trong Trợ giúp"
+  },
+  "inline": {
+    "howItWorks": "Cách hoạt động"
+  },
+  "guides": {
+    "home": {
+      "title": "Trò chuyện với Cluega AI",
+      "intro": "Trang chủ của bạn: hỏi bất cứ điều gì về marketing, đính kèm tệp và kỹ năng, và quyết định Cluega được tự làm tới đâu.",
+      "completedCta": "Đặt câu hỏi đầu tiên",
+      "steps": {
+        "composer": {
+          "title": "Hỏi Cluega AI bất cứ điều gì",
+          "body": "Nhập câu hỏi hoặc nhiệm vụ tại đây — phân tích hiệu suất, viết creative, lập kế hoạch chiến dịch. Enter để gửi, Shift+Enter để xuống dòng."
+        },
+        "skills": {
+          "title": "Thêm tệp, kỹ năng và công cụ",
+          "body": "Menu ＋: thêm tệp hoặc ảnh, rồi chọn kỹ năng, trình kết nối, trình duyệt, hệ thống thiết kế hoặc tiện ích mở rộng mà tác vụ này được dùng."
+        },
+        "model": {
+          "title": "Chọn mô hình AI",
+          "body": "Pill này hiện model và mức độ đang dùng, ví dụ Auto · Vừa. Mở ra có hai hàng — Mức độ, gồm Tắt, Thấp, Vừa và Cao; và Model, với danh sách tìm kiếm được, mỗi dòng hiện mức chi phí. Auto để Cluega tự định tuyến lượt đó."
+        },
+        "suggestions": {
+          "title": "Bắt đầu bằng công cụ dựng sẵn",
+          "body": "Mỗi nút mở một luồng khác nhau. Chọn một nút khi bạn đã biết loại công việc cần làm; các bước tiếp theo sẽ đi qua từng công cụ."
+        },
+        "suggestion-ads": {
+          "title": "Chạy quảng cáo",
+          "body": "Chọn nền tảng quảng cáo, rồi chọn mục tiêu, Cluega sẽ chuẩn bị hoặc vận hành chiến dịch cho bạn. Nền tảng chưa sẵn sàng sẽ hiện Sắp ra mắt thay vì cho chọn."
+        },
+        "suggestion-image": {
+          "title": "Design",
+          "body": "Công cụ creative. Mở ra có các tab Trợ lý AI, Video, Hình ảnh và Nhân vật số; tab Hình ảnh và Video thu thập thiết lập cho thứ bạn muốn tạo. Các thẻ mẫu sẽ điền sẵn vào ô nhập."
+        },
+        "sidebar": {
+          "title": "Điều hướng không gian làm việc",
+          "body": "Mọi khu vực của Cluega đều ở đây — Cuộc trò chuyện mới, Pulse (Hộp thư), Ủy quyền ứng dụng, Quảng cáo trả phí, Báo cáo tiếp thị và Thư viện, rồi tới dự án và tác vụ của bạn ở bên dưới."
+        }
+      }
+    },
+    "pulse": {
+      "title": "Pulse Bot",
+      "intro": "Pulse Bot là nơi bạn quản lý bot và kênh: chọn một bot, nói bằng lời thường việc cần làm, rồi xem nó tự chạy trên máy tính riêng ngay cạnh cuộc trò chuyện.",
+      "steps": {
+        "bot-list": {
+          "title": "Bot và kênh của bạn",
+          "body": "Mọi thứ bạn có thể trò chuyện đều nằm ở cột này — mỗi bot hoặc kênh là một dòng, bấm để mở. Workspace mới thì cột này trống, và đây cũng là nơi cái đầu tiên xuất hiện."
+        },
+        "add-menu": {
+          "title": "Tạo bot hoặc kênh",
+          "body": "Bot mới tạo một bot cho một nền tảng hoặc một đầu việc. Kênh mới là phòng làm việc chung để nhiều bot và nhiều người cùng một luồng."
+        },
+        "composer": {
+          "title": "Giao việc cho bot",
+          "body": "Cuộc trò chuyện của bot chiếm khung này, và bạn viết việc cần làm ở ô dưới cùng đúng như khi nói — đính kèm tệp, @nhắc một bot khác, hoặc gõ / để chạy tác vụ định kỳ của nó."
+        },
+        "computer-panel": {
+          "title": "Xem máy tính của bot",
+          "body": "Nút này mở cột bên phải — nơi có màn hình riêng của bot, kết quả nó tạo ra và các tác vụ định kỳ. Mở khi bot đang chạy để theo dõi từng bước."
+        },
+        "plugins": {
+          "title": "Plugin",
+          "body": "Plugin là các công cụ và tài khoản đã kết nối mà bot được phép dùng. Thêm ở đây một lần, mọi bot cần đến đều dùng được."
+        }
+      }
+    },
+    "integrations": {
+      "title": "Ủy quyền ứng dụng",
+      "intro": "Kết nối các nền tảng quảng cáo và dữ liệu để Cluega AI phân tích tài khoản và thao tác thay bạn.",
+      "steps": {
+        "my-browser": {
+          "title": "Kết nối trình duyệt của bạn",
+          "body": "Tác vụ web vốn đã chạy được trên trình duyệt đám mây của Cluega. Cài thêm tiện ích mở rộng thì Cluega làm việc được trong chính trình duyệt đã đăng nhập của bạn; AI tự chọn cái nào hợp với tác vụ."
+        },
+        "app-catalog": {
+          "title": "Duyệt danh sách ứng dụng",
+          "body": "Các nền tảng được nhóm theo danh mục — quảng cáo, phân tích, thương mại… Ứng dụng đã kết nối hiển thị trạng thái tại đây."
+        },
+        "connect-card": {
+          "title": "Kết nối một ứng dụng",
+          "body": "Mỗi thẻ là một nền tảng. Bấm Kết nối để cấp quyền; sau khi kết nối, bấm vào thẻ để quản lý tài khoản."
+        }
+      }
+    },
+    "agent": {
+      "title": "Agent",
+      "intro": "Cluega Agent làm việc trên các nền tảng đã kết nối thay bạn — trả lời, tối ưu và thực thi nhiệm vụ.",
+      "steps": {
+        "hero": {
+          "title": "Gặp gỡ Agent",
+          "body": "Agent thực hiện công việc marketing đa kênh cho bạn, dựa trên ngữ cảnh tài khoản và knowledge base."
+        },
+        "features": {
+          "title": "Agent làm được gì",
+          "body": "Mỗi thẻ là một năng lực — từ tự động trả lời đến tối ưu chiến dịch. Năng lực mới sẽ xuất hiện tại đây."
+        },
+        "start-trial": {
+          "title": "Bắt đầu dùng thử",
+          "body": "Chọn nền tảng bạn muốn Agent hoạt động và bắt đầu dùng thử từ đây khi sẵn sàng."
+        }
+      }
+    },
+    "account-view": {
+      "title": "Tổng quan tài khoản quảng cáo",
+      "intro": "Nắm nhanh hiệu suất tài khoản quảng cáo: chọn tài khoản, đặt khoảng thời gian, rồi đọc hiệu suất từ thẻ KPI đến các vấn đề cần tối ưu.",
+      "steps": {
+        "select-account": {
+          "title": "Chọn tài khoản quảng cáo",
+          "body": "Chọn các tài khoản quảng cáo cần phân tích. Chọn tất cả để xem tổng hợp đa kênh, hoặc thu hẹp về một tài khoản."
+        },
+        "date-range": {
+          "title": "Đặt khoảng thời gian",
+          "body": "Mọi KPI, biểu đồ và bảng so sánh trên trang đều theo khoảng thời gian này. Hãy so sánh các giai đoạn tương đồng khi đánh giá hiệu suất."
+        },
+        "kpi-cards": {
+          "title": "Đọc các thẻ KPI",
+          "body": "Chi phí, ROAS, Chuyển đổi, Tỷ lệ chuyển đổi, Lượt nhấp và CTR, mỗi cái kèm mức thay đổi so với kỳ trước. Nút Chọn chỉ số quyết định thẻ hiện những cái nào."
+        },
+        "performance-charts": {
+          "title": "Xem xu hướng hiệu suất",
+          "body": "Biểu đồ mini cho thấy từng chỉ số biến động ra sao trong khoảng thời gian, giúp bạn nhận ra điểm tăng vọt hay sụt giảm."
+        },
+        "channel-comparison": {
+          "title": "So sánh các kênh quảng cáo",
+          "body": "Chi tiêu, ROAS, chuyển đổi, CPA và tỷ lệ chuyển đổi của từng kênh đặt cạnh nhau. Bấm Go để mở báo cáo đầy đủ của kênh."
+        },
+        "tabs": {
+          "title": "Xem tài khoản hay Kế hoạch QC",
+          "body": "Xem tài khoản báo cáo phần đã chi; Kế hoạch QC là nơi soạn kế hoạch mới."
+        }
+      }
+    },
+    "create-ad-plan": {
+      "title": "Tạo kế hoạch quảng cáo",
+      "intro": "Lập kế hoạch chiến dịch theo từng nền tảng và giữ mọi kế hoạch ở một nơi, dễ tìm kiếm.",
+      "steps": {
+        "platform-cards": {
+          "title": "Chọn nền tảng",
+          "body": "Hiện chỉ TikTok lập kế hoạch được ở đây — thẻ Meta và Google Ads bị làm mờ và ghi Sắp ra mắt."
+        },
+        "search": {
+          "title": "Tìm kế hoạch đã có",
+          "body": "Tìm kế hoạch theo tên để quay lại công việc đang dang dở."
+        },
+        "date-range": {
+          "title": "Lọc theo thời gian",
+          "body": "Giới hạn danh sách theo khoảng thời gian tạo kế hoạch."
+        },
+        "plans-list": {
+          "title": "Quản lý kế hoạch",
+          "body": "Mọi kế hoạch nằm ở đây kèm trạng thái — mở một kế hoạch để tiếp tục chỉnh sửa hoặc xem đề xuất của AI."
+        }
+      }
+    },
+    "marketing-dashboard": {
+      "title": "Tổng quan marketing",
+      "intro": "Bảng giám sát vận hành, dựng từ mẫu hoặc bằng hội thoại, được đổ dữ liệu thời gian thực từ các nền tảng bạn đã ủy quyền.",
+      "steps": {
+        "my-dashboards": {
+          "title": "Bảng bạn đã lưu",
+          "body": "Mọi dashboard bạn tạo nằm ở cột này, mới nhất lên đầu, kèm thời điểm thay đổi gần nhất và số phiên bản. Bấm để mở; trỏ chuột hoặc bấm chuột phải vào một dòng để đổi tên, nhân bản hoặc xóa."
+        },
+        "search": {
+          "title": "Tìm một bảng",
+          "body": "Lọc cột này theo tên khi số bảng đã nhiều hơn màn hình hiển thị được."
+        },
+        "new": {
+          "title": "Bảng trống mới",
+          "body": "Tạo một bảng rỗng và mở luôn, sẵn sàng để bạn thêm module."
+        },
+        "templates": {
+          "title": "Bắt đầu từ mẫu",
+          "body": "Mỗi mẫu ShowCase là một bảng dựng sẵn. Chọn một mẫu và Agent sẽ đổ dữ liệu thời gian thực từ các nền tảng bạn đã ủy quyền."
+        },
+        "template-card": {
+          "title": "Một thẻ nói gì",
+          "body": "Nền tảng nguồn ở trên cùng, rồi tới nội dung bảng theo dõi. Các nhãn đánh dấu ngoại lệ: “Làm mới tần suất cao” cập nhật dày hơn, “Sắp lên kệ” nghĩa là connector chưa sẵn sàng."
+        },
+        "create-blank": {
+          "title": "Hoặc tự dựng",
+          "body": "Bỏ qua mẫu và bắt đầu từ bảng trống khi không mẫu nào khớp với thứ bạn muốn theo dõi."
+        }
+      }
+    },
+    "dashboard-templates": {
+      "title": "Mẫu dashboard",
+      "intro": "Các bảng dựng sẵn, nhóm theo mục tiêu. Xem trước với dữ liệu mẫu rồi tạo bảng từ các nền tảng bạn đã ủy quyền.",
+      "steps": {
+        "tabs": {
+          "title": "Mẫu và bảng của bạn",
+          "body": "Mẫu dashboard chứa các bảng dựng sẵn. Dashboard của tôi liệt kê các bảng bạn đã tạo, còn Đã lưu giữ những bảng bạn đánh dấu sao."
+        },
+        "search": {
+          "title": "Tìm mẫu",
+          "body": "Gõ tên mẫu hoặc tên chỉ số để thu hẹp danh sách. Kết quả kết hợp với mục tiêu và nền tảng bạn chọn bên dưới."
+        },
+        "categories": {
+          "title": "Chọn mục tiêu",
+          "body": "Tất cả hiển thị trước bốn mẫu đầu của mỗi mục tiêu, kèm tổng số bên cạnh tên; Xem tất cả mở phần còn lại. Chọn một mục tiêu để thấy mọi mẫu trong đó."
+        },
+        "platforms": {
+          "title": "Lọc theo nền tảng",
+          "body": "Chỉ hiện các mẫu đọc dữ liệu từ một nền tảng. Bấm lại chip đó để bỏ lọc."
+        },
+        "view": {
+          "title": "Lưới hoặc danh sách",
+          "body": "Lưới hiện bản xem trước của từng mẫu. Danh sách hiện các dòng gọn kèm nền tảng và số module của bảng."
+        },
+        "template-card": {
+          "title": "Mở một mẫu",
+          "body": "Bấm vào thẻ để xem toàn bộ bảng với dữ liệu mẫu và dùng mẫu từ đó; menu ⋯ của thẻ cũng có thể bắt đầu một dashboard. Nếu không có thẻ nào, dòng thông báo ở đây cho biết lý do — thường là cần bỏ bớt từ khóa hoặc bộ lọc."
+        }
+      }
+    },
+    "marketing-reports": {
+      "title": "Báo cáo tiếp thị",
+      "intro": "Trung tâm báo cáo: báo cáo gần đây, báo cáo của bạn, mẫu báo cáo và lịch gửi tự động — tất cả ở một nơi.",
+      "steps": {
+        "tabs": {
+          "title": "Chuyển giữa các mục",
+          "body": "Di chuyển giữa báo cáo gần đây, báo cáo của bạn, template có sẵn và lịch chạy tự động."
+        },
+        "search": {
+          "title": "Tìm báo cáo",
+          "body": "Tìm bất kỳ báo cáo nào theo tên thay vì cuộn danh sách."
+        },
+        "data-source": {
+          "title": "Chọn nguồn dữ liệu",
+          "body": "Chọn tài khoản đã kết nối nào sẽ cấp dữ liệu cho báo cáo trước khi tạo."
+        }
+      }
+    },
+    "community": {
+      "title": "Cộng đồng",
+      "intro": "Prompt, skill, dịch vụ quản lý toàn phần và model do cộng đồng Cluega chia sẻ — sẵn sàng dùng trong không gian của bạn.",
+      "steps": {
+        "tabs": {
+          "title": "Khám phá các danh mục",
+          "body": "Chuyển giữa prompt cộng đồng, skill, dịch vụ managed và model."
+        },
+        "content": {
+          "title": "Dùng thứ bạn tìm thấy",
+          "body": "Mở bất kỳ mục nào để xem chi tiết và thêm vào không gian làm việc của bạn."
+        }
+      }
+    },
+    "insights": {
+      "title": "Phân tích",
+      "intro": "Trí tuệ thị trường và creative: ad asset hiệu quả, xu hướng và đề xuất phù hợp với tài khoản của bạn.",
+      "steps": {
+        "search": {
+          "title": "Tìm kiếm thị trường",
+          "body": "Tra cứu thương hiệu, sản phẩm hoặc từ khóa để tìm ad asset và insight liên quan."
+        },
+        "filters": {
+          "title": "Thu hẹp theo thị trường",
+          "body": "Lọc theo quốc gia và nhãn để tập trung vào thị trường và phân khúc bạn kinh doanh."
+        },
+        "tabs": {
+          "title": "Chuyển loại insight",
+          "body": "Mỗi tab là một góc nhìn khác nhau — đề xuất, asset và hơn thế nữa."
+        },
+        "platform-filters": {
+          "title": "Tập trung vào một nền tảng",
+          "body": "Giới hạn kết quả theo nền tảng quảng cáo bạn đang nghiên cứu."
+        }
+      }
+    },
+    "knowledge": {
+      "title": "Cơ sở tri thức",
+      "intro": "Những thông tin đáng tin cậy để Cluega dựa vào khi trả lời, thay vì suy đoán.",
+      "steps": {
+        "intro": {
+          "title": "Ở đây chứa gì",
+          "body": "Bất cứ thứ gì bạn muốn Cluega trả lời dựa trên đó: tài liệu, bảng tính, hình ảnh, liên kết, hoặc ghi chú bạn tự viết. Mỗi nguồn được xử lý thành tri thức tìm kiếm được và hiển thị trạng thái riêng trong lúc đó."
+        },
+        "add": {
+          "title": "Thêm tri thức",
+          "body": "Một nút cho tất cả. Chọn tệp, dán liên kết, hoặc viết văn bản hay Markdown — thêm một nguồn hoặc nhiều nguồn cùng lúc, rồi thêm tất cả cùng nhau."
+        }
+      }
+    },
+    "knowledge-base": {
+      "title": "Thư viện",
+      "intro": "Kho tệp của workspace: mọi thứ bạn tải lên và phần lớn thứ một lượt chạy tạo ra, lọc theo loại và được phân tích để bạn tìm theo ý nghĩa.",
+      "steps": {
+        "filters": {
+          "title": "Lọc theo loại",
+          "body": "Bảy chip: Tất cả, Thiết kế, Video, Bảng tính quảng cáo, Tài liệu, Sản phẩm và Kịch bản. Bạn cũng lọc được theo trạng thái phân tích, hoặc chỉ giữ mục yêu thích — dù không phải loại nào cũng có mục yêu thích."
+        },
+        "upload": {
+          "title": "Tải tệp lên",
+          "body": "Hình ảnh, video và âm thanh, cùng với văn bản và bảng tính — PDF, Word, Excel, CSV, text và Markdown. Cluega phân tích từng tệp để bạn tìm theo ý nghĩa thay vì theo tên tệp."
+        },
+        "toggle-panel": {
+          "title": "Mở panel bên",
+          "body": "Panel bên hiển thị báo cáo phân tích của mục bạn chọn — insight, transcript và tag."
+        }
+      }
+    },
+    "flow": {
+      "title": "Dự án Workflow",
+      "intro": "Dự án workflow trực quan cho sản xuất creative — sắp xếp, tìm kiếm và quay lại bất kỳ canvas nào.",
+      "steps": {
+        "toolbar": {
+          "title": "Tìm kiếm và sắp xếp",
+          "body": "Tìm dự án theo tên, sắp xếp và chuyển giữa dạng lưới với danh sách."
+        },
+        "create-new": {
+          "title": "Tạo dự án mới",
+          "body": "Bắt đầu canvas workflow mới từ đây. Mỗi dự án có kho asset và lịch sử phiên bản riêng."
+        },
+        "projects": {
+          "title": "Mở một dự án",
+          "body": "Bấm vào dự án để mở canvas. Dùng menu trên thẻ để đổi tên, nhân bản hoặc xóa."
+        }
+      }
+    },
+    "flow-home": {
+      "title": "Trang chủ Flow",
+      "intro": "Trang Home mới giúp bạn bắt đầu từ project trống hoặc kỹ thuật có sẵn, rồi mở rộng thành workflow sáng tạo có thể tái sử dụng.",
+      "completedCta": "Tạo dự án mới",
+      "steps": {
+        "workspace-switcher": {
+          "title": "Kiểm tra workspace hiện tại",
+          "body": "Tên workspace và số thành viên nằm ở đầu sidebar. Nếu bạn thuộc nhiều workspace, mở menu này để chuyển đúng nơi trước khi tạo hoặc mở project."
+        },
+        "sidebar-create": {
+          "title": "Tạo nhanh từ sidebar",
+          "body": "Nút Create ở sidebar tạo project mới và mở thẳng canvas, dù bạn đang đứng ở Home, Projects hay Techniques."
+        },
+        "sidebar-main-nav": {
+          "title": "Điều hướng các khu chính",
+          "body": "Home là màn bắt đầu, Projects chứa toàn bộ workflow, Techniques là thư viện kỹ thuật, Usage Analytics theo dõi mức dùng. Community đang bị vô hiệu hóa cho tới khi sẵn sàng."
+        },
+        "sidebar-favorites": {
+          "title": "Theo dõi mục yêu thích",
+          "body": "Favorites gom các project bạn đã đánh dấu sao. Khi chưa có mục nào, sidebar hiển thị trạng thái trống để bạn biết danh sách chưa có dữ liệu."
+        },
+        "sidebar-recent": {
+          "title": "Quay lại project gần đây",
+          "body": "Recent Projects hiển thị các workflow bạn mở hoặc chỉnh sửa gần đây nhất, giúp quay lại canvas đang làm dở nhanh hơn."
+        },
+        "sidebar-workspace": {
+          "title": "Mở toàn bộ workspace",
+          "body": "All Workspace đưa bạn về danh sách đầy đủ trong workspace hiện tại, hữu ích sau khi lọc Favorites hoặc đang xem một nhóm nhỏ."
+        },
+        "sidebar-footer": {
+          "title": "Nâng cấp, cài đặt và trợ giúp",
+          "body": "Phần cuối sidebar cho biết credit còn lại, mở Billing khi cần nâng cấp, và có nút Settings cùng Help để chỉnh cấu hình hoặc xem lại hướng dẫn."
+        },
+        "create-new": {
+          "title": "Tạo project mới",
+          "body": "Nút này mở canvas workflow mới. Dùng khi bạn muốn tự xây dựng quy trình sáng tạo từ đầu."
+        },
+        "techniques": {
+          "title": "Khám phá kỹ thuật",
+          "body": "Khu này hiển thị các kỹ thuật workflow được tuyển chọn. Chọn một kỹ thuật để tạo project đã có sẵn cấu trúc thay vì bắt đầu từ canvas trống."
+        },
+        "techniques-search": {
+          "title": "Tìm kỹ thuật nhanh",
+          "body": "Gõ từ khóa để lọc danh sách kỹ thuật ngay trên trang Home."
+        },
+        "view-all-techniques": {
+          "title": "Mở toàn bộ thư viện",
+          "body": "Nút này chuyển sang trang Techniques để xem thêm danh mục, kết quả và kỹ thuật không xuất hiện trên Home."
+        },
+        "technique-gallery": {
+          "title": "Dùng một kỹ thuật",
+          "body": "Mỗi thẻ kỹ thuật có thể tạo project workflow mới. Khi chưa có kỹ thuật nào được xuất bản, khu này sẽ hiển thị trạng thái trống."
+        }
+      }
+    },
+    "flow-templates": {
+      "title": "Kỹ thuật",
+      "intro": "Thư viện các kỹ thuật sáng tạo dùng lại được — mở một kỹ thuật là có ngay dự án đã nối sẵn, thay vì dựng từ canvas trắng.",
+      "steps": {
+        "tabs": {
+          "title": "Chọn thư viện",
+          "body": "Cộng đồng là tất cả những gì Cluega và người dùng khác đã công bố. Mạng xã hội lấy video đang thịnh hành; Không gian làm việc và Kỹ thuật của tôi giữ phần của nhóm bạn và của riêng bạn; Yêu thích giữ những gì bạn đã đánh dấu."
+        },
+        "search": {
+          "title": "Tìm kỹ thuật",
+          "body": "Gõ để thu hẹp tab Cộng đồng theo tên, mô tả hoặc tác giả. Nó lọc trên các chủ đề đã tải, nên kết quả trống là kết quả thật chứ không phải lỗi."
+        },
+        "gallery": {
+          "title": "Dùng một kỹ thuật",
+          "body": "Các hàng Nổi bật nằm trên, phần còn lại xếp theo chủ đề bên dưới. Mỗi thẻ là một workflow hoàn chỉnh — mở nó sẽ tạo dự án từ đó, đã nối sẵn, nên bạn chỉnh sửa thay vì bắt đầu từ con số không."
+        }
+      }
+    },
+    "workflow-canvas": {
+      "title": "Canvas Workflow",
+      "intro": "Canvas là nơi bạn xây dựng: nối các node hình ảnh, video và văn bản, rồi chạy flow để tạo creative.",
+      "steps": {
+        "project-header": {
+          "title": "Đặt tên và lưu workflow",
+          "body": "Tên, trạng thái tự động lưu và menu dự án nằm ở đây, giúp bạn luôn biết mình đang chỉnh workflow nào."
+        },
+        "nodes-rail": {
+          "title": "Thêm node workflow",
+          "body": "Nút + mở bảng node — các khối hình ảnh, video, văn bản và tiện ích. Chọn một khối và nó sẽ xuất hiện trên canvas."
+        },
+        "assets-rail": {
+          "title": "Dùng asset của bạn",
+          "body": "Mở Assets để đưa media đã tải lên và các creative đã tạo trước đó vào workflow này."
+        },
+        "canvas": {
+          "title": "Xây dựng trên canvas",
+          "body": "Kéo node từ thanh bên, nối chúng thành flow và chạy. Nhấp đúp vào node để chỉnh cài đặt."
+        },
+        "tools": {
+          "title": "Chọn công cụ, hoàn tác thay đổi",
+          "body": "Chuyển giữa công cụ chọn và công cụ kéo canvas ở đây, và lùi lại hoặc làm lại thay đổi bạn vừa thực hiện."
+        },
+        "flow-toolbar": {
+          "title": "Căn khung và sắp xếp flow",
+          "body": "Đưa toàn bộ graph vào lại khung nhìn, hoặc để trình biên tập tự sắp xếp các node khi workflow lớn dần."
+        },
+        "policy": {
+          "title": "Kiểm tra chính sách nội dung",
+          "body": "Xem các quy tắc nội dung mà creative của bạn phải tuân thủ trước khi xuất bản."
+        },
+        "shortcuts": {
+          "title": "Xem các phím tắt",
+          "body": "Mở bảng phím tắt để chọn, nhân bản, thu phóng và di chuyển canvas mà không cần rời bàn phím."
+        },
+        "runs": {
+          "title": "Theo dõi các lượt chạy",
+          "body": "Khay lượt chạy liệt kê mọi lần tạo mà dự án này đã khởi động kèm tiến độ, và đưa bạn về đúng node đã tạo ra nó."
+        },
+        "share": {
+          "title": "Chia sẻ và quản lý quyền truy cập",
+          "body": "Chia sẻ workflow với cộng tác viên, rồi dùng menu hồ sơ cho cài đặt tài khoản và workspace."
+        }
+      }
+    },
+    "account-view-ad-plan": {
+      "title": "Kế hoạch QC",
+      "intro": "Soạn kế hoạch chiến dịch — ngân sách, lịch chạy, trạng thái duyệt — trước khi chạy thật.",
+      "steps": {
+        "create-plan": {
+          "title": "Tạo kế hoạch mới",
+          "body": "Đưa ngân sách và mục tiêu, Cluega soạn sẵn kế hoạch để bạn duyệt."
+        },
+        "plans-table": {
+          "title": "Theo dõi mọi kế hoạch",
+          "body": "Ngân sách, thời gian chạy và trạng thái duyệt của từng kế hoạch. Mở một dòng để xem chi tiết."
+        }
+      }
+    },
+    "marketing-reports-my-reports": {
+      "title": "Báo cáo của tôi",
+      "intro": "Toàn bộ báo cáo bạn tạo hoặc sở hữu, kèm loại, nguồn dữ liệu và lần mở gần nhất.",
+      "steps": {
+        "list": {
+          "title": "Danh sách báo cáo",
+          "body": "Mỗi dòng là một báo cáo của bạn — bấm vào để mở bản đầy đủ."
+        },
+        "search": {
+          "title": "Tìm nhanh",
+          "body": "Tìm theo tên khi danh sách đã dài."
+        }
+      }
+    },
+    "marketing-reports-templates": {
+      "title": "Mẫu báo cáo",
+      "intro": "Bố cục báo cáo dựng sẵn, bắt đầu từ một khung thay vì trang trắng.",
+      "steps": {
+        "gallery": {
+          "title": "Chọn điểm khởi đầu",
+          "body": "Mỗi thẻ là một bố cục kèm loại báo cáo và mức độ được dùng. Bấm vào để dựng từ mẫu đó."
+        }
+      }
+    },
+    "marketing-reports-schedule": {
+      "title": "Lịch",
+      "intro": "Báo cáo tự chạy và gửi tới các kênh bạn chọn.",
+      "steps": {
+        "table": {
+          "title": "Chạy cái gì, khi nào",
+          "body": "Tần suất, kênh gửi và lần chạy kế tiếp của từng báo cáo theo lịch."
+        },
+        "toggle": {
+          "title": "Tạm dừng mà không xoá",
+          "body": "Tắt lịch để ngừng gửi; báo cáo và thiết lập vẫn được giữ nguyên."
+        }
+      }
+    },
+    "community-skills": {
+      "title": "Kỹ năng cộng đồng",
+      "intro": "Các kỹ năng đóng gói sẵn, thêm vào workspace là Cluega AI dùng được.",
+      "steps": {
+        "toolbar": {
+          "title": "Tìm đúng kỹ năng",
+          "body": "Tìm theo tên, hoặc lọc riêng kỹ năng của bạn và kỹ năng chính thức."
+        },
+        "add": {
+          "title": "Thêm kỹ năng của bạn",
+          "body": "Tạo kỹ năng cùng Cluega, tải file lên hoặc nhập từ GitHub."
+        }
+      }
+    },
+    "community-managed": {
+      "title": "Quản lý toàn phần",
+      "intro": "Dịch vụ vận hành trọn gói, dành cho phần việc bạn muốn giao lại thay vì tự làm.",
+      "steps": {
+        "filters": {
+          "title": "Thu hẹp danh sách",
+          "body": "Lọc theo nền tảng và theo nhóm để chỉ xem phần liên quan tới bạn."
+        },
+        "list": {
+          "title": "Bao gồm những gì",
+          "body": "Mỗi thẻ nêu phạm vi của một dịch vụ và cách bắt đầu."
+        }
+      }
+    },
+    "community-models": {
+      "title": "Xếp hạng mô hình AI",
+      "intro": "So sánh các mô hình đang có để chọn mô hình hợp việc và hợp ngân sách.",
+      "steps": {
+        "chart": {
+          "title": "Mức dùng theo thời gian",
+          "body": "Cộng đồng đang chạy mô hình nào và xu hướng đang dịch chuyển ra sao."
+        },
+        "ranking": {
+          "title": "Bảng xếp hạng",
+          "body": "Xếp theo mức sử dụng, kèm thay đổi so với tuần trước của từng mô hình."
+        }
+      }
+    },
+    "insights-creators": {
+      "title": "Creator",
+      "intro": "Vẫn công cụ tìm kiếm thị trường đó nhưng hướng vào con người — tìm creator để hợp tác.",
+      "steps": {
+        "search": {
+          "title": "Tìm creator",
+          "body": "Mô tả ngách hoặc tệp khán giả bạn nhắm tới; kết quả cập nhật khi bạn gõ."
+        },
+        "filters": {
+          "title": "Lọc theo thị trường",
+          "body": "Quốc gia và nhóm nội dung giúp thu gọn về đúng creator ở nơi bạn bán."
+        },
+        "grid": {
+          "title": "Mở hồ sơ",
+          "body": "Mỗi thẻ cho thấy độ phủ và nội dung gần đây. Mở một thẻ để xem hồ sơ đầy đủ."
+        }
+      }
+    },
+    "flow-templates-social": {
+      "title": "Xu hướng mạng xã hội",
+      "intro": "Quảng cáo TikTok đang thịnh hành từ module insight của Cluega — duyệt qua, rồi bắt đầu một workflow từ quảng cáo bạn muốn dựa vào.",
+      "steps": {
+        "tabs": {
+          "title": "Chuyển kệ thư viện",
+          "body": "\"Cộng đồng\" chứa các kỹ thuật được tuyển chọn; kệ này chứa quảng cáo thật. \"Không gian làm việc\", \"Kỹ thuật của tôi\" và \"Yêu thích\" sẽ đầy dần khi nhóm bạn đăng và đánh dấu sao."
+        },
+        "filters": {
+          "title": "Thu hẹp danh sách quảng cáo",
+          "body": "Tìm theo từ khóa, hoặc lọc theo ngành và khu vực, để tới đúng nhóm quảng cáo giống thị trường bạn đang bán."
+        },
+        "grid": {
+          "title": "Bắt đầu từ một quảng cáo",
+          "body": "Mở một thẻ để xem đầy đủ, hoặc dùng nó để tạo một dự án workflow mới lấy video đó làm điểm khởi đầu."
+        }
+      }
+    },
+    "flow-insights": {
+      "title": "Insights",
+      "intro": "Quảng cáo TikTok đang thịnh hành từ mô-đun Insight của Cluega — duyệt qua rồi bắt đầu workflow từ video bạn muốn phát triển.",
+      "steps": {
+        "filters": {
+          "title": "Thu hẹp danh sách",
+          "body": "Tìm theo từ khóa, hoặc lọc theo ngành hàng và khu vực, để đến đúng nhóm quảng cáo giống thị trường bạn đang bán."
+        },
+        "grid": {
+          "title": "Bắt đầu từ một quảng cáo",
+          "body": "Mở một thẻ để xem trọn video, hoặc dùng nó để tạo dự án workflow mới được gieo sẵn nội dung từ video đó."
+        }
+      }
+    },
+    "flow-templates-empty": {
+      "title": "Các kệ của riêng bạn",
+      "intro": "\"Không gian làm việc\", \"Kỹ thuật của tôi\" và \"Yêu thích\" là của bạn — chúng trống cho tới khi có thứ gì đó được chia sẻ, đăng lên hoặc đánh dấu sao.",
+      "steps": {
+        "tabs": {
+          "title": "Chuyển kệ thư viện",
+          "body": "\"Cộng đồng\" và \"Mạng xã hội\" đã có sẵn để duyệt. Ba kệ này là phần bạn và nhóm tự xây dựng."
+        },
+        "empty": {
+          "title": "Thứ gì sẽ xuất hiện ở đây",
+          "body": "Dòng thông báo trên kệ này cho biết nó thu thập gì và làm sao để một mục lọt vào. Nó tự đầy lên — không phải thiết lập gì cả."
+        }
+      }
+    },
+    "flow-trends": {
+      "title": "Thư viện xu hướng",
+      "intro": "Các template đã lưu, nhóm theo thứ chúng tạo ra — video ở Video Trends, hình ảnh ở Image Trends. Mở một thẻ để chạy trên sản phẩm của bạn.",
+      "steps": {
+        "search": {
+          "title": "Tìm theo tên",
+          "body": "Nhập tên sản phẩm hoặc tên template để thu hẹp thư viện. Hệ thống tìm trên mọi ngôn ngữ template được soạn, không chỉ ngôn ngữ đang hiển thị."
+        },
+        "industry": {
+          "title": "Lọc theo ngành",
+          "body": "Chọn một hoặc nhiều ngành. Template xuất hiện khi phục vụ bất kỳ ngành nào đã chọn, và chọn ngành cha sẽ lấy luôn các ngành con."
+        },
+        "gallery": {
+          "title": "Bắt đầu từ một xu hướng",
+          "body": "Mỗi thẻ là một template đã lưu. Mở thẻ để điền dữ liệu của bạn và chạy."
+        }
+      }
+    }
+  }
+}

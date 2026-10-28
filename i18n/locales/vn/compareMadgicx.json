@@ -1,0 +1,274 @@
+{
+  "compareMadgicx": {
+    "meta": {
+      "title": "Cluega AI vs Madgicx | Cluega",
+      "description": "Cluega AI tích hợp thư viện quảng cáo toàn cầu của TikTok và Meta, tự động phát hiện động thái đối thủ liên tục, dùng 400+ mô hình để sinh trực tiếp hình ảnh và video ngắn — và mỗi creative hay dở do đơn chốt private thật kiểm chứng."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. MADGICX",
+      "title": "Creative không nên chỉ là biến thể của quảng cáo cũ, mà là ngữ nghĩa thương mại biết bán hàng",
+      "subtitle": "Madgicx cung cấp thư viện quảng cáo Meta để bạn tìm kiếm và lưu lại, creative được sinh dưới dạng biến thể dựa trên quảng cáo có sẵn và tư liệu trong thư viện, chủ yếu là ảnh tĩnh; Cluega AI tích hợp thư viện quảng cáo toàn cầu của TikTok và Meta, tự động phát hiện động thái đối thủ liên tục, đọc hiểu điểm bán của sản phẩm, giai đoạn của tệp đối tượng và ngữ cảnh bản địa, dùng 400+ mô hình để sinh trực tiếp hình ảnh và video ngắn — và mỗi creative hay dở do đơn chốt private thật kiểm chứng.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo",
+      "cluegaLabel": "Cluega AI",
+      "pancakeLabel": "Madgicx",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Madgicx vs Cluega AI",
+      "colDimension": "Tiêu chí so sánh",
+      "colPancake": "Madgicx",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "Khác biệt định vị",
+          "pancake": "Công cụ tối ưu AI và phân tích creative cho tài khoản quảng cáo Meta",
+          "cluega": "Hạ tầng marketing AI cho đội thương hiệu: hợp nhất sinh creative, chạy quảng cáo và quy kết"
+        },
+        {
+          "dimension": "Nền tảng hỗ trợ",
+          "pancake": "Quản lý chạy quảng cáo chỉ có Meta (FB／IG); Google／TikTok chỉ tích hợp báo cáo",
+          "cluega": "Chạy quảng cáo Meta／Google／TikTok + hệ sinh thái thương mại điện tử TikTok Shop／Amazon／Shopify + quy kết private IM"
+        },
+        {
+          "dimension": "Logic sinh creative",
+          "pancake": "Sinh biến thể dựa trên quảng cáo có sẵn, trang sản phẩm và tư liệu thư viện quảng cáo, chủ yếu là ảnh tĩnh",
+          "cluega": "Sinh theo ngữ nghĩa thương mại: hiểu điểm bán, tệp đối tượng và giai đoạn phễu, sinh hình ảnh và video ngắn từ đầu"
+        },
+        {
+          "dimension": "Insight đối thủ",
+          "pancake": "Thư viện quảng cáo Meta cho phép tìm nhà quảng cáo, lọc theo ngành／định dạng và lưu vào Board; thuộc dạng nghiên cứu duyệt thủ công; không có giám sát liên tục tự động và sinh insight, và không bao gồm TikTok",
+          "cluega": "Tích hợp thư viện quảng cáo toàn cầu TikTok／Meta, tự động phát hiện liên tục creative, cách kể chuyện và động thái chạy quảng cáo của đối thủ; insight vào thẳng luồng sinh nội dung"
+        },
+        {
+          "dimension": "Mô hình khả dụng",
+          "pancake": "AI Ad Generator nội bộ (một đường ống đóng duy nhất)",
+          "cluega": "FLUX・Imagen・Midjourney・Kling・Veo・Sora… 400+ mô hình, Auto routing"
+        },
+        {
+          "dimension": "Căn cứ kiểm chứng creative",
+          "pancake": "Nhãn hiệu suất creative trong quá khứ (Creative Insights theo chiều CTR／chi tiêu)",
+          "cluega": "Ngữ nghĩa × quy kết: creative gắn trực tiếp với dữ liệu chốt đơn private, biết câu điểm bán nào thực sự ra đơn"
+        },
+        {
+          "dimension": "Năng lực video",
+          "pancake": "Hạn chế; dịch vụ thiết kế bởi người (Sparkle) phải thuê riêng",
+          "cluega": "Quản lý toàn phần: mỗi $1,000 chi tiêu quảng cáo bao gồm khoảng 3 video ngắn + 30 ảnh, vượt hạn mức tính theo giá gốc"
+        },
+        {
+          "dimension": "Ngưỡng khởi điểm",
+          "pancake": "Pro Complete phân hạng theo chi tiêu quảng cáo Meta: bậc thấp nhất $99／tháng, đến bậc chi tiêu $20–30K khoảng $329／tháng; trả theo quý／năm rẻ hơn khoảng 20–30%, tính năng Tracking Pro mua thêm",
+          "cluega": "Từ $12／tuần dùng thử; $99／tháng gói Pro; ở chế độ quản lý toàn phần, sản lượng creative nằm trong phần ăn chia"
+        },
+        {
+          "dimension": "Tình huống phù hợp nhất",
+          "pancake": "Kiểm tra sức khoẻ tài khoản và phân tích hiệu suất creative trên riêng nền tảng Meta",
+          "cluega": "Đội thương hiệu sản xuất ở quy mô lớn creative thương mại đa nền tảng, đa ngôn ngữ và được đơn chốt kiểm chứng"
+        }
+      ],
+      "footnote": "＊Thông tin đối thủ được tổng hợp từ website chính thức và dữ liệu công khai của bên thứ ba (đối chiếu 2026-07), thực tế lấy công bố chính thức của họ làm chuẩn.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Vì sao các đội thương hiệu chuyển từ Madgicx sang Cluega AI?",
+      "items": [
+        {
+          "title": "Ngữ nghĩa thương mại, không phải biến thể creative",
+          "body": "Trần của việc sinh biến thể chính là thư viện creative của bạn ngày hôm qua. Cluega AI khởi đi từ ngữ nghĩa thương mại: điểm bán cốt lõi của sản phẩm này là gì, tệp đối tượng này đang ở tầng nào của phễu, mỗi thị trường ăn cách kể chuyện nào — rồi mới quyết định khung hình và kịch bản. Sản phẩm đầu ra không phải bức ảnh “trông giống hàng viral”, mà là creative “nói đúng nỗi đau”."
+        },
+        {
+          "title": "Tra được creative đối thủ, và tự hiểu thị trường đang chuyển hướng",
+          "body": "Thư viện quảng cáo Meta của Madgicx thực sự cho tìm nhà quảng cáo, lưu lại creative bạn thích — nhưng đó là duyệt thủ công: bạn phải tự đi tra, tự phán đoán cách kể chuyện nào đang được scale, và chỉ thấy được Meta. Cluega AI tích hợp thư viện quảng cáo toàn cầu của TikTok và Meta, liên tục tự quét các đối thủ và ngành hàng bạn chỉ định: creative mới lên sóng, góc kể chuyện thay đổi, cường độ chạy tăng giảm đều được tự phát hiện thành insight và đưa thẳng vào việc sinh nội dung theo ngữ nghĩa thương mại — khác biệt không nằm ở chỗ có thư viện quảng cáo hay không, mà ở chỗ insight có cần bạn tự đi ngồi canh hay không."
+        },
+        {
+          "title": "Creative hay dở, để đơn chốt lên tiếng",
+          "body": "Creative có CTR cao chưa chắc ra đơn. Cluega nối quy kết private IM xuống tới mức từng creative: creative nào mang về hội thoại tiến đến để lại thông tin, đặt hàng, thanh toán — theo được suốt cả đường. Lần đầu tiên đội thương hiệu có thể dùng “đơn chốt” thay vì “click” để lặp lại chiến lược creative."
+        },
+        {
+          "title": "Vòng khép kín trọn vẹn từ creative đến chạy quảng cáo",
+          "body": "Sau khi Madgicx tạo ra creative, việc lên sóng, test và lặp vẫn phải nhờ người. Quản lý toàn phần L4 của Cluega AI (cấp AI chạy quảng cáo tự chủ) nối sinh creative, lên sóng, phân bổ ngân sách và loại thải thành một đường liền; phân hạng AAIGS quyết định quyền tự chủ của AI, dữ liệu hiệu suất tự chảy về vòng sinh nội dung tiếp theo."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          {
+            "type": "field",
+            "label": "ID tài khoản quảng cáo",
+            "value": "7535737911069753842"
+          },
+          {
+            "type": "field",
+            "label": "Tên quảng cáo",
+            "value": "0609-Quảng cáo tin nhắn-EcoSip"
+          },
+          {
+            "type": "field",
+            "label": "ID quảng cáo",
+            "value": "1866940736964473"
+          },
+          {
+            "type": "field",
+            "label": "ID nội dung",
+            "value": "1867515992671681"
+          },
+          {
+            "type": "preview",
+            "label": "Xem trước nội dung",
+            "brand": "EcoSip",
+            "value": "Video quảng bá bình giữ nhiệt"
+          },
+          {
+            "type": "field",
+            "label": "ID tài khoản mạng xã hội",
+            "value": "EcoSip"
+          }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Thời gian tạo",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Tổng sự kiện",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Chi phí chốt đơn trung bình",
+        "legend": "Tất cả"
+      },
+      "identity": {
+        "keyword": "Số điện thoại",
+        "lead": "Lead giá trị cao"
+      },
+      "billing": {
+        "steps": [
+          "Khách lần đầu hỏi về sản phẩm",
+          "AI nhận diện nhu cầu, tương tác liên tục",
+          "AI đưa ra giải pháp tuỳ chỉnh"
+        ],
+        "success": "Chuyển đổi thành công: Lead hợp lệ",
+        "outcome": "Đạt Outcome: tính phí $0.99"
+      },
+      "monitor": {
+        "threadName": "Cluega",
+        "close": "Đóng",
+        "source": "Giám sát tự động · TikTok / Meta / IG",
+        "when": "Hôm nay 10:11",
+        "active": "Đang giám sát",
+        "analyzing": "Đang phân tích"
+      },
+      "creativeTracking": {
+        "header": "Theo dõi hiệu quả creative",
+        "rows": [
+          {
+            "name": "Tinh chất chống lão hoá_Video ngắn_So sánh nỗi đau",
+            "metric": "Dẫn tới tư vấn",
+            "value": "128",
+            "unit": "lần"
+          },
+          {
+            "name": "Vitamin C sáng／Retinol tối_Ảnh bài_Phân tích thành phần",
+            "metric": "Tạo đơn hàng",
+            "value": "86",
+            "unit": "đơn"
+          },
+          {
+            "name": "Kem phục hồi_KOL trải nghiệm_Combo giới hạn",
+            "metric": "Thanh toán chốt đơn",
+            "value": "45",
+            "unit": "đơn"
+          }
+        ]
+      },
+      "hostingLog": {
+        "headerTitle": "Nhật ký ủy thác Cluega",
+        "entries": {
+          "budgetPlan": {
+            "action": "đã lập kế hoạch ngân sách quảng cáo",
+            "text": "Dựa trên ROAS 7 ngày gần đây, đề xuất giảm ngân sách Meta 12% và tăng Google 18%."
+          },
+          "optimization": {
+            "action": "đã tạo đề xuất tối ưu",
+            "text": "Với 3 nhóm quảng cáo kém hiệu quả, đề xuất tạm dừng và phân bổ lại ngân sách sang nhóm ROAS cao."
+          },
+          "manualBid": {
+            "action": "đã điều chỉnh chiến lược đặt giá thủ công",
+            "text": "Tăng giá thầu mỗi chuyển đổi của nhóm quảng cáo “Khuyến mãi mùa xuân – Chuyển đổi” từ $8 lên $12."
+          }
+        }
+      }
+    },
+    "highlights": {
+      "eyebrow": "MULTI-CHANNEL AGENTIC SYSTEM",
+      "title": "Không chỉ tối ưu quảng cáo có sẵn, mà cho thương hiệu một vòng khép kín “creative → chạy quảng cáo → quy kết”",
+      "items": [
+        {
+          "title": "Engine ngữ nghĩa thương mại",
+          "body": "Sinh nội dung dựa trên điểm bán, tệp đối tượng, giai đoạn phễu và ngữ cảnh của từng thị trường; hỗ trợ creative thương mại đa ngôn ngữ, phủ thị trường toàn cầu."
+        },
+        {
+          "title": "Insight đối thủ toàn cầu",
+          "body": "Tích hợp thư viện quảng cáo TikTok／Meta, tự phát hiện creative và động thái chạy quảng cáo của đối thủ, insight dẫn dắt trực tiếp vòng sinh nội dung tiếp theo."
+        },
+        {
+          "title": "Bao gồm 400+ mô hình",
+          "body": "Các mô hình hình ảnh và video phổ biến dùng được ngay (FLUX・Kling・Veo…), Auto routing tự chọn phương án tối ưu chi phí; ở chế độ quản lý toàn phần, mỗi $1,000 chi tiêu quảng cáo bao gồm khoảng 3 video ngắn + 30 ảnh."
+        },
+        {
+          "title": "Quy kết private IM",
+          "body": "Hiệu quả creative truy tới tầng chốt đơn private — video nào mang về hội thoại thực sự trả tiền, thấy rõ trong một cái nhìn; ở quản lý toàn phần L4, sản lượng creative nằm trong phần ăn chia và tự lặp."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Tôi nên chọn giải pháp nào?",
+      "pancake": {
+        "label": "Chọn Madgicx",
+        "body": "Bạn chỉ chạy Meta, ngân sách tập trung một nền tảng, cần kiểm tra sức khoẻ tài khoản tự động, phân tích hiệu suất creative, nghiên cứu creative thủ công trong thư viện quảng cáo Meta và tạo biến thể nhanh từ creative có sẵn; đội của bạn đã có năng lực sản xuất creative ổn định."
+      },
+      "cluega": {
+        "label": "Chọn Cluega AI",
+        "body": "Bạn muốn sinh creative thương mại đa nền tảng, đa ngôn ngữ ở quy mô lớn, muốn creative được dữ liệu chốt đơn thật kiểm chứng và lặp lại, đồng thời gắn “năng lực sản xuất creative” trực tiếp vào ngân sách quảng cáo thay vì thuê thêm một đội thiết kế."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả chi tiết bạn có thể muốn biết trước khi liên hệ đội ngũ của chúng tôi.",
+      "contact": "Liên hệ kinh doanh",
+      "items": [
+        {
+          "q": "Creative theo ngữ nghĩa thương mại khác gì AI sinh ảnh thông thường?",
+          "a": "AI sinh ảnh thông thường trả lời “vẽ gì”; creative theo ngữ nghĩa thương mại trả lời trước “vì sao bán theo cách này” — điểm bán, giai đoạn của tệp đối tượng, ngữ cảnh bản địa đi trước, rồi mô hình mới sinh khung hình và kịch bản; và mỗi creative sau đó đều có thể dùng dữ liệu chốt đơn private để kiểm chứng giả thuyết ngữ nghĩa đó."
+        },
+        {
+          "q": "Có thể chỉ định dùng mô hình nào không?",
+          "a": "Được. Auto routing theo mặc định tự chọn mô hình tối ưu chi phí, bạn cũng có thể pin mô hình cụ thể (ví dụ Veo để ra video, FLUX để ra ảnh); credit được trừ theo giá gốc quy ngược, mô hình đắt tự trừ nhiều hơn, cấu trúc tính phí minh bạch."
+        },
+        {
+          "q": "Chi phí creative được tính thế nào?",
+          "a": "Chế độ self-serve tính theo credit (1 credit＝$0.001); ở chế độ quản lý toàn phần, creative nằm trong phần ăn chia — mỗi $1,000 chi tiêu quảng cáo được quản lý bao gồm hạn mức fair-use khoảng 3 video ngắn + 30 ảnh, phần vượt tính theo giá gốc, bình thường hoàn toàn không cảm nhận thấy."
+        },
+        {
+          "q": "Insight đối thủ hoạt động như thế nào?",
+          "a": "Cluega AI liên tục quét thư viện quảng cáo toàn cầu của TikTok và Meta, theo dõi các đối thủ và từ khoá ngành hàng bạn chỉ định: creative mới lên sóng, góc kể chuyện thay đổi, cường độ chạy tăng giảm đều được tự phát hiện và hình thành insight, dùng luôn làm đầu vào cho vòng sinh nội dung theo ngữ nghĩa thương mại tiếp theo — không cần người ngồi canh tra thư viện."
+        },
+        {
+          "q": "Chúng tôi đã có đội thiết kế, phối hợp thế nào?",
+          "a": "Cách làm phổ biến là để đội thiết kế định nghĩa ngữ nghĩa thương hiệu và biên giới bố cục, Cluega AI phụ trách sản xuất ở quy mô lớn và kiểm chứng qua việc chạy quảng cáo; những hướng cho kết quả tốt nhất sẽ được chuyển lại cho đội thiết kế tinh chỉnh — người và máy mỗi bên làm đúng nửa phần mình giỏi."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Dùng Cluega AI để mỗi creative đều ra sân với bằng chứng chốt đơn trong tay.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    }
+  }
+}

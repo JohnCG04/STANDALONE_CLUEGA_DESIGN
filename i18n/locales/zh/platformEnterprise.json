@@ -1,0 +1,206 @@
+{
+  "platformEnterprise": {
+    "hero": {
+      "eyebrowNew": "Enterprise",
+      "eyebrowLabel": "預約 Demo →",
+      "title": "專為大企業打造的專屬 AI 工作系統",
+      "sub1": "不是現成的 AI 工具 — 是完全了解你企業的智能夥伴。",
+      "sub2": "從企業知識庫到定制技能，每一個 AI 回應都與你的業務深度綁定。"
+    },
+    "heroMock": {
+      "project": "11.11 商店上線",
+      "taskTitle": "刷新 11.11 熱銷商品",
+      "activity": "活動記錄",
+      "workspace": "工作區",
+      "favorites": "我的最愛",
+      "sidebarMain": ["收件匣", "我的任務", "審核", "動態"],
+      "sidebarWorkspace": ["計劃", "專案", "更多"],
+      "favoriteItems": ["11.11 商店上線", "Agent 任務", "商品刷新", "營運洞察"],
+      "descBefore": "為 Shopee 與 TikTok Shop 上的前",
+      "descAfter": "準備更新的 11.11 素材與定價，然後推送草稿供審核，而非盲目上線。",
+      "act1": "Cluega 透過 Lark 代表 Audrey 建立了任務 · 2 分鐘前",
+      "act2": "Triage Intelligence 加上了 Promo 和 Shopee 標籤 · 2 分鐘前",
+      "act3": "由 Chloe 連接 Cluega · 已更改 12 個商品 · 草稿待你審核 · 2 分鐘前",
+      "act4": "Cluega 從「待辦」移至「進行中」· 剛剛",
+      "time4min": "4 分鐘前",
+      "timeJustNow": "剛剛",
+      "msgAudrey": "現在我們的 11.11 橫幅還顯示著上個月的價格…",
+      "msgChloe": "可以幫忙處理一下嗎？",
+      "statusInProgress": "進行中",
+      "priorityHigh": "高",
+      "metaConnected": "Chloe 將 Cluega 連接至",
+      "examining": "正在檢視商店目錄…",
+      "workedFor": "耗時 7 秒",
+      "pushedDraft": "已推送並開啟草稿。變更：",
+      "change1": "用 11.11 標題鉤子重寫 12 個標題",
+      "change2": "套用活動價格與標籤",
+      "changedFiles": "已更改 2 個文件",
+      "preview": "預覽",
+      "draftBadge": "草稿",
+      "updateStorefront": "更新 11.11 店面",
+      "inputPlaceholder": "告訴 Cluega 接下來做什麼…"
+    },
+    "intakeMock": {
+      "headerTitle": "Cluega",
+      "user1Name": "Adrian",
+      "user1Time": "10:31",
+      "user1Msg": "我們計劃在下個季度將 EcoSip 智能保溫杯推向歐洲市場。根據我們的企業專屬數據，核心產品定位和定價策略應該如何制定，才能完美符合我們的品牌規範？",
+      "botName": "Cluega",
+      "botTime": "10:32",
+      "retrieving": "🔍 正在檢索 EcoSip 企業知識庫...已讀取：[DOC-2026] EcoSip智能保溫杯產品手冊_EN.pdf、[BRAND-01] 全球品牌識別與視覺規範.pdf、[DATA-926] 歐洲真空保溫器皿市場數據報告2025",
+      "frameworkTitle": "【EcoSip 歐洲市場進入策略戰略框架】",
+      "point1": "🎯 核心產品定位：高端永續飲水科技 根據《全球品牌識別規範》(第14頁)，我們必須強調專利的雙層真空保溫技術與零塑料環保包裝，以精準吸引歐洲對環保高度重視的高端消費客群。",
+      "point2": "💰 定價策略： 市場數據顯示，歐洲中高端保溫杯的零售價介於 €45 至 €60 之間。為維持 EcoSip 的高端定位並確保市場競爭力，建議市場零售價（MSRP）定為 €49.99。",
+      "point3": "📋 合規性審查： 本產品所使用的所有材質，均已通過內部流程庫中所記錄的歐盟 LFGB 和 RoHS 雙重嚴格認證。",
+      "inputText": "請根據此框架，為歐洲市場發佈會擬定一份 B2B 國際新聞發佈稿。",
+      "col0Title": "All Documents",
+      "col1Title": "Technical & Brand",
+      "col2Title": "Market & Cases",
+      "col3Title": "Operations & SOP",
+      "cards": {
+        "DOC-2026": { "title": "EcoSip 智能保溫杯產品手冊", "tags": ["#產品規格", "#真空保溫技術"] },
+        "BRAND-01": { "title": "全球品牌識別與 VI 視覺應用規範 2026", "tags": ["#品牌調性", "#視覺識別"] },
+        "CERT-302": { "title": "歐盟合規認證證書檔案庫 (LFGB, RoHS, CE)", "tags": ["#合規審查", "#國際標準"] },
+        "DATA-926": { "title": "歐洲真空保溫器皿市場趨勢與競品數據報告 2025", "tags": ["#市場調研", "#競品分析"] },
+        "CASE-108": { "title": "北美市場進入策略（GTM）歷史成功案例研究", "tags": ["#全球戰略", "#案例復盤"] },
+        "DATA-188": { "title": "全球定價矩陣與邊際利潤精算分析表", "tags": ["#財務數據"] },
+        "SOP-148": { "title": "全球客戶成功與售後服務標準應對指南 (FAQ)", "tags": ["#客戶成功", "#SOP流程"] },
+        "OPS-640": { "title": "全球供應鏈管理與跨境物流對接操作協議", "tags": ["#跨境物流", "#內部流程"] }
+      }
+    },
+    "planMock": {
+      "panelTitle": "Skill",
+      "groups": {
+        "g1": {
+          "name": "核心業務自動化",
+          "children": ["CRM 經銷商線索自動串接", "客製化打樣與工廠排單 SOP", "海外 B2B 詢盤多語言回覆"]
+        },
+        "g2": {
+          "name": "智能報告與分析",
+          "children": ["自動生成全球市場報告", "大宗採購意向自動歸類"]
+        }
+      },
+      "rows": {
+        "r1": { "title": "經銷商大宗採購跟進", "seg1": "自動提取新線索", "seg2": "自動生成報價單" },
+        "r2": { "title": "行業市場報告生成", "seg1": "自動抓取市場數據", "seg2": "AI 洞察與圖表生成" },
+        "r3": { "title": "啟動客製打樣 SOP", "seg1": "解析 Logo ➔ 生成模擬圖 ➔ 工廠排單" }
+      },
+      "gaNode": "觸發：官網客製化申請"
+    },
+    "buildMock": {
+      "msg1": "收到上傳！正在自動識別文件格式與內容...",
+      "msg2pre": "上傳來源：",
+      "msg2folder": "EcoSip_資料夾",
+      "msg3": "🔍 正在背景解析並擷取核心文本：",
+      "msg4a": "成功解析多格式原始檔案 (API / 文本)",
+      "msg4b": "EcoSip_2026最新產品規格.pdf ｜ 市場競品分析.xlsx",
+      "msg5": "AI 已完成知識庫架構匹配...",
+      "thinking": "分析完畢，請選擇或新建文件夾進行存入...",
+      "pickerSearch": "請選擇存入的文件夾",
+      "folders": {
+        "f1": "產品技術與規格手冊",
+        "f2": "品牌識別與全球 VI 規範",
+        "f3": "全球市場情報與歷史案例",
+        "f4": "供應鏈與跨境物流操作協議",
+        "f5": "財務定價與利潤精算表",
+        "new": "新建文件夾"
+      }
+    },
+    "diffMock": {
+      "fileNote": "動態行業引擎",
+      "left": {
+        "comment9": "核心邏輯：自動偵測低庫存",
+        "comment15": "自動執行：向供應商補貨流程"
+      },
+      "right": {
+        "comment9": "核心邏輯：自動偵測高額交易風控",
+        "comment15": "自動執行：啟動身分驗證與合規流程"
+      }
+    },
+    "logoWordmarks": ["Salesforce", "HubSpot", "Meta Ads", "TikTok Ads", "Google Ads", "Lark"],
+    "intro": {
+      "lead": "通用 AI 不懂你的業務。",
+      "rest": "市面上的 AI 助手都在回答「通用問題」。當員工問起你公司的產品手冊、CRM 數據、投放策略時，它只能一臉茫然。"
+    },
+    "triad": {
+      "purpose": {
+        "title": "知識斷層",
+        "body": "AI 不知道你公司的產品、流程、歷史決策，每次都要重新解釋"
+      },
+      "agents": {
+        "title": "系統孤島",
+        "body": "CRM、廣告平台、財務系統各自為政，AI 無法打通數據"
+      },
+      "speed": {
+        "title": "重複低效",
+        "body": "相同的操作流程，員工每天重複執行，沒有自動化可言"
+      }
+    },
+    "blocks": {
+      "intake": {
+        "cta": "知識庫",
+        "title": "企業知識庫\n讓 AI 真正懂你的公司",
+        "body": "將企業所有知識統一存入 Cluega 企業知識庫——產品手冊、歷史案例、品牌規範、市場數據、內部流程……AI 在每次對話和執行任務前，都會優先讀取並理解這些企業專屬內容，確保輸出的每一個答案、每一份素材，都是有根據的、符合企業實際情況的有效信息。",
+        "sublinks": ["統一知識中心", "AI 優先學習", "持續更新同步"]
+      },
+      "plan": {
+        "cta": "定制 Skill",
+        "title": "企業定制 Skill\nAI 按你的方式工作",
+        "body": "每家企業的業務流程都不同。Cluega 的定制 Skill 系統，讓你可以根據自身需求，為 AI 裝配專屬能力——無論是串接你的 CRM 系統、自動生成行業報告，還是執行你公司特有的工作流程。這不是「配置一個工具」，而是為你的企業定制一位真正懂業務的 AI 執行者。",
+        "sublinks": ["CRM 數據串接", "廣告報告自動生成", "合同智能審核", "品牌素材批量生成", "客戶跟進自動提醒", "銷售預測與分析"]
+      },
+      "build": {
+        "cta": "運作原理",
+        "title": "三步到位\n讓 AI 成為企業級助手",
+        "body": "將你的文件、數據、流程、規範統一上傳至企業知識庫。支持 PDF、Word、Excel、網頁、API 對接等多種格式，原有的工作資料無需改動。",
+        "sublinks": ["導入企業知識", "配置定制技能", "AI 開始智能執行"]
+      },
+      "diffs": {
+        "cta": "適用場景",
+        "title": "企業定制\n適合這些場景",
+        "body": "無論你的行業規模多大、流程多複雜，Cluega 企業定制方案都可以從你現有的系統與數據出發，量身打造專屬 AI 解決方案。",
+        "sublinks": ["電商與零售", "廣告代理", "金融服務", "醫療健康", "製造業", "教育機構", "科技公司", "連鎖品牌"]
+      },
+      "monitor": {
+        "cta": "成果數據",
+        "title": "數字說話",
+        "body": "我們用可衡量的結果說話，讓每一分投入都看得見回報。",
+        "sublinks": ["85% 首次回應準確率", "3× 工作效率提升", "14年 數位行銷積累"]
+      }
+    },
+    "changelog": {
+      "title": "近期更新",
+      "viewAll": "查看全部更新",
+      "c1": {
+        "title": "企業知識庫支持 API 實時同步",
+        "body": "新增 API 對接能力，知識庫內容更新後即時生效，AI 始終掌握最新企業動態……"
+      },
+      "c2": {
+        "title": "Skill 市集新增六大企業技能",
+        "body": "從 CRM 數據串接到銷售預測分析，開箱即用的定制技能持續擴充，覆蓋更多業務場景……"
+      }
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "讓 AI 真正讀懂你的企業知識。",
+        "name": "企業知識庫",
+        "role": "與業務深度綁定"
+      },
+      "t2": {
+        "quote": "為 AI 裝配企業專屬技能。",
+        "name": "企業定制 Skill",
+        "role": "按你的方式工作"
+      },
+      "t3": {
+        "quote": "三步上線，員工無需技術背景。",
+        "name": "快速部署",
+        "role": "開箱即用"
+      }
+    },
+    "finalCta": {
+      "title": "準備好讓 AI 真正了解你的企業了嗎？",
+      "primary": "立即預約企業演示",
+      "secondary": "聯繫銷售團隊 →"
+    }
+  }
+}

@@ -1,0 +1,1448 @@
+{
+  "platformCollab": {
+    "hero": {
+      "eyebrow": "Total Chat-to-Ad Attribution",
+      "title": "Every conversation can be traced.\nEvery optimization is judged by results.",
+      "description": "Bridge the biggest data gap between ad performance and private-message chats. Cluega IM automatically connects every inquiry to the most granular ad plan, making every dollar accountable to outcomes.",
+      "primaryCta": "Start now",
+      "secondaryCta": "Contact us",
+      "emailLabel": "Your email address",
+      "emailPlaceholder": "Your email address",
+      "mobileSubmit": "Start now",
+      "graphTabs": [
+        "Omnichannel Conversation Ingestion",
+        "Real-time Creative Attribution",
+        "Real Conversion & Self-attribution Verification",
+        "Budget Scaling & Automatic Feedback"
+      ],
+      "workflowCards": {
+        "moreSuffix": "more attributes",
+        "cards": {
+          "inboundConsultation": {
+            "title": "Click-to-chat consultation"
+          },
+          "adDataAttribution": {
+            "title": "Trace ad data"
+          },
+          "aiAssistance": {
+            "title": "AI multi-role assistance"
+          },
+          "leadStatus": {
+            "title": "Lead status judgment"
+          },
+          "adOptimization": {
+            "title": "Optimization feedback"
+          }
+        },
+        "attributes": {
+          "accountHome": "One-click view of the customer's account profile",
+          "sourceMedia": "Source social media (WhatsApp / Tiktok...)",
+          "chatHistory": "Historical chat records",
+          "campaignName": "Ad campaign name",
+          "adGroupId": "Ad group ID",
+          "sourceCreative": "Source creative",
+          "translation": "Two-way translation",
+          "multiRoleChat": "Multi-role assisted chat",
+          "aiSummary": "AI intelligent summary",
+          "conversionIntent": "Customer purchase intent judgment",
+          "coldLeadJudgement": "Automatic no-intent lead judgment",
+          "statusStatistics": "Real-time status list statistics",
+          "budgetBoost": "One-click budget boost",
+          "conversionCallback": "Automatically return purchase intent to the ad account",
+          "realRoi": "View real conversion ROI"
+        }
+      }
+    },
+    "flexibleModel": {
+      "header": {
+        "prefix": "The Cluega team has built an ",
+        "highlight": "end-to-end closed loop from insights to creative",
+        "suffix": ", helping brands achieve predictable growth in digital marketing."
+      },
+      "quote": {
+        "body": "In the past, our ad data, private-message conversations, and order data were isolated fragments. We had no way to know which video a customer chatting on WhatsApp had clicked to come in. Cluega IM completely broke open that black box. Now, we only need customer service to simply click “Payment completed,” or let AI identify it automatically, and we can know the true return on ad spend.",
+        "author": "Maya Chen",
+        "role": "Revenue Operations · Cluega customer"
+      },
+      "cards": {
+        "utmTracking": {
+          "title": "Social UTM tracking, with every traffic source traceable.",
+          "description": "Generate dedicated tracking links in one click, such as TikTok.me. Automatically record inbound channels, time, and user location. Whether traffic comes from online matrix promotion or offline QR scans, private-domain inflow has no blind spots."
+        },
+        "autoAttribution": {
+          "title": "Fully automated self-attribution, no manual tagging.",
+          "description": "Powered by an AI semantic large model, Cluega automatically reads and understands the business context of each conversation. Customer service does not need to manually edit tags; the system instantly self-attributes and locks onto the most granular ad, campaign ID, and video creative."
+        },
+        "knowledgeAgents": {
+          "title": "Targeted knowledge-base feeding to derive dedicated agents.",
+          "description": "Freely create multiple independent databases and group product descriptions, FAQ subjects, different documents, or conversation records from different accounts. Cluega performs deep learning to interpret them precisely and generate AI customer-service assistants for different service directions."
+        },
+        "mmtFeedback": {
+          "title": "Automatic MMT result feedback, with precise budget reinforcement.",
+          "description": "Automatically send conversion data and MMT metrics back to the TikTok algorithm in real time, changing the delivery scaling model. You can also click once in the Ad Creative Details panel to increase budget, giving high-return plans a stronger chance to win."
+        }
+      },
+      "visuals": {
+        "utm": {
+          "adLinks": "Ad links",
+          "socialChat": "Social media chat",
+          "utmParams": "UTM parameters",
+          "manyToMany": "Many to many",
+          "searchPlaceholder": "Search...",
+          "utmItems": [
+            "utm_campaign: Spring_Flask",
+            "utm_source: Offline QR",
+            "utm_medium: Video"
+          ]
+        },
+        "attribution": {
+          "connectors": {
+            "where": "Where",
+            "and": "And"
+          },
+          "is": "is",
+          "fields": {
+            "aiContext": "AI Context (semantics)",
+            "adId": "Ad ID (ad source)",
+            "matchStatus": "Match status"
+          },
+          "values": {
+            "paymentCompleted": "Payment completed",
+            "adIdValue": "1854183913656450",
+            "matchSuccess": "100% match successful"
+          },
+          "autoMatched": "AI Auto-Matched (detecting)",
+          "removeAll": "Remove All"
+        },
+        "knowledge": {
+          "title": "Create knowledge base",
+          "selectContent": "Select content",
+          "selectedPlaceholder": "Product specification manual",
+          "options": {
+            "manual": {
+              "label": "Product specification manual",
+              "sublabel": "Product Manual PDF"
+            },
+            "faq": {
+              "label": "Customer service FAQ",
+              "sublabel": "Q&A Doc"
+            },
+            "brand": {
+              "label": "Brand tone methodology",
+              "sublabel": "Brand Tone TXT"
+            }
+          }
+        },
+        "relationship": {
+          "title": "Relationship map",
+          "live": "Live",
+          "company": "Company",
+          "deal": "Deal",
+          "person": "Person",
+          "invoice": "Invoice"
+        },
+        "mmt": {
+          "paymentTitle": "Payment completed",
+          "recordPrefix": "Merged statistics",
+          "recordSuffix": "closed records",
+          "feedbackTitle": "TikTok MMT data feedback",
+          "feedbackDescription": "Automatically optimize the official algorithm",
+          "budgetTitle": "Ad account budget boost",
+          "clickLabel": "Click",
+          "budgetButton": "Boost ad budget"
+        }
+      }
+    },
+    "currentContext": {
+      "header": {
+        "highlight": "Seamless connection, highly efficient team collaboration.",
+        "body": "Break down business-department barriers so customer support, media buyers, sales, and AI agents share global growth strategy in real time within the same window."
+      },
+      "items": {
+        "convertToLead": {
+          "title": "Convert to Lead",
+          "description": "After a conversation is completed, turn it into a structured CRM lead in one click and permanently save it as a customer data asset within social media leads."
+        },
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Support customer service, media buyers, and managers reading and handing off in real time together, ending the blind spots of solo customer communication."
+        },
+        "userNotes": {
+          "title": "User Notes",
+          "description": "Pin memo notes directly to a specific sentence in the customer conversation, helping collaborators understand historical context instantly."
+        }
+      }
+    },
+    "enrichment": {
+      "header": {
+        "highlight": "Knowledge-base clusters, semantic self-evolution.",
+        "body": "Freely build multiple isolated databases to train different customer-service brains; logs are automatically saved by account category and support one-click shared learning; you can also manually feed multimodal documents at any time to drive precise knowledge growth."
+      },
+      "cards": {
+        "knowledgeBases": {
+          "title": "Create multiple independent knowledge bases.",
+          "description": "Create multidimensional databases and import domain expertise separately, quickly training AI into dedicated customer-service roles for consultation, after-sales support, traffic acquisition, and more."
+        },
+        "accountConversationArchive": {
+          "title": "Automatically categorize and save account conversations.",
+          "description": "Account conversation information is saved fully automatically. The system seamlessly preserves real conversations with global customers, intelligently categorizes and archives them by communication account, and supports one-click sharing to a specified knowledge base at any time to drive incremental AI learning."
+        },
+        "manualDocumentFeeding": {
+          "title": "Manually feed multimodal documents.",
+          "description": "Manually pull and upload product manuals, after-sales specifications, and other PDF / DOCX documents at any time. Cluega performs deep learning to eliminate hallucinated and biased answers."
+        }
+      },
+      "visuals": {
+        "knowledgeBases": {
+          "rows": {
+            "productLibrary": {
+              "source": "2026 Beauty Device Library",
+              "target": "Trained as: Frontline Product AI Support"
+            },
+            "faqLibrary": {
+              "source": "Common After-sales FAQ Library",
+              "target": "Trained as: Returns & Exchanges Specialist AI Support"
+            },
+            "promoDiscountLibrary": {
+              "source": "Regular Promotion Discount Library",
+              "target": "Trained as: Promotion Guide AI Support"
+            }
+          }
+        },
+        "accountConversationArchive": {
+          "headers": {
+            "account": "Front-end account",
+            "source": "Media source",
+            "conversations": "Effective conversations",
+            "progress": "Learning progress"
+          },
+          "rows": {
+            "usSupport": {
+              "name": "EcoSip_US_Support",
+              "id": "5591d31d-d0c...",
+              "source": "TikTok Ads",
+              "sourceKey": "tiktok",
+              "conversations": "1,000",
+              "progressCurrent": "1000",
+              "progressTotal": "1000",
+              "roundLabel": "Round 1",
+              "statusLabel": "Accumulating"
+            },
+            "euConsulting": {
+              "name": "EcoSip_EU_Consulting",
+              "id": "4491331d-1d0...",
+              "source": "WhatsApp",
+              "sourceKey": "whatsapp",
+              "conversations": "450",
+              "progressCurrent": "450",
+              "progressTotal": "1000",
+              "roundLabel": "Round 1",
+              "statusLabel": "Accumulating"
+            },
+            "asiaSupport": {
+              "name": "EcoSip_SEA_After-sales",
+              "id": "019dd1f4-bd9...",
+              "source": "Zalo",
+              "sourceKey": "zalo",
+              "conversations": "120",
+              "progressCurrent": "120",
+              "progressTotal": "1000",
+              "roundLabel": "Round 1",
+              "statusLabel": "Accumulating"
+            }
+          }
+        },
+        "manualDocumentFeeding": {
+          "documentLabel": "Product Manual.docx",
+          "learningLabel": "Learning",
+          "successLabel": "Verification complete",
+          "successBadge": "(Success)"
+        }
+      }
+    },
+    "dataSources": {
+      "header": {
+        "highlight": "Full-module private-message and lead automation.",
+        "body": "Simplify inbound conversations and form data. Cluega IM provides flexible automated routing rules, so whether leads come from private messages or ad forms, they can be instantly assigned to the best-fit support seat and automatically receive a welcome message."
+      },
+      "steps": {
+        "dmAutomation": {
+          "title": "Automated DMs assignment.",
+          "description": "Detect and aggregate new private messages across every channel in real time. Based on customer country, time zone, and support scheduling rules, Cluega automatically distributes proportionally or assigns precisely, eliminating delays from manual routing."
+        },
+        "formAutomation": {
+          "title": "Automated form assignment.",
+          "description": "Pull TikTok and Meta ad forms at millisecond speed. The system automatically reads form fields and completes weighted scoring, with no manual spreadsheet export, then immediately routes leads to each sales team for follow-up."
+        },
+        "welcomeAutomation": {
+          "title": "Automatically send welcome messages and responses.",
+          "description": "When a customer first enters, or when a conversation hits specific high-intent keywords, the AI agent breaks through the 48-hour limit and immediately sends a dedicated welcome message, coupon, or product manual."
+        }
+      },
+      "visuals": {
+        "dmAutomation": {
+          "sourcePrefix": "Source:",
+          "workflowName": "Cluega workflow",
+          "statusLabel": "Routed",
+          "sources": {
+            "zalo": {
+              "name": "Zalo message",
+              "country": "Vietnam"
+            },
+            "line": {
+              "name": "Line message",
+              "country": "Japan"
+            },
+            "whatsapp": {
+              "name": "WhatsApp message",
+              "country": "United States"
+            }
+          },
+          "agents": {
+            "a1": {
+              "label": "Support 01",
+              "team": "VN Team"
+            },
+            "a2": {
+              "label": "Support 02",
+              "team": "JP Team"
+            },
+            "a3": {
+              "label": "Support 03",
+              "team": "Global VIP"
+            }
+          }
+        },
+        "formAutomation": {
+          "workflowName": "Cluega workflow",
+          "forms": {
+            "tiktok": {
+              "title": "TikTok ad form #01",
+              "cpa": "Estimated CPA: $4.12"
+            },
+            "meta": {
+              "title": "Meta form_North America",
+              "cpa": "Estimated CPA: $3.80"
+            }
+          },
+          "assignmentLabels": {
+            "name": "Customer name:",
+            "criteria": "Assignment rule:",
+            "assignee": "Assigned staff:"
+          },
+          "assignments": {
+            "sarah": {
+              "name": "Sarah Johnson",
+              "criteria": "Region (North America)",
+              "assignee": "Lily (US Sales Team)"
+            },
+            "minh": {
+              "name": "Minh Tran",
+              "criteria": "Region (Southeast Asia)",
+              "assignee": "Alex (VN Sales Team)"
+            }
+          }
+        },
+        "welcomeAutomation": {
+          "entryTitle": "Customer first message inbound",
+          "conditionLabel": "Central judgment (Condition)",
+          "workflowName": "Cluega workflow",
+          "messageTitle": "Automatically send message",
+          "exampleLabel": "Example reply",
+          "messageLines": [
+            "Hello! Thank you for following EcoSip. I'm glad to get in touch with you. 😊",
+            "To help you understand our service as soon as possible, what problem would you most like to solve right now?"
+          ],
+          "sentByAi": "Automatically sent by AI"
+        }
+      }
+    },
+    "reporting": {
+      "header": {
+        "title": "From conversation fragments to definitive data decisions.",
+        "description": "Data reports built for global trade deliver second-level analysis of creative spend, conversation flow rate, and cross-platform hybrid conversion funnels. Use the most authentic conversion results to drive ad scaling."
+      },
+      "learnMore": "Learn more",
+      "tabs": {
+        "materialSpendRanking": {
+          "label": "Creative spend ranking",
+          "title": "Creative spend ranking",
+          "description": "Real-time card-based spend rankings and A/B test comparisons identify each ad creative's ultimate conversion rate in one second."
+        },
+        "omnichannelConversationReport": {
+          "label": "Omnichannel conversation report",
+          "title": "Omnichannel conversation report",
+          "description": "Monitor active conversation routing in real time, tracking assigned seats, conversation IDs, and lead activity."
+        },
+        "adToCrmConversionFunnel": {
+          "label": "Ad-to-CRM conversion funnel",
+          "title": "Ad-to-CRM conversion funnel",
+          "description": "Trace clicks, chat starts, deals, and verification across the full chain to stop wasted budget and feed adaptive ad optimization."
+        }
+      },
+      "adCards": {
+        "labels": {
+          "accountId": "Ad account ID:",
+          "notificationId": "Notification ID:",
+          "materialId": "Creative ID:",
+          "budgetSpend": "Budget spend:",
+          "totalPrefix": "All",
+          "summary": "Ad copy summary:"
+        },
+        "summaries": {
+          "thermalCup": "Thermos cup...",
+          "morning": "Every morning...",
+          "test": "Stop guessing..."
+        },
+        "button": "Combined creative data"
+      },
+      "leadTable": {
+        "stats": {
+          "active": {
+            "label": "Active conversations",
+            "value": "71,753"
+          },
+          "history": {
+            "label": "Historical conversations",
+            "value": "10,765"
+          },
+          "total": {
+            "label": "Total conversations",
+            "value": "82,571"
+          }
+        },
+        "headers": {
+          "contact": "Contact",
+          "owner": "Owner",
+          "status": "Lead status",
+          "source": "Source"
+        },
+        "owners": {
+          "zhang": "Zhang Xiaoming",
+          "li": "Li Meihua"
+        },
+        "statuses": {
+          "validLead": "Valid lead",
+          "reserved": "Booked"
+        },
+        "sources": {
+          "facebook": "Facebook ads",
+          "tiktok": "TikTok ads"
+        }
+      },
+      "conversionFunnel": {
+        "category": "TikTok ads",
+        "totalsLabel": "Total",
+        "metrics": {
+          "impressions": {
+            "title": "Impressions",
+            "mainNumber": "2,517,417",
+            "metric1Label": "Spend",
+            "metric1Value": "$28,979.79",
+            "metric2Label": "CPM",
+            "metric2Value": "$11.51"
+          },
+          "clicks": {
+            "title": "Clicks",
+            "mainNumber": "37,455",
+            "metric1Label": "CTR",
+            "metric1Value": "1.49%",
+            "metric2Label": "CPC",
+            "metric2Value": "$0.77"
+          },
+          "conversions": {
+            "title": "Conversions",
+            "mainNumber": "3,610",
+            "metric1Label": "CVR",
+            "metric1Value": "9.64%",
+            "metric2Label": "CPA",
+            "metric2Value": "$8.03"
+          }
+        },
+        "rates": {
+          "clickRate": "→ 1.5%",
+          "conversionRate": "→ 9.6%"
+        }
+      }
+    },
+    "sequences": {
+      "pillBadge": "Team Collaboration & Permissions",
+      "title": "Collaborate without compromising asset security.",
+      "description": "Share conversations, invite your team to co-create, and control exactly who sees what — one permission system that lets agencies and brands collaborate seamlessly.",
+      "tag1": "Shared conversations",
+      "tag2": "Invite to co-create",
+      "tag3": "Granular permissions",
+      "enrolledBy": "Sarah Lin",
+      "enrolledAgent": "is collaborating on this session",
+      "welcomeYara": "Shared session: EcoSip campaign review",
+      "today": "Today",
+      "yesterday": "Just now",
+      "after2Days": "Invite pending",
+      "nextSteps": "Permission: Operator seat",
+      "completed": "Joined collaboration",
+      "bookedMeeting": "Team is in. Start collaborating",
+      "enrolled3DaysAgo": "Enrolled 3 days ago",
+      "automatedEmailIn2Days": "Automated email in 2 days",
+      "enrolled2DaysAgo": "AI interpreting",
+      "automatedEmailIn3Days": "Automated email in 3 days",
+      "enrolledYesterday": "Enrolled yesterday",
+      "automatedEmailIn1Day": "Automated email in 1 day",
+      "enrolled6HoursAgo": "Enrolled 6 hours ago",
+      "enrolled1HourAgo": "Enrolled 1 hour ago",
+      "bento": {
+        "title": "Every collaboration action,",
+        "description": "fully recorded in Cluega.",
+        "cards": {
+          "journey": {
+            "title": "Track every authorization.",
+            "description": "Who did what to which ad account and when — a complete audit trail that meets compliance in one go.",
+            "tags": [
+              "Audit trail",
+              "Authorization log",
+              "Compliance"
+            ],
+            "visual": {
+              "steps": [
+                "Sarah Lin · Granted an external agency access to the EcoSip ad account",
+                "Mike Wang · Removed an external member's delivery-approval permission",
+                "Chris Chen · Changed the EcoSip project owner's authorization"
+              ],
+              "success": "Complete audit trail",
+              "outcome": "Compliance met",
+              "title": "Activity log",
+              "times": [
+                "Just now",
+                "12 min ago",
+                "1 hour ago"
+              ],
+              "viewFullLog": "View full log"
+            }
+          },
+          "performance": {
+            "title": "Spend at a glance.",
+            "description": "Who triggered which AI tasks and how many credits they burned — a transparent ledger, no overspending.",
+            "tags": [
+              "Transparent credits",
+              "Usage tracking",
+              "Cost control"
+            ],
+            "visual": {
+              "cards": {
+                "c1": {
+                  "value": "85,000",
+                  "label": "Total team spend",
+                  "pct": "85%"
+                },
+                "c2": {
+                  "value": "40,000",
+                  "label": "Chris (Design)",
+                  "pct": "40%"
+                },
+                "c3": {
+                  "value": "20,000",
+                  "label": "Alex (Marketing)",
+                  "pct": "20%"
+                },
+                "c4": {
+                  "value": "15,000",
+                  "label": "Bella (Operations)",
+                  "pct": "15%"
+                },
+                "c5": {
+                  "value": "10,000",
+                  "label": "Danny (Support)",
+                  "pct": "10%"
+                }
+              }
+            }
+          },
+          "control": {
+            "title": "Clear roles, no overstepping.",
+            "description": "One matrix shows exactly what each person can do — high-risk actions require approval automatically, deletion is always blocked.",
+            "tags": [
+              "Role matrix",
+              "Approval flow",
+              "Delete blocked"
+            ],
+            "visual": {
+              "card1": {
+                "status": "Operator",
+                "content": "Sarah Lin · Agency",
+                "footer": "Edit · Publish"
+              },
+              "card2": {
+                "status": "Collaborator",
+                "content": "Chris Chen · Brand",
+                "footer": "View only"
+              },
+              "card3": {
+                "status": "Restricted",
+                "content": "Jenny Zhang · Brand",
+                "footer": "Delete blocked"
+              },
+              "matrix": {
+                "actions": [
+                  "View",
+                  "Edit",
+                  "Publish",
+                  "Delete"
+                ],
+                "note": "High-risk actions need approval · Delete always blocked",
+                "rows": {
+                  "r1": {
+                    "name": "Sarah Lin",
+                    "cells": [
+                      "yes",
+                      "yes",
+                      "yes",
+                      "no"
+                    ]
+                  },
+                  "r2": {
+                    "name": "Chris Chen",
+                    "cells": [
+                      "yes",
+                      "no",
+                      "no",
+                      "no"
+                    ]
+                  },
+                  "r3": {
+                    "name": "Mike Wang",
+                    "cells": [
+                      "yes",
+                      "yes",
+                      "no",
+                      "no"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "smart-sending": {
+            "title": "Contracts expire, authorization auto-revokes.",
+            "description": "Set an expiry on cross-company authorization; when the contract ends the system reclaims access automatically — no manual tracking, no loose ends.",
+            "tags": [
+              "Expiry",
+              "Auto-revoke",
+              "Cross-company"
+            ],
+            "visual": {
+              "node1": "External partner access (Valid: 30 days)",
+              "node2": "Set deadline reached",
+              "node3": "System auto-revokes all project authorizations",
+              "success": "Access revoked successfully"
+            }
+          }
+        }
+      },
+      "agentShowcase": {
+        "headline": "Fully automated AI conversation hosting",
+        "subheadline": "24/7 AI conversation hosting: one click to eliminate wasted reception",
+        "description": "Support AI-hosted conversations so you can hand any chat to AI in one click at any time. Let the large model become your gold-standard support agent, receiving customers around the clock without missing a conversion moment.",
+        "tagsAriaLabel": "AI conversation hosting feature tags",
+        "tags": [
+          "AI conversation hosting",
+          "AI automatic reception",
+          "Seamless human-AI handoff"
+        ],
+        "chatTitle": "Cluega 1.2 Lite",
+        "chatAriaLabel": "Cluega AI sales conversation hosting preview",
+        "buyerLabel": "Buyer",
+        "agentLabel": "AI Sales",
+        "inputPlaceholder": "Ask anything...",
+        "chatMessages": [
+          "I would like a quote for 5,000 units of Specification A, delivered in batches next quarter. What are the FOB price and lead time for the first batch? Please have a manager follow up.",
+          "Received! This fits our enterprise tiered pricing. I have booked our Key Account Director for a call tomorrow at 10:00 AM. Does that work for you?",
+          "Yes. But this shipment is going to the Middle East, and Specification A's 180°C heat resistance is not enough. Do you have hardness and tensile strength reports? We cannot purchase if it does not meet the standard.",
+          "Understood! The full SGS test report has been sent to your email (tensile strength 450 MPa). For extreme heat-resistance needs, we recommend Specification A-Plus (in stock, heat resistance up to 220°C). Would you like details?",
+          "A-Plus is more suitable. If we switch to 5,000 units, does your main warehouse have enough stock? The first 2,000 units must be container-loaded and shipped early next month, so the deadline is firm.",
+          "Our main warehouse has 800 units in stock, and another 1,500 units will come off QC the afternoon after tomorrow, for a total of 2,300 units. That fully covers your first shipment of 2,000 units.",
+          "That is cutting it close. Has this running production capacity been reserved by another customer? I do not want the order intercepted right before loading.",
+          "Please rest assured. This batch was originally quoted to a European customer, but since no deposit was paid, the system has placed a temporary Allocation Lock for you. Once the contract is signed tomorrow, it becomes your dedicated inventory.",
+          "Good. What about rolling production for the remaining 3,000 units? Can your lines absorb it? We cannot have supply gaps.",
+          "No problem. We coordinate production across multiple bases with monthly capacity of 50,000 units. The remaining 3,000 units will enter a rolling production plan, with 1,000 units of overseas-warehouse safety stock locked each month. The Director will provide the full assurance agreement tomorrow.",
+          "Very thoughtful. Since A-Plus upgrades the specification, please ask the Director to offer more discount tomorrow.",
+          "Understood. Tomorrow we will seek the best first-order commercial discount for you (Introductory Offer). The A-Plus quotation has been updated in your backend. See you tomorrow at 10:00!",
+          "Great, see you tomorrow!",
+          "See you tomorrow, and have a pleasant day!",
+          "Great."
+        ]
+      },
+      "teamWorkflow": {
+        "headline": "Cluega Automated Team Workflow",
+        "subheadline": "Cluega Workflow: Smart seat allocation, accelerate business conversion",
+        "description": "Working with the powerful Cluega workflow, when a lead or conversation triggers a specific status, the system can automatically allocate it directly to the corresponding business seat of the team for final business conversion by manual review or a dedicated team.",
+        "tagsAriaLabel": "Automated team workflow feature tags",
+        "tags": [
+          "Automated Workflow",
+          "Team Seat Allocation",
+          "Business Conversion Acceleration"
+        ],
+        "chatTitle": "Cluega 1.2 Lite",
+        "chatAriaLabel": "Cluega AI team workflow preview",
+        "visual": {
+          "ariaLabel": "Cluega workflow editor canvas",
+          "editorTitle": "Clue Workflow",
+          "newWorkflow": "New workflow",
+          "learn": "Learn",
+          "workflowName": "Workflow",
+          "status": "Active",
+          "trigger": "TRIGGER",
+          "condition": "Condition",
+          "assignStaff": "Assign Staff",
+          "newLead": "New Lead",
+          "addTrigger": "Add trigger",
+          "leftConditionCount": "4 conditions configured",
+          "rightConditionCount": "3 conditions configured",
+          "roundRobin": "Round Robin",
+          "leftStaffCount": "2 staff",
+          "rightStaffCount": "1 staff",
+          "nextStep": "Next Step >",
+          "zoomOut": "Zoom out",
+          "zoomIn": "Zoom in",
+          "pan": "Pan canvas",
+          "lock": "Lock canvas",
+          "fitView": "Fit view"
+        }
+      },
+      "learningSection": {
+        "title": "Effortless sharing,",
+        "description": "visible only to the right people.",
+        "cards": {
+          "signal": {
+            "title": "Generate a share link in one click.",
+            "description": "Clicking share sends an invite — the other party only sees this conversation's scope, and data from your other ad accounts never leaks. Isolation happens at the data layer, not just hidden on the frontend.",
+            "tags": [
+              "Data-layer isolation",
+              "Scope-limited",
+              "One-click share"
+            ],
+            "visual": {
+              "pausedLabel": "Revoked",
+              "items": {
+                "adAccountId": {
+                  "label": "Share link",
+                  "value": "cluega.com/s/9f2a1c"
+                },
+                "adName": {
+                  "label": "Invitee",
+                  "value": "VP Zhang · Consumer Group"
+                },
+                "adId": {
+                  "label": "Visible scope",
+                  "value": "This conversation"
+                },
+                "creativeId": {
+                  "label": "Permission level",
+                  "value": "Read-only · Collaborator"
+                },
+                "creativePreview": {
+                  "label": "Conversation preview",
+                  "value": "EcoSip campaign review"
+                },
+                "socialAccountId": {
+                  "label": "Link status",
+                  "value": "Active"
+                }
+              },
+              "share": {
+                "title": "Share this session",
+                "linkValue": "cluega.com/s/9f2a1c",
+                "copy": "Copy",
+                "scopeLabel": "Visible scope",
+                "scopeValue": "This conversation only",
+                "invited": "3 invited",
+                "isolated": "Other accounts' data isolated"
+              }
+            }
+          },
+          "sender": {
+            "title": "One session, any number of people.",
+            "description": "Agency partners, brand managers, designers — invite them all into the same conversation. Swapping people needs no re-authorization, and revocation takes effect instantly.",
+            "tags": [
+              "Any headcount",
+              "Instant revoke",
+              "No re-auth needed"
+            ],
+            "visual": {
+              "cardTitle": "EcoSip collaboration session",
+              "ctmIdLabel": "Session ID",
+              "ctmIdValue": "7647794429255761927",
+              "createTimeLabel": "Created",
+              "createTimeValue": "2026-06-05 14:37:47",
+              "eventCount": "7",
+              "eventTotalLabel": "Members",
+              "avgCostValue": "5",
+              "avgCostLabel": "Online now",
+              "legend": "All",
+              "hub": {
+                "center": "This session",
+                "count": "Invite members"
+              }
+            }
+          },
+          "scheduled": {
+            "title": "Data rights follow the account.",
+            "description": "Unauthorized ad data stays fully masked even in the same session. The AI analyzed your account, yet the other party sees nothing beyond the authorized scope.",
+            "tags": [
+              "Account-level access",
+              "Data masking",
+              "Authorization boundary"
+            ],
+            "visual": {
+              "title": "Account data access",
+              "accountOther": "Other ad accounts",
+              "statusOk": "Authorized",
+              "statusMasked": "Not authorized",
+              "note": "Data rights follow the account"
+            }
+          }
+        }
+      },
+      "quoteSection": {
+        "title": "A real cross-company collaboration story",
+        "content": "Cross-company collaboration used to mean resetting a pile of accounts every time someone new took over. Now we just authorize the other company — whoever takes over needs no reset. It cut our hand-off time in half.",
+        "headline": "Rachel Green",
+        "description": "Senior Project Manager · Cluega"
+      },
+      "globalI18n": {
+        "title": "Global Lead Geographic Insights: One-Click Distribution Map",
+        "description": "Automatically analyze the location of your leads with built-in intuitive \"Lead Map\" features. Convert all existing leads into regional distribution visual representations to target market hot zones with precision.",
+        "tags": [
+          "Geographic Insights",
+          "Opportunity Map",
+          "Geolead Analysis"
+        ],
+        "quote": "\"This feature directly addresses the pain points of cross-region lead assignment! The system automatically visualizes regions and generates maps, showing at a glance where customers are most concentrated and where the blue oceans are. The team sweeps streets and assigns orders precisely based on the map, boosting outbound efficiency by 60%!\"",
+        "author": "Ethan",
+        "role": "Sales Manager, Cluega",
+        "bottomTitle": "Automatic language detection and switch",
+        "bottomDescription": "Agents can detect and switch languages in real time based on what the user says. No setup or manual input required. Ideal for global support lines, travel, retail, and more.",
+        "languages": {
+          "english": "English",
+          "spanish": "Spanish",
+          "chinese": "Chinese",
+          "french": "French",
+          "german": "German",
+          "japanese": "Japanese",
+          "korean": "Korean",
+          "vietnamese": "Vietnamese",
+          "thai": "Thai",
+          "indonesian": "Indonesian",
+          "malay": "Malay",
+          "portuguese": "Portuguese",
+          "hindi": "Hindi",
+          "italian": "Italian",
+          "dutch": "Dutch"
+        },
+        "marketTable": {
+          "names": [
+            "Taiwan",
+            "Ho Chi Minh City",
+            "Kuala Lumpur",
+            "Hanoi",
+            "Singapore"
+          ],
+          "values": [
+            "3,689",
+            "2,150",
+            "1,420",
+            "940",
+            "510"
+          ]
+        }
+      },
+      "adIntegrationBento": {
+        "cards": {
+          "imEcosystem": {
+            "title": "IM Ecosystem Deeply Integrated with Advertising Systems",
+            "description": "Break down the data isolation between IM tools and advertising platforms. Through underlying connection, lead status is automatically aligned with the ad delivery system, achieving smooth data flow.",
+            "visual": {
+              "imTitle": "Cluega IM",
+              "dashboardTitle": "Dashboard",
+              "liveBadge": "Live sync",
+              "chat": {
+                "jessica": {
+                  "name": "Jessica",
+                  "time": "14:00",
+                  "message": "I want this product. Is it still in stock? If I need to wear it abroad next week, will it arrive in time if I order today?"
+                },
+                "chloe": {
+                  "name": "Chloe",
+                  "time": "14:02",
+                  "message": "I want to ask about this moisturizing serum. I have sensitive skin and flush easily. Is it safe for pregnant users or sensitive skin?"
+                },
+                "david": {
+                  "name": "David",
+                  "time": "14:05",
+                  "message": "I am interested in these noise-canceling Bluetooth earbuds. If the left and right earbuds have pairing issues, can they be replaced during warranty?"
+                },
+                "marcus": {
+                  "name": "Marcus",
+                  "time": "14:08",
+                  "message": "I want to buy this ergonomic office chair. Do you provide home assembly service, or do I need to assemble it myself from the manual?"
+                },
+                "jason": {
+                  "name": "Jason",
+                  "time": "14:15",
+                  "message": "Hello, I want to order this jacket from Malaysia. Does your site support overseas credit cards or PayPal, and what amount qualifies for free international shipping?"
+                }
+              },
+              "metrics": {
+                "spend": {
+                  "label": "Spend",
+                  "caption": "Total spend and lift"
+                },
+                "conversions": {
+                  "label": "Conversions",
+                  "caption": "Volume and CVR"
+                },
+                "roas": {
+                  "label": "ROAS",
+                  "caption": "Return and target rate"
+                }
+              },
+              "chart": {
+                "startDate": "Jan 26",
+                "endDate": "Feb 2"
+              },
+              "tabs": {
+                "campaigns": "Campaigns",
+                "adSets": "Ad Sets",
+                "ads": "Ads",
+                "channels": "Channels"
+              },
+              "campaigns": {
+                "campaignA": {
+                  "name": "Campaign_A_台灣電商",
+                  "progress": "92% of $9,000"
+                },
+                "campaignB": {
+                  "name": "Campaign_B_服飾新品",
+                  "progress": "99% of $8,000"
+                },
+                "campaignC": {
+                  "name": "Campaign_C_轉化再行銷",
+                  "progress": "89% of $6,000"
+                }
+              }
+            }
+          },
+          "dataAssetization": {
+            "title": "Data Assetization: Convert IM Leads Directly into Ad Audiences",
+            "description": "Perfect traffic loop closure! High-precision leads accumulated in IM can be bundled into custom audiences (Audience) inside the system in one click, and applied directly to subsequent targeted advertising."
+          }
+        }
+      },
+      "adDashboard": {
+        "top": {
+          "title": "Ad Account Full-Funnel Conversion Cost Transparency"
+        },
+        "bottom": {
+          "title": "Full-Funnel Data Transparency: Visualize MMT & CRM Conversions in Ad Accounts",
+          "description": "In Cluega's ad accounts, you can directly see the linkage between MMT/CRM conversion numbers and frontend ads. You can directly know the real conversion cost (e.g. ad cost per average order), so optimization is no longer a guessing game."
+        },
+        "kpi": {
+          "adSetSpend": "Total Ad Set Spend",
+          "totalConversions": "Total Conversions",
+          "avgCostPerConv": "Avg. Cost per Conversion",
+          "accountSpend": "Total Account Spend",
+          "monthSpend": "Spend (This Month)",
+          "yesterdaySpend": "Spend (Yesterday)",
+          "formSubmissions": "Total Form Submissions",
+          "netValue": "Est. Net Value",
+          "avgEpc": "Average EPC",
+          "avgCvr": "Avg. Conversion Rate",
+          "roi": "Est. ROI",
+          "yesterdayCvr": "Yesterday CVR"
+        },
+        "chart": {
+          "title": "Hourly Ad Set Report Monitoring",
+          "selected": "Selected"
+        },
+        "table": {
+          "allSeries": "All Campaigns",
+          "onOff": "On/Off",
+          "name": "Name",
+          "status": "Status",
+          "convVolume": "Conversions",
+          "sourceConv": "Source Conversions",
+          "avgConvCost": "Avg. Cost per Conversion",
+          "paidMmt": "Paid (MMT)",
+          "paidAmtMmt": "Paid Amount (MMT)",
+          "paidAvgCostMmt": "Avg. Cost per Paid (MMT)",
+          "depositMmt": "Deposit (MMT)",
+          "depositAmtMmt": "Deposit Amount (MMT)",
+          "active": "Active"
+        }
+      },
+      "productPreview": {
+        "title": "Step inside the Cluega collaboration space.",
+        "description": "Turn a conversation into a shared workspace the whole team can contribute to.",
+        "membersLabel": "Members",
+        "collabMembers": {
+          "sarah": "Joined 3 min ago · Agency",
+          "chris": "Joined 12 min ago · Brand",
+          "mike": "Joined 24 min ago · Agency",
+          "jenny": "Invite pending · Brand",
+          "kevin": "Joined 1 hour ago · Agency"
+        },
+        "seat": {
+          "operator": "Operator",
+          "collaborator": "Collaborator"
+        },
+        "sessionTitle": "EcoSip campaign review",
+        "sessionMeta": "Multi-party · Real-time sync",
+        "shareAction": "Share",
+        "msgUser": "Analyze EcoSip's performance last week and suggest the next optimization step.",
+        "msgAi": "EcoSip data is in: ROAS up 18%. Recommend scaling the top-performing audience. The other party only sees this conversation's scope.",
+        "tagSource": "Source: EcoSip account",
+        "tagScope": "Visible scope: This conversation",
+        "joinNotice": "Chris Chen joined this collaboration",
+        "actions": {
+          "share": "Share",
+          "download": "Download",
+          "edit": "Edit",
+          "permissions": "Permissions"
+        },
+        "breadcrumb": {
+          "workspace": "Workspace",
+          "session": "EcoSip campaign review"
+        },
+        "share": "Share",
+        "tabs": {
+          "editor": "Editor",
+          "members": "Members"
+        },
+        "membersCount": "10",
+        "enableShare": "Enable sharing",
+        "invite": "Invite members",
+        "searchPlaceholder": "Search members",
+        "filter": "Filter",
+        "company": {
+          "agency": "Agency",
+          "brand": "Brand"
+        },
+        "members": {
+          "m1": {
+            "time": "Just now"
+          },
+          "m2": {
+            "time": "12 min ago"
+          },
+          "m3": {
+            "time": "24 min ago"
+          },
+          "m4": {
+            "time": "Invite pending"
+          },
+          "m5": {
+            "time": "1 hour ago"
+          },
+          "m6": {
+            "time": "2 hours ago"
+          },
+          "m7": {
+            "time": "3 hours ago"
+          },
+          "m8": {
+            "time": "Yesterday"
+          },
+          "m9": {
+            "time": "Yesterday"
+          },
+          "m10": {
+            "time": "2 days ago"
+          }
+        },
+        "detail": {
+          "manage": "Manage access",
+          "remove": "Remove",
+          "enrolledPrefix": "Invited by",
+          "owner": "you",
+          "enrolledSuffix": "",
+          "enrolledTime": "6 days ago",
+          "card1": {
+            "label": "Joined",
+            "time": "6 days ago",
+            "title": "Sarah Lin joined EcoSip campaign review",
+            "preview": "Visible scope: this conversation · other ad accounts isolated"
+          },
+          "wait1": {
+            "title": "Awaiting approval",
+            "desc": "Editing the strategy needs operator confirmation, pending"
+          },
+          "card2": {
+            "label": "Activity",
+            "attach": "2",
+            "time": "Today",
+            "title": "Viewed EcoSip account performance",
+            "preview": "ROAS up 18%, analysis report exported…"
+          },
+          "wait2": {
+            "title": "Data-layer isolation active"
+          },
+          "card3": {
+            "label": "Authorization",
+            "time": "2026-06-05",
+            "title": "Edited strategy · triggered by Sarah Lin",
+            "preview": "Every change records the executor, fully traceable…"
+          }
+        }
+      },
+      "warmth": {
+        "title": "AI generates in seconds, you refine anytime,",
+        "description": "download and use in one click.",
+        "tabs": {
+          "details": {
+            "title": "Co-create: instruct the AI together.",
+            "description": "Invite any member into the conversation. Everyone can add instructions and feedback to the AI, every action records who triggered it, fully traceable."
+          },
+          "assist": {
+            "title": "Download conversation files in one click.",
+            "description": "Download AI-generated analysis reports, ad scripts, and strategy summaries as PDF, Word, or Markdown — full formatting preserved, ready for your meeting."
+          },
+          "accuracy": {
+            "title": "Edit creatives on the spot.",
+            "description": "Not happy with a generated ad image? Remove the background, resize, or regenerate parts right inside Cluega — ready to run the moment you're done."
+          }
+        },
+        "visual": {
+          "headers": {
+            "cocreate": "Group chat",
+            "download": "Download format",
+            "edit": "Creative edit"
+          },
+          "ready": "Ready",
+          "messageLead": "Triggered by",
+          "tokenMember": "Sarah Lin",
+          "messageMid": ", visible scope",
+          "tokenScope": "This conversation",
+          "messageTail": ", executor recorded throughout.",
+          "fields": {
+            "executor": {
+              "label": "Executor",
+              "value": "Sarah Lin"
+            },
+            "seat": {
+              "label": "Seat",
+              "value": "Operator"
+            },
+            "status": {
+              "label": "Status",
+              "value": "Traceable"
+            }
+          },
+          "trackLabel": "Last action",
+          "trackValue": "3 min ago",
+          "cocreate": {
+            "onlineCount": "3 online",
+            "msgA": "Help me analyze EcoSip's audience performance",
+            "msgB": "Add: focus on the last 7 days of conversions",
+            "aiReply": "Done — ROAS up 18%. Recommend scaling the top-performing audience.",
+            "trigger": "Triggered by Sarah Lin · 3 min ago",
+            "sessionName": "EcoSip campaign review",
+            "timeA": "3 minutes ago",
+            "timeB": "1 min ago",
+            "typing": "Mike Wang is typing…"
+          },
+          "download": {
+            "docTitle": "EcoSip analysis report",
+            "badge": "Ready",
+            "download": "Download",
+            "meta": "PDF · 12 pages · 2.4 MB",
+            "pageFooter": "Page 1 / 12",
+            "exportedBy": "Exported by Sarah Lin",
+            "files": {
+              "f1": "Competitive analysis report (PDF)",
+              "f2": "Ad script (Word)",
+              "f3": "Strategy summary (Markdown)",
+              "f4": "Meeting notes & decisions (Word)",
+              "f5": "Market insights deck (PDF)",
+              "f6": "Project execution plan (Word)"
+            },
+            "status": "Downloading..."
+          },
+          "edit": {
+            "label": "Creative edit",
+            "ready": "Ready",
+            "tools": {
+              "cutout": "Cut out",
+              "resize": "Resize",
+              "regen": "Regenerate",
+              "download": "Download"
+            },
+            "badge": "AI inpaint"
+          }
+        }
+      },
+      "platformShelf": {
+        "title": "Collaboration is just the beginning.",
+        "description": "Cluega connects your entire workflow.",
+        "items": {
+          "aiChat": "IM messaging system",
+          "adAccounts": "Ad delivery & optimization",
+          "creative": "Real-time marketing dashboard",
+          "dashboard": "Market insights",
+          "collaboration": "Agent",
+          "automation": "E-commerce operations",
+          "audit": "AI chat & models",
+          "billing": "AI visual design"
+        }
+      },
+      "finalCta": {
+        "heading": "A secure, leak-proof team collaboration space",
+        "demo": "Book a Demo",
+        "start": "Start for free"
+      },
+      "heroCtaStart": "Start for free",
+      "heroCtaDemo": "Book a demo"
+    },
+    "platformSequences": {
+      "header": {
+        "banner": "Orchestrate revenue agents with the new Workflows",
+        "closeBanner": "Close announcement",
+        "logoLabel": "Go to Cluega home",
+        "navLabel": "Sequences navigation",
+        "menu": "Open menu",
+        "signIn": "Sign in",
+        "startFree": "Start for free",
+        "nav": {
+          "platform": "Platform",
+          "resources": "Resources",
+          "customers": "Customers",
+          "pricing": "Pricing"
+        },
+        "resources": {
+          "customers": "Stories from teams building with Cluega.",
+          "guides": "Ideas, playbooks, and product updates.",
+          "support": "Find answers and get help fast."
+        }
+      },
+      "hero": {
+        "badge": "Sequences",
+        "title": "Signal, sequence, success.",
+        "description": "Go from first touch to final signature with perfectly crafted emails delivered right on cue.",
+        "emailLabel": "Your email address",
+        "emailPlaceholder": "Your email address",
+        "demoCta": "Send me a demo",
+        "timeline": {
+          "sequence": "Sequence",
+          "title": "Warm lead follow-up",
+          "live": "Live",
+          "enrolled": {
+            "meta": "Enrolled by PQL Triage",
+            "title": "Welcome Yara",
+            "description": "New product signal matched this contact automatically."
+          },
+          "welcome": {
+            "meta": "Today",
+            "title": "Welcome Yara",
+            "description": "A personalized first touch lands while intent is fresh."
+          },
+          "wait": {
+            "meta": "After 2 business days",
+            "title": "Next steps",
+            "description": "The sequence waits for the right window before following up."
+          },
+          "next": {
+            "meta": "Yesterday",
+            "title": "Completed",
+            "description": "No reply needed from your team unless the signal changes."
+          },
+          "complete": {
+            "meta": "Booked meeting with Yara",
+            "title": "Success",
+            "description": "Replies, meetings, and outcomes stay tied to the record."
+          }
+        }
+      },
+      "preview": {
+        "eyebrow": "Step inside Sequences",
+        "title": "Step inside Sequences.",
+        "description": "Convert warm signals into outreach that closes itself.",
+        "imageAlt": "Cluega Sequences product preview"
+      },
+      "zeroTouch": {
+        "eyebrow": "Automation",
+        "title": "Zero-touch follow-ups.",
+        "description": "Cluega keeps conversations moving while your team focuses on winning.",
+        "cards": {
+          "signals": {
+            "title": "Signal based enrollment.",
+            "description": "Pick the cues-account created, form filled, RSVP-to enroll the contact."
+          },
+          "sender": {
+            "title": "One sequence, any sender.",
+            "description": "Set up a single email sequence and auto-assign the right sender."
+          },
+          "schedule": {
+            "title": "Automate scheduled sending.",
+            "description": "Skip the CSVs and manual syncs. Reclaim hours every week."
+          }
+        }
+      },
+      "quote": {
+        "body": "With Cluega, we are able to conduct highly targeted and customized outreach.",
+        "author": "Margaret Shen",
+        "role": "Head of Business Operations · Modal"
+      },
+      "warmth": {
+        "eyebrow": "Handwritten warmth",
+        "title": "Handwritten warmth.",
+        "description": "Every touch feels 1-to-1, even when juggling 100 accounts.",
+        "visualLabel": "Personalization visuals",
+        "steps": {
+          "details": {
+            "title": "Customer details, auto-filled.",
+            "description": "Drop in first names, renewal dates, or any field so each contact gets what is most relevant."
+          },
+          "ai": {
+            "title": "AI assist.",
+            "description": "Need a hand? AI riffs the perfect phrase for every message."
+          },
+          "accuracy": {
+            "title": "Live accuracy.",
+            "description": "Field updates flow straight into drafts, keeping the important details like numbers and dates spot-on."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Live context",
+        "title": "Every interaction in Cluega.",
+        "description": "Track enrollment, replies, meetings, and status for every contact.",
+        "cards": {
+          "journey": {
+            "title": "Track the journey.",
+            "description": "See who progresses through each step."
+          },
+          "performance": {
+            "title": "Performance.",
+            "description": "Track engagement to exit in one glance."
+          },
+          "control": {
+            "title": "One-click control.",
+            "description": "Pause, revive, or remove recipients with one click."
+          },
+          "sending": {
+            "title": "Smart sending.",
+            "description": "Land in their inbox when they are ready."
+          }
+        }
+      },
+      "shelf": {
+        "eyebrow": "Cluega platform",
+        "title": "Cluega plugs in. You take off.",
+        "description": "Work your way, from outreach to outcomes.",
+        "items": {
+          "askCluega": {
+            "title": "Ask Cluega",
+            "description": "Ask questions and get answers from your customer data."
+          },
+          "ai": {
+            "title": "AI",
+            "description": "Turn every record into a smarter next action."
+          },
+          "dataModel": {
+            "title": "Data model",
+            "description": "Model the objects, relationships, and signals you need."
+          },
+          "apps": {
+            "title": "Apps & integrations",
+            "description": "Connect the tools already running your revenue team."
+          },
+          "callIntelligence": {
+            "title": "Call Intelligence",
+            "description": "Capture context from conversations automatically."
+          },
+          "workflows": {
+            "title": "Workflows",
+            "description": "Automate handoffs, tasks, and routing."
+          },
+          "sequences": {
+            "title": "Sequences",
+            "description": "Nurture every warm signal with perfect timing."
+          },
+          "reporting": {
+            "title": "Reporting",
+            "description": "Measure pipeline, revenue, and team performance live."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Start today",
+        "title": "Start with a 14-day free trial of Pro.",
+        "description": "Build your first signal-aware sequence and see every touch in Cluega.",
+        "primary": "Start for free",
+        "secondary": "Talk to sales"
+      },
+      "footer": {
+        "tagline": "Cluega brings every customer interaction, workflow, and signal into one AI-native revenue workspace.",
+        "platform": {
+          "title": "Platform",
+          "items": {
+            "one": "Ask Cluega",
+            "two": "AI",
+            "three": "Data model",
+            "four": "Sequences"
+          }
+        },
+        "company": {
+          "title": "Company",
+          "items": {
+            "one": "About",
+            "two": "Customers",
+            "three": "Careers",
+            "four": "Contact"
+          }
+        },
+        "importFrom": {
+          "title": "Import from",
+          "items": {
+            "one": "Salesforce",
+            "two": "HubSpot",
+            "three": "Pipedrive",
+            "four": "CSV"
+          }
+        },
+        "cluegaFor": {
+          "title": "Cluega for",
+          "items": {
+            "one": "Startups",
+            "two": "Sales teams",
+            "three": "Marketing teams",
+            "four": "RevOps"
+          }
+        },
+        "apps": {
+          "title": "Apps",
+          "items": {
+            "one": "Gmail",
+            "two": "Slack",
+            "three": "Zapier",
+            "four": "API"
+          }
+        },
+        "resources": {
+          "title": "Resources",
+          "items": {
+            "one": "Customers",
+            "two": "Guides",
+            "three": "Help center",
+            "four": "Blog",
+            "customers": "Customers",
+            "guides": "Guides",
+            "helpCenter": "Help center"
+          }
+        },
+        "legal": {
+          "privacy": "Privacy",
+          "terms": "Terms"
+        },
+        "copyright": "© 2026 Cluega. All rights reserved."
+      }
+    }
+  }
+}

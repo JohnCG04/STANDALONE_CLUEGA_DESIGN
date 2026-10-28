@@ -1,0 +1,45 @@
+{
+  "ui": {
+    "dateRangePicker": {
+      "placeholder": "Select date range",
+      "presetsColumn": "Quick presets",
+      "calendarNav": "Calendar navigation",
+      "prevYear": "Previous year",
+      "prevMonth": "Previous month",
+      "nextMonth": "Next month",
+      "nextYear": "Next year",
+      "startTime": "Start time",
+      "rangeStartTime": "Range start time",
+      "rangeEndTime": "Range end time",
+      "cancel": "Cancel",
+      "confirm": "Apply",
+      "preset": {
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "last7": "Last 7 days",
+        "last14": "Last 14 days",
+        "last30": "Last 30 days",
+        "thisWeek": "This week",
+        "lastWeek": "Last week",
+        "adPublicationPeriod": "Ad publication period"
+      },
+      "time": "Time",
+      "hour": "Hour",
+      "minute": "Minute",
+      "today": "Today",
+      "clear": "Clear"
+    },
+    "reportColumnHeader": {
+      "dragHint": "Drag to reorder column",
+      "menuLabel": "actions",
+      "sortAsc": "Sort ascending",
+      "sortDesc": "Sort descending",
+      "clearSort": "Clear sort",
+      "filter": "Filter",
+      "remove": "Remove column",
+      "resizeHint": "Resize column",
+      "autoFitHint": "Double-click to fit the contents",
+      "columnFallback": "Column"
+    }
+  }
+}

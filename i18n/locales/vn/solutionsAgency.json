@@ -1,0 +1,146 @@
+{
+  "solutionsAgency": {
+    "meta": {
+      "title": "Dành cho Agency | Cluega",
+      "description": "Các agency hàng đầu thế giới dùng Cluega để quản lý quảng cáo đa nền tảng cho khách hàng——đa tài khoản, ngân sách lớn, tối ưu tự động 24/7, một cổng kiểm soát tất cả, quyền quyết định cuối cùng 100% vẫn thuộc về bạn."
+    },
+    "hero": {
+      "kicker": "Cluega for Agencies",
+      "title": "Trao sức mạnh cho từng tài khoản khách hàng, giao cho AI tự động canh chừng",
+      "subtitle": "Các agency hàng đầu thế giới dùng Cluega để quản lý quảng cáo đa nền tảng cho khách hàng——đa tài khoản, ngân sách lớn, tối ưu tự động 24/7, một cổng kiểm soát tất cả, quyền quyết định cuối cùng 100% vẫn thuộc về bạn.",
+      "ctaStart": "Bắt đầu miễn phí",
+      "ctaContact": "Liên hệ Sales"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "Khả năng quan sát toàn diện đa tài khoản",
+          "body": "Mỗi giờ làm mới trạng thái quảng cáo của mọi tài khoản khách hàng dưới quyền bạn, trải khắp TikTok, Meta, Google——không cần chuyển qua lại giữa hàng chục bảng điều khiển, toàn bộ sức khỏe quảng cáo của mọi khách hàng gói gọn trong một màn hình."
+        },
+        {
+          "title": "Dữ liệu có thể chuyển thẳng thành hành động",
+          "body": "Không đưa ra những gợi ý tối ưu mơ hồ. Hệ thống chắt lọc mỗi vấn đề thành chỉ thị cụ thể kèm dữ liệu chứng minh, để bạn nhấp là chạy, hoặc một nút giao cho AI ủy thác——hiệu suất quảng cáo tăng không dưới mười lần."
+        },
+        {
+          "title": "Sánh vai cùng những người dẫn đầu ngành",
+          "body": "800.000.000+ tín hiệu dữ liệu marketing xử lý mỗi tuần, 5.200.000+ tác vụ giao thức tự động thực thi mỗi tháng, độ trễ phản hồi dưới 50ms, 99,98% trực tuyến suốt ngày đêm——giao phần tính toán đa nền tảng nặng nhất cho một engine quảng cáo đã được kiểm chứng ở quy mô lớn."
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "Một nền tảng, quản lý trọn vòng đời quảng cáo của mọi khách hàng",
+      "learnMore": "Tìm hiểu thêm",
+      "tabs": [
+        {
+          "tab": "Trung tâm giám sát thời gian thực",
+          "subtitle": "Cấp quyền là khởi động thông tin tài khoản",
+          "body": "Cứ kết nối một tài khoản quảng cáo, Cluega lập tức phân tích toàn bộ lịch sử trong nền——từ lượng chuyển đổi, xu hướng chi phí đến hiệu quả nội dung và độ bão hòa đối tượng. Không cần bất kỳ thiết lập rườm rà nào, phân tích chuyên sâu vận hành tức thì."
+        },
+        {
+          "tab": "Phân cấp độ trưởng thành tài khoản",
+          "subtitle": "Mỗi tài khoản, một chiến lược đúng giai đoạn",
+          "body": "Tài khoản mới khởi chạy và tài khoản đã chạy hai năm cần những chiến lược hoàn toàn khác nhau. Cluega tự động phân loại tài khoản vào 6 giai đoạn trưởng thành M0–M5 (từ khởi động lạnh đến giai đoạn bánh đà), mỗi giai đoạn lọc bỏ nhiễu, chỉ phân tích cho bạn những chỉ số cốt lõi thực sự quan trọng."
+        },
+        {
+          "tab": "Chấm điểm nhóm quảng cáo",
+          "subtitle": "Biết ngay nhóm quảng cáo nào đáng đặt cược",
+          "body": "Đánh giá tổng hợp hai chiều «độ tin cậy dữ liệu» và «động lượng hiệu quả», chấm điểm chính xác cho từng nhóm quảng cáo. Từ hạng S (ngôi sao tiềm năng, một nút tăng ngân sách) đến hạng D (ứng viên ngừng chạy), để từng đồng ngân sách của khách hàng đều tiêu đúng chỗ."
+        },
+        {
+          "tab": "Quảng cáo ủy thác cho AI",
+          "subtitle": "Đặt ranh giới, AI tự vận hành trong ranh giới đó",
+          "body": "Khi dữ liệu tài khoản đạt mục tiêu bạn đặt ra thì bật ủy thác——tăng ngân sách, tạm dừng nhóm quảng cáo, xoay vòng nội dung, AI trực tiếp thực thi. Khi quảng cáo bị từ chối sẽ đẩy sang Lark / Line, xác nhận ngay trên điện thoại là được, không cần canh bảng điều khiển."
+        }
+      ]
+    },
+    "built": {
+      "title": "Sinh ra cho các agency",
+      "overview": "Cluega giúp agency dùng ít nhân lực hơn, phục vụ nhiều tài khoản khách hàng hơn, và biến kết quả quảng cáo thành thứ có thể dự đoán, có thể bàn giao.",
+      "cards": [
+        {
+          "title": "Quản lý tập trung đa khách hàng",
+          "body": "Mọi tài khoản khách hàng, kế hoạch và trạng thái duyệt được quản lý tập trung qua một giao diện tích hợp duy nhất, không còn phải chuyển qua lại giữa nhiều bảng điều khiển."
+        },
+        {
+          "title": "Phòng chỉ huy cộng tác người-máy",
+          "body": "GPT chỉnh ngân sách, Claude tạo gợi ý, cộng sự đặt giá thủ công, tất cả ghi lại trên cùng một dòng thời gian——bất kỳ ai tiếp quản cũng nắm ngay toàn cục."
+        },
+        {
+          "title": "Một câu tạo ra báo cáo khách hàng",
+          "body": "Nhập chỉ số bạn muốn xem, Cluega tự động lấy số từ nền tảng đã cấp quyền, dựng biểu đồ và đồng bộ tức thì, báo cáo tuần cho khách hàng bàn giao trong vài phút."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Trước đây chỉ riêng việc chuyển qua lại các bảng điều khiển đã tốn nửa ngày, giờ một màn hình xem hết mọi trạng thái, đến cả tiến độ duyệt cũng rõ mồn một, hiệu suất quảng cáo thật sự tăng vượt bậc",
+      "name": "Marcus Vance",
+      "role": "Senior Performance Marketer @ Cluega"
+    },
+    "finalCta": {
+      "title": "Mọi nền tảng khách hàng bạn chạy quảng cáo, thông suốt qua một cổng",
+      "coverage": "TikTok Ads · Meta · Google Ads · Google Analytics · Shopify · TikTok Shop · Shopee · Lazada · Amazon · WhatsApp · Zalo · LINE · Lark",
+      "subtitle": "Cấp quyền là kết nối, để Cluega thay bạn truy cập dữ liệu, mở ra sự cộng tác tăng trưởng đa khách hàng mượt mà nhất.",
+      "ctaStart": "Bắt đầu miễn phí",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "Sức khỏe quảng cáo đa tài khoản",
+        "updated": "Cập nhật mỗi giờ",
+        "cost": "Chi phí",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "Đang chạy" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "Đang chạy" },
+          { "name": "Nova HK — Google Ads", "status": "Chờ duyệt" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "Xem & áp dụng",
+        "rows": [
+          "Giữ tổ hợp hiển thị cao và tăng ngân sách, CTR cao hơn chuẩn 32% suốt 5 ngày liền",
+          "Advantage+ trùng lặp đối tượng quá cao, nên gộp 3 nhóm quảng cáo để tiết kiệm 18% chi phí",
+          "Nội dung TikTok bị bão hòa, tần suất vượt 3.2 trong 7 ngày, nên xoay 2 nội dung mới"
+        ]
+      },
+      "accounts": {
+        "title": "Tổng quan tài khoản",
+        "subtitle": "Cấp quyền là phân tích",
+        "stageLabel": "Độ trưởng thành",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Thiết lập" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Khởi động lạnh" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Đang tối ưu" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 Bánh đà" }
+        ]
+      },
+      "maturity": {
+        "title": "Phân cấp độ trưởng thành tài khoản (M0–M5)",
+        "note": "Hệ thống tự động xác định giai đoạn hiện tại dựa trên dữ liệu lịch sử, và lọc bỏ những chỉ số nhiễu không liên quan đến giai đoạn đó.",
+        "stages": ["M0 Khởi động lạnh", "M1 Học tập", "M2 Tăng trưởng", "M3 Tối ưu", "M4 Mở rộng", "M5 Bánh đà"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 Học tập"
+      },
+      "grading": {
+        "title": "Chấm điểm nhóm quảng cáo (S / A / B / C / D)",
+        "legend": "S ngôi sao tiềm năng, một nút tăng ngân sách · D ứng viên ngừng chạy",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Nhật ký ủy thác Cluega",
+        "channels": "Khi bị từ chối, đẩy sang",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "Theo hiệu quả ROAS 7 ngày, đề xuất giảm ngân sách Meta 12%, tăng Google 18%.", "time": "2 phút trước" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "Đã tạo 3 bộ nội dung lễ hội và áp dụng cho nhóm quảng cáo khởi động lạnh.", "time": "14 phút trước" },
+          { "actor": "Ethan Chen", "tag": "Thủ công", "text": "Tăng giá thầu «Khuyến mãi mùa xuân — Chuyển đổi» lên $12.", "time": "1 giờ trước" }
+        ]
+      }
+    }
+  }
+}

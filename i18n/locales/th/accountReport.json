@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "chartTitle": "รายงานกลุ่มโฆษณารายชั่วโมง",
+    "selectedCountLabel": "โฆษณาที่เลือก",
+    "editCardTitlePrefix": "แก้ไข ",
+    "saveSuccess": "บันทึกแล้ว",
+    "stat": {
+      "adgroupReportSummary": {
+        "title": "ยอดใช้จ่ายของกลุ่มโฆษณา",
+        "subLabel": "คอนเวอร์ชันทั้งหมด",
+        "footerLabel": "CPA เฉลี่ย"
+      },
+      "accountTotalSpend": {
+        "title": "ยอดใช้จ่ายของบัญชี",
+        "subLabel": "ยอดใช้จ่ายเดือนนี้",
+        "footerLabel": "ยอดใช้จ่ายเมื่อวาน"
+      },
+      "formSubmitTotal": {
+        "title": "การส่งแบบฟอร์ม",
+        "subLabel": "ความแม่นยำโดยประมาณ",
+        "footerLabel": "EPC เฉลี่ย"
+      },
+      "reportAverageConversionRate": {
+        "title": "อัตราคอนเวอร์ชันเฉลี่ย",
+        "subLabel": "ROI โดยประมาณ",
+        "footerLabel": "อัตราคอนเวอร์ชันเมื่อวาน"
+      }
+    },
+    "modal": {
+      "defaultDialogTitle": "ปรับแต่งการ์ดสรุป",
+      "dialogDescription": "แก้ไขชื่อ รูปแบบ คำอธิบาย และสูตรของการ์ดสรุป",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "confirm": "ยืนยัน",
+      "addMetric": "เพิ่มเมตริก",
+      "formulaPlaceholder": "เลือกเมตริกและสร้างสูตร",
+      "removeMetricA11y": "ลบรายการ",
+      "formatPlaceholder": "เลือกรูปแบบ",
+      "formatNumber": "ตัวเลข",
+      "formatPercent": "เปอร์เซ็นต์",
+      "formatCurrency": "สกุลเงิน",
+      "tabMainTitle": "ชื่อเรื่อง",
+      "tabSubtitle": "ชื่อรอง",
+      "tabFooter": "ส่วนท้าย",
+      "name": "ชื่อ",
+      "namePlaceholder": "ป้อนชื่อ",
+      "format": "รูปแบบ",
+      "descriptionOptional": "คำอธิบาย",
+      "descriptionPlaceholder": "ป้อนคำอธิบาย",
+      "formula": "สูตร",
+      "metricPicker": {
+        "searchPlaceholder": "ค้นหาเมตริก",
+        "noMatch": "ไม่พบเมตริกที่ตรงกัน"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "about": {
+    "meta": {
+      "title": "Về chúng tôi | Cluega",
+      "description": "Tiền chi ra mỗi ngày — nhưng ai có thể nói rõ phần nào thực sự tạo ra đơn hàng? Chúng tôi tạo ra Cluega để truy vết kết quả đến tận nơi nó thực sự diễn ra."
+    },
+    "hero": {
+      "logoAlt": "Cluega",
+      "headline": "Xây dựng hạ tầng AI cho quảng cáo toàn cầu",
+      "subhead": "Tiền chi ra mỗi ngày — nhưng ai có thể nói rõ phần nào thực sự tạo ra đơn hàng? Vốn dĩ không nhất thiết phải như vậy. Chúng tôi tạo ra Cluega để truy vết kết quả đến tận nơi nó thực sự diễn ra."
+    },
+    "story": {
+      "title": "Câu chuyện của chúng tôi",
+      "p1": "Chúng tôi đã từng làm chính công việc bạn đang làm. Suốt những năm qua, chúng tôi chạy quảng cáo cho các thương hiệu xuyên biên giới — game, tài chính, thương mại điện tử — trải khắp các thị trường Đông Nam Á, Nam Mỹ và châu Phi. Những đêm thức trắng, ngân sách không bao giờ đủ, những mục tiêu bị đặt cao hơn một bậc — chúng tôi đều thấu hiểu.",
+      "p2": "Cũng vì thế, chúng tôi sẵn sàng nói ra điều mà trong ngành ít ai nói thẳng: phần lớn ngân sách quảng cáo, thực chất đang âm thầm bị chiết khấu. Vấn đề không nằm ở việc con người thiếu chuyên môn, mà ở chỗ công việc này đã biến thành thao tác thủ công lặp đi lặp lại, chạy ngày một nhanh nhưng dựa trên một loạt con số mà không ai hoàn toàn tin tưởng. Tiền đã chi ra, nhưng rất ít người có thể nói chắc rằng rốt cuộc phần nào mới thực sự mang lại đơn hàng.",
+      "p3": "Các nền tảng ngày càng kém minh bạch, giá trị của việc chỉnh giá thủ công giảm dần theo từng năm, và công việc bị nén lại thành đúng một việc: làm nhiều nội dung hơn, làm nhanh hơn. Những công cụ tự nhận là giúp được, phần lớn chỉ chuyển đúng khối việc đó lên trực tuyến. Không một công cụ nào trả lời được câu hỏi mà khách hàng thực sự quan tâm — số tiền này, cuối cùng có đổi lại được phần lợi nhuận đáng có hay không.",
+      "p4": "Ở những thị trường của chúng tôi, khoảng cách ấy còn lớn hơn. Đơn hàng hiếm khi được chốt trên trang đích, mà chốt trong một tin nhắn WhatsApp, một cuộc trò chuyện Zalo. Phần lớn công cụ đều dừng lại trước khi chạm tới đó.",
+      "p5": "Ngành game bộc lộ vấn đề này rõ nhất. Một người chơi từ lúc thấy quảng cáo, tải game, đăng ký, cho tới vài ngày sau mới hoàn tất một khoản thanh toán ở sâu trong game — trên hành trình đó xếp hàng cả chục nền tảng thứ ba, và mỗi bên đều tính đơn hàng ấy là công của mình. Nhưng mỗi bên chỉ nhìn thấy một đoạn, nên con số họ báo về là cách họ kể lại sự việc, chứ không phải toàn cảnh. Còn khoảnh khắc thực sự quan trọng — lúc tiền đổi chủ — thì gần như không bên nào theo được tới.",
+      "p6": "Chúng tôi tin đây đúng là việc AI phù hợp để làm. Nó không cần bảo vệ riêng đoạn nào, mà có thể ghép lại những mảnh vụn rải rác trong quảng cáo, lượt nhấp, sự kiện trong game, hội thoại và CRM, để phục dựng đúng chuỗi nhân quả thật: rốt cuộc là lần hiển thị nào đã trở thành doanh thu. Nó không có công trạng nào phải tranh, chỉ đơn giản là hoàn thiện lại đoạn đường mà không nền tảng nào vốn dĩ nhìn thấy được.",
+      "p7": "Vì vậy, chúng tôi không chờ ai khác làm điều đó nữa, mà tự mình làm ra nó."
+    },
+    "believe": {
+      "title": "Điều chúng tôi tin",
+      "intro": "Những nguyên tắc này quyết định cách chúng tôi làm sản phẩm, và cũng là lý do bạn có thể tin vào những con số mà Cluega mang lại cho bạn.",
+      "cards": {
+        "traceResults": {
+          "author": "Mark",
+          "role": "Co-founder & CEO",
+          "date": "24/06/2026",
+          "title": "Thời này, ồn ào không thiếu.",
+          "body": [
+            "Gần như ai cũng có một bộ “AI marketing” của riêng mình, mà phần lớn trong số đó chỉ khiến người ta trầm trồ trong chốc lát, còn khi bước vào công việc thực tế thì chẳng thay đổi được gì.",
+            "Mười bốn năm qua, tôi luôn đứng ở phía buộc phải giao ra kết quả. Điều đó dạy tôi rằng trước bất kỳ công nghệ mới nào, chỉ cần hỏi hai câu, còn lại tạm gác sang một bên: thời này, rốt cuộc làm được điều gì mà trước đây không làm được? Và người dùng, thực sự muốn gì?",
+            "Câu trả lời cho câu hỏi thứ hai thực ra chưa từng thay đổi. Không một người làm marketing nào thực sự muốn “AI”. Họ muốn khách hàng, muốn biết rõ đồng nào có hiệu quả, đồng nào bị lãng phí, muốn thoát khỏi những việc vụn vặt để quay về đúng phần năng lực thực sự thuộc về mình.",
+            "Điều đã thay đổi là câu trả lời cho câu hỏi thứ nhất. Lần đầu tiên, AI có thể thực sự gánh được trọng lượng, chứ không chỉ đứng bên cạnh góp ý — nhận thêm phần chạy quảng cáo, làm ra nội dung sáng tạo, theo một đơn hàng tới sát cuộc trò chuyện nơi tiền đổi chủ, rồi kể lại đúng như những gì đã diễn ra.",
+            "Đó chính là lý do Cluega tồn tại: không phải để thêm một tiếng vào chỗ ồn ào, mà để làm nó lặng xuống — bằng những kết quả bạn nhìn thấy được."
+          ]
+        },
+        "builtByOperators": {
+          "author": "Yoyo Wu",
+          "role": "Co-founder & CFO",
+          "date": "13/06/2026",
+          "title": "Thời này mang đến cho người làm marketing một khoản lợi tức, chứ không phải một mối đe dọa.",
+          "body": [
+            "Bên ngoài có nhiều lo lắng như vậy, tôi cho rằng hoàn toàn không cần thiết.",
+            "Tất nhiên, sự lo lắng đó tôi cũng hiểu. Những năm điều hành agency, tôi đã có rất nhiều đêm không ngủ — hôm nay là một mô hình lớn nào đó cập nhật, mai lại là chuyện khác, thay đổi nhanh đến mức khiến người ta ngộp thở.",
+            "Điều giúp tôi bình tâm lại là cái nền từ nghề kiểm toán của mình. Kiểm toán chỉ dạy bạn đúng một điều: con số, hoặc là đứng vững, hoặc là không, không có vùng ở giữa. Nên khi quyết định làm Cluega — ý nghĩ ấy tuy vẫn luôn ở đó — tôi rất rõ ràng: một khi đã dấn vào, nó sẽ không phải là một việc kinh doanh ngắn hạn, mà là một cuộc đầu tư dài hạn cần thời gian. Cũng như hồi sáng lập Mosaic, điều quan trọng chưa bao giờ là bắt kịp từng con sóng, mà là nhìn cho đúng cái hướng đáng để đổi bằng nhiều năm.",
+            "Marketing vốn dĩ là việc phức tạp. Trước đây, người tối ưu dành phần lớn thời gian vào việc chỉnh giá thủ công, ngồi soi bảng số, còn thứ thực sự khan hiếm lại là chiến lược, là insight, là quyết định nhanh hơn. Ý nghĩa của các mô hình ngôn ngữ lớn không nằm ở việc thay thế ai, mà ở chỗ giải phóng con người khỏi những việc vụn vặt — để người tối ưu trở lại thành người cầm lái. Nếu nói TikTok đã dùng gợi ý theo sở thích để thay đổi cách nội dung gặp được con người, thì trên đường đua marketing, các mô hình ngôn ngữ lớn thay đổi cách một “quyết định” được đưa ra: từ chỗ bị giới hạn bởi tốc độ của con người, thành theo kịp tốc độ của máy — còn phương hướng thì vẫn luôn nằm trong tay con người.",
+            "Đây cũng chính là việc Cluega đang làm. Khi thực thi những nhiệm vụ khác nhau, nó sẽ điều phối những mô hình khác nhau — lúc nào nên dùng mô hình mạnh nhất, lúc nào dùng mô hình tiết kiệm nhất, cứ để hệ thống quyết định; để người làm marketing không còn phải phân tâm vì chuyện “dùng mô hình nào”, mà chỉ việc phóng đại cả hiệu suất lẫn hiệu quả.",
+            "Trong một thế giới ngày càng ồn ào, marketing vẫn có thể trở nên rõ ràng hơn, thong dong hơn. Đây chính là câu trả lời của chúng tôi."
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Đội ngũ đằng sau",
+      "body": "Một đội ngũ xuyên biên giới trải khắp Hồng Kông, Thâm Quyến và Việt Nam, đang xây dựng hệ điều hành cho quảng cáo toàn cầu.",
+      "cta": "Gia nhập cùng chúng tôi",
+      "photoAlt": "Ảnh chụp đội ngũ Cluega"
+    },
+    "members": {
+      "title": "Thành viên nòng cốt của Cluega",
+      "subtitle": "Chúng tôi quy tụ những chuyên gia toàn chuỗi — từ chiến lược cấp cao, kỹ thuật nền tảng, khám phá AI tiên phong đến thành công khách hàng toàn cầu — cùng nỗ lực biến công nghệ phức tạp thành giá trị kinh doanh ổn định, đáng tin cậy."
+    },
+    "hiring": {
+      "title": "Gia nhập cùng chúng tôi",
+      "body": "Từ việc tiên phong kiến trúc AI Agent dựa trên MCP đến những quyết định tự động hóa trong tích tắc, chúng tôi đang xây dựng hạ tầng marketing toàn cầu thế hệ tiếp theo. Hãy gia nhập cùng chúng tôi và tạo nên tác phẩm thử thách nhất trong sự nghiệp của bạn.",
+      "cta": "Xem vị trí đang tuyển"
+    }
+  }
+}

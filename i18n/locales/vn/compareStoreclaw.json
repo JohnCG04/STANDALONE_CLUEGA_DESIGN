@@ -1,0 +1,224 @@
+{
+  "compareStoreclaw": {
+    "meta": {
+      "title": "Cluega AI vs StoreClaw | Cluega",
+      "description": "AI Agent của StoreClaw dừng ở việc thường ngày trong gian hàng; Cluega AI cũng tiếp quản vận hành gian hàng TikTok Shop／Amazon／Shopify, và trên cùng một nền dữ liệu nối thêm engine tăng trưởng quản lý toàn phần L4."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. STORECLAW",
+      "title": "Biết trông shop chỉ là tiêu chuẩn, biết làm shop lớn lên mới là khác biệt",
+      "subtitle": "AI Agent của StoreClaw dừng ở việc thường ngày trong gian hàng — chẩn đoán, Listing, SEO, nội dung social. Cluega AI cũng tiếp quản vận hành gian hàng TikTok Shop／Amazon／Shopify, và trên cùng một nền dữ liệu nối thêm engine tăng trưởng: quản lý toàn phần L4 chạy quảng cáo tự chủ, quy kết private, ăn chia theo chi tiêu quảng cáo, bao trọn chi phí quá trình.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo",
+      "cluegaLabel": "Cluega AI",
+      "storeclawLabel": "StoreClaw",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "StoreClaw vs Cluega AI",
+      "colDimension": "Tiêu chí so sánh",
+      "colStoreclaw": "StoreClaw",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "Khác biệt định vị",
+          "storeclaw": "AI Agent vận hành gian hàng thương mại điện tử: chẩn đoán, tối ưu Listing, SEO, nội dung social (chỉ trong gian hàng)",
+          "cluega": "Hạ tầng marketing AI: vận hành gian hàng có sẵn, cộng thêm quản lý toàn phần L4 chạy quảng cáo tự chủ + quy kết private"
+        },
+        {
+          "dimension": "Phạm vi tác động",
+          "storeclaw": "Backend gian hàng Shopify／Amazon／TikTok Shop／Wix… (trong gian hàng)",
+          "cluega": "Vận hành và dữ liệu chốt đơn gian hàng TikTok Shop／Amazon／Shopify + tài khoản quảng cáo Meta／Google／TikTok + private LINE／Zalo／WhatsApp (trong và ngoài gian hàng là một)"
+        },
+        {
+          "dimension": "Mức tự chủ",
+          "storeclaw": "Tự thực thi các tác vụ ít rủi ro; thay đổi giá, tồn kho, ngân sách cần người phê duyệt từng mục",
+          "cluega": "Uỷ quyền phân hạng AAIGS: độ trưởng thành M0–M5 + bậc thang T0–T3, dữ liệu càng trưởng thành thì quyền chi tiền của AI càng lớn"
+        },
+        {
+          "dimension": "Cách tính phí",
+          "storeclaw": "Thuê theo credit $0–199.9／tháng, mức tiêu credit của từng tác vụ chưa công bố định nghĩa",
+          "cluega": "Credit neo giá minh bạch (1 credit＝$0.001); quản lý toàn phần ăn chia theo chi tiêu quảng cáo 4%→2.5%→1.5%"
+        },
+        {
+          "dimension": "Năng lực quảng cáo",
+          "storeclaw": "Không có năng lực chạy và tối ưu quảng cáo",
+          "cluega": "AI tự quản giá thầu／ngân sách／tệp đối tượng／bật-tắt, sản lượng creative nằm trong phần ăn chia"
+        },
+        {
+          "dimension": "Năng lực quy kết",
+          "storeclaw": "Không có quy kết quảng cáo",
+          "cluega": "Đẩy đơn chốt private về quảng cáo: chuyển đổi mà Pixel không thấy cũng quy kết được"
+        },
+        {
+          "dimension": "Khách hàng mục tiêu",
+          "storeclaw": "Nhà bán hàng vừa và nhỏ, chủ shop một người",
+          "cluega": "Nhà quảng cáo hướng hiệu quả, đội tăng trưởng thương hiệu, agency"
+        },
+        {
+          "dimension": "Tình huống phù hợp nhất",
+          "storeclaw": "Tự động hoá để tiết sức cho việc duy trì gian hàng hằng ngày",
+          "cluega": "Vận hành gian hàng + scale thu hút khách là một: AI trông shop, đồng thời chi tiền cho tăng trưởng ở quy mô lớn và kiểm toán được"
+        }
+      ],
+      "footnote": "＊Thông tin đối thủ được tổng hợp từ website chính thức và dữ liệu công khai của bên thứ ba (đối chiếu 2026-07), thực tế lấy công bố chính thức của họ làm chuẩn.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Vì sao các đội tăng trưởng không dừng ở Agent gian hàng mà chọn thẳng Cluega AI?",
+      "items": [
+        {
+          "title": "Vận hành gian hàng, Cluega AI vốn đã làm được — nhưng không dừng ở đó",
+          "body": "Sau khi kết nối TikTok Shop／Amazon／Shopify, việc tối ưu Listing, dữ liệu sản phẩm và đơn hàng, chẩn đoán gian hàng cũng do Agent và Skill của Cluega thực hiện. Khác biệt nằm ở cái trần: Listing tối ưu tới đâu, SEO sạch tới đâu, giới hạn vẫn là lưu lượng có sẵn; thứ thực sự quyết định đường cong tăng trưởng là thu hút khách. Cluega đặt vận hành gian hàng và tăng trưởng qua quảng cáo trong cùng một hệ thống: việc tiết kiệm thời gian vẫn làm, việc phóng đại doanh thu làm tiếp."
+        },
+        {
+          "title": "Giao quyền chi tiền cần cửa van kiểm soát rủi ro, không phải phê duyệt từng mục",
+          "body": "Agent gian hàng yêu cầu người phê duyệt từng mục với các hành động rủi ro cao — nhất là những việc động đến tiền, và quy mô lớn lên là mệt mỏi vì phê duyệt. Cluega giải bài này bằng AAIGS: độ trưởng thành tài khoản M0–M5 và bậc thang uỷ quyền T0–T3 quyết định AI được tự chủ dùng bao nhiêu ngân sách; tài khoản mới khởi đầu ở mức uỷ quyền thấp rồi nới dần theo dữ liệu tích luỹ — giữa quyết đoán và mất kiểm soát có một cửa van mang tính thể chế."
+        },
+        {
+          "title": "Tính phí theo ăn chia: một khoản dự đoán được, bao trọn chi phí",
+          "body": "Nỗi đau của chế độ credit là “không biết tác vụ này đốt bao nhiêu”. Quản lý toàn phần của Cluega chỉ thu một khoản “chi tiêu quảng cáo × tỉ lệ ăn chia” (4%→2.5%→1.5%, giảm dần theo quy mô): token, hình ảnh, video ngắn, quyết định tối ưu trong quá trình đều bao trọn, thêm phí sàn quản lý $149／tháng và hàng rào bảo vệ fair-use; shop nhỏ hay shop lớn đều tính rõ được."
+        },
+        {
+          "title": "Quy kết private, đỡ lấy những đơn chốt mà gian hàng không thấy",
+          "body": "Trên toàn cầu có rất nhiều đơn chốt không nằm trong giỏ hàng, mà nằm trong tin nhắn riêng WhatsApp／LINE／Zalo. Thế giới của StoreClaw dừng ở backend gian hàng; Cluega đẩy thông tin thu thập và đơn chốt từ hội thoại private về nguồn quảng cáo, để toàn chuỗi từ quảng cáo đến đơn chốt lần đầu tiên tính được rõ ràng."
+        }
+      ]
+    },
+    "panels": {
+      "accountMaturity": {
+        "title": "Ad Accounts Overview",
+        "stages": [
+          "M0 Khởi động lạnh",
+          "M1 Học tập",
+          "M2 Tăng trưởng",
+          "M3 Tối ưu",
+          "M4 Mở rộng",
+          "M5 Bánh đà"
+        ]
+      },
+      "agentChat": {
+        "connected": "Sophia đã kết nối Cluega tới SHOP-2026",
+        "examining": "🔍 Đang chẩn đoán sâu lưu lượng TikTok và tỷ lệ chốt đơn livestream Facebook...",
+        "worked": "Chẩn đoán sâu hoàn tất, mất 7 giây",
+        "pushed": "🚀 Thực thi vận hành đa kênh hằng ngày:",
+        "change1Label": "TikTok_Shop_Batch",
+        "change1Body": "Thay hàng loạt ảnh chính livestream có tỷ lệ chuyển đổi cao và tự động cập nhật đăng/gỡ bán",
+        "change2Label": "Social_Media_Push",
+        "change2Body": "Tự động tạo bài viết từ khóa hot Indonesia/Việt Nam, chuẩn bị gửi hàng loạt tới Fanpage FB, Zalo và LINE",
+        "inventory": "Mức tồn kho: 14 sản phẩm hot có số ngày quay vòng < 3 ngày",
+        "output": "Sản phẩm: Bộ nội dung & tư liệu vận hành hàng hot Đông Nam Á.zip",
+        "placeholder": "Giao một tác vụ hoặc hỏi bất cứ điều gì…"
+      },
+      "mmtStatus": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Thời gian tạo",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Tổng sự kiện",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Chi phí chốt đơn trung bình",
+        "legend": "Tất cả"
+      },
+      "radar": {
+        "labelBrand": "Thương hiệu",
+        "brandValue": "Thương hiệu Alpha",
+        "labelChange": "Thay đổi",
+        "changeValue": "+28%",
+        "labelActivity": "Động thái",
+        "activityValue": "Thêm 12 nội dung quảng cáo",
+        "actionLabel": "Tạo nội dung đối chuẩn",
+        "approvedBy": "Đã theo dõi",
+        "resultPill": "Đã tạo nội dung đối chuẩn và thông báo nhóm tăng trưởng"
+      },
+      "thread": {
+        "messages": [
+          { "sender": "Sarah", "time": "1 phút trước", "body": "Sản phẩm này còn giảm giá không ạ?" },
+          {
+            "sender": "Cluega",
+            "time": "1 phút trước",
+            "body": "💡Đã nhận diện hành vi cân nhắc với ý định mua cao"
+          },
+          {
+            "sender": "Cluega",
+            "time": "Vừa xong",
+            "body": "Chào Sarah! Thấy bạn rất thích sản phẩm này, mình đã xin riêng cho bạn một [voucher giảm 15% giới hạn]! Bạn bấm vào link bên dưới để nhận ngay nhé."
+          }
+        ]
+      },
+      "billing": {
+        "steps": ["Khách vào shop hỏi sản phẩm", "MMT nhận diện ý định do dự", "Tự gửi voucher để chốt đơn"],
+        "success": "Chuyển đổi thành công: thanh toán hợp lệ",
+        "outcome": "Đạt Outcome: thu $0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "E-COMMERCE & IM PRIVATE FLYWHEEL",
+      "title": "Không chỉ tự động hoá việc shop, mà biến “chi tiền để tăng trưởng” thành một hệ thống có thể giao cho AI quản",
+      "items": [
+        {
+          "title": "Vận hành gian hàng có sẵn",
+          "body": "Kết nối TikTok Shop／Amazon／Shopify; Listing, dữ liệu sản phẩm và đơn hàng, chẩn đoán gian hàng do Agent được 400+ mô hình dẫn động thực hiện."
+        },
+        {
+          "title": "Quản lý toàn phần L4",
+          "body": "AI chạy quảng cáo tự chủ, ăn chia theo chi tiêu và bao trọn chi phí quá trình; campaign do người vận hành thủ công được loại ra theo quy thuộc dấu vết AD, không thu thêm."
+        },
+        {
+          "title": "Kiểm soát rủi ro AAIGS",
+          "body": "Phân hạng tài khoản (M0–M5) + bậc thang uỷ quyền (T0–T3), mỗi quyết định kèm log kiểm toán, giao quyền có căn cứ."
+        },
+        {
+          "title": "Quy kết private IM",
+          "body": "Đơn chốt trong tin nhắn riêng được đẩy về quảng cáo, bù lấp đoạn đứt giữa báo cáo gian hàng và nền tảng quảng cáo."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Tôi nên chọn giải pháp nào?",
+      "storeclaw": {
+        "label": "Chọn StoreClaw",
+        "body": "Bạn là nhà bán hàng vừa và nhỏ hoặc chủ shop một người, chỉ cần tự động hoá việc duy trì gian hàng hằng ngày — nhắc tồn kho, tối ưu Listing, bài đăng social — hoàn toàn không có ý định chạy quảng cáo, thu hút khách dựa hết vào lưu lượng tự nhiên."
+      },
+      "cluega": {
+        "label": "Chọn Cluega AI",
+        "body": "Bạn muốn một hệ thống quản đến cùng: vận hành gian hàng được chăm tốt, đồng thời để AI chạy quảng cáo tự chủ và kiểm toán được, năng lực sản xuất creative gắn vào ngân sách, quy kết chốt đơn private khép vòng — mức phí gắn trực tiếp với hiệu quả quảng cáo của bạn, chứ không phải nuôi hai công cụ riêng cho việc shop và việc tăng trưởng."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả chi tiết bạn có thể muốn biết trước khi liên hệ đội ngũ của chúng tôi.",
+      "contact": "Liên hệ kinh doanh",
+      "items": [
+        {
+          "q": "Cluega AI có làm được những việc vận hành gian hàng như StoreClaw không?",
+          "a": "Được. Sau khi kết nối TikTok Shop／Amazon／Shopify, các việc vận hành như tối ưu Listing, đồng bộ dữ liệu sản phẩm và đơn hàng, chẩn đoán gian hàng đều do Agent và Skill của Cluega thực hiện. Khác biệt nằm ở kiến trúc: Cluega đặt dữ liệu gian hàng, tài khoản quảng cáo và hội thoại private trên cùng một nền dữ liệu, việc shop không phải một hòn đảo mà là một phần của quyết định quy kết và chạy quảng cáo."
+        },
+        {
+          "q": "Quản lý toàn phần L4 thực chất là gì?",
+          "a": "L4 chỉ cấp AI chạy quảng cáo tự chủ: bạn giao tài khoản quảng cáo cho AI, nó tự quyết giá thầu, ngân sách, tệp đối tượng và việc loại thải creative; ăn chia phân hạng theo mức chi tiêu quảng cáo mà AI thực tế quản lý (4%→2.5%→1.5%). Trong thời gian đó toàn bộ chi phí token và sinh creative đều bao trọn, bạn chỉ trả một khoản."
+        },
+        {
+          "q": "AI có chi tiền bừa không?",
+          "a": "Có ba lớp bảo hiểm: bậc thang uỷ quyền AAIGS cho tài khoản mới khởi đầu ở mức quyền thấp; mọi quyết định kèm log kiểm toán để truy ngược; việc tính phí chỉ tính phần chi tiêu thuộc quy thuộc dấu vết AD của Cluega, campaign bạn tự mở thủ công không tính ăn chia. Quyền chi tiền của AI luôn gắn với độ trưởng thành dữ liệu của tài khoản."
+        },
+        {
+          "q": "Đội nhỏ, không có Media Buyer chuyên trách, ngưỡng khởi đầu có cao không?",
+          "a": "Không cao. $12／tuần là dùng thử được, từ $99／tháng gói Pro là bật được quản lý toàn phần (4% ăn chia, phí sàn quản lý $149／tháng); so với việc tự tuyển Media Buyer hay phí dịch vụ 10–15% của agency người thật, đó là khoảng cách một cấp độ lớn."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Dùng Cluega AI để giao ngân sách tăng trưởng cho một tay lái không bao giờ mỏi.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    }
+  }
+}

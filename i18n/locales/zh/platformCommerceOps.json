@@ -1,0 +1,298 @@
+{
+  "platformCommerceOps": {
+    "hero": {
+      "eyebrowNew": "全新上線",
+      "eyebrowLabel": "Agent →",
+      "title": "一個 agent，把你的電商日常跑起來。",
+      "sub1": "接上 Shopee、Lazada、TikTok Shop 與 Zalo／LINE，Cluega 自動診斷店鋪、長流量、產內容、跨渠道上下架，並透過 Lark 主動播報。",
+      "sub2": "我們把懂東南亞電商的運營判斷力，編碼成一個會自己動手的系統。"
+    },
+    "heroMock": {
+      "topbar": {
+        "task": "TikTok Shop",
+        "issueId": "SHOP-2026"
+      },
+      "sidebar": {
+        "main": {
+          "inbox": "營運收件箱",
+          "tasks": "執行中任務",
+          "reviews": "待審批內容",
+          "pulse": "實時脈搏"
+        },
+        "workspaceLabel": "工作區",
+        "workspace": {
+          "initiatives": "倡議",
+          "projects": "專案",
+          "more": "更多"
+        },
+        "favoritesLabel": "渠道管理",
+        "favorites": {
+          "tiktok": "TikTok Shop",
+          "facebook": "Facebook",
+          "zalo": "Zalo",
+          "line": "LINE"
+        }
+      },
+      "center": {
+        "counter": "02 / 145",
+        "title": "店鋪健康度自動診斷",
+        "desc": "Cluega 已完成今日例行診斷。偵測到 TikTok Shop 直播間流量急升但庫存告急，Facebook 粉專與 Zalo/LINE 私域客服回覆率受夜間時段干擾。系統已自動生成跨渠道調配方案與長流量內容。",
+        "activityLabel": "活動",
+        "act1": "Cluega 透過 Facebook Messenger 接收到客戶詢價與庫存預警。",
+        "act1Time": "2分鐘前",
+        "act2": "AI 診斷系統已自動加上標籤「流量下滑」、「私域劣化」。",
+        "act2Time": "2分鐘前",
+        "comment1": {
+          "name": "Sophia",
+          "time": "4 分鐘前",
+          "text": "目前 TikTok Shop 越南女裝轉化率偏低，主圖好像不夠吸引東南亞本地市場..."
+        },
+        "comment2": {
+          "name": "Cluega",
+          "time": "剛剛",
+          "text": "收到，正在根據東南亞電商消費習慣重新產出高點擊率內容與主圖。"
+        },
+        "act3": "Cluega 已連接 · 更新 12 項商品 · 草稿待審核 · 2分鐘前",
+        "act4": "Cluega 已將狀態從「待辦」移至「執行中」 · 剛剛"
+      },
+      "meta": {
+        "gmv": "GMV: $48,250 USD (+12%)",
+        "cr": "CR: 1.8% (↓ 0.4%)",
+        "assignee": "Sophia",
+        "agent": "Cluega"
+      },
+      "agent": {
+        "connected": "Sophia 已將 Cluega 連接至 SHOP-2026",
+        "examining": "🔍 正在深度診斷 TikTok 流量與 Facebook 直播抓單轉化率...",
+        "worked": "深度診斷完成，耗時 7 秒",
+        "pushed": "🚀 執行跨渠道日常營運：",
+        "change1Label": "TikTok_Shop_Batch",
+        "change1Body": "批量替換高轉化直播主圖，並自動更新上下架",
+        "change2Label": "Social_Media_Push",
+        "change2Body": "自動生成印尼/越南熱搜詞貼文，準備群發至 FB 粉專、Zalo 與 LINE",
+        "inventory": "庫存水位：14 款爆品週轉天數 < 3 天",
+        "output": "產出：東南亞爆款營運文案與素材包.zip",
+        "placeholder": "指派任務或提出任何問題…"
+      }
+    },
+    "intakeMock": {
+      "thread": {
+        "title": "營運預警",
+        "m1": {
+          "name": "Cluega",
+          "time": "4:38 PM",
+          "text": "異常預警：TikTok Shop 越南店鋪過去 1 小時轉換率突然下滑 45%。分析競品動態發現，主要競爭對手剛剛上線了「買一送一」大促活動，導致我們的價格失去競爭力，若不處理預估今日將面臨 $1,200 USD 的潛在利潤虧損。"
+        },
+        "m2": {
+          "name": "Marcus",
+          "time": "4:38 PM",
+          "text": "你診斷出原因了嗎？我們目前有哪些利潤空間可以跟進調整？"
+        },
+        "m3": {
+          "name": "Cluega",
+          "time": "4:38 PM",
+          "text": "診斷完畢：建議立刻啟用「多件折價」自動修復方案。我已根據當前供應鏈庫存與利潤率，算出了最優解：設置「滿 2 件享 85 折」，既能追平競品吸引力，又能維持 18% 的淨利潤。"
+        },
+        "inputMention": "@Cluega",
+        "inputText": "執行優化方案，並將後續追蹤列入看板"
+      },
+      "columns": {
+        "backlog": "待辦池",
+        "todo": "待核准優化",
+        "progress": "Cluega 自動執行中",
+        "done": "已完成"
+      },
+      "cards": {
+        "OPS-2085": { "title": "盤點滯銷 SKU", "l1": "庫存" },
+        "OPS-2092": { "title": "捆綁過季冬季庫存" },
+        "OPS-2061": { "title": "削減低效廣告組" },
+        "OPS-2104": { "title": "下架 Shopee 斷貨連結", "l1": "庫存" },
+        "SHOP-102": { "title": "越南 TikTok 調整為滿 2 件 85 折", "l1": "虧損風險", "l2": "價格優化" },
+        "SHOP-103": { "title": "LINE 官方帳號新客歡迎詞無響應", "l1": "轉換率異常" },
+        "SYS-099": { "title": "升級 Cluega 智慧調價模型", "l1": "系統升級" },
+        "SHOP-118": { "title": "Lazada 優惠券未自動套用", "l1": "促銷異常" },
+        "WORK-771": { "title": "批量替換 TikTok Shop 劣質主圖素材", "status": "執行中" },
+        "MKT-402": { "title": "Facebook 爆款文案長流量群發", "l1": "內容產出" },
+        "STOCK-501": { "title": "Zalo 庫存自動調配防斷貨", "l1": "庫存預警", "status": "執行中" },
+        "OPS-771": { "title": "刷新 Zalo OA 廣播" },
+        "OPS-640": { "title": "重新定價清倉組合" }
+      }
+    },
+    "planMock": {
+      "title": "關鍵渠道託管",
+      "g1": { "name": "傳統搜尋與電商", "c1": "Google", "c2": "TikTok", "c3": "本地社群" },
+      "g2": { "name": "智慧生成式搜尋優化", "c1": "ChatGPT", "c2": "Perplexity" },
+      "r1": { "title": "TikTok 搜尋矩陣", "s1": "熱搜詞對齊", "s2": "權重優化" },
+      "r2": { "title": "ChatGPT", "s1": "語意結構", "s2": "推薦測試" },
+      "r3": { "title": "Google 全域流量", "s1": "流量放大" }
+    },
+    "monitorBoard": {
+      "pulseTitle": "Cluega",
+      "listen": "Running",
+      "projects": "用戶指令：『幫我把店鋪上個月的爆款同步到 TikTok Shop，並生成整月社群排程、自動追蹤數據！』",
+      "cycleTitle": "核心營運引擎效能動態",
+      "agent1": "SyncEngine",
+      "agent2": "ContentAI",
+      "agent3": "OmniTracker",
+      "proj1": {
+        "name": "渠道連接與自動技能",
+        "status": "Ready",
+        "p1": "成功一鍵打通 Shopify 與 TikTok Shop 渠道連接。",
+        "p2": "自動技能已載入：AI 自動捕獲全網熱搜爆款與大促選品推薦。"
+      },
+      "proj2": {
+        "name": "2. 排程託管與成效追蹤 (Schedule & Tracking)",
+        "status": "Processing",
+        "p1": "7 月份跨渠道爆款社群內容已批量生成完畢。",
+        "p2": "自動排程機器人已就緒，OmniTracker 正在同一處建立數據回傳模型。"
+      }
+    },
+    "diffMock": {
+      "left": {
+        "c1": "技能模組：自動化防守技能 (防虧損、控庫存)",
+        "guardArg": "Shopify_獨立站",
+        "c9": "【技能 01】自動追蹤競品，進行智慧調價",
+        "onArg": "偵測到競品低價打折",
+        "mProfit": "目前利潤空間",
+        "mUndercut": "調價比競品低",
+        "c12": "降 50 元反擊",
+        "mHold": "守住底線",
+        "holdArg": "觸及利潤警戒線，不跟價",
+        "c18": "【技能 02】內建四大平台大促活動自動提報與控價",
+        "mSignup": "自動報名大促",
+        "activityVal": "雙位數大促與限時特賣",
+        "c22": "限制全店最高只能打 8 折，防止神仙券疊加虧損",
+        "c23": "提報成功後自動鎖定大促專屬活動庫存"
+      },
+      "right": {
+        "c1": "技能模組：自動化進攻技能 (搶流量、拓渠道)",
+        "agentArg": "東南亞跨境市場",
+        "c9": "【技能 03】內建智慧生成式搜尋優化 (GEO)",
+        "mEncode": "啟動全網素材編碼",
+        "style1": "語意推薦優化",
+        "style2": "權重提升優化",
+        "style3": "全域關鍵字佔領",
+        "c16": "【技能 04】一個月社群內容，幾分鐘內全渠道生成排程",
+        "mBatch": "批量生成整月大禮包",
+        "durComment": "整整一個月內容",
+        "toneVal": "在地爆款網路流行語",
+        "mPublish": "一鍵跨渠道自動排程發布"
+      }
+    },
+    "logoWordmarks": ["Shopee", "Lazada", "TikTok Shop", "Shopify", "Zalo OA", "LINE OA"],
+    "intro": {
+      "lead": "一種新的電商運營方式。",
+      "rest": "由東南亞電商實戰塑形，由 agent 驅動，為速度而生。"
+    },
+    "triad": {
+      "purpose": {
+        "title": "為電商而生",
+        "body": "由東南亞電商運營的實戰知識塑形，不是通用聊天機器人。"
+      },
+      "agents": {
+        "title": "由 AI agent 驅動",
+        "body": "多個專職 agent 協作：診斷、增長、內容、運營，各司其職。"
+      },
+      "speed": {
+        "title": "為速度設計",
+        "body": "24/7 不間斷，異常即時診斷，一句指令跨步驟跑完。"
+      }
+    },
+    "blocks": {
+      "intake": {
+        "cta": "診斷",
+        "title": "在虧損之前，\n就知道哪裡出問題",
+        "body": "Cluega 全天候盯著你的訂單、庫存與轉換率。一有異動，它不只是通知你——它診斷出原因，並告訴你怎麼修，在你打開後台之前。",
+        "sublinks": ["健康監控", "異常診斷", "修復建議", "Lark 播報"]
+      },
+      "plan": {
+        "cta": "增長",
+        "title": "出現在買家搜尋的\n每一個地方",
+        "body": "讓你的商品在 Google、TikTok 搜尋，以及 ChatGPT、Perplexity 等 AI 搜尋裡被找到、被推薦——你不必搞懂 SEO 和 GEO 的差別。",
+        "sublinks": ["SEO", "GEO", "商品文案", "站內優化"]
+      },
+      "build": {
+        "cta": "內容",
+        "title": "一個月的內容，\n幾分鐘搞定",
+        "body": "Cluega 一次生成整月的社群內容，跨渠道排程，並追蹤成效。它會學哪種內容最有效、隨時間調整，大幅減少手動工作。",
+        "sublinks": ["內容生成", "排程", "成效追蹤", "素材庫"]
+      },
+      "diffs": {
+        "cta": "擴張",
+        "title": "每個渠道都有 playbook，\n你全都有",
+        "body": "內建 Shopee、Lazada、TikTok Shop、Shopify 的運營技能。不必從零開始就能擴張到新渠道，並在同一處追蹤所有渠道的表現。",
+        "sublinks": ["Shopee", "Lazada", "TikTok Shop", "統一報表"]
+      },
+      "monitor": {
+        "cta": "運營",
+        "title": "一句指令，\n跨步驟自動跑完",
+        "body": "用對話下指令，Cluega 就在你的店鋪上跨步驟執行：對話運營、自動技能、渠道連接、排程託管——四個模組，一個運營引擎。",
+        "sublinks": ["對話運營", "自動技能", "渠道連接", "排程託管"]
+      }
+    },
+    "changelog": {
+      "title": "解鎖更多 Cluega 技能",
+      "c1": {
+        "title": "AI 視覺設計",
+        "body": "秒級生成爆款素材",
+        "link": "前往 AI 視覺設計"
+      },
+      "c2": {
+        "title": "Agent",
+        "body": "在通訊軟體裡指揮你的行銷助理",
+        "link": "探索全託管模式"
+      }
+    },
+    "buildMock": {
+      "log1": "收到指令！正在啟動「東南亞 7 月份全渠道社群矩陣爆款內容」生成任務。",
+      "log2": "正在分析過往 90 天 TikTok 與 FB 高轉換貼文的文意、視覺風格與點擊成效...",
+      "log3": "學習演算法已鎖定印尼、越南、泰國市場本月熱搜趨勢與大促標籤。",
+      "cmd": "[Cluega_AI_Content_Generator] --mode=batch_generate --duration=30_days",
+      "cmdResult": "➔ 已完成：28 篇 TikTok 短影音腳本、30 篇 FB 爆款文案、30 組 Zalo/LINE 促銷推播。",
+      "log5": "跨渠道自動排程已同步置入：7/1 - 7/31 每日黃金流量時段。",
+      "thinking": "正在評估內容成效預測模型，持續優化隨時間調整機制...",
+      "assignPlaceholder": "指派成效追蹤負責人"
+    },
+    "monitorMock": {
+      "title": "Cluega",
+      "listen": "Running",
+      "command": "用戶指令：『幫我把店鋪上個月的爆款同步到 TikTok Shop，並生成整月社群排程、自動追蹤數據！』",
+      "chartTitle": "核心營運引擎效能動態",
+      "steps": {
+        "s1": {
+          "name": "渠道連接與自動技能",
+          "status": "Ready",
+          "points": [
+            "成功一鍵打通 Shopify 與 TikTok Shop 渠道連接。",
+            "自動技能已載入：AI 自動捕獲全網熱搜爆款與大促選品推薦。"
+          ]
+        },
+        "s2": {
+          "name": "2. 排程託管與成效追蹤 (Schedule & Tracking)",
+          "status": "Processing",
+          "points": [
+            "7 月份跨渠道爆款社群內容已批量生成完畢。",
+            "自動排程機器人已就緒，OmniTracker 正在同一處建立數據回傳模型。"
+          ]
+        }
+      }
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "我們把複雜的跨平台 API 和繁瑣的點擊邏輯，全部封裝進了一個會思考的大腦。在 Cluega 裡，你對話的不是機器，而是幾萬個頂尖賣家的營運總和。",
+        "name": "Kin",
+        "role": "Chief Technology Officer"
+      },
+      "t2": {
+        "quote": "我們不只是把功能硬接在一起，而是重新架構了跨平台營運的數據流，把繁瑣的庫存控管與跨平台內容排程，轉化為順暢執行的自動化 Playbook。",
+        "name": "Jimmy",
+        "role": "VP of Engineering"
+      }
+    },
+    "finalCta": {
+      "title": "為下一代賣家打造。\n今天就能用。",
+      "primary": "免費開始",
+      "secondary": "聯絡業務"
+    }
+  }
+}

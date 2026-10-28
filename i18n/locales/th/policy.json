@@ -1,0 +1,130 @@
+{
+  "links": {
+    "terms": "Terms",
+    "aiUsage": "AI Usage Policy",
+    "privacy": "Privacy",
+    "termsAndPolicy": "Terms & Policy"
+  },
+  "pageTitle": "Terms, Policies & AI Usage Warnings",
+  "lastUpdated": "Last updated: 3 August 2026",
+  "intro": "These terms govern your use of Cluega and the AI models available through it. Please read the AI usage warnings carefully — you remain responsible for every prompt you submit and every output you publish.",
+  "tocTitle": "On this page",
+  "rail": {
+    "label": "Policy",
+    "tooltip": "Terms, policies & AI usage warnings"
+  },
+  "back": "Back to canvas",
+  "banner": {
+    "title": "Violations can get your account banned",
+    "body": "Requests that break these rules may be blocked before they run or fail mid-job. Repeated or severe violations — especially anything involving minors — lead to suspension or permanent termination, and are reported to the authorities where the law requires it."
+  },
+  "sections": {
+    "acceptance": {
+      "title": "1. Acceptance of these terms",
+      "body": "By creating a project, submitting a prompt, or generating any image, video, audio or text on Cluega, you accept these terms and the policies referenced below.",
+      "bullets": [
+        "You must have the legal capacity to enter into a contract in your jurisdiction, and you must meet the minimum age for digital consent that applies where you live.",
+        "If you use Cluega on behalf of a company or client, you confirm you are authorised to accept these terms for them.",
+        "We may update these terms as features, models and applicable law change. Continued use after an update means you accept the revised terms."
+      ]
+    },
+    "aiUsage": {
+      "title": "2. Using AI models — what you must know",
+      "body": "Cluega routes your requests to third-party AI models. Output is generated statistically, not verified. Treat it as a draft, never as fact.",
+      "bullets": [
+        "Output can be wrong, outdated, biased, or entirely fabricated — including names, statistics, quotes, prices and product claims. Verify anything factual before you publish it.",
+        "The same prompt can produce different results on different runs. Nothing about output is guaranteed to be unique, reproducible, or free of resemblance to existing work.",
+        "You are responsible for reviewing, editing and approving output before it reaches customers, an ad platform, or the public.",
+        "Where the law requires it, disclose that content was generated or assisted by AI.",
+        "Model availability, quality, speed and pricing depend on upstream providers and can change or fail without notice.",
+        "Do not rely on AI output for decisions with legal, medical, safety or financial consequences without a qualified human review."
+      ]
+    },
+    "prohibited": {
+      "title": "3. Prohibited use and abuse",
+      "body": "The following uses are forbidden. Requests may be refused or fail, and repeated attempts can lead to suspension or termination.",
+      "bullets": [
+        "Fraud, scams, phishing, fake giveaways, fake reviews or testimonials, and any deceptive advertising.",
+        "Impersonating a real person, brand or public authority, and creating deepfakes or voice clones of identifiable people without their documented consent.",
+        "Sexual content, harassment, hate speech, slurs, incitement to violence, or content targeting a person or protected group.",
+        "Self-harm, suicide, eating-disorder, weapons or drug-manufacturing instructions.",
+        "Malware, exploits, credential-stealing pages, spam infrastructure, or content designed to evade platform moderation.",
+        "Attempts to bypass safety controls: jailbreak prompts, prompt injection, system-prompt extraction, or data exfiltration from tools and connected sources.",
+        "Automated scraping of the service, load-testing without permission, sharing API keys, or reselling model access as your own service.",
+        "Uploading personal data of others without a lawful basis, and uploading confidential material you are not permitted to process."
+      ]
+    },
+    "financial": {
+      "title": "4. Financial content — no advice",
+      "body": "Cluega is a creative and marketing tool, not a financial adviser. Nothing produced through it is investment, tax, accounting or legal advice.",
+      "bullets": [
+        "Do not use output as a basis for investment, trading, lending, insurance or tax decisions.",
+        "Do not generate content promising returns, guaranteed profits, \"risk-free\" earnings, or trading signals, and do not present AI output as a professional recommendation.",
+        "Financial, crypto, lending, gambling and insurance promotions are heavily regulated in most countries. If you advertise in these categories, complying with disclosure, licensing and ad-platform rules is entirely your responsibility.",
+        "Any price, cost or performance figure that appears in generated copy must be independently verified before publication."
+      ]
+    },
+    "minors": {
+      "title": "5. Children and minors — zero tolerance",
+      "body": "There is no exception, no artistic exemption and no test case for content that sexualises or endangers a minor.",
+      "bullets": [
+        "Any attempt to generate, upload, describe or request sexual, nude, suggestive or exploitative content involving a minor is strictly forbidden.",
+        "Such activity results in immediate termination of the account, and we will preserve and report the relevant records to the competent authorities where the law requires it.",
+        "Do not upload photographs of children as reference material for generation.",
+        "Cluega is not directed at children. Do not let a child use your account, and do not create an account for anyone below the minimum age of digital consent in your country.",
+        "Advertising aimed at children must comply with the additional protections that apply in your market."
+      ]
+    },
+    "adultContent": {
+      "title": "6. Adult and 18+ content",
+      "body": "Cluega is not an adult-content platform. Explicit generation is out of scope for this service.",
+      "bullets": [
+        "Pornographic, sexually explicit and gratuitously violent or gory generation is not permitted, including through euphemism, coded wording or reference images.",
+        "Upstream model providers run their own moderation. A request they classify as unsafe will be rejected and the job will fail — this is outside our control and is not a service fault.",
+        "Repeated attempts to produce prohibited material are treated as abuse and may lead to rate limiting, suspension or termination.",
+        "Age-restricted products (alcohol, tobacco, gambling, adult goods) may only be advertised where local law and the destination ad platform allow it, with the required audience targeting."
+      ]
+    },
+    "ipRights": {
+      "title": "7. Intellectual property and uploaded material",
+      "body": "You are responsible for the rights in everything you put into Cluega and everything you take out of it.",
+      "bullets": [
+        "Only upload images, video, audio, fonts or text that you own or are licensed to use.",
+        "Do not use third-party trademarks, logos, characters or a person's likeness without permission. Some models refuse branded material outright.",
+        "Copyright in AI-generated output is unsettled and varies by country — in several jurisdictions purely generated material may not be protectable at all.",
+        "Third-party model and provider terms apply on top of these terms, including any restriction on commercial use of a specific model's output."
+      ]
+    },
+    "enforcement": {
+      "title": "8. Enforcement, blocking and availability",
+      "body": "We operate content and safety controls across the routing layer and the media pipeline, and providers apply their own on top.",
+      "bullets": [
+        "A request may be refused before it runs, or fail mid-job, when it is flagged by our safety policy or by a provider's moderation system.",
+        "Safety controls are not perfect in either direction: prohibited material can slip through, and legitimate requests are sometimes blocked by mistake. Neither outcome changes what these terms permit.",
+        "We may rate limit, suspend or terminate access for policy violations, abusive load, non-payment or suspected fraud.",
+        "The service is provided on an \"as is\" basis. We do not guarantee uninterrupted availability, specific model uptime, or fitness for a particular purpose.",
+        "Report abuse or a policy concern to us using the contact below."
+      ]
+    },
+    "dataPrivacy": {
+      "title": "9. Data and privacy",
+      "body": "What we keep is limited to what is needed to run, bill and secure the service.",
+      "bullets": [
+        "Prompt and response bodies are not retained in our usage and spend logs — content retention is disabled at the routing layer.",
+        "We do record request metadata: timestamp, model, token counts, cost, tenant and user identifiers, and error status. This is used for billing, quotas, abuse prevention and troubleshooting.",
+        "Assets you upload and files generated for you are stored in Cluega storage so you can reopen your projects, and are deleted with the project.",
+        "Your prompts are transmitted to the third-party model provider that serves the request; their own processing and retention terms then apply.",
+        "Do not submit payment card details, passwords, health records or government identity numbers in a prompt."
+      ]
+    },
+    "contact": {
+      "title": "10. Contact",
+      "body": "Questions about these terms, takedown requests and abuse reports can be sent to our support team, who will route them to the responsible owner.",
+      "bullets": [
+        "Support and policy questions: support@cluega.com",
+        "Abuse, safety and child-safety reports: abuse@cluega.com",
+        "Include the project name, the approximate time, and the model used so we can locate the request."
+      ]
+    }
+  }
+}

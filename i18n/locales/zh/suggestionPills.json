@@ -1,0 +1,1680 @@
+{
+  "pills": {
+    "ads": "投放廣告",
+    "adVideo": "視頻",
+    "design": "圖片",
+    "chatMode": "Chat 模式",
+    "more": "更多",
+    "marketInsights": "市場洞察",
+    "managedTasks": "託管任務",
+    "imChat": "IM通訊",
+    "faceDetect": "人臉檢測",
+    "faceSwap": "人臉替換",
+    "ecommerce": "電商運營",
+    "playbook": "Playbook",
+    "mediaAuto": "媒體"
+  },
+  "toolNames": {
+    "creative": "設計"
+  },
+  "imageTool": {
+    "close": "關閉",
+    "modeGroupLabel": "創作類型"
+  },
+  "creative": {
+    "tabs": {
+      "agent": "智能體"
+    },
+    "referenceLabel": "參考",
+    "referenceUsage": "僅參考風格與節奏",
+    "referenceCoverOnly": "僅有封面圖，節奏為推測",
+    "referenceUnusedByMethod": "此生成方式不會使用",
+    "link": {
+      "resolving": "正在讀取連結…",
+      "unreadable": "無法讀取此連結 — 將不使用它繼續生成",
+      "blocked": "此網站封鎖了讀取 — 將不使用它繼續生成",
+      "down": "此網站無回應 — 將不使用它繼續生成",
+      "photos": "{count} 張圖片",
+      "retry": "重試",
+      "removeLink": "移除此連結",
+      "deselectPhoto": "不使用這張圖片",
+      "selectPhoto": "使用這張圖片"
+    },
+    "triState": {
+      "auto": "AI 決定",
+      "on": "有",
+      "off": "無"
+    },
+    "languages": {
+      "en": "英語",
+      "vi": "越南語",
+      "zh": "中文"
+    },
+    "agent": {
+      "title": "輸出選項",
+      "videoGroup": "本輪產出影片時",
+      "imageGroup": "本輪產出圖片時",
+      "music": "音樂",
+      "voiceover": "配音",
+      "language": "語言",
+      "duration": "時長",
+      "durationHint": "交付的總長度。超過單次拍攝的長度會先規劃分鏡再剪接。不選則採用你在指令中寫的時長。",
+      "videoCount": "影片數量",
+      "videoCountHint": "預設 2 部。在你點選之前，訊息中寫的數量優先。",
+      "videoUnit": "部影片",
+      "videoUnitOne": "部影片"
+    },
+    "audio": {
+      "title": "聲音"
+    },
+    "brand": {
+      "title": "品牌",
+      "none": "尚無品牌套件",
+      "off": "這次不套用",
+      "setUp": "設定品牌套件 →",
+      "hint": "logo 與必要文案是合成到成品上的，不由模型繪製。",
+      "emptyHint": "目前沒有任何東西讓這些圖片遵循你的品牌。品牌套件會固定 logo、精確色值與必要文案。"
+    },
+    "style": {
+      "title": "風格",
+      "auto": "不使用",
+      "groupIgaming": "iGaming",
+      "groupGeneral": "通用"
+    },
+    "image": {
+      "title": "圖片選項",
+      "imageCount": "圖片數量",
+      "imageCountHint": "並行生成——挑選你喜歡的一張",
+      "imageUnit": "張圖片"
+    },
+    "video": {
+      "methodLabel": "生成方式",
+      "durationLabel": "時長",
+      "durationSuffix": "秒",
+      "methods": {
+        "reference": {
+          "title": "參考影片",
+          "description": "上傳多張圖片，我們會把圖中的產品、人物與場景帶入影片。"
+        },
+        "imageToVideo": {
+          "title": "圖片轉影片",
+          "description": "為靜態圖片加上運鏡效果，你的圖片會成為影片的第一個畫面。"
+        },
+        "textToVideo": {
+          "title": "文字轉影片",
+          "description": "直接用文字從零生成一段影片。"
+        },
+        "videoToVideo": {
+          "title": "視頻轉視頻",
+          "description": "沿用參考視頻本身的畫面，僅改變風格。與“參考視頻”不同，此方式會複用原片畫面。"
+        }
+      },
+      "durationModelHint": "此模型單鏡頭可生成 {list}",
+      "durationUnknownHint": "尚未取得此模型的單鏡頭時長；更長的長度一律以分鏡剪接產出",
+      "durationSingleShotLabel": "單鏡頭",
+      "durationStitchedLabel": "多鏡頭拼接",
+      "durationStitchedHint": "更長的長度會自動分鏡拍攝，再剪接成一支影片（最長 {max}）",
+      "durationStitchedTooltip": "{seconds}：分鏡拍攝後剪接成一支影片",
+      "editUnsupportedHint": "{model} 無法編輯既有影片 — 它不接受來源影片。可用的模型：{models}。",
+      "editUnknownModels": "Runway Aleph 2、Seedance 2.0",
+      "durationAdjusted": "已調整為 {to}｜此模型不支援 {from}",
+      "aspectRatioLabel": "畫面比例",
+      "aspectRatioModelHint": "此模型可輸出：{list}",
+      "aspectRatioUnknownHint": "此模型尚未說明可輸出哪些比例。",
+      "aspectRatioAdjusted": "已改為 {to}：此模型無法輸出 {from}。",
+      "aspectRatioAuto": "自動"
+    },
+    "addContent": {
+      "trigger": "新增內容",
+      "comingSoon": "即將推出",
+      "groups": {
+        "product": "產品",
+        "trend": "趨勢",
+        "avatar": "虛擬形象",
+        "audio": "音頻",
+        "media": "媒體",
+        "styleReference": "風格參考",
+        "template": "模板",
+        "settings": "設定"
+      },
+      "items": {
+        "uploadImages": "上傳圖片",
+        "uploadMedia": "上傳圖片或影片",
+        "assetLibrary": "從素材庫選擇",
+        "chooseTrend": "選擇趨勢",
+        "uploadVideo": "上傳影片",
+        "avatarLibrary": "從 Avatar 庫選擇",
+        "uploadAudio": "上傳參考音頻",
+        "chooseStyleReference": "借用一則廣告的風格",
+        "chooseTemplate": "選擇模板"
+      },
+      "hint": {
+        "title": "上傳圖片",
+        "limitPrefix": "最多上傳",
+        "limitSuffix": "張圖片",
+        "sampleLabel": "圖片",
+        "doLabel": "建議",
+        "do": "完整的產品照、多種角度、真實使用場景。",
+        "avoidLabel": "避免",
+        "avoid": "人臉、雜亂背景、密集的促銷文字。",
+        "formats": "JPG / PNG / WEBP — 每張 ≤ 10MB"
+      },
+      "errors": {
+        "format": "僅接受 JPG / PNG / WEBP 圖片。",
+        "count": "最多只能附加 {max} 張圖片。",
+        "tooLong": "參考視頻過長——請選擇 2 分鐘以內的片段。"
+      },
+      "methodDisallowed": "當前生成方式不會使用這類素材。",
+      "noBudget": "此分頁不接受這類素材。",
+      "storyboardReference": "分鏡腳本",
+      "a11y": {
+        "removeImage": "移除圖片",
+        "addImage": "新增圖片",
+        "removeVideo": "移除參考影片",
+        "removeAudio": "移除參考音訊",
+        "removeStoryboardReference": "移除分鏡參考"
+      }
+    },
+    "samplePrompts": {
+      "a11y": {
+        "shuffle": "換一批範例",
+        "close": "收起範例",
+        "more": "更多提示建議",
+        "prevPage": "上一頁",
+        "nextPage": "下一頁",
+        "pageOf": "第 {page} 頁，共 {count} 頁"
+      },
+      "title": "提示詞靈感",
+      "refresh": "重新整理",
+      "videoPreview": "範例影片預覽",
+      "previewCaption": "範例成品 · 影片",
+      "kind": {
+        "video": "影片",
+        "image": "圖片",
+        "avatar": "虛擬人像"
+      },
+      "exampleTag": "範例",
+      "forYou": "為你推薦",
+      "use": "使用",
+      "mock": {
+        "industries": {
+          "electronics": "3C",
+          "beauty": "美妝",
+          "fashion": "服飾",
+          "food": "美食",
+          "gaming": "遊戲"
+        },
+        "scenes": {
+          "demo": "實物實機展示",
+          "talkingHead": "真人口播",
+          "lookbook": "穿搭展示",
+          "unboxing": "開箱",
+          "gameplay": "實機遊玩"
+        },
+        "ratios": {
+          "vertical": "9:16 直式",
+          "portrait": "4:5 直式",
+          "horizontal": "16:9 橫式"
+        },
+        "stats": "{shots} 個鏡頭 · 共 {seconds} 秒 · {ratio}",
+        "prompts": {
+          "electronicsDemo": "為 {audience} 製作一支 {tone} 的 {product} 實機展示影片，開場先強調 {selling_point}，並呈現實際使用情境。",
+          "beautyTalkingHead": "由創作者向 {audience} 介紹 {product}，以 {tone} 的口吻說明 {selling_point}，搭配質地特寫。",
+          "beautyDemo": "逐步示範 {product} 的使用過程，在 {tone} 的光線下突顯 {selling_point}，鎖定 {audience}。",
+          "fashionLookbook": "{product} 的 {season} 穿搭展示：三套造型、快節奏剪輯，為 {audience} 打造。",
+          "foodUnboxing": "開箱 {product} 並現場試吃，強調 {flavor} 的風味，鎖定 {audience}。",
+          "gamingGameplay": "以 {hook} 開場，接著 30 秒 {game} 實機遊玩並加上畫面標註，鎖定 {audience}。"
+        }
+      }
+    },
+    "modelMenu": {
+      "quality": "品質",
+      "qualities": {
+        "high": { "title": "高", "description": "最佳品質，算繪較慢" },
+        "standard": { "title": "標準", "description": "品質與速度兼顧" },
+        "fast": { "title": "快速", "description": "快速草稿，方便反覆調整" }
+      },
+      "videoOptions": "影片選項",
+      "imageOptions": "圖片選項",
+      "mode": "模式",
+      "aspectRatioHint": "此模型支援：{list}",
+      "moreModels": "更多模型",
+      "comingSoon": "即將推出",
+      "outputFormat": "輸出格式",
+      "background": "背景",
+      "backgroundOriginal": "原始",
+      "backgroundTransparent": "透明",
+      "tiers": {
+        "base": {
+          "name": "Base",
+          "description": "快速草稿與 A/B 版本"
+        },
+        "max": {
+          "name": "Max",
+          "description": "最高品質，適合最終廣告"
+        },
+        "gptImage": {
+          "name": "GPT Image 2.5",
+          "description": "圖中文字、圖表與版面"
+        },
+        "nanoBananaPro": {
+          "name": "Nano Banana Pro",
+          "description": "寫實產品照與修圖"
+        }
+      },
+      "resolution": "解析度",
+      "referenceImage": "參考圖片",
+      "none": "無"
+    }
+  },
+  "adPlatform": {
+    "hoverCard": {
+      "description": "在你已授權的平台上建立並投放廣告活動 - 先選平台、再選目標，確認方案後才會實際執行。",
+      "provenance": "透過各平台的 MCP 閘道執行 • 未經你確認不會發布任何內容 • 以 ✕ 或 Backspace 移除"
+    },
+    "steps": {
+      "label": "步驟 {n} / {total}"
+    },
+    "panels": {
+      "selectPlatform": "選擇您投放的社媒平台",
+      "selectGoal": "您想要建立什麼？",
+      "selectObjective": "選擇您想要的",
+      "leadModalTitle": "選擇線索收集類型",
+      "selectVariant": "選擇投放方式",
+      "selectPromotionType": "選擇廣告目標",
+      "selectSubType": "選擇細分類型",
+      "selected": "已選擇",
+      "promptIdeas": "提示詞靈感"
+    },
+    "nodeTitles": {
+      "lead-im": "選擇通訊方式",
+      "lead-im-click": "選擇平台 (點擊)",
+      "lead-im-conv": "選擇平台 (會話數)",
+      "ga-web": "選擇網站廣告活動類型"
+    },
+    "nodeLabels": {
+      "meta-awareness": {
+        "label": "品牌認知",
+        "description": "提升觸及人數與廣告記憶度。"
+      },
+      "meta-awareness-reach": {
+        "label": "觸及更多人",
+        "description": "以不重複觸及人數為最佳化目標。"
+      },
+      "meta-awareness-ad-recall-lift": {
+        "label": "品牌認知度",
+        "description": "以提升廣告記憶度為最佳化目標。"
+      },
+      "meta-traffic": {
+        "label": "網站流量",
+        "description": "將更多用戶帶到您的網站。"
+      },
+      "meta-traffic-link-clicks": {
+        "label": "網站連結點擊",
+        "description": "以網站連結點擊次數為最佳化目標。"
+      },
+      "meta-traffic-landing-page-views": {
+        "label": "落地頁瀏覽",
+        "description": "以成功載入並瀏覽落地頁的人數為最佳化目標。"
+      },
+      "meta-video-views": {
+        "label": "影片觀看次數",
+        "description": "提升影片觀看次數（ThruPlay 或 2 秒觀看）。"
+      },
+      "meta-instagram-profile-visits": {
+        "label": "Instagram 個人檔案造訪",
+        "description": "提升已連結 Instagram 個人檔案的造訪次數。"
+      },
+      "meta-messenger-click": {
+        "label": "引導點擊至 Messenger/WhatsApp",
+        "description": "點擊廣告後開啟 Messenger 或 WhatsApp 聊天。"
+      },
+      "meta-line-zalo-click": {
+        "label": "外部訊息應用程式網址（LINE/Zalo）",
+        "description": "引導點擊至 LINE OA 或 Zalo OA 聊天。"
+      },
+      "meta-click-to-call": {
+        "label": "點擊撥打電話",
+        "description": "點擊廣告後撥打電話的立即撥打按鈕。"
+      },
+      "meta-engagement": {
+        "label": "互動",
+        "description": "增加貼文、粉絲專頁或訊息的互動。"
+      },
+      "meta-engagement-post": {
+        "label": "貼文互動（按讚/留言/分享）",
+        "description": "針對貼文的按讚、留言與分享進行優化。"
+      },
+      "meta-page-likes": {
+        "label": "粉絲專頁按讚與追蹤",
+        "description": "增加按讚與追蹤您粉絲專頁的人數。"
+      },
+      "meta-messaging-engagement": {
+        "label": "透過訊息應用程式的對話數（Messenger/Instagram/WhatsApp）",
+        "description": "針對透過 Messenger、Instagram 或 WhatsApp 開始的對話進行優化。"
+      },
+      "meta-lead-generation": {
+        "label": "潛在客戶",
+        "description": "收集潛在客戶的資訊。"
+      },
+      "meta-leads-form": {
+        "label": "Meta 即時表單",
+        "description": "直接在 Facebook/Instagram 上透過即時表單收集名單。"
+      },
+      "meta-leads-website": {
+        "label": "到達頁的潛在客戶轉換",
+        "description": "將使用者導向到達頁以填寫潛在客戶表單。"
+      },
+      "meta-leads-messenger": {
+        "label": "透過訊息自動收集潛在客戶",
+        "description": "透過自動化 Messenger 對話收集潛在客戶資訊。"
+      },
+      "meta-leads-phone-call": {
+        "label": "電話聯繫",
+        "description": "鼓勵潛在客戶直接致電給您。"
+      },
+      "meta-app-promotion": {
+        "label": "應用程式",
+        "description": "提升應用程式安裝與應用內互動。"
+      },
+      "meta-app-install": {
+        "label": "應用程式安裝次數",
+        "description": "增加您應用程式的安裝次數。"
+      },
+      "meta-app-event-retargeting": {
+        "label": "應用程式事件再行銷",
+        "description": "再次觸及曾在應用程式內執行過事件的使用者。"
+      },
+      "meta-sales": {
+        "label": "銷售",
+        "description": "提升網站或商品目錄的銷售額。"
+      },
+      "meta-conversions": {
+        "label": "網站轉換（購買/加入購物車）",
+        "description": "針對網站上的購買或加入購物車事件進行優化。"
+      },
+      "meta-advantage-plus-app": {
+        "label": "Advantage+ 應用程式廣告",
+        "description": "由 Meta 自動最佳化受眾、版位與素材的應用程式安裝廣告活動。"
+      },
+      "meta-advantage-plus-shopping": {
+        "label": "商品目錄銷售（動態廣告）",
+        "description": "自動從您的商品目錄中顯示合適商品的動態廣告。"
+      },
+      "meta-app-sales": {
+        "label": "應用程式銷售",
+        "description": "促進應用內購買或訂閱（subscription）收入。"
+      },
+      "reach": {
+        "label": "覆蓋人數",
+        "description": "盡可能觸及更多不重複用戶"
+      },
+      "traffic": {
+        "label": "訪問量",
+        "description": "引導更多人前往目標頁面"
+      },
+      "video-views": {
+        "label": "視頻播放量",
+        "description": "向可能觀看的用戶爭取更多播放"
+      },
+      "community-interaction": {
+        "label": "社區互動"
+      },
+      "app-promotion": {
+        "label": "應用推廣"
+      },
+      "lead-generation": {
+        "label": "銷售線索",
+        "description": "透過即時表單收集潛在客戶"
+      },
+      "sales": {
+        "label": "銷量",
+        "description": "推動轉化與商品目錄銷售"
+      },
+      "traffic-smartplus": {
+        "label": "Smart+ 廣告活動",
+        "description": "Smart+ 自動化廣告活動導流。"
+      },
+      "traffic-search": {
+        "label": "搜索廣告活動",
+        "description": "透過 TikTok 搜索版位驅動造訪。"
+      },
+      "app-install": {
+        "label": "應用安裝",
+        "description": "推動新的 App 安裝。"
+      },
+      "app-retargeting": {
+        "label": "應用再營銷",
+        "description": "再行銷既有用戶，驅動 App 內事件。"
+      },
+      "lead-landing": {
+        "label": "落地頁",
+        "description": "把用戶導向落地頁以收集潛客。"
+      },
+      "lead-instant-form": {
+        "label": "TikTok 即時表單",
+        "description": "平台原生即時表單收集潛客名單。"
+      },
+      "lead-dm": {
+        "label": "TikTok 私信",
+        "description": "透過 TikTok 私信收集潛客。"
+      },
+      "lead-phone": {
+        "label": "電話通話",
+        "description": "點擊直撥銷售熱線。"
+      },
+      "lead-im": {
+        "label": "即時通訊應用"
+      },
+      "lead-im-click": {
+        "label": "點擊",
+        "description": "以點擊導流至通訊應用。"
+      },
+      "lead-im-conv": {
+        "label": "會話數",
+        "description": "以對話次數作為優化目標。"
+      },
+      "lead-im-click-messenger": {
+        "label": "Messenger",
+        "description": "點擊後直接開啟 Messenger 對話。"
+      },
+      "lead-im-click-whatsapp": {
+        "label": "WhatsApp",
+        "description": "點擊後直接開啟 WhatsApp 對話。"
+      },
+      "lead-im-click-zalo": {
+        "label": "Zalo",
+        "description": "點擊後直接開啟 Zalo 對話。"
+      },
+      "lead-im-click-line": {
+        "label": "LINE",
+        "description": "點擊後直接開啟 LINE 對話。"
+      },
+      "lead-im-click-url": {
+        "label": "即時通訊 URL",
+        "description": "點擊後透過 URL 開啟通訊軟體。"
+      },
+      "lead-im-conv-messenger": {
+        "label": "Messenger",
+        "description": "最佳化 Messenger 上發起的對話數。"
+      },
+      "lead-im-conv-whatsapp": {
+        "label": "WhatsApp",
+        "description": "最佳化 WhatsApp 上發起的對話數。"
+      },
+      "lead-im-conv-zalo": {
+        "label": "Zalo",
+        "description": "最佳化 Zalo 上發起的對話數。"
+      },
+      "sales-tiktok-shop": {
+        "label": "TikTok Shop",
+        "description": "在 TikTok Shop 內驅動下單，最佳化 GMV。"
+      },
+      "sales-website": {
+        "label": "網站",
+        "description": "驅動網站購買轉換。"
+      },
+      "sales-app": {
+        "label": "應用",
+        "description": "推動 App 內購買事件，最佳化 ROAS。"
+      },
+      "ga-keyword": {
+        "label": "關鍵字",
+        "description": "依您選擇的關鍵字顯示在 Google 搜尋。"
+      },
+      "ga-web": {
+        "label": "網站",
+        "description": "您有網站與圖片。"
+      },
+      "ga-video": {
+        "label": "YouTube 影片",
+        "description": "您有 YouTube 影片連結。"
+      },
+      "ga-app": {
+        "label": "應用程式",
+        "description": "提升行動應用程式安裝量。"
+      },
+      "ga-leads": {
+        "label": "潛在客戶",
+        "description": "直接在搜尋廣告中收集客戶資料。"
+      },
+      "ga-shopping": {
+        "label": "商品（購物廣告）",
+        "description": "你已有 Merchant Center 商品資料摘要。"
+      },
+      "ga-web-pmax": {
+        "label": "Performance Max",
+        "description": "Google 自動在所有版位投放。"
+      },
+      "ga-web-display": {
+        "label": "Display",
+        "description": "在合作網站與應用程式顯示橫幅廣告。"
+      },
+      "ga-web-demandgen": {
+        "label": "Demand Gen",
+        "description": "在 YouTube、Gmail、Discover 資訊流顯示圖片廣告。"
+      },
+      "ga-web-sales": {
+        "label": "銷售 / 網站轉化",
+        "description": "以網站購買和註冊為目標的搜尋廣告。"
+      },
+      "openai-views": {
+        "label": "觀看次數（CPM）",
+        "description": "在 ChatGPT 中讓最多人看到您的廣告，按每千次曝光次數計費。"
+      },
+      "openai-clicks": {
+        "label": "點擊次數（CPC）",
+        "description": "把 ChatGPT 使用者帶到您的到達網頁，按點擊次數計費。"
+      },
+      "openai-conversions": {
+        "label": "轉換",
+        "description": "爭取更多網站轉換，針對單一轉換事件優化，按點擊次數計費。"
+      },
+      "openai-product-feed": {
+        "label": "產品動態饋給",
+        "description": "在 ChatGPT 中展示產品動態饋給裡的產品。"
+      },
+      "openai-views-standard": {
+        "label": "標準廣告活動",
+        "description": "使用您自己的廣告素材建立廣告活動。"
+      },
+      "openai-views-product-feed": {
+        "label": "產品動態饋給",
+        "description": "推廣產品動態饋給目錄中的產品。"
+      },
+      "openai-clicks-standard": {
+        "label": "標準廣告活動",
+        "description": "使用您自己的廣告素材建立廣告活動。"
+      },
+      "openai-clicks-product-feed": {
+        "label": "產品動態饋給",
+        "description": "推廣產品動態饋給目錄中的產品。"
+      },
+      "openai-conversions-standard": {
+        "label": "標準廣告活動",
+        "description": "使用您自己的廣告素材建立廣告活動。"
+      },
+      "openai-conversions-product-feed": {
+        "label": "產品動態饋給",
+        "description": "推廣產品動態饋給目錄中的產品。"
+      }
+    },
+    "metaObjectives": {
+      "awareness": {
+        "label": "知名度",
+        "description": "觸及最可能記住您廣告的人，建立品牌印象。",
+        "prompt": "幫我設定 Meta「知名度」廣告活動，建立品牌印象。"
+      },
+      "traffic": {
+        "label": "流量",
+        "description": "將用戶導向網站、App 或 Messenger 對話。",
+        "prompt": "幫我建立 Meta「流量」廣告，把用戶導到我的網站。"
+      },
+      "engagement": {
+        "label": "互動",
+        "description": "提升訊息、影片觀看、貼文互動或追蹤數。",
+        "prompt": "幫我設定 Meta「互動」廣告活動，提升貼文互動。"
+      },
+      "leads": {
+        "label": "潛在顧客",
+        "description": "透過表單或對話收集名單與聯絡資料。",
+        "prompt": "幫我建立 Meta「潛在顧客」廣告，收集 Email 名單。"
+      },
+      "app-promotion": {
+        "label": "應用程式推廣",
+        "description": "推動 App 安裝與 App 內事件。",
+        "prompt": "幫我建立 Meta「應用程式推廣」廣告，推動 App 安裝。"
+      },
+      "sales": {
+        "label": "銷售",
+        "description": "鎖定可能購買您產品或服務的人。",
+        "prompt": "幫我建立 Meta「銷售」廣告，提升網站轉換。"
+      }
+    },
+    "groups": {
+      "awareness": {
+        "label": "認知",
+        "description": "觸及最廣受眾，擴大品牌曝光與廣告回想。"
+      },
+      "consideration": {
+        "label": "考慮",
+        "description": "提升流量與互動，培養受眾考慮意向。"
+      },
+      "conversion": {
+        "label": "轉換",
+        "description": "推動下單、名單、安裝等關鍵轉換行動。"
+      }
+    },
+    "objectives": {
+      "awareness": {
+        "label": "知名度 (Awareness)",
+        "description": "觸及最可能記住您廣告的人，建立品牌印象。"
+      },
+      "engagement": {
+        "label": "互動 (Engagement)",
+        "description": "提升訊息、影片觀看、貼文互動或追蹤數。"
+      },
+      "leads": {
+        "label": "潛在顧客 (Leads)",
+        "description": "透過表單或對話收集名單與聯絡資料。"
+      },
+      "sales": {
+        "label": "銷售 (Sales)",
+        "description": "鎖定可能購買的人，最佳化轉換與營收。"
+      },
+      "reach": {
+        "label": "覆蓋人數 (Reach)",
+        "description": "以最低 CPM 觸及最廣的 TikTok 受眾，最大化品牌曝光。"
+      },
+      "traffic": {
+        "label": "訪問量 (Traffic)",
+        "description": "把 TikTok 用戶導向官網、落地頁或 App。",
+        "prompt": "幫我建立 TikTok「訪問量」廣告，把用戶導向官網、落地頁或 App。"
+      },
+      "video-views": {
+        "label": "視頻播放量 (Video Views)",
+        "description": "最大化視頻完播與觀看次數，深化內容滲透。",
+        "prompt": "幫我建立 TikTok「視頻播放量」廣告，最大化視頻完播與觀看次數。"
+      },
+      "community-interaction": {
+        "label": "社區互動 (Community Interaction)",
+        "description": "提升按讚、留言、分享與帳號追蹤數。",
+        "prompt": "幫我建立 TikTok「社區互動」廣告，提升按讚、留言、分享與帳號追蹤數。"
+      },
+      "app-promotion": {
+        "label": "應用推廣 (App Promotion)",
+        "description": "推動 App 安裝與 App 內事件轉化。"
+      },
+      "lead-generation": {
+        "label": "線索收集 (Lead Generation)",
+        "description": "TikTok Instant Form 收集潛客名單。"
+      },
+      "tiktok-shop": {
+        "label": "TikTok Shop",
+        "description": "在 TikTok Shop 內驅動下單，最佳化 GMV。"
+      },
+      "website": {
+        "label": "網站 (Website)",
+        "description": "把流量導向獨立站完成購買轉化。"
+      },
+      "app": {
+        "label": "應用 (App)",
+        "description": "推動 App 內購買事件，最佳化 ROAS。"
+      },
+      "website-and-app": {
+        "label": "網站和應用 (Website and App)",
+        "description": "同時優化網站 + App 的購買事件。"
+      },
+      "brand-reach-max": {
+        "label": "品牌曝光最大化",
+        "description": "以最低 CPM 觸及最廣的目標受眾。",
+        "prompt": "幫我建立 Google Ads「品牌曝光最大化」廣告活動，以最低 CPM 觸及最廣的目標受眾。"
+      },
+      "ad-recall-boost": {
+        "label": "廣告回想度提升",
+        "description": "以 Reach + Frequency 控制建立心智佔有。",
+        "prompt": "幫我建立 Google Ads「廣告回想度提升」廣告活動，以 Reach + Frequency 控制建立心智佔有。"
+      },
+      "product-launch-wave": {
+        "label": "新品上市曝光波",
+        "description": "節奏化曝光排程，確保 6+ Frequency。",
+        "prompt": "幫我建立 Google Ads「新品上市曝光波」廣告活動，節奏化曝光排程，確保 6+ Frequency。"
+      },
+      "brand-term-defense": {
+        "label": "品牌字詞守護",
+        "description": "守住品牌搜尋詞，避免被競品截流。",
+        "prompt": "幫我建立 Google Ads「品牌字詞守護」廣告活動，守住品牌搜尋詞，避免被競品截流。"
+      },
+      "high-engagement-audience": {
+        "label": "高互動受眾培養",
+        "description": "提升貼文互動、影片觀看與內容深度。",
+        "prompt": "幫我建立 Google Ads「高互動受眾培養」廣告活動，提升貼文互動、影片觀看與內容深度。"
+      },
+      "consideration-retargeting": {
+        "label": "考慮階段再行銷",
+        "description": "對曾互動但未轉化的用戶做內容種草。",
+        "prompt": "幫我建立 Google Ads「考慮階段再行銷」廣告活動，對曾互動但未轉化的用戶做內容種草。"
+      },
+      "intent-tag-building": {
+        "label": "受眾意向標籤建構",
+        "description": "依互動行為建立分層意向標籤。",
+        "prompt": "幫我建立 Google Ads「受眾意向標籤建構」廣告活動，依互動行為建立分層意向標籤。"
+      },
+      "short-video-strategy": {
+        "label": "短影音種草策略",
+        "description": "規劃 15s/30s 內容拉升受眾意向。",
+        "prompt": "幫我建立 Google Ads「短影音種草策略」廣告活動，規劃 15s/30s 內容拉升受眾意向。"
+      },
+      "add-to-cart-boost": {
+        "label": "加購率提升計畫",
+        "description": "對瀏覽未加購用戶推送誘因素材。",
+        "prompt": "幫我建立 Google Ads「加購率提升計畫」廣告活動，對瀏覽未加購用戶推送誘因素材。"
+      },
+      "lead-form-automation": {
+        "label": "表單潛客自動化",
+        "description": "Lead Ads + 自動化跟進序列。",
+        "prompt": "幫我建立 Google Ads「表單潛客自動化」廣告活動，Lead Ads + 自動化跟進序列。"
+      },
+      "signup-funnel-optimization": {
+        "label": "註冊漏斗最佳化",
+        "description": "找出註冊漏斗瓶頸並優化頁面。",
+        "prompt": "幫我建立 Google Ads「註冊漏斗最佳化」廣告活動，找出註冊漏斗瓶頸並優化頁面。"
+      },
+      "cart-abandonment-recovery": {
+        "label": "未結帳挽回",
+        "description": "對棄單用戶推送限時優惠與提醒。",
+        "prompt": "幫我建立 Google Ads「未結帳挽回」廣告活動，對棄單用戶推送限時優惠與提醒。"
+      },
+      "asc-campaign": {
+        "label": "ASC 銷售活動建立",
+        "description": "Advantage+ Shopping 全自動銷售活動。",
+        "prompt": "幫我建立 Google Ads「ASC 銷售活動建立」廣告活動，Advantage+ Shopping 全自動銷售活動。"
+      },
+      "roas-target-bidding": {
+        "label": "ROAS 目標投放",
+        "description": "依目標 ROAS 自動出價並動態調整。",
+        "prompt": "幫我建立 Google Ads「ROAS 目標投放」廣告活動，依目標 ROAS 自動出價並動態調整。"
+      },
+      "dynamic-product-retargeting": {
+        "label": "動態商品再行銷",
+        "description": "DPA 對加購未結帳用戶展示對應商品。",
+        "prompt": "幫我建立 Google Ads「動態商品再行銷」廣告活動，DPA 對加購未結帳用戶展示對應商品。"
+      },
+      "seasonal-sales-sprint": {
+        "label": "活動檔期銷售衝刺",
+        "description": "9.9/雙11/黑五專屬投放藍圖。",
+        "prompt": "幫我建立 Google Ads「活動檔期銷售衝刺」廣告活動，9.9/雙11/黑五專屬投放藍圖。"
+      }
+    },
+    "leadTypes": {
+      "tiktok-message-ad": {
+        "label": "TikTok Lead Generation DM",
+        "description": "用戶點擊後直接進入 TikTok 私信，AI 歡迎語高效開聊。",
+        "prompt": "嗨，我想投 TikTok 私信廣告來獲取客戶線索。"
+      },
+      "tiktok-whatsapp-lead-gen": {
+        "label": "TikTok Lead Gen — WhatsApp",
+        "description": "透過 WhatsApp 收集線索（CLICK），引導用戶開啟 WhatsApp 對話。",
+        "prompt": "幫我建立 TikTok 線索廣告，目的地是即時通訊 App（WhatsApp）。每日預算 $50。受眾鎖定越南，年齡 18–44。WhatsApp 號碼 0938297231，素材從素材庫選一支轉化高的影片。"
+      },
+      "message-ad": {
+        "label": "訊息廣告",
+        "description": "跨平台訊息廣告，引導用戶至 Messenger / WhatsApp / LINE 等對話。",
+        "prompt": "我要跑線索廣告，但動線要走「投放私信」，幫我找目前越南金融理財與房產類目裡，私信開聊率最高的達人爆款，我要拿來克隆。"
+      },
+      "instant-form": {
+        "label": "表單廣告 (Instant Form)",
+        "description": "平台原生即時表單收集潛客名單，無需離開 App。",
+        "prompt": "我想投放 TikTok 表單廣告，幫我對接一下。"
+      },
+      "phone-ad": {
+        "label": "電話廣告",
+        "description": "點擊直接撥打銷售熱線，適合高客單服務業。",
+        "prompt": "我想投放 TikTok 表單廣告，幫我對接一下。"
+      }
+    },
+    "comingSoon": "即將推出",
+    "loading": "載入中…",
+    "loadError": "無法載入廣告目標。",
+    "retry": "重試",
+    "empty": "暫無廣告目標。",
+    "connected": "已連接",
+    "connect": "連接",
+    "back": "返回",
+    "loadingPromptIdeas": "正在撰寫提示詞靈感…",
+    "noPromptIdeas": "此目標尚無提示詞靈感。",
+    "accountCount": "已連接 {count} 個帳戶"
+  },
+  "videoAd": {
+    "generateVideo": {
+      "title": "視頻",
+      "description": "依描述生成影片 — 可選模式、畫面比例、時長與配樂。",
+      "getStarted": "開始使用",
+      "mode": {
+        "label": "模式",
+        "fast": "快速",
+        "quality": "高品質"
+      },
+      "orientation": {
+        "label": "畫面",
+        "landscape": "橫向",
+        "portrait": "直向"
+      },
+      "duration": {
+        "label": "時長",
+        "hint": "此模型可生成 {list}",
+        "unknownHint": "尚未取得此模型的可用時長"
+      },
+      "backgroundMusic": "背景音樂",
+      "samplePrompts": {
+        "nba-finals": "生成一支 NBA 總決賽之夜的影片",
+        "starry-night": "將梵谷的《星夜》動畫化為電影感短片",
+        "dress-explosion": "在爆炸場景中設計並展示一件洋裝",
+        "owl-forest": "生成貓頭鷹森林冒險的影片",
+        "cartographer": "生成一支製圖師在歷史冒險場景中的影片"
+      }
+    },
+    "tryPrompts": {
+      "title": "嘗試影片提示",
+      "description": "集成 TikTok、Meta、Instagram 三大平台熱門資訊流廣告素材提示詞，一鍵獲取平台專屬創意方向"
+    },
+    "adLibrary": {
+      "title": "廣告資料庫",
+      "description": "使用 Seedance 2.0 整合 TikTok/Meta 平台熱門廣告素材與市場數據洞察，透過高數據表現的優質模板一鍵克隆，快速套用多元風格，輕鬆打造符合品牌調性的行銷素材。"
+    },
+    "pagination": {
+      "previous": "上一頁",
+      "next": "下一頁",
+      "page": "{current} / {total}"
+    }
+  },
+  "design": {
+    "hoverCard": {
+      "description": "依文字說明生成圖片、影片與數位人，並可搭配你附加的參考素材。",
+      "provenance": "由 Cluega Media 服務提供 • 預設模型 Auto • 以 ✕ 或 Backspace 移除"
+    },
+    "generate": {
+      "getStarted": "開始使用",
+      "aspectRatio": {
+        "label": "畫面比例"
+      },
+      "resolution": {
+        "label": "解析度"
+      },
+      "overrideHint": "此處選擇的比例與尺寸會隨任務一併送出，並優先於提示詞中描述的任何比例或尺寸。"
+    },
+    "footer": "Cluega 設計引擎會自動帶入您的商品資料與品牌色系，產出符合各社媒 Ad Specs 的素材。",
+    "templates": {
+      "product-concept-packaging": {
+        "title": "為 Aura Band 設計產品概念與包裝",
+        "badge": "產品概念",
+        "description": "為健康監測智慧手環「Aura Band」設計纖薄、無螢幕的產品概念，並採用環保的極簡包裝..."
+      },
+      "ig-luxury-story": {
+        "title": "設計 IG 輕奢感品牌視覺 Story",
+        "badge": "IG 9:16",
+        "description": "為時尚/美妝/生活方式品牌設計 9:16 全螢幕廣告，強調氛圍感與高轉化視覺留白..."
+      },
+      "tiktok-native-promo": {
+        "title": "設計 TikTok 原生感促銷素材",
+        "badge": "TikTok 9:16",
+        "description": "為 9:16 TikTok 廣告設計具備「UGC 偽素人感」的開箱或對比圖，降低用戶對廣告的防禦心..."
+      },
+      "meta-carousel-series": {
+        "title": "設計 Meta Carousel 輪播系列圖",
+        "badge": "Meta 1:1",
+        "description": "為 Meta 輪播廣告設計一組連續、風格高度統一的 1:1 產品卡片，適合多色系或步驟展示..."
+      },
+      "black-friday-banner": {
+        "title": "設計 Black Friday 限時大促橫幅",
+        "badge": "16:9 / 1.91:1",
+        "description": "為 Meta/Google 網盟設計 16:9 或 1.91:1 橫版廣告，強化大促氛圍與節日多商品堆疊感..."
+      },
+      "before-after-comparison": {
+        "title": "設計 Before/After 痛點對比圖",
+        "badge": "Meta / Pinterest 4:5",
+        "description": "設計直擊消費者痛點的 4:5 或 1:1 廣告圖，左邊/上邊展現困擾，右邊/下邊展現使用產品後的完美狀態..."
+      }
+    }
+  },
+  "marketInsights": {
+    "tabs": {
+      "reach": "觸及",
+      "video": "影片",
+      "community": "社群",
+      "traffic": "流量",
+      "leads": "線索",
+      "sales": "銷售",
+      "app": "應用",
+      "risk": "風險與異常"
+    },
+    "search": {
+      "label": "搜尋提示詞庫",
+      "placeholder": "搜尋提示詞，例如 ROAS、漏斗、成本…",
+      "empty": "沒有符合的提示詞。請換個關鍵字，或從上方選擇一個業務分類。",
+      "scope": "所有分類的搜尋結果",
+      "scopeIn": "「{category}」分類的搜尋結果",
+      "emptyFiltered": "在目前的篩選條件下沒有符合的提示詞。請換個關鍵字，或清除篩選條件。"
+    },
+    "preview": {
+      "caption": "範例快照 · 最近 7 天"
+    },
+    "detail": {
+      "open": "查看詳情",
+      "close": "關閉",
+      "run": "執行提示詞",
+      "objectiveNote": "適用於所有「{objective}」提示詞的共通說明",
+      "primary": {
+        "problem": "這個儀表板回答什麼",
+        "metrics": "主要指標",
+        "inputs": "需要的資料"
+      },
+      "promptLabel": "將送出的提示詞",
+      "inputsTemplate": "{sources}，且該期間有資料：{range}",
+      "provenance": {
+        "golden": "Golden",
+        "authored": "內部"
+      },
+      "fields": {
+        "name": "提示詞名稱",
+        "reference": "參考編號",
+        "category": "廣告目標",
+        "problem": "業務問題",
+        "audience": "適用對象",
+        "inputs": "需要的資料",
+        "sources": "資料來源",
+        "range": "時間範圍",
+        "metrics": "指標與維度",
+        "widgets": "預期的圖表",
+        "followUps": "後續問題",
+        "actions": "建議行動"
+      },
+      "widgets": {
+        "kpi_card": "KPI 卡片",
+        "line_chart": "折線圖",
+        "bar_chart": "長條圖",
+        "pie_chart": "環圈圖",
+        "table": "表格",
+        "funnel": "漏斗",
+        "ranking": "排行榜",
+        "scatter_bubble": "四象限",
+        "media_card": "內容卡",
+        "goal_gauge": "目標儀表",
+        "distribution": "分佈",
+        "heatmap": "熱力圖"
+      },
+      "objectives": {
+        "reach": {
+          "problem": "這筆錢觸及了多少不重複的人，以及在花費不再帶來新受眾之前，每個人看了幾次。",
+          "audience": "正在考慮擴大受眾或限制頻次的品牌或媒體採購。",
+          "followUps": "哪個版位把頻次推高了？CPM 是隨頻次上升，還是獨立上升？",
+          "actions": "擴大受眾、設定頻次上限，或把預算移到仍能觸及新人的版位。"
+        },
+        "traffic": {
+          "problem": "付費買到的流量真正抵達了多少，以及點擊與落地頁瀏覽之間的落差出現在哪裡。",
+          "audience": "負責點擊成本、但以有效工作階段被檢視的成效廣告操作者。",
+          "followUps": "哪個廣告活動在點擊到抵達之間流失最多？昂貴的點擊是否同時也是到不了的點擊？",
+          "actions": "為會抵達的加預算，修正或暫停付了錢卻到不了的，並把預算移出最貴的點擊。"
+        },
+        "video": {
+          "problem": "素材是否留得住注意力、對得起這些曝光，以及觀眾在片子的哪一段離開。",
+          "audience": "正在決定哪支要擴量、哪支要重剪的創意負責人。",
+          "followUps": "流失發生在哪裡——開頭、中段還是行動呼籲？看得久是否真的更會轉換？",
+          "actions": "擴量留得住人的版本，重剪很早就流失的，停掉在開頭就流失的。"
+        },
+        "leads": {
+          "problem": "把打不開的表單與沒人回覆的對話都算進去之後，一個合格名單實際上要多少錢。",
+          "audience": "對每筆名單成本、以及業務後續處理負責的需求開發負責人。",
+          "followUps": "哪一步流失最多——開啟、送出，還是第一次回覆？便宜的名單是否也是會回覆的名單？",
+          "actions": "為能得到回覆的組加預算，重寫流失最多的那一步，砍掉只買到沉默的組。"
+        },
+        "community": {
+          "problem": "除了點擊之外，這個帳號還買到了什麼——粉絲、互動與分享——以及每一項各花多少錢。",
+          "audience": "目標是留得住的受眾、而非一次就結束的工作階段的社群或內容負責人。",
+          "followUps": "哪個廣告活動帶來的是互動而不只是播放？在最便宜的地方，一個粉絲要多少錢？",
+          "actions": "擴量能帶來互動的，重做被看卻沒人行動的內容，其餘停掉。"
+        },
+        "app": {
+          "problem": "依廣告活動來看，一次安裝要多少錢，以及便宜的安裝之後是否真的會做些什麼。",
+          "audience": "手上有 CPI 目標與相應預算要分配的用戶增長負責人。",
+          "followUps": "哪個廣告活動既在 CPI 上限之下又有量？便宜的安裝從哪裡開始不再便宜？",
+          "actions": "為低於目標的加預算，優化接近上限的，暫停已超過的。"
+        },
+        "sales": {
+          "problem": "這些花費帶回了什麼——收入、訂單與 ROAS——以及從點擊到付款的路上，哪一段在虧錢。",
+          "audience": "以回報而非規模被檢視的電商或成效負責人。",
+          "followUps": "哪個廣告活動低於 ROAS 底線？訂單在購物車到付款之間消失在哪裡？",
+          "actions": "擴量有回報的，修好在漏的那一步，停掉低於 ROAS 底線的廣告活動。"
+        },
+        "risk": {
+          "problem": "在總數看起來還可以的時候，哪些廣告活動已經越過帳戶自己設定的界線——頻次超過上限、每次成果成本惡化、花了錢卻沒有成果。",
+          "audience": "需要知道今天該停掉什麼的成效負責人，以免週報把它變成整個月的虧損。",
+          "followUps": "哪個廣告活動先越線，是單一項目還是整個帳戶？成本惡化是因為投放萎縮，還是因為受眾不再回應？",
+          "actions": "暫停已越線的組，重做已疲乏的素材，並重新檢視這個看板據以判斷的門檻。"
+        }
+      },
+      "overrides": {
+        "traffic-landing-quadrant": {
+          "problem": "TikTok 不會回傳 0-100 的流量品質分數，因此這個問題無法從平台提供的資料得到答案。若你提出，助理會直接說明缺少哪個指標，而不會自行推估。",
+          "actions": "這個範本無法建立儀表板——一個看板需要平台確實回傳的指標。目前最接近的可用指標是落地頁瀏覽、CPC 與花費，合起來可以看出進站流量是否對得起花掉的錢。",
+          "followUps": "哪些已提供的指標最接近？用落地頁瀏覽對 CPC 能不能回答同一個問題？"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "上一頁",
+      "next": "下一頁",
+      "indicator": "第 {page} 頁，共 {total} 頁"
+    },
+    "objectives": {
+      "scrollPrevious": "向左捲動廣告目標",
+      "scrollNext": "向右捲動廣告目標"
+    },
+    "cards": {
+      "reach-frequency-daily": {
+        "title": "覆蓋與頻次日報",
+        "hint": "觸及 · 頻次 · CPM · 近 7 天",
+        "prompt": "我這幾天 TikTok 的品牌覆蓋好像怪怪的，幫我看一下近 7 天到底發生什麼事：覆蓋人數跟平均頻次跟上週比是變好還變壞、錢有沒有花得比較貴，然後哪個活動頻次已經高到該降頻的幫我點出來。"
+      },
+      "video-views-daily": {
+        "title": "視頻播放量總覽日報",
+        "hint": "播放 · 2秒 · 6秒 · 完播率",
+        "prompt": "幫我把 TikTok 近 7 天播放量目標的活動做成日報盤：最上面四張卡放播放數、2 秒播放、6 秒播放跟 2 秒播放成本，都要跟前一期比；下面放每日播放數跟 2 秒播放的折線；旁邊放各版位的播放佔比圓餅圖，如果版位拆分還沒有資料來源就直接講明；再放一個熱門影片牆跟播放數最高的影片排行榜；最下面表格列每支廣告的播放數、2 秒、6 秒、完播數、完播率、2 秒播放成本跟花費，完播率低於 5% 的標紅。"
+      },
+      "video-completion-funnel": {
+        "title": "播放進度完播漏斗",
+        "hint": "漏斗 25% → 50% → 75% → 完播",
+        "prompt": "幫我看看影片是在第幾秒被滑掉的。做一個完播漏斗：播放數 → 25% → 50% → 75% → 完播，每層標次數跟佔播放數的比例，分母記得用播放數不要用曝光。上面放一個完播率達標卡，目標 10%。旁邊柱狀圖比一下不同素材時長的完播率。最下面表格把每個節點的「對播放數」跟「對上一層」兩種比例都列出來，順便把 2 秒跟 6 秒也插進去對照。"
+      },
+      "reach-cost-quadrant": {
+        "title": "覆蓋成本效率定位",
+        "hint": "觸及 × CPM × 花費 · 四象限",
+        "prompt": "做一個廣告組效率定位圖：X 軸放覆蓋人數、Y 軸放 CPM，泡泡大小代表花費，四個象限標上「高效放量 / 高效小量 / 低效放量 / 低效小量」，CPM 高於 4 元的泡泡標紅。上面補三張卡：總花費、總覆蓋、平均 CPM。"
+      },
+      "traffic-landing-daily": {
+        "title": "訪問量與到達日報",
+        "hint": "點擊 · CTR · CPC · 落地頁瀏覽",
+        "prompt": "幫我把 TikTok 近 7 天訪問量目標的活動做成一個即時儀表盤：最上面放點擊數、點擊率、每次點擊成本、落地頁瀏覽數四張卡，都要跟前一期比；下面放每日點擊數跟落地頁瀏覽數的折線。接著讓我看點擊被送到哪裡——各落地目的地的點擊佔比圓餅圖，以及依目的地列出點擊、落地頁瀏覽、到達率、CPC 跟花費的表格——如果這個拆分還沒有資料來源，就直接講明。最後用真正拿得到的資料回答同一個問題：點擊真正到達的活動排行榜，以及依活動列出點擊、落地頁瀏覽、CTR、到達率、CPC 跟花費的表格。到達率低於 50% 的標紅。"
+      },
+      "traffic-hourly-monitor": {
+        "title": "分時流量即時監控",
+        "hint": "分時 · 點擊 · 到達 · 今天",
+        "prompt": "開一個今天的即時流量監控盤：頂部一條直播狀態列，下面四張卡放今天到現在的點擊、落地頁到達、到達率、即時 CPC。中間分時折線圖看每兩小時的點擊跟到達，旁邊排一個即時到達率最高的落地頁榜。再放一排點擊率最高的三支素材縮圖，最下面表格列最近六個時段的明細，載入秒數異常的標紅。"
+      },
+      "traffic-landing-quadrant": {
+        "title": "落地頁效率定位圖",
+        "hint": "到達 × CPC × 花費 · 四象限",
+        "prompt": "幫我做一張落地頁效率定位圖：X 軸放落地頁到達率，Y 軸放你幫我算的「訪問品質分數」——把到達率、停留秒數、跳出率綜合成 0–100 分那種，泡泡大小是花費，四個象限標好該怎麼處理，分數難看的標紅。上面補三張卡：總點擊、總到達、整體到達率。旁邊放到達率最低的排行，最下面表格把每個落地頁歸到哪個象限、建議動作寫清楚。"
+      },
+      "click-to-lpv-funnel": {
+        "title": "點擊到到達流失漏斗",
+        "hint": "漏斗 點擊 → 到達 → 15秒 → 捲動 50%",
+        "prompt": "我一直覺得我的點擊都跑掉了。做一個從點擊到落地頁的流失漏斗：點擊 → 落地頁到達 → 停留超過 15 秒 → 捲動超過一半，每層標數字跟轉化率。上面放一個到達率達標卡，目標是 75%。旁邊柱狀圖比一下四種落地目的地的到達率，最下面表格列每個落地頁的到達率、中位載入秒數跟跳出率，到達率低於 55% 或載入超過 3 秒就標紅。"
+      },
+      "traffic-multisource-compare": {
+        "title": "跨來源訪問量對照",
+        "hint": "TikTok + Meta + GA · 近 30 天",
+        "prompt": "把 TikTok Ads 的點擊數跟 Google Analytics 的工作階段數加起來，做一張總訪問量的大卡；再幫我排一個 CPC 排行榜，CPC 越高的排前面，這樣就知道哪些組買到的流量最優質。下面折線圖疊 TikTok、Meta、GA 三條線比近 30 天走勢，最後表格列各來源的量跟單次成本。"
+      },
+      "cpl-volume-quadrant": {
+        "title": "CPL × 線索量定位",
+        "hint": "CPL × 線索量 · 四象限 · 近 7 天",
+        "prompt": "這週 CPL 又漲了，錢好像花在不對的地方，幫我看看預算該怎麼調。廣告組層級的，近 7 天。"
+      },
+      "instant-form-daily": {
+        "title": "即時表單線索日報",
+        "hint": "線索 · CPL · 有效線索率 · 近 7 天",
+        "prompt": "幫我只針對使用即時表單的 TikTok Lead Generation 活動做一個名單營運盤——其他目的一律排除——近 7 天，廣告組層級。最上面四張卡：花費、線索、每次成效成本、CTR，都跟前一期比。接著每日點擊與線索折線；各廣告組的線索長條圖；廣告組表格放花費、線索、每次成效成本；再加廣告組×日期的線索熱力圖。我這個月的目標是 1,500 筆線索。"
+      },
+      "form-submit-funnel": {
+        "title": "表單提交漏斗診斷",
+        "hint": "CPL 目標 $3 · 廣告組層級",
+        "prompt": "這週線索成本突然變貴，幫我看看是哪裡出問題。我的 CPL 目標是壓在 $3.00 以下，順便標一下有沒有守住。近 7 天的資料就好，廣告組層級要看得到，哪一組特別貴要標出來。"
+      },
+      "dm-conversation-daily": {
+        "title": "TikTok 私訊日報",
+        "hint": "私訊數 · 每次對話成本 · 近 7 天",
+        "prompt": "幫我把 TikTok 私訊目的的活動做一個近 7 天的日報盤：上面放花費、已開啟對話數、每次對話成本與點擊率四張卡，都跟上一期比。中間放每天「點擊」與「已開啟對話」的折線。下面依每次對話成本排序各活動，最貴的排最前面，再放一張各活動明細表，欄位有花費、曝光、點擊、CTR、CPC、對話數與每次對話成本。如果資料來源有的話，我也想看用戶首回率與首次回覆時間。"
+      },
+      "sales-app-daily": {
+        "title": "App 內購買日報",
+        "hint": "購買數 · 購買價值 · ROAS · 每次購買成本 · 過去 7 天",
+        "prompt": "幫我做過去 7 天的 App 內購買儀表板，包含五張 KPI 卡：購買數、購買價值、ROAS、每次購買成本跟花費，都要跟前一期比，再加上每日購買數跟購買價值的兩張折線圖、一張每日明細表和一張廣告活動比較表。"
+      },
+      "web-sales-daily": {
+        "title": "獨立站銷量日報",
+        "hint": "花費 · 營收 · ROAS · 購買數 · 本月",
+        "prompt": "幫我做這個月的網站廣告銷售儀表板：最上面六張 KPI 卡放花費、營收、ROAS、購買數、CPA 跟轉換率，都要跟前一期比；下面放每日花費跟營收的折線；旁邊放各活動的營收佔比圓餅；最下面表格列各活動的花費、曝光、點擊、購買數、營收、ROAS 跟 CPA，ROAS 低於 2 或 CPA 超過 22 塊的標紅。"
+      },
+      "gmv-max-daily": {
+        "title": "GMV Max 銷售日報",
+        "hint": "GMV · 訂單 · 客單價 · ROAS · 近 7 天",
+        "prompt": "請製作近 7 天的 GMV Max 銷售報告。顯示花費、曝光、點擊、訂單數、GMV、ROAS、客單價與 CTR 等 KPI，並與前一期比較。畫出每日的 GMV、花費與 ROAS 趨勢；呈現各廣告活動的 GMV 佔比，以及各廣告組的訂單數；列出帶貨表現最好的素材；最後提供各廣告活動的明細表格，包含花費、曝光、點擊、CTR、訂單數、GMV、客單價與 ROAS，並標記 ROAS 低於帳戶平均的廣告活動。"
+      },
+      "checkout-funnel": {
+        "title": "加購結帳漏斗診斷",
+        "hint": "漏斗 加購 → 結帳 → 購買",
+        "prompt": "我想知道錢到底漏在哪一層。做一個結帳漏斗盤：從落地頁點擊、內容瀏覽、加入購物車、發起結帳到完成購買，每層顯示人數跟「對上一層」的轉化率，不要拿總點擊當每層分母。上面放加購數、發起結帳數，再加一個結帳完成率目標 40% 的達成儀表。右邊柱狀圖比較各廣告組的加購率跟結帳完成率，最後用表格列細節。"
+      },
+      "live-warroom": {
+        "title": "直播即時作戰台",
+        "hint": "直播中 · 同時在線 · 觀看高峰",
+        "prompt": "我現在正在開播，幫我開一個直播作戰台：頂部要有直播中的紅點狀態列標開播時間跟已播多久，下面四張卡放場內觀看人數、當前同時在線、峰值同時在線、人均觀看時長，中間畫一條每 5 分鐘的在線人數曲線再疊上每檔新進入的人，旁邊放流量來源圓餅圖，最下面列每 5 分鐘檔的明細表，在線人數比前一檔掉超過 10% 的標紅，一分鐘刷新一次。"
+      },
+      "app-install-daily": {
+        "title": "安裝獲取日報",
+        "hint": "安裝 · CPI · 點擊 · 本月",
+        "prompt": "幫我做 TikTok 這個月手遊安裝活動的儀表板，每天都能看：最上面放安裝數、CPI、點擊數、花費四張卡，都要跟前一期比；下面放每日點擊跟安裝的折線；旁邊放各活動的安裝佔比圓餅；最下面列各活動的安裝明細，包含花費、曝光、CPM、點擊、CTR、CPC、安裝數、點擊安裝率跟 CPI，CPI 超過 2.5 塊的直接標紅提醒我。"
+      },
+      "retargeting-daily": {
+        "title": "再營銷日報",
+        "hint": "App 再營銷 · 近 14 天",
+        "prompt": "幫我看 TikTok App 再營銷近 14 天：最上面四張卡放花費、成效數、每次成效成本跟 ROAS，都要跟前一期比；下面放每日花費跟 ROAS 的折線；再放各活動成效數對 ROAS 的四象限；一個花費最高活動的排行榜；一個各活動花費佔比的圓餅圖；最下面表格列各活動的花費、營收、成效數、每次成效成本跟 ROAS。"
+      },
+      "holdout-incrementality": {
+        "title": "Holdout 增量分析",
+        "hint": "10% Holdout · 增量 ROAS · lift",
+        "prompt": "再營銷 ROAS 四倍多，我不太相信，我們有留 10% 的 holdout 對照組。幫我做一個增量盤：上面四張卡放直接 ROAS、增量 ROAS、lift、還有自然回流佔比；中間柱狀圖把每個受眾包的曝光組跟對照組轉化率並排比；旁邊放張說明卡解釋這兩個 ROAS 差在哪；最下面表格把曝光人數、對照人數、對照組轉化數、兩邊轉化率、lift 的信賴區間跟 p 值、增量訂單、增量 ROAS 都列出來，增量 ROAS 低於 1 的我要知道。"
+      },
+      "skan-latency-monitor": {
+        "title": "SKAN 回傳延遲監控",
+        "hint": "SKAN · 回傳延遲 · iOS ROAS",
+        "prompt": "幫我盯 SKAN 的回傳狀況：一個儀表顯示 postback 回傳完成度，兩張卡放還沒回來的事件數，跟被隱私門檻遮蔽掉的數量，圓餅看回傳延遲分佈是幾小時，右邊表格列每個 iOS 廣告組現在回報了多少、預估最終多少、現在的 ROAS 跟成熟後預估差多少，最後加一段說明提醒我今天別下結論。順便把 SKAN 的 postback 按年齡層跟性別拆開給我看，每支素材的 iOS ROAS 也一起列。"
+      },
+      "reach-quality-distribution": {
+        "title": "頻次與覆蓋品質分佈",
+        "hint": "頻次 · CPM · 頻次健康 · 近 7 天",
+        "prompt": "幫我做一個「頻次健康」儀表盤：用漏斗圖顯示覆蓋在 1+ / 2+ / 3+ / 5+ 各檔逐層遞減，旁邊放柱狀圖比較各廣告組的平均頻次跟 CPM，上面放一張目標卡，目標是把平均頻次壓在 3 以下；最下面列出頻次過高的廣告組排行。"
+      },
+      "reach-creative-wall": {
+        "title": "版位與品牌覆蓋內容牆",
+        "hint": "內容牆 · 觸及 · 衰減 · 近 14 天",
+        "prompt": "幫我做一面內容牆：一排 6 張直式（9:16）內容卡顯示覆蓋最高的 6 支影片，每張帶覆蓋徽章跟內容名稱，下面附一張各內容的覆蓋排行，再加一張「內容新鮮度」表顯示每支影片的上線天數、頻次跟衰減程度，衰減超過 30% 的標紅。"
+      },
+      "video-engagement-quadrant": {
+        "title": "觀看時長 × 互動四象限",
+        "hint": "觀看時長 × 互動 · 四象限",
+        "prompt": "我想知道哪些影片值得加預算。幫我看最近的影片成效——大家平均看多久、願不願意按讚評論分享、哪些影片既看得久又有互動、哪些該下架。要用什麼圖你先問我，我不確定哪種看得最清楚。"
+      },
+      "video-hourly-monitor": {
+        "title": "分時播放量即時監控",
+        "hint": "分時 · 播放 · 2秒 · 6秒 · 今天",
+        "prompt": "開一個今天的即時播放量監控盤：頂部一條直播列，下面四張卡放今天到現在的播放數、2 秒播放、6 秒播放跟 2 秒成本。中間分時折線圖看每兩小時的播放數跟 2 秒播放，旁邊放一張 6 秒播放的目標達成卡，今天目標 25 萬。再加一張各年齡層完播率的柱狀圖，最下面表格列最近六個時段，2 秒率明顯下滑的標紅。"
+      },
+      "community-daily": {
+        "title": "社群互動日報",
+        "hint": "粉絲 · 頁面瀏覽 · 互動 · 近 7 天",
+        "prompt": "幫我做一份近 7 天的社群互動日報：最上面四張卡放獲得粉絲、淨增粉絲、頁面瀏覽跟每個付費粉絲成本，都要跟上週比。順便把這週取消追蹤的 2,862 個帳號名單跟取關原因分佈列出來，我想知道是誰走了。中間折線圖疊上每天的獲得粉絲跟淨增兩條線，我想一眼看出取關吃掉多少。右邊圓餅圖看讚、評論、分享的互動結構。最下面表格列各活動：優化目標、獲得粉絲、取關、淨增、每粉成本、頁面瀏覽、互動率跟 7 天同期群留存。"
+      },
+      "community-efficiency-matrix": {
+        "title": "互動成效矩陣",
+        "hint": "頁面瀏覽 × 每粉成本 · 四象限",
+        "prompt": "幫我做一張各廣告組的成效矩陣，只放優化粉絲的組（優化頁面瀏覽的量級差太多，放進去圖就被壓扁了）：X 軸放頁面瀏覽數、Y 軸放每粉成本，泡泡大小代表花費，四個象限標清楚該加預算還是該關。上面補三張卡：總花費、頁面瀏覽、每付費粉成本。旁邊放每粉成本最低的五組，最下面表格列全部九組並標明象限跟落地頁類型。"
+      },
+      "instant-page-vs-web": {
+        "title": "Instant Page 對比站外網站",
+        "hint": "Instant Page vs Web · 載入速度 · 近 7 天",
+        "prompt": "最近站外網站的流量怎麼看都覺得怪，幫我看是不是頁面太慢吃掉了到達——App 內的 Instant Page 跟站外網站到底差在哪、差多少。要用哪幾種圖你先跟我確認，我不知道該看什麼形式，數字對得上就好。"
+      },
+      "gmv-roi-quadrant": {
+        "title": "ROAS 四象限診斷",
+        "hint": "花費 × ROAS · 素材 · 本月",
+        "prompt": "請分析本月 TikTok Shop 的廣告成效，判斷哪些素材與廣告活動該加預算、持續觀察、需要優化或應該停掉。顯示花費、曝光、點擊、訂單數、GMV、ROAS、每次轉化成本與轉換率等 KPI。用四象限圖以素材為單位比較花費與 ROAS，並以泡泡大小表示 GMV；依 ROAS 為廣告活動排名；呈現各廣告活動的花費佔比；針對每個決策分組列出代表素材；並提供各廣告活動的表格，包含花費、曝光、點擊、訂單數、每次轉化成本、GMV 與 ROAS。"
+      },
+      "app-install-video-wall": {
+        "title": "安裝成效影片牆",
+        "hint": "影片牆 · 安裝 · CPI · D7 留存",
+        "prompt": "幫我做一面安裝影片牆：上面用三欄網格排前 6 支影片，每張縮圖帶安裝數跟 CPI 徽章；下面用泡泡圖定位，X 軸放安裝數、Y 軸放 D7 留存率、泡泡大小代表花費，四個象限標清楚該加預算還是該下架；右邊排一個每留存用戶成本的排行。那兩支 iOS 影片的數字我想當實測值用，直接跟安卓一起排 CPI 來決定預算加減。"
+      },
+      "traffic-campaign-efficiency": {
+        "title": "各廣告活動流量成效比較",
+        "hint": "點擊 · 落地頁瀏覽 · CPC · 近 7 天",
+        "prompt": "幫我做一份近 7 天的 TikTok Ads 流量成效儀表板，使用實際資料，依廣告活動拆分。如果資料來源只回傳廣告層級的列，就改用廣告，並在標題與表格中明白寫出實際使用的維度。KPI 放點擊數、落地頁瀏覽（LPV）、CTR、CPC 與花費，若有資料就跟前 7 天比較。用長條圖比較各廣告活動的點擊與 LPV，用排行榜列出 CPC 偏高、或花很多但 LPV 很少的廣告活動，再加一張明細表含廣告活動、點擊、LPV、CTR、CPC 與花費。最後建議該加預算、持續觀察、優化或減預算。如果完全沒有拆分資料，就顯示總計並明白說出缺哪一段，不要自己編數字。"
+      },
+      "traffic-ad-arrival-quality": {
+        "title": "近 30 天素材到達品質",
+        "hint": "廣告層級 · 到達率 · 每次落地頁瀏覽成本 · 近 30 天",
+        "prompt": "幫我做一份近 30 天的 TikTok Ads 素材到達品質儀表板，使用實際資料，依廣告拆分。只使用 TikTok Ads 真的會回傳的數字：曝光、點擊、落地頁瀏覽、CTR、CPC 與花費。KPI 放點擊、落地頁瀏覽、到達率（落地頁瀏覽除以點擊）與每次落地頁瀏覽成本，並註明後兩項是由旁邊的數字換算而來。畫一個從曝光到點擊再到落地頁瀏覽的漏斗，讓兩段流失都看得見；加上依到達率排序的廣告排行榜；再加一張明細表，含廣告、曝光、點擊、落地頁瀏覽、CTR、到達率、CPC、每次落地頁瀏覽成本與花費。最後說明哪些素材值得繼續投放，哪些只是在買永遠不會到達的點擊。不要使用任何網站分析、GA4 或 Meta 的資料，不要報告停留時間、捲動深度或到達網址；如果缺少拆分資料，就顯示總計並說明缺哪一段，不要自己編數字。"
+      },
+      "community-engagement-ranking": {
+        "title": "各廣告活動互動成效排名",
+        "hint": "按讚 · 留言 · 分享 · 近 14 天",
+        "prompt": "幫我做一份近 14 天 TikTok 廣告互動成效排名的儀表板，使用實際資料，依廣告活動拆分。如果實際回傳的是廣告層級，就改用廣告並寫明是哪個維度。顯示按讚、留言、分享、影片播放與花費的總計；用長條圖與排行榜找出互動最多的、花費高但互動少的，以及還能擴量的。明細表要有廣告活動名稱、影片播放、按讚、留言、分享與花費。不需要素材縮圖。最後建議該加預算、該優化素材或該停的測試。"
+      },
+      "community-share-propagation-matrix": {
+        "title": "社群傳播矩陣",
+        "hint": "頁面瀏覽 × 分享 × 花費 · 近 7 天",
+        "prompt": "幫我做一份近 7 天的 TikTok Ads 儀表板，看流量轉成分享行為的能力，依廣告活動拆分；如果資料來源只有廣告層級的列，就改用廣告並寫明是哪個維度。KPI 放頁面瀏覽、按讚、留言、分享與花費。用泡泡圖，X 軸放頁面瀏覽、Y 軸放分享數、泡泡大小代表花費；以中位數切成四群：高流量高分享、低流量高分享、高流量低分享、低流量低分享。再加一張明細表與分享數最多的排行榜。最後建議該擴量、繼續測試、改素材或減預算。資料來源沒有的觸及、粉絲留存或自然流量數據，不要自行推論。"
+      },
+      "app-install-efficiency-matrix": {
+        "title": "安裝成效矩陣",
+        "hint": "安裝 × CPI × 花費 · 近 14 天",
+        "prompt": "幫我做一份近 14 天的 TikTok Ads 應用安裝成效儀表板，使用實際資料，依廣告活動拆分；如果來源回傳的拆分維度是廣告，就改用廣告並寫明。KPI 放安裝數、CPI、點擊數與花費。用泡泡圖，X 軸放安裝數、Y 軸放 CPI、泡泡大小代表花費；CPI 越低越好。分成四區：安裝多–CPI 低、安裝少–CPI 低、安裝多–CPI 高、安裝少–CPI 高。再加一張 CPI 排行榜與明細表，含廣告活動、點擊、安裝、CPI 與花費。最後建議該加預算、繼續測試、優化或暫停。目前資料來源沒有的 Android/iOS 拆分、D7 留存或 MMP 數據，就不要要求。"
+      },
+      "risk-anomaly-overview": {
+        "title": "風險與異常總覽",
+        "hint": "花費 · CPM · CTR · 每次成效成本 · 7 天",
+        "prompt": "請依真實數據，為我的 TikTok Ads 帳戶建立近 7 天的風險檢視儀表板，以廣告活動為維度分析；若資料來源僅提供廣告層級，請改用廣告並註明維度。顯示花費、CPM、CTR、每次成效成本與成效的 KPI，每項都要附上前一期數值與變化幅度。以折線圖呈現花費與每次成效成本的每日趨勢。加入排行榜與明細表，欄位包含廣告活動名稱、花費、CPM、CTR、每次成效成本與成效，並明確標示每次成效成本較前一期上升超過 20% 的列。若前一期沒有資料請留空，不要填 0。最後說明應優先檢視哪些廣告活動，以及原因。"
+      },
+      "risk-cost-efficiency-alert": {
+        "title": "成本效率警示",
+        "hint": "CPM · CPC · 每次成效成本 · 14 天",
+        "prompt": "請依真實數據，建立近 14 天的 TikTok Ads 成本效率警示儀表板，以廣告活動為維度分析；若來源提供的是廣告層級請改用廣告並註明。顯示 CPM、CPC、每次成效成本與花費的 KPI，並附上前一期數值與變化幅度。以泡泡圖呈現，X 軸為成效、Y 軸為每次成效成本、泡泡大小為花費，每次成效成本越低越好。加入依目前每次成效成本排序的排行榜，以及包含廣告活動、花費、CPM、CPC、成效與每次成效成本並附上前一期數值與變化幅度的明細表。凡較前一期惡化超過 20% 的項目，必須在排行榜、泡泡圖與明細表上都明確標示。若缺少前一期資料，不要臆測嚴重程度。最後建議應降低預算、優化或暫停。"
+      },
+      "risk-delivery-health": {
+        "title": "投放健康度",
+        "hint": "花費 · 曝光 · 成效 · 7 天",
+        "prompt": "請依真實數據，建立近 7 天的 TikTok Ads 投放健康度檢查，以廣告活動為維度分析。顯示花費、曝光、成效與轉換數的 KPI，並附上前一期數值與變化幅度。明細表需包含廣告活動名稱、直接取自帳戶資料的操作狀態與二級狀態，以及花費、曝光、成效與轉換數。明確標示有花費卻完全沒有結果的廣告活動，以及已啟用但沒有曝光的廣告活動。加入未產生任何結果之花費的排行榜。僅使用資料來源回傳的狀態，不要自行推論狀態。最後說明應優先檢查哪些廣告活動的投放狀況。"
+      },
+      "risk-creative-fatigue": {
+        "title": "素材疲勞風險",
+        "hint": "曝光頻次 · CTR · 花費 · 14 天",
+        "prompt": "請依真實的廣告層級數據，分析我的 TikTok 廣告近 14 天的素材疲勞狀況。顯示曝光頻次、CTR、花費與曝光的 KPI，並附上前一期數值與變化幅度。針對每則廣告，提供曝光頻次、CTR 較前一期下滑的幅度、數據所歸類的狀態——新素材、需觀察、已疲勞或健康——以及依該狀態而來的建議；不要自行編造嚴重程度。加入依曝光頻次排序的排行榜、素材縮圖列，以及包含廣告名稱、曝光頻次、CTR、CTR 變化、花費、曝光、狀態與建議的明細表。明確標示曝光頻次超過門檻，或 CTR 較前一期大幅下滑的廣告。最後建議應更換素材、維持投放或暫停。"
+      }
+    },
+    "footer": "Cluega AI Agent 會基於數據進行分析，重要決策建議結合業務判斷。",
+    "platformEmpty": "此分類沒有提示詞使用該資料來源。請改選其他來源，或選擇「所有平台」。",
+    "filterEmpty": "沒有提示詞符合目前的篩選條件。請移除一項條件，或選擇「全部」。",
+    "hoverCard": {
+      "notConnected": "未連接",
+      "description": "從你已授權的廣告帳戶即時數據產生儀表板與市場分析 - 持續更新。",
+      "provenance": "由 Cluega Insights MCP 提供 • 預設模型 Auto • 以 ✕ 或 Backspace 移除"
+    }
+  },
+  "managedTasks": {
+    "selectPlatformTitle": "選擇您投放的社媒平台",
+    "selectTaskTitle": "選擇全託管任務",
+    "step1": "步驟 1 / 2",
+    "step2": "步驟 2 / 2",
+    "footer": "Cluega 全託管由專屬團隊 + AI 協同執行，可隨時暫停或升降級。",
+    "tasks": {
+      "meta-high-roas-scale": {
+        "title": "高 ROAS 自動加價",
+        "description": "監控當日 ROAS 表現，達 250% 且轉化達標時自動加碼預算 20%。"
+      },
+      "meta-low-ctr-pause": {
+        "title": "低 CTR 自動暫停",
+        "description": "曝光 ≥ 5,000 但 CTR < 0.8% 的廣告組自動暫停並通知。"
+      },
+      "meta-audience-refresh": {
+        "title": "受眾衰退換新",
+        "description": "頻次 > 4 且 CPM 上升 > 25%，自動切換到備援受眾。"
+      },
+      "meta-budget-redistribution": {
+        "title": "預算自動再分配",
+        "description": "活動級每日依各廣告組 ROAS 自動將預算傾斜給 Top 30%。"
+      },
+      "tiktok-policy-pause": {
+        "title": "素材違規智停",
+        "description": "24 小時內同一素材被拒超過 2 次，自動下架素材避免帳戶受罰。"
+      },
+      "tiktok-creative-fatigue": {
+        "title": "創意疲勞智能輪替",
+        "description": "CPA 連續 3 天上升 > 30% 自動暫停並啟用備援素材。"
+      },
+      "tiktok-live-boost": {
+        "title": "直播時段加碼",
+        "description": "直播開播後 30 分鐘自動加碼預算 50%，下播 30 分鐘後回復。"
+      },
+      "tiktok-high-cpa-breaker": {
+        "title": "高 CPA 自動防護熔斷",
+        "description": "某廣告 CPA > $10 且轉化為 0 連續 6 小時，自動暫停。"
+      },
+      "google-negative-keywords": {
+        "title": "搜尋詞自動加負",
+        "description": "近 30 天無轉化但花費 > $20 的搜尋詞，自動加入否定關鍵字。"
+      },
+      "google-keyword-bidding": {
+        "title": "關鍵字出價最佳化",
+        "description": "依各關鍵字 7 日 ROAS 自動調整出價（±15%）。"
+      },
+      "google-asset-cleanup": {
+        "title": "失效素材清理",
+        "description": "RSA 廣告中表現「低」的廣告素材自動暫停並提示替換。"
+      },
+      "google-quality-score": {
+        "title": "Quality Score 守護",
+        "description": "QS 跌至 ≤ 4 的關鍵字自動降低出價，並標註優化方向。"
+      },
+      "ga-conversion-alert": {
+        "title": "轉化異常告警",
+        "description": "當日轉化率較 7 日均值下滑 > 25%，即時 Slack 告警。"
+      },
+      "ga-traffic-daily-report": {
+        "title": "流量結構日報",
+        "description": "每日 09:00 自動產出 Source/Medium 結構變動報告。"
+      },
+      "ga-audience-decay": {
+        "title": "受眾衰退提示",
+        "description": "GA4 受眾規模 7 日下降 > 20% 自動告警並建議更新條件。"
+      },
+      "ga-funnel-bottleneck": {
+        "title": "漏斗瓶頸偵測",
+        "description": "自動定位轉化漏斗中下降幅度最大的階段並提出假設。"
+      },
+      "gsc-index-alert": {
+        "title": "索引異常告警",
+        "description": "新增「已排除」或「已偵測 - 目前未建立索引」頁面自動告警。"
+      },
+      "gsc-core-web-vitals": {
+        "title": "Core Web Vitals 守護",
+        "description": "LCP / INP / CLS 任一指標跌出綠區自動告警並列出受影響頁。"
+      },
+      "gsc-keyword-rank": {
+        "title": "關鍵字排名追蹤",
+        "description": "核心關鍵字排名跌出 Top 10 自動告警並提供競品對比。"
+      },
+      "gsc-sitemap-sync": {
+        "title": "Sitemap 同步檢查",
+        "description": "每日驗證 Sitemap 提交狀態與已索引比例，異常即時告警。"
+      }
+    }
+  },
+  "faceDetect": {
+    "title": "人臉檢測",
+    "description": "上傳圖片或貼上圖片 URL,即可檢測人臉並標註框線與描述。",
+    "upload": {
+      "button": "上傳圖片",
+      "hint": "PNG、JPG 或 WebP",
+      "uploading": "上傳中…"
+    },
+    "url": {
+      "label": "或貼上公開圖片 URL",
+      "placeholder": "https://example.com/photo.jpg"
+    },
+    "detect": "檢測人臉",
+    "detecting": "檢測中…",
+    "result": {
+      "title": "檢測結果",
+      "empty": "未檢測到人臉。"
+    },
+    "errors": {
+      "badImage": "無法載入該圖片,請檢查 URL 後重試。",
+      "artifactNotFound": "找不到已上傳的圖片,請重新上傳。",
+      "invalidRequest": "請只提供一個圖片來源:上傳或 URL。",
+      "modelFailed": "人臉檢測模型出錯,請重試。",
+      "serviceUnavailable": "人臉檢測服務暫時無法使用。",
+      "generic": "人臉檢測失敗,請重試。",
+      "uploadFailed": "上傳失敗,請重試。",
+      "imageLoadFailed": "預覽圖片載入失敗;人臉列表仍可查看。"
+    }
+  },
+  "faceSwap": {
+    "title": "人臉替換",
+    "description": "上傳一張照片與一張人臉圖片,檢測人臉後選擇要替換的對象,再執行替換。",
+    "target": {
+      "label": "目標照片",
+      "hint": "將被替換人臉的照片"
+    },
+    "source": {
+      "label": "人臉圖片",
+      "hint": "要換入照片的人臉"
+    },
+    "upload": {
+      "button": "上傳圖片",
+      "uploading": "上傳中…"
+    },
+    "detect": "檢測人臉",
+    "detecting": "檢測中…",
+    "swap": "替換人臉",
+    "swapping": "替換中…",
+    "pick": {
+      "title": "選擇要替換的人臉",
+      "hint": "點擊框線即可選擇人臉。未選擇時會替換最顯眼的人臉。",
+      "empty": "目標照片中未檢測到人臉。",
+      "count": "已選擇 {count} 張人臉。"
+    },
+    "result": {
+      "title": "結果"
+    },
+    "errors": {
+      "uploadFailed": "上傳失敗,請重試。",
+      "generic": "人臉替換失敗,請重試。"
+    }
+  },
+  "composer": {
+    "placeholder": "分配任務或隨便提問",
+    "attachment": {
+      "addLocalFile": "從本機檔案新增",
+      "addFilesOrPhotos": "新增檔案或圖片",
+      "recordSkill": "錄製技能",
+      "skills": "技能",
+      "connectors": "連接器",
+      "addConnector": "新增連接器",
+      "manageConnectors": "管理連接器",
+      "browseConnectors": "瀏覽連接器市集",
+      "addCustomConnector": "新增自訂連接器",
+      "browser": "瀏覽器",
+      "designSystem": "設計系統",
+      "plugins": "外掛",
+      "pluginComingSoon": "即將推出",
+      "manageDesignSystems": "管理設計系統",
+      "newDesignSystem": "新增設計系統",
+      "designSystemUsingCluega": "使用 Cluega",
+      "designSystemUsingCluegaHint": "上傳品牌檔案、從設計連接器匯入，或以文字描述",
+      "designSystemFromAdAccounts": "從廣告帳戶",
+      "designSystemFromAdAccountsHint": "從已連接的廣告素材擷取色彩、Logo 與字體",
+      "managePlugins": "管理外掛",
+      "browsePlugins": "瀏覽外掛",
+      "useSkill": "使用技能",
+      "mySkills": "我的技能",
+      "installFromGithub": "從 GitHub 安裝技能",
+      "manageMySkills": "管理我的技能",
+      "scopeVideo": "影片",
+      "scopeImage": "圖片",
+      "scopeAll": "影片 · 圖片",
+      "scopeChat": "聊天",
+      "noSkills": "尚無技能",
+      "noMatchingSkills": "沒有符合的技能",
+      "noSkillsEnabled": "尚未啟用任何技能",
+      "filter": {
+        "clear": "清除",
+        "apply": "套用"
+      },
+      "mediaScope": {
+        "filterLabel": "依用途篩選"
+      },
+      "skillKind": {
+        "filterLabel": "依類型篩選",
+        "agentKinds": "官方與個人",
+        "agent": "Agent 技能",
+        "official": "官方",
+        "personal": "個人",
+        "strategy": "投放策略"
+      },
+      "addSkills": "新增技能",
+      "addSkillsShort": "新增",
+      "strategies": {
+        "loadError": "無法載入投放策略",
+        "retry": "重試",
+        "empty": "尚未儲存任何投放策略",
+        "noMatch": "沒有符合的投放策略",
+        "remove": "移除投放策略",
+        "scoped": "適用於此行銷活動",
+        "scopedEmpty": "沒有技能適用於此行銷活動類型——它們仍在「設定 › 技能」中。"
+      },
+      "autoSelect": "自動挑選技能",
+      "autoSelectHint": "AI 依每個提示，從已啟用的技能中挑選相關技能",
+      "alwaysApply": "永遠套用",
+      "autoPickBadge": "自動"
+    },
+    "directory": {
+      "title": "目錄",
+      "search": "搜尋連接器",
+      "filter": "篩選：{value}",
+      "all": "全部",
+      "showAll": "顯示全部",
+      "showLess": "收合",
+      "add": "新增 {name}",
+      "connected": "已連接",
+      "comingSoon": "即將推出",
+      "empty": "沒有符合的連接器",
+      "close": "關閉"
+    },
+    "workMode": {
+      "label": "模式",
+      "chat": "聊天",
+      "cowork": "協作"
+    },
+    "integration": {
+      "searchPlaceholder": "搜尋應用授權",
+      "authorized": "已授權",
+      "unauthorized": "未授權",
+      "extensionRequired": "需要擴充功能",
+      "myBrowserSwitchLabel": "啟用 Browser Agent",
+      "myBrowserCapabilityHint": "Cluega 會在你的瀏覽器或 Cluega 雲端瀏覽器中執行網頁任務 — AI 會為每個任務選擇最合適的方式。",
+      "notFound": "找不到應用授權",
+      "addConnector": "新增連接器",
+      "myBrowserHintDescription": "無需安裝即可使用 Cluega 雲端瀏覽器。安裝擴充功能後，Cluega 也能在你自己的瀏覽器中運作。",
+      "myBrowserHintLearnMore": "瞭解更多",
+      "myBrowserHintInstall": "安裝"
+    },
+    "model": {
+      "selectTitle": "選擇模型",
+      "lockedHint": "已固定為 Auto，以確保範例提示詞的畫面比例正確產出。開啟清單即可自行選擇模型。",
+      "sessionLockedHint": "此對話固定使用同一個模型。若要換模型，請開新對話。",
+      "generationLockedHint": "正在生成此儀表板時無法更換模型。此回合完成、失敗或停止後即可再次選擇。",
+      "cost": {
+        "low": "低成本",
+        "medium": "中等成本",
+        "high": "高成本"
+      }
+    },
+    "models": {
+      "auto": {
+        "name": "Auto",
+        "description": "智能匹配，適合日常任務"
+      },
+      "cluega-game": {
+        "name": "Cluega 遊戲模型",
+        "description": "Cluega 自研遊戲場景模型，擅長玩法腳本、營運素材與買量文案"
+      },
+      "claude-opus-4-7": {
+        "name": "Claude Opus 4.7",
+        "description": "Anthropic 旗艦模型，擅長深度推理與長文"
+      },
+      "claude-sonnet-4-6": {
+        "name": "Claude Sonnet 4.6",
+        "description": "速度與品質兼顧，適合多數任務"
+      },
+      "gpt-5": {
+        "name": "GPT-5",
+        "description": "OpenAI 旗艦模型，泛用能力強"
+      },
+      "gpt-5-mini": {
+        "name": "GPT-5 mini",
+        "description": "輕量快速，適合即時互動"
+      },
+      "gemini-3-flash": {
+        "name": "Gemini 3 Flash",
+        "description": "速度與品質兼顧，適合多數任務"
+      },
+      "gemini-3-1-pro": {
+        "name": "Gemini 3.1 Pro",
+        "description": "更強的分析與生成能力，適合複雜任務"
+      },
+      "qwen-3-6-plus": {
+        "name": "Qwen 3.6 Plus",
+        "description": "穩定泛用，適合日常工作流程"
+      },
+      "deepseek-v3": {
+        "name": "DeepSeek V3",
+        "description": "高性價比開源模型，適合大量處理"
+      },
+      "grok-3": {
+        "name": "Grok 3",
+        "description": "xAI 推理模型，擅長即時資訊整合"
+      }
+    },
+    "skills": {
+      "tiktok-ads-generator": {
+        "name": "TikTok 廣告生成器",
+        "description": "專為 TikTok 打造的高轉化短影音廣告指令碼與分鏡生成器。根據產品特點自動輸出符合平台節奏的 Hook（前 3 秒吸睛點）、痛點堆疊與強烈 CTA，全面提升素材..."
+      },
+      "meta-creative-matrix": {
+        "name": "Meta 創意矩陣",
+        "description": "針對 Meta (Facebook/Instagram) 的多組別廣告文案與視覺矩陣規劃工具。支援依據不同受眾受熱度（冷/溫/熱受眾）自動派生主要文字、標題與說明組合，優化..."
+      },
+      "google-search-optimizer": {
+        "name": "Google 搜尋優化器",
+        "description": "Google 關鍵字搜尋廣告（RSA）優化專家。自動分析產業競爭度，批量生成高相關性的廣告標題與說明組合，並智慧排除低效動機詞，精準鎖定高意向購買流量..."
+      },
+      "omni-ad-brief-compiler": {
+        "name": "全渠道 Brief 編譯器",
+        "description": "跨平台廣告素材需求單（Brief）自動化生成工具。一鍵將產品特點轉化為符合 TikTok 爆款或 Meta 資訊流風格的拍攝與設計指令，縮短與設計師/代理商的溝通..."
+      },
+      "pmax-asset-shaper": {
+        "name": "PMax 資產規劃器",
+        "description": "Google 效果最大化廣告（PMax）資產群組規劃器。全面覆蓋文字、圖片、影音素材的規格與腳本配置，協助演算法在 YouTube、Gmail、多媒體廣告網進行最佳化投..."
+      },
+      "tiktok-trend-aligner": {
+        "name": "TikTok 趨勢適配器",
+        "description": "實時追蹤 TikTok 熱門音樂、迷因與熱梗的素材適配器。快速將當下流行趨勢與品牌廣告痛點相結合，輸出具備原生感的推廣腳本，降低廣告感並提升用戶停留時長..."
+      },
+      "meta-hook-variant": {
+        "name": "Meta Hook 變體生成器",
+        "description": "針對 Meta 動態消息（Feed）與 Reels 的廣告黃金開頭（Hook）批量生成器。提供問題引導、數據震驚、反直覺陳述等 5 大心理學框架，大幅降低素材的跳出率..."
+      },
+      "cross-channel-copywriter": {
+        "name": "跨渠道文案轉化器",
+        "description": "一鍵實現「一稿多投」的跨渠道廣告文案轉化工具。輸入核心產品賣點，自動適配 TikTok 的社群口語化、Meta 的故事感引導、以及 Google 的高相關性文案..."
+      },
+      "ad-audience-persona": {
+        "name": "廣告受眾畫像",
+        "description": "基於廣告投放邏輯的受眾畫像與標籤推導器。深度剖析目標客群的內在動機與痛點，自動輸出對應的 Meta 利基興趣標籤組合與 TikTok 行為標籤建議，實現精準..."
+      },
+      "landing-page-aligner": {
+        "name": "落地頁一致性審查",
+        "description": "廣告素材與一頁式落地頁（Landing Page）文案一致性審查器。確保 TikTok/Meta 廣告創意與頁面首屏（Above the Fold）的價值主張完美匹配，降低高跳出..."
+      }
+    },
+    "integrationCategories": {
+      "browser": "瀏覽器",
+      "marketing": "營銷投放",
+      "collaboration": "工作協作",
+      "ecommerce": "電商營運",
+      "messaging": "通訊軟體",
+      "crm": "CRM 與銷售",
+      "analytics": "分析與 SEO",
+      "email": "電子郵件營銷",
+      "content": "內容與設計",
+      "tools": "營銷輔助工具"
+    },
+    "screenContext": {
+      "addFolder": "新增本地資料夾",
+      "manageFolders": "管理資料夾"
+    },
+    "executionMode": {
+      "selectTitle": "執行模式",
+      "auto": {
+        "name": "Auto",
+        "description": "跳過工作流中的確認步驟"
+      },
+      "plan": {
+        "name": "Plan",
+        "description": "AI 在執行前檢視並提出配置建議"
+      },
+      "quant": {
+        "name": "Quant",
+        "description": "強制進行確認檢查以確保安全"
+      }
+    },
+    "autonomy": {
+      "label": "自主程度",
+      "autopilot": {
+        "name": "Autopilot",
+        "description": "全自動執行至完成，包含高風險操作"
+      },
+      "copilot": {
+        "name": "Copilot",
+        "description": "自動執行；高風險操作時暫停等待核准"
+      },
+      "manual": {
+        "name": "Manual",
+        "description": "逐一核准每個關鍵步驟"
+      }
+    },
+    "recentAsks": {
+      "label": "從這幾個問題開始試試",
+      "q1": "昨天哪個 TikTok 廣告素材的 CPA 最差？",
+      "q2": "過去 3 天哪些廣告組的 CPA 超出目標 30%？",
+      "q3": "比較我前 5 名廣告活動本週與上週的 ROAS",
+      "history": {
+        "label": "根據你最近的提問",
+        "q1": "上一檔 TikTok Reach 廣告成效如何？請整理重點",
+        "q2": "比較過去兩週 Meta 與 TikTok 的 CPM 趨勢",
+        "q3": "黃金測試集 Excel 還缺哪些權限？"
+      }
+    }
+  },
+  "workflowCatalog": {
+    "tiktok-dm-lead-gen": {
+      "label": "TikTok Lead Generation DM",
+      "description": "TikTok 線索廣告，目的地為 TikTok 私信。"
+    },
+    "tiktok-whatsapp-lead-gen": {
+      "label": "TikTok Lead Gen — WhatsApp",
+      "description": "透過 WhatsApp 收集線索（CLICK）。"
+    }
+  }
+}

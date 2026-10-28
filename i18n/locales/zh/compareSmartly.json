@@ -1,0 +1,246 @@
+{
+  "compareSmartly": {
+    "meta": {
+      "title": "Cluega AI vs Smartly.io | Cluega",
+      "description": "Smartly 為預算龐大的企業廣告主而生；Cluega AI 讓各種規模的代理商用一套 AI 基礎設施接管創意、投放與私域歸因：按成效分成，過程成本全包。"
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. SMARTLY.IO",
+      "title": "企業級投放自動化，不該只屬於年花百萬美金的客戶",
+      "subtitle": "Smartly 為預算龐大的企業廣告主而生——年約制、上線費、以平台費疊在媒體預算上。Cluega AI 讓各種規模的代理商用一套 AI 基礎設施接管創意、投放與私域歸因：按成效分成，過程成本全包；面對大品牌，私有化存儲讓廣告數據不進任何大模型訓練，安全審查一次過關。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo",
+      "cluegaLabel": "Cluega AI",
+      "pancakeLabel": "Smartly.io",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Smartly.io vs Cluega AI",
+      "colDimension": "對比維度",
+      "colPancake": "Smartly.io",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "定位差異",
+          "pancake": "企業級社交廣告自動化平台：創意製作＋媒體採買一體的投放中台",
+          "cluega": "代理商的 AI 營銷基礎設施：400+ 模型、自主投放（L4）與私域歸因"
+        },
+        {
+          "dimension": "支援平台",
+          "pancake": "Meta／TikTok／Pinterest／Snap／Google／Amazon DSP",
+          "cluega": "Meta／Google／TikTok 投放＋TikTok Shop／Amazon／Shopify 電商生態＋LINE／Zalo／WhatsApp 私域歸因層"
+        },
+        {
+          "dimension": "入門門檻",
+          "pancake": "年約制：據公開資料約 $2,000–4,000／月起，另有一次性上線費；適合月花 $20K 以上團隊",
+          "cluega": "自助 $99／月起即可起步；代理商方案依規模與託管量議價"
+        },
+        {
+          "dimension": "計費模式",
+          "pancake": "據公開資料，約為廣告花費 2–4% 的平台費（合約議定），與成效無關",
+          "cluega": "雙軌：自助走積分；全託管按廣告消耗 4%→2.5%→1.5% 提成，token／素材／視頻全包"
+        },
+        {
+          "dimension": "創意能力",
+          "pancake": "Feed 模板化動態創意，規模化量產變體",
+          "cluega": "商業語意生成：400+ 模型（圖像／視頻／文案），Auto 路由自動選最劃算"
+        },
+        {
+          "dimension": "歸因縱深",
+          "pancake": "依賴平台回報數據，止步於廣告點擊與平台內轉化",
+          "cluega": "IM 私域歸因：Zalo／WhatsApp 私聊成交回推廣告，Pixel 看不到的也歸得到"
+        },
+        {
+          "dimension": "多客戶管理",
+          "pancake": "多帳戶、席位權限、白標報表",
+          "cluega": "多租戶＋自定義 MCP 接入，AAIGS 帳戶分級統一治理多客戶風險"
+        },
+        {
+          "dimension": "數據安全",
+          "pancake": "多租戶 SaaS，資料經平台雲端統一處理",
+          "cluega": "可選私有化單租戶存儲（ClickHouse）與在地資料駐留；廣告數據不用於大模型訓練、不跨租戶蒸餾"
+        },
+        {
+          "dimension": "服務模式",
+          "pancake": "賣平台授權，交付與定製由代理商自行承擔",
+          "cluega": "與代理商共同服務客戶：訂製企業級 Skill，一次買斷、交付即歸屬"
+        },
+        {
+          "dimension": "最適使用情境",
+          "pancake": "大型品牌的大規模跨平台動態創意與媒體中台",
+          "cluega": "成效型代理商以成效分成模式，規模化接管客戶帳戶"
+        }
+      ],
+      "footnote": "＊競品資訊整理自其官網與公開第三方資料（2026-07 查核），實際以對方官方公布為準。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "為什麼代理商從 Smartly 轉向 Cluega AI？",
+      "items": [
+        {
+          "title": "成本結構長在代理商的生意模式上",
+          "body": "Smartly 的平台費是疊在媒體預算上的固定成本——不管投得好不好都要付，還有年約與上線費。Cluega AI 全託管按實際廣告消耗提成（4%→2.5%→1.5%，隨規模遞減），過程中的 token、圖片、視頻與優化全包：客戶只付一筆可預期的成效費，代理商的報價體系直接長在上面。"
+        },
+        {
+          "title": "面對大品牌，數據安全就是比稿的入場券",
+          "body": "Agency 服務大品牌時最常被問的一題：「我的廣告數據會不會被拿去訓練模型？會不會和別的客戶混在一起？」Cluega 提供私有化單租戶存儲（ClickHouse 部署）與在地資料駐留：廣告數據不跨租戶、不被蒸餾進任何大模型訓練，每一筆存取都有稽核日誌。代理商拿著這套架構去比稿，資安審查不再是丟單的理由，而是贏單的籌碼。"
+        },
+        {
+          "title": "歸因打穿到私域成交，代理商拿得出「真 ROAS」",
+          "body": "全球有大量成交發生在 WhatsApp／LINE／Zalo 的對話裡——Smartly 的世界止步於平台回報。Cluega 一邊接入 TikTok Shop／Amazon／Shopify 的電商成交數據，一邊用 IM 私域歸因把私聊成交回推到 campaign 與素材：代理商給客戶的報告從「平台轉化」升級為「真實成交 ROAS」，這是續約率的結構性差異。"
+        },
+        {
+          "title": "不是賣你工具，而是一起服務你的客戶",
+          "body": "Smartly 賣的是平台授權，落地與定製靠代理商自己扛。Cluega AI 與代理商並肩服務客戶：針對客戶的行業與流程訂製企業級 Skill——從單一工作流到自主多 Agent 長流程，一次買斷、交付即歸屬客戶。我們相信這個時代的營銷，比的不是誰工具多，而是誰能把散落在廣告、電商、私域、CRM 的碎片數據，結合成別人拿不走的核心壁壘。"
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          {
+            "type": "field",
+            "label": "廣告賬號ID",
+            "value": "7535737911069753842"
+          },
+          {
+            "type": "field",
+            "label": "廣告名稱",
+            "value": "0609-私訊廣告-EcoSip"
+          },
+          {
+            "type": "field",
+            "label": "廣告ID",
+            "value": "1866940736964473"
+          },
+          {
+            "type": "field",
+            "label": "素材ID",
+            "value": "1867515992671681"
+          },
+          {
+            "type": "preview",
+            "label": "素材預覽",
+            "brand": "EcoSip",
+            "value": "保溫杯推廣視頻"
+          },
+          {
+            "type": "field",
+            "label": "社交媒體賬號ID",
+            "value": "EcoSip"
+          }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "創建時間",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "事件總數",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "成交平均成本",
+        "legend": "全部"
+      },
+      "identity": {
+        "keyword": "電話",
+        "lead": "高價值線索"
+      },
+      "billing": {
+        "steps": [
+          "用戶首次諮詢產品",
+          "AI 辨識痛點、持續互動",
+          "AI 提供客製化方案"
+        ],
+        "success": "成功轉化：有效線索",
+        "outcome": "Outcome 達成：收費$0.99"
+      },
+      "cache": {
+        "bubble": "Meta 廣告受眾好像疲乏了，今天保溫杯的 CTR 跌破 1%、ROAS 掉到 1.2。這檔活動還在跑，現在怎麼救？",
+        "statusLabel": "已命中 Prompt 快取",
+        "solutionsLabel": "解決方案：",
+        "sol1Lead": "素材止血：",
+        "sol1Text": "直接關閉頻率超過 3.5 且今天表現最差的 2 組老圖文，預算切 30% 到備用的「開箱短影音」素材。",
+        "sol2Lead": "清洗受眾：",
+        "sol2Text": "檢查自訂受眾，確保已嚴格「排除過去 30 天已購買者」，並將 Lookalike（類似受眾）比例從 1% 放大到 3%–5% 來擴大池子。",
+        "sol3Lead": "預算防守：",
+        "sol3Text": "若下午 4 點前 CPM（千次曝光成本）仍未回落，代表大盤競價過激，立即將此系列預算調降 50%，改開新系列跑「加入購物車」進行暖場。"
+      }
+    },
+    "highlights": {
+      "eyebrow": "ENTERPRISE-GRADE PERFORMANCE ADOS",
+      "title": "不只自動化投放，更給代理商一套可複用的 AI 基礎設施",
+      "items": [
+        {
+          "title": "400+ 模型內含",
+          "body": "Claude／GPT／Gemini／DeepSeek 與主流圖像、視頻模型開箱即用，Auto 路由自動選最劃算，無需自談 API。"
+        },
+        {
+          "title": "全託管 L4（AI 自主投放層級）",
+          "body": "AI 自主管理出價、預算、受眾與開關，按消耗提成、過程成本全包，附託管底費與公平用量護欄。"
+        },
+        {
+          "title": "IM 私域歸因與電商打通",
+          "body": "Zalo／WhatsApp 私域真實成交回推廣告，並接入 TikTok Shop／Amazon／Shopify 電商成交數據——平台 Pixel 看不到的轉化也歸得到，對手做不到的結構性差異。"
+        },
+        {
+          "title": "多租戶與 MCP",
+          "body": "代理商多客戶架構、自定義 MCP 接入既有技術棧，報表與權限分租戶治理；大品牌可加購私有化存儲，數據主權完整交付。"
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "我該如何選擇？",
+      "pancake": {
+        "label": "選擇 Smartly.io",
+        "body": "你服務全球企業客戶、月預算充足且集中在 Meta／Google 等平台生態內，重點是大規模動態創意模板與跨平台媒體中台，並能接受年約與企業級門檻。"
+      },
+      "cluega": {
+        "label": "選擇 Cluega AI",
+        "body": "你經營成效代理生意，需要私域成交歸因、按成效分成的計費模式、以及開箱即用的全模型能力——用更輕的成本結構，交付更深的歸因報告。"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "常見問題",
+      "subtitle": "在與我們團隊聯繫之前，您可能想了解的所有細節。",
+      "contact": "聯繫銷售",
+      "items": [
+        {
+          "q": "我們是中小型代理商，月管理花費不到 $50K，適合嗎？",
+          "a": "適合。Smartly 的合約門檻通常要求月花 $20K 以上才劃算；Cluega AI 自助方案 $99／月即可起步，全託管從 4% 提成開始、規模越大費率越低，代理商方案另可依託管量議價。"
+        },
+        {
+          "q": "全託管提成和 Smartly 的平台費有什麼不同？",
+          "a": "Smartly 平台費是固定抽成，投放產出的素材與人力成本另計；Cluega 的提成全包——託管期間的 token 消耗、圖片與視頻生成、投放決策全含在內，不另扣費。客戶只付「廣告消耗 × 提成」一筆，帳單完全可預期。"
+        },
+        {
+          "q": "可以只用自助模式、不交出帳戶託管嗎？",
+          "a": "可以。自助模式按積分計費（1 積分＝$0.001，透明錨定），你叫 AI 做單件事——出素材、寫文案、調受眾——都走積分；準備好了再逐帳戶開啟全託管，兩軌互斥不疊加。"
+        },
+        {
+          "q": "多客戶帳戶的安全與權限怎麼保障？",
+          "a": "每個客戶帳戶獨立走 AAIGS 分級：成熟度 M0–M5 決定 AI 授權 T0–T3，新帳戶從低授權開始、隨數據累積逐步放權；所有 AI 決策附審計日誌，手動操作的 campaign 不計入提成。"
+        },
+        {
+          "q": "大品牌客戶要求數據不出境、不進模型訓練，能滿足嗎？",
+          "a": "可以，這正是 Cluega 對大品牌的標配答案。廣告數據在任何方案下都不用於跨租戶模型訓練；對資安與資料主權要求高的品牌，可加購私有化單租戶 ClickHouse 部署，支援在地資料駐留與合規附加（如 PDPL），含監控、備援與稽核日誌——AI 用你的數據幫你投放，但你的數據永遠只屬於你。"
+        },
+        {
+          "q": "企業級 Skill 訂製是怎麼合作的？",
+          "a": "代理商帶著客戶需求來，Cluega 一起評估場景、開發交付：從單一工作流的標準 Skill，到跨系統整合的進階 Skill，再到自主多 Agent 的旗艦級長流程，按複雜度一次性報價、付清即買斷，無年費。Skill 在平台上持續受益於模型更新，客戶的碎片數據沉澱成專屬的營銷資產——這是代理商能交付、而純工具商給不了的東西。"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "以 Cluega AI 與代理商並肩，把碎片數據煉成客戶的核心壁壘。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    }
+  }
+}

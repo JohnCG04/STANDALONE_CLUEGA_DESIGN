@@ -1,0 +1,118 @@
+{
+  "title": "Usage Analytics",
+  "subtitle": "A summary of credits usage for your account",
+  "buyCredits": "Buy credit packs",
+  "upgrade": "Upgrade",
+  "lowCredit": {
+    "title": "Credits running low",
+    "body": "You have less than {percent}% of your plan's credits left.",
+    "action": "Buy credits"
+  },
+  "range": {
+    "label": "Time range",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This week",
+    "lastWeek": "Last week",
+    "lastMonth": "Last month",
+    "last3Months": "Last 3 months",
+    "allTime": "All time",
+    "custom": "Custom range",
+    "apply": "Apply",
+    "back": "Back"
+  },
+  "stats": {
+    "currentCredits": "Current Credits",
+    "totalJobs": "Total Jobs",
+    "creditsIn": "Credits In",
+    "creditsOut": "Credits Out",
+    "currentCreditsHint": "Credits available in your wallet right now, across every source.",
+    "totalJobsHint": "Jobs completed in the selected time range.",
+    "creditsInHint": "Credits added in this range — top-ups, subscription grants and community rewards.",
+    "creditsOutHint": "Credits spent on jobs, plus credits that expired in this range."
+  },
+  "empty": {
+    "title": "No activity yet",
+    "body": "Create your first design and your credit usage will show up here.",
+    "cta": "Create your first design",
+    "rangeTitle": "No activity in this range",
+    "rangeBody": "Nothing was generated in the selected period. Pick a different time range above."
+  },
+  "creditsUsage": {
+    "title": "Credits Usage"
+  },
+  "filters": {
+    "users": "Users",
+    "features": "Features",
+    "models": "Models",
+    "platform": "Platform",
+    "credits": "Credits",
+    "clear": "Clear filters"
+  },
+  "tooltip": {
+    "credits": "Credits",
+    "vs": "vs {label}",
+    "otherModels": "+{n} other models"
+  },
+  "legend": {
+    "more": "+{n} more",
+    "less": "Show less"
+  },
+  "modelsUsage": {
+    "title": "Models Usage",
+    "models": "Models",
+    "consumption": "Consumption (%)"
+  },
+  "creditsSummary": {
+    "title": "Credits summary",
+    "consumed": "consumed",
+    "added": "added",
+    "source": {
+      "consumption": "Consumption",
+      "topup": "Topup",
+      "subscription": "Subscription",
+      "refund": "Refunded",
+      "community": "Community",
+      "expired": "Expired"
+    }
+  },
+  "tabs": {
+    "generations": "Generations",
+    "team": "Team",
+    "credits": "Credits"
+  },
+  "table": {
+    "completed": "Completed",
+    "model": "Model",
+    "feature": "Feature",
+    "status": "Status",
+    "user": "User",
+    "credits": "Credits",
+    "platform": "Platform"
+  },
+  "status": {
+    "completed": "Success",
+    "failed": "Failed",
+    "processing": "Processing",
+    "stopped": "Stopped",
+    "refunded": "Refunded",
+    "charged": "Charged",
+    "free": "No charge"
+  },
+  "platform": {
+    "web": "Web",
+    "api": "API",
+    "mobile": "Mobile"
+  },
+  "pager": {
+    "prev": "Previous page",
+    "next": "Next page",
+    "rowsPerPage": "Rows per page",
+    "page": "Page",
+    "items": "generations"
+  },
+  "tableEmpty": {
+    "title": "No generations found",
+    "body": "Try widening the time range or clearing filters."
+  }
+}

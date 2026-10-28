@@ -1,0 +1,45 @@
+{
+  "ui": {
+    "dateRangePicker": {
+      "placeholder": "選擇日期範圍",
+      "presetsColumn": "快捷預設",
+      "calendarNav": "日曆導航",
+      "prevYear": "上一年",
+      "prevMonth": "上個月",
+      "nextMonth": "下個月",
+      "nextYear": "下一年",
+      "startTime": "開始時間",
+      "rangeStartTime": "範圍開始時間",
+      "rangeEndTime": "範圍結束時間",
+      "cancel": "取消",
+      "confirm": "套用",
+      "preset": {
+        "today": "今天",
+        "yesterday": "昨天",
+        "last7": "最近 7 天",
+        "last14": "最近 14 天",
+        "last30": "最近 30 天",
+        "thisWeek": "本週",
+        "lastWeek": "上週",
+        "adPublicationPeriod": "廣告投放期間"
+      },
+      "time": "時間",
+      "hour": "時",
+      "minute": "分",
+      "today": "今天",
+      "clear": "清除"
+    },
+    "reportColumnHeader": {
+      "dragHint": "拖動欄位排序",
+      "menuLabel": "操作",
+      "sortAsc": "按升序排序",
+      "sortDesc": "按降序排序",
+      "clearSort": "取消排序",
+      "filter": "篩選",
+      "remove": "移除此項",
+      "resizeHint": "調整欄寬",
+      "autoFitHint": "雙擊以符合內容寬度",
+      "columnFallback": "欄位"
+    }
+  }
+}

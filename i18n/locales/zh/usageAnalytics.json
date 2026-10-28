@@ -1,0 +1,118 @@
+{
+  "title": "用量分析",
+  "subtitle": "帳戶的 Credit 用量總覽",
+  "buyCredits": "購買 Credit 套餐",
+  "upgrade": "升級",
+  "lowCredit": {
+    "title": "Credit 即將用完",
+    "body": "您的方案 Credit 剩餘不足 {percent}%。",
+    "action": "購買 Credit"
+  },
+  "range": {
+    "label": "時間範圍",
+    "today": "今天",
+    "yesterday": "昨天",
+    "thisWeek": "本週",
+    "lastWeek": "上週",
+    "lastMonth": "最近一個月",
+    "last3Months": "最近三個月",
+    "allTime": "全部時間",
+    "custom": "自訂範圍",
+    "apply": "套用",
+    "back": "返回"
+  },
+  "stats": {
+    "currentCredits": "目前 Credit",
+    "totalJobs": "任務總數",
+    "creditsIn": "存入 Credit",
+    "creditsOut": "消耗 Credit",
+    "currentCreditsHint": "當前錢包中的可用積分，涵蓋所有來源。",
+    "totalJobsHint": "所選時間範圍內已完成的任務數。",
+    "creditsInHint": "此範圍內新增的積分——充值、訂閱贈送和社區獎勵。",
+    "creditsOutHint": "此範圍內任務消耗的積分，加上過期的積分。"
+  },
+  "empty": {
+    "title": "還沒有任何活動",
+    "body": "建立您的第一個設計，Credit 用量將顯示在這裡。",
+    "cta": "建立第一個設計",
+    "rangeTitle": "此期間沒有任何活動",
+    "rangeBody": "所選期間內沒有任何生成記錄。請在上方選擇其他時間範圍。"
+  },
+  "creditsUsage": {
+    "title": "Credit 用量"
+  },
+  "filters": {
+    "users": "用戶",
+    "features": "功能",
+    "models": "模型",
+    "platform": "平台",
+    "credits": "Credit",
+    "clear": "清除篩選"
+  },
+  "tooltip": {
+    "credits": "Credit",
+    "vs": "對比 {label}",
+    "otherModels": "其他 {n} 個模型"
+  },
+  "legend": {
+    "more": "+{n} 更多",
+    "less": "收起"
+  },
+  "modelsUsage": {
+    "title": "模型用量",
+    "models": "模型",
+    "consumption": "消耗 (%)"
+  },
+  "creditsSummary": {
+    "title": "Credit 總覽",
+    "consumed": "已消耗",
+    "added": "已存入",
+    "source": {
+      "consumption": "消耗",
+      "topup": "儲值",
+      "subscription": "訂閱",
+      "refund": "已退回",
+      "community": "社區",
+      "expired": "已過期"
+    }
+  },
+  "tabs": {
+    "generations": "生成記錄",
+    "team": "團隊",
+    "credits": "Credit"
+  },
+  "table": {
+    "completed": "完成時間",
+    "model": "模型",
+    "feature": "功能",
+    "status": "狀態",
+    "user": "用戶",
+    "credits": "Credit",
+    "platform": "平台"
+  },
+  "status": {
+    "completed": "成功",
+    "failed": "失敗",
+    "processing": "處理中",
+    "stopped": "已停止",
+    "refunded": "已退還",
+    "charged": "已扣除",
+    "free": "未扣費"
+  },
+  "platform": {
+    "web": "網頁",
+    "api": "API",
+    "mobile": "行動裝置"
+  },
+  "pager": {
+    "prev": "上一頁",
+    "next": "下一頁",
+    "rowsPerPage": "每頁行數",
+    "page": "頁",
+    "items": "筆生成記錄"
+  },
+  "tableEmpty": {
+    "title": "找不到生成記錄",
+    "body": "請擴大時間範圍或清除篩選。"
+  }
+}

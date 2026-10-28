@@ -1,0 +1,274 @@
+{
+  "compareMadgicx": {
+    "meta": {
+      "title": "Cluega AI vs Madgicx | Cluega",
+      "description": "Cluega AI 集成 TikTok 與 Meta 全球廣告資料庫、自動持續偵測競品動向，用 400+ 模型直接生成圖片與短視頻——而且每支素材的好壞，由私域真實成交來驗證。"
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. MADGICX",
+      "title": "素材不該只是舊廣告的變體，而是會賣貨的商業語意",
+      "subtitle": "Madgicx 提供 Meta 廣告庫供你搜尋與收藏，素材以既有廣告與庫內素材為底稿產出變體、以靜態圖為主；Cluega AI 集成 TikTok 與 Meta 全球廣告資料庫、自動持續偵測競品動向，讀懂產品賣點、受眾階段與在地語境，用 400+ 模型直接生成圖片與短視頻——而且每支素材的好壞，由私域真實成交來驗證。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo",
+      "cluegaLabel": "Cluega AI",
+      "pancakeLabel": "Madgicx",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Madgicx vs Cluega AI",
+      "colDimension": "對比維度",
+      "colPancake": "Madgicx",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "定位差異",
+          "pancake": "Meta 廣告帳戶的 AI 優化與創意分析工具",
+          "cluega": "品牌團隊的 AI 營銷基礎設施：素材生成、投放與歸因一體"
+        },
+        {
+          "dimension": "支援平台",
+          "pancake": "投放管理僅 Meta（FB／IG）；Google／TikTok 僅報表整合",
+          "cluega": "Meta／Google／TikTok 投放＋TikTok Shop／Amazon／Shopify 電商生態＋IM 私域歸因"
+        },
+        {
+          "dimension": "素材生成邏輯",
+          "pancake": "以既有廣告、產品頁與廣告庫素材為底稿的變體生成，以靜態圖為主",
+          "cluega": "商業語意生成：理解賣點、受眾與漏斗階段，從零產出圖片與短視頻"
+        },
+        {
+          "dimension": "競品洞察",
+          "pancake": "Meta 廣告庫可搜尋廣告主、依產業／格式篩選並收藏至 Board，屬人工瀏覽式研究；無自動持續監控與洞察生成，且不含 TikTok",
+          "cluega": "集成 TikTok／Meta 全球廣告資料庫，自動持續偵測競品素材、敘事與投放動向，洞察直接進入生成流程"
+        },
+        {
+          "dimension": "可用模型",
+          "pancake": "自家 AI Ad Generator（單一封閉管線）",
+          "cluega": "FLUX・Imagen・Midjourney・Kling・Veo・Sora 等 400+ 模型，Auto 路由"
+        },
+        {
+          "dimension": "素材驗證依據",
+          "pancake": "歷史素材表現標籤（CTR／花費維度的 Creative Insights）",
+          "cluega": "語意 × 歸因：素材直接對到私域成交數據，知道哪句賣點真的收單"
+        },
+        {
+          "dimension": "視頻能力",
+          "pancake": "有限；人工設計服務（Sparkle）另行訂閱",
+          "cluega": "全託管每 $1,000 廣告消耗內含約 3 支短視頻＋30 張圖，超量按成本價計"
+        },
+        {
+          "dimension": "入門門檻",
+          "pancake": "Pro Complete 按 Meta 廣告花費分級：最低檔 $99／月，至 $20–30K 花費級距約 $329／月；季付／年付約低 20–30%，Tracking Pro 追蹤功能另加購",
+          "cluega": "$12／週試用起；$99／月 Pro；全託管模式素材產出含在提成內"
+        },
+        {
+          "dimension": "最適使用情境",
+          "pancake": "Meta 單平台的帳戶體檢與素材表現分析",
+          "cluega": "品牌團隊規模化產出多平台、多語系、能被成交驗證的商業素材"
+        }
+      ],
+      "footnote": "＊競品資訊整理自其官網與公開第三方資料（2026-07 查核），實際以對方官方公布為準。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "為什麼品牌團隊從 Madgicx 轉向 Cluega AI？",
+      "items": [
+        {
+          "title": "商業語意，不是素材變體",
+          "body": "變體生成的天花板是你昨天的素材庫。Cluega AI 從商業語意出發：這個產品的核心賣點是什麼、這批受眾在漏斗哪一層、不同市場各自吃哪套敘事——然後才決定畫面與腳本。產出的不是「長得像爆款」的圖，而是「說得中痛點」的素材。"
+        },
+        {
+          "title": "查得到競品素材，和自動看懂市場在轉向",
+          "body": "Madgicx 的 Meta 廣告庫確實能搜尋廣告主、收藏喜歡的素材——但那是人工瀏覽：你得自己去查、自己判斷哪套敘事正在放量，而且只看得到 Meta。Cluega AI 集成 TikTok 與 Meta 全球廣告資料庫，持續自動掃描你指定的競品與品類：新素材上線、敘事角度變化、投放力度增減自動偵測成洞察，直接餵進商業語意生成——差別不在有沒有廣告庫，而在洞察需不需要你親自去蹲。"
+        },
+        {
+          "title": "素材好壞，由成交說了算",
+          "body": "CTR 高的素材不一定收單。Cluega 把 IM 私域歸因接到素材粒度：哪支素材帶來的對話推進到留資、下單、付款，一路看得到。品牌團隊第一次能用「成交」而非「點擊」迭代素材策略。"
+        },
+        {
+          "title": "從素材到投放的完整閉環",
+          "body": "Madgicx 產出素材後，上線、測試、迭代仍靠人。Cluega AI 的 L4 全託管（AI 自主投放層級）把素材生成、上線、預算分配與汰換接成一條線，AAIGS 分級決定 AI 自主權限，表現數據自動回流下一輪生成。"
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          {
+            "type": "field",
+            "label": "廣告賬號ID",
+            "value": "7535737911069753842"
+          },
+          {
+            "type": "field",
+            "label": "廣告名稱",
+            "value": "0609-私訊廣告-EcoSip"
+          },
+          {
+            "type": "field",
+            "label": "廣告ID",
+            "value": "1866940736964473"
+          },
+          {
+            "type": "field",
+            "label": "素材ID",
+            "value": "1867515992671681"
+          },
+          {
+            "type": "preview",
+            "label": "素材預覽",
+            "brand": "EcoSip",
+            "value": "保溫杯推廣視頻"
+          },
+          {
+            "type": "field",
+            "label": "社交媒體賬號ID",
+            "value": "EcoSip"
+          }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "創建時間",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "事件總數",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "成交平均成本",
+        "legend": "全部"
+      },
+      "identity": {
+        "keyword": "電話",
+        "lead": "高價值線索"
+      },
+      "billing": {
+        "steps": [
+          "用戶首次諮詢產品",
+          "AI 辨識痛點、持續互動",
+          "AI 提供客製化方案"
+        ],
+        "success": "成功轉化：有效線索",
+        "outcome": "Outcome 達成：收費$0.99"
+      },
+      "monitor": {
+        "threadName": "Cluega",
+        "close": "關閉",
+        "source": "自動監測 · TikTok / Meta / IG",
+        "when": "今天 10:11",
+        "active": "監測中",
+        "analyzing": "分析中"
+      },
+      "creativeTracking": {
+        "header": "素材成效追蹤",
+        "rows": [
+          {
+            "name": "抗老精華_短影音_痛點對比",
+            "metric": "引導諮詢",
+            "value": "128",
+            "unit": "次"
+          },
+          {
+            "name": "早C晚A_圖文_成分解析",
+            "metric": "建立訂單",
+            "value": "86",
+            "unit": "筆"
+          },
+          {
+            "name": "修護霜_KOL體驗_限時組合",
+            "metric": "付款成交",
+            "value": "45",
+            "unit": "筆"
+          }
+        ]
+      },
+      "hostingLog": {
+        "headerTitle": "Cluega 托管記錄",
+        "entries": {
+          "budgetPlan": {
+            "action": "做了廣告預算規劃",
+            "text": "依照近 7 日 ROAS 表現，建議將 Meta 預算下調 12%、Google 上調 18%。"
+          },
+          "optimization": {
+            "action": "生成優化建議",
+            "text": "針對 3 個低效廣告組，建議暫停並重新分配預算至高 ROAS 廣告組。"
+          },
+          "manualBid": {
+            "action": "手動調整出價策略",
+            "text": "將「春季促銷-轉化」廣告組的單次轉化出價從 $8 上調至 $12。"
+          }
+        }
+      }
+    },
+    "highlights": {
+      "eyebrow": "MULTI-CHANNEL AGENTIC SYSTEM",
+      "title": "不只優化既有廣告，更給品牌一條「素材 → 投放 → 歸因」的閉環",
+      "items": [
+        {
+          "title": "商業語意引擎",
+          "body": "以賣點、受眾、漏斗階段與各市場語境驅動生成，支援多語系商業素材、覆蓋全球市場。"
+        },
+        {
+          "title": "全球競品洞察",
+          "body": "集成 TikTok／Meta 廣告資料庫，自動偵測競品素材與投放動向，洞察直接驅動下一輪生成。"
+        },
+        {
+          "title": "400+ 模型內含",
+          "body": "主流圖像與視頻模型開箱即用（FLUX・Kling・Veo 等），Auto 路由自動選最劃算，全託管下每 $1,000 廣告消耗內含約 3 支短視頻＋30 張圖。"
+        },
+        {
+          "title": "IM 私域歸因",
+          "body": "素材效果追到私域成交層——哪支片帶來的對話真的付了錢，一目了然；全託管 L4 下素材產出含在提成內、自動迭代。"
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "我該如何選擇？",
+      "pancake": {
+        "label": "選擇 Madgicx",
+        "body": "你只投 Meta、預算集中在單平台，需要的是帳戶自動體檢、素材表現分析、Meta 廣告庫的人工素材研究與既有素材的快速變體，且團隊已有穩定的素材產能。"
+      },
+      "cluega": {
+        "label": "選擇 Cluega AI",
+        "body": "你要規模化生成多平台、多語系的商業素材，希望素材由真實成交數據驗證與迭代，並把「素材產能」直接綁進投放預算而非另聘設計團隊。"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "常見問題",
+      "subtitle": "在與我們團隊聯繫之前，您可能想了解的所有細節。",
+      "contact": "聯繫銷售",
+      "items": [
+        {
+          "q": "商業語意素材和一般 AI 生圖差在哪？",
+          "a": "一般 AI 生圖回答「畫什麼」；商業語意素材先回答「為什麼這樣賣」——賣點、受眾階段、在地語境先行，再由模型產出畫面與腳本，且每支素材事後都能用私域成交數據驗證這個語意假設。"
+        },
+        {
+          "q": "可以指定用哪個模型嗎？",
+          "a": "可以。Auto 路由預設自動選最劃算的模型，你也可以 pin 指定模型（如 Veo 出片、FLUX 出圖）；積分按成本反推扣取，貴模型自動扣更多，計費結構透明。"
+        },
+        {
+          "q": "素材費用怎麼計算？",
+          "a": "自助模式按積分計費（1 積分＝$0.001）；全託管模式下素材含在提成內——每 $1,000 的廣告託管消耗，內含約 3 支短視頻＋30 張圖的公平用量，超出部分按成本價計，平時完全無感。"
+        },
+        {
+          "q": "競品洞察是怎麼運作的？",
+          "a": "Cluega AI 持續掃描 TikTok 與 Meta 的全球廣告資料庫，追蹤你指定的競品與品類關鍵字：新素材上線、敘事角度變化、投放力度增減都會自動偵測並形成洞察，直接作為下一輪商業語意生成的輸入——不需要人工蹲點查庫。"
+        },
+        {
+          "q": "我們已有設計團隊，怎麼配合？",
+          "a": "常見做法是讓設計團隊定義品牌語意與版式邊界，Cluega AI 負責規模化產出與投放驗證；表現最好的方向再交由設計團隊精修，人機各做擅長的一半。"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "以 Cluega AI 讓每一支素材，都帶著成交的證據上場。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    }
+  }
+}

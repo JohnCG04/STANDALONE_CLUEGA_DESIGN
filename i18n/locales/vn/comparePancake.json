@@ -1,0 +1,197 @@
+{
+  "comparePancake": {
+    "meta": {
+      "title": "Cluega IM vs Pancake | Cluega",
+      "description": "Pancake giỏi quản lý tin nhắn và đơn hàng của nhiều fanpage; Cluega IM đi thêm một bước — tự hợp nhất dấu vết đa kênh của cùng một người mua ở tầng danh tính, biến hội thoại private thành tài sản dữ liệu chốt đơn có thể quy kết và tính phí."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA IM VS. PANCAKE",
+      "title": "Trả mỗi đơn chốt trên Zalo về đúng mẫu quảng cáo TikTok đã tạo ra nó",
+      "subtitle": "Pancake giỏi quản lý tin nhắn và đơn hàng của nhiều fanpage, cũng có thể gửi sự kiện về nền tảng quảng cáo; Cluega IM đi thêm một bước — tự hợp nhất dấu vết đa kênh của cùng một người mua ở tầng danh tính, biến hội thoại private thành tài sản dữ liệu chốt đơn có thể quy kết và tính phí. Thang chuyển đổi do chính quy tắc thu thập thông tin của bạn định nghĩa, để từng đồng ngân sách quảng cáo đều khớp với đơn chốt thật.",
+      "ctaStart": "Đặt lịch Demo",
+      "ctaDemo": "Tư vấn giải pháp",
+      "cluegaLabel": "Cluega IM",
+      "pancakeLabel": "Pancake",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Pancake vs Cluega IM",
+      "colDimension": "Tiêu chí so sánh",
+      "colPancake": "Pancake",
+      "colCluega": "Cluega IM",
+      "rows": [
+        {
+          "dimension": "Khác biệt định vị",
+          "pancake": "Bộ vận hành chat đa kênh + POS: tin nhắn, bình luận, đơn hàng, tồn kho, giao vận",
+          "cluega": "Hệ điều hành marketing private (AdOS): cỗ máy hiệu quả đi từ hội thoại → giai đoạn chốt đơn → quy kết quảng cáo"
+        },
+        {
+          "dimension": "Kênh hỗ trợ",
+          "pancake": "FB／IG／TikTok Shop／Zalo／Shopee／Lazada… (hợp nhất ở tầng vận hành)",
+          "cluega": "LINE OA／Zalo／WhatsApp／Messenger… (thông suốt cả tầng vận hành + tầng quy kết)"
+        },
+        {
+          "dimension": "Ngưỡng khởi điểm",
+          "pancake": "Thu phí theo số kết nối và số chỗ ngồi, có gói 3／6／12 tháng",
+          "cluega": "Thuê SaaS từ $999／tháng + tính phí theo kết quả chốt đơn (Outcome-based): hội thoại chưa chốt chỉ thu phí sàn bù chi phí tính toán"
+        },
+        {
+          "dimension": "Hiệu quả quy kết",
+          "pancake": "Có thể gửi sự kiện về Meta／Google／TikTok／WhatsApp／IG… qua Pancake CRM; nội dung gửi về là các sự kiện rời rạc như đơn hàng, biểu mẫu",
+          "cluega": "Quảng cáo TikTok／Meta／Google → hội thoại private → chốt đơn, quy kết cùng nguồn trên toàn chuỗi, mỗi lần quy kết đều kèm căn cứ phán định có thể kiểm toán"
+        },
+        {
+          "dimension": "Danh tính đa nền tảng",
+          "pancake": "Lấy số điện thoại làm khoá hợp nhất trên thực tế, phải đối chiếu thủ công",
+          "cluega": "Tầng danh tính (Identity Merge) tự hợp nhất: cùng một người mua trên Zalo／LINE／WhatsApp chỉ tính một lần chốt đơn"
+        },
+        {
+          "dimension": "Định nghĩa chuyển đổi",
+          "pancake": "Gửi về được các sự kiện mặc định như đặt hàng, điền form hẹn, khởi tạo hội thoại, thu thập lead; chủ yếu kích hoạt theo quy tắc, không phải thang giai đoạn chốt đơn liên tục",
+          "cluega": "Phễu MMT L0–L6, trong đó L1–L6 do bạn tự định nghĩa theo quy tắc thu thập thông tin và chốt đơn: để lại số điện thoại＝L2, hoàn tất đặt hẹn＝L3, đặt hàng＝L5, hoàn tất thanh toán＝L6"
+        },
+        {
+          "dimension": "Khách hàng mục tiêu",
+          "pancake": "Nhà bán hàng online, livestream và đội CSKH",
+          "cluega": "Nhà quảng cáo hướng hiệu quả, Media Buyer, agency"
+        },
+        {
+          "dimension": "Tình huống phù hợp nhất",
+          "pancake": "CSKH, nhận đơn và vận hành giao vận với lượng tin nhắn lớn",
+          "cluega": "Thu hút khách private do quảng cáo dẫn dắt, quy kết chốt đơn và scale ROAS"
+        }
+      ],
+      "footnote": "＊Thông tin đối thủ được tổng hợp từ website chính thức và dữ liệu công khai của bên thứ ba (đối chiếu 2026-07), thực tế lấy công bố chính thức của họ làm chuẩn.",
+      "ctaStart": "Đặt lịch Demo",
+      "ctaDemo": "Tư vấn giải pháp"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Vì sao trên nền Pancake, đội hiệu quả vẫn cần Cluega IM?",
+      "items": [
+        {
+          "title": "Cùng một người mua trên ba App, chốt đơn chỉ tính một lần",
+          "body": "Pancake CRM gửi được sự kiện về Meta／Google／TikTok, nhưng khi cùng một người mua xuất hiện trên Zalo, LINE và WhatsApp thì đó là ba ID không biết nhau — thực tế phải đối chiếu số điện thoại thủ công, chỉ cần lệch một chút là tính trùng. Cluega IM tự hợp nhất hành vi đa kênh của cùng một người mua ở tầng danh tính: khách bấm vào từ quảng cáo TikTok, thêm Zalo, ba ngày sau thanh toán trong tin nhắn riêng — đơn chốt này trỏ về đúng campaign, adset và creative ban đầu, chỉ tính một lần và không tính phí trùng."
+        },
+        {
+          "title": "Thang do bạn định nghĩa, mỗi cấp đều có căn cứ phán định",
+          "body": "Nền tảng quảng cáo chỉ nhận được một danh sách sự kiện mặc định, kích hoạt hay không do quy tắc quyết định. Cluega IM đưa cho bạn một thang liên tục: mô hình lớn đọc ngữ nghĩa từng cuộc hội thoại và định vị tức thời theo quy tắc thu thập thông tin bạn đặt — để lại số điện thoại là L2, hoàn tất đặt hẹn là L3, hoàn tất thanh toán là L6. Khác biệt không nằm ở chỗ “gửi về được hay không”, mà ở chỗ mỗi cấp đều kèm căn cứ phán định, kiểm toán được, tính phí được, và cũng gửi về nền tảng quảng cáo như tín hiệu chuyển đổi."
+        },
+        {
+          "title": "Quảng cáo mang về đơn, và quảng cáo mang về hội thoại sẽ chốt",
+          "body": "Lọc ngược ID quảng cáo từ báo cáo đơn hàng chỉ cho bạn thấy phần đã chốt; những hội thoại còn đang tiến triển không có chỗ. Cluega IM tính ROAS thật ở mức độ chi tiết theo giai đoạn chốt đơn: hội thoại đã lên L3／L4 nhưng chưa thanh toán vẫn có giá trị, nên Media Buyer thấy được không chỉ “quảng cáo nào từng ra đơn”, mà là “quảng cáo nào nên tăng ngân sách” — chứ không chỉ thấy lượng tin nhắn và số lượt kết bạn ở bề mặt."
+        },
+        {
+          "title": "Chốt đơn mới trả phí hiệu quả, cách tính phí đồng lợi ích với bạn",
+          "body": "Ngoài phí thuê, dịch vụ AI quản lý chốt đơn được quyết toán theo trạng thái MMT cuối cùng của hội thoại: hội thoại chưa chốt chỉ thu phí sàn bù chi phí tính toán, chỉ khi AI thực sự đẩy hội thoại lên tầng chốt đơn thì bạn mới trả phí hiệu quả tương ứng. Hoá đơn luôn khớp với hiệu quả, chứ không khớp với lượng tin nhắn."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          { "type": "field", "label": "ID tài khoản quảng cáo", "value": "7535737911069753842" },
+          { "type": "field", "label": "Tên quảng cáo", "value": "0609-Quảng cáo tin nhắn-EcoSip" },
+          { "type": "field", "label": "ID quảng cáo", "value": "1866940736964473" },
+          { "type": "field", "label": "ID nội dung", "value": "1867515992671681" },
+          {
+            "type": "preview",
+            "label": "Xem trước nội dung",
+            "brand": "EcoSip",
+            "value": "Video quảng bá bình giữ nhiệt"
+          },
+          { "type": "field", "label": "ID tài khoản mạng xã hội", "value": "EcoSip" }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Thời gian tạo",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Tổng sự kiện",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Chi phí chốt đơn trung bình",
+        "legend": "Tất cả"
+      },
+      "identity": {
+        "keyword": "Số điện thoại",
+        "lead": "Lead giá trị cao"
+      },
+      "billing": {
+        "steps": [
+          "Khách lần đầu hỏi về sản phẩm",
+          "AI nhận diện nhu cầu, tương tác liên tục",
+          "AI đưa ra giải pháp tuỳ chỉnh"
+        ],
+        "success": "Chuyển đổi thành công: Lead hợp lệ",
+        "outcome": "Đạt Outcome: tính phí $0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "EVERY CHANNEL, ONE ATTRIBUTION ENGINE",
+      "title": "Không chỉ quản lý tin nhắn và đơn hàng, mà nắm trọn dữ liệu toàn phễu của private toàn cầu",
+      "items": [
+        {
+          "title": "Phủ toàn kênh",
+          "body": "Hội thoại và sự kiện chốt đơn trên Zalo・LINE・WhatsApp・Messenger được hợp nhất vào một hồ sơ khách hàng duy nhất, quy kết chốt đơn không bị đứt vì đổi kênh."
+        },
+        {
+          "title": "Phễu MMT L0–L6",
+          "body": "Mỗi cuộc hội thoại tự định vị vào giai đoạn chốt đơn; từ hội thoại ý định cao đến hoàn tất thanh toán, mọi tầng của phễu đều thấy được và tính được."
+        },
+        {
+          "title": "Chủ quyền dữ liệu",
+          "body": "Mỗi lần quy kết đều kèm log kiểm toán được, sự kiện ghi ngược khép vòng qua API／Webhook／postback; dữ liệu khách hàng không rò rỉ, không dùng để huấn luyện chéo tenant."
+        },
+        {
+          "title": "Cộng tác đội nhóm",
+          "body": "Hỗ trợ API／MCP và phối hợp người – máy, can thiệp thủ công lấy dấu thời gian handoff làm mốc, công của AI và của CSKH đều tính rõ ràng."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Tôi nên chọn giải pháp nào?",
+      "pancake": {
+        "label": "Chọn Pancake",
+        "body": "Nỗi đau cốt lõi của bạn là CSKH, nhận đơn, tồn kho và giao vận với lượng tin nhắn lớn, cần một hệ quản trị vận hành thương mại điện tử đã trưởng thành; nhu cầu gửi dữ liệu về chủ yếu là sự kiện chuẩn, bạn không cần tự định nghĩa thang giai đoạn chốt đơn, không cần tự hợp nhất danh tính đa kênh, cũng không cần gắn cách tính phí với hiệu quả."
+      },
+      "cluega": {
+        "label": "Chọn Cluega IM",
+        "body": "Bạn tăng trưởng bằng quảng cáo, chạy trên cả TikTok／Meta／Google, cần biết từng đơn chốt private đến từ mẫu quảng cáo nào, cùng một người mua trên nhiều nền tảng không bị tính phí trùng, và muốn cách tính phí khớp hoàn toàn với hiệu quả."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả chi tiết bạn có thể muốn biết trước khi liên hệ đội ngũ của chúng tôi.",
+      "contact": "Liên hệ kinh doanh",
+      "items": [
+        {
+          "q": "Đang dùng Pancake rồi, có thể xếp thêm Cluega IM không?",
+          "a": "Được, và đó là cách kết hợp phổ biến. Pancake tiếp tục đảm nhiệm CSKH và vận hành đơn hàng, Cluega IM tập trung vào tầng quy kết: sau khi kết nối cùng các kênh đó là có thể bắt đầu đẩy đơn chốt private về quảng cáo — hai bên bổ trợ nhau, không cần di chuyển luồng làm việc hiện có."
+        },
+        {
+          "q": "Quy kết đa nền tảng từ TikTok sang Zalo được làm thế nào?",
+          "a": "Cluega IM hợp nhất tham số click quảng cáo, sự kiện hội thoại và danh tính thu thập được (số điện thoại／ID mạng xã hội) ở tầng danh tính thành một hồ sơ khách hàng duy nhất. Cùng một khách được tính cuộc riêng theo từng kênh nhưng quy kết thì hợp nhất — một đơn chốt chỉ tính một lần và vẫn trỏ về được nguồn quảng cáo."
+        },
+        {
+          "q": "Định nghĩa chuyển đổi có tự cấu hình được không?",
+          "a": "Được. Phán định nghiệp vụ của MMT L1–L6 được cấu hình theo quy tắc thu thập thông tin và chốt đơn của bạn: bạn có thể gán “để lại số điện thoại”, “hoàn tất đặt hẹn”, “thêm thông tin thanh toán” vào từng mốc rõ ràng; cách tính phí và báo cáo đều đi theo định nghĩa của bạn."
+        },
+        {
+          "q": "Chưa kết nối hệ thống đơn hàng về thì dùng được không?",
+          "a": "Được. Với khách chưa thiết lập ghi ngược đơn chốt (chưa khép vòng), phí được chốt trần ở giai đoạn thu thập thông tin quan sát được (MMT L3／L4), hoặc chuyển sang gói thuê + gói cam kết; sau khi thiết lập ghi ngược qua API／Webhook là có thể bật đầy đủ cách tính phí theo chốt đơn L5／L6, tránh tình trạng “không thấy đơn chốt mà vẫn bị tính phí”."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Dùng Cluega IM để biến hội thoại private thành nền tảng vững vàng cho việc scale quảng cáo.",
+      "ctaStart": "Đặt lịch Demo",
+      "ctaDemo": "Tư vấn giải pháp"
+    }
+  }
+}

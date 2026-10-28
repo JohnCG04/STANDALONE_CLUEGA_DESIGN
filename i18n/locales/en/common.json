@@ -1,0 +1,659 @@
+{
+  "nav": {
+    "skip": "Skip to main content",
+    "home": "Cluega home",
+    "platform": "Platform",
+    "customers": "Customers",
+    "pricing": "Pricing",
+    "products": {
+      "ai": "Cluega AI",
+      "im": "Cluega IM",
+      "art": "Cluega Art",
+      "cdp": "Cluega CDP"
+    },
+    "utility": {
+      "resources": "Resource Center",
+      "solutions": "Find solutions",
+      "login": "Log in"
+    },
+    "cta": "Apply now",
+    "solutions": "Solutions",
+    "solutionsMenu": {
+      "agency": "Agency teams",
+      "brand": "Brand teams",
+      "creative": "Creative teams"
+    },
+    "language": "Language",
+    "banner": {
+      "dismiss": "Dismiss banner"
+    },
+    "mega": {
+      "platform": {
+        "sections": {
+          "system": {
+            "title": "Cluega System",
+            "items": {
+              "ai": {
+                "label": "Know Cluega AI",
+                "description": "Build deep data insights"
+              },
+              "im": {
+                "label": "IM instant messaging system",
+                "description": "Real-time cross-channel engagement"
+              }
+            }
+          },
+          "insightsGrowth": {
+            "title": "Data & Insights (Insights & Growth)",
+            "items": {
+              "adOptimization": {
+                "label": "Ad delivery & optimization",
+                "description": "Smart ad delivery diagnostics"
+              },
+              "marketingDashboard": {
+                "label": "Real-time marketing dashboard",
+                "description": "Real-time performance monitoring"
+              },
+              "marketInsights": {
+                "label": "Market insights",
+                "description": "Understand market trends"
+              },
+              "imMessaging": {
+                "label": "Agent",
+                "description": "Command your marketing assistant inside chat apps"
+              },
+              "ecommerce": {
+                "label": "E-commerce operations",
+                "description": "Smart store operations"
+              }
+            }
+          },
+          "models": {
+            "title": "Models supported by Cluega",
+            "items": {
+              "aiDialog": {
+                "label": "AI conversation & models",
+                "description": "400+ domain-specific models"
+              },
+              "aiVisual": {
+                "label": "AI visual design",
+                "description": "Generate ad creatives in seconds"
+              }
+            }
+          },
+          "agent": {
+            "title": "Agent",
+            "items": {
+              "fullyManaged": {
+                "label": "Fully managed",
+                "description": "24/7 automated task execution"
+              },
+              "dogclaw": {
+                "label": "Dogclaw",
+                "description": "Web data collection tool"
+              }
+            }
+          },
+          "community": {
+            "title": "Community",
+            "items": {
+              "teamPermissions": {
+                "label": "Team collaboration & permissions",
+                "description": "Secure workspace management"
+              },
+              "enterprise": {
+                "label": "Enterprise customization",
+                "description": "Dedicated private deployment"
+              },
+              "resources": {
+                "label": "Resources & community",
+                "description": "Explore prompts and skills"
+              }
+            }
+          }
+        },
+        "side": {
+          "title": "Get started",
+          "items": {
+            "contactUs": "Contact us"
+          }
+        }
+      },
+      "resources": {
+        "sections": {
+          "support": {
+            "title": "Support",
+            "items": {
+              "helpCenter": {
+                "label": "Help Center",
+                "description": "Dive into Cluega features"
+              },
+              "academy": {
+                "label": "Academy",
+                "description": "Core Cluega features"
+              }
+            }
+          },
+          "developers": {
+            "title": "Developers",
+            "items": {
+              "developerDocs": {
+                "label": "Developer docs",
+                "description": "Build with the Cluega MCP, API, and SDK"
+              }
+            }
+          },
+          "partners": {
+            "title": "Partners",
+            "items": {
+              "partnerProgram": {
+                "label": "Partner program",
+                "description": "For developers, creators, and consultants"
+              }
+            }
+          }
+        },
+        "side": {
+          "title": "Company",
+          "items": {
+            "changelog": "Changelog / Product updates",
+            "announcements": "Official announcements",
+            "engineeringBlog": "Engineering blog",
+            "careers": "Careers / Open roles"
+          }
+        }
+      },
+      "pricing": {
+        "sections": {
+          "products": {
+            "title": "Cluega Pricing",
+            "items": {
+              "im": {
+                "label": "Cluega IM",
+                "description": "IM & CDP token pricing"
+              },
+              "ai": {
+                "label": "Cluega AI",
+                "description": "AI models & credits pricing"
+              }
+            }
+          }
+        }
+      }
+    },
+    "aboutUs": "About us"
+  },
+  "supportChat": {
+    "placeholder": "Ask anything...",
+    "messagePlaceholder": "Message...",
+    "supportTitle": "Cluega Support",
+    "attachImagesOrFiles": "Attach images or files",
+    "defaultAgentMessage": "Hi, you are speaking with Cluega's AI Agent. How can I help you today?",
+    "suggestions": {
+      "revenueEfficiency": {
+        "title": "Question 1",
+        "question": "How does Cluega AI help my team improve revenue efficiency?",
+        "response": "Hi! I am Cluega's AI assistant. Through natural-language interaction, Cluega lets your team directly “talk to data”.\n\nWe integrate cross-platform advertising, messaging, and order data into Cluega AI. Your team no longer needs to manually organize reports. AI automatically scans opportunities, diagnoses issues, and generates executable decision recommendations. This can shorten operational reviews that used to take hours down to 30 seconds.\n\nTo learn more, contact us. Please {link} to leave your contact information.",
+        "responseLinkLabel": "click here"
+      },
+      "crossPlatformData": {
+        "title": "Question 2",
+        "question": "How does Cluega process and understand my complex cross-platform data?",
+        "response": "This is where our core technology comes in. Cluega uses the MCP protocol (Model Context Protocol) as the communication hub.\n\nAfter you connect TikTok, Meta, or Shopify, the system automatically structures these fragmented data points and builds a work context with “brand awareness”. This means AI can not only see the numbers, but also understand the business logic behind them, so it can provide optimization recommendations that truly match your brand tone."
+      },
+      "firstProject": {
+        "title": "Question 3",
+        "question": "As a first-time user, how can I quickly launch my first AI operations project?",
+        "response": "Getting started is very simple. It only takes three steps:\n\na. App authorization: connect your advertising and social accounts from the “Capabilities” menu.\n\nb. Enter an instruction: type “Analyze yesterday's performance for me” or “Create a promotion plan” in the chat box.\n\nc. Confirm execution: review the plan recommended by AI and click “Execute”.\n\nRegister now to receive 1,000 starter Tokens. {link}.",
+        "responseLinkLabel": "Start using"
+      }
+    }
+  },
+  "trial": {
+    "titleLine1": "Claim 1,000 starter Tokens now,",
+    "titleLine2": "and experience 14 days of intelligent decisions.",
+    "primaryCta": "Try for free",
+    "secondaryCta": "Learn pricing",
+    "emailLabel": "Your email address",
+    "emailPlaceholder": "Your email address",
+    "mobileSubmit": "Send me a demo"
+  },
+  "profileMenu": {
+    "personalization": "Personalization",
+    "account": "Account",
+    "settings": "Settings",
+    "homepage": "Homepage",
+    "help": "Help",
+    "docs": "Docs",
+    "signOut": "Sign out",
+    "signOutConfirmTitle": "Sign out of Cluega?",
+    "signOutConfirmBody": "You'll need to log in again next time.",
+    "credits": "Credits",
+    "freePlan": "Free Plan",
+    "upgrade": "Upgrade"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Token-based pricing — no subscription. Pay only for what you use.",
+    "free": "Every account gets 1,000 free tokens each month.",
+    "tokens": "tokens",
+    "cta": "Start for free",
+    "popular": "Most popular",
+    "note": "1 token = $0.01. Buy more anytime; unused purchased tokens don’t expire."
+  },
+  "moduleAccess": {
+    "eyebrow": "Cluega CDP",
+    "title": "This module is not active yet",
+    "subtitle": "Contact our sales team to activate Cluega CDP for your workspace. Once it is enabled, check again to continue.",
+    "retry": "Check again"
+  },
+  "contactSales": {
+    "title": "Get Started with Cluega",
+    "subtitle": "Take 3 minutes to tell us your needs, and we'll configure your dedicated AI Agent",
+    "stepHint": "Step {current} / {total}",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit, Start Configuring my AI Agent",
+    "successTitle": "Building dedicated data intelligence repository for your brand...",
+    "successSubtitle": "This will take a few seconds, please do not close this page",
+    "successTitleFinal": "You're all set",
+    "successSubtitleFinal": "A Cluega specialist will review your details and reach out with the right next step.",
+    "submitError": "Submission failed. Please try again in a moment.",
+    "submitErrorInvalid": "Some details look invalid. Please check them and submit again.",
+    "tabs": {
+      "label": "Choose how to reach us",
+      "form": "Share your needs",
+      "contact": "Contact us"
+    },
+    "contact": {
+      "title": "Contact us directly",
+      "subtitle": "Not in the mood for a form? Reach our business team on any channel below and we'll get back to you shortly.",
+      "channelsLabel": "Reach our business team",
+      "qrHint": "Scan the code to message us on LINE.",
+      "hints": {
+        "line": "Add our official account",
+        "linkedin": "Follow our company page",
+        "zalo": "Message us on Zalo"
+      },
+      "channels": {
+        "email": "Email",
+        "line": "LINE",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp Business",
+        "whatsappHongKong": "WhatsApp Business (Hong Kong)",
+        "whatsappVietnam": "WhatsApp Business (Vietnam)",
+        "phone": "Phone / DID",
+        "skype": "Skype",
+        "telegram": "Telegram Business",
+        "zalo": "Zalo",
+        "kakao": "KakaoTalk",
+        "teams": "Microsoft Teams",
+        "zoom": "Zoom"
+      }
+    },
+    "submitted": {
+      "title": "We've got your details",
+      "subtitle": "A Cluega specialist will review your information and reach out shortly. In the meantime, contact our sales team directly, or step into the system and start exploring.",
+      "contactTitle": "Talk to sales",
+      "enterSystem": "Enter the system",
+      "backHome": "Back to home",
+      "channels": {
+        "email": "Email",
+        "phone": "Phone",
+        "zalo": "Zalo",
+        "wechat": "WeChat",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "resumeTitle": "Would you like to continue from where you left off?",
+    "resumeYes": "Continue",
+    "resumeNo": "Start Over",
+    "panel": {
+      "title": "Stop paying for tools. Pay for results.",
+      "benefits": {
+        "automation": {
+          "title": "End-to-end automation",
+          "desc": "Insight, creative, delivery and attribution — hand the whole chain to an AI Agent and stop iterating assets by hand"
+        },
+        "target": {
+          "title": "Pay for outcomes only",
+          "desc": "Click-to-Sales tracking across the full cycle, so you see the deals every ad actually brings in"
+        },
+        "lock": {
+          "title": "Your data stays yours",
+          "desc": "Brand assets settle into a structured private knowledge base that never leaks away — and gets smarter the more you use it"
+        }
+      },
+      "modelsLabel": "400+ leading models supported — every task automatically picks the one that fits best",
+      "ratingLabel": "Onboarding and support our customers rate highly"
+    },
+    "voice": {
+      "title": "Cluega voice chat",
+      "desc": "Leave a quick brief and our team can follow up with the right specialist.",
+      "button": "Voice chat"
+    },
+    "step1": {
+      "title": "Your Brand",
+      "companyName": "Brand / Company Name",
+      "companyNamePlaceholder": "Enter brand / company name",
+      "website": "Official Website",
+      "websitePlaceholder": "yourbrand.com",
+      "email": "Business Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "messaging": "Preferred Messaging Account",
+      "messagingPlaceholder": "Account / ID",
+      "messagingPlatformPlaceholder": "Select an app",
+      "messagingOptions": {
+        "zalo": "Zalo",
+        "whatsapp": "WhatsApp",
+        "wechat": "WeChat",
+        "telegram": "Telegram",
+        "line": "LINE",
+        "messenger": "Messenger",
+        "other": "Other"
+      }
+    },
+    "step2": {
+      "title": "Which domain does your product belong to?",
+      "subtitle": "(Single select, to match your custom vertical model)",
+      "options": {
+        "beauty": "Beauty & Cosmetics",
+        "gaming": "Gaming",
+        "retail": "E-commerce Retail",
+        "electronics": "Consumer Electronics",
+        "beverage": "Food & Beverage",
+        "fashion": "Apparel & Fashion",
+        "other": "Other"
+      }
+    },
+    "step3": {
+      "title": "Which channels do you mainly advertise on?",
+      "subtitle": "(Multi-select)",
+      "options": {
+        "tiktok": "TikTok",
+        "meta": "Meta(FB/IG)",
+        "google": "Google",
+        "whatsapp": "WhatsApp",
+        "zalo": "Zalo",
+        "ecom": "Shopee / Lazada",
+        "other": "Other"
+      }
+    },
+    "step4": {
+      "title": "What is your approximate monthly advertising budget?",
+      "subtitle": "(Single select)",
+      "options": {
+        "under5k": "< $5K",
+        "5kTo50k": "$5K–$50K",
+        "50kTo200k": "$50K–$200K",
+        "above200k": "$200K+"
+      }
+    },
+    "step5": {
+      "title": "What is your biggest pain point right now?",
+      "subtitle": "(Multi-select + fillable 'Other')",
+      "otherPlaceholder": "Please specify your other pain point...",
+      "options": {
+        "manpower": "Creative iteration takes too much manpower",
+        "attribution": "Inaccurate cross-platform attribution",
+        "efficiency": "Inefficient manual bid adjustment/optimization",
+        "scattered": "Data is scattered and hard to integrate",
+        "scaling": "Good results but hard to replicate/scale",
+        "other": "Other"
+      }
+    },
+    "step6": {
+      "title": "Finally, who are you?",
+      "subtitle": "(Single select)",
+      "goalLabel": "(Optional) Tell us in one sentence your main goal:",
+      "goalPlaceholder": "e.g. Increase ad ROI by 30% or automate daily reporting",
+      "options": {
+        "founder": "Brand Owner / Founder",
+        "marketingHead": "Marketing Head",
+        "buyer": "Media Buyer / Optimizer",
+        "operator": "E-commerce Operator",
+        "agency": "Agency",
+        "other": "Other"
+      }
+    }
+  },
+  "jobApplication": {
+    "brand": {
+      "title": "Seize the golden window of the AdOS era — become a definer, not a follower",
+      "subtitle": "Join Cluega AI and work alongside 300+ top engineers and business experts worldwide to redefine how global brands make advertising decisions with AI.",
+      "benefits": {
+        "frontier": {
+          "title": "Frontier AI Environment",
+          "desc": "A company-wide MCP protocol architecture puts you at the forefront of large-model applications in the marketing space."
+        },
+        "global": {
+          "title": "Global Vision & Footprint",
+          "desc": "With Ho Chi Minh City, Vietnam as our R&D heart and a business network spanning the globe."
+        },
+        "results": {
+          "title": "Results-Driven, Rewarding",
+          "desc": "Promotion by impact, not seniority. We offer a globally competitive compensation structure, with substantial equity incentives for early employees."
+        }
+      },
+      "proofLabel": "Supports 400+ mainstream large models.",
+      "rating": "Driving billion-scale ad spend, delivering measurable growth through technology"
+    },
+    "title": "Join Cluega",
+    "subtitle": "Submit your application and help build the next generation of marketing infrastructure with a world-class team.",
+    "stepHint": "Step {current} / {total}",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit application",
+    "optional": "(Optional)",
+    "submittingTitle": "Submitting your application...",
+    "submittingSubtitle": "This will take a few seconds, please don't close this page",
+    "submitError": "Submission failed. Please try again in a moment.",
+    "submitErrorInvalid": "Some details look invalid. Please check them and submit again.",
+    "successTitle": "Application submitted!",
+    "successSubtitle": "Thank you for choosing Cluega AI. Our HR team and department leaders will carefully review your profile within 7 business days. We look forward to seizing the golden window with you and becoming a definer in the AdOS space!",
+    "resumeTitle": "Continue where you left off?",
+    "resumeYes": "Continue",
+    "resumeNo": "Start over",
+    "step1": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "department": "Desired Department",
+      "departmentPlaceholder": "Select a department",
+      "departmentOptions": {
+        "aiProduct": "AI Product & Strategy",
+        "engineering": "Engineering",
+        "dataScience": "Data Science & Attribution",
+        "business": "Global Business Development",
+        "creative": "Creative & Design",
+        "marketingGrowth": "Marketing & Growth",
+        "noMatch": "No matching role (open application)"
+      },
+      "location": "Preferred Location",
+      "locationPlaceholder": "Select a location",
+      "locationOptions": {
+        "hcmc": "Ho Chi Minh City",
+        "kl": "Kuala Lumpur",
+        "sg": "Singapore",
+        "sh": "Shanghai",
+        "hk": "Hong Kong",
+        "tw": "Taipei",
+        "london": "London",
+        "berlin": "Berlin",
+        "nyc": "New York",
+        "la": "Los Angeles",
+        "toronto": "Toronto",
+        "remote": "Remote"
+      }
+    },
+    "step2": {
+      "resume": "Upload Resume (CV)",
+      "resumeHint": "Supports PDF / Word.",
+      "resumeButton": "Choose file",
+      "resumeEmpty": "No file selected",
+      "linkedin": "LinkedIn Profile URL",
+      "linkedinPlaceholder": "https://linkedin.com/in/...",
+      "portfolio": "Professional / Portfolio Links (GitHub, Portfolio, Medium, etc.)",
+      "portfolioPlaceholder": "https://github.com/..."
+    },
+    "step3": {
+      "q1": "Q1: Share a technical, product, or business challenge you're most proud of solving.",
+      "q1Placeholder": "Describe the challenge you're most proud of solving...",
+      "q2": "Q2: Which AI tools / large-model applications are you best at or most interested in right now (e.g. creative generation, Agent development, MCP protocol)?",
+      "q2Placeholder": "Share the AI tools or applications you're most interested in..."
+    }
+  },
+  "footer": {
+    "columns": {
+      "platform": {
+        "title": "Platform",
+        "items": {
+          "knowAi": "Know Cluega AI",
+          "im": "IM instant messaging",
+          "adOptimization": "Ad delivery & optimization",
+          "marketInsights": "Market insights",
+          "ecommerce": "E-commerce operations",
+          "marketingDashboard": "Real-time marketing dashboard",
+          "agent": "Agent",
+          "aiDialog": "AI conversation & models",
+          "aiVisual": "AI visual design",
+          "fullyManaged": "Fully managed",
+          "dogclaw": "Dogclaw",
+          "teamPermissions": "Team collaboration & permissions",
+          "resources": "Resources & community"
+        }
+      },
+      "solutions": {
+        "title": "Solutions",
+        "items": {
+          "agency": "Agency teams",
+          "brand": "Brand teams",
+          "creative": "Creative teams"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "items": {
+          "helpCenter": "Help Center",
+          "partnerProgram": "Partner program",
+          "engineeringBlog": "Engineering blog"
+        }
+      },
+      "compare": {
+        "title": "Compare",
+        "items": {
+          "pancake": "Cluega vs Pancake",
+          "zwiz": "Cluega vs ZWIZ.AI",
+          "smartly": "Cluega vs Smartly.io",
+          "madgicx": "Cluega vs Madgicx",
+          "storeclaw": "Cluega vs StoreClaw",
+          "ryze": "Cluega vs Ryze AI"
+        }
+      },
+      "download": {
+        "title": "Download",
+        "items": {
+          "mobile": "Mobile app",
+          "desktop": "Desktop app",
+          "browser": "My Browser"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About us",
+          "pricing": "Pricing",
+          "careers": "Careers / Open roles",
+          "contactUs": "Contact us"
+        }
+      }
+    },
+    "social": {
+      "facebook": "Cluega on Facebook",
+      "linkedin": "Cluega on LinkedIn",
+      "line": "Cluega on LINE"
+    }
+  },
+  "uploads": {
+    "tooLarge": "This file is too large. The maximum is {limit}, and this one is {size}. Try a smaller file.",
+    "tooLargeVideo": "This video is too large. The maximum is {limit}, and this one is {size}. Try a shorter clip, or compress it before uploading.",
+    "tooLongMedia": "This file is too long. The maximum is {minutes} minutes, and this one is {length}. Try a shorter file.",
+    "tooLargeServer": "This file is over the {limit} limit. Try a smaller file.",
+    "tooLargeServerImage": "This image is over the limit: at most {limit} and {pixels} pixels. Try a smaller image.",
+    "tooLargeServerVideo": "This video is over the {limit} limit. Try a shorter clip, or compress it before uploading.",
+    "thisFile": "larger than that",
+    "unsupportedType": "Files of type {type} can't be uploaded. Images, video, audio, PDF, Office documents and text formats (CSV, TXT, Markdown, HTML, JSON, XML) are supported.",
+    "tooManyAttachments": "Only {limit} files can be attached at once, so this one was not added. Send the rest in another message.",
+    "unsupportedTypeGeneric": "That file type can't be uploaded. Images, video, audio, PDF, Office documents and text formats (CSV, TXT, Markdown, HTML, JSON, XML) are supported.",
+    "storageUnavailable": "Media storage is temporarily unavailable. Please try again in a moment.",
+    "storageFull": "Not enough company storage for this file: {used} of {total} is used. Free up space or upgrade the plan, then try again.",
+    "storageFullNoFigures": "Not enough company storage for this file. Free up space or upgrade the plan, then try again.",
+    "storageFullPreflight": "This file is larger than the company storage left: {used} of {total} is used. Nothing was uploaded. Free up space or upgrade the plan.",
+    "storageGraceExceeded": "Storage full: {after} would exceed the {limit} grace limit ({capacity} + 10%). Nothing was uploaded. Free up space, buy credits or upgrade the plan, then try again.",
+    "storageGraceExceededPreflight": "Storage full: {after} would exceed the {limit} grace limit ({capacity} + 10%). Nothing was uploaded. Free up space, buy credits or upgrade the plan.",
+    "unauthorized": "Your session expired. Please sign in again and retry the upload.",
+    "failed": "The upload failed (error {status}). Please try again.",
+    "failedToast": "Unable to upload {name}",
+    "failedLabel": "Upload failed",
+    "emptyFile": "{name} is empty (0 bytes), so it was not uploaded.",
+    "contentMismatch": "{name} doesn't look like a valid {type} file. It may be damaged, empty, or renamed from another format.",
+    "corruptFile": "{name} is damaged and can't be opened, so it was not uploaded.",
+    "videoUnplayable": "{name} can't be played: it is damaged or uses a format this browser can't read, so it was not uploaded. Convert it to MP4 (H.264) and try again.",
+    "failedToastMany": "Unable to upload {count} files",
+    "deduplicated": "This file was already in your library — we linked the existing copy instead of storing it twice.",
+    "documentInvalid": "This file could not be read. It may be empty, damaged, or its contents may not match its file extension.",
+    "serverError": "The server could not process this file. Please try again in a moment.",
+    "documentUnreadable": "“{name}” could not be read. Scanned or protected files may not be supported.",
+    "types": {
+      "images": "images",
+      "video": "video",
+      "audio": "audio",
+      "documents": "PDF and Office files",
+      "text": "text and CSV"
+    },
+    "typeListSeparator": ", ",
+    "dropOverCap": "Only {cap} could be attached — {dropped} more weren't added.",
+    "dropFolders": "Folders can't be attached. Drop the files inside instead.",
+    "dropUnsupported": "Some files couldn't be attached. We accept {types}.",
+    "documentIndexUnavailable": "“{name}” was read, but could not be indexed just now. Attach it again in a moment.",
+    "documentReaderUnavailable": "“{name}” could not be processed: the document reader is unavailable on this deployment.",
+    "documentUnsupported": "“{name}” is a format this system cannot read yet.",
+    "documentFailed": "“{name}” did not finish processing. Attach it again, and tell us if it keeps failing.",
+    "documentStillProcessing": "“{name}” is still being processed — this is taking longer than usual. Wait a bit and try again.",
+    "documentScanUnavailable": "“{name}” is a scan (pictures of pages, no text), and this system cannot read scans right now. Attaching it again will not help; a copy with selectable text will work.",
+    "uploading": "Uploading {percent}%",
+    "uploadStalled": "The upload of this file stopped making progress. Check your connection and attach it again.",
+    "uploadTimeout": "The server took too long to confirm this upload. Attach it again; if it keeps happening, try a smaller file.",
+    "network": "The connection dropped during the upload. Check your connection and attach it again.",
+    "archiveTooLarge": "This .zip is too large to open: at most {limit} unpacked and {entries} files.",
+    "archiveInvalid": "This .zip cannot be opened. It may be damaged, encrypted, or contain unsafe paths.",
+    "archiveCreativeTab": "A .zip can't be attached here. Unpack it and attach the files instead.",
+    "archiveIgnored": "{count} system files in {name} were skipped.",
+    "archiveEntry": {
+      "too_many_attachments": "Not added: the message already holds as many files as it can.",
+      "nested_archive": "Not added: an archive inside the .zip is not opened. Unpack it first.",
+      "unsupported_type": "Not added: this file type can't be attached.",
+      "compression_ratio": "Not added: this file unpacks far larger than it is compressed.",
+      "quota_exceeded": "Not added: the company's storage is full.",
+      "too_large": "Not added: this file is larger than the upload limit.",
+      "store_failed": "Not added: this file could not be stored. Try attaching it on its own."
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "body": "The page you're looking for doesn't exist or may have been moved.",
+    "action": "Back to home"
+  },
+  "desktopNotice": {
+    "computerMouseUsing": "Cluega is using your mouse. Please don't move it — you'll get it back in a moment.",
+    "computerUserTookOver": "Cluega stopped because you are using the computer. Nothing more was pressed.",
+    "continue": "Continue",
+    "keepPaused": "Keep paused",
+    "cancel": "Cancel"
+  }
+}

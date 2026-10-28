@@ -1,0 +1,197 @@
+{
+  "engineeringBlog": {
+    "hero": {
+      "eyebrow": "Cluega 工程技術博客"
+    },
+    "latest": {
+      "title": "最新文章",
+      "all": "全部文章"
+    },
+    "categories": {
+      "ai": "AI",
+      "product": "產品",
+      "infra": "基礎架構",
+      "web": "前端工程",
+      "inside": "Cluega 內部"
+    },
+    "stats": {
+      "pullRequests": "過去一年合併了 {count} 個 pull request"
+    },
+    "cta": {
+      "title": "想一起重新定義營銷這件事嗎？",
+      "link": "Cluega 的職業機會"
+    },
+    "detail": {
+      "back": "工程技術博客",
+      "toc": "目錄",
+      "placeholder": "這篇文章正在撰寫中。內文完成後會直接補在這裡，屆時會包含完整的架構圖、程式碼片段與線上數據。"
+    },
+    "datePattern": "{yy}年{mon}",
+    "monthsShort": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+    "posts": {
+      "streaming-workflow-forms": {
+        "title": "把後端串流出來的表單變成可交互的 UI",
+        "summary": "AI 一邊生成流程、前端一邊渲染選擇表單：我們如何用一份數據契約串起後端事件與 React 組件。",
+        "role": "首席軟體工程師"
+      },
+      "dogclaw-executor-runtime": {
+        "title": "Dogclaw 執行器：本地與雲端雙模的運行時設計",
+        "summary": "同一份任務描述，如何同時跑在使用者的瀏覽器與我們的容器叢集上。",
+        "role": "平台工程負責人"
+      },
+      "mcp-dynamic-context-injection": {
+        "title": "MCP 動態上下文注入的取捨",
+        "summary": "工具越多，模型越笨。我們如何在每一輪對話只餵給模型真正需要的東西。",
+        "role": "AI 工程負責人",
+        "article": {
+          "lead": "在建構基於 LLM 的 Agent 系統時，我們經常會落入一個陷阱：「既然 MCP（Model Context Protocol）讓擴充工具變得這麼簡單，那就把所有的 API、資料庫查詢、外部系統對接全掛載上去吧！」",
+          "problemsIntro": "然而，當你的 Agent 掛載了 50 個甚至上百個 MCP Tools 時，慘劇發生了：",
+          "problems": [
+            "**Tool Calling 準確率急遽下降**：模型開始「亂點鴛鴦譜」，選錯工具或傳錯參數。",
+            "**推理能力變差（「模型變笨」）**：過長且無關的上下文佔據了有限的 Context Window，壓縮了模型進行複雜邏輯思考（Reasoning）的注意力空間。",
+            "**Latency 與 API 成本飆升**：每次 Request 都帶著幾十個 Tool Description，Prompt Token 數直線上升。"
+          ],
+          "contradiction": "**核心矛盾**：工具的能力呈「加法」擴充，但 Context 複雜度對模型推理品質的負面影響卻呈「指數」上升。",
+          "question": "我們該如何在每一輪（Turn）對話中，**精準只餵給模型真正需要的上下文與工具**？",
+          "s1": {
+            "title": "為什麼「工具越多，模型越笨」？",
+            "intro": "從 LLM 的 Attention 機制與 Prompt Engineering 的角度來看，工具過多主要帶來三個痛點：",
+            "points": [
+              "**Attention Noise（注意力雜訊）**：大語言模型的 Attention 機制是有限的。當 Prompt 中充斥著大量與當前問題無關的 Tool Schema 時，模型的 Attention 會被分散，導致它忽略真正的關鍵訊息（Lost in the Middle）。",
+              "**Schema Collision（定義衝突）**：當多個工具的功能接近（例如 `search_user_by_email` 和 `get_user_profile`），相似的 Description 會大幅增加 LLM 的判定迷惘值（Perplexity）。",
+              "**Token Budget Waste（Token 預算浪費）**：MCP Tool 的 JSON Schema 往往非常詳細，幾十個工具累積下來可能一開局就佔用 3k–8k Tokens，留下給中間 Reasoning 的空間被嚴重壓縮。"
+            ]
+          },
+          "s2": {
+            "title": "動態上下文注入的核心架構：Two-Stage Routing",
+            "intro": "為了解決這個問題，我們不能在 `system_prompt` 或 MCP Client 初始化時一次性裝載所有工具，而必須採用 **Two-Stage Retrieval / Routing（兩階段檢索與路由）**。",
+            "diagram": [
+              "[ User Input ]",
+              "      │",
+              "      ▼",
+              "┌─────────────────────────────────┐",
+              "│ Stage 1: Dynamic Filter         │  <-- 輕量級路由 (Vector Search / Intent Classifier)",
+              "│ (3~5 picked from 100+ Tools)    │  <-- 從 100+ Tools 篩選出 3~5 個",
+              "└───────────────┬─────────────────┘",
+              "                │ Selected Tools",
+              "                ▼",
+              "┌─────────────────────────────────┐",
+              "│ Stage 2: LLM Reasoning & Exec   │  <-- 核心 LLM (注入精簡後的 Prompt & Tools)",
+              "└─────────────────────────────────┘"
+            ],
+            "vector": {
+              "title": "實作策略 A：基於 Vector Search 的 Tool Retrieval",
+              "intro": "將所有 MCP Tools 的 Name + Description 預先做成 Embedding 並存入 Vector DB。",
+              "steps": [
+                "**Query**：拿到使用者當前的 User Query（以及近 2 輪對話）。",
+                "**Retrieve**：透過語意相似度檢索 Top-K（例如 Top 3~5）最相關的 MCP Tools。",
+                "**Inject**：只將這 3~5 個 Tool 的 JSON Schema 動態注入到當前對話輪次的 MCP Session 中。"
+              ]
+            },
+            "router": {
+              "title": "實作策略 B：Intent Router（輕量級意圖分類器）",
+              "intro": "用一個速度極快、成本極低的小模型（如 Claude 3.5 Haiku 或 GPT-4o-mini）作為 **Gatekeeper**。",
+              "points": [
+                "先讓小模型判斷：「這個 Query 屬於哪一個模塊？（例如：DevOps, User System, Billing）」",
+                "根據模塊分類，動態載入該模塊對應的 MCP Tool Group。"
+              ]
+            }
+          },
+          "s3": {
+            "title": "上下文瘦身（Context Slimming）的工程細節",
+            "intro": "除了動態過濾 Tool 本身，**工具執行後的返回結果（Tool Output）** 也是導致上下文膨脹的罪魁禍首。",
+            "filtering": {
+              "title": "① Tool Result Filtering & Summarization",
+              "body": "MCP Tool 返回的常常是龐大的 JSON payload（例如 500 行的 API Response），如果直接丟回給模型，下一輪對話就爆了。",
+              "points": [
+                "**做法**：在 MCP Server 端或 Client 中間件設定 `Response Truncation` 或 `Json Path Selector`，只留下模型運算需要的關鍵 Key。"
+              ]
+            },
+            "eviction": {
+              "title": "② Stateful Context Eviction（狀態感知快取與清除）",
+              "body": "有些 Tool 只需要執行一次（例如 `get_current_timestamp` 或 `fetch_user_id`）。",
+              "points": [
+                "當該工具已經獲得結果並寫入中間變數後，可以在後續對話輪次中**將原先的 Tool Call 歷史與巨型輸出「壓縮/替換」為簡短的 Prompt 摘要**，無須在接下來的每一輪都攜帶完整的 Tool Log。"
+              ]
+            }
+          },
+          "s4": {
+            "title": "取捨的藝術：Trade-offs 評估表",
+            "intro": "在實踐動態注入時，我們實際上是在做以下幾項工程權衡：",
+            "table": {
+              "head": ["維度", "靜態全量注入（Static All）", "動態精準注入（Dynamic Filtering）"],
+              "rows": {
+                "accuracy": [
+                  "準確率與推理品質",
+                  "🔴 差（工具多時易產生幻覺／選錯）",
+                  "🟢 優（模型專注於極少數選項）"
+                ],
+                "ttft": [
+                  "首字延遲（TTFT）",
+                  "🔴 高（Prompt Token 多，處理慢）",
+                  "🟡 中（增加了一次 Router / Vector 檢索時間，但 LLM 處理變快）"
+                ],
+                "complexity": [
+                  "架構複雜度",
+                  "🟢 極低（直接連上即可）",
+                  "🔴 較高（需維護 Router、Vector Index 及 Tool Lifecycle）"
+                ],
+                "recall": [
+                  "召回率（Recall）",
+                  "🟢 100%（工具都在現場）",
+                  "🟡 依賴 Router 品質（若 Router 沒選中，LLM 便無能為力）"
+                ]
+              }
+            },
+            "note": "**工程提示**：動態注入最大風險是 **False Negative（應召回的工具沒召回）**。因此，通用型基礎工具（如 `reply_to_user`、`ask_clarification`）應設定為 **Always-Active（常駐工具）**，只有專門領域工具才進入動態檢索池。"
+          },
+          "outro": {
+            "title": "結語",
+            "p1": "打造高可靠 Agent 的關鍵，不在於它「連了多少 API」，而在於它「能有多專注」。",
+            "p2": "MCP 提供了極其強大的標準化連接能力，但身為架構師，我們不能把負擔全部甩給 LLM 的 Context Window。透過 **Two-Stage Tool Routing** 與 **Dynamic Context Slimming**，在每一輪對話精準餵給模型最純粹、最相關的上下文，才是讓 Agent 保持敏捷與聰明的解法。"
+          }
+        }
+      },
+      "ascii-hero-render-pipeline": {
+        "title": "用三千個字元做一段不掉幀的動畫",
+        "summary": "距離場、字元密度斜坡與每秒三十幀：拆解官網首屏的 ASCII 渲染管線。",
+        "role": "傑出工程師"
+      },
+      "clickhouse-ad-metrics": {
+        "title": "廣告指標從 Postgres 搬到 ClickHouse 的那半年",
+        "summary": "十億級投放明細的聚合查詢，如何從三十秒壓到兩百毫秒。",
+        "role": "基礎架構主任工程師"
+      },
+      "where-the-hard-problems-live": {
+        "title": "營銷 AI 真正難的地方在哪裡？",
+        "summary": "不是模型，是數據口徑、賬號權限，以及那些沒有標準答案的業務規則。",
+        "role": "工程副總裁"
+      },
+      "creative-dna-reverse-engineering": {
+        "title": "從成交訂單反推素材 DNA",
+        "summary": "我們如何把「哪一版素材真的帶來訂單」拆解成可複用的生成條件。",
+        "role": "資深機器學習工程師"
+      },
+      "multi-tenant-ad-account-sync": {
+        "title": "多租戶廣告賬號同步的冪等設計",
+        "summary": "平台限流、Token 過期與重複回調：一條同步管線要處理的所有壞情況。",
+        "role": "資深後端工程師"
+      },
+      "prompt-eval-harness": {
+        "title": "為提示詞建一套會失敗的測試",
+        "summary": "沒有評測集的提示詞優化只是玄學。我們如何讓每一次改動都能被回歸驗證。",
+        "role": "LLM 系統研究主管"
+      },
+      "edge-rendering-i18n": {
+        "title": "三種語言、一份路由：官網國際化的邊緣渲染方案",
+        "summary": "在不犧牲首屏速度的前提下，讓語言切換不再需要整頁重載。",
+        "role": "增長工程經理"
+      },
+      "agent-tool-permissions": {
+        "title": "讓代理有權限，但不至於闖禍",
+        "summary": "工具授權、二次確認與審計日誌：代理進入生產環境前必須補上的三件事。",
+        "role": "AI 研究負責人"
+      }
+    }
+  }
+}

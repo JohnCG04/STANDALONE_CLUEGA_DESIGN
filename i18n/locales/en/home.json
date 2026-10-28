@@ -1,0 +1,736 @@
+{
+  "homeFinalCta": {
+    "heading": "Break down brand data silos and build an all-in-one intelligent operations foundation.",
+    "demo": "Book a Demo",
+    "start": "Start for free"
+  },
+  "hero": {
+    "eyebrowBadge": "New",
+    "eyebrow": "Try the Cluega system early (Beta)!",
+    "titleLine1": "Cluega is a result-driven",
+    "titleLine2": "fully intelligent, full-cycle work assistant",
+    "description": "Move brand insight, creative, media buying, and attribution from tedious manual operations into millisecond-level automated decisions.",
+    "primaryCta": "Start using",
+    "secondaryCta": "Contact sales"
+  },
+  "platform": {
+    "previewTitle": "Cluega Platform Features",
+    "modelsTitle": "Large models supported by CLUEGA",
+    "panels": {
+      "core": "SaaS Core System",
+      "media": "Media Matrix",
+      "creative": "AIGC Engine"
+    },
+    "eyebrows": {
+      "workspace": "AI Workspace",
+      "omni": "Omnichannel",
+      "creative": "Creative Ops"
+    }
+  },
+  "testimonial": {
+    "title": "Cluega customer reviews",
+    "lines": [
+      "When I first used Cluega,",
+      "I felt it was more than a tool,",
+      "it marked the beginning of marketing's autopilot era."
+    ],
+    "caption": "Cluega AI Systems",
+    "role": "AI Marketing System"
+  },
+  "workflow": {
+    "intro": "Cluega packages complex marketing logic into a full-stack protocol, making AI your execution terminal. You define the goal, and the algorithm handles the rest.",
+    "eyebrow": "AI · CDP Intelligence",
+    "title": "Every conversation is traceable.",
+    "description": "No manual report exports or rule configuration required. Cluega listens to platform APIs in real time. When you ask a question, AI instantly integrates the data and reports; when you give an instruction, the algorithm immediately starts distribution and automatic optimization.",
+    "link": "Explore AI & CDP intelligence",
+    "stats": {
+      "adGroups": "ad groups/session",
+      "cpa": "actual CPA",
+      "sources": "data sources"
+    },
+    "chat": {
+      "requestLabel": "User request",
+      "request": "Organize this week's TikTok performance report and keep CPA under 4.8",
+      "processing": "● Processing",
+      "response": "Data analysis is complete. The current average CPA is",
+      "automation": "Automatically pulling 30 days of data and starting",
+      "taskStatus": "Task status",
+      "running": "Running... (45 / 100)",
+      "targetCpa": "Target CPA",
+      "liveCpa": "Live CPA",
+      "logTitle": "MCP sync log"
+    }
+  },
+  "aiWorkflow": {
+    "intro": "Cluega packages complex marketing logic into a full-stack protocol, making AI your execution terminal. You define the goal, and the algorithm handles the rest.",
+    "eyebrow": "AI · CDP Intelligence",
+    "title": "Data is born from your instructions.",
+    "description": "No manual report exports or rule configuration required. Cluega listens to platform APIs in real time. When you ask a question, AI instantly integrates the data and reports; when you give an instruction, the algorithm immediately starts distribution and automatic optimization.",
+    "link": "Explore AI & CDP intelligence",
+    "stats": {
+      "adGroups": "ad groups/session",
+      "cpa": "actual CPA",
+      "sources": "data sources"
+    }
+  },
+  "creativeEngine": {
+    "intro": "Cluega connects performance data, real transactions, and asset generation into one automated workflow, so creative production no longer depends on manual breakdowns.",
+    "eyebrow": "AI · CDP Intelligence",
+    "title": "Assets multiply from your goal.",
+    "description": "The system automatically reads ad performance and real IM transaction data, extracts high-ROI creative signals, and combines images, titles, and selling points into a launch-ready creative matrix.",
+    "link": "Explore Creative Engine"
+  },
+  "feedback": {
+    "support": "SUPPORT TOOLS",
+    "crm": "CRM TOOLS",
+    "titleLine1": "Make customer feedback",
+    "titleLine2": "accessible",
+    "description1": "Capture feedback across any customer interaction, from sales calls to support chats, and turn it into a customer request linked to a Cluega project or issue.",
+    "description2": "Customer Requests is seamlessly integrated with the tools you already use, so you can create requests directly from support, email, or shared Slack channels."
+  },
+  "mcp": {
+    "badge": "Cluega MCP · Full-cycle AI work assistant",
+    "titleLine1": "Cluega is a result-driven",
+    "titleLine2": "fully intelligent, full-cycle work assistant",
+    "subtitleLine1": "Move brand insight, creative, media buying, and attribution",
+    "subtitleLine2": "from tedious manual operations into millisecond-level automated decisions",
+    "windowTitle": "Cluega system interface",
+    "userPrompt": "Create tomorrow's TikTok launch for a new product with a $5,000 budget and women aged 25-34",
+    "agentResponse": "Generated 3 ad plans and started automatically uploading assets and setting bid strategies...",
+    "status": "MCP running in the background · estimated completion in 12 seconds"
+  },
+  "sections": {
+    "compatibilityTitleLine1": "One window compatible with",
+    "compatibilityTitleLine2": "all large models × all social media × all messaging platforms",
+    "managedTitleLine1": "MCP protocol foundation",
+    "managedTitleLine2": "automated managed execution",
+    "managedDescription": "The ad reporting page includes MCP access history, so interface call paths and runtime logs can be traced in real time. After a managed project starts, the system consumes tokens on schedule and runs unattended 24/7.",
+    "launchTitleLine1": "Minimal conversational launch",
+    "launchTitleLine2": "one click for global social ads",
+    "launchDescription": "Simplify the entire launch workflow. One conversation box is enough to complete the full advertising process, while the MCP protocol ensures launch stability and cross-platform compatibility underneath.",
+    "attributionTitleLine1": "Precise IM lead attribution",
+    "attributionTitleLine2": "full visibility into every conversion source",
+    "attributionDescription": "Reveal the source lead and private-message trail of every conversion, support custom attribution fields, and map ad groups precisely to real transaction costs.",
+    "roiTitleLine1": "Automatic data association",
+    "roiTitleLine2": "multi-dimensional visualization to lift ad ROI",
+    "roiDescription": "Automatically capture social conversations and ad delivery data, then bind chat messages, ad plans, and creative assets together. The system generates visual reports automatically, making high-value launches faster to identify."
+  },
+  "enterprise": {
+    "title": "Enterprise architecture, ready out of the box.",
+    "description": "Cluega follows the highest global data security standards. We encrypt your brand context and ensure every piece of data transmitted through the MCP protocol complies with privacy requirements.",
+    "cta": "Learn more",
+    "features": {
+      "dataSovereignty": {
+        "title": "Data sovereignty",
+        "description": "Your data stays yours alone"
+      },
+      "securitySandbox": {
+        "title": "Security sandbox",
+        "description": "MCP execution is fully encrypted and isolated"
+      },
+      "rbac": {
+        "title": "RBAC",
+        "description": "Node-level API permission management"
+      }
+    }
+  },
+  "dataConnection": {
+    "hero": {
+      "kickerLeft": "[04] DATA CONNECTION",
+      "kickerRight": "/ REALTIME OPTIMIZATION",
+      "title": "Connected data, optimized automatically by AI.",
+      "description": "Connect your ad platforms, ecommerce systems, and messaging tools through standard protocols. Cluega automatically unifies fragmented data before you issue a command, so real-time optimization models are already running.",
+      "cta": "Try now"
+    },
+    "bridge": {
+      "events": {
+        "ads": "Ad delivery interface",
+        "commerce": "Ecommerce operations data",
+        "messaging": "Cross-platform messaging trace",
+        "logs": "System execution logs"
+      }
+    },
+    "panel": {
+      "videoLabel": "VID_05_SUMMER_HIT",
+      "live": "LIVE",
+      "projectTitle": "Summer Hit Project _VID_05",
+      "managedStatus": "Fully automated optimization is managed",
+      "powered": "Powered by MCP",
+      "details": {
+        "platform": {
+          "label": "Launch platform",
+          "value": "TikTok / Meta global delivery",
+          "badge": ""
+        },
+        "status": {
+          "label": "Current status",
+          "value": "Decision executing",
+          "badge": "Optimizing"
+        },
+        "cpa": {
+          "label": "Live CPA",
+          "value": "$4.12",
+          "badge": "Cap $4.8"
+        },
+        "conversions": {
+          "label": "Total conversions",
+          "value": "1,280 orders",
+          "badge": "↑ 14.5%"
+        },
+        "roi": {
+          "label": "ROI monitor",
+          "value": "3.5x",
+          "badge": "Above target"
+        },
+        "lastAction": {
+          "label": "Last action",
+          "value": "15 min ago",
+          "badge": "Auto bid adjustment"
+        }
+      },
+      "actions": {
+        "dashboard": "Live data board",
+        "strategy": "Adjust strategy strength"
+      }
+    },
+    "optimization": {
+      "title": "AI optimization highlights",
+      "summaryLabel": "AI smart summary",
+      "summary": {
+        "prefix": "The system detected that ad group",
+        "afterCode": "had a click surge in Malaysia, but Shopify orders showed a drop-off.",
+        "actionPrefix": "AI has automatically started a",
+        "scheme": "messaging assist plan",
+        "actionSuffix": ": WhatsApp now returns ART-generated personalized coupons automatically, lifting post-click order conversion by",
+        "resultSuffix": "."
+      },
+      "platformLabel": "Platform linkage",
+      "platformA": "TikTok Ads Manager",
+      "platformB": "Shopify backend data stream",
+      "connected": "Connected",
+      "pathLabel": "Decision path (Ad Outreach)",
+      "steps": {
+        "collect": {
+          "text": "Step 1: Aggregate full-funnel data signals",
+          "status": "Done"
+        },
+        "shiftBudget": {
+          "text": "Step 2: Move budget to higher-converting creatives",
+          "status": "Active"
+        },
+        "monitor": {
+          "text": "Step 3: Keep 24/7 automated monitoring running",
+          "status": "Running"
+        }
+      }
+    },
+    "activity": {
+      "title": "Real-time execution activity stream",
+      "items": {
+        "bid": {
+          "time": "15 min ago:",
+          "text": "Cluega AI automatically increased the bid for TikTok ad group [AD_882] by 10%."
+        },
+        "creative": {
+          "time": "4 hours ago:",
+          "text": "User creative fatigue was detected, so Cluega AI used the ART engine to generate and replace 3 stronger cover variants."
+        },
+        "audience": {
+          "time": "1 day ago:",
+          "text": "IM-driven private-message sales rose 40% this week, and Cluega AI automatically optimized ad audience tags."
+        }
+      }
+    }
+  },
+  "growth": {
+    "title": "Leave manual work behind and bring marketing into the autopilot era.",
+    "description": "Move brand insight, creative, media buying, and attribution from tedious manual operations into millisecond-level automated decisions.",
+    "stats": {
+      "signals": "marketing data signals processed weekly",
+      "tasks": "protocol tasks executed automatically each month",
+      "latency": "system data response latency",
+      "uptime": "always-on system uptime"
+    }
+  },
+  "peopleCta": {
+    "titleLine1": "The next era of global growth",
+    "titleLine2": "runs automatically on Cluega.",
+    "primaryCta": "Start now",
+    "secondaryCta": "Contact us",
+    "mobileSubmit": "Contact us",
+    "emailPlaceholder": "Your email address"
+  },
+  "adaptiveModels": {
+    "title": "Give data real business context",
+    "subtitleLine1": "Every metric, creative, conversation, and decision comes together here.",
+    "subtitleLine2": "This is not a simple stack of tools. It is a complete operations foundation built for your team.",
+    "cta": "Learn more about Cluega AI",
+    "common": {
+      "addObject": "Add target",
+      "moreDimensions": "more dimensions"
+    },
+    "tabs": {
+      "scaleUps": "Advertisers",
+      "saasStartups": "Creative makers",
+      "smbs": "Sales ops",
+      "investors": "Brand monitoring"
+    },
+    "panels": {
+      "scaleUps": {
+        "cards": {
+          "plan": {
+            "name": "Campaign plan",
+            "attributes": ["Campaign ID", "Target CPA", "Budget alert"]
+          },
+          "performance": {
+            "name": "Performance feedback",
+            "attributes": ["Live ROAS", "Token usage", "Conversion count"]
+          },
+          "agent": {
+            "name": "AI execution agent",
+            "attributes": ["Quant strategy deployment", "API baseline sync", "Current bid"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Custom alert rule",
+          "attributes": [
+            "Rule: automatic stop-loss on high cost",
+            "Metric: live CPA",
+            "Trigger: > $6.5",
+            "Action: auto reduce budget by 30%"
+          ]
+        },
+        "table": {
+          "header": "Plan name",
+          "columns": ["Strategy goal", "Live status", "Budget permission"],
+          "addObjectColumnLabel": "Alert trigger",
+          "rows": [
+            {
+              "lead": "TikTok_APAC_New_Product",
+              "goal": "CPA < $4.5",
+              "status": "AI fully auto-optimizing",
+              "permission": "System",
+              "workspace": "0 times"
+            },
+            {
+              "lead": "Meta_Global_Growth",
+              "goal": "Maximize conversions",
+              "status": "Achieved target (CPA $3.2)",
+              "permission": "Admin",
+              "workspace": "1 time (auto bid adjust)"
+            },
+            {
+              "lead": "Google_Keyword_Matrix",
+              "goal": "Maintain ROAS",
+              "status": "Auto-paused for efficiency",
+              "permission": "System",
+              "workspace": "0 times"
+            },
+            {
+              "lead": "X Ads_Big_Promo",
+              "goal": "Maximize reach",
+              "status": "Delayed data return",
+              "permission": "Admin",
+              "workspace": "2 times"
+            }
+          ]
+        }
+      },
+      "saasStartups": {
+        "cards": {
+          "gene": {
+            "name": "Winning DNA",
+            "attributes": ["Visual components", "High-frequency keywords", "Watch time"]
+          },
+          "distribution": {
+            "name": "Distribution center",
+            "attributes": ["TikTok media library", "FB creative hub", "Asset ID"]
+          },
+          "art": {
+            "name": "ART generation engine",
+            "attributes": ["Brand context", "Asset matrix branching", "Style transfer"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Audience preference match",
+          "attributes": [
+            "Audience tag: refined lifestyle buyers",
+            "Core pain point: wants premium details",
+            "Visual preference: bright, cool tones",
+            "Match score: 8.8 / 10"
+          ]
+        },
+        "table": {
+          "header": "Material type",
+          "columns": ["Winning gene tag", "AI generation progress", "ROI potential"],
+          "addObjectColumnLabel": "Adapted audience",
+          "rows": [
+            {
+              "lead": "Short Video Variant_V14",
+              "gene": "Shock opening + reversal",
+              "progress": "Completed (1,000 sets)",
+              "roi": "High potential",
+              "workspace": "Generation Z"
+            },
+            {
+              "lead": "Static Poster_S05",
+              "gene": "High contrast + promotional UI",
+              "progress": "Rendering (45/100)",
+              "roi": "Medium potential",
+              "workspace": "Newcomer to the workplace"
+            },
+            {
+              "lead": "Script Series_W21",
+              "gene": "Emotional narrative style",
+              "progress": "Synced to media library",
+              "roi": "Excellent",
+              "workspace": "High-intent women"
+            },
+            {
+              "lead": "UGV Analog Video",
+              "gene": "Human review perspective",
+              "progress": "Waiting for data feed",
+              "roi": "To be evaluated",
+              "workspace": "Overseas shopping community"
+            }
+          ]
+        }
+      },
+      "smbs": {
+        "cards": {
+          "leads": {
+            "name": "Direct message leads",
+            "attributes": ["Customer ID", "Channel source", "Conversation summary"]
+          },
+          "dashboard": {
+            "name": "Conversion dashboard",
+            "attributes": ["Order amount", "Projected LTV", "Close progress"]
+          },
+          "attribution": {
+            "name": "IM attribution center",
+            "attributes": ["Matched asset ID", "Keyword hit", "Intent score"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Auto-reply script",
+          "attributes": [
+            "Keywords: price / free shipping / in stock",
+            "Decision: identified as price-sensitive",
+            "Issued script: 10% coupon",
+            "Permission: system auto-reply authorized"
+          ]
+        },
+        "table": {
+          "header": "Customer ID",
+          "columns": ["Consultation channel", "Attributed ad source / asset", "Conversion intent score"],
+          "addObjectColumnLabel": "AI intervention",
+          "rows": [
+            {
+              "lead": "User_SJ_9981",
+              "channel": "WhatsApp",
+              "source": "[VID_02] Summer dress",
+              "intent": "High intent",
+              "workspace": "Send coupon"
+            },
+            {
+              "lead": "User_DC_7362",
+              "channel": "Zalo",
+              "source": "[IMG_05] Promo image",
+              "intent": "Consulting",
+              "workspace": "Product QA"
+            },
+            {
+              "lead": "User_KL_4430",
+              "channel": "TikTok DM",
+              "source": "Organic traffic from brand homepage",
+              "intent": "Early understanding",
+              "workspace": "None"
+            },
+            {
+              "lead": "User_RT_5512",
+              "channel": "Messenger",
+              "source": "[VID_12] Influencer lookalike recommendation",
+              "intent": "Considering",
+              "workspace": "Schedule a call"
+            }
+          ]
+        }
+      },
+      "investors": {
+        "cards": {
+          "assets": {
+            "name": "Organizational assets",
+            "attributes": ["Team members", "Project count", "Total token pool"]
+          },
+          "finance": {
+            "name": "Financial reports",
+            "attributes": ["Live burn rate", "CPA headroom", "Projected return"]
+          },
+          "monitoring": {
+            "name": "Global monitoring",
+            "attributes": ["API health", "Strategy coverage", "Execution logs"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Third-party tool access",
+          "attributes": [
+            "Connection status: handshake success (200)",
+            "Sync cadence: every 10 minutes",
+            "Security protocol: AES-256"
+          ]
+        },
+        "table": {
+          "header": "Monitoring item",
+          "columns": ["Coverage scope", "Live run status", "Alert level"],
+          "addObjectColumnLabel": "Connectivity",
+          "rows": [
+            {
+              "lead": "APAC market full service",
+              "scope": "TikTok/Meta",
+              "status": "Running normally (Stable)",
+              "alert": "Normal",
+              "workspace": "Slack connected"
+            },
+            {
+              "lead": "Token billing",
+              "scope": "Global AI program",
+              "status": "Healthy balance (85%)",
+              "alert": "Ignore",
+              "workspace": "Email synced"
+            },
+            {
+              "lead": "API relay center",
+              "scope": "Unified messaging routes",
+              "status": "Meta API fluctuation",
+              "alert": "Medium",
+              "workspace": "System self-healing"
+            },
+            {
+              "lead": "Brand content monitoring",
+              "scope": "AI generation library",
+              "status": "100% brand-aligned",
+              "alert": "Low",
+              "workspace": "Security certificate updated"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "platformGraphics": {
+    "introLine1": "Cluega packages complex marketing logic into a full-stack protocol, making AI your execution terminal.",
+    "introLine2": "You define the goal, and the algorithm handles the rest.",
+    "features": {
+      "agents": {
+        "platform": "AI · CDP",
+        "title": "Data is born from your instructions.",
+        "body": "No manual report exports or rule configuration required. Cluega monitors platform APIs in real time. When you ask a question, AI instantly distills data and integrates reports; when you give an instruction, the algorithm immediately starts automated launch and optimization.",
+        "cta": "Explore ad launch & optimization"
+      },
+      "creative": {
+        "platform": "ART",
+        "title": "Creative matrices driven by real ROI.",
+        "body": "The ART engine no longer generates assets blindly. It connects deeply with CDP ad performance and real IM transaction data, automatically identifies high-conversion signals, and turns them into stronger creative matrices at scale. Every click becomes traceable.",
+        "cta": "Explore AI Chat & Models"
+      },
+      "data": {
+        "platform": "IM",
+        "title": "Every conversation is traceable.",
+        "body": "Eliminate data silos in cross-border communication. Cluega not only unifies conversations across platforms, it also uses the underlying protocol to automatically connect every lead with its ad source and creative details. Where customers came from, what they saw, and what they discussed all become transparent in one window.",
+        "cta": "Explore the IM Messaging System"
+      }
+    },
+    "queueGraphic": {
+      "subtitle": "Cluega AI · launching",
+      "userMessage": "Organize this week's TikTok performance report and keep target CPA within 4.8.",
+      "assistantMessage": "Data analysis is complete. Current average CPA is 4.2. Pulling the past 30 days of creative data and launching 100 automated delivery plans for you.",
+      "dataCardTitle": "Data card",
+      "taskStatus": "Task status",
+      "running": "Running... (45/100 complete)",
+      "targetCpa": "Target CPA",
+      "liveCpa": "Live CPA",
+      "performanceLabel": "Performance indicator",
+      "status": "Cluega AI Agent · running..."
+    },
+    "recordGraphic": {
+      "ariaLabel": "Performance chart comparing ART matrix creatives with manual creatives",
+      "title": "ART Matrix Performance",
+      "artLegend": "ART creative (CPA -35%)",
+      "manualLegend": "Manual creative (baseline)",
+      "axisLabel": "CPA (USD)",
+      "callout": "High ROI winner",
+      "realtime": "Live sync: fetching IM conversion feedback...",
+      "dates": {
+        "apr01": "Apr 01",
+        "apr08": "Apr 08",
+        "apr15": "Apr 15",
+        "apr21": "Apr 21",
+        "apr29": "Apr 29"
+      }
+    },
+    "agentsGraphic": {
+      "branch": {
+        "confirmed": "Command confirmed",
+        "pending": "Pending"
+      },
+      "steps": {
+        "trigger": {
+          "title": "Connect all platform APIs",
+          "description": "Sync Meta and TikTok data in real time",
+          "status": "Triggered",
+          "tag": "API"
+        },
+        "condition": {
+          "title": "AI intent recognition",
+          "description": "Parse command: create 100 ad sets, CPA < 4.8",
+          "status": "Completed",
+          "tag": "AI"
+        },
+        "sequences": {
+          "title": "Automated launch strategy",
+          "description": "Backtrack historical performance and start quantitative launch",
+          "status": "Completed",
+          "tag": "Launch"
+        },
+        "analytics": {
+          "title": "Smart data analytics",
+          "description": "One-click analysis across all platforms, auto-generating intuitive reports",
+          "tag": "Report"
+        }
+      }
+    },
+    "creativeGraphic": {
+      "title": "Generate creative assets in bulk",
+      "steps": {
+        "import": {
+          "title": "Import core data",
+          "description": "Ad performance + real IM transactions",
+          "status": "Meta, TikTok, Line data sources connected"
+        },
+        "extract": {
+          "title": "Extract high-ROI signals",
+          "description": "Analyze image and headline patterns from winning creatives",
+          "status": "Identifying high-conversion creative patterns"
+        },
+        "matrix": {
+          "title": "Bulk matrix expansion",
+          "description": "Generate 1000+ creatives from proven signals",
+          "status": "AI is generating ad creatives in bulk"
+        }
+      },
+      "stats": {
+        "adGroups": "ad groups/session",
+        "cpa": "actual CPA",
+        "sources": "data sources"
+      }
+    },
+    "workflowGraphic": {
+      "channelTitle": "Launch channels",
+      "creativeTitle": "Creative source",
+      "creativeCopy": "SKU_005 (summer promo)",
+      "analyticsTitle": "Ad group source analysis",
+      "analyticsCopy": "$387.41 · conversions 105"
+    }
+  },
+  "showcase": {
+    "askAi": {
+      "sidebar": {
+        "capabilities": "Capabilities",
+        "newBadge": "New",
+        "paidAds": "Paid ads",
+        "marketingReports": "Marketing reports",
+        "community": "Community",
+        "search": "Search",
+        "library": "Library",
+        "projects": "Projects",
+        "newProject": "New project",
+        "allTasks": "All tasks",
+        "emptyTasks": "Create a task to get started",
+        "shareTitle": "Share Cluega with friends",
+        "shareSubtitle": "Both sides get 500 points",
+        "fromCluega": "From Cluega"
+      },
+      "mainPanel": {
+        "actions": {
+          "ads": "Launch ads",
+          "video": "Ad video",
+          "design": "Design",
+          "chat": "Chat mode",
+          "more": "More"
+        },
+        "heading": "What can I help you do?",
+        "subtitle": "Your AI assistant is ready. Assign a task to begin.",
+        "placeholder": "Assign a task or ask anything",
+        "connectTools": "Connect your tools to Cluega"
+      },
+      "chat": {
+        "userPrompt": "What can Cluega help me do?",
+        "intro": "Cluega is your all-in-one AI marketing assistant. I can help across creative ideation, design, ad launch, and data analysis so your business grows faster while saving operating time.",
+        "capabilitiesTitle": "Here are the main capabilities I can provide:",
+        "closing": "Choose a task below, or ask me directly.",
+        "capabilities": {
+          "ads": {
+            "title": "Ad creation and optimization - ",
+            "text": "Help create detailed plans, write creative content, and continuously adjust campaigns to maximize ROI across channels."
+          },
+          "design": {
+            "title": "Design and video production - ",
+            "text": "Generate professional design templates, detailed storyboards, and ad video script suggestions that attract target customers."
+          },
+          "analytics": {
+            "title": "Marketing analytics and reporting - ",
+            "text": "Track ad performance in real time, analyze conversions deeply, and export intuitive reports."
+          },
+          "automation": {
+            "title": "Workflow automation - ",
+            "text": "Build intelligent automated workflows, such as task reminders, marketing email sends, and 24/7 customer care."
+          },
+          "campaigns": {
+            "title": "Multi-platform campaign management - ",
+            "text": "Sync and coordinate Facebook, Google, and TikTok ads in one interface, reducing context switching."
+          },
+          "budget": {
+            "title": "Smart budget optimization - ",
+            "text": "AI analyzes historical data and automatically recommends budget allocation based on real channel performance."
+          },
+          "competitors": {
+            "title": "Competitor research - ",
+            "text": "Collect and analyze competitors' ad strategies to help you find differentiation opportunities and room for growth."
+          },
+          "abTesting": {
+            "title": "Automated A/B testing - ",
+            "text": "Run multivariate tests for copy, images, and CTAs to identify the best-performing ad versions."
+          }
+        }
+      },
+      "meetings": {
+        "details": "Details",
+        "detailsBody": "Run a demo call with the Greenleaf team and help them make full use of the PRO trial.",
+        "participants": "Participants",
+        "participantOneTitle": "Basepoint CEO",
+        "participantTwoTitle": "Greenleaf Product Manager",
+        "title": "Meetings",
+        "date": "Today, May 16",
+        "timeMorning": "10:00 AM - 11:00 AM",
+        "timeLateMorning": "10:20 AM - 10:40 AM",
+        "timeAfternoon": "2:30 PM - 3:00 PM"
+      },
+      "assistantInput": {
+        "placeholder": "Ask anything...",
+        "auto": "Auto",
+        "quickMeeting": "Prepare next meeting",
+        "quickSummary": "Summarize last call"
+      },
+      "topBar": {
+        "upgrade": "Upgrade",
+        "share": "Share"
+      },
+      "dealCard": {
+        "title": "Greenleaf intro",
+        "time": "Dec 12, 10:40 AM - 11:32 AM",
+        "recorded": "Recorded",
+        "duration": " 48 min"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "chartTitle": "Báo cáo nhóm quảng cáo theo giờ",
+    "selectedCountLabel": "Số quảng cáo đã chọn",
+    "editCardTitlePrefix": "Chỉnh sửa ",
+    "saveSuccess": "Đã lưu",
+    "stat": {
+      "adgroupReportSummary": {
+        "title": "Chi tiêu nhóm quảng cáo",
+        "subLabel": "Tổng chuyển đổi",
+        "footerLabel": "CPA trung bình"
+      },
+      "accountTotalSpend": {
+        "title": "Chi tiêu tài khoản",
+        "subLabel": "Chi tiêu tháng này",
+        "footerLabel": "Chi tiêu hôm qua"
+      },
+      "formSubmitTotal": {
+        "title": "Số form gửi",
+        "subLabel": "Độ chính xác ước tính",
+        "footerLabel": "EPC trung bình"
+      },
+      "reportAverageConversionRate": {
+        "title": "Tỷ lệ chuyển đổi trung bình",
+        "subLabel": "ROI ước tính",
+        "footerLabel": "Tỷ lệ chuyển đổi hôm qua"
+      }
+    },
+    "modal": {
+      "defaultDialogTitle": "Tùy chỉnh thẻ tổng hợp",
+      "dialogDescription": "Chỉnh sửa tên, định dạng, mô tả và công thức của thẻ tổng hợp.",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận",
+      "addMetric": "Thêm chỉ số",
+      "formulaPlaceholder": "Chọn chỉ số và tạo công thức",
+      "removeMetricA11y": "Xóa mục này",
+      "formatPlaceholder": "Chọn định dạng",
+      "formatNumber": "Số",
+      "formatPercent": "Phần trăm",
+      "formatCurrency": "Tiền tệ",
+      "tabMainTitle": "Tiêu đề chính",
+      "tabSubtitle": "Tiêu đề phụ",
+      "tabFooter": "Chân trang",
+      "name": "Tên",
+      "namePlaceholder": "Nhập tên",
+      "format": "Định dạng",
+      "descriptionOptional": "Mô tả",
+      "descriptionPlaceholder": "Nhập mô tả",
+      "formula": "Công thức",
+      "metricPicker": {
+        "searchPlaceholder": "Tìm chỉ số",
+        "noMatch": "Không có chỉ số phù hợp"
+      }
+    }
+  }
+}

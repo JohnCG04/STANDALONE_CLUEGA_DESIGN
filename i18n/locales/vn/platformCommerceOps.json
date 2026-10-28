@@ -1,0 +1,298 @@
+{
+  "platformCommerceOps": {
+    "hero": {
+      "eyebrowNew": "Mới ra mắt",
+      "eyebrowLabel": "Agent →",
+      "title": "Một agent vận hành cửa hàng của bạn, mỗi ngày.",
+      "sub1": "Kết nối Shopee, Lazada, TikTok Shop và Zalo/LINE. Cluega tự chẩn đoán cửa hàng, tăng lưu lượng, sản xuất nội dung và quản lý sản phẩm đa kênh — báo cáo cho bạn qua Lark.",
+      "sub2": "Chúng tôi mã hóa năng lực phán đoán vận hành thương mại điện tử Đông Nam Á thành một hệ thống tự hành động."
+    },
+    "heroMock": {
+      "topbar": {
+        "task": "TikTok Shop",
+        "issueId": "SHOP-2026"
+      },
+      "sidebar": {
+        "main": {
+          "inbox": "Hộp thư vận hành",
+          "tasks": "Tác vụ đang chạy",
+          "reviews": "Nội dung chờ duyệt",
+          "pulse": "Nhịp thời gian thực"
+        },
+        "workspaceLabel": "Không gian làm việc",
+        "workspace": {
+          "initiatives": "Sáng kiến",
+          "projects": "Dự án",
+          "more": "Thêm"
+        },
+        "favoritesLabel": "Quản lý kênh",
+        "favorites": {
+          "tiktok": "TikTok Shop",
+          "facebook": "Facebook",
+          "zalo": "Zalo",
+          "line": "LINE"
+        }
+      },
+      "center": {
+        "counter": "02 / 145",
+        "title": "Tự động chẩn đoán sức khỏe cửa hàng",
+        "desc": "Cluega đã hoàn tất chẩn đoán định kỳ hôm nay. Phát hiện lưu lượng phòng livestream TikTok Shop tăng vọt nhưng tồn kho báo động, tỷ lệ phản hồi CSKH kênh riêng tư của Fanpage Facebook và Zalo/LINE bị ảnh hưởng bởi khung giờ đêm. Hệ thống đã tự động tạo phương án điều phối đa kênh và nội dung tăng lưu lượng.",
+        "activityLabel": "Hoạt động",
+        "act1": "Cluega đã nhận yêu cầu báo giá của khách và cảnh báo tồn kho qua Facebook Messenger.",
+        "act1Time": "2 phút trước",
+        "act2": "Hệ thống chẩn đoán AI đã tự động gắn nhãn «Lưu lượng giảm», «Kênh riêng suy giảm».",
+        "act2Time": "2 phút trước",
+        "comment1": {
+          "name": "Sophia",
+          "time": "4 phút trước",
+          "text": "Hiện tỷ lệ chuyển đổi thời trang nữ Việt Nam trên TikTok Shop khá thấp, ảnh chính có vẻ chưa đủ hấp dẫn thị trường bản địa Đông Nam Á..."
+        },
+        "comment2": {
+          "name": "Cluega",
+          "time": "Vừa xong",
+          "text": "Đã nhận, đang tạo lại nội dung và ảnh chính có tỷ lệ click cao dựa trên thói quen mua sắm TMĐT Đông Nam Á."
+        },
+        "act3": "Cluega đã kết nối · Cập nhật 12 sản phẩm · Bản nháp chờ duyệt · 2 phút trước",
+        "act4": "Cluega đã chuyển trạng thái từ «Cần làm» sang «Đang thực hiện» · Vừa xong"
+      },
+      "meta": {
+        "gmv": "GMV: $48,250 USD (+12%)",
+        "cr": "CR: 1.8% (↓ 0.4%)",
+        "assignee": "Sophia",
+        "agent": "Cluega"
+      },
+      "agent": {
+        "connected": "Sophia đã kết nối Cluega tới SHOP-2026",
+        "examining": "🔍 Đang chẩn đoán sâu lưu lượng TikTok và tỷ lệ chốt đơn livestream Facebook...",
+        "worked": "Chẩn đoán sâu hoàn tất, mất 7 giây",
+        "pushed": "🚀 Thực thi vận hành đa kênh hằng ngày:",
+        "change1Label": "TikTok_Shop_Batch",
+        "change1Body": "Thay hàng loạt ảnh chính livestream có tỷ lệ chuyển đổi cao và tự động cập nhật đăng/gỡ bán",
+        "change2Label": "Social_Media_Push",
+        "change2Body": "Tự động tạo bài viết từ khóa hot Indonesia/Việt Nam, chuẩn bị gửi hàng loạt tới Fanpage FB, Zalo và LINE",
+        "inventory": "Mức tồn kho: 14 sản phẩm hot có số ngày quay vòng < 3 ngày",
+        "output": "Sản phẩm: Bộ nội dung & tư liệu vận hành hàng hot Đông Nam Á.zip",
+        "placeholder": "Giao một tác vụ hoặc hỏi bất cứ điều gì…"
+      }
+    },
+    "intakeMock": {
+      "thread": {
+        "title": "Cảnh báo vận hành",
+        "m1": {
+          "name": "Cluega",
+          "time": "4:38 PM",
+          "text": "Cảnh báo bất thường: Cửa hàng Việt Nam trên TikTok Shop có tỷ lệ chuyển đổi đột ngột giảm 45% trong 1 giờ qua. Phân tích động thái đối thủ cho thấy đối thủ cạnh tranh chính vừa tung chương trình khuyến mãi lớn «Mua 1 tặng 1», khiến giá của chúng ta mất tính cạnh tranh; nếu không xử lý, dự kiến hôm nay sẽ đối mặt khoản lỗ lợi nhuận tiềm năng 1.200 USD."
+        },
+        "m2": {
+          "name": "Marcus",
+          "time": "4:38 PM",
+          "text": "Bạn đã chẩn đoán ra nguyên nhân chưa? Hiện chúng ta còn dư địa lợi nhuận nào để điều chỉnh theo?"
+        },
+        "m3": {
+          "name": "Cluega",
+          "time": "4:38 PM",
+          "text": "Đã chẩn đoán xong: Đề xuất kích hoạt ngay phương án tự khắc phục «Giảm giá theo số lượng». Tôi đã dựa trên tồn kho chuỗi cung ứng và biên lợi nhuận hiện tại để tính ra phương án tối ưu: thiết lập «Mua 2 sản phẩm giảm 15%», vừa bắt kịp sức hút của đối thủ, vừa duy trì lợi nhuận ròng 18%."
+        },
+        "inputMention": "@Cluega",
+        "inputText": "Thực thi phương án tối ưu và đưa việc theo dõi tiếp theo vào bảng Kanban"
+      },
+      "columns": {
+        "backlog": "Tồn đọng",
+        "todo": "Tối ưu chờ duyệt",
+        "progress": "Cluega đang tự thực thi",
+        "done": "Hoàn thành"
+      },
+      "cards": {
+        "OPS-2085": { "title": "Rà soát SKU bán chậm", "l1": "Tồn kho" },
+        "OPS-2092": { "title": "Gộp combo tồn kho mùa đông cũ" },
+        "OPS-2061": { "title": "Cắt giảm nhóm quảng cáo kém hiệu quả" },
+        "OPS-2104": { "title": "Gỡ link hết hàng Shopee", "l1": "Tồn kho" },
+        "SHOP-102": { "title": "Điều chỉnh TikTok Việt Nam thành mua 2 giảm 15%", "l1": "Rủi ro thua lỗ", "l2": "Tối ưu giá" },
+        "SHOP-103": { "title": "Lời chào khách mới của LINE OA không phản hồi", "l1": "Chuyển đổi bất thường" },
+        "SYS-099": { "title": "Nâng cấp mô hình điều chỉnh giá thông minh Cluega", "l1": "Nâng cấp hệ thống" },
+        "SHOP-118": { "title": "Phiếu giảm giá Lazada không tự áp dụng", "l1": "Lỗi khuyến mãi" },
+        "WORK-771": { "title": "Thay hàng loạt ảnh chính kém chất lượng trên TikTok Shop", "status": "Đang chạy" },
+        "MKT-402": { "title": "Phát hàng loạt nội dung hot tăng lưu lượng cho Facebook", "l1": "Sản xuất nội dung" },
+        "STOCK-501": { "title": "Tự động điều phối tồn kho Zalo chống hết hàng", "l1": "Cảnh báo tồn kho", "status": "Đang chạy" },
+        "OPS-771": { "title": "Làm mới broadcast Zalo OA" },
+        "OPS-640": { "title": "Định giá lại combo thanh lý" }
+      }
+    },
+    "planMock": {
+      "title": "Quản lý kênh trọng yếu",
+      "g1": { "name": "Tìm kiếm truyền thống & TMĐT", "c1": "Google", "c2": "TikTok", "c3": "Cộng đồng bản địa" },
+      "g2": { "name": "Tối ưu tìm kiếm sinh tạo thông minh", "c1": "ChatGPT", "c2": "Perplexity" },
+      "r1": { "title": "Ma trận tìm kiếm TikTok", "s1": "Căn chỉnh từ khóa hot", "s2": "Tối ưu trọng số" },
+      "r2": { "title": "ChatGPT", "s1": "Cấu trúc ngữ nghĩa", "s2": "Thử nghiệm đề xuất" },
+      "r3": { "title": "Lưu lượng toàn diện Google", "s1": "Khuếch đại lưu lượng" }
+    },
+    "monitorBoard": {
+      "pulseTitle": "Cluega",
+      "listen": "Running",
+      "projects": "Lệnh người dùng: «Giúp tôi đồng bộ nội dung bùng nổ tháng trước của cửa hàng lên TikTok Shop, tạo lịch đăng cộng đồng cả tháng và tự động theo dõi dữ liệu!»",
+      "cycleTitle": "Hiệu suất động của engine vận hành lõi",
+      "agent1": "SyncEngine",
+      "agent2": "ContentAI",
+      "agent3": "OmniTracker",
+      "proj1": {
+        "name": "Kết nối kênh & kỹ năng tự động",
+        "status": "Ready",
+        "p1": "Đã kết nối một chạm Shopify và TikTok Shop thành công.",
+        "p2": "Đã nạp kỹ năng tự động: AI tự bắt nội dung bùng nổ hot toàn mạng và gợi ý chọn sản phẩm cho đợt sale lớn."
+      },
+      "proj2": {
+        "name": "2. Quản lý lịch & theo dõi hiệu quả (Schedule & Tracking)",
+        "status": "Processing",
+        "p1": "Nội dung cộng đồng bùng nổ đa kênh tháng 7 đã tạo hàng loạt xong.",
+        "p2": "Bot lên lịch tự động đã sẵn sàng, OmniTracker đang dựng mô hình gửi dữ liệu tại cùng một nơi."
+      }
+    },
+    "diffMock": {
+      "left": {
+        "c1": "Module kỹ năng: kỹ năng phòng thủ tự động (chống lỗ, kiểm soát tồn kho)",
+        "guardArg": "Shopify_DocLap",
+        "c9": "[Kỹ năng 01] Tự động theo dõi đối thủ và điều chỉnh giá thông minh",
+        "onArg": "phát hiện đối thủ giảm giá thấp",
+        "mProfit": "loiNhuanHienTai",
+        "mUndercut": "haGiaThapHonDoiThu",
+        "c12": "giảm 50 để phản công",
+        "mHold": "giuVungDayGia",
+        "holdArg": "chạm ngưỡng cảnh báo lợi nhuận, không giảm theo",
+        "c18": "[Kỹ năng 02] Tích hợp tự động đăng ký & kiểm soát giá đại sự kiện 4 nền tảng",
+        "mSignup": "tuDongDangKyDaiSale",
+        "activityVal": "đại sự kiện số kép & bán giới hạn thời gian",
+        "c22": "giới hạn giảm tối đa toàn shop còn 80% giá, tránh lỗ do chồng voucher",
+        "c23": "tự động khóa tồn kho riêng cho sự kiện sau khi đăng ký thành công"
+      },
+      "right": {
+        "c1": "Module kỹ năng: kỹ năng tấn công tự động (giành lưu lượng, mở rộng kênh)",
+        "agentArg": "Thị trường xuyên biên giới Đông Nam Á",
+        "c9": "[Kỹ năng 03] Tích hợp tối ưu tìm kiếm sinh tạo thông minh (GEO)",
+        "mEncode": "mahoaToanMangTaiNguyen",
+        "style1": "tối ưu đề xuất ngữ nghĩa",
+        "style2": "tối ưu tăng trọng số",
+        "style3": "chiếm lĩnh từ khóa toàn diện",
+        "c16": "[Kỹ năng 04] Nội dung MXH cả tháng, tạo & lên lịch toàn kênh trong vài phút",
+        "mBatch": "taoGoiQuaCaThang",
+        "durComment": "nguyên một tháng nội dung",
+        "toneVal": "tiếng lóng mạng viral bản địa",
+        "mPublish": "tuDongLenLichDaKenh"
+      }
+    },
+    "logoWordmarks": ["Shopee", "Lazada", "TikTok Shop", "Shopify", "Zalo OA", "LINE OA"],
+    "intro": {
+      "lead": "Một cách mới để vận hành thương mại điện tử.",
+      "rest": "Được định hình từ thực chiến TMĐT Đông Nam Á, vận hành bởi agent, sinh ra cho tốc độ."
+    },
+    "triad": {
+      "purpose": {
+        "title": "Sinh ra cho thương mại điện tử",
+        "body": "Được định hình từ kinh nghiệm vận hành TMĐT Đông Nam Á thực tế, không phải chatbot đa dụng."
+      },
+      "agents": {
+        "title": "Vận hành bởi AI agent",
+        "body": "Nhiều agent chuyên trách phối hợp: chẩn đoán, tăng trưởng, nội dung, vận hành — mỗi agent một việc."
+      },
+      "speed": {
+        "title": "Thiết kế cho tốc độ",
+        "body": "Hoạt động 24/7, chẩn đoán bất thường tức thì, một câu lệnh chạy xuyên suốt các bước."
+      }
+    },
+    "blocks": {
+      "intake": {
+        "cta": "Chẩn đoán",
+        "title": "Biết vấn đề ở đâu\ntrước khi nó gây thiệt hại",
+        "body": "Cluega theo dõi đơn hàng, tồn kho và tỷ lệ chuyển đổi suốt ngày đêm. Khi có biến động, nó không chỉ báo cho bạn — nó chẩn đoán nguyên nhân và cho bạn biết cách khắc phục, trước cả khi bạn mở trang quản trị.",
+        "sublinks": ["Giám sát sức khỏe", "Chẩn đoán bất thường", "Gợi ý khắc phục", "Báo cáo qua Lark"]
+      },
+      "plan": {
+        "cta": "Tăng trưởng",
+        "title": "Xuất hiện ở mọi nơi\nngười mua tìm kiếm",
+        "body": "Giúp sản phẩm của bạn được tìm thấy trên Google, TikTok Search và được đề xuất bởi các AI search như ChatGPT, Perplexity — mà không cần hiểu sự khác biệt giữa SEO và GEO.",
+        "sublinks": ["SEO", "GEO", "Nội dung sản phẩm", "Tối ưu tại trang"]
+      },
+      "build": {
+        "cta": "Nội dung",
+        "title": "Nội dung cả tháng,\nxong trong vài phút",
+        "body": "Cluega tạo nội dung mạng xã hội cho cả tháng trong một lần, lên lịch đa kênh và theo dõi hiệu quả. Nó học loại nội dung nào hiệu quả nhất, điều chỉnh theo thời gian, giảm đáng kể công việc thủ công.",
+        "sublinks": ["Tạo nội dung", "Lên lịch", "Theo dõi hiệu quả", "Thư viện tài nguyên"]
+      },
+      "diffs": {
+        "cta": "Mở rộng",
+        "title": "Mỗi kênh đều có playbook,\nbạn có tất cả",
+        "body": "Tích hợp sẵn kỹ năng vận hành cho Shopee, Lazada, TikTok Shop và Shopify. Mở rộng sang kênh mới mà không cần bắt đầu từ đầu, và theo dõi hiệu quả mọi kênh ở cùng một nơi.",
+        "sublinks": ["Shopee", "Lazada", "TikTok Shop", "Báo cáo hợp nhất"]
+      },
+      "monitor": {
+        "cta": "Vận hành",
+        "title": "Một câu lệnh,\ntự chạy xuyên suốt các bước",
+        "body": "Ra lệnh bằng hội thoại, Cluega thực thi xuyên suốt các bước trên cửa hàng của bạn: vận hành hội thoại, kỹ năng tự động, kết nối kênh và tự chủ theo lịch — bốn mô-đun, một engine vận hành.",
+        "sublinks": ["Vận hành hội thoại", "Kỹ năng tự động", "Kết nối kênh", "Tự chủ theo lịch"]
+      }
+    },
+    "changelog": {
+      "title": "Mở khóa thêm kỹ năng Cluega",
+      "c1": {
+        "title": "Thiết kế hình ảnh AI",
+        "body": "Tạo nội dung viral trong tích tắc",
+        "link": "Đến Thiết kế hình ảnh AI"
+      },
+      "c2": {
+        "title": "Agent",
+        "body": "Điều khiển trợ lý marketing ngay trong ứng dụng nhắn tin",
+        "link": "Khám phá chế độ toàn quyền quản lý"
+      }
+    },
+    "buildMock": {
+      "log1": "Đã nhận lệnh! Đang khởi động tác vụ tạo «Nội dung hàng hot ma trận xã hội đa kênh Đông Nam Á tháng 7».",
+      "log2": "Đang phân tích văn phong, phong cách hình ảnh và hiệu quả click của các bài đăng TikTok và FB có tỷ lệ chuyển đổi cao trong 90 ngày qua...",
+      "log3": "Thuật toán học đã khóa xu hướng tìm kiếm hot và nhãn khuyến mãi lớn trong tháng của thị trường Indonesia, Việt Nam và Thái Lan.",
+      "cmd": "[Cluega_AI_Content_Generator] --mode=batch_generate --duration=30_days",
+      "cmdResult": "➔ Hoàn thành: 28 kịch bản video ngắn TikTok, 30 bài viết hàng hot FB, 30 thông báo đẩy khuyến mãi Zalo/LINE.",
+      "log5": "Lịch tự động đa kênh đã được đồng bộ: khung giờ vàng mỗi ngày từ 1/7 – 31/7.",
+      "thinking": "Đang đánh giá mô hình dự đoán hiệu quả nội dung, liên tục tối ưu cơ chế điều chỉnh theo thời gian...",
+      "assignPlaceholder": "Chỉ định người phụ trách theo dõi hiệu quả"
+    },
+    "monitorMock": {
+      "title": "Cluega",
+      "listen": "Đang chạy",
+      "command": "Lệnh người dùng: «Đồng bộ hàng bán chạy tháng trước của cửa hàng sang TikTok Shop, tạo lịch đăng mạng xã hội cả tháng và tự động theo dõi số liệu giúp tôi!»",
+      "chartTitle": "Hiệu suất động cơ vận hành cốt lõi",
+      "steps": {
+        "s1": {
+          "name": "Kết nối kênh & kỹ năng tự động",
+          "status": "Sẵn sàng",
+          "points": [
+            "Đã kết nối thành công kênh Shopify và TikTok Shop chỉ bằng một cú nhấp.",
+            "Đã nạp kỹ năng tự động: AI tự động bắt hàng hot tìm kiếm toàn mạng và gợi ý chọn sản phẩm cho đợt sale lớn."
+          ]
+        },
+        "s2": {
+          "name": "2. Quản lý lịch trình & theo dõi hiệu quả (Schedule & Tracking)",
+          "status": "Đang xử lý",
+          "points": [
+            "Nội dung mạng xã hội hàng hot đa kênh cho tháng 7 đã được tạo hàng loạt xong.",
+            "Bot tự động lên lịch đã sẵn sàng, OmniTracker đang xây mô hình phản hồi dữ liệu tại cùng một nơi."
+          ]
+        }
+      }
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "Chúng tôi đóng gói toàn bộ các API đa nền tảng phức tạp và logic thao tác click rườm rà vào một bộ não biết suy nghĩ. Trong Cluega, bạn không trò chuyện với một cỗ máy, mà với tổng hòa vận hành của hàng vạn nhà bán hàng hàng đầu.",
+        "name": "Kin",
+        "role": "Chief Technology Officer"
+      },
+      "t2": {
+        "quote": "Chúng tôi không chỉ ghép các tính năng lại với nhau, mà đã tái kiến trúc luồng dữ liệu vận hành đa nền tảng, biến việc kiểm soát tồn kho rườm rà và lên lịch nội dung đa nền tảng thành một Playbook tự động vận hành mượt mà.",
+        "name": "Jimmy",
+        "role": "VP of Engineering"
+      }
+    },
+    "finalCta": {
+      "title": "Xây dựng cho thế hệ\nngười bán tiếp theo. Dùng được ngay hôm nay.",
+      "primary": "Bắt đầu miễn phí",
+      "secondary": "Liên hệ kinh doanh"
+    }
+  }
+}

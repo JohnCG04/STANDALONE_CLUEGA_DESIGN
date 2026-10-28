@@ -1,0 +1,226 @@
+{
+  "compareSmartly": {
+    "meta": {
+      "title": "Cluega AI vs Smartly.io | Cluega",
+      "description": "Smartly sinh ra cho các nhà quảng cáo doanh nghiệp có ngân sách khổng lồ; Cluega AI cho agency ở mọi quy mô một hạ tầng AI để tiếp quản creative, chạy quảng cáo và quy kết private: ăn chia theo hiệu quả, bao trọn chi phí quá trình."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. SMARTLY.IO",
+      "title": "Tự động hoá chạy quảng cáo cấp doanh nghiệp không nên chỉ dành cho khách chi hàng triệu đô mỗi năm",
+      "subtitle": "Smartly sinh ra cho các nhà quảng cáo doanh nghiệp có ngân sách khổng lồ — hợp đồng năm, phí khởi tạo, phí nền tảng cộng thêm lên ngân sách media. Cluega AI cho agency ở mọi quy mô một hạ tầng AI duy nhất để tiếp quản creative, chạy quảng cáo và quy kết private: ăn chia theo hiệu quả, bao trọn chi phí quá trình; với các thương hiệu lớn, lưu trữ private-hosted đảm bảo dữ liệu quảng cáo không vào bất kỳ quá trình huấn luyện mô hình lớn nào, qua vòng thẩm định an ninh ngay lần đầu.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo",
+      "cluegaLabel": "Cluega AI",
+      "pancakeLabel": "Smartly.io",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Smartly.io vs Cluega AI",
+      "colDimension": "Tiêu chí so sánh",
+      "colPancake": "Smartly.io",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "Khác biệt định vị",
+          "pancake": "Nền tảng tự động hoá quảng cáo social cấp doanh nghiệp: trung tâm chạy quảng cáo hợp nhất sản xuất creative + mua media",
+          "cluega": "Hạ tầng marketing AI cho agency: 400+ mô hình, chạy quảng cáo tự chủ (L4) và quy kết private"
+        },
+        {
+          "dimension": "Nền tảng hỗ trợ",
+          "pancake": "Meta／TikTok／Pinterest／Snap／Google／Amazon DSP",
+          "cluega": "Chạy quảng cáo Meta／Google／TikTok + hệ sinh thái thương mại điện tử TikTok Shop／Amazon／Shopify + tầng quy kết private LINE／Zalo／WhatsApp"
+        },
+        {
+          "dimension": "Ngưỡng khởi điểm",
+          "pancake": "Hợp đồng năm: theo dữ liệu công khai khoảng từ $2,000–4,000／tháng, kèm phí khởi tạo một lần; phù hợp đội chi trên $20K／tháng",
+          "cluega": "Self-serve từ $99／tháng là khởi động được; gói agency thương lượng theo quy mô và khối lượng quản lý"
+        },
+        {
+          "dimension": "Cách tính phí",
+          "pancake": "Theo dữ liệu công khai, phí nền tảng khoảng 2–4% chi tiêu quảng cáo (thoả thuận theo hợp đồng), không liên quan đến hiệu quả",
+          "cluega": "Hai nhánh: self-serve dùng credit; quản lý toàn phần ăn chia theo chi tiêu quảng cáo 4%→2.5%→1.5%, bao trọn token／creative／video"
+        },
+        {
+          "dimension": "Năng lực creative",
+          "pancake": "Creative động theo template dạng feed, sản xuất biến thể ở quy mô lớn",
+          "cluega": "Sinh nội dung theo ngữ nghĩa thương mại: 400+ mô hình (hình ảnh／video／copy), Auto routing tự chọn phương án tối ưu chi phí"
+        },
+        {
+          "dimension": "Độ sâu quy kết",
+          "pancake": "Dựa vào dữ liệu nền tảng báo về, dừng ở click quảng cáo và chuyển đổi trong nền tảng",
+          "cluega": "Quy kết private IM: đơn chốt trong tin nhắn riêng Zalo／WhatsApp được đẩy về quảng cáo, phần Pixel không thấy cũng quy kết được"
+        },
+        {
+          "dimension": "Quản lý nhiều khách hàng",
+          "pancake": "Nhiều tài khoản, phân quyền theo chỗ ngồi, báo cáo white-label",
+          "cluega": "Multi-tenant + kết nối MCP tuỳ chỉnh, phân hạng tài khoản AAIGS để quản trị thống nhất rủi ro của nhiều khách hàng"
+        },
+        {
+          "dimension": "An toàn dữ liệu",
+          "pancake": "SaaS multi-tenant, dữ liệu được xử lý thống nhất trên cloud của nền tảng",
+          "cluega": "Có thể chọn lưu trữ single-tenant private-hosted (ClickHouse) và lưu trú dữ liệu tại địa phương; dữ liệu quảng cáo không dùng để huấn luyện mô hình lớn, không distil chéo tenant"
+        },
+        {
+          "dimension": "Mô hình phục vụ",
+          "pancake": "Bán license nền tảng, phần triển khai và tuỳ biến do agency tự lo",
+          "cluega": "Cùng agency phục vụ khách hàng: đặt làm Skill cấp doanh nghiệp, mua một lần trọn đời, giao là thuộc về khách"
+        },
+        {
+          "dimension": "Tình huống phù hợp nhất",
+          "pancake": "Trung tâm creative động và mua media đa nền tảng ở quy mô lớn cho thương hiệu lớn",
+          "cluega": "Agency hướng hiệu quả tiếp quản tài khoản khách hàng ở quy mô lớn theo mô hình ăn chia theo hiệu quả"
+        }
+      ],
+      "footnote": "＊Thông tin đối thủ được tổng hợp từ website chính thức và dữ liệu công khai của bên thứ ba (đối chiếu 2026-07), thực tế lấy công bố chính thức của họ làm chuẩn.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Vì sao các agency chuyển từ Smartly sang Cluega AI?",
+      "items": [
+        {
+          "title": "Cấu trúc chi phí mọc trên chính mô hình kinh doanh của agency",
+          "body": "Phí nền tảng của Smartly là chi phí cố định cộng thêm lên ngân sách media — chạy tốt hay không vẫn phải trả, cộng thêm hợp đồng năm và phí khởi tạo. Quản lý toàn phần của Cluega AI ăn chia theo chi tiêu quảng cáo thực tế (4%→2.5%→1.5%, giảm dần theo quy mô), bao trọn token, hình ảnh, video và tối ưu trong quá trình: khách chỉ trả một khoản phí hiệu quả dự đoán được, và hệ thống báo giá của agency mọc trực tiếp trên đó."
+        },
+        {
+          "title": "Với thương hiệu lớn, an toàn dữ liệu chính là vé vào vòng pitching",
+          "body": "Câu hỏi agency bị hỏi nhiều nhất khi phục vụ thương hiệu lớn: “Dữ liệu quảng cáo của tôi có bị lấy đi huấn luyện mô hình không? Có bị trộn với khách khác không?” Cluega cung cấp lưu trữ single-tenant private-hosted (triển khai ClickHouse) và lưu trú dữ liệu tại địa phương: dữ liệu quảng cáo không đi chéo tenant, không bị distil vào bất kỳ quá trình huấn luyện mô hình lớn nào, mọi lần truy cập đều có log kiểm toán. Agency mang kiến trúc này đi pitching, thẩm định an ninh không còn là lý do mất deal mà trở thành lợi thế để thắng deal."
+        },
+        {
+          "title": "Quy kết xuyên tới đơn chốt private, agency đưa ra được “ROAS thật”",
+          "body": "Trên toàn cầu có rất nhiều đơn chốt diễn ra trong hội thoại WhatsApp／LINE／Zalo — thế giới của Smartly dừng ở dữ liệu nền tảng báo về. Cluega một bên kết nối dữ liệu chốt đơn thương mại điện tử từ TikTok Shop／Amazon／Shopify, một bên dùng quy kết private IM để đẩy đơn chốt trong tin nhắn riêng về campaign và creative: báo cáo agency gửi khách nâng cấp từ “chuyển đổi trên nền tảng” lên “ROAS chốt đơn thật” — đây là khác biệt mang tính cấu trúc về tỉ lệ gia hạn hợp đồng."
+        },
+        {
+          "title": "Không bán công cụ cho bạn, mà cùng bạn phục vụ khách của bạn",
+          "body": "Smartly bán license nền tảng, phần triển khai và tuỳ biến agency tự gánh. Cluega AI kề vai cùng agency phục vụ khách hàng: đặt làm Skill cấp doanh nghiệp theo đúng ngành và quy trình của khách — từ một luồng làm việc đơn lẻ đến luồng dài tự chủ nhiều Agent, mua một lần trọn đời, giao là thuộc về khách. Chúng tôi tin rằng marketing của thời đại này không so xem ai nhiều công cụ hơn, mà so xem ai gắn được các mảnh dữ liệu rời rạc ở quảng cáo, thương mại điện tử, private và CRM thành hàng rào cạnh tranh cốt lõi mà người khác không lấy đi được."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          { "type": "field", "label": "ID tài khoản quảng cáo", "value": "7535737911069753842" },
+          { "type": "field", "label": "Tên quảng cáo", "value": "0609-Quảng cáo tin nhắn-EcoSip" },
+          { "type": "field", "label": "ID quảng cáo", "value": "1866940736964473" },
+          { "type": "field", "label": "ID nội dung", "value": "1867515992671681" },
+          {
+            "type": "preview",
+            "label": "Xem trước nội dung",
+            "brand": "EcoSip",
+            "value": "Video quảng bá bình giữ nhiệt"
+          },
+          { "type": "field", "label": "ID tài khoản mạng xã hội", "value": "EcoSip" }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Thời gian tạo",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Tổng sự kiện",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Chi phí chốt đơn trung bình",
+        "legend": "Tất cả"
+      },
+      "identity": {
+        "keyword": "Số điện thoại",
+        "lead": "Lead giá trị cao"
+      },
+      "billing": {
+        "steps": [
+          "Khách lần đầu hỏi về sản phẩm",
+          "AI nhận diện nhu cầu, tương tác liên tục",
+          "AI đưa ra giải pháp tuỳ chỉnh"
+        ],
+        "success": "Chuyển đổi thành công: Lead hợp lệ",
+        "outcome": "Đạt Outcome: tính phí $0.99"
+      },
+      "cache": {
+        "bubble": "Tệp đối tượng quảng cáo Meta có vẻ đã mệt mỏi; hôm nay CTR của bình giữ nhiệt rớt dưới 1%, ROAS giảm còn 1.2. Chiến dịch vẫn đang chạy, giờ cứu thế nào?",
+        "statusLabel": "Đã trúng Prompt cache",
+        "solutionsLabel": "Giải pháp:",
+        "sol1Lead": "Cầm máu cho creative:",
+        "sol1Text": "tắt ngay 2 nhóm hình-chữ cũ có tần suất trên 3.5 và hôm nay kém nhất, chuyển 30% ngân sách sang creative “video ngắn mở hộp” dự phòng.",
+        "sol2Lead": "Làm sạch tệp đối tượng:",
+        "sol2Text": "kiểm tra tệp tùy chỉnh, đảm bảo đã “loại trừ người mua trong 30 ngày qua” một cách nghiêm ngặt, và mở rộng tệp bằng cách nâng tỷ lệ Lookalike (tệp tương tự) từ 1% lên 3%–5%.",
+        "sol3Lead": "Phòng thủ ngân sách:",
+        "sol3Text": "nếu trước 4 giờ chiều CPM (chi phí mỗi nghìn lượt hiển thị) vẫn chưa hạ, nghĩa là phiên đấu giá quá nóng; lập tức giảm 50% ngân sách của series này và mở series mới chạy “thêm vào giỏ hàng” để khởi động."
+      }
+    },
+    "highlights": {
+      "eyebrow": "ENTERPRISE-GRADE PERFORMANCE ADOS",
+      "title": "Không chỉ tự động hoá chạy quảng cáo, mà cho agency một hạ tầng AI tái sử dụng được",
+      "items": [
+        {
+          "title": "Bao gồm 400+ mô hình",
+          "body": "Claude／GPT／Gemini／DeepSeek và các mô hình hình ảnh, video phổ biến dùng được ngay, Auto routing tự chọn phương án tối ưu chi phí, không cần tự đi thương lượng API."
+        },
+        {
+          "title": "Quản lý toàn phần L4 (cấp AI chạy quảng cáo tự chủ)",
+          "body": "AI tự quản giá thầu, ngân sách, tệp đối tượng và bật／tắt; ăn chia theo chi tiêu, bao trọn chi phí quá trình, kèm phí sàn quản lý và hàng rào bảo vệ fair-use."
+        },
+        {
+          "title": "Quy kết private IM thông với thương mại điện tử",
+          "body": "Đơn chốt private thật trên Zalo／WhatsApp được đẩy về quảng cáo, đồng thời kết nối dữ liệu chốt đơn thương mại điện tử TikTok Shop／Amazon／Shopify — chuyển đổi mà Pixel nền tảng không thấy cũng quy kết được, khác biệt cấu trúc mà đối thủ không làm nổi."
+        },
+        {
+          "title": "Multi-tenant và MCP",
+          "body": "Kiến trúc nhiều khách hàng cho agency, kết nối MCP tuỳ chỉnh vào stack công nghệ hiện có, báo cáo và phân quyền quản trị theo từng tenant; thương hiệu lớn có thể mua thêm lưu trữ private-hosted, chủ quyền dữ liệu giao trọn vẹn."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Tôi nên chọn giải pháp nào?",
+      "pancake": {
+        "label": "Chọn Smartly.io",
+        "body": "Bạn phục vụ khách doanh nghiệp toàn cầu, ngân sách tháng dư dả và tập trung trong hệ sinh thái Meta／Google; trọng tâm là template creative động ở quy mô lớn và trung tâm media đa nền tảng, đồng thời chấp nhận được hợp đồng năm và ngưỡng cấp doanh nghiệp."
+      },
+      "cluega": {
+        "label": "Chọn Cluega AI",
+        "body": "Bạn làm nghề agency hướng hiệu quả, cần quy kết chốt đơn private, cách tính phí ăn chia theo hiệu quả và năng lực đa mô hình dùng được ngay — với cấu trúc chi phí nhẹ hơn, giao báo cáo quy kết sâu hơn."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả chi tiết bạn có thể muốn biết trước khi liên hệ đội ngũ của chúng tôi.",
+      "contact": "Liên hệ kinh doanh",
+      "items": [
+        {
+          "q": "Chúng tôi là agency vừa và nhỏ, quản lý chi tiêu dưới $50K／tháng, có phù hợp không?",
+          "a": "Phù hợp. Ngưỡng hợp đồng của Smartly thường yêu cầu chi trên $20K／tháng mới đáng; gói self-serve của Cluega AI chỉ $99／tháng là khởi động được, quản lý toàn phần bắt đầu từ 4% ăn chia và quy mô càng lớn tỉ lệ càng thấp, gói agency còn có thể thương lượng theo khối lượng quản lý."
+        },
+        {
+          "q": "Ăn chia của quản lý toàn phần khác gì phí nền tảng của Smartly?",
+          "a": "Phí nền tảng của Smartly là mức trích cố định, chi phí creative và nhân sự phát sinh khi chạy quảng cáo tính riêng; ăn chia của Cluega bao trọn — token tiêu thụ, sinh hình ảnh và video, quyết định chạy quảng cáo trong suốt thời gian quản lý đều nằm trong đó, không trừ thêm khoản nào. Khách chỉ trả một khoản “chi tiêu quảng cáo × tỉ lệ ăn chia”, hoá đơn hoàn toàn dự đoán được."
+        },
+        {
+          "q": "Có thể chỉ dùng chế độ self-serve mà không giao tài khoản cho AI quản lý không?",
+          "a": "Được. Chế độ self-serve tính theo credit (1 credit＝$0.001, neo giá minh bạch), bạn nhờ AI làm từng việc đơn lẻ — ra creative, viết copy, chỉnh tệp đối tượng — đều dùng credit; khi sẵn sàng thì bật quản lý toàn phần theo từng tài khoản, hai nhánh loại trừ nhau chứ không cộng dồn."
+        },
+        {
+          "q": "An toàn và phân quyền của tài khoản nhiều khách hàng được bảo đảm thế nào?",
+          "a": "Mỗi tài khoản khách đi phân hạng AAIGS độc lập: độ trưởng thành M0–M5 quyết định mức uỷ quyền AI T0–T3, tài khoản mới bắt đầu từ mức uỷ quyền thấp và được nới dần theo dữ liệu tích luỹ; mọi quyết định của AI đều kèm log kiểm toán, campaign do người vận hành thủ công không tính vào ăn chia."
+        },
+        {
+          "q": "Khách thương hiệu lớn yêu cầu dữ liệu không ra khỏi biên giới, không vào huấn luyện mô hình — có đáp ứng được không?",
+          "a": "Được, và đây chính là câu trả lời tiêu chuẩn của Cluega dành cho thương hiệu lớn. Ở bất kỳ gói nào, dữ liệu quảng cáo cũng không dùng để huấn luyện mô hình chéo tenant; với thương hiệu có yêu cầu cao về an ninh và chủ quyền dữ liệu, có thể mua thêm triển khai ClickHouse single-tenant private-hosted, hỗ trợ lưu trú dữ liệu tại địa phương và các phần bổ sung về tuân thủ (như PDPL), kèm giám sát, dự phòng và log kiểm toán — AI dùng dữ liệu của bạn để chạy quảng cáo cho bạn, nhưng dữ liệu của bạn mãi chỉ thuộc về bạn."
+        },
+        {
+          "q": "Việc đặt làm Skill cấp doanh nghiệp hợp tác như thế nào?",
+          "a": "Agency mang nhu cầu của khách đến, Cluega cùng đánh giá tình huống, phát triển và bàn giao: từ Skill chuẩn cho một luồng làm việc, đến Skill nâng cao tích hợp xuyên hệ thống, rồi đến luồng dài cấp flagship với nhiều Agent tự chủ; báo giá một lần theo độ phức tạp, trả xong là mua trọn đời, không phí thường niên. Skill tiếp tục được hưởng lợi từ các bản cập nhật mô hình trên nền tảng, còn dữ liệu rời rạc của khách lắng đọng thành tài sản marketing riêng — đây là thứ agency giao được mà nhà bán công cụ thuần thì không."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Cùng Cluega AI kề vai với agency, luyện những mảnh dữ liệu rời rạc thành hàng rào cốt lõi của khách hàng.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    }
+  }
+}

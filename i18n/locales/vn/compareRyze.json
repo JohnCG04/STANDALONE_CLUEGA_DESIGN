@@ -1,0 +1,234 @@
+{
+  "compareRyze": {
+    "meta": {
+      "title": "Cluega AI vs Ryze AI | Cluega",
+      "description": "Cluega AI có nền dữ liệu riêng: mọi dữ liệu ứng dụng được uỷ quyền kết nối liên tục chảy về, sinh ra dashboard thời gian thực không bao giờ ngừng; bao gồm 400+ mô hình, không giới hạn mô hình, dùng ngay từ chạy quảng cáo, creative đến quy kết private."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. RYZE AI",
+      "title": "Một MCP cắm vào tài khoản quảng cáo, hay cả một tầng hạ tầng marketing AI?",
+      "subtitle": "Ryze cho Claude của bạn vận hành được quảng cáo Google／Meta — với điều kiện bạn tự trang bị gói thuê mô hình lớn, và dữ liệu thì đọng lại trong từng cuộc hội thoại. Cluega AI có nền dữ liệu riêng: mọi dữ liệu ứng dụng được uỷ quyền kết nối liên tục chảy về, sinh ra dashboard thời gian thực không bao giờ ngừng; bao gồm 400+ mô hình, không giới hạn mô hình, dùng ngay từ chạy quảng cáo, creative đến quy kết private.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo",
+      "cluegaLabel": "Cluega AI",
+      "ryzeLabel": "Ryze AI",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Ryze AI vs Cluega AI",
+      "colDimension": "Tiêu chí so sánh",
+      "colRyze": "Ryze AI",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "Khác biệt định vị",
+          "ryze": "Công cụ tự hành quảng cáo AI + connector MCP",
+          "cluega": "Hạ tầng marketing AI: hợp nhất mô hình, chạy quảng cáo, creative và quy kết"
+        },
+        {
+          "dimension": "Hỗ trợ mô hình",
+          "ryze": "Lấy Claude làm hạt nhân; dùng MCP phải tự trang bị gói thuê Claude／ChatGPT (BYO)",
+          "cluega": "Bao gồm 400+ mô hình (Claude／GPT／Gemini／DeepSeek + các mô hình hình ảnh, video phổ biến), Auto routing tự chọn phương án tối ưu chi phí"
+        },
+        {
+          "dimension": "Năng lực MCP",
+          "ryze": "Connector MCP chính thức nối Google／Meta… (miễn phí ở giai đoạn public beta)",
+          "cluega": "Enterprise／Agency hỗ trợ kết nối MCP tuỳ chỉnh và kiến trúc multi-tenant"
+        },
+        {
+          "dimension": "Định giá",
+          "ryze": "Theo dữ liệu công khai: nhập môn khoảng $10／tuần, gói chính $89／tháng (kèm 7 ngày dùng thử miễn phí), gói toàn diện cho thương mại điện tử $1,499／tháng; đơn vị credit chưa công bố định nghĩa",
+          "cluega": "$12／tuần dùng thử; $99／$599／$1,499／tháng; credit neo giá minh bạch (1 credit＝$0.001)"
+        },
+        {
+          "dimension": "Mức khớp của cách tính phí",
+          "ryze": "Phí thuê cố định, không liên quan đến hiệu quả chạy quảng cáo",
+          "cluega": "Quản lý toàn phần ăn chia theo chi tiêu quảng cáo 4%→2.5%→1.5%, cách tính phí khớp trực tiếp với hiệu quả"
+        },
+        {
+          "dimension": "Nền tảng hỗ trợ",
+          "ryze": "Các nền tảng quảng cáo Google／Meta／TikTok／LinkedIn…",
+          "cluega": "Chạy quảng cáo Meta／Google／TikTok + hệ sinh thái thương mại điện tử TikTok Shop／Amazon／Shopify + quy kết private LINE／Zalo／WhatsApp"
+        },
+        {
+          "dimension": "Nền dữ liệu",
+          "ryze": "Dữ liệu bám vào từng nền tảng và GA4, báo cáo đẩy theo lịch",
+          "cluega": "Nền dữ liệu riêng: dữ liệu ứng dụng được uỷ quyền liên tục chảy về, tự sinh dashboard cập nhật thời gian thực 24／7"
+        },
+        {
+          "dimension": "Mức tự do về mô hình",
+          "ryze": "Gắn chặt vào gói thuê Claude／ChatGPT bạn tự trang bị",
+          "cluega": "Không giới hạn mô hình: 400+ mô hình tuỳ chọn tuỳ pin, Auto routing tự điều phối, Enterprise cũng có thể BYO"
+        },
+        {
+          "dimension": "Độ sâu quy kết",
+          "ryze": "Theo dõi chuyển đổi trên website ở tầng GA4／Search Console",
+          "cluega": "Quy kết chốt đơn private IM: việc đặt hàng và thanh toán trong tin nhắn riêng được đẩy về quảng cáo, phần Pixel không thấy cũng quy kết được"
+        },
+        {
+          "dimension": "Tình huống phù hợp nhất",
+          "ryze": "Media Buyer cá nhân dùng Claude của mình để vận hành nhanh tài khoản quảng cáo",
+          "cluega": "Chạy quảng cáo tự chủ ở cấp đội nhóm, luồng làm việc đa mô hình và tính phí theo hiệu quả"
+        }
+      ],
+      "footnote": "＊Thông tin đối thủ được tổng hợp từ website chính thức và dữ liệu công khai của bên thứ ba (đối chiếu 2026-07), thực tế lấy công bố chính thức của họ làm chuẩn.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Vì sao các đội chạy quảng cáo chuyển từ Ryze sang Cluega AI?",
+      "items": [
+        {
+          "title": "Không giới hạn mô hình: bao gồm 400+ mô hình, không khoá bạn vào bất kỳ nhà nào",
+          "body": "Tuyến MCP của Ryze yêu cầu bạn tự duy trì gói thuê Claude／ChatGPT, lựa chọn mô hình bị gắn chặt vào một nhà duy nhất. Cluega AI mua sẵn và bao gồm 400+ mô hình: copy dùng Claude, phân tích dùng Gemini, ra ảnh dùng FLUX, ra video dùng Veo — tuỳ chọn tuỳ pin, Auto routing tự chọn phương án tối ưu chi phí, mô hình đắt tự trừ nhiều credit hơn nên về cấu trúc bạn không bị lỗ, và cũng không phải quản bất kỳ API key nào."
+        },
+        {
+          "title": "Nền dữ liệu riêng: dashboard không bao giờ ngừng",
+          "body": "Hạn chế bẩm sinh của AI dạng hội thoại là “hỏi một lần, đáp một lần”, dữ liệu đọng lại trong từng cuộc hội thoại. Nền dữ liệu riêng của Cluega AI kéo toàn bộ dữ liệu ứng dụng được uỷ quyền kết nối — tài khoản quảng cáo, hội thoại private, sự kiện chốt đơn, CRM — liên tục chảy về, tự sinh dashboard cập nhật thời gian thực 24／7: biến động chi tiêu, dao động ROAS, creative mỏi mệt — bạn thấy trước cả khi kịp đặt câu hỏi. AI ra quyết định trên đó, bạn giám sát trên đó."
+        },
+        {
+          "title": "MCP không chỉ là cửa vào, mà là tầng tích hợp có thể đặt làm",
+          "body": "Dùng MCP nối vào tài khoản quảng cáo chỉ là bước đầu. Gói Enterprise／Agency của Cluega hỗ trợ kết nối MCP tuỳ chỉnh — đưa CRM, cơ sở dữ liệu và hệ thống nội bộ của bạn vào cùng một luồng làm việc AI và cùng một nền dữ liệu; kiến trúc multi-tenant cho agency quản trị cách ly theo từng khách hàng. Công cụ nối được thì việc kinh doanh mới đỡ được."
+        },
+        {
+          "title": "Quy kết là khác biệt mang tính cấu trúc",
+          "body": "Theo dõi hiệu quả của Ryze dừng ở GA4 và chuyển đổi trên website; nhưng trên toàn cầu có rất nhiều đơn chốt diễn ra trong tin nhắn riêng WhatsApp／LINE／Zalo. Quy kết private IM của Cluega đẩy đơn chốt trong tin nhắn riêng về campaign và creative — mỗi quyết định chạy quảng cáo của AI đều dựng trên lớp dữ liệu chốt đơn mà người khác không thấy được."
+        }
+      ]
+    },
+    "panels": {
+      "adDashboard": {
+        "headerTitle": "Danh sách tài khoản",
+        "metrics": {
+          "cost": { "label": "Cost", "value": "$15,632", "delta": "+18%", "caption": "Tổng chi phí & mức tăng" },
+          "roas": { "label": "ROAS", "value": "2.35x", "delta": "-12%", "caption": "Tỷ suất & mức đạt mục tiêu" },
+          "conversions": { "label": "Conversions", "value": "650", "delta": "+5%", "caption": "Số chuyển đổi & tỷ lệ" }
+        },
+        "chart": { "startDate": "Apr 22", "endDate": "May 22" },
+        "issues": {
+          "title": "Top Issues to Fix",
+          "analyze": "Phân tích",
+          "action": "Xem & áp dụng",
+          "items": {
+            "materialFatigue": "Nội dung quảng cáo bình giữ nhiệt bị bão hòa, CTR giảm 5 ngày liên tiếp...",
+            "budgetImbalance": "Nhóm quảng cáo Advantage+ Shopping phân bổ ngân sách mất cân đối...",
+            "landingPage": "Thời gian tải trang đích ảnh hưởng chuyển đổi trên di động..."
+          }
+        }
+      },
+      "creativeTracking": {
+        "header": "Theo dõi hiệu quả creative",
+        "rows": [
+          {
+            "name": "Tinh chất chống lão hoá_Video ngắn_So sánh nỗi đau",
+            "metric": "Dẫn tới tư vấn",
+            "value": "128",
+            "unit": "lần"
+          },
+          {
+            "name": "Vitamin C sáng／Retinol tối_Ảnh bài_Phân tích thành phần",
+            "metric": "Tạo đơn hàng",
+            "value": "86",
+            "unit": "đơn"
+          },
+          {
+            "name": "Kem phục hồi_KOL trải nghiệm_Combo giới hạn",
+            "metric": "Thanh toán chốt đơn",
+            "value": "45",
+            "unit": "đơn"
+          }
+        ]
+      },
+      "risk": {
+        "headline": "Phát hiện [Video Ad ID: #V9876] có rủi ro tuân thủ",
+        "time": "1 giờ trước",
+        "statusLabel": "Đã tạo báo cáo risk-control",
+        "reportTitle": "Báo cáo phân tích ngữ nghĩa: giây 1:15 của video nghi phóng đại công dụng y tế",
+        "reportBody": "Đã kích hoạt quy tắc risk-control #R71-2 của nền tảng, nên tạm dừng nội dung này hoặc cắt bỏ đoạn vi phạm.",
+        "expandRules": "Hiện 4 quy tắc ngữ nghĩa risk-control liên quan",
+        "uploadLine": "Julian đã tải lên [Video: Promo_V3.mp4]",
+        "uploadTime": "2 giờ trước",
+        "expandDetection": "Hiện chi tiết phát hiện"
+      },
+      "routing": {
+        "bubble": "Giúp tôi lên chiến lược tổng thể cho đợt Black Friday của EcoSip.",
+        "midLabel": "Trung tâm quyết định chiến lược",
+        "midTitle": "Chi phí toàn thị trường sắp tăng, đề xuất đặt CPA ở mức $22-$25.",
+        "midStatus": "Phân bổ ngân sách: Meta 60% / Google 40%",
+        "lowLabel": "Căn chỉnh ngữ cảnh thương hiệu",
+        "lowTitle": "Chất liệu đang được bàn luận sôi nổi trên toàn mạng; nội dung chốt ở “thép không gỉ cấp y tế”.",
+        "lowSubtitle": "Đã căn chỉnh theo tông thương hiệu, lọc bỏ các mở rộng không hiệu quả",
+        "button": "Xem tất cả"
+      }
+    },
+    "highlights": {
+      "eyebrow": "MCP & DOGCLAW HYBRID ENGINE",
+      "title": "Không chỉ cắm vào tài khoản quảng cáo, mà cho đội nhóm cả một tầng hạ tầng marketing AI",
+      "items": [
+        {
+          "title": "400+ mô hình và Auto routing",
+          "body": "Mô hình lớn, hình ảnh, video đều bao gồm sẵn, không giới hạn mô hình, tự chọn phương án tối ưu chi phí, cũng có thể pin mô hình chỉ định."
+        },
+        {
+          "title": "Nền dữ liệu riêng",
+          "body": "Dữ liệu ứng dụng được uỷ quyền liên tục chảy về, tự sinh dashboard thời gian thực không bao giờ ngừng, biến động được thấy trước cả câu hỏi."
+        },
+        {
+          "title": "MCP tuỳ chỉnh",
+          "body": "Kết nối hệ thống riêng ở cấp Enterprise／Agency, quản trị multi-tenant, uỷ quyền phân hạng AAIGS."
+        },
+        {
+          "title": "Quản lý toàn phần L4 và quy kết private",
+          "body": "AI chạy quảng cáo tự chủ, ăn chia theo chi tiêu và bao trọn chi phí; đơn chốt thật trên Zalo／WhatsApp được đẩy về quảng cáo — lợi thế dữ liệu mang tính cấu trúc."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Tôi nên chọn giải pháp nào?",
+      "ryze": {
+        "label": "Chọn Ryze AI",
+        "body": "Bạn là Media Buyer cá nhân hoặc đội nhỏ, đã có gói thuê Claude, muốn với chi phí thấp nhất để AI nhanh chóng cắm vào tài khoản Google／Meta làm việc kiểm tra và tối ưu hằng ngày, tạm thời chưa cần quy kết private và luồng làm việc đa mô hình."
+      },
+      "cluega": {
+        "label": "Chọn Cluega AI",
+        "body": "Bạn cần năng lực ở cấp đội nhóm: đa mô hình dùng được ngay, AI chạy quảng cáo tự chủ và kiểm toán được, quy kết chốt đơn private khép vòng, cùng cách tính phí ăn chia khớp với hiệu quả — chứ không phải thêm một công cụ nữa phải tự lắp ghép."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Tất cả chi tiết bạn có thể muốn biết trước khi liên hệ đội ngũ của chúng tôi.",
+      "contact": "Liên hệ kinh doanh",
+      "items": [
+        {
+          "q": "Cluega AI có hỗ trợ MCP không?",
+          "a": "Có. Từ gói Enterprise trở lên có kết nối MCP tuỳ chỉnh, gói Agency thêm kiến trúc multi-tenant — không chỉ là “dùng MCP nối tài khoản quảng cáo”, mà là đưa CRM, cơ sở dữ liệu và hệ thống nội bộ của bạn vào luồng làm việc AI."
+        },
+        {
+          "q": "Có cần tự trang bị API key của mô hình không?",
+          "a": "Không cần. 400+ mô hình do Cluega mua sẵn và bao gồm, credit được trừ theo giá gốc quy ngược; từ Enterprise trở lên, nếu có nhu cầu đặc biệt thì cũng hỗ trợ BYO mô hình tự mang, hai chế độ có thể cùng tồn tại."
+        },
+        {
+          "q": "Auto routing chọn mô hình như thế nào?",
+          "a": "Tự chọn mô hình tối ưu chi phí theo loại tác vụ: phân loại khối lượng lớn đi mô hình kinh tế, thời điểm sát chốt đơn đi mô hình flagship, ra ảnh ra video định tuyến tới mô hình tương ứng theo nhu cầu. Bạn cũng có thể pin mô hình chỉ định, phí được trừ minh bạch theo giá gốc của mô hình đó."
+        },
+        {
+          "q": "Dashboard thời gian thực có cần cấu hình hay trả phí riêng không?",
+          "a": "Không cần. Ứng dụng vừa được uỷ quyền kết nối là dữ liệu liên tục chảy về nền dữ liệu riêng của Cluega, dashboard tự sinh, cập nhật thời gian thực, không bao giờ ngừng — chi tiêu quảng cáo, phễu MMT, hiệu suất creative và đơn chốt private nằm trên cùng một bảng, và cũng có thể tự cấu hình view theo vai trò trong đội."
+        },
+        {
+          "q": "Chi phí chuyển từ Ryze sang có cao không?",
+          "a": "Thấp. Tài khoản quảng cáo chỉ cần uỷ quyền kết nối qua API chính thức, dữ liệu lịch sử tự được đưa vào đánh giá phân hạng AAIGS; bạn có thể dùng chế độ self-serve trước ($99／tháng) để chạy creative và tối ưu, sau khi kiểm chứng thì bật quản lý toàn phần theo từng tài khoản."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Dùng Cluega AI để việc chạy quảng cáo bằng AI nâng cấp từ công cụ thành hạ tầng.",
+      "ctaStart": "Dùng thử ngay",
+      "ctaDemo": "Đặt lịch Demo"
+    }
+  }
+}

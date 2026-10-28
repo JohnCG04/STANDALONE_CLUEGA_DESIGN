@@ -1,0 +1,165 @@
+{
+  "title": "個人化你的工作空間",
+  "subtitle": "幾個簡單問題，讓助理依你的方式運作。這只屬於你 — 你的同事會各自設定。",
+  "progress": {
+    "label": "個人化進度"
+  },
+  "steps": {
+    "you": {
+      "title": "關於你",
+      "description": "告訴我們你是誰，讓助理能提供更貼切的協助。"
+    },
+    "goals": {
+      "title": "你的目標",
+      "description": "你想完成什麼？這能讓你的助理更個人化。"
+    }
+  },
+  "fields": {
+    "role": {
+      "label": "你的角色",
+      "customPlaceholder": "輸入你的角色"
+    },
+    "honorific": {
+      "label": "Cluega 該如何稱呼你？",
+      "hint": "只是你喜歡被稱呼的方式 — 隨時可以更改。"
+    },
+    "preferredLanguage": {
+      "label": "偏好語言"
+    },
+    "goals": {
+      "label": "你想專注於什麼？"
+    },
+    "customInstructions": {
+      "label": "有什麼是助理應該始終記住的嗎？（選填）",
+      "placeholder": "例如：回覆請簡潔。我主要為一個美妝品牌投放 TikTok 廣告。"
+    }
+  },
+  "options": {
+    "role": {
+      "founder_owner": "創辦人 / 負責人",
+      "marketing_manager": "行銷經理",
+      "performance_marketer": "成效行銷專員",
+      "content_creator": "內容創作者",
+      "designer": "設計師",
+      "data_analyst": "數據分析師",
+      "agency_account": "代理商 / 客戶經理",
+      "ecommerce_operator": "電商營運",
+      "sales": "銷售",
+      "other": "其他"
+    },
+    "honorific": {
+      "anh": "Anh",
+      "chi": "Chị",
+      "ban": "Bạn",
+      "name_only": "只稱呼我的名字"
+    },
+    "goal": {
+      "launch_campaigns": "啟動廣告活動",
+      "optimize_performance": "優化成效",
+      "create_content": "製作內容",
+      "analyze_reporting": "分析報表",
+      "manage_audiences": "管理受眾",
+      "automate_workflows": "自動化流程",
+      "learn_platform": "認識平台"
+    }
+  },
+  "actions": {
+    "back": "返回",
+    "next": "繼續",
+    "submit": "繼續",
+    "add": "新增"
+  },
+  "errors": {
+    "validation": "請選擇你的角色以繼續。",
+    "submitFailed": "儲存你的回答時發生錯誤，請再試一次。"
+  },
+  "finishing": {
+    "title": "正在個人化你的工作空間",
+    "lines": [
+      "正在依你的工作方式調整助理…",
+      "正在載入你的技能與工具…",
+      "正在套用你的偏好設定…",
+      "正在設定你的渠道…",
+      "正在喚醒 AI 代理…",
+      "即將完成…"
+    ]
+  },
+  "tour": {
+    "steps": {
+      "composer": {
+        "title": "從這裡開始",
+        "body": "輸入你的需求 — 撰寫廣告、分析成效，或詢問任何問題。可直接在輸入框選擇模型與工具。"
+      },
+      "skills": {
+        "title": "新增技能",
+        "body": "附加技能可為特定任務賦予助理額外專長。團隊的官方技能與你上傳的技能都在這裡。"
+      },
+      "sidebar": {
+        "title": "你的對話",
+        "body": "每段對話都會儲存在這裡。隨時回到過往工作或開始新的對話。"
+      },
+      "nav-cluega-ai": {
+        "title": "Cluega AI",
+        "body": "聊天工作區，也就是您現在所在的位置。每段對話都會保存，可從側邊欄重新開啟，也能以唯讀連結分享。"
+      },
+      "nav-capabilities": {
+        "title": "能力",
+        "body": "連接 Cluega 要操作的平台，並將助理部署到您的聊天渠道。請從這裡開始 — 多數其他功能都需要先連接帳戶。"
+      },
+      "nav-paid-ads": {
+        "title": "付費廣告",
+        "body": "檢視已連接的廣告帳戶並建立廣告活動結構。Account View 顯示目前在跑什麼；Create Plan 把目標變成一份計畫。"
+      },
+      "nav-marketing-reports": {
+        "title": "營銷報表",
+        "body": "涵蓋所有已連接管道的即時看板與已儲存報表。描述您想知道什麼，看板就會圍繞那個問題被建立。"
+      },
+      "nav-community": {
+        "title": "社群",
+        "body": "可重複使用的提示詞、技能、智能體範本與服務方案。直接取用已經有效的東西，不必從空白開始。"
+      },
+      "nav-insights": {
+        "title": "洞察",
+        "body": "可瀏覽的市場素材與創作者資料庫，在投入預算前先參考與取得靈感。"
+      },
+      "nav-knowledge-base": {
+        "title": "資料庫",
+        "body": "Cluega 回答時所依據的業務事實 — 價格、政策、產品名稱、品牌規則。寫入一次，之後每個答案都建立在它們之上。"
+      },
+      "nav-new-project": {
+        "title": "專案",
+        "body": "專案把相關任務歸在一起，並帶有自己的常駐指示與已連接工具。刪除專案不會刪除裡面的工作。"
+      },
+      "nav-settings": {
+        "title": "設定",
+        "body": "適用於您整體工作而非單一任務的所有設定：帳戶、點數與帳單、團隊權限、連接器，以及排程執行。"
+      },
+      "integrations": {
+        "title": "連接您的平台",
+        "body": "這裡是應用授權頁。在此連接 Meta、Google Ads、TikTok 等平台 — 帳戶必須先連接，Cluega 才能讀取其資料或代為操作。您隨時可以回來新增更多。"
+      },
+      "suggestion-ads": {
+        "title": "直接從聊天框投放廣告",
+        "body": "這個捷徑讓您不必離開對話就能啟動付費廣告流程：選好平台與帳戶，其餘交給 Cluega。"
+      },
+      "account-view": {
+        "title": "Account View",
+        "body": "已連接廣告帳戶上的所有運行狀況集中在一處 — 花費、成效，以及背後的指標。在動手調整之前，先在這裡看清楚什麼有效。"
+      },
+      "create-ad-plan": {
+        "title": "建立廣告計畫",
+        "body": "描述目標、預算與受眾，Cluega 會擬好廣告活動結構讓您審閱。在您核准之前不會發布任何內容。"
+      },
+      "create-ad-plan-platforms": {
+        "title": "選擇投放平台",
+        "body": "每張卡片會開啟該平台的廣告活動流程，並顯示您在該平台已授權幾個帳戶。選一張，Cluega 就會帶您走完目標、素材與排程。"
+      }
+    },
+    "actions": {
+      "next": "下一步",
+      "back": "返回",
+      "last": "明白了",
+      "skip": "略過導覽"
+    }
+  }
+}

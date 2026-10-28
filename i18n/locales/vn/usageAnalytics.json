@@ -1,0 +1,118 @@
+{
+  "title": "Phân tích sử dụng",
+  "subtitle": "Tổng quan mức dùng credit của tài khoản bạn",
+  "buyCredits": "Mua gói credit",
+  "upgrade": "Nâng cấp",
+  "lowCredit": {
+    "title": "Credit sắp hết",
+    "body": "Bạn còn chưa tới {percent}% credit của gói.",
+    "action": "Mua credit"
+  },
+  "range": {
+    "label": "Khoảng thời gian",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "thisWeek": "Tuần này",
+    "lastWeek": "Tuần trước",
+    "lastMonth": "Tháng qua",
+    "last3Months": "3 tháng qua",
+    "allTime": "Toàn bộ thời gian",
+    "custom": "Tùy chọn ngày",
+    "apply": "Áp dụng",
+    "back": "Quay lại"
+  },
+  "stats": {
+    "currentCredits": "Credit hiện có",
+    "totalJobs": "Tổng số job",
+    "creditsIn": "Credit đã nạp",
+    "creditsOut": "Credit đã tiêu",
+    "currentCreditsHint": "Số credit hiện có trong ví, gộp mọi nguồn.",
+    "totalJobsHint": "Số job hoàn tất trong khoảng thời gian đã chọn.",
+    "creditsInHint": "Credit được cộng trong khoảng này — nạp thêm, gói thuê bao và thưởng cộng đồng.",
+    "creditsOutHint": "Credit đã dùng cho job, cộng với credit hết hạn trong khoảng này."
+  },
+  "empty": {
+    "title": "Chưa có hoạt động nào",
+    "body": "Tạo design đầu tiên của bạn — mức dùng credit sẽ hiển thị ở đây.",
+    "cta": "Tạo design đầu tiên",
+    "rangeTitle": "Không có hoạt động trong khoảng này",
+    "rangeBody": "Không có lượt tạo nào trong khoảng thời gian đã chọn. Hãy chọn mốc thời gian khác ở trên."
+  },
+  "creditsUsage": {
+    "title": "Mức dùng credit"
+  },
+  "filters": {
+    "users": "Người dùng",
+    "features": "Tính năng",
+    "models": "Model",
+    "platform": "Nền tảng",
+    "credits": "Credit",
+    "clear": "Xóa bộ lọc"
+  },
+  "tooltip": {
+    "credits": "Credit",
+    "vs": "so với {label}",
+    "otherModels": "+{n} model khác"
+  },
+  "legend": {
+    "more": "+{n} khác",
+    "less": "Thu gọn"
+  },
+  "modelsUsage": {
+    "title": "Mức dùng theo model",
+    "models": "Model",
+    "consumption": "Tiêu hao (%)"
+  },
+  "creditsSummary": {
+    "title": "Tổng hợp credit",
+    "consumed": "đã tiêu",
+    "added": "đã cộng",
+    "source": {
+      "consumption": "Tiêu hao",
+      "topup": "Nạp thêm",
+      "subscription": "Gói thuê bao",
+      "refund": "Hoàn lại",
+      "community": "Cộng đồng",
+      "expired": "Hết hạn"
+    }
+  },
+  "tabs": {
+    "generations": "Lượt tạo",
+    "team": "Nhóm",
+    "credits": "Credit"
+  },
+  "table": {
+    "completed": "Hoàn tất",
+    "model": "Model",
+    "feature": "Tính năng",
+    "status": "Trạng thái",
+    "user": "Người dùng",
+    "credits": "Credit",
+    "platform": "Nền tảng"
+  },
+  "status": {
+    "completed": "Thành công",
+    "failed": "Thất bại",
+    "processing": "Đang chạy",
+    "stopped": "Đã dừng",
+    "refunded": "Đã hoàn",
+    "charged": "Đã trừ",
+    "free": "Không trừ"
+  },
+  "platform": {
+    "web": "Web",
+    "api": "API",
+    "mobile": "Mobile"
+  },
+  "pager": {
+    "prev": "Trang trước",
+    "next": "Trang sau",
+    "rowsPerPage": "Dòng mỗi trang",
+    "page": "Trang",
+    "items": "lượt tạo"
+  },
+  "tableEmpty": {
+    "title": "Không có lượt tạo nào",
+    "body": "Thử mở rộng khoảng thời gian hoặc xóa bộ lọc."
+  }
+}

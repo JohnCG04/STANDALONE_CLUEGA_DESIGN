@@ -1,0 +1,217 @@
+{
+  "comparePancake": {
+    "meta": {
+      "title": "Cluega IM vs Pancake | Cluega",
+      "description": "Pancake 擅長把多粉專的訊息與訂單管好；Cluega IM 再往前一步——在身份層自動合併同一買家的跨渠道足跡，把私域對話升級為可歸因、可計費的成交數據資產。"
+    },
+    "hero": {
+      "eyebrow": "CLUEGA IM VS. PANCAKE",
+      "title": "把每一筆 Zalo 成交，歸回它來自的那支 TikTok 廣告",
+      "subtitle": "Pancake 擅長把多粉專的訊息與訂單管好，也能把事件回傳給廣告平台；Cluega IM 再往前一步——在身份層自動合併同一買家的跨渠道足跡，把私域對話升級為可歸因、可計費的成交數據資產，轉化刻度由你的留資規則定義，讓每一分廣告預算都對得上真實成交。",
+      "ctaStart": "預約 Demo",
+      "ctaDemo": "諮詢方案",
+      "cluegaLabel": "Cluega IM",
+      "pancakeLabel": "Pancake",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Pancake vs Cluega IM",
+      "colDimension": "對比維度",
+      "colPancake": "Pancake",
+      "colCluega": "Cluega IM",
+      "rows": [
+        {
+          "dimension": "定位差異",
+          "pancake": "全通路聊天＋POS 營運套件：訊息、留言、訂單、庫存、出貨",
+          "cluega": "私域營銷操作系統（AdOS）：對話 → 成交階段 → 廣告歸因的成效引擎"
+        },
+        {
+          "dimension": "支援渠道",
+          "pancake": "FB／IG／TikTok Shop／Zalo／Shopee／Lazada 等（操作層統一）",
+          "cluega": "LINE OA／Zalo／WhatsApp／Messenger 等（操作＋歸因層打通）"
+        },
+        {
+          "dimension": "入門門檻",
+          "pancake": "按連接數與席位訂閱，提供 3／6／12 個月方案",
+          "cluega": "SaaS 訂閱 $999／月起＋按成交結果（Outcome-based）計費：未成交會話僅收算力底費"
+        },
+        {
+          "dimension": "歸因效果",
+          "pancake": "可透過 Pancake CRM 將事件回傳 Meta／Google／TikTok／WhatsApp／IG 等平台；回傳內容為訂單、表單等離散事件",
+          "cluega": "TikTok／Meta／Google 廣告 → 私域對話 → 成交，全鏈路同源歸因，每筆歸因附可稽核的判讀依據"
+        },
+        {
+          "dimension": "跨平台身份",
+          "pancake": "以電話號碼為事實上的合併鍵，需人工比對",
+          "cluega": "身份層（Identity Merge）自動合併：同一買家跨 Zalo／LINE／WhatsApp 只認一次成交"
+        },
+        {
+          "dimension": "轉化定義",
+          "pancake": "可回傳下單、填表預約、發起對話、名單收集等預設事件，以規則觸發為主，非連續的成交階段刻度",
+          "cluega": "MMT L0–L6 漏斗，其中 L1–L6 依你的留資與成交規則自訂：留下電話＝L2、完成預約＝L3、下單＝L5、完成支付＝L6"
+        },
+        {
+          "dimension": "目標客戶",
+          "pancake": "電商賣家、直播帶貨與客服團隊",
+          "cluega": "成效型廣告主、Media Buyer、代理商"
+        },
+        {
+          "dimension": "最適使用情境",
+          "pancake": "高訊息量的客服、接單與出貨營運",
+          "cluega": "廣告驅動的私域獲客、成交歸因與 ROAS 放大"
+        }
+      ],
+      "footnote": "＊競品資訊整理自其官網與公開第三方資料（2026-07 查核），實際以對方官方公布為準。",
+      "ctaStart": "預約 Demo",
+      "ctaDemo": "諮詢方案"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "為什麼成效團隊在 Pancake 之上，還需要 Cluega IM？",
+      "items": [
+        {
+          "title": "同一個買家跨三個 App，成交只認一次",
+          "body": "Pancake CRM 能把事件回傳到 Meta／Google／TikTok 等平台，但同一個買家出現在 Zalo、LINE 與 WhatsApp 時，是三組互不相識的 ID——實務上得靠電話號碼人工比對，稍有落差就是重複計算。Cluega IM 在身份層自動合併同一買家的跨渠道行為：客戶從 TikTok 廣告點進來、加了 Zalo、三天後在私聊裡付款——這筆成交回指到當初的 campaign、adset 與素材，而且只認一次、不重複計價。"
+        },
+        {
+          "title": "刻度由你定義，每一級都附判讀依據",
+          "body": "廣告平台能接收的是一份預設事件清單，觸發與否由規則決定。Cluega IM 給的是一條連續刻度：大模型逐通判讀對話語意，依你設定的留資規則即時落位——留下電話是 L2、完成預約是 L3、完成支付是 L6。差別不在「能不能回傳」，而在每一級都附判讀依據、可稽核、可計費，也能作為轉化訊號回傳廣告平台。"
+        },
+        {
+          "title": "帶來訂單的廣告，和帶來會成交的對話的廣告",
+          "body": "從訂單報表往回篩廣告 ID，看到的是已經成交的那一端；還在推進中的對話沒有位置。Cluega IM 以成交階段為粒度計算真實 ROAS：已推進到 L3／L4 但尚未付款的對話同樣有值，Media Buyer 因此看到的不只是「哪支廣告出過單」，而是「哪支廣告該加預算」——而不是只看到表層的私訊量與加好友數。"
+        },
+        {
+          "title": "成交才付成效費，計費與你利益一致",
+          "body": "訂閱之外，AI 託管聊單依會話最終 MMT 狀態結算：未成交的會話只收覆蓋算力的託管底費，AI 真正把對話推進到成交層時才支付對應成效費。帳單永遠與成效對齊，而非與訊息量對齊。"
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          {
+            "type": "field",
+            "label": "廣告賬號ID",
+            "value": "7535737911069753842"
+          },
+          {
+            "type": "field",
+            "label": "廣告名稱",
+            "value": "0609-私訊廣告-EcoSip"
+          },
+          {
+            "type": "field",
+            "label": "廣告ID",
+            "value": "1866940736964473"
+          },
+          {
+            "type": "field",
+            "label": "素材ID",
+            "value": "1867515992671681"
+          },
+          {
+            "type": "preview",
+            "label": "素材預覽",
+            "brand": "EcoSip",
+            "value": "保溫杯推廣視頻"
+          },
+          {
+            "type": "field",
+            "label": "社交媒體賬號ID",
+            "value": "EcoSip"
+          }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "創建時間",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "事件總數",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "成交平均成本",
+        "legend": "全部"
+      },
+      "identity": {
+        "keyword": "電話",
+        "lead": "高價值線索"
+      },
+      "billing": {
+        "steps": [
+          "用戶首次諮詢產品",
+          "AI 辨識痛點、持續互動",
+          "AI 提供客製化方案"
+        ],
+        "success": "成功轉化：有效線索",
+        "outcome": "Outcome 達成：收費$0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "EVERY CHANNEL, ONE ATTRIBUTION ENGINE",
+      "title": "不只管理訊息與訂單，更掌控全球私域的全漏斗數據",
+      "items": [
+        {
+          "title": "全渠道涵蓋",
+          "body": "Zalo・LINE・WhatsApp・Messenger 的對話與成交事件統一到單一客戶檔案，成交歸因不因換渠道而斷裂。"
+        },
+        {
+          "title": "MMT L0–L6 漏斗",
+          "body": "每通會話自動落位成交階段，從高意向對話到完成支付，漏斗每一層都看得到、算得清。"
+        },
+        {
+          "title": "數據主權",
+          "body": "每筆歸因附可稽核日誌，事件以 API／Webhook／postback 閉環回寫；客戶資料不外流、不用於跨租戶訓練。"
+        },
+        {
+          "title": "團隊協作",
+          "body": "支援 API／MCP 與人機協作，人工介入以 handoff 時間戳為界，AI 與客服的功勞算得清楚。"
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "我該如何選擇？",
+      "pancake": {
+        "label": "選擇 Pancake",
+        "body": "你的核心痛點是高訊息量的客服、接單、庫存與出貨，需要一套成熟的電商營運後台；回傳需求以標準事件為主，不需要自訂成交階段刻度、跨渠道身份自動合併，也不需要把計費與成效綁在一起。"
+      },
+      "cluega": {
+        "label": "選擇 Cluega IM",
+        "body": "你以廣告驅動增長，投放橫跨 TikTok／Meta／Google，需要知道每一筆私域成交來自哪支廣告、同一買家跨平台不重複計價，並希望計費與成效完全對齊。"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "常見問題",
+      "subtitle": "在與我們團隊聯繫之前，您可能想了解的所有細節。",
+      "contact": "聯繫銷售",
+      "items": [
+        {
+          "q": "已經在用 Pancake，可以疊加 Cluega IM 嗎？",
+          "a": "可以，而且是常見組合。Pancake 繼續承擔客服與訂單營運，Cluega IM 專注歸因層：接入相同渠道後即可開始把私域成交回推廣告，兩者互補、不需要遷移現有工作流。"
+        },
+        {
+          "q": "TikTok 到 Zalo 的跨平台歸因是怎麼做到的？",
+          "a": "Cluega IM 把廣告點擊參數、對話事件與留資身份（電話／社媒 ID）在身份層合併成單一客戶檔案。同一客戶跨渠道分別計通、但歸因合併——同一筆成交只認一次，且能回指廣告來源。"
+        },
+        {
+          "q": "轉化的定義可以自訂嗎？",
+          "a": "可以。MMT L1–L6 的業務判讀依你的留資與成交規則設定：你可以把「留下電話」「完成預約」「添加付款資訊」各自對應到明確刻度，計費與報表都跟著你的定義走。"
+        },
+        {
+          "q": "還沒把訂單系統接回來，也能用嗎？",
+          "a": "可以。未建立成交回寫的非閉環客戶，計費封頂於可觀測的留資階段（MMT L3／L4），或改採訂閱＋承諾包；建立 API／Webhook 回寫後即可啟用完整的 L5／L6 成交計費，避免「看不到成交卻計費」。"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "以 Cluega IM 把私域對話，變成廣告放量的底氣。",
+      "ctaStart": "預約 Demo",
+      "ctaDemo": "諮詢方案"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "title": "Chào mừng đến với Cluega",
+  "subtitle": "Hãy cho chúng tôi biết về hoạt động marketing của bạn để trợ lý AI điều chỉnh mọi câu trả lời theo doanh nghiệp của bạn.",
+  "progress": {
+    "label": "Tiến trình thiết lập"
+  },
+  "steps": {
+    "company": {
+      "title": "Về doanh nghiệp của bạn",
+      "description": "Công ty bạn tên gì và hoạt động trong ngành nào?"
+    },
+    "goals": {
+      "title": "Marketing của bạn",
+      "description": "Bạn muốn đạt được điều gì và chạy ở những kênh nào?"
+    },
+    "audience": {
+      "title": "Đối tượng & thị trường",
+      "description": "Bạn muốn tiếp cận ai và ở những thị trường nào?"
+    },
+    "referral": {
+      "title": "Một điều cuối cùng",
+      "description": "Bạn biết đến Cluega bằng cách nào?"
+    }
+  },
+  "fields": {
+    "companyName": {
+      "label": "Tên công ty",
+      "placeholder": "ví dụ: Acme Beauty"
+    },
+    "brand": {
+      "label": "Tên thương hiệu (không bắt buộc)",
+      "placeholder": "ví dụ: Acme — tên mà AI sẽ xưng khi trả lời"
+    },
+    "industry": {
+      "label": "Ngành hàng (chọn một hoặc nhiều, hoặc tự thêm)",
+      "customPlaceholder": "Thêm ngành hàng khác…"
+    },
+    "marketingGoals": {
+      "label": "Mục tiêu marketing chính"
+    },
+    "channels": {
+      "label": "Kênh bạn đang sử dụng"
+    },
+    "audience": {
+      "label": "Đối tượng mục tiêu",
+      "placeholder": "ví dụ: Phụ nữ 18–34 quan tâm chăm sóc da, tại Đông Nam Á"
+    },
+    "region": {
+      "label": "Thị trường / khu vực chính",
+      "placeholder": "ví dụ: Việt Nam, Đông Nam Á"
+    },
+    "tone": {
+      "label": "Giọng điệu / phong cách thương hiệu (không bắt buộc)",
+      "placeholder": "ví dụ: Thân thiện và súc tích, chuyên gia nhưng gần gũi"
+    },
+    "hearAboutUs": {
+      "label": "Bạn biết đến chúng tôi bằng cách nào? (chọn một hoặc nhiều, hoặc tự thêm)",
+      "customPlaceholder": "Thêm nguồn khác…"
+    }
+  },
+  "options": {
+    "industry": {
+      "ecommerce": "Thương mại điện tử",
+      "retail": "Bán lẻ",
+      "beauty_cosmetics": "Làm đẹp & Mỹ phẩm",
+      "fashion_apparel": "Thời trang & May mặc",
+      "food_beverage": "Thực phẩm & Đồ uống",
+      "health_wellness": "Sức khỏe & Chăm sóc",
+      "education": "Giáo dục",
+      "saas_technology": "SaaS & Công nghệ",
+      "finance": "Tài chính",
+      "real_estate": "Bất động sản",
+      "travel_hospitality": "Du lịch & Lưu trú",
+      "entertainment_media": "Giải trí & Truyền thông",
+      "gaming_slots": "Gaming — Slots",
+      "gaming_livecasino": "Gaming — Live Casino",
+      "gaming_sportsbook": "Gaming — Cá cược thể thao",
+      "gaming_lottery": "Gaming — Xổ số",
+      "agency": "Agency",
+      "other": "Khác"
+    },
+    "marketingGoal": {
+      "sales_conversions": "Doanh số & chuyển đổi",
+      "lead_generation": "Thu thập khách hàng tiềm năng",
+      "brand_awareness": "Nhận diện thương hiệu",
+      "audience_growth": "Tăng trưởng người theo dõi",
+      "app_installs": "Lượt cài đặt ứng dụng",
+      "customer_retention": "Giữ chân khách hàng",
+      "website_traffic": "Lưu lượng truy cập website"
+    },
+    "channel": {
+      "tiktok": "TikTok",
+      "meta": "Meta (Facebook & Instagram)",
+      "google": "Google Ads",
+      "youtube": "YouTube",
+      "line": "LINE",
+      "email": "Email",
+      "seo_content": "SEO & nội dung",
+      "influencer": "Influencer",
+      "offline": "Offline",
+      "not_running_yet": "Chưa chạy quảng cáo"
+    },
+    "hearAboutUs": {
+      "search_engine": "Công cụ tìm kiếm",
+      "social_media": "Mạng xã hội",
+      "friend_colleague": "Bạn bè hoặc đồng nghiệp",
+      "online_ad": "Quảng cáo trực tuyến",
+      "event_webinar": "Sự kiện hoặc webinar",
+      "blog_article": "Blog hoặc bài viết",
+      "other": "Khác"
+    }
+  },
+  "actions": {
+    "back": "Quay lại",
+    "next": "Tiếp tục",
+    "submit": "Hoàn tất",
+    "submitting": "Đang lưu…",
+    "add": "Thêm"
+  },
+  "errors": {
+    "validation": "Vui lòng điền các trường bắt buộc và thử lại.",
+    "submitFailed": "Không thể lưu câu trả lời của bạn. Vui lòng thử lại."
+  }
+}

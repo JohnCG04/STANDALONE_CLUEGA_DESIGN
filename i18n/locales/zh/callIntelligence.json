@@ -1,0 +1,603 @@
+{
+  "callIntelligence": {
+    "hero": {
+      "badge": "AI 廣告代理人",
+      "headline": "用簡單的指令，完成複雜的多平台廣告投放。",
+      "description": "告別繁瑣的投放流程。只需對 Cluega AI 說出您的投放關鍵詞，即可自動為您跨平台（TikTok、Meta、Google）建立廣告。從推薦廣告帳號、受眾定向到預算配置，輕鬆搞定。",
+      "primaryCta": "立即使用",
+      "secondaryCta": "聯繫我們",
+      "emailLabel": "您的電子郵件地址",
+      "emailPlaceholder": "您的電子郵件地址",
+      "demo": {
+        "ariaLabel": "Cluega AI 廣告帳號推薦動畫",
+        "userCommand": "嗨，我想投 TikTok 私信廣告來獲取客戶線索。",
+        "initialResponse": "在開始投放前，需要先確認使用哪些廣告帳號。您希望由我來建議帳號，還是從完整列表自行挑選？",
+        "suggestButton": "建議廣告帳號",
+        "chooseFromListButton": "從賬號列表選擇",
+        "scanResult": "已掃描您名下廣告帳號，以下為過去 7 天有實際消耗的帳號（已預先勾選），請確認：",
+        "idLabel": "ID",
+        "confirmButton": "確認選擇（2）"
+      }
+    },
+    "insights": {
+      "titleMain": "一句口語指令，釋放無限流量。",
+      "titleMuted": "跨平台的每一個投放細節與數據變更，都有跡可循。",
+      "chapters": {
+        "focus": {
+          "title": "快速剖析黃金受眾",
+          "description": "進入受眾聚焦模式，AI 自動辨識黃金受眾，拒絕浪費預算金。"
+        },
+        "action-plan": {
+          "title": "跨平台一鍵投放",
+          "description": "全通路同步投放，一秒開啟高效行銷新時代。"
+        },
+        "global-transcript": {
+          "title": "多國語系素材一鍵本地化",
+          "description": "一鍵生成多語系 Hook 廣告文案，自動適配跨國市場投放（支持 100+ 語言）。"
+        },
+        "account-dashboard": {
+          "title": "一鍵知道帳號全況",
+          "description": "登入 Cluega，核心廣告指標趨勢一目了然。同時列出待辦問題，不給空泛的優化建議，而是附帶數據支持的具體指令，讓您點擊即執行。",
+          "visual": {
+            "headerTitle": "帳號列表",
+            "metrics": {
+              "cost": {
+                "label": "Cost",
+                "value": "$15,632",
+                "delta": "+18%",
+                "caption": "總花費與增幅"
+              },
+              "roas": {
+                "label": "ROAS",
+                "value": "2.35x",
+                "delta": "-12%",
+                "caption": "回報率與達標率"
+              },
+              "conversions": {
+                "label": "Conversions",
+                "value": "650",
+                "delta": "+5%",
+                "caption": "轉換數與轉換率"
+              }
+            },
+            "chart": {
+              "startDate": "Apr 22",
+              "endDate": "May 22"
+            },
+            "issues": {
+              "title": "Top Issues to Fix",
+              "analyze": "Analyze",
+              "action": "Review and Apply",
+              "items": {
+                "materialFatigue": "保溫杯廣告素材疲勞，CTR 連續 5 天下滑...",
+                "budgetImbalance": "Advantage+ 購物廣告組合預算分配不平衡...",
+                "landingPage": "落地頁載入時間影響行動端轉換..."
+              }
+            }
+          }
+        }
+      }
+    },
+    "triptych": {
+      "header": {
+        "title": "從一句指令到高效營收，全在 Cluega 輕鬆搞定。",
+        "description": "搜尋、調整、精準優化，讓 AI 幫你搞定每一個廣告組。"
+      },
+      "cards": {
+        "preciseTargeting": {
+          "title": "精準定向",
+          "description": "Cluega AI 完美解讀口語對話，自動將您的想法轉換成各平台最精準的受眾定位與預算配置。"
+        },
+        "crossPlatform": {
+          "title": "跨平台對接零阻礙",
+          "description": "告別破碎零散的多後台！Cluega 自動打通所有渠道，一站式管理所有計畫與審核狀態。"
+        },
+        "intuitiveEdits": {
+          "title": "直觀修改，秒級同步",
+          "description": "這不只是數據看板。廣告開關、預算調整直接在一體化表格中完成修改，實時同步到各大媒體。"
+        }
+      }
+    },
+    "integration": {
+      "title": "即時同步，零阻礙上手。",
+      "description": "Cluega 能直接連接您的 Meta Ads, TikTok Ads 與 Google Ads 官方行銷帳戶。"
+    },
+    "templates": {
+      "header": {
+        "title": "多種投放方式。",
+        "description": "精準匹配最適合您產品的增長路徑。"
+      },
+      "tabsLabel": "投放方式",
+      "more": "更多→",
+      "advantagesLabel": "Cluega 投放優勢清單：",
+      "cardDescription": "透過 Cluega AI 自動完成配置、過審輔助與投放節奏管理。",
+      "tabs": {
+        "productPromotion": {
+          "label": "商品推廣",
+          "title": "商品推廣",
+          "advantages": [
+            "一鍵跨平台投放",
+            "智能過審輔助",
+            "數據達標，AI 全自動接管"
+          ]
+        },
+        "appPromotion": {
+          "label": "應用推廣",
+          "title": "應用推廣",
+          "advantages": [
+            "整合型一鍵拉新",
+            "深層付費過審優化",
+            "事件與價值雙向託管"
+          ]
+        },
+        "leadCollection": {
+          "label": "線索收集",
+          "title": "線索收集",
+          "advantages": [
+            "私信廣告",
+            "表單廣告"
+          ]
+        }
+      }
+    },
+    "allInOne": {
+      "header": {
+        "titleLead": "AI 時代的廣告大腦，",
+        "titleRest": "全生命週期追蹤與自動化決策。"
+      },
+      "connect": {
+        "title": "Account Intelligence，授權即啟動",
+        "description": "每當你連接廣告帳號，Cluega 就會在背景自動分析完整歷史——從轉化量、成本趨勢到素材表現與受眾飽和度。無需任何繁瑣設定，授權完畢，深度分析即刻運轉。",
+        "linkLabel": "+ 鏈接",
+        "tiles": {
+          "tiktok": {
+            "name": "TikTok Ads",
+            "description": "投放並追蹤 TikTok 廣告成效"
+          },
+          "meta": {
+            "name": "Meta",
+            "description": "管理 Facebook 與 Instagram 廣告"
+          },
+          "google": {
+            "name": "Google Ads",
+            "description": "Google 搜尋、聯播網廣告投放"
+          }
+        }
+      },
+      "accounts": {
+        "title": "Ad Accounts Overview",
+        "rows": {
+          "tiktok": {
+            "name": "TikTok_TW_Ecom_Standard_01",
+            "stage": "M0 Setup"
+          },
+          "meta": {
+            "name": "Meta_HK_LeadGen_Video_Testing",
+            "stage": "M1 Cold Start"
+          },
+          "instagram": {
+            "name": "IG_Global_Retargeting_Optimized",
+            "stage": "M3 Optimization"
+          },
+          "google": {
+            "name": "Google_HQ_Flagship_Flywheel_Main",
+            "stage": "M5 Flywheel"
+          }
+        }
+      },
+      "maturity": {
+        "title": "Account Maturity Stages（M0–M5），精準掌握帳號週期",
+        "description": "不是所有帳號的運營策略都一樣。一個剛起跑的帳號和一個跑了兩年的帳號，需要完全不同的策略。Cluega 將帳號自動歸類為 M0–M5 六大成熟度階段（從冷啟動到飛輪期），並在各階段過濾雜訊，只為你分析真正關鍵的核心指標。"
+      },
+      "grading": {
+        "title": "Ad Set Grading（S / A / B / C / D），秒知哪個廣告組值得押注",
+        "description": "Cluega 綜合評估「數據可信度」與「表現動能」兩大維度，為每個廣告組精準打分。從 S 級（潛力明星，一鍵加預算）到 D 級（停投候選），讓你把錢花在刀口上。",
+        "rows": {
+          "lookalikePurchase": {
+            "name": "AdSet_Lookalike_Purchase_1%",
+            "platform": "TikTok Ads",
+            "date": "May 22"
+          },
+          "broadInterest": {
+            "name": "AdSet_Broad_Interest_Fashion",
+            "platform": "Meta Ads",
+            "date": "May 22"
+          },
+          "retargeting": {
+            "name": "AdSet_Retargeting_VV_30D",
+            "platform": "Google Ads",
+            "date": "May 22"
+          },
+          "sportswear": {
+            "name": "AdSet_Interests_Sportswear",
+            "platform": "Instagram Ads",
+            "date": "May 22"
+          }
+        }
+      },
+      "features": {
+        "mcpReady": {
+          "title": "AI 托管投放決策",
+          "description": "Cluega 是為 AI Agent 設計的廣告平台，將廣告分析秒變執行指令。開啟託管免二次推理，即刻精準執行。"
+        },
+        "burstDetection": {
+          "title": "新帳號爆量絕不錯過",
+          "description": "新帳號 24 小時內若爆量轉化，Cluega 即刻啟動 72 小時觀察模式：鎖定預算避免誤判並持續監測，一旦達標立即升格為『潛力明星』並主動通知。"
+        },
+        "fatigueIntelligence": {
+          "title": "老帳號衰退提前預警",
+          "description": "Cluega 每日重新計算廣告組的動能分數、持續追蹤衰退信號。一旦評級降至 C 級（衰退警告），系統隨即主動診斷病因並給出具體優化方向。"
+        },
+        "alwaysCurrent": {
+          "title": "每天自動更新",
+          "description": "廣告帳號的狀態每天都在變。Cluega 每天凌晨重新計算所有帳號的分級，確保你的 AI 或優化師在做投放決策時，手握的永遠是當下的最新動態。"
+        }
+      }
+    },
+    "finalCta": {
+      "heading": "告別多平台繁瑣配置，用一句指令驅動高效投放。",
+      "demo": "預約 Demo",
+      "start": "免費開始使用"
+    },
+    "management": {
+      "header": {
+        "title": "管理不費吹灰之力。",
+        "description": "廣告運行後的每處細節，盡在您的掌控中。"
+      },
+      "cards": {
+        "planMonitoring": {
+          "title": "AD計劃實時監控",
+          "description": "為跨平台託管打造的全局視角。所有計劃的即時狀態與過審進度一目了然，無需切換平台查看。"
+        },
+        "accountDashboard": {
+          "title": "媒體代理商的即時監控中心",
+          "description": "管理多帳號、大預算，Cluega 每小時更新所有帳號的廣告狀態，AI 同步產出建議。問題出現前就能看到，不等隔天早上的日報。"
+        },
+        "manualAdjustments": {
+          "title": "廣告過審免死盯，部署 Agent 解放雙手",
+          "description": "廣告被拒是投手日常。Cluega 官方預設上百個託管任務模板，覆蓋主流過審問題場景。觸發時直接推送到 Lark / Line，手機上確認即可，不需要盯後台。"
+        },
+        "autoDiagnosis": {
+          "title": "人機協作的投放指揮室",
+          "description": "將 AI 行為、團隊操作與媒體數據整合於同一時間軸。無論是 GPT 調整預算、Claude 生成優化建議，還是夥伴手動出價，所有記錄皆完整追蹤，任何人接手都能秒知全局。",
+          "visual": {
+            "headerTitle": "Cluega 托管記錄",
+            "entries": {
+              "budgetPlan": {
+                "action": "做了廣告預算規劃",
+                "text": "依照近 7 日 ROAS 表現，建議將 Meta 預算下調 12%、Google 上調 18%。"
+              },
+              "optimization": {
+                "action": "生成優化建議",
+                "text": "針對 3 個低效廣告組，建議暫停並重新分配預算至高 ROAS 廣告組。"
+              },
+              "manualBid": {
+                "action": "手動調整出價策略",
+                "text": "將「春季促銷-轉化」廣告組的單次轉化出價從 $8 上調至 $12。"
+              }
+            }
+          }
+        }
+      },
+      "quote": "透過單一整合介面，我不僅能隨時掌握各平台的廣告進度，還能直接手動調整，這讓投放效率提升了不止十倍！",
+      "quoteAuthor": "陳思穎",
+      "quoteTitle": "數位行銷副總裁"
+    },
+    "quote": {
+      "title": "廣告投放流程證言",
+      "content": "Cluega AI 完全顛覆了我們的投放流程。以前我們每天要在三個廣告後台手動調價、換素材，現在交給 AI 自動優化，省下了我們 80% 的工作時間！",
+      "headline": "林雅婷",
+      "description": "效能行銷總監"
+    },
+    "visuals": {
+      "adPlanTable": {
+        "ariaLabel": "AD 計劃表預覽",
+        "title": "我的 AD 計劃",
+        "createPlan": "新建計劃",
+        "view": "查看",
+        "headers": {
+          "name": "計劃名稱",
+          "budget": "預算",
+          "period": "投放時間",
+          "status": "過審狀態",
+          "action": "操作"
+        },
+        "rows": {
+          "springSummer": {
+            "name": "EcoSip 保溫杯 — 春夏推薦",
+            "budget": "$180/日",
+            "period": "2026-04-17 ~ 2026-05-31",
+            "status": "投放中"
+          },
+          "lookalike": {
+            "name": "EcoSip 保溫杯 — Lookalike 3% 測試",
+            "budget": "$80/日",
+            "period": "2026-05-15 ~ 2026-05-29",
+            "status": "審核中"
+          },
+          "mothersDay": {
+            "name": "EcoSip 保溫杯 — 母親節限時折扣",
+            "budget": "$120/日",
+            "period": "2026-05-05 ~ 2026-05-12",
+            "status": "已結束"
+          }
+        }
+      },
+      "adPlanDetailCard": {
+        "ariaLabel": "AD 計劃詳情預覽",
+        "title": "我的 AD 計劃",
+        "tabDetails": "詳情",
+        "fields": {
+          "planName": "計劃名稱",
+          "budget": "預算",
+          "period": "投放時間",
+          "status": "過審狀態"
+        },
+        "sample": {
+          "planName": "EcoSip 保溫杯 — 春夏推廣",
+          "budget": "$180/日",
+          "period": "2026-04-17 ~ 2026-05-31",
+          "status": "投放中"
+        }
+      },
+      "audiencePie": {
+        "slices": {
+          "age18_24": "18–24 歲",
+          "age25_34": "25–34 歲",
+          "age35_44": "35–44 歲",
+          "age45plus": "45 歲以上"
+        }
+      },
+      "transcript": {
+        "tabLabel": "Cluega AI",
+        "messages": {
+          "user": {
+            "sender": "Audrey",
+            "content": "我的產品是嬰兒奶瓶"
+          },
+          "ai": {
+            "sender": "Cluega AI",
+            "content": "根據您的產品，系統推薦您的受眾為：女性 25-38，預算：$100/日"
+          }
+        }
+      },
+      "adsTable": {
+        "ariaLabel": "廣告開關表格預覽",
+        "headers": {
+          "toggle": "開/關",
+          "name": "名稱",
+          "campaignBudget": "廣告活動預算"
+        },
+        "statuses": {
+          "enabled": "已啟用",
+          "paused": "已暫停"
+        },
+        "rows": {
+          "row1": {
+            "name": "0506-TH-付費目標...",
+            "budget": "25 USD"
+          },
+          "row2": {
+            "name": "0421-TH-付費目標...",
+            "budget": "47 USD"
+          },
+          "row3": {
+            "name": "0424-TH-付費目標...",
+            "budget": "30 USD"
+          },
+          "row4": {
+            "name": "0421-TH-付費目標...",
+            "budget": "30 USD"
+          }
+        }
+      },
+      "accountDashboard": {
+        "seriesTitle": "EcoSip 雙層真空保溫杯 — 春夏推薦 · 產品 SKU: ECO-TM-500ML · 目標市場: 英國",
+        "selector": {
+          "emptyTitle": "未選擇帳號",
+          "emptySubtitle": "0 個平台",
+          "selectAll": "全選"
+        },
+        "metrics": {
+          "spend": "花費",
+          "roas": "投資報酬率"
+        },
+        "chart": {
+          "cost": "COST",
+          "roas": "ROAS"
+        },
+        "table": {
+          "headers": {
+            "channel": "頻道",
+            "adSpend": "廣告支出",
+            "roas": "ROAS"
+          }
+        },
+        "channels": {
+          "meta": "Meta Ads",
+          "tiktok": "TikTok Ads"
+        }
+      },
+      "aiDiagnosisRadar": {
+        "ariaLabel": "AI 診斷雷達預覽",
+        "diagnosisLine1": "診斷出 Meta Ads 保溫杯",
+        "diagnosisLine2": "廣告素材疲勞，頻次達",
+        "diagnosisLine3": "4.8 導致 CPM 上升。",
+        "leftAction": "暫停疲勞素材組",
+        "rightAction": "上線兩支新角度短影音"
+      },
+      "promoCards": {
+        "product": {
+          "multiPlatform": {
+            "title": "一鍵跨平台投放",
+            "body": "打通 TikTok Shop，Amazon 與 Shopify 等。一行指令，自動將 ECO-TM-500ML 商品素材與規格同步生成多平台廣告，演算法接管出價。",
+            "footerLabel": "📊 EcoSip 數據展示",
+            "metrics": {
+              "budget": {
+                "label": "預算:",
+                "value": "$180/日"
+              },
+              "roas": {
+                "label": "ROAS:",
+                "value": "4.21x"
+              },
+              "gmv": {
+                "label": "GMV:",
+                "value": "$12,480"
+              }
+            }
+          },
+          "reviewAssist": {
+            "title": "智能過審輔助",
+            "body": "AI 自動預檢商品主圖與詳情頁合規性，規避電商拒登高發詞，平均過審時間縮短 60%，進度快速放行。",
+            "footerLabel": "📊 EcoSip 數據展示",
+            "metrics": {
+              "passRate": {
+                "label": "預審過標率:",
+                "value": "98.4%"
+              }
+            }
+          },
+          "budgetSchedule": {
+            "title": "數據達標，AI 全自動接管",
+            "body": "帳號數據達到你設定的目標後，開啟託管模式——Cluega 接管廣告決策。加預算、暫停廣告組、輪替素材，AI 直接執行。你設定邊界，AI 在邊界內自主運作。",
+            "footerLabel": "📊 EcoSip 數據展示",
+            "metrics": {
+              "conversions": {
+                "label": "轉換次數:",
+                "value": "1,284 次"
+              },
+              "cpa": {
+                "label": "CPA:",
+                "value": "$9.72"
+              }
+            }
+          }
+        },
+        "app": {
+          "unifiedAcquisition": {
+            "title": "整合型一鍵拉新",
+            "body": "支援 App 拉新與召回。一鍵同步配置下載與 Deep Linking。",
+            "footerLabel": "📊 本地數據",
+            "metrics": {
+              "downloads": {
+                "label": "累積下載數:",
+                "value": "8,432"
+              },
+              "installCost": {
+                "label": "單次安裝成本:",
+                "value": "$1.20"
+              },
+              "ctr": {
+                "label": "CTR:",
+                "value": "3.15%"
+              }
+            }
+          },
+          "reviewOptimization": {
+            "title": "過審優化",
+            "body": "預檢 Deep Linking 合規路徑，防止應用程式在 App Store / Google Play 政策變更時被平台下架拒登。",
+            "footerLabel": "📊 本地數據",
+            "metrics": {
+              "complianceRate": {
+                "label": "合規審核通過率:",
+                "value": "98%"
+              }
+            }
+          },
+          "eventValueCustody": {
+            "title": "事件與價值雙向託管",
+            "body": "AEO（事件優化）/ VO（價值優化）雙向託管，讓演算法直接抓取高額儲值、高權重訂閱的高價值鯨魚用戶。",
+            "footerLabel": "📊 本地數據",
+            "metrics": {
+              "deepPayments": {
+                "label": "深層付費數:",
+                "value": "342 次"
+              },
+              "roas": {
+                "label": "ROAS:",
+                "value": "5.12x"
+              },
+              "aov": {
+                "label": "客單價:",
+                "value": "$85.00"
+              }
+            }
+          }
+        },
+        "lead": {
+          "dmAds": {
+            "title": "私信廣告",
+            "body": "即時建立高信任感的一對一互動。無論是透過平台內 DM 對話框或外跳至 WhatsApp 等通訊工具，銷售人員都能提供即時、有溫度的諮詢，靈活消除客戶的購買疑慮並提供客製化方案，能有效提高商品的轉化率，更能將客戶留存在通訊軟體中作為私域流量，便於未來長期的二次行銷。",
+            "footerLabel": "📊 本地數據",
+            "metrics": {
+              "conversations": {
+                "label": "對話發起數:",
+                "value": "1,342 次"
+              },
+              "conversationCost": {
+                "label": "單次對話成本:",
+                "value": "$0.89"
+              },
+              "spend": {
+                "label": "預算消耗:",
+                "value": "$1,194.38"
+              },
+              "replyRate": {
+                "label": "回覆率:",
+                "value": "98.5%"
+              }
+            }
+          },
+          "formAds": {
+            "title": "表單廣告",
+            "body": "極簡高效的轉化流程。用戶點擊後直接在 App 內彈出預填表單，免去跳轉網頁的流失率，且系統會自動帶入基本資訊、省去手動輸入的繁瑣步驟，能用低阻力、高效率吸引有意願的客戶留下聯絡方式，特別適合標準化產品或需要業務電話後續跟進的產業。",
+            "footerLabel": "📊 本地展示數據",
+            "metrics": {
+              "formSubmissions": {
+                "label": "表單收集數:",
+                "value": "142 個"
+              },
+              "leadCost": {
+                "label": "單條線索成本:",
+                "value": "$4.20"
+              },
+              "conversionRate": {
+                "label": "轉化率:",
+                "value": "12.4%"
+              },
+              "accuracyRate": {
+                "label": "線索資訊預估準確率:",
+                "value": "94.2%"
+              }
+            }
+          }
+        }
+      },
+      "cluegaLiteCard": {
+        "ariaLabel": "Cluega 1.2 Lite 跨平台投放對話預覽",
+        "appTitle": "Cluega 1.2 Lite",
+        "userCommand": "嗨，我想投 TikTok 私信廣告來獲取客戶線索。",
+        "initialResponse": "在開始投放前，需要先確認要使用哪些廣告帳號。\n\n您希望由我來建議帳號，還是從完整列表自行挑選？",
+        "userReply": "從帳號列表選擇",
+        "accountListIntro": "📋 以下為您名下全部廣告帳號，請勾選本次要使用的帳號：",
+        "idLabel": "ID",
+        "confirmButton": "確認選擇 (3)",
+        "accounts": {
+          "outdoorLisa": {
+            "name": "OutdoorLisa Official",
+            "id": "7412933288821"
+          },
+          "kirkbadwaik": {
+            "name": "Kirkbadwaik Kirkbadwaik",
+            "id": "act_1379890938736"
+          },
+          "ecoSipUk": {
+            "name": "EcoSip UK Shopping",
+            "id": "924-836-1257"
+          }
+        }
+      }
+    }
+  }
+}

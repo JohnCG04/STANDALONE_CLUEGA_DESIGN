@@ -1,0 +1,28 @@
+{
+  "marketing": {
+    "review": {
+      "leadTable": {
+        "materialOpenVideoPreview": "Play this creative"
+      },
+      "tableGrid": {
+        "deleteCancel": "Cancel",
+        "entityAd": "ad",
+        "entityAdgroup": "ad group",
+        "entityCampaign": "campaign",
+        "entityMaterial": "creative",
+        "materialFallbackName": "Untitled creative",
+        "materialLoading": "Loading creatives…",
+        "statusToggleConfirmTitleDisable": "Turn this {entity} off?",
+        "statusToggleConfirmTitleEnable": "Turn this {entity} back on?",
+        "statusToggleConfirmDescriptionDisable": "{name} stops delivering as soon as you confirm. You can turn it back on afterwards, but the hours it misses are gone.",
+        "statusToggleConfirmDescriptionEnable": "{name} starts delivering again and will begin spending against its budget.",
+        "statusToggleConfirmDisable": "Turn off",
+        "statusToggleConfirmEnable": "Turn on",
+        "switchToggleAd": "Turn this ad on or off",
+        "switchToggleAdgroup": "Turn this ad group on or off",
+        "switchToggleCampaign": "Turn this campaign on or off",
+        "switchToggleMaterial": "Turn this creative on or off"
+      }
+    }
+  }
+}

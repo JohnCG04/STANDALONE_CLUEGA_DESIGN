@@ -1,0 +1,165 @@
+{
+  "title": "Cá nhân hóa không gian làm việc của bạn",
+  "subtitle": "Vài câu hỏi nhanh để trợ lý làm việc theo cách của bạn. Phần này chỉ dành cho bạn — đồng nghiệp sẽ tự thiết lập của họ.",
+  "progress": {
+    "label": "Tiến trình cá nhân hóa"
+  },
+  "steps": {
+    "you": {
+      "title": "Về bạn",
+      "description": "Cho chúng tôi biết bạn là ai để trợ lý hỗ trợ phù hợp hơn."
+    },
+    "goals": {
+      "title": "Mục tiêu của bạn",
+      "description": "Bạn muốn hoàn thành điều gì? Điều này giúp cá nhân hóa trợ lý của bạn."
+    }
+  },
+  "fields": {
+    "role": {
+      "label": "Vai trò của bạn",
+      "customPlaceholder": "Nhập vai trò của bạn"
+    },
+    "honorific": {
+      "label": "Cluega nên gọi bạn thế nào?",
+      "hint": "Chỉ là cách bạn muốn được gọi — đổi lại bất cứ lúc nào."
+    },
+    "preferredLanguage": {
+      "label": "Ngôn ngữ ưa thích"
+    },
+    "goals": {
+      "label": "Bạn muốn tập trung vào điều gì?"
+    },
+    "customInstructions": {
+      "label": "Có điều gì trợ lý nên luôn ghi nhớ không? (tùy chọn)",
+      "placeholder": "ví dụ: Trả lời ngắn gọn. Tôi chủ yếu chạy quảng cáo TikTok cho một thương hiệu mỹ phẩm."
+    }
+  },
+  "options": {
+    "role": {
+      "founder_owner": "Nhà sáng lập / Chủ sở hữu",
+      "marketing_manager": "Quản lý Marketing",
+      "performance_marketer": "Chuyên viên Performance Marketing",
+      "content_creator": "Nhà sáng tạo nội dung",
+      "designer": "Nhà thiết kế",
+      "data_analyst": "Chuyên viên phân tích dữ liệu",
+      "agency_account": "Agency / Account Manager",
+      "ecommerce_operator": "Vận hành thương mại điện tử",
+      "sales": "Kinh doanh",
+      "other": "Khác"
+    },
+    "honorific": {
+      "anh": "Anh",
+      "chi": "Chị",
+      "ban": "Bạn",
+      "name_only": "Chỉ gọi tên"
+    },
+    "goal": {
+      "launch_campaigns": "Khởi chạy chiến dịch",
+      "optimize_performance": "Tối ưu hiệu suất",
+      "create_content": "Sáng tạo nội dung",
+      "analyze_reporting": "Phân tích báo cáo",
+      "manage_audiences": "Quản lý tệp đối tượng",
+      "automate_workflows": "Tự động hóa quy trình",
+      "learn_platform": "Tìm hiểu nền tảng"
+    }
+  },
+  "actions": {
+    "back": "Quay lại",
+    "next": "Tiếp tục",
+    "submit": "Tiếp tục",
+    "add": "Thêm"
+  },
+  "errors": {
+    "validation": "Vui lòng chọn vai trò của bạn để tiếp tục.",
+    "submitFailed": "Đã xảy ra lỗi khi lưu câu trả lời. Vui lòng thử lại."
+  },
+  "finishing": {
+    "title": "Đang cá nhân hóa không gian làm việc của bạn",
+    "lines": [
+      "Điều chỉnh trợ lý theo cách bạn làm việc…",
+      "Đang nạp kỹ năng và công cụ của bạn…",
+      "Đang áp dụng tùy chọn của bạn…",
+      "Đang thiết lập các kênh của bạn…",
+      "Đang khởi động AI agent…",
+      "Sắp xong rồi…"
+    ]
+  },
+  "tour": {
+    "steps": {
+      "composer": {
+        "title": "Bắt đầu tại đây",
+        "body": "Nhập điều bạn cần — soạn quảng cáo, phân tích hiệu suất, hoặc hỏi bất cứ điều gì. Chọn mô hình và công cụ ngay tại khung soạn thảo."
+      },
+      "skills": {
+        "title": "Thêm kỹ năng",
+        "body": "Gắn kỹ năng để trợ lý có thêm chuyên môn cho một tác vụ. Kỹ năng chính thức của nhóm và kỹ năng bạn tải lên đều ở đây."
+      },
+      "sidebar": {
+        "title": "Cuộc trò chuyện của bạn",
+        "body": "Mọi cuộc trò chuyện được lưu tại đây. Quay lại công việc trước đó hoặc bắt đầu mới bất cứ lúc nào."
+      },
+      "nav-cluega-ai": {
+        "title": "Cluega AI",
+        "body": "Không gian chat — chính là nơi bạn đang đứng. Mọi cuộc trò chuyện đều được lưu, mở lại được từ thanh bên và chia sẻ được bằng liên kết chỉ đọc."
+      },
+      "nav-capabilities": {
+        "title": "Năng lực",
+        "body": "Kết nối các nền tảng để Cluega làm việc trên đó, và triển khai trợ lý vào các kênh chat của bạn. Hãy bắt đầu từ đây — phần lớn tính năng khác cần có tài khoản đã kết nối."
+      },
+      "nav-paid-ads": {
+        "title": "Quảng cáo trả phí",
+        "body": "Đọc các tài khoản quảng cáo đã kết nối và dựng cấu trúc chiến dịch. Account View cho biết đang chạy những gì; Create Plan biến một mục tiêu thành kế hoạch."
+      },
+      "nav-marketing-reports": {
+        "title": "Báo cáo marketing",
+        "body": "Bảng trực tiếp và báo cáo đã lưu trên mọi kênh đã kết nối. Bạn mô tả điều muốn biết, bảng sẽ được dựng quanh câu hỏi đó."
+      },
+      "nav-community": {
+        "title": "Cộng đồng",
+        "body": "Prompt, kỹ năng, mẫu agent và gói dịch vụ dùng lại được. Lấy thứ đã chạy tốt thay vì bắt đầu từ ô trống."
+      },
+      "nav-insights": {
+        "title": "Insights",
+        "body": "Thư viện market asset và creator để tham khảo và lấy ý tưởng trước khi bỏ ngân sách."
+      },
+      "nav-knowledge-base": {
+        "title": "Cơ sở tri thức",
+        "body": "Những sự thật về doanh nghiệp để Cluega dựa vào mà trả lời — bảng giá, chính sách, tên sản phẩm, quy tắc thương hiệu. Viết một lần, mọi câu trả lời sau đều dựa trên đó."
+      },
+      "nav-new-project": {
+        "title": "Dự án",
+        "body": "Dự án gom các tác vụ liên quan lại, mang theo hướng dẫn thường trực và công cụ kết nối riêng. Xoá dự án không hề xoá công việc bên trong."
+      },
+      "nav-settings": {
+        "title": "Cài đặt",
+        "body": "Tất cả những gì áp dụng cho toàn bộ công việc chứ không riêng một tác vụ: tài khoản, điểm sử dụng và thanh toán, quyền của team, connector, và tác vụ theo lịch."
+      },
+      "integrations": {
+        "title": "Kết nối nền tảng của bạn",
+        "body": "Đây là trang Cấp quyền ứng dụng. Kết nối Meta, Google Ads, TikTok và các nền tảng khác tại đây — tài khoản phải được kết nối thì Cluega mới đọc được dữ liệu hoặc thao tác trên đó. Bạn quay lại thêm bất cứ lúc nào."
+      },
+      "suggestion-ads": {
+        "title": "Chạy quảng cáo ngay từ khung chat",
+        "body": "Lối tắt này mở luồng quảng cáo trả phí mà không cần rời cuộc trò chuyện: chọn nền tảng và tài khoản, phần còn lại Cluega lo."
+      },
+      "account-view": {
+        "title": "Account View",
+        "body": "Toàn bộ những gì đang chạy trên các tài khoản quảng cáo đã kết nối, gom về một chỗ — chi tiêu, kết quả và các chỉ số đằng sau. Đây là nơi bạn biết thứ gì đang hiệu quả trước khi động vào nó."
+      },
+      "create-ad-plan": {
+        "title": "Tạo kế hoạch quảng cáo",
+        "body": "Mô tả mục tiêu, ngân sách và tệp đối tượng, Cluega sẽ soạn cấu trúc chiến dịch để bạn duyệt. Không có gì được đăng cho tới khi bạn đồng ý."
+      },
+      "create-ad-plan-platforms": {
+        "title": "Chọn nền tảng để khởi chạy",
+        "body": "Mỗi thẻ mở luồng tạo chiến dịch của nền tảng đó và cho biết bạn đã cấp quyền bao nhiêu tài khoản trên nền tảng ấy. Chọn một thẻ, Cluega sẽ dẫn bạn qua mục tiêu, creative và lịch chạy."
+      }
+    },
+    "actions": {
+      "next": "Tiếp",
+      "back": "Quay lại",
+      "last": "Đã hiểu",
+      "skip": "Bỏ qua hướng dẫn"
+    }
+  }
+}

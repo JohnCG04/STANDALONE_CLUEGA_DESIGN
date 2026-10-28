@@ -1,0 +1,262 @@
+{
+  "careers": {
+    "meta": {
+      "title": "Tuyển dụng / Cơ hội nghề nghiệp | Cluega",
+      "description": "Gia nhập Cluega và cùng xây dựng đội ngũ định hình thế hệ marketing AI tiếp theo. Khám phá các vị trí đang tuyển, phúc lợi và văn hóa đội ngũ trên khắp các khu vực."
+    },
+    "hero": {
+      "eyebrow": "Tuyển dụng / Cơ hội nghề nghiệp",
+      "title": "Chúng tôi tái định nghĩa tương lai của marketing dẫn dắt bởi AI",
+      "subtitle": "Gia nhập đội ngũ nòng cốt đang xây dựng nền tảng trí tuệ quảng cáo Outcome-as-a-Service đầu tiên trên thế giới.",
+      "cta": "Xem vị trí đang tuyển"
+    },
+    "mission": {
+      "eyebrow": "Sứ mệnh của chúng tôi",
+      "statement": "Xây dựng hệ điều hành marketing toàn trình, thuần AI, đưa thương hiệu từ \"trả tiền cho công cụ\" sang \"trả tiền cho kết quả\".",
+      "body1": "Cluega AI là nền tảng ra quyết định quảng cáo hướng kết quả đầu tiên trên thế giới (AdOS). Chúng tôi tiên phong đưa Model Context Protocol (MCP) vào marketing, biến insight, sáng tạo, phân phối và attribution từ thao tác thủ công rườm rà thành những quyết định tự động trong tích tắc.",
+      "body2": "Lấy Thành phố Hồ Chí Minh, Việt Nam làm nền tảng R&D, chúng tôi xây dựng các đội ngũ kinh doanh trải khắp Đông Nam Á, Đại Trung Hoa, châu Âu và Bắc Mỹ để kiến tạo hạ tầng marketing toàn cầu thế hệ tiếp theo.",
+      "stats": {
+        "gmv": { "value": "$800M+", "label": "Mục tiêu GMV quảng cáo quản lý mỗi năm" },
+        "engineers": { "value": "300+", "label": "Kỹ sư tại trung tâm công nghệ TP.HCM" },
+        "regions": { "value": "4 châu lục", "label": "Khu vực kinh doanh phủ sóng toàn cầu" },
+        "experience": { "value": "14 năm", "label": "Kinh nghiệm digital marketing của đội ngũ nòng cốt" }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Phúc lợi của chúng tôi",
+      "items": {
+        "pay": { "name": "Lương cạnh tranh + cổ phần", "description": "Cơ cấu lương tương xứng với các công ty AI cùng giai đoạn trên toàn cầu; nhân viên giai đoạn đầu được hưởng cổ phần hấp dẫn, định lương theo mức chuẩn của từng thị trường." },
+        "globalVision": { "name": "Tầm nhìn toàn cầu & cơ hội công tác", "description": "Tham gia các triển lãm hàng đầu thế giới như GDC, Gamescom, Affiliate World; làm việc trực tiếp với các thương hiệu và đại lý truyền thông cốt lõi ở Âu - Mỹ - APAC." },
+        "growth": { "name": "Lộ trình phát triển tốc độ cao", "description": "Thăng tiến theo kết quả chứ không theo thâm niên. Tại công ty top đầu trong lĩnh vực AdOS, tầm ảnh hưởng của bạn chính là tốc độ phát triển của bạn." },
+        "aiTech": { "name": "Môi trường AI tiên phong", "description": "Kiến trúc giao thức MCP toàn công ty đưa bạn tiếp cận sớm nhất các ứng dụng LLM tiên tiến nhất trong marketing: tạo nội dung, tự động hóa phân phối, mô hình hóa attribution." },
+        "localCare": { "name": "Chăm sóc nhân viên bản địa hóa", "description": "Phúc lợi khác biệt theo địa điểm: văn phòng Grade A + phụ cấp ăn tại TP.HCM; làm việc từ xa linh hoạt + phụ cấp sức khỏe tại Âu - Mỹ." },
+        "learning": { "name": "Văn hóa tổ chức học tập", "description": "Chia sẻ công nghệ xuyên quốc gia và đào tạo công cụ AI định kỳ; các đổi mới cốt lõi như mô hình attribution Dogclaw được ươm mầm nội bộ — khuyến khích mỗi người trở thành người giải quyết vấn đề thực thụ." }
+      }
+    },
+    "roles": {
+      "title": "Chúng tôi đang tìm kiếm những người cùng tần số trên toàn cầu",
+      "subtitle": "Gia nhập Cluega AI để trở thành người định nghĩa, không phải người đi theo, trong giai đoạn cửa sổ vàng của lĩnh vực AdOS.",
+      "tableNote": "Chú thích bảng: Cơ sở R&D = chủ yếu tại TP.HCM, Việt Nam + một ít chi nhánh địa phương; kinh doanh toàn cầu / chi nhánh địa phương = bản địa hóa kinh doanh theo từng khu vực.",
+      "empty": "Không có vị trí nào khớp bộ lọc. Hãy thử điều chỉnh lại.",
+      "allDepartments": "Tất cả phòng ban",
+      "allLocations": "Tất cả khu vực",
+      "columns": {
+        "position": "Vị trí",
+        "rdBase": "Cơ sở R&D",
+        "globalLocal": "Kinh doanh toàn cầu / Chi nhánh bản địa"
+      },
+      "groups": {
+        "aiProduct": {
+          "title": "AI Product & Chiến lược",
+          "items": {
+            "aiPm": {
+              "title": "AI Product Manager — Nền tảng AdOS",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Singapore · Hồng Kông · New York (từ xa)"
+            },
+            "marketingStrategist": {
+              "title": "Chiến lược gia AI Marketing",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Thượng Hải · Kuala Lumpur · London (từ xa)"
+            },
+            "promptEngineer": {
+              "title": "Prompt Engineer / Kỹ sư ứng dụng LLM",
+              "rdBase": "Hồ Chí Minh (chính) + số lượng ít ở các chi nhánh",
+              "globalLocal": "Có thể làm từ xa hoàn toàn"
+            }
+          }
+        },
+        "engineering": {
+          "title": "Kỹ thuật",
+          "items": {
+            "backend": {
+              "title": "Kỹ sư Backend — Hệ thống AI Agent",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "London · New York, R&D bản địa quy mô nhỏ"
+            },
+            "fullstack": {
+              "title": "Kỹ sư Fullstack — Nền tảng phân phối quảng cáo",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Thượng Hải · Đài Bắc, R&D bản địa quy mô nhỏ"
+            },
+            "dataEngineer": {
+              "title": "Kỹ sư dữ liệu — Nền tảng dữ liệu người dùng CDP",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Singapore, R&D bản địa quy mô nhỏ"
+            },
+            "mcpEngineer": {
+              "title": "Kỹ sư tích hợp giao thức MCP",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Có thể bố trí ở mọi chi nhánh"
+            },
+            "complianceEngineer": {
+              "title": "Kỹ sư tuân thủ — GDPR / An toàn dữ liệu",
+              "rdBase": "Hồ Chí Minh (phối hợp)",
+              "globalLocal": "London (bắt buộc) · New York, R&D bản địa"
+            }
+          }
+        },
+        "dataScience": {
+          "title": "Khoa học dữ liệu & Attribution",
+          "items": {
+            "attributionScientist": {
+              "title": "Nhà khoa học Attribution quảng cáo — Mô hình Dogclaw",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Hồng Kông · New York, phối hợp từ xa"
+            },
+            "mlEngineer": {
+              "title": "Kỹ sư Machine Learning — Mô hình marketing",
+              "rdBase": "Hồ Chí Minh (chính) + Toronto (số lượng ít)",
+              "globalLocal": "Có thể làm từ xa hoàn toàn"
+            },
+            "biAnalyst": {
+              "title": "Chuyên viên phân tích Business Intelligence",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Thượng Hải · Đài Bắc · Kuala Lumpur"
+            }
+          }
+        },
+        "business": {
+          "title": "Phát triển kinh doanh toàn cầu",
+          "items": {
+            "salesDirector": {
+              "title": "Giám đốc kinh doanh toàn cầu — Thị trường Âu Mỹ",
+              "rdBase": "",
+              "globalLocal": "New York · London (bản địa)"
+            },
+            "accountManager": {
+              "title": "Key Account Manager — Đại lý truyền thông",
+              "rdBase": "",
+              "globalLocal": "Kuala Lumpur · Thượng Hải · London (bản địa)"
+            },
+            "bdManager": {
+              "title": "BD Manager — Thương hiệu trực tiếp APAC",
+              "rdBase": "",
+              "globalLocal": "Singapore · Hồng Kông · Đài Bắc (bản địa)"
+            },
+            "partnerManager": {
+              "title": "Partner Manager — TikTok MMT",
+              "rdBase": "",
+              "globalLocal": "Hồ Chí Minh · Kuala Lumpur · Thượng Hải (bản địa)"
+            },
+            "greaterChinaSales": {
+              "title": "Sales Manager khu vực Đại Trung Hoa",
+              "rdBase": "",
+              "globalLocal": "Thượng Hải · Hồng Kông (bản địa)"
+            },
+            "naCustomerSuccess": {
+              "title": "Customer Success Manager khu vực Bắc Mỹ",
+              "rdBase": "",
+              "globalLocal": "New York · Toronto (bản địa)"
+            }
+          }
+        },
+        "creative": {
+          "title": "Sáng tạo & Thiết kế",
+          "items": {
+            "creativeStrategist": {
+              "title": "Chiến lược gia sáng tạo AI (AI Creative Strategist)",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Đài Bắc · London, từ xa"
+            },
+            "uxDesigner": {
+              "title": "Nhà thiết kế Brand & UX (Brand & UX Designer)",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Có thể làm từ xa ở mọi nơi"
+            }
+          }
+        },
+        "marketing": {
+          "title": "Marketing & Tăng trưởng",
+          "items": {
+            "cmo": {
+              "title": "Trưởng bộ phận Marketing toàn cầu / CMO",
+              "rdBase": "Hồ Chí Minh hoặc từ xa",
+              "globalLocal": "Singapore · New York (ưu tiên)"
+            },
+            "overseasMarketing": {
+              "title": "Overseas Marketing Manager — Vận hành KOL/KOC",
+              "rdBase": "Hồ Chí Minh (chính)",
+              "globalLocal": "Thượng Hải · Đài Bắc, từ xa"
+            },
+            "contentSeo": {
+              "title": "Content Marketing & SEO thị trường Âu Mỹ",
+              "rdBase": "",
+              "globalLocal": "London · New York, bản địa"
+            },
+            "greaterChinaContent": {
+              "title": "Content Marketing khu vực Đại Trung Hoa",
+              "rdBase": "",
+              "globalLocal": "Thượng Hải · Đài Bắc, bản địa"
+            }
+          }
+        }
+      },
+      "callout": {
+        "title": "Không tìm thấy vị trí phù hợp?",
+        "description": "Dù bạn ở đâu, chỉ cần bạn quan tâm đến kết quả, yêu công nghệ và có tầm nhìn toàn cầu — chúng tôi đều muốn gặp bạn. Hãy chủ động cho chúng tôi biết bạn là ai.",
+        "cta": "Chủ động gửi hồ sơ"
+      }
+    },
+    "places": {
+      "hcmc": "TP. Hồ Chí Minh",
+      "kl": "Kuala Lumpur",
+      "sg": "Singapore",
+      "sh": "Thượng Hải",
+      "hk": "Hồng Kông",
+      "tw": "Đài Bắc",
+      "london": "London",
+      "berlin": "Berlin",
+      "nyc": "New York",
+      "la": "Los Angeles",
+      "toronto": "Toronto",
+      "remote": "Từ xa"
+    },
+    "global": {
+      "title": "Gốc rễ ở châu Á, sân khấu là toàn cầu",
+      "subtitle": "Dù bạn ở TP.HCM, Thượng Hải, London hay New York, bạn đều làm việc dưới cùng một sứ mệnh — dùng AI tái định nghĩa cách các thương hiệu toàn cầu ra quyết định quảng cáo.",
+      "stats": {
+        "engineers": { "value": "300+", "label": "Trung tâm công nghệ nòng cốt tại TP.HCM" },
+        "offices": { "value": "4 châu lục, 9 thành phố", "label": "Mạng lưới văn phòng toàn cầu" },
+        "customers": { "value": "100+", "label": "Thương hiệu lớn toàn cầu được phục vụ" },
+        "experience": { "value": "14 năm", "label": "Kinh nghiệm ngành của đội ngũ nòng cốt" }
+      },
+      "photosAlt": "Đội ngũ Cluega",
+      "locationsEyebrow": "Văn phòng của chúng tôi",
+      "locationsTitle": "Bám rễ châu Á, chiến lược toàn cầu",
+      "locationsSubtitle": "Việt Nam là trái tim R&D và thế giới là sân khấu thị trường của chúng tôi. Chúng tôi xây dựng đội ngũ bản địa trên 4 châu lục, đưa năng lực công nghệ AdOS vào từng thị trường quảng cáo cốt lõi.",
+      "estPrefix": "thành lập",
+      "locations": {
+        "hcmc": { "name": "TP. Hồ Chí Minh", "role": "Tổng hành dinh R&D toàn cầu · Sản phẩm · Kỹ thuật AI · Kiến trúc nền tảng", "headcount": "300+ kỹ sư nòng cốt" },
+        "kl": { "name": "Kuala Lumpur", "role": "Phát triển kinh doanh · Thành công khách hàng · R&D nội địa quy mô nhỏ (tuân thủ/tích hợp)", "headcount": "20–40 người" },
+        "sg": { "name": "Singapore", "role": "HQ khu vực · Đối tác khách hàng tài chính/doanh nghiệp · Pháp nhân đăng ký tuân thủ", "headcount": "10–20 người" },
+        "sh": { "name": "Thượng Hải / Hồng Kông", "role": "BD khách hàng thương hiệu Trung Quốc đại lục · Hợp tác agency truyền thông · R&D quy mô nhỏ (tích hợp nền tảng khu vực Trung Quốc)", "headcount": "20–40 người" },
+        "tw": { "name": "Đài Bắc", "role": "Công nghệ sáng tạo · Tiếp thị nội dung · Dịch vụ thương hiệu vươn ra toàn cầu", "headcount": "10–20 người" },
+        "london": { "name": "London", "role": "Tổng hành dinh khu vực châu Âu · BD agency truyền thông · R&D nội địa (tuân thủ GDPR)", "headcount": "20–30 người" },
+        "berlin": { "name": "Berlin", "role": "Phát triển khách hàng game/thương mại điện tử · Điểm sự kiện Gamescom", "headcount": "5–15 người" },
+        "nyc": { "name": "New York", "role": "Tổng hành dinh khu vực Bắc Mỹ · Thương hiệu lớn trực tiếp · Agency truyền thông · R&D nội địa", "headcount": "20–40 người" },
+        "la": { "name": "Los Angeles", "role": "Tổng hành dinh khu vực Bắc Mỹ · Thương hiệu lớn trực tiếp · Agency truyền thông · R&D nội địa", "headcount": "20–40 người" },
+        "toronto": { "name": "Toronto", "role": "Thị trường mở rộng Bắc Mỹ · Bổ sung nhân tài kỹ thuật", "headcount": "5–15 người" }
+      }
+    },
+    "values": {
+      "title": "Tại Cluega, chúng tôi hành động như thế này",
+      "subtitle": "Những giá trị cốt lõi dẫn dắt chúng tôi vượt qua ranh giới khu vực và thúc đẩy tăng trưởng toàn cầu.",
+      "items": {
+        "results": { "name": "Kết quả là tất cả", "description": "Chúng tôi không thu phí công cụ, chúng tôi để thương hiệu trả tiền cho kết quả. Mọi quyết định đều hướng tới tăng trưởng đo lường được, chứ không phải việc hoàn thành một quy trình — dù bạn làm việc ở thành phố nào." },
+        "speed": { "name": "Tốc độ là sức cạnh tranh", "description": "Quyết định tự động trong tích tắc từ insight đến phân phối là cam kết cốt lõi của chúng tôi. Trong lĩnh vực AdOS, người tiên phong định ra luật chơi — chúng tôi muốn đi trước một bước ở mọi thị trường." },
+        "globalLocal": { "name": "Tư duy toàn cầu, thực thi bản địa", "description": "Lấy Đông Nam Á làm nền tảng R&D, lấy Âu - Mỹ - APAC làm sân khấu thị trường. Hợp tác đa văn hóa là điều thường nhật — chúng tôi tin những câu trả lời tốt nhất đến từ góc nhìn đa dạng." }
+      }
+    },
+    "ecosystem": {
+      "title": "Đối tác hệ sinh thái của chúng tôi",
+      "subtitle": "Các kênh quảng cáo, dữ liệu thương mại, điểm chạm nhắn tin và mô hình AI tiên tiến được kết nối trong hệ điều hành tăng trưởng Cluega.",
+      "gridLabel": "Logo đối tác hệ sinh thái Cluega"
+    },
+    "cta": {
+      "title": "Sẵn sàng cùng chúng tôi xây dựng?",
+      "subtitle": "Khám phá các vị trí đang tuyển và tìm chỗ đứng của bạn.",
+      "button": "Xem vị trí đang tuyển"
+    }
+  }
+}

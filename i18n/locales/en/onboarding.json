@@ -1,0 +1,124 @@
+{
+  "title": "Welcome to Cluega",
+  "subtitle": "Tell us about your marketing so your AI assistant can tailor every answer to your business.",
+  "progress": {
+    "label": "Onboarding progress"
+  },
+  "steps": {
+    "company": {
+      "title": "About your business",
+      "description": "What's your company and which industry do you operate in?"
+    },
+    "goals": {
+      "title": "Your marketing",
+      "description": "What are you trying to achieve, and where do you run it?"
+    },
+    "audience": {
+      "title": "Audience & market",
+      "description": "Who are you trying to reach, and in which markets?"
+    },
+    "referral": {
+      "title": "One last thing",
+      "description": "How did you hear about Cluega?"
+    }
+  },
+  "fields": {
+    "companyName": {
+      "label": "Company name",
+      "placeholder": "e.g. Acme Beauty"
+    },
+    "brand": {
+      "label": "Brand name (optional)",
+      "placeholder": "e.g. Acme — the name the AI should speak as"
+    },
+    "industry": {
+      "label": "Industry (select one or more, or add your own)",
+      "customPlaceholder": "Add another industry…"
+    },
+    "marketingGoals": {
+      "label": "Primary marketing goals"
+    },
+    "channels": {
+      "label": "Channels you use"
+    },
+    "audience": {
+      "label": "Target audience",
+      "placeholder": "e.g. Women 18–34 interested in skincare, based in Southeast Asia"
+    },
+    "region": {
+      "label": "Primary market / region",
+      "placeholder": "e.g. Vietnam, Southeast Asia"
+    },
+    "tone": {
+      "label": "Brand voice / tone (optional)",
+      "placeholder": "e.g. Friendly and concise, expert but approachable"
+    },
+    "hearAboutUs": {
+      "label": "How did you hear about us? (select one or more, or add your own)",
+      "customPlaceholder": "Add another source…"
+    }
+  },
+  "options": {
+    "industry": {
+      "ecommerce": "E-commerce",
+      "retail": "Retail",
+      "beauty_cosmetics": "Beauty & Cosmetics",
+      "fashion_apparel": "Fashion & Apparel",
+      "food_beverage": "Food & Beverage",
+      "health_wellness": "Health & Wellness",
+      "education": "Education",
+      "saas_technology": "SaaS & Technology",
+      "finance": "Finance",
+      "real_estate": "Real Estate",
+      "travel_hospitality": "Travel & Hospitality",
+      "entertainment_media": "Entertainment & Media",
+      "gaming_slots": "Gaming — Slots",
+      "gaming_livecasino": "Gaming — Live Casino",
+      "gaming_sportsbook": "Gaming — Sportsbook",
+      "gaming_lottery": "Gaming — Lottery",
+      "agency": "Agency",
+      "other": "Other"
+    },
+    "marketingGoal": {
+      "sales_conversions": "Sales & conversions",
+      "lead_generation": "Lead generation",
+      "brand_awareness": "Brand awareness",
+      "audience_growth": "Audience growth",
+      "app_installs": "App installs",
+      "customer_retention": "Customer retention",
+      "website_traffic": "Website traffic"
+    },
+    "channel": {
+      "tiktok": "TikTok",
+      "meta": "Meta (Facebook & Instagram)",
+      "google": "Google Ads",
+      "youtube": "YouTube",
+      "line": "LINE",
+      "email": "Email",
+      "seo_content": "SEO & content",
+      "influencer": "Influencer",
+      "offline": "Offline",
+      "not_running_yet": "Not running ads yet"
+    },
+    "hearAboutUs": {
+      "search_engine": "Search engine",
+      "social_media": "Social media",
+      "friend_colleague": "Friend or colleague",
+      "online_ad": "Online ad",
+      "event_webinar": "Event or webinar",
+      "blog_article": "Blog or article",
+      "other": "Other"
+    }
+  },
+  "actions": {
+    "back": "Back",
+    "next": "Continue",
+    "submit": "Finish",
+    "submitting": "Saving…",
+    "add": "Add"
+  },
+  "errors": {
+    "validation": "Please fill in the required fields and try again.",
+    "submitFailed": "We couldn't save your answers. Please try again."
+  }
+}

@@ -1,0 +1,1902 @@
+{
+  "platformDevelopers": {
+    "common": {
+      "viewDocs": "預約 Demo",
+      "browseApps": "瀏覽器應用"
+    },
+    "hero": {
+      "eyebrow": "DogClaw · 瀏覽器連接器",
+      "title": "連上。授權。交給 AI。",
+      "description": "把 Cluega 的 AI 接上你已登入、已授權的瀏覽器，用你自己的環境與出口 IP 完成跨網頁的營銷洞察——模型、執行模式、瀏覽器環境，三個維度都你來選。"
+    },
+    "modules": {
+      "title": "一個任務，三個維度你決定。",
+      "description": "模型、模式、瀏覽器環境完全解耦，任意組合。",
+      "cards": {
+        "agent": "模型無關：Claude、GPT、Gemini，甚至你自架的本地模型，自由切換當「決策大腦」。新增模型不需重學介面。",
+        "tools": "DOM 模式（預設）讀結構化頁面文字，快又省 token；遇到 Canvas／圖片型／非標準 UI，一鍵切視覺模式——切換時清楚標示成本較高。",
+        "systems": "本地瀏覽器、遠端雲瀏覽器，或自帶代理，三選一。出口 IP 與代理全由你自備自管，Cluega 不提供 IP 池、不內建代理。",
+        "oauth": "競品定價監測、自有帳號成效洞察等預設模板，已預填建議的模型與模式，選模板即套用任務骨架。",
+        "clients": "依模型／模式／預估步數，送出前估算成本區間；跑完回報實際 token 用量、耗時與成本。"
+      },
+      "visualLabels": {
+        "localModel": "本地模型",
+        "localBrowser": "本地瀏覽器",
+        "remoteBrowser": "遠端雲瀏覽器",
+        "customProxyEnv": "自帶代理環境",
+        "templateMonitoring": "預設模板任務監測中"
+      }
+    },
+    "api": {
+      "title": "用你已經登入的那個瀏覽器。",
+      "description": "Cluega 沿用既有 session。裝一次、授權一次，不必每次重設。",
+      "intro": {
+        "title": "用你已經登入的那個瀏覽器。",
+        "descriptionPrefix": "DogClaw 沿用你瀏覽器",
+        "descriptionHighlight": "既有的登入 session 與本地環境",
+        "descriptionSuffix": "。裝一次擴充、授權一次,之後直接用——省去每次重新設定、重新登入的重複工。"
+      },
+      "quote": "以前每個競品監測腳本都要單獨維護;現在選個模型、選 DOM、套模板就跑,省掉一整層工程。",
+      "quoteLabel": "Lucas Miller",
+      "quoteCaption": "Cluega",
+      "cta": "查看安裝流程",
+      "cards": {
+        "rest": "一次安裝授權。下載 DogClaw Chrome 擴充 → 登入 Cluega → 授權此瀏覽器 → 連線測試，確認連線、出口 IP 與延遲。完成後工具列出現 DogClaw 圖標。",
+        "webhooks": "跨裝置發起。從手機或另一台裝置發起任務，由你授權、保持上線的桌面瀏覽器在背景執行。",
+        "oauth": "離線有備援。常用的瀏覽器離線時，主動提示你，可改用 Cluega 受管環境，或要求該裝置上線——不會靜默失敗。"
+      },
+      "installLog": {
+        "header": "下載 DogClaw 擴充 → 登入 Cluega",
+        "step1": "授權此瀏覽器環境... 成功",
+        "step2": "執行連線測試 (Connection Test)...",
+        "status": "連線狀態: 已確認 (Connected)",
+        "egressIp": "出口 IP: 210.XX.XX.XX",
+        "latency": "網路延遲: 15ms",
+        "step3": "工具列已出現 DogClaw 圖標"
+      }
+    },
+    "sdk": {
+      "title": "全程看得見，隨時停得下。",
+      "description": "每步即時串流、敏感動作親自授權、全程留存稽核軌跡。主導權由你掌控。",
+      "cta": "了解安全設計",
+      "cards": {
+        "entry": "即時觀看每一步 agent 逐步操作，以進度串流呈現；被接管的分頁有明顯視覺標示，你永遠知道哪個分頁正被控制。",
+        "forms": "敏感動作必經人工確認。任何涉及花費、變更帳號設定、刪除資料——agent 一律暫停，等你在面板明確同意才繼續；逾時未確認就安全終止。",
+        "functions": "一鍵停止。點擴充圖標即可立即中止接管——不需要等任務跑完。"
+      },
+      "quoteLabel": "Lucas Miller",
+      "quote": "DogClaw 用的是你自己已授權的 session 與環境。我們不提供繞過平台識別、破解 CAPTCHA 或偽裝身分的功能——基礎設施由你自備自管,我們保持中性與合規。",
+      "quoteCaption": "DogClaw 團隊負責人・Cluega",
+      "modernQuote": "最讓團隊放心的是『一鍵停止』和敏感動作要點頭——AI 在我們自己的後台跑,但我們從沒有失去控制權。",
+      "modernQuoteLabel": "Alexander Cross",
+      "modernQuoteCaption": "Cluega",
+      "entryMockup": {
+        "step1": "正在精確定位點擊元素",
+        "step2": "正在讀取網頁 DOM 結構",
+        "step3": "正在自動輸入目標關鍵字"
+      },
+      "formsMockup": {
+        "alertLabel": "偵測到敏感動作",
+        "alertValue": "正在嘗試刪除資料庫帳號設定",
+        "confirmLabel": "請在面板明確同意才可繼續",
+        "confirmTitle": "請選擇授權動作：",
+        "timeout": "逾時未確認將終止",
+        "approve": "同意，允許 Agent 繼續執行",
+        "reject": "拒絕，立刻終止任務",
+        "debug": "進入調試模式，手動接管",
+        "toggle": "自動攔截所有敏感動作"
+      },
+      "functionsMockup": {
+        "step1": "點擊「Stop」",
+        "step2": "強制中止 Agent 接管",
+        "step3": "釋放控制權"
+      }
+    },
+    "apps": {
+      "visualLabels": {
+        "securityIsolation": "安全隔離：僅視為純資料"
+      },
+      "features": {
+        "04": {
+          "description": "網頁內容只是資料，不是指令。內建 prompt injection 防護：網頁裡藏的「指令」不會觸發任何敏感動作或資料外送。"
+        },
+        "05": {
+          "description": "不碰你的憑證。DogClaw 不處理、不儲存、不傳輸你的帳號密碼，只在你既有的瀏覽器 session 內運作。"
+        },
+        "06": {
+          "description": "軌跡可回放、可刪除。操作元數據預設保留 30 天後自動刪除；頁面內容快照預設不留或短期後刪，且你可隨時手動刪、可關閉內容快照只留元數據。"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "準備好讓 AI 用你的瀏覽器了嗎?",
+      "description": "裝上 DogClaw,選好模型、模式、環境，送出第一個洞察任務。",
+      "button": "安裝 Cluega",
+      "ui": {
+        "configTitle": "AI 核心參數設定",
+        "configModel": "model / claude",
+        "configMode": "mode: insights",
+        "configMonth": "February",
+        "configYear": "2026",
+        "toggleOff": "離線",
+        "toggleOn": "DogClaw 啟用",
+        "envLabel": "選擇執行環境",
+        "envSelected": "專屬獨立 IP 節點 (台北)",
+        "envSearch": "搜尋其他可用環境...",
+        "envOptions": [
+          "AWS-US-East-01 (192.168.1.10)",
+          "GCP-JP-Tokyo-02 (10.0.4.25)",
+          "Local-Residential-01 (自備住宅 IP)"
+        ],
+        "checkOn": "啟用 Cookie 隔離傳輸",
+        "checkOff": "禁用 Canvas 指紋採集",
+        "logTitle": "DogClaw 執行日誌",
+        "logSteps": [
+          "DogClaw 已成功掛載",
+          "目標網頁 DOM 結構模擬與加載完成",
+          "開始分析網頁內容並提取關鍵特徵",
+          "洞察任務已成功送出並生成報告"
+        ],
+        "badgeTitle": "任務安全特徵識別",
+        "badgeRows": [
+          {
+            "label": "通訊安全",
+            "desc": "DogClaw 已成功與底層環境建立安全握手通訊。"
+          },
+          {
+            "label": "注入防護",
+            "desc": "已攔截網頁潛在惡意指令，核心動作 0 觸發。"
+          },
+          {
+            "label": "合規策略",
+            "badges": [
+              "合規通道",
+              "零風控對賭",
+              "純文字降維"
+            ]
+          }
+        ],
+        "stopButton": "強制中止任務"
+      }
+    },
+    "trust": {
+      "title": "中性的基礎設施，為了長期經營而生。",
+      "description": "我們不破解 CAPTCHA、不規避反機器人、不內建指紋偽裝。基礎設施由你自備自管，Cluega 始終站在中性與合規這一邊——因為跟平台風控對賭的工具，平台一收緊就被動；中性的基礎設施，才走得遠。",
+      "stat": "10,800 NEUTRAL INFRA RUNS IN THE PAST YEAR"
+    },
+    "scenarios": {
+      "title": "為營銷洞察而生。",
+      "description": "DogClaw 是 Cluega 洞察產品伸進網頁的那隻手。同一套三維度能力，套進六種營銷洞察場景。",
+      "items": {
+        "pricing": "競品內容與定價監測",
+        "sentiment": "評論與輿情洞察",
+        "creative": "廣告素材與落地頁靈感",
+        "ownedAccounts": "自有帳號成效洞察",
+        "search": "搜尋版位與關鍵字洞察",
+        "audience": "受眾與趨勢研究"
+      }
+    }
+  },
+  "promptLibraryQuote": {
+    "title": "Prompt library testimonial",
+    "lines": [
+      "過去，我們的廣告數據、通訊對話和店鋪訂單就像各自孤立的碎片，Cluega 徹底打破了這些數據孤島，將它們統合成同一個品牌大腦。現在，我只需在輸入框中像聊天一樣下達白話指令，算法就會橫跨平台、毫秒級並自動化執行一切優化決策。"
+    ],
+    "caption": "Cluega AI Systems",
+    "role": "AI 營銷系統"
+  },
+  "platformAsk": {
+    "finalCta": {
+      "heading": "告別繁瑣數據分析，讓 AI 為你即時產出優化提案。",
+      "demo": "預約 Demo",
+      "start": "免費開始使用"
+    },
+    "askAiFlow": {
+      "thinking": "思考中...",
+      "userPrompt": "嗨，我想投 TikTok 私信廣告來獲取客戶線索。",
+      "intro": {
+        "p1": "在開始投放前，需要先確認要使用哪些廣告帳號。",
+        "p2": "您希望由我來建議帳號，還是從完整列表自行挑選？",
+        "chipSuggest": "建議廣告帳號",
+        "chipManual": "從帳號列表選擇"
+      },
+      "scan": {
+        "title": "🔍 已掃描您名下廣告帳號，以下為**過去 7 天有實際消耗**的帳號（已預先勾選），請確認：",
+        "confirm": "確認選擇 (2)",
+        "selectedBubble": "✅ 已選擇：OutdoorLisa Official、Kirkbadwaik Kirkbadwaik"
+      },
+      "diagnosis": {
+        "linked": "✅ 已連動您的 TikTok 廣告帳號（OutdoorLisa Official）。",
+        "title": "📊 歷史投放診斷：",
+        "b1": "• 近 30 日花費 $2,418，累計私信 312 條",
+        "b2": "• 平均 CPA：$8.4 USD（行業基準 $9.6）",
+        "b3": "• 建議目標 CPA：$7.0 USD（壓低 17%）",
+        "choose": "請選擇要使用的 TikTok 前端發佈帳號：",
+        "bubble": "@OutdoorLisa Official"
+      },
+      "category": {
+        "scanned": "🔍 已掃描該帳號下的素材庫，共 18 條視頻。",
+        "verdict": "📔 內容類別判定：**藍牙耳機貿易批發 (Bluetooth Earphones Wholesale)**",
+        "confirmMode": "為了配對最佳投放策略，請確認商業模式：",
+        "chipB2B": "B2B 貿易批發",
+        "chipB2C": "B2C 單品零售"
+      },
+      "locked": {
+        "p1": "👍 已鎖定 **B2B 貿易批發** 模式。",
+        "p2": "是否要透過「Cluega 市場素材庫」擴充創意池，觸達更廣的海外採購商？",
+        "chipYes": "是，擴充創意池",
+        "chipNo": "暫時不用"
+      },
+      "subcategory": {
+        "title": "請選擇高轉化的 B2B 子類別：",
+        "chipFactory": "工廠實拍 / 供應鏈展示",
+        "chipExpo": "海外展會 / 客戶見面",
+        "chipQc": "產品檢測 / 品質認證"
+      },
+      "videos": {
+        "p1": "🎬 已從海外市場庫抓取 3 條高詢盤趨勢視頻（平均詢盤率 6.8%）。",
+        "p2": "選擇其中一條進行 AI 智能克隆 / 改寫（避開版權問題）：",
+        "pick": "選用",
+        "bubble": "#2 OEM Production Line"
+      },
+      "script": {
+        "p1": "📝 AI 已生成優化腳本：",
+        "copy": "**廣告文案：**「直連深圳源頭工廠，TWS 藍牙耳機批發報價 24h 內回覆，MOQ 100 起。」",
+        "videoPrompt": "**Video Prompt：** Factory floor wide shot → SMT 線特寫 → 老外採購點頭 → 出貨倉 → CTA。",
+        "storyboard": "**分鏡：** 0–2s 痛點鉤子 / 2–6s 工廠實力 / 6–10s 認證展示 / 10–15s CTA。",
+        "confirmQ": "是否確認生成視頻？",
+        "chipConfirm": "確認生成",
+        "chipAdjust": "再調整一次"
+      },
+      "preset": {
+        "done": "✅ 視頻生成完成（4K, 15s, H.264）。",
+        "title": "📔 已套用量化預設：",
+        "b1": "• 日預算：$50 USD",
+        "b2": "• 地區：VN / TH / MY（東南亞核心貿易圈）",
+        "b3": "• 受眾：電商 / 批發 / 3C 電子科技，年齡 25–45",
+        "confirmQ": "請確認以上配置：",
+        "chipPush": "確認，推送到前端帳號",
+        "chipAdjust": "調整預算 / 地區"
+      },
+      "cta": {
+        "welcome": "💬 即時訊息歡迎語：「Hi！想要今日工廠出廠價單嗎？」",
+        "cardTitle": "🎯 CTA 卡片標題：「Get Today's Factory Price List」",
+        "button": "🔘 CTA 按鈕：「Send Message」",
+        "covers": "已生成 3 張 AI 封面圖，請挑選一張：",
+        "chip1": "Image #1 工廠外觀",
+        "chip2": "Image #2 產品堆疊",
+        "chip3": "Image #3 老外洽談"
+      },
+      "deploy": {
+        "success": "🎉 量化廣告引擎已成功部署，動態量化儀表盤已成功生成。",
+        "synced": "🔗 [Cluega 帳號資產管理頁面] 已同步以下 3 個社媒帳號：",
+        "dashboard": "UK-藍牙耳機私信投放動態儀表盤"
+      }
+    },
+    "hero": {
+      "subtitle": "讓數據會說話，讓洞察會行動。跨越瑣碎的人工分析，進入毫秒級的決策時代。"
+    },
+    "askAnything": {
+      "examples": {
+        "analysisPrompt": "幫我分析 EcoSip 保溫杯 過去 7 天在 Meta 與 TikTok 的花費、ROAS 與最佳廣告位？",
+        "analysisThought": "分析中...",
+        "visualizationThought": "製圖中...",
+        "okPrompt": "視覺化成圖表",
+        "diagnosisPrompt": "為什麼本週馬來西亞的轉化率下降？請診斷原因並給出建議。",
+        "diagnosisThought": "診斷中...",
+        "diagnosisActionPrompt": "診斷",
+        "diagnosisActionThought": "建立診斷表...",
+        "planLaunchPrompt": "依照建議，發布 EcoSip 春夏促銷計畫，預算 $180/日，並開啟全自動託管。",
+        "planLaunchThought": "發布計畫中...",
+        "planListPrompt": "計畫列表",
+        "planListThought": "載入計畫中..."
+      },
+      "chart": {
+        "ariaLabel": "近 7 日廣告花費與 ROAS 圖表",
+        "cost": "COST",
+        "roas": "ROAS"
+      },
+      "performanceTable": {
+        "headers": {
+          "placement": "廣告位",
+          "platform": "所屬平台",
+          "cvr": "轉化率",
+          "cpc": "單擊成本",
+          "rating": "評級"
+        },
+        "ratings": {
+          "conversionKing": "🏆 轉化之王",
+          "lowestTrafficCost": "💰 流量成本最低",
+          "stableGrowthPoint": "穩定增長點"
+        }
+      },
+      "analysis": {
+        "intro": "已為您提取近 7 日全域數據，針對您的問題分析如下：",
+        "spendLabel": "廣告花費 (Spend):",
+        "spendBody": "全平台總花費 $6,450.00。其中 Meta 佔 $2,050.00，TikTok 佔 $2,800.00，Google Ads 補足剩餘缺口。",
+        "roasLabel": "成效回報 (ROAS):",
+        "roasBody": "整體 ROAS 較上週成長 12%。TikTok 表現最為強勁 (3.4x)，Google Ads 緊隨其後 (4.1x)，Meta 則需進行結構優化 (2.9x)。",
+        "placementLabel": "最佳廣告位 (Best Placement):",
+        "placementBody": "數據顯示 TikTok Feed（信息流）轉化率最高 (4.2%)，而 Instagram Reels 單擊成本最低 ($0.42)。",
+        "chartPrompt": "要幫您將以上數據視覺化成圖表嗎？",
+        "chartPromptCta": "視覺化成圖表"
+      },
+      "visualization": {
+        "intro": "好的，這是您近 7 日各平台的廣告花費與 ROAS 視覺化結果：",
+        "recommendation": "根據 CDP 的數據歸因，目前 TikTok Feed 仍有增量空間。要不要我幫您將 Meta 轉化不佳計畫的預算移轉至該版位，以及針對這兩個最佳廣告位提供加碼素材建議？",
+        "replyPrefix": "回覆",
+        "execute": "預算移轉",
+        "executeSuffix": "我將為您準備預算重分配方案；回覆",
+        "creative": "素材建議",
+        "creativeSuffix": "我會針對這兩個最佳廣告位提供加碼素材建議。"
+      },
+      "diagnosis": {
+        "intro": "診斷完成。基於 CDP 對馬來西亞地區 (Region 3) 的實時追蹤，我發現了 3 個導致轉化下滑的核心問題：",
+        "issues": [
+          "素材疲勞：主力視頻素材頻次已達 4.8，CTR 從 2.4% 降至 1.9%。",
+          "預算錯配：Advantage+ 計畫中 68% 的預算被分配到了高成本受眾組。",
+          "加載延遲：Mobile 端落地頁 LCP 為 4.2s，導致 71% 的流失率。"
+        ],
+        "prompt": "要查看詳細的診斷清單與修復 Action 嗎？",
+        "promptCta": "診斷"
+      },
+      "diagnosisAction": {
+        "intro": "這是為您整理的",
+        "introCta": "待修復問題清單",
+        "recommendation": "我已準備好修復腳本。要不要我幫您自動執行上述優化動作？",
+        "execute": "執行"
+      },
+      "diagnosticTable": {
+        "title": "📊 數據組件：智能診斷列表",
+        "headers": {
+          "target": "診斷對象",
+          "metric": "異常關鍵指標",
+          "baseline": "基準值",
+          "current": "當前值",
+          "action": "AI 建議動作"
+        },
+        "rows": {
+          "creative": {
+            "target": "素材 VID_05",
+            "metric": "點擊率 (CTR)",
+            "baseline": "2.4%",
+            "current": "1.9%",
+            "action": "暫停並替換為新 ART 素材"
+          },
+          "budget": {
+            "target": "預算分配",
+            "metric": "轉化成本 (CPA)",
+            "baseline": "$8.40",
+            "current": "$14.20",
+            "action": "將預算轉向男性高轉化族群"
+          },
+          "page": {
+            "target": "頁面效能",
+            "metric": "載入時間 (LCP)",
+            "baseline": "2.5s",
+            "current": "4.2s",
+            "action": "啟用 WebP 壓縮與 lazy-load"
+          }
+        }
+      },
+      "planLaunch": {
+        "intro": "計畫發布請求已收到。我正在將 EcoSip 春夏促銷計畫 同步下發至 Meta、TikTok 與 Google Ads 帳戶。",
+        "items": {
+          "status": {
+            "label": "狀態：",
+            "body": "已提交 API 握手請求。"
+          },
+          "optimization": {
+            "label": "優化：",
+            "body": "AI 已完成素材預審，預計可縮短 60% 的平台審核時間。"
+          },
+          "monitoring": {
+            "label": "監控：",
+            "body": "已開啟 24/7 自動盯盤策略，當 CPA > $4.80 時將自動暫停止損。"
+          }
+        },
+        "prompt": "要查看實時的計畫投放列表嗎？",
+        "promptCta": "計畫投放列表"
+      },
+      "planList": {
+        "intro": "好的，這是目前由我託管的實時投放清單：",
+        "recommendation": "系統已鎖定目標 ROAS。是否要我生成專屬的即時行銷儀表板，方便您隨時追蹤進度？回覆",
+        "dashboard": "儀表板"
+      },
+      "adPlanTable": {
+        "title": "📊 [數據組件：我的 AD 計劃表 (My AD Plans)]",
+        "headers": {
+          "name": "計畫名稱",
+          "budget": "每日預算 ($)",
+          "period": "投放週期",
+          "status": "狀態"
+        },
+        "rows": {
+          "spring": {
+            "name": "EcoSip 春季促銷計畫",
+            "budget": "$180.00",
+            "period": "04.17 - 05.31",
+            "status": "投放中"
+          },
+          "scenario": {
+            "name": "EcoSip 露營情境計畫",
+            "budget": "$80.00",
+            "period": "05.01 - 05.21",
+            "status": "已核准"
+          },
+          "test": {
+            "name": "EcoSip 3% 測試計畫",
+            "budget": "$80.00",
+            "period": "05.15 - 05.29",
+            "status": "審核中"
+          }
+        }
+      }
+    },
+    "footer": {
+      "line1": "為決策效能而生。由全棧數據統合。",
+      "line2": "由 Cluega AI 智能決策引擎驅動。",
+      "contact": "聯繫解決方案專家",
+      "signup": "立即註冊 1000 Token"
+    },
+    "promptLibrary": {
+      "title": "一鍵連結，全域生態即刻打通。",
+      "description": "一鍵安全對接全球主流社媒廣告、電商平台與通訊軟體。授權即連結，讓 Cluega 代理您存取資料，開啟最流暢的增長協作。",
+      "cards": {
+        "tiktok-ads": {
+          "title": "TikTok Ads",
+          "description": "投放並追蹤 TikTok 廣告成效",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "meta": {
+          "title": "Meta",
+          "description": "管理 Facebook 與 Instagram 廣告",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "shopify": {
+          "title": "Shopify",
+          "description": "訂單與全球電商數據管理",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "WhatsApp 商業訊息與全球客服",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "google-sheets": {
+          "title": "Google Sheets",
+          "description": "實時讀寫試算表與雲端協作文件",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "google-ads": {
+          "title": "Google Ads",
+          "description": "Google 搜尋、聯播網全球廣告投放",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "zalo": {
+          "title": "Zalo",
+          "description": "Zalo 官方帳號全球訊息推送與交互",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "tiktok-shop": {
+          "title": "TikTok Shop",
+          "description": "TikTok 電商訂單與全球商品同步",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "line": {
+          "title": "LINE",
+          "description": "LINE 官方帳號訊息與全球客戶互動",
+          "badgeLabel": "Cluega 應用授權"
+        },
+        "lark": {
+          "title": "Lark",
+          "description": "跨國團隊協作、訊息與日曆管理",
+          "badgeLabel": "Cluega 應用授權"
+        }
+      }
+    },
+    "universalContext": {
+      "poweredBy": "Powered by Brand",
+      "whyTitle": "為什麼 Cluega 能做到這一切？",
+      "features": {
+        "semanticIntent": {
+          "title": "語義化意圖解析",
+          "description": "將廣告主的自然語言，直接轉譯為系統 API 指令。即便全域數據隨規模擴張，依然保持毫秒級調閱響應。"
+        },
+        "brandAssets": {
+          "title": "打底品牌專屬資產",
+          "description": "將您品牌的語調調性、產品核心細節及銷售方法論，深植於系統底層。確保 AI Agent 的產出與對答永不偏離定位。"
+        },
+        "patternRecognition": {
+          "title": "智能波動與模式識別",
+          "description": "自動交叉追溯跨平台的邊際成效與交互數據。Cluega AI 著眼於把握全局波峰與異常波動趨勢，而非僅盯著單一廣告組的盈虧。"
+        },
+        "appConnections": {
+          "title": "全域應應用無縫接軌",
+          "description": "打通 WhatsApp、Zalo、TikTok Ads 與 Shopify 等多平台渠道壁壘。打破數據孤島，將全渠道對話與投放表現收歸於同一個品牌神經網絡。"
+        },
+        "localization": {
+          "title": "跨境多語系原成本地化",
+          "description": "各國語言精準駕馭。用各國原生的文化語感與全球客戶對話，或批量創作在地化素材。"
+        }
+      }
+    },
+    "customerIntelligence": {
+      "title": "操作簡單，卻高效的全方位智能體。",
+      "tabs": {
+        "media-buyer": {
+          "label": "投放經理",
+          "headline": "將精準的數據信令，轉化為毫秒級的營利決策。",
+          "description": "AI 自動監測跨平台邊際成本，確保每一分廣告預算都在最優時機轉化為利潤。"
+        },
+        "creative-director": {
+          "label": "創意總監",
+          "headline": "提取爆款基因，讓視覺產量不再超越商業邏輯。",
+          "description": "將成交數據與視覺特徵錨定，驅動 ART 引擎生成具備「轉化生命力」的素材矩陣。"
+        },
+        "customer-success": {
+          "label": "銷售主管",
+          "headline": "賦予全球每一段對話，深度品牌主權與成交爆發力。",
+          "description": "整合 IM 歸因中心，確保每一句私信回應都能精準觸達客戶的真實購買動機。"
+        },
+        "founders": {
+          "label": "品牌創始人",
+          "headline": "建立唯一的「品牌全棧帳本」，掌控全球增長的真實脈搏。",
+          "description": "從碎片化的數據孤島中萃取品牌資產，讓每一次戰略擴張都有據可依。"
+        },
+        "market-consultant": {
+          "label": "市場顧問",
+          "headline": "從海量市場噪音中，提煉支撐下一個增長點的戰略路徑。",
+          "description": "基於 CDP 全域數據建模，為品牌主提供客觀、科學且可落地的全週期市場建議。"
+        }
+      },
+      "preview": {
+        "common": {
+          "addObject": "新增對象"
+        },
+        "media-buyer": {
+          "conversation": {
+            "userPrompt": "幫我優化我的 ad 計畫：EcoSip 保溫杯 — 春夏推廣，並調配預算",
+            "reply1": {
+              "searching": "🔍 正在檢索全域計劃...",
+              "locked": "已鎖定：「EcoSip 保溫杯 — 春夏推廣」",
+              "diagnosis": "📊 智能診斷分析：CPA 較基準偏高 23%，原因為 Meta 主力素材疲勞且預算配錯配。"
+            },
+            "labels": {
+              "attribute": "屬性:",
+              "value": "值:"
+            },
+            "plans": {
+              "plan1": {
+                "header": "Cluega AI // Budget allocation",
+                "title": "執行方案1:",
+                "attribute": "跨渠道預算重調度",
+                "value": "Meta 減 $1,200.00 ➡ 調增至 TikTok Feed $1,800.00"
+              },
+              "plan2": {
+                "header": "Meta Ads // Creative optimization",
+                "title": "執行方案2:",
+                "attribute": "自動更換素材",
+                "value": "暫停疲勞素材 VID_05 ➡ 替換為 ART 新版 VID_v14_Hook"
+              },
+              "plan3": {
+                "header": "TikTok Ads // Bid cap optimization",
+                "title": "執行方案3:",
+                "attribute": "更正出價上限",
+                "value": "Target CPA $4.80 ➡ $4.12"
+              }
+            },
+            "reply3": {
+              "oldPrompt": "回覆「執行」即刻全自動將所有已接受的參數變更同步至 TikTok 與 Meta 後台 API。",
+              "modifiedLabel": "【修改為:】",
+              "prompt": "請確認是否執行以上操作？",
+              "execute": "執行",
+              "imageButton": "[圖片]"
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "投放計劃",
+              "items": [
+                "廣告 ID",
+                "目標 CPA",
+                "預算額度",
+                "+ 12 更多維度"
+              ]
+            },
+            "center": {
+              "title": "AI 執行特工",
+              "items": [
+                "定量策略部署",
+                "API 預算通信",
+                "當前出價"
+              ]
+            },
+            "right": {
+              "title": "成效反饋",
+              "items": [
+                "助評 ROAS",
+                "Token 消耗",
+                "轉化次數"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "計畫名稱",
+              "投放策略目標",
+              "實時狀態",
+              "預算執行權限",
+              "(互動新增) 預警觸發"
+            ],
+            "rows": [
+              {
+                "name": "TikTok_亞太新品",
+                "goal": "CPA < $4.5",
+                "status": "AI 全自動優化中",
+                "permission": "System",
+                "interaction": "0 次"
+              },
+              {
+                "name": "Meta_全球增長",
+                "goal": "最大化轉化次數",
+                "status": "已達標 (CPA $3.2)",
+                "permission": "Admin",
+                "interaction": "1 次 (自動調價)"
+              },
+              {
+                "name": "Google_詞矩陣",
+                "goal": "維持 ROAS",
+                "status": "已自動節能暫停",
+                "permission": "System",
+                "interaction": "0 次"
+              },
+              {
+                "name": "X Ads_大促",
+                "goal": "曝光量極大化",
+                "status": "數據回傳延遲中",
+                "permission": "Admin",
+                "interaction": "2 次"
+              }
+            ]
+          }
+        },
+        "creative-director": {
+          "conversation": {
+            "userPrompt": "上週表現最好的素材基因是什麼？",
+            "taskHeader": "Cluega AI：已分析成交路徑，3 項視覺成分高度提及：",
+            "suggestedLabel": "建議動作",
+            "suggestedAction": "請問是否需要根據這些影片的特點，製作變體素材。"
+          },
+          "geneCard": {
+            "title": "🧬 ART 爆款基因庫",
+            "playAll": "播放全部",
+            "rows": {
+              "hook": {
+                "title": "3秒懸念吸睛開場",
+                "assetId": "(VID_V14_Hook)",
+                "metric": "(42% 更高留存)",
+                "playLabel": "播放 3秒懸念吸睛開場"
+              },
+              "closeup": {
+                "title": "產品細節微距特寫",
+                "assetId": "(VID_S05_CloseUp)",
+                "metric": "(CTR 3.8%)",
+                "playLabel": "播放 產品細節微距特寫"
+              },
+              "scenario": {
+                "title": "情境對比解決痛點",
+                "assetId": "(VID_W21_Scenario)",
+                "metric": "(ROAS 4.2x)",
+                "playLabel": "播放 情境對比解決痛點"
+              }
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "爆款基因",
+              "items": [
+                "視覺成分",
+                "高頻關鍵詞",
+                "停留時長",
+                "+ 7 更多維度"
+              ]
+            },
+            "center": {
+              "title": "ART 生成引擎",
+              "items": [
+                "品牌上下文",
+                "素材矩陣變量",
+                "風格遷移"
+              ]
+            },
+            "right": {
+              "title": "分發中心",
+              "items": [
+                "TikTok 媒體庫",
+                "FB 創意中心",
+                "素材調度"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "素材類型",
+              "爆款基因標籤",
+              "AI 生成進度",
+              "ROI 潛力",
+              "(互動新增) 適配人群"
+            ],
+            "rows": [
+              {
+                "asset": "短影片變體_V14",
+                "signal": "驚悚開場+反轉",
+                "progress": "已完成 (1,000 組)",
+                "roi": "高潛力",
+                "audience": "Z 世代"
+              },
+              {
+                "asset": "靜態海報_S05",
+                "signal": "高對比+促銷 UI",
+                "progress": "渲染中 (45/100)",
+                "roi": "中等潛力",
+                "audience": "職場新人"
+              },
+              {
+                "asset": "腳本系列_W21",
+                "signal": "情緒化敘事風格",
+                "progress": "已同步至媒體庫",
+                "roi": "極佳",
+                "audience": "高意向女性"
+              },
+              {
+                "asset": "UGV 模擬視頻",
+                "signal": "真人評測視角",
+                "progress": "等待數據餵養",
+                "roi": "待評估",
+                "audience": "海淘族群"
+              }
+            ]
+          }
+        },
+        "customer-success": {
+          "conversation": {
+            "userPrompt": "撰寫一封針對whatsapp詢問關稅流失客戶的挽回訊息",
+            "taskHeader": "Cluega CS Agent：草稿已配備。點擊卡片可預覽與編輯：",
+            "suggestedLabel": "建議操作行為",
+            "suggestedAction": "回覆「發送」即可將此客製化模板直接部署至 whatsapp 並即刻批量投遞。"
+          },
+          "draftCard": {
+            "previewLabel": "WhatsApp批量發送內容：",
+            "previewTitle": "EcoSip 尊榮首單優惠 & 關稅全額補貼通知",
+            "previewBody": "您好，感謝您對 EcoSip 的關注！我們注意到您在結帳時有些猶豫。為了讓您無憂體驗，我們為您準備了專屬的折扣碼，今日下單全免關稅...",
+            "channel": "WhatsApp",
+            "batchLabel": "批量發送內容:",
+            "subject": "EcoSip 尊榮首單優惠 & 關稅全額補貼通知",
+            "message": {
+              "line1": "您好，感謝您對 EcoSip 的關注！我們注意到您在結帳時有些猶豫。",
+              "line2": "為了讓您無憂體驗，我們為您準備了專屬的折扣碼，今日下單全免關",
+              "line3": "稅..."
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "私信線索",
+              "items": [
+                "客戶 ID",
+                "渠道來源",
+                "互動摘要",
+                "+ 6 更多維度"
+              ]
+            },
+            "center": {
+              "title": "IM 歸因中心",
+              "items": [
+                "開啟素材 ID",
+                "關鍵詞命中",
+                "意向評分"
+              ]
+            },
+            "right": {
+              "title": "成交看板",
+              "items": [
+                "訂單金額",
+                "預估 LTV",
+                "結案速度"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "客戶 ID",
+              "諮詢與溝通渠道",
+              "歸因廣告來源 / 素材",
+              "成交意向評分",
+              "(互動新增) AI 介入"
+            ],
+            "rows": [
+              {
+                "customerId": "User_SJ_9981",
+                "channel": "WhatsApp",
+                "source": "[VID_02] 夏季連衣裙",
+                "intent": "高意向",
+                "aiAction": "發送券"
+              },
+              {
+                "customerId": "User_DC_7362",
+                "channel": "Zalo",
+                "source": "[IMG_05] 促銷活動圖",
+                "intent": "諮詢中",
+                "aiAction": "產品 QA"
+              },
+              {
+                "customerId": "User_KL_4430",
+                "channel": "TikTok DM",
+                "source": "品牌主頁自然流",
+                "intent": "初步了解",
+                "aiAction": "無"
+              },
+              {
+                "customerId": "User_RT_5512",
+                "channel": "Messenger",
+                "source": "[VID_12] 網紅同款推薦",
+                "intent": "考慮中",
+                "aiAction": "預約通話"
+              }
+            ]
+          }
+        },
+        "founders": {
+          "conversation": {
+            "userPrompt": "我目前在 APAC 與北美市場的佔有率與競爭壁壘如何？",
+            "suggestedLabel": "建議操作行為",
+            "suggestedAction": "亞太地區實時增長儀表盤。"
+          },
+          "search": {
+            "label": "已檢索：CDP 本地資料庫 & 競品 等 8 個數據源"
+          },
+          "sources": {
+            "shopify": {
+              "label": "shopify",
+              "short": "S"
+            },
+            "stripe": {
+              "label": "stripe",
+              "short": "St"
+            },
+            "meta": {
+              "label": "meta",
+              "short": "M"
+            },
+            "tiktok": {
+              "label": "tiktok",
+              "short": "T"
+            }
+          },
+          "summary": {
+            "intro": "這是您應掌握的全域現狀：",
+            "body": "我們的保溫杯板塊在 APAC 區域的全渠道展示佔有率已突破 54.2%，領先次席品牌 15% 以上。自打通支付與 IM 歸因帳本後，LTV 攀升 28%，預算重複利用率達到歷史新高。北美市場因高客單價特徵，建議加強中產生活圈標籤覆蓋。"
+          },
+          "metrics": {
+            "share": {
+              "value": "54.2%",
+              "label": "APAC 佔有率"
+            },
+            "ltv": {
+              "value": "+28%",
+              "label": "LTV 提升"
+            },
+            "lead": {
+              "value": "+15%",
+              "label": "領先優勢"
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "組織資產",
+              "items": [
+                "國際成員",
+                "專案數",
+                "Token 總額",
+                "+ 4 更多維度"
+              ]
+            },
+            "center": {
+              "title": "全局監控",
+              "items": [
+                "API 健康度",
+                "策略覆蓋率",
+                "執行日誌"
+              ]
+            },
+            "right": {
+              "title": "財務報表",
+              "items": [
+                "實時消耗率",
+                "CPA 利潤",
+                "預估回報"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "監測專案",
+              "監測覆蓋範圍",
+              "實時運行狀態",
+              "告警級別",
+              "(互動新增) 連通性"
+            ],
+            "rows": [
+              {
+                "item": "亞太市場全託管",
+                "scope": "TikTok / Meta",
+                "status": "正常運行 (Stable)",
+                "alert": "正常",
+                "connectivity": "Slack 已連接"
+              },
+              {
+                "item": "Token 計費",
+                "scope": "全局 AI 專案",
+                "status": "餘額充足 (85%)",
+                "alert": "忽略",
+                "connectivity": "郵件已同步"
+              },
+              {
+                "item": "API 連接中心",
+                "scope": "全通訊路由",
+                "status": "Meta API 波動",
+                "alert": "中級 (Medium)",
+                "connectivity": "系統自癒中"
+              },
+              {
+                "item": "品牌內容監測",
+                "scope": "AI 生成庫",
+                "status": "100% 符合調性",
+                "alert": "低級 (Low)",
+                "connectivity": "安全證書已更新"
+              }
+            ]
+          }
+        },
+        "market-consultant": {
+          "conversation": {
+            "userPrompt": "下個月東南亞電商投放有哪些最具回報潛力的賽道？",
+            "taskHeader": "Cluega Planner：檢測到 2 個高潛力的策略紅利窗口，建議介入：",
+            "suggestedLabel": "建議操作行為",
+            "suggestedAction": "是否需要幫您生成APAC 市場全週期策略分析白皮書。"
+          },
+          "tasks": {
+            "festival": {
+              "title": "馬來西亞節日促銷期（預計將有 14 天綜合流量成本窪地）",
+              "status": "策略窗口 / Focus"
+            },
+            "green": {
+              "title": "針對「綠色健康生活」受眾進行交叉重合廣告投放試驗",
+              "status": "建議測試 / Trial"
+            }
+          }
+        }
+      }
+    },
+    "intelligence": {
+      "title": "專為您的工作方式與業務邏輯，量身定製的 Cluega AI 系統。",
+      "cards": {
+        "real": {
+          "title": "真實 API 回傳，杜絕 AI 幻想。",
+          "description": "系統得出的每一項診斷、分析與決策依據，皆 100% 實時同步自您所串接的社媒平台 API、店鋪訂單流與歷史真實成效。"
+        },
+        "permissions": {
+          "title": "安全沙盒警戒，嚴格管控。",
+          "description": "Cluega 嚴格遵循您的 API 節點授權與 Token 預算赤字警戒線。在安全沙盒網絡中主動運行，絕不越權、絕不過線。"
+        },
+        "suggestions": {
+          "title": "AI 智能提案，人類終極決策。",
+          "description": "您永遠處於指揮中樞。系統將複雜的繁瑣參數精煉為具體決策，最終的審批、微調或拒絕權力，100% 保留在您的手中。"
+        }
+      },
+      "integrations": {
+        "tiktokAds": {
+          "name": "TikTok Ads",
+          "description": "投放並追蹤 TikTok 廣告成效"
+        },
+        "meta": {
+          "name": "Meta",
+          "description": "管理 Facebook 與 Instagram 廣告"
+        },
+        "googleAds": {
+          "name": "Google Ads",
+          "description": "Google 搜尋、聯播網廣告投放"
+        },
+        "googleAnalytics": {
+          "name": "Google Analytics",
+          "description": "網站流量與轉換分析"
+        }
+      }
+    },
+    "capabilities": {
+      "breakDown": {
+        "title": "一起拆解問題",
+        "description": "Cluega 會基於您的想法進行延伸，擴展您的邏輯，並一步步簡化複雜性。"
+      },
+      "tackle": {
+        "title": "攻克最艱難的工作",
+        "description": "Cluega 在您需要完成的事項上提供專家級協作——從產品編碼到關鍵數據分析。"
+      },
+      "explore": {
+        "title": "探索下一步",
+        "description": "就像口袋裡的專家，與 Cluega 協作能擴展您獨自或與團隊一起能構建的範圍。"
+      }
+    }
+  },
+  "platformAi": {
+    "hero": {
+      "eyebrow": "The Model Layer for Marketing",
+      "titleLead": "一個入口，",
+      "titleHighlight": "調度全世界的模型。",
+      "subtitle": "接入 400+ 模型，前端只給你一個統一入口。Cluega 依營銷任務自動切換最適模型，並把每一次交互，沉澱成你企業自己的資產。",
+      "primaryCta": "免費開始",
+      "secondaryCta": "預約 Demo",
+      "badge": "Auto · 400+ models · Marketing-native",
+      "widget": {
+        "title": "Cluega AI",
+        "cycles": [
+          {
+            "prompt": "下週大促的 Meta 廣告出價幫我預測一下，CPA 要怎麼設？",
+            "result": "預估下週最佳 CPA 為 $18。已為您配置好 CPA 託管模型，一鍵啟動即可自動優化並降低 12.4%...",
+            "model": "GPT-4o"
+          },
+          {
+            "prompt": "EcoSip 新品文案，切什麼亮點才符合品牌調性？",
+            "result": "根據全網社群輿情監測，大眾極度關注材質安全。建議鎖定「100% 醫療級不鏽鋼」與「長效保冰」兩大語境，已自動生成...",
+            "model": "Claude 3.5"
+          },
+          {
+            "prompt": "幫我抓現在社媒最紅的梗，直接做成 TikTok 廣告發出去。",
+            "result": "已打通社媒自然流！全新創意素材已一站式生成並直接上線投放，預計將為您省下 18%...",
+            "model": "Gemini 1.5 Pro"
+          }
+        ]
+      }
+    },
+    "logoWall": {
+      "transition": "接入 400+ 模型 —— 我們只為營銷而調度。",
+      "capsule": "+ 400 models"
+    },
+    "auto": {
+      "titleLead": "Auto 模型：",
+      "titleRest": "讓對的任務，用對的模型。",
+      "subtitle": "Cluega 理解數位廣告投放背後的營銷邏輯——什麼該交給高智商模型決策，什麼該丟給小模型洗數據。透過動態分流與 Prompt 快取，我們幫系統大砍 90% 算力成本。",
+      "cards": {
+        "flagship": {
+          "title": "高智商任務，交給旗艦模型",
+          "body": "投放策略、出價預測、創意決策——需要「想得深」的任務，自動路由到頂級模型，確保決策品質不打折。",
+          "visual": {
+            "bubble": "幫我規劃 EcoSip 黑五大促的整體策略。",
+            "midLabel": "策略決策中樞",
+            "midTitle": "大盤成本將上揚，建議 CPA 設為 $22-$25。",
+            "midStatus": "預算配比：Meta 60% / Google 40%",
+            "lowLabel": "品牌語境對齊",
+            "lowTitle": "全網輿情熱議材質，文案鎖定「醫療級不鏽鋼」。",
+            "lowSubtitle": "已對齊品牌調性，過濾無效延展",
+            "button": "查看全部"
+          }
+        },
+        "small": {
+          "title": "髒活累活，交給小模型",
+          "body": "數據清洗、打標、批量歸類、洗素材——高頻低複雜任務交給小模型批量處理，這是 90% 成本省下來的地方。",
+          "visual": {
+            "bubble": "把上個月的 500 張歷史素材按點擊率高低批量分類。",
+            "line1": "GPT-4o-mini 已處理完畢。",
+            "line2": "高頻任務已自動路由，已為您節省 90% 算力成本。",
+            "cardLabel": "批量歸類報告",
+            "cardTitle": "500 張廣告素材已自動完成點擊率高/低分組",
+            "highGroup": "高效組",
+            "highCount": "已歸類 120 張",
+            "lowGroup": "低效組",
+            "lowCount": "已歸類 380 張..."
+          }
+        },
+        "cache": {
+          "title": "Prompt 快取，毫秒命中",
+          "body": "營銷場景高度重複。命中快取的 Prompt 直接秒回，不再為同一件事反覆燒算力。",
+          "visual": {
+            "bubble": "Meta 廣告受眾好像疲乏了，今天保溫杯的 CTR 跌破 1%、ROAS 掉到 1.2。這檔活動還在跑，現在怎麼救？",
+            "statusLabel": "已命中 Prompt 快取",
+            "solutionsLabel": "解決方案：",
+            "sol1Lead": "素材止血：",
+            "sol1Text": "直接關閉頻率超過 3.5 且今天表現最差的 2 組老圖文，預算切 30% 到備用的「開箱短影音」素材。",
+            "sol2Lead": "清洗受眾：",
+            "sol2Text": "檢查自訂受眾，確保已嚴格「排除過去 30 天已購買者」，並將 Lookalike（類似受眾）比例從 1% 放大到 3%–5% 來擴大池子。",
+            "sol3Lead": "預算防守：",
+            "sol3Text": "若下午 4 點前 CPM（千次曝光成本）仍未回落，代表大盤競價過激，立即將此系列預算調降 50%，改開新系列跑「加入購物車」進行暖場。"
+          }
+        },
+        "token": {
+          "title": "前端一個 Token，後端動態最優",
+          "body": "客戶端只消耗統一的「營銷 Token」，後端我們在 400+ 模型間做即時算力套利（Token Arbitrage）。計費簡單，成本最優。",
+          "visual": {
+            "bubble": "幫我把 EcoSip 新品，做10支美式英語的 TikTok 帶貨短影音，並自動完成配音與畫面生成。",
+            "hint": "前端已統一結算：",
+            "hintStrong": "3,200 Tokens",
+            "cardHeader": "多模型影片生成線",
+            "cardButton": "Preview",
+            "row1Title": "GPT-4o-mini (300 Tokens) ｜ 腳本生成",
+            "row2Title": "ElevenLabs (900 Tokens) ｜ 語音合成",
+            "row3Title": "Runway Gen-3 (2,000 Tokens) ｜ 帶貨影片生成"
+          }
+        }
+      },
+      "quote": {
+        "text": "同一筆預算，Cluega 把能省的算力都省了，省下的全變成投放效益。",
+        "author": "Ryan",
+        "role": "Media Buying Manager, Cluega"
+      }
+    },
+    "industry": {
+      "titleLead": "不只是中轉，",
+      "titleRest": "更有自研行業模型。",
+      "subtitle": "通用模型不懂「遊戲買量的潛規則」「電商大促的節奏」。Cluega 在通用模型之上，為垂直行業煉製專屬營銷模型——把行業 Know-how 寫進模型裡。",
+      "tabs": {
+        "game": {
+          "title": "遊戲行業營銷模型",
+          "description": "內建對 ROAS、LTV、回收週期、買量素材語言、渠道組合的理解。它不是「更會聊天的模型」，是「更懂買量的模型」。",
+          "visual": {
+            "prompt": "混合變現休閒遊戲在美區的 TikTok 素材，哪種畫風能跑出更低的 CPI 且保證次留？",
+            "model": "Cluega-GameLLM"
+          }
+        },
+        "library": {
+          "title": "可擴展的行業模型庫",
+          "description": "電商 · 金融分期 · App 訂閱 · 在地 IM 獲客…… 行業模型持續擴充，每一個都繼承 Cluega 的調度與上下文能力。",
+          "visual": {
+            "cards": [
+              {
+                "text": "內建 GMV 預測模型，精準優化跨境電商 ROI",
+                "model": "Cluega-EcomLLM"
+              },
+              {
+                "text": "深度理解壞賬率與分流，提升金融分期轉化",
+                "model": "Cluega-FinLLM"
+              },
+              {
+                "text": "動態分析首週付費行為，降低 App 訂閱流失率",
+                "model": "Cluega-SubLLM"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "context": {
+      "titleLead": "切換再多模型，",
+      "titleRest": "永遠記得你的品牌。",
+      "subtitle": "Cluega 為企業建構專屬的知識庫，完整保存所有員工在不同模型上交互的核心品牌資產、創意上下文與數據資產。不管底層調用哪個模型，上下文始終屬於你。",
+      "cards": {
+        "store": {
+          "title": "品牌調性的自動化對齊",
+          "body": "企業資料上傳即完成自動讀取與深度理解。無論全員調用哪家底層大模型，系統都能自動校準，確保生成的每行文案、每張視覺都精準符合品牌設定。",
+          "visual": {
+            "tabLabel": "Cluega",
+            "user1Name": "Cluega 1.2 Lite",
+            "user1Text": "已成功讀取並解析您上傳的 《2026品牌視覺與文案白皮書.pdf》。已自動鎖定核心調性：科技質感、沉穩客觀、精煉專業。",
+            "user2Name": "Sarah Chen"
+          }
+        },
+        "switch": {
+          "title": "商業數據的智能沉澱與預判",
+          "body": "完整留存核心數據資產。Cluega 不僅能安全鎖定歷史數據，更能基於過往表現，自動洞察當前的投放問題並精準預判未來走向。",
+          "visual": {
+            "headerTitle": "2026 Q1 EcoSip新品投放項目",
+            "tab1Label": "數據留存",
+            "tab2Label": "智能診斷",
+            "row1Label": "留存狀態",
+            "row1Value": "已同步",
+            "row2Label": "投放週期",
+            "row2Value": "2026.01.01 - 2026.03.31",
+            "row3Label": "項目負責人",
+            "row3Value": "Alex Wong"
+          }
+        },
+        "compound": {
+          "title": "跨模型的上下文連續性",
+          "body": "完整記錄素材與文案的演進脈絡。當跨部門人員切換至不同模型時，AI 依然能精準承接前文，讓創意與行銷策略無縫接力。",
+          "visual": {
+            "centerTitle": "EcoSip 腳本資產庫",
+            "centerSubtitle": "歷史腳本演進脈絡",
+            "centerItem0": "v1.0_北歐極簡概念篇",
+            "centerItem1": "v1.1_辦公室痛點情境篇",
+            "centerItem2": "v1.2_純鈦材質深度測評篇",
+            "centerItem3": "v2.0_夏季冰飲戶外視覺篇",
+            "centerItem4": "v2.1_限時早鳥解鎖福利篇",
+            "rightTitle": "智能咖啡機腳本資產庫",
+            "rightSubtitle": "歷史腳本演進脈絡",
+            "rightItem0": "v1.0_晨間喚醒美學篇",
+            "rightItem1": "v2.0_週末居家咖啡館篇",
+            "rightItem2": "v2.1_拿鐵拉花新手教學篇"
+          }
+        }
+      },
+      "flywheel": {
+        "body": "當員工在 Cluega 裡調用 AI、執行投放、並透過歸因系統看到「明確結果」時，這個過程會形成一個閉環。每一次的投放數據，都會重新餵給 Cluega 的上下文，讓下一次的 AI 生成更懂你的品牌。",
+        "center": "Universal Context",
+        "outerLabel": "模型可換，上下文不丟。",
+        "steps": {
+          "generate": "調用 AI 生成",
+          "execute": "執行投放",
+          "attribute": "歸因看到明確結果",
+          "settle": "沉澱回上下文"
+        }
+      }
+    },
+    "security": {
+      "titleLead": "企業級安全，",
+      "titleRest": "內建於底層。",
+      "subtitle": "多模型、多員工、多租戶——所有調度都跑在企業級隔離與權限之上。安全不是附加選項，是 Cluega 的預設。",
+      "cards": {
+        "isolation": {
+          "title": "多租戶數據隔離",
+          "body": "租戶間數據物理隔離（ClickHouse 級），企業資產不外洩、不互串。"
+        },
+        "rbac": {
+          "title": "細粒度權限（RBAC / IAM）",
+          "body": "角色化權限與身分管理，誰能調用哪個模型、看哪份數據，全程可控可審計。"
+        },
+        "compliance": {
+          "title": "合規與授權",
+          "body": "OAuth 授權、用戶範圍權限、在地資料合規（含 PDPL）——安全設計貫穿每一次模型調用。"
+        }
+      },
+      "trustStrip": "Multi-tenant · RBAC · OAuth · PDPL-ready"
+    },
+    "platformShelf": {
+      "titleLead": "模型只是起點。",
+      "subtitle": "從模型調度，延伸到完整的營銷智能平台。每個模組共享同一套上下文與安全底座。",
+      "items": {
+        "ai": "認識 Cluega AI",
+        "im": "IM即時通訊系統",
+        "adOptimization": "廣告投放與優化",
+        "marketingDashboard": "即時營銷儀錶盤",
+        "marketInsights": "市場洞察",
+        "ecommerce": "電商運營",
+        "agent": "Agent",
+        "aiVisual": "AI 視覺設計"
+      }
+    },
+    "cta": {
+      "heading": "讓對的任務用對的模型，後台自動幫你省算力。",
+      "demo": "預約 Demo",
+      "start": "免費開始使用"
+    }
+  },
+  "partners": {
+    "announcement": "全新上線：素材自動重組 × 跨天非同步編排——買量決策在護欄內自動完成",
+    "hero": {
+      "eyebrow": "全託管買量 Agent",
+      "title": "你只定義目標，買量交給系統。",
+      "subtitle": "只需設定 7 天的買量目標數量與 CPA 成本，素材更新、投放、調整預算等決策，在護欄內由多個智能體協作完成，並透過 Lark 主動播報。我們做的不是設定式自動化，而是把一位資深投放優化師的判斷力，編碼成可託管的系統。",
+      "primaryCta": "預約 Demo",
+      "secondaryCta": "看它怎麼運作"
+    },
+    "team": {
+      "title": "一支永遠在線的 AI 買量團隊",
+      "subtitle": "不是一個聊天機器人，而是各司其職的多智能體控制迴圈。",
+      "items": {
+        "diagnostician": {
+          "name": "診斷師",
+          "description": "讀數據、找病因——素材疲勞、受眾飽和、學習期未脫離，先說清楚問題在哪。"
+        },
+        "strategist": {
+          "name": "策略師",
+          "description": "在品類策略檔的邊界內，決定下一步該動什麼、動多少。"
+        },
+        "creative": {
+          "name": "創意",
+          "description": "以素材庫模組化重組（hook×片段×CTA）產出 challenger，而非從零亂生成。"
+        },
+        "critic": {
+          "name": "風控",
+          "description": "每一筆花錢前審一次，擋掉幻覺與危險動作。"
+        },
+        "executor": {
+          "name": "執行器",
+          "description": "只呼叫經參數驗證的白名單動作，並強制租戶邊界。"
+        },
+        "reflector": {
+          "name": "反思／記憶",
+          "description": "每帳戶累積記憶，把每輪結果回灌下一次決策。"
+        }
+      }
+    },
+    "ladder": {
+      "title": "放權是「掙來的」，不是「給定的」",
+      "subtitle": "從 L1 建議模式起步，用客觀的決策吻合率，一級一級走到 L3 全託管。",
+      "items": {
+        "l1": {
+          "name": "L1 建議模式",
+          "scope": [
+            "全程診斷與提案",
+            "每個動作經你審核",
+            "累積決策日誌與吻合率",
+            "上線即可開始。"
+          ],
+          "footer": "升級條件：吻合率 ≥ 70%、連續 2 週。"
+        },
+        "l2": {
+          "name": "L2 半託管",
+          "scope": [
+            "低風險動作（換素材、小幅調預算）自動執行",
+            "高風險仍需你拍板",
+            "含品牌合規閘門。"
+          ],
+          "footer": "升級條件：吻合率 ≥ 80%、連續 3 週、0 重大事件。"
+        },
+        "l3": {
+          "name": "L3 全託管（帶護欄）",
+          "scope": [
+            "全自動，受硬上限與風控約束",
+            "異常自動回滾到上一個良好狀態",
+            "Lark 全互動 + 健康監控。"
+          ],
+          "footer": "上層：L4 跨帳戶 / 跨 campaign 組合級調度。"
+        }
+      },
+      "ctaText": "想知道你的帳戶現在能放到第幾級？跟我們聊聊。",
+      "ctaButton": "預約 Demo"
+    },
+    "onboarding": {
+      "title": "四步，把買量交給系統",
+      "subtitle": "從接入到全託管的落地路徑，風險逐級釋放。",
+      "steps": {
+        "connect": {
+          "title": "接入帳戶與目標",
+          "description": "串接廣告平台與 MMP，設定 7 天買量目標數量與 CPA。"
+        },
+        "advisory": {
+          "title": "L1 唯讀建議",
+          "description": "系統診斷提案、你審核，開始累積決策吻合率。"
+        },
+        "semi": {
+          "title": "半託管放權",
+          "description": "低風險自動、高風險拍板，品牌合規閘門上線。"
+        },
+        "full": {
+          "title": "全託管帶護欄",
+          "description": "達標後全自動，硬護欄與自動回滾全開。"
+        }
+      },
+      "cta": "開始第一步"
+    },
+    "demo": {
+      "title": "想看它在你的帳戶上跑？",
+      "subtitle": "留下聯絡方式，我們用一個真實品類示範一輪完整的決策迴圈。",
+      "fields": {
+        "name": "姓名",
+        "company": "公司",
+        "platform": "主要投放平台",
+        "spend": "月買量規模",
+        "email": "Email"
+      },
+      "submit": "預約 Demo"
+    },
+    "trust": {
+      "title": "為什麼敢把真錢交給它",
+      "subtitle": "在 outcome-based 定價下，決策風險由 Cluega 承擔——所以護欄、合規、隔離不是加分項，而是地基。",
+      "items": {
+        "guardrails": {
+          "name": "護欄體系",
+          "description": "硬預算上限不可覆寫・變動限速・circuit breaker 異常自動暫停回滾・DRS 閘門・動作白名單・每筆決策留稽核日誌。"
+        },
+        "brand": {
+          "name": "品牌合規閘門",
+          "description": "Logo 與固定元素由程式精準合成、不進生成模型，所以不會被幻覺改動；上線前自動 QA 比對品牌色票與平台政策。"
+        },
+        "isolation": {
+          "name": "多租戶隔離",
+          "description": "每個任務嚴格限定單一租戶，執行器強制邊界檢查；素材與廣告數據分租戶儲存與加密（OCI Vault 管金鑰）。"
+        }
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "items": {
+        "q1": {
+          "question": "全託管會不會亂花錢？",
+          "answer": "不會。有不可覆寫的硬預算上限、變動限速與 circuit breaker，異常自動暫停回滾，每筆花錢都先過風控。"
+        },
+        "q2": {
+          "question": "我能不能先不放全自動？",
+          "answer": "可以。從 L1 建議模式起步，你核可每個動作，放權速度完全由你決定。"
+        },
+        "q3": {
+          "question": "資料太少也壓得住 CPA 嗎？",
+          "answer": "這是物理限制，人或 AI 都壓不住。系統會在可信度過低（DRS 偏低）時改看領先指標、或忍住不動，而不是硬猜。"
+        },
+        "q4": {
+          "question": "素材是 AI 亂生成的嗎？品牌會跑掉嗎？",
+          "answer": "Logo 與固定元素靠程式合成、不進生成模型；上線前自動比對品牌色票與平台政策，不通過就擋下。"
+        },
+        "q5": {
+          "question": "會跟平台的 Advantage+／Smart+ 打架嗎？",
+          "answer": "不會。出價層讓給平台，agent 只操作組合層與素材策略層，並避開平台學習期，不與其同向重複調整。"
+        }
+      }
+    },
+    "explore": {
+      "title": "探索 Cluega 的其他能力",
+      "items": {
+        "im": {
+          "title": "Cluega IM 歸因",
+          "description": "把 TikTok → Web → Zalo／LINE 的深層轉換接起來，這是市面上少有人做到的歸因能力。",
+          "cta": "了解更多 →"
+        },
+        "mosaic": {
+          "title": "Cluega 客戶成功經理 運營",
+          "description": "不想自己管帳戶？把營運交給 Cluega 客戶成功經理。",
+          "cta": "了解更多 →"
+        }
+      }
+    }
+  },
+  "commerceOps": {
+    "hero": {
+      "newPill": "全新上線：電商運營 Agent",
+      "title": "一個 agent，把你的電商日常跑起來。",
+      "subtitle": "接上 Shopee、Lazada、TikTok Shop 與 Zalo／LINE，Cluega 自動診斷店鋪、長流量、產內容、跨渠道上下架，並透過 Lark 主動播報。我們把懂東南亞電商的運營判斷力，編碼成一個會自己動手的系統。",
+      "primaryCta": "免費開始",
+      "secondaryCta": "看它怎麼運作"
+    },
+    "platforms": {
+      "heading": "一個 agent · 你所有的電商與 IM 通路"
+    },
+    "values": {
+      "title": "一種新的電商運營方式",
+      "items": {
+        "commerce": {
+          "fig": "0.2",
+          "title": "為電商而生",
+          "description": "由東南亞電商運營的實戰知識塑形，不是通用聊天機器人。"
+        },
+        "agents": {
+          "fig": "0.3",
+          "title": "由 AI agent 驅動",
+          "description": "多個專職 agent 協作：診斷、增長、內容、運營，各司其職。"
+        },
+        "speed": {
+          "fig": "0.4",
+          "title": "為速度設計",
+          "description": "24/7 不間斷，異常即時診斷，一句指令跨步驟跑完。"
+        }
+      }
+    },
+    "features": {
+      "items": {
+        "diagnose": {
+          "eyebrow": "1.0 診斷",
+          "title": "在虧損之前，就知道哪裡出問題",
+          "subtitle": "Cluega 全天候盯著你的訂單、庫存與轉換率。一有異動，它不只是通知你——它診斷出原因，並告訴你怎麼修，在你打開後台之前。",
+          "subpages": [
+            "1.1 健康監控",
+            "1.2 異常診斷",
+            "1.3 修復建議",
+            "1.4 Lark 播報"
+          ]
+        },
+        "grow": {
+          "eyebrow": "2.0 增長",
+          "title": "出現在買家搜尋的每一個地方",
+          "subtitle": "讓你的商品在 Google、TikTok 搜尋，以及 ChatGPT、Perplexity 等 AI 搜尋裡被找到、被推薦——你不必搞懂 SEO 和 GEO 的差別。",
+          "subpages": [
+            "2.1 SEO",
+            "2.2 GEO",
+            "2.3 商品文案",
+            "2.4 站內優化"
+          ]
+        },
+        "content": {
+          "eyebrow": "3.0 內容",
+          "title": "一個月的內容，幾分鐘搞定",
+          "subtitle": "Cluega 一次生成整月的社群內容，跨渠道排程，並追蹤成效。它會學哪種內容最有效、隨時間調整，大幅減少手動工作。",
+          "subpages": [
+            "3.1 內容生成",
+            "3.2 排程",
+            "3.3 成效追蹤",
+            "3.4 素材庫"
+          ]
+        },
+        "expand": {
+          "eyebrow": "4.0 擴張",
+          "title": "每個渠道都有 playbook，你全都有",
+          "subtitle": "內建 Shopee、Lazada、TikTok Shop、Shopify 的運營技能。不必從零開始就能擴張到新渠道，並在同一處追蹤所有渠道的表現。",
+          "subpages": [
+            "4.1 Shopee",
+            "4.2 Lazada",
+            "4.3 TikTok Shop",
+            "4.4 統一報表"
+          ]
+        },
+        "operate": {
+          "eyebrow": "5.0 運營",
+          "title": "一句指令，跨步驟自動跑完",
+          "subtitle": "用對話下指令，Cluega 就在你的店鋪上跨步驟執行：對話運營、自動技能、渠道連接、排程託管——四個模組，一個運營引擎。",
+          "subpages": [
+            "5.1 對話運營",
+            "5.2 自動技能",
+            "5.3 渠道連接",
+            "5.4 排程託管"
+          ]
+        }
+      }
+    },
+    "proof": {
+      "quote": "(放一句真實客戶評價)",
+      "author": "姓名 · 品牌",
+      "scale": "Cluega 驅動東南亞數千個店鋪的日常運營"
+    },
+    "finalCta": {
+      "title": "為下一代賣家打造。今天就能用。",
+      "primaryCta": "免費開始",
+      "secondaryCta": "聯絡業務"
+    }
+  },
+  "agentBlog": {
+    "announcement": {
+      "text": "全新 IM 歸因上線:讓 LINE、Zalo 裡的每一筆對話都接回你的廣告 ROI",
+      "cta": "立即了解"
+    },
+    "hero": {
+      "category": "產品",
+      "date": "2026 年 6 月",
+      "readTime": "4 分鐘閱讀",
+      "author": "[作者姓名]",
+      "title": "Cluega Agent 上線:在通訊軟體裡跟 Agent 協作管理投放",
+      "excerpt": "不用切後台、不用學新工具。在你每天都在用的通訊軟體裡,用一句話下指令,Agent 就替你跑投放、回客戶、拉數據;把投放交給它託管後,它會主動回報成效、發現異常先告警、要拍板時直接私訊你——像多了一位 24/7 在線的行銷夥伴,而且每一步都可歸因。"
+    },
+    "featured": {
+      "product": {
+        "category": "產品",
+        "date": "2026 年 2 月",
+        "title": "不只是下指令——把投放託管給 Agent,它主動向你回報",
+        "excerpt": "把投放交給 Cluega 託管後,它在通訊軟體裡持續向你回報成效、發現異常先告警、要決策時直接私訊你。你回一句話就能調整,協作全程留在同一個對話裡。",
+        "author": "[姓名]",
+        "role": "產品"
+      },
+      "perspective": {
+        "category": "觀點",
+        "date": "2026 年 4 月",
+        "title": "在東南亞,真正的成交場是通訊軟體,不是網站",
+        "excerpt": "越南、泰國的購買決策大量發生在 LINE OA 與 Zalo。看不見這段,就等於看不見一半的轉換。",
+        "author": "[姓名]",
+        "role": "創辦人"
+      },
+      "company": {
+        "category": "公司",
+        "date": "2025 年 8 月",
+        "title": "Cluega 的使命:做東南亞績效行銷的歸因基礎設施",
+        "excerpt": "我們不做又一個儀表板。我們補上整個產業缺的那一層——可歸因的通訊軟體行銷。",
+        "author": "[姓名]",
+        "role": "執行長暨共同創辦人"
+      }
+    },
+    "latest": {
+      "title": "最新洞察",
+      "categories": {
+        "all": "全部",
+        "product": "產品",
+        "guides": "指南",
+        "inside": "幕後",
+        "perspectives": "觀點",
+        "company": "公司"
+      }
+    },
+    "articles": {
+      "p1": {
+        "title": "Cluega Agent 上線:在通訊軟體裡跟 Agent 協作管理投放",
+        "excerpt": "不切後台,用對話下指令完成行銷與銷售,全程可歸因。"
+      },
+      "p2": {
+        "title": "把投放託管給 Agent,它主動向你回報",
+        "excerpt": "託管後在通訊軟體裡持續推播成效日報、異常告警與待決策事項;你回一句話就能調整,協作全程留在同一個對話裡。"
+      },
+      "p3": {
+        "title": "IM 歸因:把 Zalo、LINE 的對話接回你的廣告 ROI",
+        "excerpt": "補上私訊斷鏈的那一段,讓對話與成交回到歸因鏈路。"
+      },
+      "p4": {
+        "title": "TikTok → 網站 → IM:全鏈路深度歸因",
+        "excerpt": "跨平台追蹤從廣告點擊到通訊軟體成交的完整路徑。"
+      },
+      "p5": {
+        "title": "自訂技能(Custom Skills):為你的 Agent 裝上行業知識",
+        "excerpt": "讓助理具備特定領域的專業知識與話術。"
+      },
+      "p6": {
+        "title": "持久記憶 + 雲端電腦:24/7 不掉線的行銷助理",
+        "excerpt": "保留全部上下文,跨對話、跨日連續工作。"
+      },
+      "p7": {
+        "title": "一致的品牌 AI 身份",
+        "excerpt": "基於你的工作流程訓練,並與你現有的工具整合。"
+      },
+      "g1": {
+        "title": "東南亞績效行銷的 IM 轉換漏斗該怎麼讀",
+        "excerpt": "把私訊互動轉成可行動的訊號,在當下接住每一筆機會。"
+      },
+      "g2": {
+        "title": "從 founder-led 投放走向可規模化的投放引擎",
+        "excerpt": "創辦人親手投放之後,如何把流程交給系統與 Agent。"
+      },
+      "g3": {
+        "title": "媒體採買團隊如何用 Agent 把雜活自動化",
+        "excerpt": "研究、回覆、跟進,讓人專注在真正會成交的單。"
+      },
+      "g4": {
+        "title": "5 個值得馬上跑的 AI 行銷工作流",
+        "excerpt": "附可直接在 Cluega Agent 試用的指令範例。"
+      },
+      "i1": {
+        "title": "我們為什麼叫 Cluega",
+        "excerpt": "品牌名背後的故事(對標 Attio「How we chose the name」)。"
+      },
+      "i2": {
+        "title": "我們辦了第一場內部 Agent Hackathon",
+        "excerpt": "一個週末,把 Agent 能力交到團隊手上,看會長出什麼。"
+      },
+      "v1": {
+        "title": "在東南亞,真正的成交場是通訊軟體,不是網站",
+        "excerpt": "越南、泰國的購買決策大量發生在 LINE OA 與 Zalo。"
+      },
+      "v2": {
+        "title": "AI 原生的下一代行銷:歸因會被重寫",
+        "excerpt": "Agent 不只是摘要,而是真的替你完成工作。"
+      },
+      "v3": {
+        "title": "為什麼又一個儀表板救不了你的投放",
+        "excerpt": "缺的不是更多圖表,是缺一層可歸因的 IM 行銷。"
+      },
+      "c1": {
+        "title": "Cluega 的使命:做東南亞績效行銷的歸因基礎設施",
+        "excerpt": "我們補上整個產業缺的那一層。"
+      }
+    }
+  },
+  "collab": {
+    "hero": {
+      "chip": "Sarah Lin is collaborating on this session",
+      "h1Lead": "協作,",
+      "h1Highlight": "不妥協",
+      "h1Rest": "任何資產安全。",
+      "subtitle": "分享對話、邀請團隊共創、精細控管誰能看到什麼——一套授權體系,讓代投與品牌方無縫協作。",
+      "primaryCta": "免費開始使用",
+      "secondaryCta": "預約 Demo"
+    },
+    "preview": {
+      "title": "進入 Cluega 協作空間。",
+      "subtitle": "一句話把對話變成一個讓整個團隊都能貢獻的協作場。"
+    },
+    "share": {
+      "title": "絲滑共享,只給對的人看見。",
+      "points": {
+        "link": {
+          "title": "一鍵生成共享連結。",
+          "desc": "點擊共享即發出邀請,對方只能看到這次對話範圍,你其他廣告帳戶的資料不會洩漏——隔離發生在資料層,不只是前端隱藏。"
+        },
+        "session": {
+          "title": "單一會話,任意人數。",
+          "desc": "代投夥伴、品牌方主管、設計師——全部邀請進同一對話,人員替換不需重新發起授權,撤銷即時生效。"
+        },
+        "data": {
+          "title": "資料權跟著帳戶走。",
+          "desc": "未被授權的廣告數據即使在同一個會話中也完全遮蔽,AI 分析了你的帳戶,對方也看不到超出授權範圍的任何內容。"
+        }
+      },
+      "seatLabels": {
+        "operator": "操作席",
+        "collaborator": "協作席"
+      },
+      "members": {
+        "sarah": "加入 3 分鐘前・代投團隊",
+        "chris": "加入 12 分鐘前・品牌方",
+        "mike": "加入 24 分鐘前・代投團隊",
+        "jenny": "邀請待接受・品牌方",
+        "kevin": "加入 1 小時前・代投團隊",
+        "lisa": "加入 2 小時前・品牌方",
+        "alex": "加入 3 小時前・代投團隊"
+      }
+    },
+    "quote": {
+      "text": "以前跨公司協作,換一個負責人就要重新設定一堆帳號;現在只要授權給對方公司,換誰來接手都不用重設,省了我們一半的對接時間。",
+      "name": "張副總",
+      "title": "數位行銷總監・某消費品集團",
+      "avatar": "張"
+    },
+    "tabs": {
+      "label": "共創・下載・編輯",
+      "title": "AI 幫你生,你來精修,一鍵帶走。",
+      "items": {
+        "cocreate": {
+          "title": "共創:一起對 AI 下指令",
+          "desc": "邀請任意成員進入對話,大家都能對 AI 補充指令、回饋意見,每筆操作記錄執行者,全程可追溯。"
+        },
+        "download": {
+          "title": "對話文件一鍵下載",
+          "desc": "AI 生成的分析報告、廣告腳本、策略摘要,直接下載為 PDF、Word 或 Markdown,保留完整格式,開會即用。"
+        },
+        "edit": {
+          "title": "素材即時編輯",
+          "desc": "生成的廣告圖片不滿意?在 Cluega 裡直接去背、調整尺寸、重新生成局部,改完即可投放。"
+        },
+        "video": {
+          "title": "影片與文案二次加工",
+          "desc": "廣告影片可調整時長、替換字幕;文案可直接在對話中二次編輯,AI 記得你的修改意圖,下次生成更準。"
+        }
+      }
+    },
+    "bento": {
+      "title": "每一個協作動作,都在 Cluega 裡完整記錄。",
+      "items": {
+        "audit": {
+          "h3": "追蹤每一筆授權。",
+          "desc": "誰在什麼時間對哪個廣告帳戶做了什麼——完整稽核軌跡,合規要求一次達到。"
+        },
+        "credit": {
+          "h3": "消耗一眼掌握。",
+          "desc": "誰觸發了哪些 AI 任務、燒了多少積分,帳本透明,費用不超支。"
+        },
+        "matrix": {
+          "h3": "角色清晰,不踩線。",
+          "desc": "一張矩陣看清楚每個人能做什麼——高風險操作自動要求審批,刪除一律禁止。"
+        },
+        "expiry": {
+          "h3": "合約到期,授權自動失效。",
+          "desc": "跨公司授權可設有效期,合約結束系統自動收回存取——不用手動追蹤,不留後患。"
+        }
+      }
+    },
+    "features": {
+      "title": "協作只是開始。Cluega 完整連接你的工作流。",
+      "items": {
+        "chat": {
+          "title": "AI 廣告對話",
+          "desc": "與 AI 直接分析廣告數據、生成策略報告"
+        },
+        "accounts": {
+          "title": "廣告帳戶接入",
+          "desc": "Meta、Google、TikTok 一鍵 OAuth 授權同步"
+        },
+        "assets": {
+          "title": "素材生成",
+          "desc": "AI 生圖、生影片、生文案,直接用於投放"
+        },
+        "dashboard": {
+          "title": "消耗儀表板",
+          "desc": "廣告花費與積分消耗,一個畫面完整掌握"
+        },
+        "collab": {
+          "title": "團隊協作與權限",
+          "desc": "共享對話、共創、精細授權,資產安全"
+        },
+        "automation": {
+          "title": "自動化投放",
+          "desc": "AI Agent 代替人工執行廣告優化操作"
+        },
+        "security": {
+          "title": "稽核與安全",
+          "desc": "全程留痕,操作可追溯,合規不費力"
+        },
+        "billing": {
+          "title": "積分與計費",
+          "desc": "透明積分帳本,用多少付多少,毛利清楚"
+        }
+      }
+    },
+    "cta": {
+      "title": "邀請整個團隊,從今天開始。",
+      "subtitle": "協作席永久免費。14 天 Pro 試用,無需信用卡。",
+      "primaryCta": "免費開始使用",
+      "secondaryCta": "預約銷售 Demo"
+    }
+  },
+  "platformAgent": {
+    "hero": {
+      "eyebrow": "Cluega for IM Agent 團隊",
+      "h1Line1": "把你的 Agent，",
+      "h1Line2": "部署進每日必用的 IM",
+      "subtitle": "營銷不應該只在 Cluega 網頁裡發生。將你的 Agent 部署到 Telegram、LINE、Lark——隨時對話、隨時下達任務、隨時接收結果。專為營銷投放垂直打造。",
+      "primaryCta": "立即部署 →",
+      "secondaryCta": "聯繫我們了解更多"
+    },
+    "logoStrip": {
+      "label": "一個入口，調度全球 400+ 主流大模型"
+    },
+    "valueProp1": {
+      "eyebrow": "無縫 IM 接入",
+      "label": "在你最熟悉的 IM 裡，直接指揮你的 Agent",
+      "description": "不需要打開網頁、不需要切換工具。在 Telegram 發一條消息，Agent 立即理解意圖、調用技能、返回結果。對話即指揮，IM 即工作台。",
+      "chart": {
+        "tooltipLabel": "已執行任務",
+        "tooltipValue": "238 個"
+      }
+    },
+    "valueProp2": {
+      "eyebrow": "持久執行時",
+      "label": "雲端持久託管，離線不中斷的智能助理",
+      "description": "Agent 運行在 Cluega 雲端持久工作區。長任務異步執行，斷線不中斷——完成後自動推送結果到你的 IM。跨任務記憶留存，Agent 越用越懂你。",
+      "cards": {
+        "statusRunning": "執行中",
+        "statusDone": "已完成",
+        "task1Name": "深度市場調研",
+        "task2Name": "競品數據分析",
+        "task3Name": "用戶畫像生成"
+      }
+    },
+    "valueProp3": {
+      "eyebrow": "自定義技能層",
+      "label": "內置核心技能包，完美融合你的業務邏輯",
+      "description": "為你的 Agent 裝配垂直技能包：投放報表、競品監測、素材生成、AAIGS 托管優化……你的業務邏輯就是 Agent 的專業知識。",
+      "list": {
+        "unit": "次",
+        "name1": "投放報表",
+        "name2": "競品監測",
+        "name3": "素材生成",
+        "name4": "AIGS 托管",
+        "name5": "數據分析",
+        "name6": "自動優化"
+      }
+    },
+    "testimonial": {
+      "quote": "「以前每天早上第一件事是打開十幾個 Tab 手動拉數據。現在我在 Telegram 發一條消息，Agent 十分鐘內把完整報告發給我。Cluega 讓我的團隊真正把時間花在決策上。」",
+      "author": "Marcus Vance",
+      "role": "Growth Marketing Director",
+      "cta": "預約 Demo"
+    },
+    "featureA": {
+      "eyebrow": "IM 通道接入",
+      "title": "部署你的 Agent 用於銷售與營銷",
+      "description": "Cluega Agent 原生接入 Telegram、LINE、Lark。通過 QR 掃碼完成一鍵綁定，無需技術背景。operator 可隨時隨地通過 IM 與 Agent 對話、下達任務指令。",
+      "cta": "了解更多"
+    },
+    "featureB": {
+      "eyebrow": "長任務異步協議",
+      "title": "任務耗時幾十分鐘？關掉手機，等通知就好",
+      "description": "Cluega 持久執行時：跨任務文件系統 / terminal / 狀態長存。Agent 收到任務立即回執（ACK），在雲端持續運行——進度實時推送、結果主動通知，operator 斷線不影響任何執行。",
+      "cta": "了解更多",
+      "notification": {
+        "sender": "Cluega Agent",
+        "time": "剛剛",
+        "title": "任務已完成",
+        "body": "北美服飾小時報已生成，點擊查看完整報告"
+      }
+    },
+    "featureC": {
+      "eyebrow": "技能層 Skill Layer",
+      "title": "不是通用助理，是你行業的專屬作戰系統",
+      "description": "Cluega 技能層沿用 Agent Registry 模式，operator 可為 Agent 裝配垂直 know-how。內置營銷投放核心技能包，支持上傳自定義業務規則。權限分級 L0–L3，花費型動作二步確認，安全可控。",
+      "cta": "了解更多",
+      "picker": {
+        "title": "選擇技能模板",
+        "newBadge": "新",
+        "card1": "新建技能",
+        "card2": "投放報表",
+        "card3": "競品監測",
+        "card4": "素材生成",
+        "card5": "數據分析",
+        "card6": "自動優化"
+      }
+    },
+    "caseStudy": {
+      "title": "跨境電商團隊在 30 分鐘內就能完成 Agent 部署並收到第一條任務報告",
+      "description": "通過 Cluega Agent 將每日數據拉取工作從「人工 2 小時」縮短為「發一條 Telegram 消息，10 分鐘自動交付」——同時接入 AAIGS 托管優化，全面激活投放效益，實現業務的持續穩健增長。"
+    },
+    "channelBand": {
+      "title": "讓你的 Agent 工作在",
+      "subtitle": "直接在你的團隊日常 IM 裡，指揮 Agent 完成營銷投放任務",
+      "comingSoon": "即將支持"
+    },
+    "finalCta": {
+      "headingPrefix": "為你的 Agent 接入",
+      "subtitle": "部署 Cluega Agent 到你的 IM——無論你在哪，任務就在哪。",
+      "primaryCta": "立即部署 →",
+      "secondaryCta": "預約 Demo"
+    }
+  }
+}

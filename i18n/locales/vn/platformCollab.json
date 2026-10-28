@@ -1,0 +1,1448 @@
+{
+  "platformCollab": {
+    "hero": {
+      "eyebrow": "Total Chat-to-Ad Attribution",
+      "title": "Mỗi cuộc trò chuyện đều có dấu vết.\nMỗi lần tối ưu đều lấy kết quả làm chuẩn.",
+      "description": "Xóa bỏ khoảng đứt gãy dữ liệu lớn nhất giữa dữ liệu quảng cáo và tin nhắn riêng. Cluega IM tự động kết nối từng lượt tư vấn với kế hoạch quảng cáo ở tầng sâu nhất, để từng đồng chi tiêu đều chịu trách nhiệm với kết quả.",
+      "primaryCta": "Bắt đầu ngay",
+      "secondaryCta": "Liên hệ chúng tôi",
+      "emailLabel": "Địa chỉ email của bạn",
+      "emailPlaceholder": "Địa chỉ email của bạn",
+      "mobileSubmit": "Bắt đầu ngay",
+      "graphTabs": [
+        "Kết nối hội thoại toàn kênh",
+        "Attribution creative tức thời",
+        "Xác minh giao dịch thật & tự attribution",
+        "Tăng ngân sách & tự động phản hồi"
+      ],
+      "workflowCards": {
+        "moreSuffix": "thuộc tính khác",
+        "cards": {
+          "inboundConsultation": {
+            "title": "Tư vấn vào chat từ nhấp"
+          },
+          "adDataAttribution": {
+            "title": "Truy xuất dữ liệu quảng cáo"
+          },
+          "aiAssistance": {
+            "title": "AI hỗ trợ đa vai trò"
+          },
+          "leadStatus": {
+            "title": "Đánh giá trạng thái lead"
+          },
+          "adOptimization": {
+            "title": "Phản hồi tối ưu phân phối"
+          }
+        },
+        "attributes": {
+          "accountHome": "Xem hồ sơ tài khoản khách hàng chỉ với một cú nhấp",
+          "sourceMedia": "Nguồn mạng xã hội (WhatsApp / Tiktok...)",
+          "chatHistory": "Lịch sử trò chuyện",
+          "campaignName": "Tên chiến dịch quảng cáo",
+          "adGroupId": "Mã nhóm quảng cáo",
+          "sourceCreative": "Creative nguồn",
+          "translation": "Dịch hai chiều",
+          "multiRoleChat": "Chat hỗ trợ đa vai trò",
+          "aiSummary": "AI tóm tắt thông minh",
+          "conversionIntent": "Đánh giá ý định chốt đơn của khách",
+          "coldLeadJudgement": "Tự động đánh giá lead không có ý định",
+          "statusStatistics": "Thống kê danh sách trạng thái theo thời gian thực",
+          "budgetBoost": "Tăng ngân sách bằng một cú nhấp",
+          "conversionCallback": "Tự động gửi ý định chốt đơn về tài khoản quảng cáo",
+          "realRoi": "Xem ROI chốt đơn thực"
+        }
+      }
+    },
+    "flexibleModel": {
+      "header": {
+        "prefix": "Đội ngũ Cluega đã xây dựng ",
+        "highlight": "vòng lặp khép kín toàn trình từ insight đến creative",
+        "suffix": ", giúp thương hiệu đạt tăng trưởng chắc chắn trong digital marketing."
+      },
+      "quote": {
+        "body": "Trước đây, dữ liệu quảng cáo, cuộc trò chuyện qua tin nhắn riêng và dữ liệu đơn hàng của chúng tôi giống như những mảnh rời rạc. Chúng tôi hoàn toàn không biết khách hàng đang chat trên WhatsApp thật ra đã bấm vào video nào để đi vào. Cluega IM đã phá vỡ hoàn toàn chiếc hộp đen đó. Giờ đây, chúng tôi chỉ cần để CSKH bấm đơn giản vào “Hoàn tất thanh toán”, hoặc để AI tự động nhận diện, là có thể biết ROAS thật sự.",
+        "author": "Maya Chen",
+        "role": "Revenue Operations · Khách hàng Cluega"
+      },
+      "cards": {
+        "utmTracking": {
+          "title": "Theo dõi UTM mạng xã hội, mọi luồng traffic đều có dấu vết.",
+          "description": "Tạo liên kết theo dõi riêng chỉ với một cú nhấp, ví dụ TikTok.me. Tự động ghi nhận kênh vào, thời gian và vị trí địa lý của người dùng. Dù là quảng bá ma trận online hay quét mã offline để vào chat, luồng traffic vào private domain không còn điểm mù."
+        },
+        "autoAttribution": {
+          "title": "Tự attribution hoàn toàn tự động, không cần gắn nhãn thủ công.",
+          "description": "Trang bị mô hình ngôn ngữ AI semantic, tự động đọc và hiểu ngữ cảnh kinh doanh trong hội thoại. Không cần CSKH sửa tag thủ công, hệ thống lập tức tự attribution và khóa đến tầng sâu nhất của quảng cáo, mã chiến dịch và video creative."
+        },
+        "knowledgeAgents": {
+          "title": "Nạp tri thức có định hướng, phái sinh agent chuyên biệt.",
+          "description": "Tự do tạo nhiều cơ sở dữ liệu độc lập, phân nhóm đưa vào mô tả sản phẩm, FAQ, các tài liệu khác nhau hoặc lịch sử hội thoại của các tài khoản khác nhau. Cluega học sâu, diễn giải chính xác và tạo trợ lý CSKH AI theo từng hướng dịch vụ."
+        },
+        "mmtFeedback": {
+          "title": "Tự động trả kết quả MMT, tăng ngân sách chính xác.",
+          "description": "Tự động gửi dữ liệu chốt đơn và chỉ số MMT về thuật toán TikTok theo thời gian thực, thay đổi mô hình chạy volume sau khi đăng. Đồng thời có thể bấm một lần trong panel “Chi tiết creative quảng cáo” để tăng ngân sách, giúp các kế hoạch lợi nhuận cao có cơ hội thắng lớn hơn."
+        }
+      },
+      "visuals": {
+        "utm": {
+          "adLinks": "Liên kết quảng cáo",
+          "socialChat": "Trò chuyện mạng xã hội",
+          "utmParams": "Tham số UTM",
+          "manyToMany": "Many to many",
+          "searchPlaceholder": "Search...",
+          "utmItems": [
+            "utm_campaign: Spring_Flask",
+            "utm_source: Offline QR",
+            "utm_medium: Video"
+          ]
+        },
+        "attribution": {
+          "connectors": {
+            "where": "Where",
+            "and": "And"
+          },
+          "is": "is",
+          "fields": {
+            "aiContext": "Ngữ cảnh AI (ngữ nghĩa)",
+            "adId": "Ad ID (nguồn quảng cáo)",
+            "matchStatus": "Trạng thái khớp"
+          },
+          "values": {
+            "paymentCompleted": "Hoàn tất thanh toán",
+            "adIdValue": "1854183913656450",
+            "matchSuccess": "Khớp thành công 100%"
+          },
+          "autoMatched": "AI Auto-Matched (đang tự động kiểm tra)",
+          "removeAll": "Remove All"
+        },
+        "knowledge": {
+          "title": "Tạo knowledge base",
+          "selectContent": "Chọn nội dung",
+          "selectedPlaceholder": "Sổ tay quy cách sản phẩm",
+          "options": {
+            "manual": {
+              "label": "Sổ tay quy cách sản phẩm",
+              "sublabel": "Product Manual PDF"
+            },
+            "faq": {
+              "label": "FAQ chăm sóc khách hàng",
+              "sublabel": "Q&A Doc"
+            },
+            "brand": {
+              "label": "Phương pháp giọng thương hiệu",
+              "sublabel": "Brand Tone TXT"
+            }
+          }
+        },
+        "relationship": {
+          "title": "Bản đồ quan hệ",
+          "live": "Live",
+          "company": "Company",
+          "deal": "Deal",
+          "person": "Person",
+          "invoice": "Invoice"
+        },
+        "mmt": {
+          "paymentTitle": "Hoàn tất thanh toán",
+          "recordPrefix": "Đã gộp thống kê",
+          "recordSuffix": "giao dịch (Records)",
+          "feedbackTitle": "TikTok MMT phản hồi dữ liệu",
+          "feedbackDescription": "Tự động điều phối tối ưu thuật toán chính thức",
+          "budgetTitle": "Tăng ngân sách tài khoản quảng cáo",
+          "clickLabel": "Nhấp",
+          "budgetButton": "Tăng ngân sách quảng cáo"
+        }
+      }
+    },
+    "currentContext": {
+      "header": {
+        "highlight": "Kết nối liền mạch, cộng tác đội nhóm hiệu quả tối đa.",
+        "body": "Phá vỡ rào cản giữa các bộ phận kinh doanh, để CSKH, media buyer, sales và AI agent cùng chia sẻ chiến lược tăng trưởng toàn cầu theo thời gian thực trong cùng một cửa sổ."
+      },
+      "items": {
+        "convertToLead": {
+          "title": "Chuyển thành lead",
+          "description": "Sau khi hội thoại hoàn tất, có thể chuyển thành lead CRM có cấu trúc chỉ với một cú nhấp và lưu vĩnh viễn thành tài sản dữ liệu khách hàng trong lead mạng xã hội."
+        },
+        "teamCollaboration": {
+          "title": "Cộng tác đội nhóm",
+          "description": "Hỗ trợ CSKH, media buyer và quản lý cùng đọc và bàn giao tức thời, chấm dứt điểm mù giao tiếp khách hàng khi làm việc đơn lẻ."
+        },
+        "userNotes": {
+          "title": "Ghi chú người dùng",
+          "description": "Gắn ghi chú trực tiếp vào vị trí của một câu cụ thể trong hội thoại khách hàng, giúp đồng đội cộng tác hiểu ngay ngữ cảnh lịch sử."
+        }
+      }
+    },
+    "enrichment": {
+      "header": {
+        "highlight": "Cụm knowledge base, ngữ nghĩa tự tiến hóa.",
+        "body": "Tự do xây dựng nhiều cơ sở dữ liệu tách biệt để huấn luyện các bộ não CSKH khác nhau; nhật ký tự động lưu theo từng tài khoản và hỗ trợ chia sẻ học tập bằng một cú nhấp; đồng thời có thể nạp thủ công tài liệu đa dạng bất cứ lúc nào để thúc đẩy tri thức tăng trưởng chính xác."
+      },
+      "cards": {
+        "knowledgeBases": {
+          "title": "Tạo nhiều knowledge base độc lập.",
+          "description": "Tạo cơ sở dữ liệu đa chiều, lần lượt nhập tri thức chuyên môn của từng lĩnh vực, nhanh chóng huấn luyện AI thành các CSKH chuyên biệt cho tư vấn, hậu mãi, kéo traffic và nhiều hướng khác."
+        },
+        "accountConversationArchive": {
+          "title": "Tự động phân loại và lưu hội thoại theo tài khoản.",
+          "description": "Thông tin hội thoại tài khoản được lưu hoàn toàn tự động. Hệ thống liền mạch lưu lại đối thoại thật với khách hàng toàn cầu, phân loại và lưu trữ thông minh theo từng tài khoản liên lạc, hỗ trợ chia sẻ một cú nhấp tới knowledge base chỉ định bất cứ lúc nào để thúc đẩy AI học tăng lượng."
+        },
+        "manualDocumentFeeding": {
+          "title": "Nạp thủ công tài liệu đa dạng.",
+          "description": "Có thể kéo và tải lên thủ công sổ tay sản phẩm, quy cách hậu mãi và các tài liệu PDF / DOCX bất cứ lúc nào. Cluega sẽ học sâu để loại bỏ ảo giác và sai lệch trong câu trả lời."
+        }
+      },
+      "visuals": {
+        "knowledgeBases": {
+          "rows": {
+            "productLibrary": {
+              "source": "Thư viện thiết bị làm đẹp 2026",
+              "target": "Huấn luyện thành: AI CSKH sản phẩm tiền tuyến"
+            },
+            "faqLibrary": {
+              "source": "Thư viện FAQ hậu mãi phổ biến",
+              "target": "Huấn luyện thành: AI CSKH chuyên đổi trả"
+            },
+            "promoDiscountLibrary": {
+              "source": "Thư viện giảm giá hoạt động thường kỳ",
+              "target": "Huấn luyện thành: AI CSKH dẫn dắt khuyến mãi"
+            }
+          }
+        },
+        "accountConversationArchive": {
+          "headers": {
+            "account": "Tài khoản front-end",
+            "source": "Nguồn kênh",
+            "conversations": "Tổng hội thoại hiệu quả",
+            "progress": "Tiến độ học"
+          },
+          "rows": {
+            "usSupport": {
+              "name": "EcoSip_US_Support",
+              "id": "5591d31d-d0c...",
+              "source": "TikTok Ads",
+              "sourceKey": "tiktok",
+              "conversations": "1.000",
+              "progressCurrent": "1000",
+              "progressTotal": "1000",
+              "roundLabel": "Vòng 1",
+              "statusLabel": "Đang tích lũy"
+            },
+            "euConsulting": {
+              "name": "EcoSip_EU_Consulting",
+              "id": "4491331d-1d0...",
+              "source": "WhatsApp",
+              "sourceKey": "whatsapp",
+              "conversations": "450",
+              "progressCurrent": "450",
+              "progressTotal": "1000",
+              "roundLabel": "Vòng 1",
+              "statusLabel": "Đang tích lũy"
+            },
+            "asiaSupport": {
+              "name": "EcoSip_Đông Nam Á_Hậu mãi",
+              "id": "019dd1f4-bd9...",
+              "source": "Zalo",
+              "sourceKey": "zalo",
+              "conversations": "120",
+              "progressCurrent": "120",
+              "progressTotal": "1000",
+              "roundLabel": "Vòng 1",
+              "statusLabel": "Đang tích lũy"
+            }
+          }
+        },
+        "manualDocumentFeeding": {
+          "documentLabel": "Sổ tay sản phẩm.docx",
+          "learningLabel": "Đang học",
+          "successLabel": "Xác minh hoàn tất",
+          "successBadge": "(Success)"
+        }
+      }
+    },
+    "dataSources": {
+      "header": {
+        "highlight": "Tự động hóa toàn module cho tin nhắn riêng và lead.",
+        "body": "Đơn giản hóa dữ liệu từ hội thoại inbound và biểu mẫu. Cluega IM cung cấp quy tắc routing tự động linh hoạt, dù là lead từ tin nhắn riêng hay form quảng cáo, đều có thể được chỉ định tức thì cho nhân sự CSKH phù hợp nhất và tự động gửi lời chào."
+      },
+      "steps": {
+        "dmAutomation": {
+          "title": "Tự động phân phối DMs tin nhắn riêng.",
+          "description": "Phát hiện và gom tin nhắn riêng mới từ mọi kênh theo thời gian thực. Dựa trên quốc gia, múi giờ và quy tắc ca trực CSKH của khách hàng, hệ thống tự động chia đều theo tỷ lệ hoặc phân phối chính xác, loại bỏ độ trễ của phân luồng thủ công."
+        },
+        "formAutomation": {
+          "title": "Tự động phân phối biểu mẫu.",
+          "description": "Kéo biểu mẫu quảng cáo TikTok và Meta ở cấp mili giây. Hệ thống tự động đọc trường biểu mẫu và hoàn tất đánh giá trọng số, không cần xuất bảng thủ công, sau đó lập tức luân chuyển và phân phối tới từng đội sales để follow-up."
+        },
+        "welcomeAutomation": {
+          "title": "Tự động gửi lời chào và phản hồi.",
+          "description": "Khi khách hàng lần đầu vào chat, hoặc trong hội thoại trúng từ khóa có ý định cao cụ thể, AI agent sẽ vượt qua giới hạn 48 giờ và lập tức gửi lời chào riêng, mã giảm giá hoặc sổ tay sản phẩm."
+        }
+      },
+      "visuals": {
+        "dmAutomation": {
+          "sourcePrefix": "Nguồn:",
+          "workflowName": "Quy trình Cluega",
+          "statusLabel": "Đã phân luồng",
+          "sources": {
+            "zalo": {
+              "name": "Tin nhắn Zalo",
+              "country": "Việt Nam"
+            },
+            "line": {
+              "name": "Tin nhắn Line",
+              "country": "Nhật Bản"
+            },
+            "whatsapp": {
+              "name": "Tin nhắn WhatsApp",
+              "country": "Hoa Kỳ"
+            }
+          },
+          "agents": {
+            "a1": {
+              "label": "CSKH 01",
+              "team": "VN Team"
+            },
+            "a2": {
+              "label": "CSKH 02",
+              "team": "JP Team"
+            },
+            "a3": {
+              "label": "CSKH 03",
+              "team": "Global VIP"
+            }
+          }
+        },
+        "formAutomation": {
+          "workflowName": "Quy trình Cluega",
+          "forms": {
+            "tiktok": {
+              "title": "Biểu mẫu quảng cáo TikTok #01",
+              "cpa": "CPA dự kiến: $4.12"
+            },
+            "meta": {
+              "title": "Biểu mẫu Meta_Bắc Mỹ",
+              "cpa": "CPA dự kiến: $3.80"
+            }
+          },
+          "assignmentLabels": {
+            "name": "Tên khách hàng:",
+            "criteria": "Căn cứ phân công:",
+            "assignee": "Nhân viên phụ trách:"
+          },
+          "assignments": {
+            "sarah": {
+              "name": "Sarah Johnson",
+              "criteria": "Khu vực (Bắc Mỹ)",
+              "assignee": "Lily (US Sales Team)"
+            },
+            "minh": {
+              "name": "Minh Tran",
+              "criteria": "Khu vực (Đông Nam Á)",
+              "assignee": "Alex (VN Sales Team)"
+            }
+          }
+        },
+        "welcomeAutomation": {
+          "entryTitle": "Tin nhắn đầu tiên của khách vào hệ thống",
+          "conditionLabel": "Đánh giá trung tâm (Condition)",
+          "workflowName": "Quy trình Cluega",
+          "messageTitle": "Tự động gửi tin nhắn",
+          "exampleLabel": "Phản hồi mẫu",
+          "messageLines": [
+            "Xin chào! Cảm ơn bạn đã quan tâm EcoSip, rất vui được kết nối với bạn. 😊",
+            "Để giúp bạn hiểu dịch vụ của chúng tôi sớm nhất, hiện tại bạn muốn giải quyết vấn đề gì nhất?"
+          ],
+          "sentByAi": "Đã được AI tự động gửi"
+        }
+      }
+    },
+    "reporting": {
+      "header": {
+        "title": "Từ mảnh hội thoại đến quyết định dữ liệu tối hậu.",
+        "description": "Báo cáo dữ liệu dành cho thương mại toàn cầu phân tích chi tiêu creative, tỷ lệ luồng hội thoại và funnel chuyển đổi đa nền tảng trong từng giây. Dùng kết quả chốt đơn thật nhất để thúc đẩy quảng cáo scale volume."
+      },
+      "learnMore": "Tìm hiểu thêm",
+      "tabs": {
+        "materialSpendRanking": {
+          "label": "Xếp hạng tiêu hao creative",
+          "title": "Xếp hạng tiêu hao creative",
+          "description": "Bảng xếp hạng tiêu hao dạng thẻ theo thời gian thực và so sánh A/B giúp xác định tỷ lệ chuyển đổi cuối cùng của creative quảng cáo chỉ trong một giây."
+        },
+        "omnichannelConversationReport": {
+          "label": "Báo cáo hội thoại toàn kênh",
+          "title": "Báo cáo hội thoại toàn kênh",
+          "description": "Theo dõi phân luồng hội thoại đang hoạt động theo thời gian thực, thống kê nhân sự phụ trách, ID hội thoại và biến động lead."
+        },
+        "adToCrmConversionFunnel": {
+          "label": "Phễu chuyển đổi quảng cáo đến CRM",
+          "title": "Phễu chuyển đổi quảng cáo đến CRM",
+          "description": "Truy vết toàn trình từ nhấp, mở chat đến chốt đơn và đối soát, chặn lãng phí ngân sách và phản hồi tối ưu quảng cáo thích ứng."
+        }
+      },
+      "adCards": {
+        "labels": {
+          "accountId": "ID tài khoản quảng cáo:",
+          "notificationId": "ID thông báo:",
+          "materialId": "ID creative:",
+          "budgetSpend": "Tiêu hao ngân sách:",
+          "totalPrefix": "Tổng",
+          "summary": "Tóm tắt nội dung quảng cáo:"
+        },
+        "summaries": {
+          "thermalCup": "Bình giữ nhiệt...",
+          "morning": "Mỗi sáng...",
+          "test": "Đừng đoán nữa..."
+        },
+        "button": "Dữ liệu creative tổng hợp"
+      },
+      "leadTable": {
+        "stats": {
+          "active": {
+            "label": "Hội thoại đang hoạt động",
+            "value": "71,753"
+          },
+          "history": {
+            "label": "Hội thoại lịch sử",
+            "value": "10,765"
+          },
+          "total": {
+            "label": "Tổng hội thoại",
+            "value": "82,571"
+          }
+        },
+        "headers": {
+          "contact": "Liên hệ",
+          "owner": "Phụ trách",
+          "status": "Trạng thái lead",
+          "source": "Nguồn"
+        },
+        "owners": {
+          "zhang": "Trương Tiểu Minh",
+          "li": "Lý Mỹ Hoa"
+        },
+        "statuses": {
+          "validLead": "Lead hợp lệ",
+          "reserved": "Đã đặt lịch"
+        },
+        "sources": {
+          "facebook": "Quảng cáo Facebook",
+          "tiktok": "Quảng cáo TikTok"
+        }
+      },
+      "conversionFunnel": {
+        "category": "Quảng cáo TikTok",
+        "totalsLabel": "Tổng",
+        "metrics": {
+          "impressions": {
+            "title": "Hiển thị",
+            "mainNumber": "2,517,417",
+            "metric1Label": "Chi phí",
+            "metric1Value": "$28,979.79",
+            "metric2Label": "CPM",
+            "metric2Value": "$11.51"
+          },
+          "clicks": {
+            "title": "Lượt nhấp",
+            "mainNumber": "37,455",
+            "metric1Label": "CTR",
+            "metric1Value": "1.49%",
+            "metric2Label": "CPC",
+            "metric2Value": "$0.77"
+          },
+          "conversions": {
+            "title": "Chuyển đổi",
+            "mainNumber": "3,610",
+            "metric1Label": "CVR",
+            "metric1Value": "9.64%",
+            "metric2Label": "CPA",
+            "metric2Value": "$8.03"
+          }
+        },
+        "rates": {
+          "clickRate": "→ 1.5%",
+          "conversionRate": "→ 9.6%"
+        }
+      }
+    },
+    "sequences": {
+      "pillBadge": "Cộng tác nhóm & Phân quyền",
+      "title": "Cộng tác mà không đánh đổi an toàn tài sản.",
+      "description": "Chia sẻ hội thoại, mời cả nhóm cùng sáng tạo và kiểm soát chính xác ai thấy được gì — một hệ thống phân quyền giúp agency và nhãn hàng cộng tác liền mạch.",
+      "tag1": "Chia sẻ hội thoại",
+      "tag2": "Mời cùng sáng tạo",
+      "tag3": "Phân quyền chi tiết",
+      "enrolledBy": "Sarah Lin",
+      "enrolledAgent": "đang cộng tác trong phiên này",
+      "welcomeYara": "Phiên chia sẻ: Đánh giá chiến dịch EcoSip",
+      "today": "Hôm nay",
+      "yesterday": "Vừa xong",
+      "after2Days": "Lời mời đang chờ",
+      "nextSteps": "Quyền: Ghế vận hành",
+      "completed": "Đã tham gia cộng tác",
+      "bookedMeeting": "Cả nhóm đã sẵn sàng, bắt đầu cộng tác",
+      "enrolled3DaysAgo": "Đã tham gia 3 ngày trước",
+      "automatedEmailIn2Days": "Email tự động sau 2 ngày",
+      "enrolled2DaysAgo": "Đang nhận diện thông minh",
+      "automatedEmailIn3Days": "Email tự động sau 3 ngày",
+      "enrolledYesterday": "Đã tham gia hôm qua",
+      "automatedEmailIn1Day": "Email tự động sau 1 ngày",
+      "enrolled6HoursAgo": "Đã tham gia 6 giờ trước",
+      "enrolled1HourAgo": "Đã tham gia 1 giờ trước",
+      "bento": {
+        "title": "Mọi thao tác cộng tác,",
+        "description": "đều được ghi lại đầy đủ trong Cluega.",
+        "cards": {
+          "journey": {
+            "title": "Theo dõi từng lượt cấp quyền.",
+            "description": "Ai đã làm gì với tài khoản quảng cáo nào và khi nào — một nhật ký kiểm toán đầy đủ, đáp ứng yêu cầu tuân thủ trong một lần.",
+            "tags": [
+              "Nhật ký kiểm toán",
+              "Ghi cấp quyền",
+              "Tuân thủ"
+            ],
+            "visual": {
+              "steps": [
+                "Sarah Lin · Cấp quyền tài khoản quảng cáo EcoSip cho đại lý bên ngoài",
+                "Mike Wang · Thu hồi quyền duyệt chạy quảng cáo của nhân sự bên ngoài",
+                "Chris Chen · Thay đổi phân quyền người phụ trách dự án EcoSip"
+              ],
+              "success": "Nhật ký kiểm toán đầy đủ",
+              "outcome": "Đạt tuân thủ",
+              "title": "Nhật ký thao tác",
+              "times": [
+                "Vừa xong",
+                "12 phút trước",
+                "1 giờ trước"
+              ],
+              "viewFullLog": "Xem nhật ký đầy đủ"
+            }
+          },
+          "performance": {
+            "title": "Nắm mức tiêu hao trong nháy mắt.",
+            "description": "Ai đã kích hoạt tác vụ AI nào và đốt bao nhiêu điểm — sổ sách minh bạch, không vượt chi.",
+            "tags": [
+              "Điểm minh bạch",
+              "Theo dõi dùng",
+              "Kiểm soát chi"
+            ],
+            "visual": {
+              "cards": {
+                "c1": {
+                  "value": "85,000",
+                  "label": "Tổng tiêu hao của nhóm",
+                  "pct": "85%"
+                },
+                "c2": {
+                  "value": "40,000",
+                  "label": "Chris (Thiết kế)",
+                  "pct": "40%"
+                },
+                "c3": {
+                  "value": "20,000",
+                  "label": "Alex (Marketing)",
+                  "pct": "20%"
+                },
+                "c4": {
+                  "value": "15,000",
+                  "label": "Bella (Vận hành)",
+                  "pct": "15%"
+                },
+                "c5": {
+                  "value": "10,000",
+                  "label": "Danny (CSKH)",
+                  "pct": "10%"
+                }
+              }
+            }
+          },
+          "control": {
+            "title": "Vai trò rõ ràng, không lấn ranh.",
+            "description": "Một ma trận cho thấy chính xác mỗi người làm được gì — thao tác rủi ro cao tự động cần phê duyệt, xóa luôn bị chặn.",
+            "tags": [
+              "Ma trận vai trò",
+              "Luồng phê duyệt",
+              "Chặn xóa"
+            ],
+            "visual": {
+              "card1": {
+                "status": "Vận hành",
+                "content": "Sarah Lin · Agency",
+                "footer": "Sửa · Đăng"
+              },
+              "card2": {
+                "status": "Cộng tác",
+                "content": "Chris Chen · Nhãn hàng",
+                "footer": "Chỉ xem"
+              },
+              "card3": {
+                "status": "Hạn chế",
+                "content": "Jenny Zhang · Nhãn hàng",
+                "footer": "Đã chặn xóa"
+              },
+              "matrix": {
+                "actions": [
+                  "Xem",
+                  "Sửa",
+                  "Đăng",
+                  "Xóa"
+                ],
+                "note": "Thao tác rủi ro cao cần phê duyệt · Xóa luôn bị chặn",
+                "rows": {
+                  "r1": {
+                    "name": "Sarah Lin",
+                    "cells": [
+                      "yes",
+                      "yes",
+                      "yes",
+                      "no"
+                    ]
+                  },
+                  "r2": {
+                    "name": "Chris Chen",
+                    "cells": [
+                      "yes",
+                      "no",
+                      "no",
+                      "no"
+                    ]
+                  },
+                  "r3": {
+                    "name": "Mike Wang",
+                    "cells": [
+                      "yes",
+                      "yes",
+                      "no",
+                      "no"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "smart-sending": {
+            "title": "Hết hạn hợp đồng, quyền tự động vô hiệu.",
+            "description": "Đặt thời hạn cho quyền xuyên công ty; hợp đồng kết thúc, hệ thống tự thu hồi truy cập — không cần theo dõi thủ công, không để lại hậu họa.",
+            "tags": [
+              "Hết hạn",
+              "Tự thu hồi",
+              "Xuyên công ty"
+            ],
+            "visual": {
+              "node1": "Quyền đối tác bên ngoài (Hiệu lực: 30 ngày)",
+              "node2": "Đã đến thời hạn đã đặt",
+              "node3": "Hệ thống tự động thu hồi toàn bộ quyền của dự án",
+              "success": "Thu hồi quyền thành công"
+            }
+          }
+        }
+      },
+      "agentShowcase": {
+        "headline": "Quản trị hội thoại AI hoàn toàn tự động",
+        "subheadline": "Lưu trú hội thoại AI 24/7: bật một chạm để tránh tiếp đón vô ích",
+        "description": "Hỗ trợ AI tiếp quản hội thoại, bạn có thể chuyển cuộc trò chuyện cho AI chỉ với một chạm bất cứ lúc nào. Để mô hình lớn hóa thân thành chăm sóc khách hàng xuất sắc, tiếp đón khách hàng 24/7 và không bỏ lỡ bất kỳ thời điểm chuyển đổi nào.",
+        "tagsAriaLabel": "Nhãn tính năng tiếp quản hội thoại AI",
+        "tags": [
+          "Tiếp quản AI",
+          "AI tự động tiếp đón",
+          "Chuyển giao người-AI liền mạch"
+        ],
+        "chatTitle": "Cluega 1.2 Lite",
+        "chatAriaLabel": "Bản xem trước hội thoại bán hàng AI Cluega",
+        "buyerLabel": "Khách hàng",
+        "agentLabel": "AI bán hàng",
+        "inputPlaceholder": "Ask anything...",
+        "chatMessages": [
+          "Tôi muốn hỏi giá Specification A tổng 5.000 chiếc, giao từng đợt trong quý tới. Báo giá FOB và thời gian giao lô đầu tiên là bao lâu? Vui lòng để quản lý phụ trách trao đổi.",
+          "Đã nhận! Đơn này phù hợp chính sách giá bậc thang cho khách hàng lớn của chúng tôi. Tôi đã đặt lịch để Giám đốc khách hàng lớn trao đổi trực tuyến với anh/chị vào 10:00 sáng mai, anh/chị có tiện không?",
+          "Được. Nhưng lô hàng này bán sang Trung Đông, Specification A chịu nhiệt 180°C là chưa đủ. Có báo cáo độ cứng và độ bền kéo không? Không đạt chuẩn thì chúng tôi không thể mua.",
+          "Tôi hiểu! Báo cáo kiểm nghiệm SGS đầy đủ đã được gửi tới email của anh/chị (độ bền kéo 450 MPa). Nếu có nhu cầu chịu nhiệt cực hạn, tôi khuyến nghị đổi sang Specification A-Plus (có sẵn, chịu nhiệt tới 220°C), anh/chị có muốn tìm hiểu không?",
+          "A-Plus phù hợp hơn. Nếu đổi đơn 5.000 chiếc, kho chính của các bạn có đủ hàng sẵn không? Lô đầu 2.000 chiếc bắt buộc phải đóng container lên tàu đầu tháng sau, tiến độ rất cứng.",
+          "Kho chính của chúng tôi hiện có sẵn 800 chiếc, thêm 1.500 chiếc sẽ hoàn tất QC vào chiều ngày kia, tổng cộng 2.300 chiếc, hoàn toàn đáp ứng nhu cầu xuất 2.000 chiếc của lô đầu.",
+          "Thời gian khá sát. Năng lực sản xuất đang chạy cho lô này chưa bị khách khác đặt trước chứ? Tôi không muốn đến sát ngày lên tàu lại bị cắt đơn.",
+          "Anh/chị yên tâm. Lô này ban đầu là báo giá cho khách châu Âu, nhưng do chưa đặt cọc, hệ thống đã thực hiện giữ hạn ngạch tạm thời (Allocation Lock) cho anh/chị. Ký hợp đồng ngày mai là sẽ chuyển thành tồn kho chuyên thuộc của anh/chị.",
+          "Tốt. Vậy 3.000 chiếc còn lại sẽ được lên kế hoạch sản xuất cuốn chiếu thế nào? Dây chuyền của các bạn đáp ứng được không? Không được đứt hàng.",
+          "Không vấn đề. Chúng tôi phối hợp sản xuất đa cơ sở, sản lượng tháng 50.000 chiếc. 3.000 chiếc còn lại sẽ được đưa vào kế hoạch sản xuất cuốn chiếu, mỗi tháng cố định khóa 1.000 chiếc tồn kho an toàn tại kho nước ngoài. Ngày mai Giám đốc sẽ cung cấp thỏa thuận bảo đảm đầy đủ.",
+          "Các bạn cân nhắc rất chu đáo. A-Plus đã nâng cấp quy cách, ngày mai nhờ Giám đốc cho thêm chiết khấu.",
+          "Đã rõ, ngày mai chúng tôi sẽ cố gắng xin ưu đãi thương mại tốt nhất cho đơn đầu tiên (Introductory Offer). Báo giá A-Plus đã được cập nhật vào backend của anh/chị. Hẹn gặp anh/chị lúc 10:00 sáng mai!",
+          "Được, hẹn gặp ngày mai!",
+          "Hẹn gặp ngày mai, chúc anh/chị một ngày vui vẻ!",
+          "Được."
+        ]
+      },
+      "teamWorkflow": {
+        "headline": "Quy trình làm việc nhóm tự động Cluega",
+        "subheadline": "Cluega Workflow: Phân bổ vị trí thông minh, tăng tốc chuyển đổi kinh doanh",
+        "description": "Kết hợp với quy trình làm việc Cluega mạnh mẽ, khi khách hàng tiềm năng hoặc cuộc hội thoại kích hoạt một trạng thái cụ thể, hệ thống có thể trực tiếp tự động phân bổ nó cho vị trí kinh doanh tương ứng của nhóm để thực hiện chuyển đổi kinh doanh cuối cùng bởi nhân sự hoặc nhóm chuyên trách.",
+        "tagsAriaLabel": "Nhãn tính năng quy trình tự động hóa nhóm",
+        "tags": [
+          "Quy trình tự động hóa",
+          "Phân bổ vị trí nhóm",
+          "Tăng tốc chuyển đổi kinh doanh"
+        ],
+        "chatTitle": "Cluega 1.2 Lite",
+        "chatAriaLabel": "Xem trước quy trình làm việc nhóm Cluega AI",
+        "visual": {
+          "ariaLabel": "Canvas trình chỉnh sửa workflow Cluega",
+          "editorTitle": "Clue Workflow",
+          "newWorkflow": "Quy trình mới",
+          "learn": "Học",
+          "workflowName": "Workflow",
+          "status": "Đã bật",
+          "trigger": "TRIGGER",
+          "condition": "Điều kiện",
+          "assignStaff": "Phân bổ nhân sự",
+          "newLead": "Lead mới",
+          "addTrigger": "Thêm trigger",
+          "leftConditionCount": "Đã thiết lập 4 điều kiện",
+          "rightConditionCount": "Đã thiết lập 3 điều kiện",
+          "roundRobin": "Luân phiên (Round Robin)",
+          "leftStaffCount": "2 nhân sự",
+          "rightStaffCount": "1 nhân sự",
+          "nextStep": "Bước tiếp theo >",
+          "zoomOut": "Thu nhỏ",
+          "zoomIn": "Phóng to",
+          "pan": "Kéo canvas",
+          "lock": "Khóa canvas",
+          "fitView": "Vừa khung nhìn"
+        }
+      },
+      "learningSection": {
+        "title": "Chia sẻ mượt mà,",
+        "description": "chỉ người phù hợp mới thấy.",
+        "cards": {
+          "signal": {
+            "title": "Tạo liên kết chia sẻ chỉ với một cú nhấp.",
+            "description": "Nhấn chia sẻ là gửi lời mời — bên kia chỉ thấy phạm vi của hội thoại này, dữ liệu từ các tài khoản quảng cáo khác của bạn không bị rò rỉ. Cô lập diễn ra ở tầng dữ liệu, không chỉ ẩn ở giao diện.",
+            "tags": [
+              "Cô lập tầng dữ liệu",
+              "Giới hạn phạm vi",
+              "Chia sẻ một chạm"
+            ],
+            "visual": {
+              "pausedLabel": "Đã thu hồi",
+              "items": {
+                "adAccountId": {
+                  "label": "Liên kết chia sẻ",
+                  "value": "cluega.com/s/9f2a1c"
+                },
+                "adName": {
+                  "label": "Người được mời",
+                  "value": "Phó TGĐ Zhang · Tập đoàn tiêu dùng"
+                },
+                "adId": {
+                  "label": "Phạm vi hiển thị",
+                  "value": "Hội thoại này"
+                },
+                "creativeId": {
+                  "label": "Cấp quyền",
+                  "value": "Chỉ đọc · Cộng tác"
+                },
+                "creativePreview": {
+                  "label": "Xem trước hội thoại",
+                  "value": "Đánh giá chiến dịch EcoSip"
+                },
+                "socialAccountId": {
+                  "label": "Trạng thái liên kết",
+                  "value": "Đang hiệu lực"
+                }
+              },
+              "share": {
+                "title": "Chia sẻ phiên này",
+                "linkValue": "cluega.com/s/9f2a1c",
+                "copy": "Sao chép",
+                "scopeLabel": "Phạm vi hiển thị",
+                "scopeValue": "Chỉ hội thoại này",
+                "invited": "Đã mời 3 người",
+                "isolated": "Dữ liệu tài khoản khác đã cô lập"
+              }
+            }
+          },
+          "sender": {
+            "title": "Một phiên, bao nhiêu người cũng được.",
+            "description": "Đối tác agency, quản lý nhãn hàng, designer — mời tất cả vào cùng một hội thoại. Thay người không cần cấp quyền lại, thu hồi có hiệu lực tức thì.",
+            "tags": [
+              "Số lượng tùy ý",
+              "Thu hồi tức thì",
+              "Không cấp lại quyền"
+            ],
+            "visual": {
+              "cardTitle": "Phiên cộng tác EcoSip",
+              "ctmIdLabel": "ID phiên",
+              "ctmIdValue": "7647794429255761927",
+              "createTimeLabel": "Tạo lúc",
+              "createTimeValue": "2026-06-05 14:37:47",
+              "eventCount": "7",
+              "eventTotalLabel": "Thành viên",
+              "avgCostValue": "5",
+              "avgCostLabel": "Đang online",
+              "legend": "Tất cả",
+              "hub": {
+                "center": "Phiên này",
+                "count": "Mời thành viên"
+              }
+            }
+          },
+          "scheduled": {
+            "title": "Quyền dữ liệu đi theo tài khoản.",
+            "description": "Dữ liệu quảng cáo chưa được cấp quyền vẫn bị che hoàn toàn ngay trong cùng một phiên. AI đã phân tích tài khoản của bạn, nhưng bên kia không thấy bất cứ gì ngoài phạm vi được cấp quyền.",
+            "tags": [
+              "Quyền cấp tài khoản",
+              "Che dữ liệu",
+              "Ranh giới phân quyền"
+            ],
+            "visual": {
+              "title": "Quyền dữ liệu tài khoản",
+              "accountOther": "Tài khoản quảng cáo khác",
+              "statusOk": "Đã cấp quyền",
+              "statusMasked": "Chưa cấp quyền",
+              "note": "Quyền dữ liệu đi theo tài khoản"
+            }
+          }
+        }
+      },
+      "quoteSection": {
+        "title": "Trải nghiệm cộng tác xuyên công ty thực tế",
+        "content": "Trước đây cộng tác xuyên công ty, cứ đổi một người phụ trách là phải thiết lập lại cả đống tài khoản; giờ chỉ cần cấp quyền cho công ty đối tác, ai tiếp nhận cũng không phải thiết lập lại, tiết kiệm một nửa thời gian bàn giao.",
+        "headline": "Rachel Green",
+        "description": "Senior Project Manager · Cluega"
+      },
+      "globalI18n": {
+        "title": "Thấu thị địa lý cơ hội toàn cầu: Bản đồ phân bổ lead một chạm",
+        "description": "Tự động thấu thị khu vực của các lead với tính năng \"Bản đồ cơ hội\" trực quan tích hợp. Chuyển đổi toàn bộ dữ liệu lead hiện có thành biểu đồ phân bổ khu vực để khóa mục tiêu thị trường nóng chính xác.",
+        "tags": [
+          "Thấu thị khu vực",
+          "Bản đồ cơ hội",
+          "Phân tích địa lý lead"
+        ],
+        "quote": "\"Tính năng này giải quyết trực tiếp nỗi đau của việc phân chia lead xuyên quốc gia! Hệ thống tự động thấu thị khu vực và tạo bản đồ, giúp thấy rõ ngay khách hàng tập trung ở đâu và đâu là đại dương xanh. Đội ngũ quét khách và giao đơn chính xác dựa trên bản đồ, tăng hiệu suất khai thác tới 60%!\"",
+        "author": "Ethan",
+        "role": "Sales Manager, Cluega",
+        "bottomTitle": "Tự động nhận dạng và chuyển đổi ngôn ngữ",
+        "bottomDescription": "Các trợ lý AI có thể nhận dạng và chuyển đổi ngôn ngữ theo thời gian thực dựa trên lời nói của người dùng. Không cần cài đặt phức tạp hay nhập liệu thủ công. Lý tưởng cho các kênh hỗ trợ toàn cầu, du lịch, bán lẻ và nhiều lĩnh vực khác.",
+        "languages": {
+          "english": "Tiếng Anh",
+          "spanish": "Tiếng Tây Ban Nha",
+          "chinese": "Tiếng Trung",
+          "french": "Tiếng Pháp",
+          "german": "Tiếng Đức",
+          "japanese": "Tiếng Nhật",
+          "korean": "Tiếng Hàn",
+          "vietnamese": "Tiếng Việt",
+          "thai": "Tiếng Thái",
+          "indonesian": "Tiếng Indonesia",
+          "malay": "Tiếng Mã Lai",
+          "portuguese": "Tiếng Bồ Đào Nha",
+          "hindi": "Tiếng Hindi",
+          "italian": "Tiếng Ý",
+          "dutch": "Tiếng Hà Lan"
+        },
+        "marketTable": {
+          "names": [
+            "Đài Loan",
+            "TP. Hồ Chí Minh",
+            "Kuala Lumpur",
+            "Hà Nội",
+            "Singapore"
+          ],
+          "values": [
+            "3,689",
+            "2,150",
+            "1,420",
+            "940",
+            "510"
+          ]
+        }
+      },
+      "adIntegrationBento": {
+        "cards": {
+          "imEcosystem": {
+            "title": "Hệ sinh thái IM tích hợp sâu sắc với hệ thống quảng cáo",
+            "description": "Phá vỡ tình trạng cô lập dữ liệu giữa công cụ IM và nền tảng quảng cáo. Thông qua kết nối ngầm, trạng thái khách hàng tiềm năng tự động đồng bộ với hệ thống phân phối quảng cáo, giúp luồng dữ liệu trôi chảy.",
+            "visual": {
+              "imTitle": "Cluega IM",
+              "dashboardTitle": "Dashboard",
+              "liveBadge": "Đồng bộ",
+              "chat": {
+                "jessica": {
+                  "name": "Jessica",
+                  "time": "14:00",
+                  "message": "Tôi muốn mua sản phẩm này, hiện còn hàng không? Nếu tuần sau tôi ra nước ngoài cần mặc, đặt hôm nay có kịp nhận không?"
+                },
+                "chloe": {
+                  "name": "Chloe",
+                  "time": "14:02",
+                  "message": "Tôi muốn hỏi về serum dưỡng ẩm này. Da tôi nhạy cảm và dễ đỏ, thành phần này phụ nữ mang thai hoặc da nhạy cảm dùng được không?"
+                },
+                "david": {
+                  "name": "David",
+                  "time": "14:05",
+                  "message": "Tôi rất quan tâm mẫu tai nghe Bluetooth chống ồn này. Nếu hai bên tai nghe gặp lỗi ghép đôi, trong thời hạn bảo hành có được đổi mới không?"
+                },
+                "marcus": {
+                  "name": "Marcus",
+                  "time": "14:08",
+                  "message": "Tôi muốn mua ghế văn phòng công thái học này. Bên bạn có dịch vụ lắp ráp tại nhà không, hay tôi cần tự xem hướng dẫn để lắp?"
+                },
+                "jason": {
+                  "name": "Jason",
+                  "time": "14:15",
+                  "message": "Xin chào, tôi muốn đặt áo khoác này từ Malaysia. Website có hỗ trợ thẻ tín dụng quốc tế hoặc PayPal không? Và cần mua bao nhiêu để được miễn phí vận chuyển quốc tế?"
+                }
+              },
+              "metrics": {
+                "spend": {
+                  "label": "Chi tiêu",
+                  "caption": "Tổng chi tiêu và tăng trưởng"
+                },
+                "conversions": {
+                  "label": "Chuyển đổi",
+                  "caption": "Số lượng và CVR"
+                },
+                "roas": {
+                  "label": "ROAS",
+                  "caption": "Hoàn vốn và tỷ lệ đạt mục tiêu"
+                }
+              },
+              "chart": {
+                "startDate": "Jan 26",
+                "endDate": "Feb 2"
+              },
+              "tabs": {
+                "campaigns": "Chiến dịch",
+                "adSets": "Nhóm QC",
+                "ads": "Quảng cáo",
+                "channels": "Kênh"
+              },
+              "campaigns": {
+                "campaignA": {
+                  "name": "Campaign_A_台灣電商",
+                  "progress": "92% of $9,000"
+                },
+                "campaignB": {
+                  "name": "Campaign_B_服飾新品",
+                  "progress": "99% of $8,000"
+                },
+                "campaignC": {
+                  "name": "Campaign_C_轉化再行銷",
+                  "progress": "89% of $6,000"
+                }
+              }
+            }
+          },
+          "dataAssetization": {
+            "title": "Tài sản hóa dữ liệu: Đóng gói trực tiếp leads từ IM thành đối tượng quảng cáo chính xác",
+            "description": "Hoàn thiện vòng lặp lưu lượng truy cập! Các khách hàng tiềm năng chính xác được tích lũy trong IM có thể được đóng gói thành tệp đối tượng tùy chỉnh (Audience) chỉ bằng một cú nhấp chuột và áp dụng trực tiếp cho các chiến dịch quảng cáo mục tiêu tiếp theo."
+          }
+        }
+      },
+      "adDashboard": {
+        "top": {
+          "title": "Báo cáo chi tiết chi phí chuyển đổi phễu tài khoản quảng cáo"
+        },
+        "bottom": {
+          "title": "Dữ liệu toàn phễu minh bạch: Trực quan hóa lượt chuyển đổi MMT & CRM trong tài khoản quảng cáo",
+          "description": "Trong tài khoản quảng cáo của Cluega, bạn có thể thấy trực tiếp sự liên kết giữa số lượng chuyển đổi MMT/CRM với quảng cáo đầu phễu. Biết được chính xác chi phí chuyển đổi thực tế (ví dụ: chi phí quảng cáo cho mỗi đơn hàng trung bình), tối ưu hóa không còn là trò chơi đoán mò."
+        },
+        "kpi": {
+          "adSetSpend": "Tổng chi tiêu nhóm QC",
+          "totalConversions": "Tổng lượt chuyển đổi",
+          "avgCostPerConv": "Chi phí TB mỗi chuyển đổi",
+          "accountSpend": "Tổng chi tiêu tài khoản",
+          "monthSpend": "Chi tiêu tháng này",
+          "yesterdaySpend": "Chi tiêu hôm qua",
+          "formSubmissions": "Tổng số biểu mẫu đã gửi",
+          "netValue": "Giá trị ròng ước tính",
+          "avgEpc": "EPC trung bình",
+          "avgCvr": "Tỷ lệ chuyển đổi trung bình",
+          "roi": "ROI ước tính",
+          "yesterdayCvr": "Tỷ lệ CVR hôm qua"
+        },
+        "chart": {
+          "title": "Giám sát báo cáo nhóm QC theo giờ",
+          "selected": "Đã chọn"
+        },
+        "table": {
+          "allSeries": "Tất cả chiến dịch",
+          "onOff": "Bật/Tắt",
+          "name": "Tên",
+          "status": "Trạng thái",
+          "convVolume": "Lượt chuyển đổi",
+          "sourceConv": "Lượt chuyển đổi nguồn",
+          "avgConvCost": "Chi phí TB mỗi chuyển đổi",
+          "paidMmt": "Đã thanh toán (MMT)",
+          "paidAmtMmt": "Số tiền đã thanh toán (MMT)",
+          "paidAvgCostMmt": "Chi phí TB mỗi lượt thanh toán (MMT)",
+          "depositMmt": "Đặt cọc (MMT)",
+          "depositAmtMmt": "Số tiền đặt cọc (MMT)",
+          "active": "Đang hoạt động"
+        }
+      },
+      "productPreview": {
+        "title": "Bước vào không gian cộng tác Cluega.",
+        "description": "Biến một cuộc hội thoại thành không gian làm việc chung mà cả nhóm đều có thể đóng góp.",
+        "membersLabel": "Thành viên",
+        "collabMembers": {
+          "sarah": "Tham gia 3 phút trước · Agency",
+          "chris": "Tham gia 12 phút trước · Nhãn hàng",
+          "mike": "Tham gia 24 phút trước · Agency",
+          "jenny": "Lời mời đang chờ · Nhãn hàng",
+          "kevin": "Tham gia 1 giờ trước · Agency"
+        },
+        "seat": {
+          "operator": "Vận hành",
+          "collaborator": "Cộng tác"
+        },
+        "sessionTitle": "Đánh giá chiến dịch EcoSip",
+        "sessionMeta": "Nhiều bên · Đồng bộ tức thời",
+        "shareAction": "Chia sẻ",
+        "msgUser": "Phân tích hiệu quả chiến dịch EcoSip tuần trước và đề xuất bước tối ưu tiếp theo.",
+        "msgAi": "Đã tổng hợp dữ liệu EcoSip: ROAS tăng 18%. Đề xuất mở rộng nhóm đối tượng hiệu quả nhất. Bên kia chỉ thấy phạm vi của hội thoại này.",
+        "tagSource": "Nguồn: Tài khoản EcoSip",
+        "tagScope": "Phạm vi hiển thị: Hội thoại này",
+        "joinNotice": "Chris Chen đã tham gia cộng tác",
+        "actions": {
+          "share": "Chia sẻ",
+          "download": "Tải xuống",
+          "edit": "Chỉnh sửa",
+          "permissions": "Phân quyền"
+        },
+        "breadcrumb": {
+          "workspace": "Không gian",
+          "session": "Đánh giá chiến dịch EcoSip"
+        },
+        "share": "Chia sẻ",
+        "tabs": {
+          "editor": "Trình sửa",
+          "members": "Thành viên"
+        },
+        "membersCount": "10",
+        "enableShare": "Bật chia sẻ",
+        "invite": "Mời thành viên",
+        "searchPlaceholder": "Tìm thành viên",
+        "filter": "Lọc",
+        "company": {
+          "agency": "Agency",
+          "brand": "Nhãn hàng"
+        },
+        "members": {
+          "m1": {
+            "time": "Vừa xong"
+          },
+          "m2": {
+            "time": "12 phút trước"
+          },
+          "m3": {
+            "time": "24 phút trước"
+          },
+          "m4": {
+            "time": "Lời mời đang chờ"
+          },
+          "m5": {
+            "time": "1 giờ trước"
+          },
+          "m6": {
+            "time": "2 giờ trước"
+          },
+          "m7": {
+            "time": "3 giờ trước"
+          },
+          "m8": {
+            "time": "Hôm qua"
+          },
+          "m9": {
+            "time": "Hôm qua"
+          },
+          "m10": {
+            "time": "2 ngày trước"
+          }
+        },
+        "detail": {
+          "manage": "Quản lý quyền",
+          "remove": "Gỡ",
+          "enrolledPrefix": "Được mời bởi",
+          "owner": "bạn",
+          "enrolledSuffix": "",
+          "enrolledTime": "6 ngày trước",
+          "card1": {
+            "label": "Đã tham gia",
+            "time": "6 ngày trước",
+            "title": "Sarah Lin đã tham gia Đánh giá chiến dịch EcoSip",
+            "preview": "Phạm vi hiển thị: hội thoại này · các tài khoản khác đã cô lập"
+          },
+          "wait1": {
+            "title": "Chờ phê duyệt",
+            "desc": "Sửa chiến lược cần ghế vận hành xác nhận, đang chờ"
+          },
+          "card2": {
+            "label": "Hoạt động",
+            "attach": "2",
+            "time": "Hôm nay",
+            "title": "Xem hiệu quả tài khoản EcoSip",
+            "preview": "ROAS tăng 18%, đã xuất báo cáo phân tích…"
+          },
+          "wait2": {
+            "title": "Cô lập tầng dữ liệu đã bật"
+          },
+          "card3": {
+            "label": "Cấp quyền",
+            "time": "2026-06-05",
+            "title": "Sửa chiến lược · kích hoạt bởi Sarah Lin",
+            "preview": "Mọi thay đổi ghi lại người thực hiện, truy vết toàn trình…"
+          }
+        }
+      },
+      "warmth": {
+        "title": "AI tạo nhanh, bạn tự tay tinh chỉnh,",
+        "description": "tải về dùng ngay chỉ với một chạm.",
+        "tabs": {
+          "details": {
+            "title": "Cùng sáng tạo: ra lệnh cho AI cùng nhau.",
+            "description": "Mời bất kỳ thành viên nào vào hội thoại, ai cũng có thể bổ sung chỉ thị và góp ý cho AI, mỗi thao tác đều ghi lại người thực hiện, truy vết toàn trình."
+          },
+          "assist": {
+            "title": "Tải tài liệu hội thoại chỉ với một chạm.",
+            "description": "Báo cáo phân tích, kịch bản quảng cáo, tóm tắt chiến lược do AI tạo — tải trực tiếp thành PDF, Word hoặc Markdown, giữ nguyên định dạng, họp là dùng được ngay."
+          },
+          "accuracy": {
+            "title": "Chỉnh sửa nguyên liệu tức thì.",
+            "description": "Chưa ưng ảnh quảng cáo vừa tạo? Tách nền, đổi kích thước, tạo lại từng phần ngay trong Cluega — chỉnh xong là chạy quảng cáo được ngay."
+          }
+        },
+        "visual": {
+          "headers": {
+            "cocreate": "Trò chuyện nhóm",
+            "download": "Định dạng tải",
+            "edit": "Sửa nguyên liệu"
+          },
+          "ready": "Sẵn sàng",
+          "messageLead": "Kích hoạt bởi",
+          "tokenMember": "Sarah Lin",
+          "messageMid": ", phạm vi hiển thị",
+          "tokenScope": "Hội thoại này",
+          "messageTail": ", ghi lại người thực hiện toàn trình.",
+          "fields": {
+            "executor": {
+              "label": "Người thực hiện",
+              "value": "Sarah Lin"
+            },
+            "seat": {
+              "label": "Ghế",
+              "value": "Vận hành"
+            },
+            "status": {
+              "label": "Trạng thái",
+              "value": "Truy vết được"
+            }
+          },
+          "trackLabel": "Thao tác gần nhất",
+          "trackValue": "3 phút trước",
+          "cocreate": {
+            "onlineCount": "3 đang online",
+            "msgA": "Giúp tôi phân tích hiệu quả đối tượng EcoSip",
+            "msgB": "Bổ sung: tập trung 7 ngày chuyển đổi gần nhất",
+            "aiReply": "Đã tổng hợp — ROAS tăng 18%. Đề xuất mở rộng nhóm đối tượng hiệu quả nhất.",
+            "trigger": "Kích hoạt bởi Sarah Lin · 3 phút trước",
+            "sessionName": "Đánh giá chiến dịch EcoSip",
+            "timeA": "3 phút trước",
+            "timeB": "1 phút trước",
+            "typing": "Mike Wang đang nhập…"
+          },
+          "download": {
+            "docTitle": "Báo cáo phân tích EcoSip",
+            "badge": "Sẵn sàng",
+            "download": "Tải xuống",
+            "meta": "PDF · 12 trang · 2.4 MB",
+            "pageFooter": "Trang 1 / 12",
+            "exportedBy": "Xuất bởi Sarah Lin",
+            "files": {
+              "f1": "Báo cáo phân tích đối thủ (PDF)",
+              "f2": "Kịch bản quảng cáo (Word)",
+              "f3": "Tóm tắt chiến lược (Markdown)",
+              "f4": "Biên bản họp & quyết định (Word)",
+              "f5": "Bản trình bày thông tin thị trường (PDF)",
+              "f6": "Kế hoạch triển khai dự án (Word)"
+            },
+            "status": "Đang tải xuống..."
+          },
+          "edit": {
+            "label": "Sửa nguyên liệu",
+            "ready": "Sẵn sàng",
+            "tools": {
+              "cutout": "Tách nền",
+              "resize": "Đổi kích thước",
+              "regen": "Tạo lại",
+              "download": "Tải xuống"
+            },
+            "badge": "AI vẽ lại vùng"
+          }
+        }
+      },
+      "platformShelf": {
+        "title": "Cộng tác chỉ là khởi đầu.",
+        "description": "Cluega kết nối trọn vẹn quy trình của bạn.",
+        "items": {
+          "aiChat": "Hệ thống nhắn tin IM",
+          "adAccounts": "Chạy & tối ưu quảng cáo",
+          "creative": "Bảng điều khiển marketing thời gian thực",
+          "dashboard": "Thông tin thị trường",
+          "collaboration": "Agent",
+          "automation": "Vận hành thương mại điện tử",
+          "audit": "Hội thoại & mô hình AI",
+          "billing": "Thiết kế hình ảnh AI"
+        }
+      },
+      "finalCta": {
+        "heading": "Không gian cộng tác nhóm an toàn, không rò rỉ",
+        "demo": "Đặt lịch Demo",
+        "start": "Bắt đầu miễn phí"
+      },
+      "heroCtaStart": "Bắt đầu miễn phí",
+      "heroCtaDemo": "Đặt lịch demo"
+    },
+    "platformSequences": {
+      "header": {
+        "banner": "Orchestrate revenue agents with the new Workflows",
+        "closeBanner": "Close announcement",
+        "logoLabel": "Go to Cluega home",
+        "navLabel": "Sequences navigation",
+        "menu": "Open menu",
+        "signIn": "Sign in",
+        "startFree": "Start for free",
+        "nav": {
+          "platform": "Platform",
+          "resources": "Resources",
+          "customers": "Customers",
+          "pricing": "Pricing"
+        },
+        "resources": {
+          "customers": "Stories from teams building with Cluega.",
+          "guides": "Ideas, playbooks, and product updates.",
+          "support": "Find answers and get help fast."
+        }
+      },
+      "hero": {
+        "badge": "Sequences",
+        "title": "Signal, sequence, success.",
+        "description": "Go from first touch to final signature with perfectly crafted emails delivered right on cue.",
+        "emailLabel": "Your email address",
+        "emailPlaceholder": "Your email address",
+        "demoCta": "Send me a demo",
+        "timeline": {
+          "sequence": "Sequence",
+          "title": "Warm lead follow-up",
+          "live": "Live",
+          "enrolled": {
+            "meta": "Enrolled by PQL Triage",
+            "title": "Welcome Yara",
+            "description": "New product signal matched this contact automatically."
+          },
+          "welcome": {
+            "meta": "Today",
+            "title": "Welcome Yara",
+            "description": "A personalized first touch lands while intent is fresh."
+          },
+          "wait": {
+            "meta": "After 2 business days",
+            "title": "Next steps",
+            "description": "The sequence waits for the right window before following up."
+          },
+          "next": {
+            "meta": "Yesterday",
+            "title": "Completed",
+            "description": "No reply needed from your team unless the signal changes."
+          },
+          "complete": {
+            "meta": "Booked meeting with Yara",
+            "title": "Success",
+            "description": "Replies, meetings, and outcomes stay tied to the record."
+          }
+        }
+      },
+      "preview": {
+        "eyebrow": "Step inside Sequences",
+        "title": "Step inside Sequences.",
+        "description": "Convert warm signals into outreach that closes itself.",
+        "imageAlt": "Cluega Sequences product preview"
+      },
+      "zeroTouch": {
+        "eyebrow": "Automation",
+        "title": "Zero-touch follow-ups.",
+        "description": "Cluega keeps conversations moving while your team focuses on winning.",
+        "cards": {
+          "signals": {
+            "title": "Signal based enrollment.",
+            "description": "Pick the cues-account created, form filled, RSVP-to enroll the contact."
+          },
+          "sender": {
+            "title": "One sequence, any sender.",
+            "description": "Set up a single email sequence and auto-assign the right sender."
+          },
+          "schedule": {
+            "title": "Automate scheduled sending.",
+            "description": "Skip the CSVs and manual syncs. Reclaim hours every week."
+          }
+        }
+      },
+      "quote": {
+        "body": "With Cluega, we are able to conduct highly targeted and customized outreach.",
+        "author": "Margaret Shen",
+        "role": "Head of Business Operations · Modal"
+      },
+      "warmth": {
+        "eyebrow": "Handwritten warmth",
+        "title": "Handwritten warmth.",
+        "description": "Every touch feels 1-to-1, even when juggling 100 accounts.",
+        "visualLabel": "Personalization visuals",
+        "steps": {
+          "details": {
+            "title": "Customer details, auto-filled.",
+            "description": "Drop in first names, renewal dates, or any field so each contact gets what is most relevant."
+          },
+          "ai": {
+            "title": "AI assist.",
+            "description": "Need a hand? AI riffs the perfect phrase for every message."
+          },
+          "accuracy": {
+            "title": "Live accuracy.",
+            "description": "Field updates flow straight into drafts, keeping the important details like numbers and dates spot-on."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Live context",
+        "title": "Every interaction in Cluega.",
+        "description": "Track enrollment, replies, meetings, and status for every contact.",
+        "cards": {
+          "journey": {
+            "title": "Track the journey.",
+            "description": "See who progresses through each step."
+          },
+          "performance": {
+            "title": "Performance.",
+            "description": "Track engagement to exit in one glance."
+          },
+          "control": {
+            "title": "One-click control.",
+            "description": "Pause, revive, or remove recipients with one click."
+          },
+          "sending": {
+            "title": "Smart sending.",
+            "description": "Land in their inbox when they are ready."
+          }
+        }
+      },
+      "shelf": {
+        "eyebrow": "Cluega platform",
+        "title": "Cluega plugs in. You take off.",
+        "description": "Work your way, from outreach to outcomes.",
+        "items": {
+          "askCluega": {
+            "title": "Ask Cluega",
+            "description": "Ask questions and get answers from your customer data."
+          },
+          "ai": {
+            "title": "AI",
+            "description": "Turn every record into a smarter next action."
+          },
+          "dataModel": {
+            "title": "Data model",
+            "description": "Model the objects, relationships, and signals you need."
+          },
+          "apps": {
+            "title": "Apps & integrations",
+            "description": "Connect the tools already running your revenue team."
+          },
+          "callIntelligence": {
+            "title": "Call Intelligence",
+            "description": "Capture context from conversations automatically."
+          },
+          "workflows": {
+            "title": "Workflows",
+            "description": "Automate handoffs, tasks, and routing."
+          },
+          "sequences": {
+            "title": "Sequences",
+            "description": "Nurture every warm signal with perfect timing."
+          },
+          "reporting": {
+            "title": "Reporting",
+            "description": "Measure pipeline, revenue, and team performance live."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Start today",
+        "title": "Start with a 14-day free trial of Pro.",
+        "description": "Build your first signal-aware sequence and see every touch in Cluega.",
+        "primary": "Start for free",
+        "secondary": "Talk to sales"
+      },
+      "footer": {
+        "tagline": "Cluega brings every customer interaction, workflow, and signal into one AI-native revenue workspace.",
+        "platform": {
+          "title": "Platform",
+          "items": {
+            "one": "Ask Cluega",
+            "two": "AI",
+            "three": "Data model",
+            "four": "Sequences"
+          }
+        },
+        "company": {
+          "title": "Company",
+          "items": {
+            "one": "About",
+            "two": "Customers",
+            "three": "Careers",
+            "four": "Contact"
+          }
+        },
+        "importFrom": {
+          "title": "Import from",
+          "items": {
+            "one": "Salesforce",
+            "two": "HubSpot",
+            "three": "Pipedrive",
+            "four": "CSV"
+          }
+        },
+        "cluegaFor": {
+          "title": "Cluega for",
+          "items": {
+            "one": "Startups",
+            "two": "Sales teams",
+            "three": "Marketing teams",
+            "four": "RevOps"
+          }
+        },
+        "apps": {
+          "title": "Apps",
+          "items": {
+            "one": "Gmail",
+            "two": "Slack",
+            "three": "Zapier",
+            "four": "API"
+          }
+        },
+        "resources": {
+          "title": "Resources",
+          "items": {
+            "one": "Customers",
+            "two": "Guides",
+            "three": "Help center",
+            "four": "Blog",
+            "customers": "Customers",
+            "guides": "Guides",
+            "helpCenter": "Help center"
+          }
+        },
+        "legal": {
+          "privacy": "Privacy",
+          "terms": "Terms"
+        },
+        "copyright": "© 2026 Cluega. All rights reserved."
+      }
+    }
+  }
+}

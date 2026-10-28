@@ -1,0 +1,2320 @@
+/* Shared stylesheet for both zones: Tailwind entry, design tokens and the
+ * hand-written component CSS.
+ *
+ * `source(none)` turns OFF Tailwind's automatic content detection. Detection is
+ * relative to this file, which now lives in packages/shared — it would scan the
+ * wrong tree and miss both apps. Each zone declares its own scan roots instead,
+ * in apps/<zone>/app/globals.css, so neither build generates utilities for the
+ * other zone's markup.
+ *
+ * That also replaces the old `@source not "…/element-code.md"` guards: those
+ * reference-only HTML dumps are no longer scanned by anyone. */
+@import "tailwindcss" source(none);
+@import "tw-animate-css";
+@import "./tokens.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@property --hero-pill-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes hero-pill-border {
+  to {
+    --hero-pill-angle: 360deg;
+  }
+}
+
+@keyframes data-connection-flow-path {
+  to {
+    stroke-dashoffset: -420;
+  }
+}
+
+@keyframes models-slider-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-25%, 0, 0);
+  }
+}
+
+/* Report Center intro previews: end-credits scroll. The track holds the rows
+   twice, so -50% lands exactly on the duplicate and the loop is seamless. */
+@keyframes report-credits-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+/* Loading label: a bright crest sweeping left → right THROUGH the glyphs, so a
+   step that is still running says so with its own text instead of yet another
+   spinning ring next to it.
+   The gradient tile is twice the element wide and travels exactly one tile
+   (100% → -100%), so the default `repeat` hands the next crest in at the moment
+   the last one leaves — one continuous wave, no visible seam. */
+@keyframes text-shimmer-sweep {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
+}
+
+/* The live row's sweep, measured off Manus (19/10/2026): 250% to -250% over a
+   250%-wide gradient. The background repeats, and the travel is 7.5 widths of
+   the text against a 2.5-width tile, so three crests cross the words every 4s,
+   one about every 1.33s. Keep the values: they are Manus's own. */
+@keyframes text-shimmer-live-sweep {
+  from {
+    background-position: 250% 0;
+  }
+
+  to {
+    background-position: -250% 0;
+  }
+}
+
+/* The live row's words arriving: opacity only, so the row never moves. */
+@keyframes live-row-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* The same crest, swept through a placeholder BOX instead of glyphs. A skeleton
+   that only pulses its opacity is the live dot's bug one more time: on a white
+   ground a light bar at half strength is indistinguishable from the page, and
+   the panel reads as blank rather than as loading (the Run-ads prompt-ideas
+   step was reported that way, 2026-09-15). The base tone therefore never dims;
+   the beat is carried by a moving edge, which the eye catches at any
+   brightness, in either theme. */
+@keyframes skeleton-sweep {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
+}
+
+/* The dot that goes with it: three of them dipping in turn, left → right — the
+   same direction the crest sweeps, so the glyph and its label beat together
+   instead of running two unrelated rhythms. The rest is long relative to the
+   dip so the row settles between beats rather than jittering. */
+@keyframes loading-dot-dip {
+  0%,
+  60%,
+  100% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+
+  30% {
+    opacity: 1;
+    transform: translateY(2.5px);
+  }
+}
+
+/* The live marker on the agent trace: one dot holding a beat.
+   Opacity was the whole problem. Tailwind's `animate-pulse` fades the dot to
+   50%, and on a white ground a 8px disc at half strength reads as *greyed out*
+   — as a step that gave up — which is the opposite of what it means (reported
+   2026-09-08, light mode). So the CORE never dims: it keeps full colour and
+   only breathes by a fifth of its size, and the beat is carried by a HALO
+   expanding out of it. A moving edge is caught by the eye at any brightness,
+   on white and on black alike, and it costs no layout: the halo is a pseudo
+   element, absolutely positioned, so nothing beside the dot moves.
+   Both are held to the shimmer's 2.4s so the dot and the heading next to it
+   breathe on ONE period — at Tailwind's 2s the two drifted in and out of phase
+   and the row read as stuttering. */
+@keyframes live-dot-core {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.18);
+  }
+}
+
+@keyframes live-blob-morph {
+  0% {
+    border-radius: 50%;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    border-radius: 42% 58% 55% 45%;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    border-radius: 50%;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes live-blob-writing {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes live-dot-halo {
+  0% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+
+  70%,
+  100% {
+    opacity: 0;
+    transform: scale(2.7);
+  }
+}
+
+/* The four-state task light's breathing, and ONLY the green one breathes —
+   PRD v1.1 Part 1 item 6: "Lights are solid dots without glow; only the green
+   dot keeps its breathing animation."
+
+   Opacity, not scale or a halo: the same spec sentence forbids the glow, and a
+   dot that changes size nudges the text beside it on a 4px mark. ~1.6s is the
+   period the spec names; slower than live-dot-core because this one sits in a
+   list of rows rather than beside a single heading, and a list of them pulsing
+   at 2.4s read as the page itself flickering. */
+@keyframes task-light-breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.35;
+  }
+}
+
+/* The marker on a step that is RUNNING: a ring with one bright arc, turning.
+   Asked for directly on 2026-09-08 ("thay dấu chấm xanh bằng loading xoay"),
+   which lifts the 2026-09-07 "never animate-spin for agent state" rule for this
+   one marker — and only this one. It is the mockup's own step marker, and at
+   15px a turning arc reads as work in progress from further away than a pulse
+   does. 0.75s: fast enough to read as active, slow enough not to strobe. */
+@keyframes step-spinner-turn {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* The caret that trails streaming text. A hard on/off at `steps(1)`, not a
+   fade: a terminal caret blinks, and a fading one reads as a decoration rather
+   than as a cursor sitting where the next character will land. */
+@keyframes stream-caret-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes validation-flash {
+  0%, 100% { border-color: rgb(253 230 138); box-shadow: 0 0 0 0 rgb(245 158 11 / 0); }
+  35% { border-color: rgb(245 158 11); box-shadow: 0 0 0 5px rgb(245 158 11 / 0.32); }
+  70% { border-color: rgb(253 230 138); box-shadow: 0 0 0 1px rgb(245 158 11 / 0.16); }
+}
+
+/* All Tasks: a run that finished while a different nav/session was on screen
+   blinks its icon fully off and back on — not a soft fade like pvd-blink —
+   until the user opens that session. The hold happens at both ends (0% and
+   49.9% share opacity:1, 50% and 100% share opacity:0), so the only motion is
+   the near-instant flip between them: a real on/off, not a dim/brighten. */
+@keyframes sidebar-just-completed-blink {
+  0%,
+  49.9% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Flow preset cards: the Save Template preview's image-cycle transitions,
+   mirrored 1:1 from the workflow editor (cwf-tplfx-*), so a published card
+   moves exactly like its preview did. The four slide directions share two
+   parameterized keyframes — the frame sets --fx-x/--fx-y — and curtain parts
+   the current image's clipped halves vertically (±51%: the 1% over kills the
+   subpixel seam). Consumed via animate-[…] in PresetCover. */
+@keyframes flow-preset-slide-out {
+  to {
+    transform: translate3d(var(--fx-x, 0px), var(--fx-y, 0px), 0);
+  }
+}
+
+@keyframes flow-preset-slide-in {
+  from {
+    transform: translate3d(
+      calc(-1 * var(--fx-x, 0px)),
+      calc(-1 * var(--fx-y, 0px)),
+      0
+    );
+  }
+}
+
+@keyframes flow-preset-curtain-top {
+  to {
+    transform: translate3d(0, -51%, 0);
+  }
+}
+
+@keyframes flow-preset-curtain-bottom {
+  to {
+    transform: translate3d(0, 51%, 0);
+  }
+}
+
+/* Flow media skeleton: one soft highlight crossing a placeholder tile, left to
+   right, while a card or its cover loads. Only transform moves, so the sweep
+   stays on the compositor. Consumed via animate-[…] in MediaSkeleton. */
+@keyframes flow-media-shimmer {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+/* Flow Home hero: the circle that sweeps the dimmed canvas still. The reveal is
+   a full copy of the image masked down to one soft-edged circle, so the sweep is
+   a moving mask position rather than a second element sliding over the art — the
+   revealed pixels stay exactly where the dimmed ones are. Percentages are
+   relative to the travel box (the element minus the mask), so the circle stays
+   inside the band for the whole sweep instead of running off either end. */
+@keyframes flow-home-spotlight-sweep {
+  from {
+    -webkit-mask-position: 2% 50%;
+    mask-position: 2% 50%;
+  }
+
+  to {
+    -webkit-mask-position: 98% 50%;
+    mask-position: 98% 50%;
+  }
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.16 0.012 252);
+  /* Pure white, as --background. Both were oklch(0.995 0.004 95), a faint
+     ivory that made every dialog, popover and menu read off-white against the
+     page (asked for, 2026-10-06). */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.16 0.012 252);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.16 0.012 252);
+  --primary: oklch(0.22 0.033 244);
+  --primary-foreground: oklch(0.98 0.006 95);
+  --secondary: oklch(0.93 0.01 100);
+  --secondary-foreground: oklch(0.22 0.033 244);
+  /* The design file's Text-secondary: the ink for labels, hints and units that
+     sit beside primary text. Nothing to do with --secondary above, which is a
+     light BACKGROUND — naming them alike is the trap this token exists to close.
+     One value for both themes, because the 47 call sites it replaces were
+     hard-coded #A3A3A3 with no dark variant: defining a different dark value
+     here would change how every one of them already looks. */
+  --text-secondary: #A3A3A3;
+  /* The design file's Text-primary: the ink for names and labels that carry the
+     reading. NOT --primary above, which is this system's navy ACCENT — the two
+     answer different questions and only share a word. One value for both
+     themes, for the same reason --text-secondary has one. */
+  --text-primary: #424242;
+  /* The design file's Text-tertiary — lighter than --text-secondary, for text
+     that is present but not yet meaningful (a placeholder). NOT the older
+     `text-tertiary-foreground` utility below, which belongs to the shadcn
+     muted-foreground scale and is darker than --text-secondary. */
+  --text-tertiary: #D6D6D6;
+  /* The design file's grey for a bare ICON KEY — the search, collapse and panel
+     marks that sit in a header with no label beside them. A step darker than
+     --text-secondary because a 1.75-weight stroke at 20px carries far less ink
+     than a line of 12px text and reads lighter at the same value.
+
+     Its own token rather than reusing --text-secondary: those two are within
+     one step of each other and were the same value once, which is how three
+     keys in two components ended up agreeing by accident and then drifting.
+     Moving --text-secondary instead would repaint 47 text call sites to fix
+     three icons. */
+  --icon-key: #9A9A9A;
+  --muted: oklch(0.94 0.008 100);
+  --muted-foreground: oklch(0.48 0.021 252);
+  --accent: oklch(0.82 0.11 172);
+  --accent-foreground: oklch(0.15 0.018 252);
+  --destructive: oklch(0.58 0.2 28);
+  /* Neutral grey, same lightness: the 0.012 chroma at hue 100 drew a beige
+     #D3D2C9 outline that made white menus and dialogs read ivory (asked for,
+     2026-10-06). --sidebar-border below follows. */
+  --border: oklch(0.86 0 0);
+  --input: oklch(0.86 0 0);
+  --ring: oklch(0.7 0.105 172);
+  --chart-1: oklch(0.64 0.12 172);
+  --chart-2: oklch(0.55 0.09 235);
+  --chart-3: oklch(0.7 0.12 78);
+  --chart-4: oklch(0.63 0.16 34);
+  --chart-5: oklch(0.45 0.07 286);
+  --sidebar: oklch(0.975 0.006 95);
+  --sidebar-foreground: oklch(0.16 0.012 252);
+  --sidebar-primary: oklch(0.22 0.033 244);
+  --sidebar-primary-foreground: oklch(0.98 0.006 95);
+  --sidebar-accent: oklch(0.93 0.01 100);
+  --sidebar-accent-foreground: oklch(0.22 0.033 244);
+  --sidebar-border: oklch(0.86 0 0);
+  --sidebar-ring: oklch(0.7 0.105 172);
+  /* Text selection: a translucent wash of the brand teal instead of the solid
+     accent, so selected text keeps its own color and stays readable over cards,
+     images and colored surfaces alike. */
+  --selection: oklch(0.7 0.1 172 / 0.24);
+  --selection-foreground: oklch(0.16 0.012 252);
+  --site-header-height: 64px;
+}
+
+/* ── Dark ────────────────────────────────────────────────────────────────────
+   The neutral ramp is PULSE's, not a hue-shifted copy of the light theme.
+
+   It used to be the light palette rotated into the dark: every surface at
+   hue 252 with a little chroma, so the page ground, the cards and the fills all
+   carried a blue cast, while --foreground came back at hue 95 and carried a
+   warm one. Two opposite tints in one theme is why dark never settled — and
+   Pulse, which had been drawn dark from its own boards, sat inside that app
+   looking like a different product: its panels are zinc, near-neutral, and a
+   good deal darker than anything around them.
+
+   So the surfaces, the ink and the edges are quoted from the --pulse-* dark
+   block below rather than restated, and the mapping is by ROLE:
+
+     --background   ← --pulse-canvas        the ground behind everything
+     --sidebar      ← --pulse-rail          which sits BELOW the panel, not level
+     --card/popover ← --pulse-panel         what is raised off it
+     --muted/second ← --pulse-fill          a subdued fill inside a panel
+     --border/input ← --pulse-panel-border  a panel's edge
+
+   What is NOT taken from Pulse: the accent, the charts and --destructive. Those
+   are brand and semantic colour — they answer "which product is this" and "how
+   bad is this", not "how dark is this" — and Pulse has no opinion on the first
+   two. They keep their values and their hues in both themes.
+
+   Borders go SOLID. They were `oklch(1 0 0 / 12%)`, a translucent white, which
+   resolves to a different edge on every surface it crosses: ~#2a2a2a on the
+   canvas, ~#333338 on a card. Pulse states one edge colour and gets one edge.
+   ── */
+.dark {
+  --background: #0a0a0b;
+  --foreground: #f4f4f5;
+  /* The ink scale, on Pulse's three steps: the reading, the text beside it,
+     the text not yet meaningful. */
+  --text-primary: #f4f4f5;
+  --text-secondary: #9d9da6;
+  --text-tertiary: #6b6b74;
+  /* One step off --text-secondary, in the direction that ADDS contrast — which
+     is the opposite direction from light. A 1.75-weight stroke reads thin, so
+     on a light ground it wants to be darker than the text beside it and on a
+     dark ground lighter. The old value stepped darker in both, which spent the
+     token's whole reason on making dark icons fainter. */
+  --icon-key: #a9a9b2;
+  --card: #141417;
+  --card-foreground: #f4f4f5;
+  --popover: #141417;
+  --popover-foreground: #f4f4f5;
+  /* A solid button in dark is the ink, inverted — which is what the surfaces
+     that hardcode `dark:bg-[#F4F4F5] dark:text-[#18181B]` have been drawing by
+     hand. Same pair, now from the token. */
+  --primary: #f4f4f5;
+  --primary-foreground: #18181b;
+  --secondary: #1c1c21;
+  --secondary-foreground: #f4f4f5;
+  --muted: #1c1c21;
+  --muted-foreground: #9d9da6;
+  --accent: oklch(0.72 0.11 172);
+  --accent-foreground: #0a0a0b;
+  --destructive: oklch(0.7 0.19 24);
+  --border: #2a2a30;
+  --input: #2a2a30;
+  --ring: oklch(0.72 0.11 172);
+  --chart-1: oklch(0.7 0.11 172);
+  --chart-2: oklch(0.64 0.1 235);
+  --chart-3: oklch(0.78 0.12 78);
+  --chart-4: oklch(0.68 0.15 34);
+  --chart-5: oklch(0.72 0.08 286);
+  /* The rail sits UNDER the panel rather than level with it — Pulse's own
+     boards are explicit that the two cannot share a token, and the app's
+     sidebar had been matching --card. */
+  --sidebar: #101013;
+  --sidebar-foreground: #f4f4f5;
+  --sidebar-primary: oklch(0.72 0.11 172);
+  --sidebar-primary-foreground: #0a0a0b;
+  --sidebar-accent: #1f1f24;
+  --sidebar-accent-foreground: #f4f4f5;
+  --sidebar-border: #222227;
+  --sidebar-ring: oklch(0.72 0.11 172);
+  --selection: oklch(0.72 0.11 172 / 0.3);
+  --selection-foreground: #f4f4f5;
+}
+
+/* ── Library board palette (Library, Products, Scripts, Knowledge) ──────────
+   :root holds the Figma board's greys exactly, so light mode is the board.
+   .dark puts the same roles on the DarkMain handoff's palette; without it those
+   pages kept light greys on a dark page. Used as `text-[var(--lib-ink)]`, never
+   read as hex. */
+:root {
+  --lib-ink: #424242;
+  --lib-ink-soft: #737373;
+  --lib-ink-strong: #292929;
+  --lib-ink-strong-hover: #000000;
+  --lib-on-strong: #ffffff;
+  --lib-muted: #a3a3a3;
+  --lib-faint: #d6d6d6;
+  --lib-line-strong: #d6d6d6;
+  --lib-line: #e5e5e5;
+  --lib-fill: #f5f5f5;
+  --lib-fill-soft: #fafafa;
+  --lib-fill-strong: #ededed;
+  --lib-surface: #ffffff;
+  --lib-tab: #737373;
+}
+
+.dark {
+  /* Every value is one DarkMain uses: text #F4F4F5 · #B9B9C1 · #9D9DA6 · #6B6B74,
+     panel #141417, input #1C1C21, selected #26262C, segment #2E2E35. */
+  --lib-ink: #f4f4f5;
+  --lib-ink-soft: #b9b9c1;
+  --lib-ink-strong: #f4f4f5;
+  --lib-ink-strong-hover: #ffffff;
+  --lib-on-strong: #18181b;
+  --lib-muted: #9d9da6;
+  --lib-faint: #6b6b74;
+  --lib-line-strong: #33333b;
+  --lib-line: #2a2a30;
+  --lib-fill: #1c1c21;
+  --lib-fill-soft: #18181b;
+  --lib-fill-strong: #26262c;
+  --lib-surface: #141417;
+  --lib-tab: #2e2e35;
+}
+
+/* ── Dashboard widget tokens (visual baseline v1.2) ──────────────────────────
+   Single source of colour for components/dashboard/widgets/. Consumed through
+   components/dashboard/widgets/tokens.ts, which emits var(...) — never read
+   these directly from a widget.
+
+   :root is the frozen v1.2 hex from PRD §7.1 and MUST NOT drift: the appendix
+   images are the L2 acceptance reference for light. .dark has no PRD reference —
+   it inverts lightness while keeping hue and semantics (accent = positive,
+   alert = negative).
+
+   These :root/.dark blocks are intentionally separate from the app's shadcn
+   theme blocks above. Widget tokens track PRD §7.1 and are versioned on their
+   own schedule, independent of the shadcn theme; they are not meant to ever
+   merge with it, so keep them apart even though the selector repeats. */
+:root {
+  --widget-ink-primary: #262626;
+  --widget-ink-secondary: #595959;
+  --widget-ink-muted: #8c8c8c;
+  --widget-series-1: #525252;
+  --widget-accent: #6189b1;
+  --widget-series-3: #b3b3b3;
+  /* The fourth grey of the donut ramp. It exists because the ramp used to end on
+     --widget-grid (#eeeeee), which is ALSO the donut's own background track: the
+     fifth slice ("Other 11%") came out the same colour as the empty ring and read
+     as a gap in the chart rather than a share of it (reported 2026-09-03). One
+     even step below series-3, one clear step above the track. */
+  --widget-series-4: #d4d4d4;
+  --widget-alert: #a65a52;
+  --widget-alert-bg: #fbf2f1;
+  --widget-alert-bg-strong: #f4e4e2;
+  --widget-accent-bg: #eef3f8;
+  --widget-stale: #b08a3e;
+  --widget-stale-bg: #fdf8ec;
+  --widget-border: #e8e8e8;
+  --widget-grid: #eeeeee;
+  --widget-bg: #ffffff;
+  --widget-surface-muted: #fafafa;
+  --widget-on-series: #ffffff;
+}
+
+/* Command-center palette — OPT-IN, and deliberately a SEPARATE namespace.
+   The --widget-* block above is the frozen v1.2 PRD hex and must not drift, so
+   a board that wants a report palette gets its own variables rather than a new
+   value for a shared one. Nothing reads these unless a widget config says
+   `presentation: "command_center"` (see paletteFor in widgets/tokens.ts).
+
+   Roles, not shades: primary carries the main series, secondary the comparison
+   series, and positive/warning/critical carry meaning wherever they appear —
+   the same green means "winner" on a creative tile, in a table badge and on an
+   insight card. Warm neutrals (surface/grid) keep the report ground calm so the
+   semantic colours are the only loud things on the page.
+
+   Every pair a reader has to READ clears WCAG AA 4.5:1 (worst light 4.90 —
+   the muted blue on the report surface; worst dark 4.79); the two series also
+   differ in luminance (2.96 light, 1.56 dark) and the second one is dashed, so
+   hue is never the only signal. `series-3` and `series-4` are chart FILLS, not
+   text, and are held to separation from each other and from the ring instead. */
+:root {
+  --cc-ink: #1f2430;
+  --cc-ink-secondary: #4a5262;
+  --cc-ink-muted: #656d7d;
+  /* Muted blue and charcoal, not electric blue and violet.
+     The deck's own chart colours are quiet: the loud pair pulled the eye to
+     whichever chart happened to be on screen and made the semantic red — the
+     one colour that MEANS something — compete with two that do not. */
+  --cc-primary: #4a6fa5;
+  --cc-primary-bg: #eef1f7;
+  --cc-secondary: #3b414d;
+  --cc-secondary-bg: #eeeff2;
+  /* Bậc 3 và 4 của thang donut. Không dùng lại `--cc-ink-muted` cho bậc 3 nữa:
+     thang năm bậc sẽ có hai bậc trùng nhau, và lát thứ tư biến mất vào lát thứ
+     ba. Cả hai đều đậm hơn `--cc-surface` (vòng nền) nên một lát nhỏ vẫn đọc ra
+     là lát, không phải phần ring rỗng. */
+  --cc-series-3: #98a0ad;
+  --cc-series-4: #c8ccd3;
+  --cc-positive: #1f7a53;
+  --cc-positive-bg: #e6f3ec;
+  --cc-warning: #9a5c08;
+  --cc-warning-bg: #fdf2e0;
+  --cc-critical: #a8514a;
+  --cc-critical-bg: #f9eeed;
+  --cc-critical-bg-strong: #f2dedc;
+  --cc-border: #e3ded5;
+  --cc-grid: #e6e1d9;
+  --cc-bg: #ffffff;
+  --cc-surface: #fbfaf8;
+  --cc-surface-strong: #f4f1ec;
+  --cc-on-series: #ffffff;
+}
+
+.dark {
+  --cc-ink: #f0f1f4;
+  --cc-ink-secondary: #c3c8d4;
+  --cc-ink-muted: #949cac;
+  /* The same two roles, inverted. Charcoal cannot stay charcoal on a dark
+     ground — it would be the ground — so the SECOND series becomes the light
+     neutral and keeps its luminance distance from the blue. */
+  --cc-primary: #8aa9d6;
+  --cc-primary-bg: #1e2635;
+  --cc-secondary: #c6ccd8;
+  --cc-secondary-bg: #262a33;
+  --cc-series-3: #828a98;
+  --cc-series-4: #4c525c;
+  --cc-positive: #4cc38a;
+  --cc-positive-bg: #143025;
+  --cc-warning: #e0a33e;
+  --cc-warning-bg: #332811;
+  --cc-critical: #e0918a;
+  --cc-critical-bg: #2e2220;
+  --cc-critical-bg-strong: #3f2b28;
+  --cc-border: #343943;
+  --cc-grid: #2f333c;
+  --cc-bg: #17191e;
+  --cc-surface: #1c1e24;
+  --cc-surface-strong: #24272f;
+  --cc-on-series: #17191e;
+}
+
+.dark {
+  --widget-ink-primary: #f2f2f2;
+  --widget-ink-secondary: #c4c4c4;
+  --widget-ink-muted: #8f8f8f;
+  --widget-series-1: #d4d4d4;
+  --widget-accent: #7ea8cf;
+  --widget-series-3: #6b6b6b;
+  --widget-series-4: #4a4a4a;
+  --widget-alert: #d1877e;
+  --widget-alert-bg: #2c1f1e;
+  --widget-alert-bg-strong: #3d2a28;
+  --widget-accent-bg: #1e2a36;
+  --widget-stale: #d4ab5e;
+  --widget-stale-bg: #2b2418;
+  --widget-border: #333333;
+  --widget-grid: #2e2e2e;
+  --widget-bg: #1a1a1a;
+  --widget-surface-muted: #212121;
+  --widget-on-series: #1a1a1a;
+}
+
+/* ── Pulse Bot run-state tokens ──────────────────────────────────────────────
+   The three colours Pulse Bot uses to say what a run is doing: succeeded,
+   in-flight, failed. They are a semantic triad, not decoration, so they need
+   names the components can share — and none of the shadcn tokens carry
+   "in progress". Light is the Rakazo palette these were ported with; dark
+   lifts lightness to stay legible on the dark surface while keeping the hue. */
+:root {
+  --pulse-ok: #30a24b;
+  --pulse-running: #c97a17;
+  --pulse-failed: #d14b1f;
+}
+
+.dark {
+  --pulse-ok: #4ecb71;
+  --pulse-running: #f5a03c;
+  --pulse-failed: #f0774a;
+}
+
+/* ── Pulse chat chart series ─────────────────────────────────────────────────
+   OPT-IN like --cc-*: only a board drawn in the Pulse chat reads these, through
+   useWidgetPalette; --widget-* stays frozen everywhere else. Blue carries the
+   main data. Magenta and violet are the 2nd/3rd series, chosen clear of the
+   --pulse-ok/running/failed status colours and the widget alert red, and
+   validated as a categorical set on all pairs (CVD and normal vision) per mode. */
+:root {
+  --pulse-series-1: #2a78d6;
+  --pulse-series-2: #e87ba4;
+  --pulse-series-3: #4a3bb0;
+}
+
+.dark {
+  --pulse-series-1: #3987e5;
+  --pulse-series-2: #d55181;
+  --pulse-series-3: #5546c8;
+}
+
+/* ── Pulse message-centre surface tokens ─────────────────────────────────────
+   cluega-design-handoff draws the message centre as rounded panels floating on
+   a grey canvas, so the page needs names the shadcn set has no word for: the
+   canvas behind the panels, the panel edge, the nav rail, and the two greys
+   that are the *only* way a conversation row shows state — the handoff's Spec
+   board forbids row borders outright, so fill is all that is left.
+
+   Light values are the Tailwind zinc ramp, which is what the boards were drawn
+   in (all ten steps appear across the 27 of them). Dark is read off DarkMain,
+   where the drawer and rail deliberately sit *below* the panel rather than
+   matching it, so they cannot share a token. Every value is quoted from
+   source/*.dc.html except the one marked below. */
+:root {
+  --pulse-canvas: #f0f0f1;
+  --pulse-rail: #fafafa;
+  --pulse-panel: #ffffff;
+  --pulse-panel-border: #e4e4e7;
+  --pulse-drawer: #ffffff;
+  --pulse-divider: #ededf0;
+  --pulse-row-hover: #f4f4f5;
+  --pulse-row-selected: #e9e9eb;
+  --pulse-field: #f5f5f6;
+  --pulse-fill: #f4f4f5;
+  --pulse-raised: #ffffff;
+  --pulse-sunken: #f7f7f8;
+  --pulse-tile: #f4f4f5;
+  --pulse-section-border: #f4f4f5;
+  --pulse-ink-mid: #52525b;
+  --pulse-ink: #18181b;
+  --pulse-ink-2: #71717a;
+  --pulse-ink-3: #a1a1aa;
+  --pulse-mention: #2563eb;
+  --pulse-urgent: #dc2626;
+}
+
+.dark {
+  --pulse-canvas: #0a0a0b;
+  --pulse-rail: #101013;
+  --pulse-panel: #141417;
+  --pulse-panel-border: #2a2a30;
+  --pulse-drawer: #101013;
+  --pulse-divider: #222227;
+  /* ponytail: inferred, not quoted. Hover is a runtime state, so no static
+     board captures it in dark. Sits one step under --pulse-row-selected so
+     selection still reads stronger; correct it from the interactive canvas. */
+  --pulse-row-hover: #1f1f24;
+  --pulse-row-selected: #26262c;
+  --pulse-field: #1c1c21;
+  --pulse-fill: #1c1c21;
+  --pulse-raised: #2e2e35;
+  --pulse-sunken: #1c1c21;
+  --pulse-tile: #26262c;
+  --pulse-section-border: #1f1f24;
+  --pulse-ink-mid: #b9b9c1;
+  --pulse-ink: #f4f4f5;
+  --pulse-ink-2: #9d9da6;
+  --pulse-ink-3: #6b6b74;
+  --pulse-mention: #60a5fa;
+  --pulse-urgent: #ef4444;
+}
+
+/* --pulse-ink-mid stands in for TWO board values: #52525B (count pills, the
+   Outputs file glyph, an inactive filter chip) and #3F3F46 (a Context value,
+   the list toolbar's `+`). They are zinc-600 and zinc-700, one step apart, and
+   every use is 11-12px text or a 15px stroke where the step is not visible. One
+   token beats two that nobody could tell apart at review. Split it if a larger
+   use ever turns up. */
+
+@theme inline {
+  --color-pulse-ok: var(--pulse-ok);
+  --color-pulse-canvas: var(--pulse-canvas);
+  --color-pulse-rail: var(--pulse-rail);
+  --color-pulse-panel: var(--pulse-panel);
+  --color-pulse-panel-border: var(--pulse-panel-border);
+  --color-pulse-drawer: var(--pulse-drawer);
+  --color-pulse-divider: var(--pulse-divider);
+  --color-pulse-row-hover: var(--pulse-row-hover);
+  --color-pulse-row-selected: var(--pulse-row-selected);
+  --color-pulse-field: var(--pulse-field);
+  --color-pulse-fill: var(--pulse-fill);
+  --color-pulse-raised: var(--pulse-raised);
+  --color-pulse-sunken: var(--pulse-sunken);
+  --color-pulse-tile: var(--pulse-tile);
+  --color-pulse-section-border: var(--pulse-section-border);
+  --color-pulse-ink-mid: var(--pulse-ink-mid);
+  --color-pulse-ink: var(--pulse-ink);
+  --color-pulse-ink-2: var(--pulse-ink-2);
+  --color-pulse-ink-3: var(--pulse-ink-3);
+  --color-pulse-mention: var(--pulse-mention);
+  --color-pulse-urgent: var(--pulse-urgent);
+  --color-pulse-running: var(--pulse-running);
+  --color-pulse-failed: var(--pulse-failed);
+  --font-sans: var(--font-sans);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+.container,
+.header-container,
+.site-page-container {
+  --site-wrapper-inline-padding: calc(var(--spacing) * 6);
+
+  width: 100%;
+  max-width: 100%;
+  margin-inline: auto;
+  padding-inline: var(--site-wrapper-inline-padding);
+}
+
+@media not all and (min-width: 375px) {
+  .container,
+  .header-container,
+  .site-page-container {
+    --site-wrapper-inline-padding: calc(var(--spacing) * 4);
+  }
+}
+
+@media (min-width: 375px) {
+  .container,
+  .header-container,
+  .site-page-container {
+    max-width: var(--container-md);
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .header-container,
+  .site-page-container {
+    max-width: calc(var(--spacing) * 156);
+  }
+}
+
+@media (min-width: 992px) {
+  .container,
+  .header-container,
+  .site-page-container {
+    max-width: calc(var(--spacing) * 360);
+  }
+}
+
+.site-page-frame {
+  position: relative;
+  width: 100%;
+  border-inline: 1px solid var(--color-subtle-stroke, #e4e7ec);
+  background: #fff;
+}
+
+.site-section-divider {
+  position: absolute;
+  left: 50%;
+  z-index: 30;
+  width: 100vw;
+  height: 1px;
+  transform: translateX(-50%);
+  background: var(--site-section-divider-color, var(--color-subtle-stroke, #e4e7ec));
+  pointer-events: none;
+}
+
+.site-section-divider[data-edge="top"] {
+  top: 0;
+}
+
+.site-section-divider[data-edge="bottom"] {
+  bottom: 0;
+}
+
+/*
+ * Full-bleed solid section separators (rule.md).
+ * Page-level skin for platform/partner pages whose sections are direct
+ * children of a root wrapper class. Each section after the first draws one
+ * solid line that spans the full viewport width at its top edge.
+ */
+.agent-blog-page > section,
+.partners-page > section,
+.platform-enterprise-page > section {
+  position: relative;
+}
+
+.agent-blog-page > div + section::before,
+.agent-blog-page > section + section::before,
+.platform-enterprise-page > section + section::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 30;
+  width: 100vw;
+  height: 1px;
+  transform: translateX(-50%);
+  background: var(--color-subtle-stroke, #e4e7ec);
+  content: "";
+  pointer-events: none;
+}
+
+/* Sections on a dark skin use the light-on-dark separator color. */
+.platform-enterprise-page > section.enterprise-dark-bg::before {
+  background: rgb(255 255 255 / 0.14);
+}
+
+/*
+ * Expert-partners: every section carries its own full-bleed horizontal hairline
+ * at its top, spanning the entire viewport — independent of nesting and of the
+ * vertical frame wrapper (which deliberately excludes the hero).
+ */
+.partners-page section {
+  position: relative;
+}
+
+.partners-page section::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 20;
+  width: 100vw;
+  height: 1px;
+  transform: translateX(-50%);
+  background: var(--color-subtle-stroke, #e4e7ec);
+  content: "";
+  pointer-events: none;
+}
+
+.container > .site-frame-edge[data-side="left"],
+.site-page-container > .site-frame-edge[data-side="left"] {
+  left: var(--site-wrapper-inline-padding);
+}
+
+.container > .site-frame-edge[data-side="right"],
+.site-page-container > .site-frame-edge[data-side="right"] {
+  right: var(--site-wrapper-inline-padding);
+}
+
+@layer components {
+  .hero-pill-border {
+    animation: hero-pill-border 4.5s linear infinite;
+    background: conic-gradient(
+      from var(--hero-pill-angle),
+      transparent 0deg,
+      transparent 236deg,
+      #a3ece9 278deg,
+      #709ff5 326deg,
+      transparent 360deg
+    );
+    transform: translateZ(0);
+  }
+
+  .data-connection-flow-path {
+    animation: data-connection-flow-path 4.5s linear infinite;
+    filter: drop-shadow(0 0 5px rgb(112 159 245 / 0.28));
+    stroke-dasharray: 58 420;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 1.35;
+    transform: translateZ(0);
+  }
+
+  .data-connection-center-border {
+    animation: hero-pill-border 4.5s linear infinite;
+    animation-delay: 1.15s;
+    background: conic-gradient(
+      from var(--hero-pill-angle),
+      transparent 0deg,
+      transparent 216deg,
+      rgb(163 236 233 / 0.08) 248deg,
+      #a3ece9 284deg,
+      #709ff5 326deg,
+      transparent 360deg
+    );
+    opacity: 0.95;
+    transform: translateZ(0);
+  }
+
+  .models-slider-track {
+    animation: models-slider-marquee 22s linear infinite;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .report-credits-track {
+    animation: report-credits-scroll 18s linear infinite;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* Put this on the LABEL of anything in flight (phase title, tool pill,
+     streaming paragraph). The gradient is clipped to the text, so the element
+     needs no extra markup and keeps its own font/size/truncation — but it also
+     owns `color` while it runs, so don't pair it with a text-* utility.
+     Override --text-shimmer-base / --text-shimmer-peak to retune the contrast;
+     both default to theme tokens, so light and dark follow automatically. */
+  .text-shimmer {
+    --text-shimmer-base: var(--muted-foreground);
+    --text-shimmer-peak: var(--foreground);
+
+    animation: text-shimmer-sweep 2.4s linear infinite;
+    background-image: linear-gradient(
+      90deg,
+      var(--text-shimmer-base) 0%,
+      var(--text-shimmer-base) 38%,
+      var(--text-shimmer-peak) 50%,
+      var(--text-shimmer-base) 62%,
+      var(--text-shimmer-base) 100%
+    );
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* The crest is clipped to the glyphs of the whole subtree, which is what lets
+     a markdown paragraph wave without extra markup — but a descendant that
+     paints its OWN surface (code pill, pre, table cell) covers the gradient and
+     then renders its text invisible, because the transparent fill inherits.
+     Hand those back a normal fill. Zero specificity, so each one's existing
+     colour utility still wins over the fallback. */
+  .text-shimmer :where(code, pre, kbd, table, th, td) {
+    color: var(--text-shimmer-base);
+    -webkit-text-fill-color: currentcolor;
+  }
+
+  /* The turn's live row ("Thinking", "Using Web search"), after Manus: DARK
+     words with a LIGHT glint crossing them, the reverse of `.text-shimmer`, and
+     on a slower 4s beat. A sibling rather than a retune of `.text-shimmer`,
+     which a dozen other labels still use. Same rule as there: it owns `color`
+     while it runs, so never pair it with a text-* colour utility (Safari draws
+     the utility's fill over the clipped gradient). Manus's own values: no app
+     token sits close to #4d4d4d (`--muted-foreground` is a blue-grey). */
+  .text-shimmer-live {
+    --text-shimmer-live-base: #4d4d4d;
+    --text-shimmer-live-crest: #e5e5e5;
+
+    animation: text-shimmer-live-sweep 4s linear infinite;
+    background-image: linear-gradient(
+      110deg,
+      var(--text-shimmer-live-base) 35%,
+      var(--text-shimmer-live-crest) 50%,
+      var(--text-shimmer-live-base) 75%,
+      var(--text-shimmer-live-base)
+    );
+    background-size: 250% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .dark .text-shimmer-live {
+    --text-shimmer-live-base: #b3b3b3;
+    --text-shimmer-live-crest: #474747;
+  }
+
+  /* New words on the live row fade in; the span is re-keyed on its text so
+     this runs once per change. With the shimmer on the same span both
+     animations have to be listed, or the later rule would drop the sweep. */
+  .live-row-fade {
+    animation: live-row-fade-in 180ms ease-out both;
+  }
+
+  .text-shimmer-live.live-row-fade {
+    animation:
+      text-shimmer-live-sweep 4s linear infinite,
+      live-row-fade-in 180ms ease-out both;
+  }
+
+  /* Put this on a placeholder BOX standing in for content still on the wire —
+     a bar, a tile, an avatar. It brings its own surface, so it needs no bg-*
+     beside it; size and radius stay with the element. Deliberately a full step
+     darker than `--muted`: a placeholder has to be legible as an absence, and
+     `--muted` at any opacity is not, on white. */
+  .skeleton-bar {
+    --skeleton-base: oklch(0.91 0.008 100);
+    --skeleton-crest: oklch(0.965 0.004 100);
+
+    background-color: var(--skeleton-base);
+    background-image: linear-gradient(
+      90deg,
+      var(--skeleton-base) 0%,
+      var(--skeleton-base) 38%,
+      var(--skeleton-crest) 50%,
+      var(--skeleton-base) 62%,
+      var(--skeleton-base) 100%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-sweep 1.8s linear infinite;
+  }
+
+  /* Zinc, like every other dark surface. These were hue 252 — the blue cast the
+     theme used to carry everywhere — so a loading row shimmered blue over
+     neutral cards once the surfaces went neutral. Base sits at --pulse-tile and
+     the crest one step above it, which is the same distance the light pair
+     keeps. */
+  .dark .skeleton-bar {
+    --skeleton-base: #26262c;
+    --skeleton-crest: #35353d;
+  }
+
+  /* Three dots, dipping one at a time. Takes its colour from the parent's
+     `color`, and the whole row is ~14px wide on purpose: it drops into the
+     18px slot the phase timeline reserves for its node glyph, so the title and
+     the content indent below stay put whatever the phase's status is. */
+  .loading-dots {
+    display: inline-flex;
+    align-items: center;
+    gap: 2.5px;
+  }
+
+  /* The LLMThinking redline (UAT UI3-L-13): three 3.5px dots on a 1.2s cycle,
+     each 0.2s behind the one before. Were 3px, 1.25s, 0.15s. */
+  .loading-dots > span {
+    width: 3.5px;
+    height: 3.5px;
+    border-radius: 9999px;
+    background: currentcolor;
+    animation: loading-dot-dip 1.2s ease-in-out infinite;
+  }
+
+  .loading-dots > span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .loading-dots > span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  /* Put this on the one marker that says a turn is still running — the phase
+     node on the trace, the trace's own header, the elapsed-silence notice. It
+     brings its own size and colour, so it needs no size-* / bg-* beside it.
+     Blue-600 in light and blue-400 in dark: the same dot at the same contrast
+     against either ground, rather than one value that only survives on one. */
+  .live-dot {
+    --live-dot-color: #2563eb;
+
+    position: relative;
+    display: block;
+    flex-shrink: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 9999px;
+    background: var(--live-dot-color);
+    animation: live-dot-core 2.4s ease-in-out infinite;
+  }
+
+  .live-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: var(--live-dot-color);
+    animation: live-dot-halo 2.4s ease-out infinite;
+  }
+
+  .dark .live-dot {
+    --live-dot-color: #60a5fa;
+  }
+
+  /* The live row's marker, after Manus's animated logo: a 14px blue-to-cyan blob
+     that slowly turns and changes shape. Only transform and border-radius move,
+     on the element itself inside the row's fixed 20px box, so nothing beside it
+     shifts. */
+  .live-blob {
+    --live-blob-from: #3b82f6;
+    --live-blob-to: #22d3ee;
+
+    display: block;
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--live-blob-from), var(--live-blob-to));
+    animation: live-blob-morph 3s linear infinite;
+  }
+
+  .dark .live-blob {
+    --live-blob-from: #60a5fa;
+    --live-blob-to: #67e8f9;
+  }
+
+  /* A turn parked on the person's answer: amber, and half as fast. Still alive,
+     but nothing happens until the reader acts. */
+  .live-blob--waiting {
+    --live-blob-from: #f59e0b;
+    --live-blob-to: #fbbf24;
+
+    animation-duration: 6s;
+  }
+
+  .dark .live-blob--waiting {
+    --live-blob-from: #fbbf24;
+    --live-blob-to: #fde68a;
+  }
+
+  /* Prose is being written: an 8px dot in the text colour that breathes, as
+     Manus's `markdownLoading` does at the end of a streaming answer. */
+  .live-blob--writing {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--foreground);
+    animation: live-blob-writing 1.4s ease-in-out infinite;
+  }
+
+  /* A narration still being written (`narration_delta`): the same breathing dot,
+     at the end of its last line. Drawn as `::after`, so nothing mounts, and it
+     only scales, so no line reflows. Settled, the class goes and so does the dot. */
+  .narration-pending::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    border-radius: 50%;
+    vertical-align: 0.05em;
+    background: var(--foreground);
+    animation: live-blob-writing 1.4s ease-in-out infinite;
+  }
+
+  /* The step marker while its phase runs. Sized to sit inside the 18px node
+     box the finished tick fills, so a phase finishing swaps the glyph without
+     moving the row or the rail behind it. The arc takes the tick's own green:
+     one step, one colour, whatever stage it is at. */
+  .step-spinner {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1.8px solid var(--border);
+    border-top-color: #059669;
+    border-radius: 9999px;
+    animation: step-spinner-turn 0.75s linear infinite;
+  }
+
+  /* The revealed half of the Flow Home hero. Sits on the dimmed still at the
+     same size and position and is masked to a single circle: opaque at the core,
+     faded out by its rim, so the art comes back gradually instead of behind a
+     cut-out disc. `closest-side` keeps the gradient round whatever the hero's
+     aspect ratio is; the sweep is `alternate`, so it walks back the way it came
+     rather than snapping to the left edge. */
+  .flow-home-spotlight {
+    --flow-home-spotlight-size: clamp(260px, 32vw, 520px);
+    -webkit-mask-image: radial-gradient(
+      circle closest-side,
+      #000 0%,
+      #000 46%,
+      rgb(0 0 0 / 0.5) 72%,
+      transparent 100%
+    );
+    mask-image: radial-gradient(
+      circle closest-side,
+      #000 0%,
+      #000 46%,
+      rgb(0 0 0 / 0.5) 72%,
+      transparent 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: var(--flow-home-spotlight-size)
+      var(--flow-home-spotlight-size);
+    mask-size: var(--flow-home-spotlight-size) var(--flow-home-spotlight-size);
+    -webkit-mask-position: 2% 50%;
+    mask-position: 2% 50%;
+    animation: flow-home-spotlight-sweep 18s ease-in-out infinite alternate;
+  }
+
+  /* Put this on the CONTAINER of streaming markdown. The caret is drawn on the
+     last block inside it rather than as an element of its own, so it sits at
+     the end of the sentence being written instead of on a line below it, and
+     nothing mounts or unmounts as blocks arrive.
+     Two rules, not one: a list is a block whose text ends inside its last item,
+     and `:not(:has(li))` keeps the list itself from wearing a second caret. */
+  .stream-caret > :last-child:not(:has(li))::after,
+  .stream-caret > :where(ul, ol):last-child > li:last-child::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    margin-left: 2px;
+    vertical-align: -0.14em;
+    background: currentcolor;
+    animation: stream-caret-blink 1.05s steps(1) infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-pill-border {
+      animation: none;
+    }
+
+    .data-connection-flow-path {
+      animation: none;
+      opacity: 0.45;
+    }
+
+    .data-connection-center-border {
+      animation: none;
+      opacity: 0.3;
+    }
+
+    .models-slider-track {
+      animation: none;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .report-credits-track {
+      animation: none;
+    }
+
+    /* No sweep — the label just holds the crest colour so "still working" is
+       still legible without motion. */
+    .text-shimmer {
+      animation: none;
+      background-image: none;
+      color: var(--text-shimmer-peak);
+      -webkit-text-fill-color: currentcolor;
+    }
+
+    /* The live row's words hold the base tone and arrive without a fade. */
+    /* The compound rule is listed too: at (0,2,0) it would outrank the other
+       two here and keep both animations running. */
+    .text-shimmer-live,
+    .live-row-fade,
+    .text-shimmer-live.live-row-fade {
+      animation: none;
+    }
+
+    /* The blob and the writing dot hold still. */
+    .live-blob,
+    .live-blob--waiting,
+    .live-blob--writing {
+      animation: none;
+    }
+
+    .narration-pending::after {
+      animation: none;
+    }
+
+    .text-shimmer-live {
+      background-image: none;
+      color: var(--text-shimmer-live-base);
+      -webkit-text-fill-color: currentcolor;
+    }
+
+    /* No sweep either — the flat base tone is already the whole message, which
+       is why it had to be a visible tone and not a faded one. */
+    .skeleton-bar {
+      animation: none;
+      background-image: none;
+    }
+
+    /* The dots stay, they just stop dipping — three of them in a row is already
+       a recognisable "in progress" mark on its own. */
+    .loading-dots > span {
+      animation: none;
+      opacity: 0.6;
+    }
+
+    /* No beat. The core keeps its full colour and the halo becomes a still
+       ring around it, so the marker still reads as a live state rather than as
+       a bullet point — which is what the old `motion-safe:` guard left behind. */
+    .live-dot,
+    .live-dot::after {
+      animation: none;
+    }
+
+    /* The task light stops breathing and stays at full opacity: its colour is
+       what carries the state, so a still green dot still says "running". */
+    [class*="task-light-breathe"] {
+      animation: none;
+      opacity: 1;
+    }
+
+    .live-dot::after {
+      opacity: 0.3;
+      transform: scale(2);
+    }
+
+    /* The circle parks in the middle of the hero: the art still has one clear
+       area to read, it just stops travelling. */
+    .flow-home-spotlight {
+      animation: none;
+      -webkit-mask-position: 50% 50%;
+      mask-position: 50% 50%;
+    }
+
+    /* The ring stops turning and keeps its arc: a broken circle still reads as
+       "in progress" where a full one would read as a finished node. */
+    .step-spinner {
+      animation: none;
+    }
+
+    /* The caret stops blinking but stays: it still marks where the text is
+       being written, which is the whole of its job. */
+    .stream-caret > :last-child:not(:has(li))::after,
+    .stream-caret > :where(ul, ol):last-child > li:last-child::after {
+      animation: none;
+    }
+
+    .models-slider-track > [aria-hidden="true"] {
+      display: none;
+    }
+  }
+}
+
+@utility text-heading-md {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+@utility text-heading-sm {
+  font-size: 2rem;
+  line-height: 2.375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+@utility text-heading-md-serif {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+@utility border-subtle-stroke {
+  border-color: oklch(0.86 0.012 100);
+}
+
+@utility text-caption-foreground {
+  color: oklch(0.48 0.021 252);
+}
+
+@utility text-tertiary-foreground {
+  color: oklch(0.48 0.021 252);
+}
+
+@utility text-subtle-stroke {
+  color: oklch(0.86 0.012 100);
+}
+
+@utility text-white-100 {
+  color: oklch(0.985 0 0);
+}
+
+@utility text-white-200 {
+  color: oklch(0.95 0 0);
+}
+
+@utility text-black-800 {
+  color: #8f99a8;
+}
+
+@utility bg-secondary-background {
+  background-color: oklch(0.975 0.006 95);
+}
+
+@utility bg-black-0 {
+  background-color: oklch(0.13 0.014 252);
+}
+
+@utility bg-blue-450 {
+  background-color: oklch(0.64 0.16 255);
+}
+
+@utility text-muted-strong-background {
+  color: oklch(0.82 0.01 100);
+}
+
+@utility bg-primary-background {
+  background-color: oklch(0.995 0.004 95);
+}
+
+@utility border-default-stroke {
+  border-color: oklch(0.86 0.012 100);
+}
+
+@utility border-greyscale-light-08 {
+  border-color: oklch(0.82 0.01 100 / 0.8);
+}
+
+@utility text-heading-responsive-sm {
+  font-size: clamp(1.625rem, 2.2vw, 2rem);
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+@utility text-accent-foreground {
+  color: oklch(0.48 0.021 252);
+}
+
+@utility text-secondary-foreground {
+  color: oklch(0.38 0.022 252);
+}
+
+/* NOT named `text-secondary`: Tailwind already generates that from
+   --color-secondary (a near-white BACKGROUND), and it emits its declaration
+   after this one inside the same rule — so an override there loses silently and
+   paints labels almost white. `text-secondary-foreground` a few lines up has the
+   same collision; it goes unnoticed only because both of its values are dark. */
+@utility text-ink-secondary {
+  color: var(--text-secondary);
+}
+
+/* Same collision as `text-ink-secondary`: Tailwind generates `text-primary`
+   from --color-primary and would win over an override of that name. */
+@utility text-ink-primary {
+  color: var(--text-primary);
+}
+
+@utility text-ink-tertiary {
+  color: var(--text-tertiary);
+}
+
+/* The bare header keys. See --icon-key for why this is not text-ink-secondary. */
+@utility text-icon-key {
+  color: var(--icon-key);
+}
+
+@utility bg-surface {
+  background-color: oklch(0.94 0.008 100);
+}
+
+@utility bg-surface-subtle {
+  background-color: oklch(0.96 0.006 95);
+}
+
+@utility bg-white-100 {
+  background-color: oklch(0.995 0.004 95);
+}
+
+@utility border-weak-stroke {
+  border-color: oklch(0.9 0.01 100);
+}
+
+@utility shadow-attio-product-e1 {
+  box-shadow:
+    0 1px 2px oklch(0.2 0.02 252 / 0.06),
+    0 0 0 1px oklch(0.86 0.012 100);
+}
+
+@utility font-display {
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@utility mask-x-from-80\% {
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+
+@utility mask-x-from-96\% {
+  mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    background-color: var(--background);
+    color-scheme: light;
+    scroll-behavior: smooth;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  .dark,
+  .dark body {
+    background-color: var(--background);
+  }
+
+  .light {
+    color-scheme: light;
+  }
+
+  body {
+    @apply text-foreground antialiased;
+    background-color: var(--background);
+    font-family:
+      Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  :where(a[href], button, input[type="button"], input[type="submit"], input[type="reset"], [role="button"], [role="link"], summary):not(:disabled):not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  body:not(.app-route-body) {
+    @apply bg-background;
+  }
+
+  body.app-route-body {
+    background-color: var(--background);
+  }
+
+  body.app-route-body .app-shell,
+  body.app-route-body .app-layout > main {
+    background-color: var(--background);
+  }
+
+  ::selection {
+    background-color: var(--selection);
+    color: var(--selection-foreground);
+  }
+}
+
+/* Light mode: bg-primary uses a neutral surface instead of the brand primary.
+   Dark mode keeps the original primary. Unlayered so it overrides Tailwind's
+   generated `.bg-primary` utility; `.dark .bg-primary` wins by specificity. */
+.bg-primary {
+  background-color: var(--color-neutral-100);
+}
+
+.dark .bg-primary {
+  background-color: var(--color-primary);
+}
+
+/* Pairs with the bg-primary override above: dark text on the light neutral surface
+   in light mode; dark mode keeps the original primary-foreground. */
+.text-primary-foreground {
+  color: var(--color-neutral-900);
+}
+
+.dark .text-primary-foreground {
+  color: var(--color-primary-foreground);
+}
+
+/* Authenticated app dark-mode compatibility.
+   The app screens still contain many light-only utility classes from the
+   original UI pass. Keep this scoped to app routes so public marketing pages
+   remain visually unchanged, and only remap presentation utilities. */
+.dark body.app-route-body .app-shell,
+.dark body.app-route-body .app-layout,
+.dark body.app-route-body .app-layout > main,
+.dark body.app-route-body main.bg-white {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.dark body.app-route-body .bg-white,
+.dark body.app-route-body .bg-white\/90,
+.dark body.app-route-body .bg-white\/95 {
+  background-color: var(--card);
+}
+
+.dark body.app-route-body .bg-neutral-50,
+.dark body.app-route-body .bg-neutral-50\/60,
+.dark body.app-route-body .bg-neutral-100,
+.dark body.app-route-body .bg-gray-50,
+.dark body.app-route-body .bg-gray-100 {
+  background-color: var(--muted);
+}
+
+.dark body.app-route-body .bg-blue-50 {
+  background-color: rgb(59 130 246 / 0.14);
+}
+
+.dark body.app-route-body .bg-emerald-50 {
+  background-color: rgb(16 185 129 / 0.14);
+}
+
+.dark body.app-route-body .bg-amber-50 {
+  background-color: rgb(245 158 11 / 0.14);
+}
+
+.dark body.app-route-body .bg-rose-50,
+.dark body.app-route-body .bg-red-50 {
+  background-color: rgb(244 63 94 / 0.14);
+}
+
+.dark body.app-route-body .border-neutral-100,
+.dark body.app-route-body .border-neutral-200,
+.dark body.app-route-body .border-neutral-200\/60,
+.dark body.app-route-body .border-neutral-200\/70,
+.dark body.app-route-body .border-neutral-300,
+.dark body.app-route-body .border-gray-100,
+.dark body.app-route-body .border-gray-200 {
+  border-color: var(--border);
+}
+
+.dark body.app-route-body .text-neutral-950,
+.dark body.app-route-body .text-neutral-900,
+.dark body.app-route-body .text-neutral-800,
+.dark body.app-route-body .text-neutral-700,
+.dark body.app-route-body .text-gray-900,
+.dark body.app-route-body .text-gray-800,
+.dark body.app-route-body .text-gray-700 {
+  color: var(--foreground);
+}
+
+.dark body.app-route-body .text-neutral-600,
+.dark body.app-route-body .text-neutral-500,
+.dark body.app-route-body .text-neutral-400,
+.dark body.app-route-body .text-gray-600,
+.dark body.app-route-body .text-gray-500,
+.dark body.app-route-body .text-gray-400 {
+  color: var(--muted-foreground);
+}
+
+.dark body.app-route-body .placeholder\:text-neutral-400::placeholder,
+.dark body.app-route-body .placeholder\:text-muted-foreground::placeholder {
+  color: var(--muted-foreground);
+}
+
+.dark body.app-route-body .hover\:bg-white:hover,
+.dark body.app-route-body .hover\:bg-white\/80:hover,
+.dark body.app-route-body .hover\:bg-neutral-50:hover,
+.dark body.app-route-body .hover\:bg-neutral-50\/60:hover,
+.dark body.app-route-body .hover\:bg-neutral-50\/80:hover,
+.dark body.app-route-body .hover\:bg-neutral-100:hover,
+.dark body.app-route-body .hover\:bg-gray-50:hover,
+.dark body.app-route-body .hover\:bg-gray-100:hover,
+.dark body.app-route-body .group:hover .group-hover\:bg-neutral-50,
+.dark body.app-route-body .group:hover .group-hover\:bg-neutral-100,
+.dark body.app-route-body .group:hover .group-hover\:bg-gray-50,
+.dark body.app-route-body .group:hover .group-hover\:bg-gray-100 {
+  background-color: var(--muted);
+}
+
+.dark body.app-route-body .hover\:text-neutral-900:hover,
+.dark body.app-route-body .hover\:text-neutral-800:hover,
+.dark body.app-route-body .hover\:text-neutral-700:hover,
+.dark body.app-route-body .group:hover .group-hover\:text-neutral-900,
+.dark body.app-route-body .group:hover .group-hover\:text-neutral-800,
+.dark body.app-route-body .group:hover .group-hover\:text-neutral-700 {
+  color: var(--foreground);
+}
+
+.dark body.app-route-body input,
+.dark body.app-route-body textarea,
+.dark body.app-route-body select {
+  color-scheme: dark;
+}
+
+/* ── App dark mode: the design's hex greys ──────────────────────────────────
+   The block above remaps Tailwind's named greys; screens built from Figma use
+   arbitrary hex ones (text-[#424242], border-[#E2E2E2], bg-[#292929]) that it
+   never reached, so they kept light greys on the dark canvas. These put each one
+   on the DarkMain handoff palette by role: ink #F4F4F5 / #B9B9C1 / #9D9DA6 /
+   #6B6B74, fill #1C1C21, selected #26262C, line #2A2A30 / #33333B, and the dark
+   #292929 button inverted like --primary. An element that names its own dark
+   colour (`dark:text-…`) keeps it. Generated from the classes in use; add a
+   class here when a screen introduces a new grey. */
+.dark body.app-route-body .bg-\[\#292929\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *) {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.dark body.app-route-body .bg-\[\#E4E4E7\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#e4e4e7\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#E5E5E5\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#e5e5e5\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#E9E9EB\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#ECECEC\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#F0F0F0\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#E4E4E7\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#e4e4e7\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#e5e5e5\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#F0F0F0\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *) {
+  background-color: #26262c;
+}
+
+.dark body.app-route-body .bg-\[\#F0F0F1\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#f0f0f1\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#f2f4f7\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#F4F4F5\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#f4f4f5\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#F4F4F6\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#F5F5F5\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#f6f6f6\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#F7F7F7\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#FAFAFA\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#fafafa\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#FBFBFC\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#FCFCFC\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .bg-\[\#fcfcfc\]:not([class*="dark:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#F4F4F5\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#f4f4f5\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#F4F4F6\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#F5F5F5\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#FAFAFA\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .hover\:bg-\[\#FBFBFC\]:hover:not([class*="dark:hover:bg-"]):not(.document-paper, .document-paper *) {
+  background-color: var(--muted);
+}
+
+.dark body.app-route-body .border-\[\#D4D4D8\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#d4d4d8\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#D4D4DA\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#D6D6D6\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#d6d6d6\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *) {
+  border-color: #33333b;
+}
+
+.dark body.app-route-body .border-\[\#E2E2E2\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#E4E4E7\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#e4e4e7\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#e4e7ec\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#E5E5E5\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#e5e5e5\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#EAEAEC\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#ECECEC\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#EDEDF0\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#ededf0\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#EFEFF1\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#F0F0F2\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#F2F2F2\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#F4F4F5\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#f4f4f5\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .border-\[\#F5F5F5\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *) {
+  border-color: var(--border);
+}
+
+.dark body.app-route-body .border-t-\[\#e5e5e5\]:not([class*="dark:border-"]):not(.document-paper, .document-paper *) {
+  border-top-color: var(--border);
+}
+
+.dark body.app-route-body .text-\[\#18181B\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#18181b\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#1F1F1F\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#27272A\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#27272a\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#292929\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#2C2C2C\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#2e2d2a\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#344054\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#3F3F46\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#3f3f46\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#404040\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#424242\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *) {
+  color: var(--foreground);
+}
+
+.dark body.app-route-body .text-\[\#52525B\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#52525b\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *) {
+  color: #b9b9c1;
+}
+
+.dark body.app-route-body .text-\[\#6D6D6D\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#6d6d6d\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#71717A\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#71717a\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *) {
+  color: var(--muted-foreground);
+}
+
+.dark body.app-route-body .text-\[\#8A8A8A\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#8a8a8a\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#98a2b3\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#9A9A9A\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#9a9aa0\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#A0A0A0\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#A1A1AA\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#a1a1aa\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#A3A3A3\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#a3a3a3\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#C4C4CA\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#c4c4ca\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .text-\[\#D6D6D6\]:not([class*="dark:text-"]):not(.document-paper, .document-paper *),
+.dark body.app-route-body .placeholder\:text-\[\#A1A1AA\]:not(.document-paper, .document-paper *)::placeholder,
+.dark body.app-route-body .placeholder\:text-\[\#a1a1aa\]:not(.document-paper, .document-paper *)::placeholder,
+.dark body.app-route-body .placeholder\:text-\[\#C4C4CA\]:not(.document-paper, .document-paper *)::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* ── The document surface is paper, in either theme ─────────────────────────
+ *
+ * Everything above rewrites the light utility palette into dark tokens. That is
+ * right for app chrome and wrong for a document: the sheet in the editor IS the
+ * page that will be printed, and the pages beside it come off the typesetter
+ * white in both themes. A dark editing surface next to a white preview is not a
+ * theme, it is two documents.
+ *
+ * Scoped by container, the way .tiktok-campaign-builder is, and placed after the
+ * rules it exempts so it wins on order as well as on the extra class.
+ *
+ * `color-scheme` has to be re-declared on the FIELDS, not only on the container:
+ * the rule above sets it on input/textarea/select directly, and a value set on
+ * the element beats one inherited from an ancestor. Without this the browser
+ * paints its own dark fill into every paragraph and every cell — which is what
+ * turned white paper into a stack of black blocks.
+ */
+.dark body.app-route-body .document-paper,
+.dark body.app-route-body .document-paper input,
+.dark body.app-route-body .document-paper textarea,
+.dark body.app-route-body .document-paper select {
+  color-scheme: light;
+}
+
+/* The ink, set on the container itself rather than left to a utility class.
+ *
+ * `document-paper` and `text-neutral-900` sit on the SAME element, so the
+ * descendant rules below — `.document-paper .text-neutral-900` — do not reach
+ * it: they ask for the utility to be INSIDE the container. The rewrite above
+ * therefore still turned the container's own text light, and every cell and
+ * paragraph inherited that: white paper with text that could barely be read.
+ *
+ * Declaring the colour here needs no utility to hook onto, and anything with a
+ * colour of its own — a cell's `color`, the sheet's typography — still wins by
+ * being set on the element. */
+.dark body.app-route-body .document-paper {
+  color: #171717;
+}
+
+.dark body.app-route-body .document-paper .bg-white {
+  background-color: #fff;
+}
+
+.dark body.app-route-body .document-paper .bg-neutral-50 {
+  background-color: #fafafa;
+}
+
+.dark body.app-route-body .document-paper .bg-neutral-100 {
+  background-color: #f5f5f5;
+}
+
+.dark body.app-route-body .document-paper .hover\:bg-white\/80:hover {
+  background-color: #ffffffcc;
+}
+
+.dark body.app-route-body .document-paper .hover\:bg-neutral-50\/80:hover {
+  background-color: #fafafacc;
+}
+
+.dark body.app-route-body .document-paper .text-neutral-900,
+.dark body.app-route-body .document-paper .hover\:text-neutral-900:hover {
+  color: #171717;
+}
+
+.dark body.app-route-body .document-paper .text-neutral-700,
+.dark body.app-route-body .document-paper .hover\:text-neutral-700:hover {
+  color: #404040;
+}
+
+.dark body.app-route-body .document-paper .text-neutral-600 {
+  color: #525252;
+}
+
+.dark body.app-route-body .document-paper .text-neutral-500 {
+  color: #737373;
+}
+
+.dark body.app-route-body .document-paper .text-neutral-400 {
+  color: #a3a3a3;
+}
+
+.dark body.app-route-body .document-paper .text-neutral-300 {
+  color: #d4d4d4;
+}
+
+.dark body.app-route-body .document-paper .border-neutral-200,
+.dark body.app-route-body .document-paper .hover\:border-neutral-200:hover {
+  border-color: #e5e5e5;
+}
+
+.dark body.app-route-body .document-paper .border-neutral-300,
+.dark body.app-route-body .document-paper .focus\:border-neutral-300:focus {
+  border-color: #d4d4d4;
+}
+
+.dark body.app-route-body .document-paper .hover\:border-neutral-400:hover,
+.dark body.app-route-body .document-paper .focus\:border-neutral-400:focus {
+  border-color: #a3a3a3;
+}
+
+.dark body.app-route-body .sidebar-shell {
+  background-color: var(--sidebar);
+  border-color: var(--sidebar-border);
+  color: var(--sidebar-foreground);
+}
+
+.dark body.app-route-body .sidebar-nav-scroll,
+.dark body.app-route-body .sidebar-body,
+.dark body.app-route-body .sidebar-pinned {
+  background-color: var(--sidebar);
+}
+
+.dark body.app-route-body .sidebar-pinned {
+  border-color: var(--sidebar-border);
+}
+
+/* TikTok campaign builder dark surface compatibility.
+   This builder still uses slate utilities for its product-specific surfaces,
+   so keep the remap scoped to the builder instead of changing public pages. */
+.dark body.app-route-body .tiktok-campaign-builder {
+  color: var(--foreground);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .bg-white,
+.dark body.app-route-body .tiktok-campaign-builder .bg-white\/90,
+.dark body.app-route-body .tiktok-campaign-builder .bg-white\/95 {
+  background-color: var(--card);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-50,
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-50\/60,
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-50\/70,
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-50\/80,
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-100,
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-200,
+.dark body.app-route-body .tiktok-campaign-builder .bg-slate-300 {
+  background-color: var(--muted);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .border-slate-100,
+.dark body.app-route-body .tiktok-campaign-builder .border-slate-200,
+.dark body.app-route-body .tiktok-campaign-builder .border-slate-200\/80,
+.dark body.app-route-body .tiktok-campaign-builder .border-slate-200\/90,
+.dark body.app-route-body .tiktok-campaign-builder .border-slate-300,
+.dark body.app-route-body .tiktok-campaign-builder .border-neutral-200,
+.dark body.app-route-body .tiktok-campaign-builder .border-neutral-300 {
+  border-color: var(--border);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-950,
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-900,
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-800,
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-700,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-950,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-900,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-800,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-700 {
+  color: var(--foreground);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-600,
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-500,
+.dark body.app-route-body .tiktok-campaign-builder .text-slate-400,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-600,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-500,
+.dark body.app-route-body .tiktok-campaign-builder .text-neutral-400 {
+  color: var(--muted-foreground);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .hover\:bg-white:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:bg-white\/70:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:bg-slate-50:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:bg-slate-100:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:bg-neutral-50:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:bg-neutral-100:hover {
+  background-color: var(--muted);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-slate-900:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-slate-800:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-slate-700:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-slate-600:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-slate-400:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-neutral-900:hover,
+.dark body.app-route-body .tiktok-campaign-builder .hover\:text-neutral-700:hover {
+  color: var(--foreground);
+}
+
+.dark body.app-route-body .tiktok-campaign-builder input,
+.dark body.app-route-body .tiktok-campaign-builder textarea,
+.dark body.app-route-body .tiktok-campaign-builder select {
+  color-scheme: dark;
+}
+
+.dark body.app-route-body .tiktok-campaign-builder input::placeholder,
+.dark body.app-route-body .tiktok-campaign-builder textarea::placeholder {
+  color: var(--muted-foreground);
+}
+
+.dark body.app-route-body .sidebar-shell > div:last-child {
+  background-color: var(--sidebar);
+  border-color: var(--sidebar-border);
+}
+
+/* Full strength, not 78%. These are the rail's own menu labels, and at 78% of a
+   light ink on this background they read as disabled rows — reported as the menu
+   being hard to see. The dimming below still separates the SUBORDINATE text: the
+   section labels, the sub-item icons and the muted spans keep their own steps,
+   so the hierarchy survives without the top level paying for it. */
+.dark body.app-route-body .sidebar-item {
+  color: var(--sidebar-foreground);
+}
+
+.dark body.app-route-body .sidebar-item:hover {
+  background-color: var(--sidebar-accent);
+  color: var(--sidebar-accent-foreground);
+}
+
+.dark body.app-route-body .sidebar-item-active,
+.dark body.app-route-body .sidebar-item.bg-white {
+  background-color: var(--sidebar-accent);
+  border-color: var(--sidebar-border);
+  color: var(--sidebar-accent-foreground);
+}
+
+.dark body.app-route-body .sidebar-icon {
+  color: color-mix(in oklch, var(--sidebar-foreground) 90%, transparent);
+}
+
+.dark body.app-route-body .sidebar-sub-icon {
+  color: color-mix(in oklch, var(--sidebar-foreground) 58%, transparent);
+}
+
+.dark body.app-route-body .nav-section-label,
+.dark body.app-route-body .sidebar-shell .text-muted-foreground,
+.dark body.app-route-body .sidebar-shell .text-neutral-500,
+.dark body.app-route-body .sidebar-shell .text-neutral-400 {
+  color: color-mix(in oklch, var(--sidebar-foreground) 54%, transparent);
+}
+
+.dark body.app-route-body .sidebar-shell .icon-button-muted,
+.dark body.app-route-body .sidebar-shell .icon-button-ghost {
+  color: color-mix(in oklch, var(--sidebar-foreground) 58%, transparent);
+}
+
+.dark body.app-route-body .sidebar-shell .icon-button-muted:hover,
+.dark body.app-route-body .sidebar-shell .icon-button-ghost:hover {
+  background-color: var(--sidebar-accent);
+  color: var(--sidebar-accent-foreground);
+}
+
+.dark body.app-route-body .sidebar-shell .border-neutral-200\/60,
+.dark body.app-route-body .sidebar-shell .border-neutral-200\/70,
+.dark body.app-route-body .sidebar-shell .border-border {
+  border-color: var(--sidebar-border);
+}
+
+/* Custom dashed borders (5px dash, 4px gap) */
+.border-dashed-l-custom {
+  background-image: linear-gradient(to bottom, #e4e7ec 55.5%, transparent 0%);
+  background-position: left;
+  background-size: 1px 9px;
+  background-repeat: repeat-y;
+}
+
+.border-dashed-r-custom {
+  background-image: linear-gradient(to bottom, #e4e7ec 55.5%, transparent 0%);
+  background-position: right;
+  background-size: 1px 9px;
+  background-repeat: repeat-y;
+}
+
+.border-dashed-x-custom {
+  background-image: linear-gradient(to bottom, #e4e7ec 55.5%, transparent 0%), linear-gradient(to bottom, #e4e7ec 55.5%, transparent 0%);
+  background-position: left, right;
+  background-size: 1px 9px, 1px 9px;
+  background-repeat: repeat-y, repeat-y;
+}
+
+.border-dashed-b-custom {
+  background-image: linear-gradient(to right, #e4e7ec 55.5%, transparent 0%);
+  background-position: bottom;
+  background-size: 9px 1px;
+  background-repeat: repeat-x;
+}
+
+.scroll-hover::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-hover::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-hover::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 9999px;
+}
+
+.scroll-hover:hover::-webkit-scrollbar-thumb {
+  background: rgb(156 163 175);
+}
+
+/* Firefox */
+.scroll-hover {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.scroll-hover:hover {
+  scrollbar-color: rgb(156 163 175) transparent;
+}
+
+/* Colour, width and the shown-while-scrolling rule belong to every scrollbar,
+   in apps/app/app/globals.css (asked for, 2026-10-06); `.scroll-thin` keeps
+   only its thumb minimum.
+
+   Keeping the thumb clear of the panel's rounded corners is NOT done here.
+   `::-webkit-scrollbar-track { margin }` is widely repeated advice and Chrome
+   ignores it. The scrollbar is laid out against the padding box, so padding
+   can't inset it either — only a border can, and that lives on the scrolling
+   element itself (see `modelPanelScrollClassName`). */
+.scroll-thin::-webkit-scrollbar-thumb {
+  /* A 300-model list would otherwise shrink the thumb to an unusable speck. */
+  min-height: 32px;
+}
+
+/* The sideways twin of `.scroll-thin`, for a row that scrolls horizontally (the
+   composer's footer bar). Layered ON TOP of `.scroll-thin`: `min-height`
+   becomes `min-width`. `.scroll-thin`'s 32px minimum is measured along the
+   SCROLL axis; left on a horizontal thumb it is a thickness, and a 32px-tall
+   thumb in a 6px band is a bar down the middle of the row. */
+.scroll-thin-x::-webkit-scrollbar-thumb {
+  min-height: 0;
+  min-width: 32px;
+}
+
+/* Scrolls, but never shows a scrollbar — for a panel where the content itself
+   already signals there is more (a fade, a "show more" control) and a bar
+   down the side would be visual noise on top of that. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Marks the message a global-search result landed on.
+
+   A ring rather than a background: the bubbles already carry their own fill
+   (dark for user turns, light for assistant ones), so tinting them would either
+   be invisible on one side or repaint the message itself. The ring sits outside
+   the bubble and reads the same on both.
+
+   It fades out on its own — see HIGHLIGHT_MS in useJumpToMessage — because a
+   permanent mark would still be there next time the reader scrolls past. */
+.cluega-jump-highlight {
+  animation: cluega-jump-fade 2.4s ease-out forwards;
+  border-radius: 0.75rem;
+}
+
+@keyframes cluega-jump-fade {
+  0%,
+  55% {
+    background-color: rgb(251 191 36 / 0.18);
+    box-shadow: inset 0 0 0 2px rgb(251 191 36 / 0.55);
+  }
+  100% {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgb(251 191 36 / 0);
+  }
+}
+
+/* Respect a reader who has asked for less motion: show the mark, do not pulse
+   it. It is still removed from the DOM by the timer. */
+@media (prefers-reduced-motion: reduce) {
+  .cluega-jump-highlight {
+    animation: none;
+    box-shadow: inset 0 0 0 2px rgb(251 191 36 / 0.55);
+  }
+}
+
+/* The same mark, for a LIST ROW or a CARD that a ⌘K result landed on.
+
+   `outline` rather than the inset ring above, and that is the whole reason this
+   is a second class: a library card's artwork tile is a child that fills the
+   wrapper with its own background, so an inset ring on the wrapper is painted
+   over and the mark simply never appears. An outline is drawn outside the box
+   and cannot be covered. `outline-offset` keeps it clear of the card's own
+   border, and outlines do not take part in layout, so nothing shifts.
+
+   Same amber and same 2.4s as the bubble mark — see HIGHLIGHT_MS in
+   useJumpToRow, which removes the class when the animation ends. */
+.cluega-jump-ring {
+  animation: cluega-jump-ring-fade 2.4s ease-out forwards;
+  border-radius: 0.75rem;
+}
+
+@keyframes cluega-jump-ring-fade {
+  0%,
+  55% {
+    outline: 2px solid rgb(251 191 36 / 0.9);
+    outline-offset: 3px;
+  }
+  100% {
+    outline: 2px solid rgb(251 191 36 / 0);
+    outline-offset: 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cluega-jump-ring {
+    animation: none;
+    outline: 2px solid rgb(251 191 36 / 0.9);
+    outline-offset: 3px;
+  }
+}

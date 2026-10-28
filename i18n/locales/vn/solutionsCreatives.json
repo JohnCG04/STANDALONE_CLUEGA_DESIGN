@@ -1,0 +1,146 @@
+{
+  "solutionsCreatives": {
+    "meta": {
+      "title": "Đội ngũ Sáng tạo | Cluega",
+      "description": "Nhà thiết kế, người dựng phim và nhà sáng tạo dùng Cluega — mô hình AI tiên phong, kiểm soát layer và cộng tác nhóm hòa làm một; từ tạo ý tưởng, tái tổ hợp biến thể đến tinh chỉnh chi tiết, tất cả hoàn tất trên cùng một canvas vô biên, và mỗi lần tạo đều được bơm logic chuyển đổi của nội dung viral thật."
+    },
+    "hero": {
+      "kicker": "Cluega for Creatives",
+      "title": "Cho sáng tạo bắt kịp tốc độ của suy nghĩ",
+      "subtitle": "Nhà thiết kế, người dựng phim và nhà sáng tạo dùng Cluega — mô hình AI tiên phong, kiểm soát layer và cộng tác nhóm hòa làm một; từ tạo ý tưởng, tái tổ hợp biến thể đến tinh chỉnh chi tiết, tất cả hoàn tất trên cùng một canvas vô biên, và mỗi lần tạo đều được bơm logic chuyển đổi của nội dung viral thật.",
+      "ctaStart": "Bắt đầu miễn phí",
+      "ctaContact": "Liên hệ kinh doanh"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "Canvas sáng tạo vô biên hội tụ trí tuệ",
+          "body": "Mọi tư liệu trải phẳng trực quan, chấm dứt triệt để địa ngục thư mục không tìm nổi tệp. Bạn có thể thu nhỏ bao quát toàn cảnh dự án bất cứ lúc nào, cũng có thể phóng to tức thì đến từng pixel để chỉnh chi tiết — tạo ý tưởng, tái tổ hợp biến thể đến tinh chỉnh chi tiết, tất cả hoàn tất tại cùng một nơi."
+        },
+        {
+          "title": "Không còn tạo mù quáng, mỗi cú nhấp đều có dấu vết",
+          "body": "Engine ART không còn tạo mù quáng. Nó kết nối sâu với hiệu quả quảng cáo CDP và dữ liệu chốt đơn khách hàng từ IM, tự động nhận diện gen chuyển đổi cao, và nhân bản hàng loạt thành ma trận tư liệu mạnh hơn — để sáng tạo lớn lên trên ROI thật."
+        },
+        {
+          "title": "Sát cánh cùng những người dẫn đầu ngành",
+          "body": "Tiếp cận 400+ mô hình, giám sát thị trường quảng cáo 184+ ngôn ngữ, phản hồi sub-50ms — giao phần tính toán tạo sinh và truy xuất nặng nhất cho lõi sáng tạo đã được kiểm chứng ở quy mô lớn."
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "Một nền tảng, chạy trọn quy trình sáng tạo từ cảm hứng đến thành phẩm",
+      "learnMore": "Tìm hiểu thêm",
+      "tabs": [
+        {
+          "tab": "Lõi sáng tạo tích hợp dữ liệu lớn về nội dung viral",
+          "subtitle": "Mỗi lần tạo đều được bơm logic chuyển đổi viral",
+          "body": "Mỗi lần tạo tư liệu, phía sau hệ thống tức thì truy xuất nội dung viral và điểm nóng — khóa các thẻ hot, giải mã logic của top 1% nội dung viral, bơm thẳng «logic chuyển đổi viral» vào nội dung, tư liệu và video của bạn."
+        },
+        {
+          "tab": "Tổng hợp thị giác AI chính xác",
+          "subtitle": "Hòa sản phẩm hoàn hảo vào mọi bối cảnh",
+          "body": "Qua công nghệ image-to-image, phân tích chính xác nguồn sáng và cấu trúc, hòa sản phẩm hoàn hảo vào bối cảnh, tạo ra hình ảnh chất lượng cao — không cần chỉnh tay các tham số rườm rà."
+        },
+        {
+          "tab": "Sản xuất thị giác quy mô lớn",
+          "subtitle": "Việc dựng hình ảnh nhiều tuần, rút còn vài phút",
+          "body": "Qua quy trình có cấu trúc, tạo hàng loạt theo ma trận cho nhiều sản phẩm, sản xuất tư liệu chất lượng cao siêu nhanh — nội dung mạng xã hội cả tháng, xong trong vài phút và tự động lên lịch đa kênh."
+        },
+        {
+          "tab": "Radar tư liệu đối thủ",
+          "subtitle": "Khi bạn ngủ, AI tìm ra lá bài tối qua của đối thủ",
+          "body": "Mỗi liên kết TikTok, Meta, Instagram bạn nhắc đến khi trò chuyện với AI, Cluega tự động nạp vào kho và phân tích ở chế độ nền. Sau khi đóng cửa sổ, engine vẫn chạy suốt đêm — sáng ra bạn sẽ nhận được kết quả hôm qua và bản brief sáng tạo đối chuẩn."
+        }
+      ]
+    },
+    "built": {
+      "title": "Sinh ra cho đội ngũ sáng tạo",
+      "overview": "Cluega giúp nhà sáng tạo giao phần sản xuất lặp đi lặp lại cho AI, để dành thời gian cho sáng tạo thực sự.",
+      "cards": [
+        {
+          "title": "Trò chuyện là sáng tạo",
+          "body": "Dùng ngôn ngữ tự nhiên ra lệnh phức tạp cho AI, Cluega tự động lập lộ trình thực thi, chọn mô hình phù hợp nhất, và render kết quả thẳng lên canvas của bạn."
+        },
+        {
+          "title": "Cộng tác trực tuyến thời gian thực",
+          "body": "Hỗ trợ vệt con trỏ nhóm theo thời gian thực, phản hồi bình luận tức thời và tạo song song, bạn và cả đội cùng khơi nguồn cảm hứng trong cùng một không gian sáng tạo."
+        },
+        {
+          "title": "Vẽ lại cục bộ chính xác",
+          "body": "Tạm biệt cảnh chờ đợi dài đằng đẵng khi phải tạo lại cả tấm hình! Chỉ cần đánh dấu vùng cần chỉnh, Cluega sẽ tinh chỉnh chi tiết chính xác, và giữ nguyên hoàn hảo các thành phần hình ảnh gốc."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Chúng tôi giao những việc chân tay rườm rà như tổng hợp nguồn sáng, vẽ lại cục bộ cho AI, chính là muốn mọi người thoát khỏi «địa ngục sửa hình» vô nghĩa, để dành trí lực cho những sáng tạo thực sự có giá trị.",
+      "name": "Zerix",
+      "role": "Head of AI Engineering @ Cluega"
+    },
+    "finalCta": {
+      "title": "Cảm hứng của bạn, gọi thẳng các mô hình tạo sinh hàng đầu thế giới",
+      "coverage": "GPT · Claude · Gemini · runway · Wan · Luma AI · Stability.ai · Black Forest Labs · Hailuo AI · Pika · KlingAI · RECRAFT · ByteDance Seed · Moonvalley",
+      "subtitle": "Một không gian làm việc, gọi các mô hình hàng đầu thế giới — Cluega tự động chuyển sang mô hình phù hợp nhất theo từng tác vụ, bạn chỉ cần nói ra ý tưởng, phần còn lại giao cho nó.",
+      "ctaStart": "Bắt đầu miễn phí",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "Sức khỏe quảng cáo đa tài khoản",
+        "updated": "Cập nhật mỗi giờ",
+        "cost": "Chi phí",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "Đang chạy" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "Đang chạy" },
+          { "name": "Nova HK — Google Ads", "status": "Chờ duyệt" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "Xem & áp dụng",
+        "rows": [
+          "Giữ tổ hợp hiển thị cao và tăng ngân sách, CTR cao hơn chuẩn 32% suốt 5 ngày liền",
+          "Advantage+ trùng lặp đối tượng quá cao, nên gộp 3 nhóm quảng cáo để tiết kiệm 18% chi phí",
+          "Nội dung TikTok bị bão hòa, tần suất vượt 3.2 trong 7 ngày, nên xoay 2 nội dung mới"
+        ]
+      },
+      "accounts": {
+        "title": "Tổng quan tài khoản",
+        "subtitle": "Cấp quyền là phân tích",
+        "stageLabel": "Độ trưởng thành",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Thiết lập" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Khởi động lạnh" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Đang tối ưu" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 Bánh đà" }
+        ]
+      },
+      "maturity": {
+        "title": "Phân cấp độ trưởng thành tài khoản (M0–M5)",
+        "note": "Hệ thống tự động xác định giai đoạn hiện tại dựa trên dữ liệu lịch sử, và lọc bỏ những chỉ số nhiễu không liên quan đến giai đoạn đó.",
+        "stages": ["M0 Khởi động lạnh", "M1 Học tập", "M2 Tăng trưởng", "M3 Tối ưu", "M4 Mở rộng", "M5 Bánh đà"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 Học tập"
+      },
+      "grading": {
+        "title": "Chấm điểm nhóm quảng cáo (S / A / B / C / D)",
+        "legend": "S ngôi sao tiềm năng, một nút tăng ngân sách · D ứng viên ngừng chạy",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Nhật ký ủy thác Cluega",
+        "channels": "Khi bị từ chối, đẩy sang",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "Theo hiệu quả ROAS 7 ngày, đề xuất giảm ngân sách Meta 12%, tăng Google 18%.", "time": "2 phút trước" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "Đã tạo 3 bộ nội dung lễ hội và áp dụng cho nhóm quảng cáo khởi động lạnh.", "time": "14 phút trước" },
+          { "actor": "Ethan Chen", "tag": "Thủ công", "text": "Tăng giá thầu «Khuyến mãi mùa xuân — Chuyển đổi» lên $12.", "time": "1 giờ trước" }
+        ]
+      }
+    }
+  }
+}

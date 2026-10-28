@@ -1,0 +1,124 @@
+{
+  "title": "ยินดีต้อนรับสู่ Cluega",
+  "subtitle": "บอกเราเกี่ยวกับการตลาดของคุณ เพื่อให้ผู้ช่วย AI ปรับทุกคำตอบให้เหมาะกับธุรกิจของคุณ",
+  "progress": {
+    "label": "ความคืบหน้าการเริ่มต้นใช้งาน"
+  },
+  "steps": {
+    "company": {
+      "title": "เกี่ยวกับธุรกิจของคุณ",
+      "description": "บริษัทของคุณคืออะไร และอยู่ในอุตสาหกรรมใด"
+    },
+    "goals": {
+      "title": "การตลาดของคุณ",
+      "description": "คุณต้องการบรรลุเป้าหมายอะไร และทำการตลาดที่ช่องทางใด"
+    },
+    "audience": {
+      "title": "กลุ่มเป้าหมายและตลาด",
+      "description": "คุณต้องการเข้าถึงใคร และในตลาดใด"
+    },
+    "referral": {
+      "title": "อีกข้อสุดท้าย",
+      "description": "คุณรู้จัก Cluega จากที่ใด"
+    }
+  },
+  "fields": {
+    "companyName": {
+      "label": "ชื่อบริษัท",
+      "placeholder": "เช่น Acme Beauty"
+    },
+    "brand": {
+      "label": "ชื่อแบรนด์ (ไม่บังคับ)",
+      "placeholder": "เช่น Acme — ชื่อที่ AI ควรใช้เมื่อพูดในนามแบรนด์"
+    },
+    "industry": {
+      "label": "อุตสาหกรรม (เลือกได้หลายรายการ หรือเพิ่มเอง)",
+      "customPlaceholder": "เพิ่มอุตสาหกรรมอื่น…"
+    },
+    "marketingGoals": {
+      "label": "เป้าหมายการตลาดหลัก"
+    },
+    "channels": {
+      "label": "ช่องทางที่คุณใช้"
+    },
+    "audience": {
+      "label": "กลุ่มเป้าหมาย",
+      "placeholder": "เช่น ผู้หญิงอายุ 18–34 ปีที่สนใจสกินแคร์ ในเอเชียตะวันออกเฉียงใต้"
+    },
+    "region": {
+      "label": "ตลาด / ภูมิภาคหลัก",
+      "placeholder": "เช่น เวียดนาม, เอเชียตะวันออกเฉียงใต้"
+    },
+    "tone": {
+      "label": "น้ำเสียง / โทนของแบรนด์ (ไม่บังคับ)",
+      "placeholder": "เช่น เป็นกันเองและกระชับ เชี่ยวชาญแต่เข้าถึงง่าย"
+    },
+    "hearAboutUs": {
+      "label": "คุณรู้จักเราจากที่ใด (เลือกได้หลายรายการ หรือเพิ่มเอง)",
+      "customPlaceholder": "เพิ่มแหล่งอื่น…"
+    }
+  },
+  "options": {
+    "industry": {
+      "ecommerce": "อีคอมเมิร์ซ",
+      "retail": "ค้าปลีก",
+      "beauty_cosmetics": "ความงามและเครื่องสำอาง",
+      "fashion_apparel": "แฟชั่นและเครื่องแต่งกาย",
+      "food_beverage": "อาหารและเครื่องดื่ม",
+      "health_wellness": "สุขภาพและความเป็นอยู่ที่ดี",
+      "education": "การศึกษา",
+      "saas_technology": "SaaS และเทคโนโลยี",
+      "finance": "การเงิน",
+      "real_estate": "อสังหาริมทรัพย์",
+      "travel_hospitality": "การท่องเที่ยวและการบริการ",
+      "entertainment_media": "บันเทิงและสื่อ",
+      "gaming_slots": "เกม — สล็อต",
+      "gaming_livecasino": "เกม — คาสิโนสด",
+      "gaming_sportsbook": "เกม — เดิมพันกีฬา",
+      "gaming_lottery": "เกม — ลอตเตอรี่",
+      "agency": "เอเจนซี",
+      "other": "อื่นๆ"
+    },
+    "marketingGoal": {
+      "sales_conversions": "ยอดขายและคอนเวอร์ชัน",
+      "lead_generation": "สร้างลีด",
+      "brand_awareness": "การรับรู้แบรนด์",
+      "audience_growth": "เพิ่มฐานผู้ติดตาม",
+      "app_installs": "การติดตั้งแอป",
+      "customer_retention": "การรักษาลูกค้า",
+      "website_traffic": "ทราฟฟิกเว็บไซต์"
+    },
+    "channel": {
+      "tiktok": "TikTok",
+      "meta": "Meta (Facebook และ Instagram)",
+      "google": "Google Ads",
+      "youtube": "YouTube",
+      "line": "LINE",
+      "email": "อีเมล",
+      "seo_content": "SEO และคอนเทนต์",
+      "influencer": "อินฟลูเอนเซอร์",
+      "offline": "ออฟไลน์",
+      "not_running_yet": "ยังไม่ได้ลงโฆษณา"
+    },
+    "hearAboutUs": {
+      "search_engine": "เสิร์ชเอนจิน",
+      "social_media": "โซเชียลมีเดีย",
+      "friend_colleague": "เพื่อนหรือเพื่อนร่วมงาน",
+      "online_ad": "โฆษณาออนไลน์",
+      "event_webinar": "อีเวนต์หรือเว็บสัมมนา",
+      "blog_article": "บล็อกหรือบทความ",
+      "other": "อื่นๆ"
+    }
+  },
+  "actions": {
+    "back": "ย้อนกลับ",
+    "next": "ดำเนินการต่อ",
+    "submit": "เสร็จสิ้น",
+    "submitting": "กำลังบันทึก…",
+    "add": "เพิ่ม"
+  },
+  "errors": {
+    "validation": "โปรดกรอกข้อมูลในช่องที่จำเป็นแล้วลองอีกครั้ง",
+    "submitFailed": "บันทึกคำตอบของคุณไม่ได้ โปรดลองอีกครั้ง"
+  }
+}

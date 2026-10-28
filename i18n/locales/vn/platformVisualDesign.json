@@ -1,0 +1,224 @@
+{
+  "platformVisualDesign": {
+    "hero": {
+      "label": "Khung vẽ sáng tạo hội tụ trí tuệ",
+      "title": "Để sáng tạo bắt kịp tốc độ tư duy.",
+      "lead": "Cluega là một không gian khung vẽ tự do vô biên. Tại đây, các mô hình AI tiên phong, kiểm soát lớp và cộng tác nhóm hòa quyện hoàn hảo làm một. Từ tạo ý tưởng, tái tổ hợp biến thể đến tinh chỉnh chi tiết — tất cả đều hoàn tất tại cùng một nơi.",
+      "ctaPrimary": "Dùng thử ngay",
+      "ctaSecondary": "Liên hệ với chúng tôi"
+    },
+    "features": {
+      "items": {
+        "b1": {
+          "title": "Không gian làm việc vô biên",
+          "body": "Mọi asset được trải phẳng trực quan, chấm dứt hoàn toàn cảnh \"địa ngục thư mục\" không tìm nổi file. Bạn có thể thu nhỏ để bao quát toàn cảnh dự án bất cứ lúc nào, và cũng phóng to tức thì đến cấp độ pixel để tinh chỉnh chi tiết."
+        },
+        "b2": {
+          "title": "Tự do chuyển đổi mọi mô thức",
+          "body": "Ngay trên cùng một node của khung vẽ, chuyển đổi liền mạch giữa các mô hình hình ảnh, video và siêu phân giải bất cứ lúc nào — không làm gián đoạn luồng sáng tạo của bạn, cũng không cần rời khỏi trang hiện tại."
+        },
+        "b3": {
+          "title": "Cộng tác trực tuyến thời gian thực",
+          "body": "Hỗ trợ hiển thị con trỏ chuột của cả nhóm theo thời gian thực, phản hồi bình luận tức thì và tạo sinh song song. Bạn và cả đội sẽ cùng khơi nguồn cảm hứng đồng bộ trong cùng một không gian sáng tạo."
+        }
+      }
+    },
+    "techniques": {
+      "eyebrow": "Thư viện Workflow",
+      "title": "Kích hoạt ngay những quy trình hình ảnh đã được kiểm chứng",
+      "lead": "Cluega Workflows là những dây chuyền sản xuất có thể tái sử dụng, được xây dựng bởi đội ngũ chính thức của Cluega và các nhà sáng tạo hàng đầu thế giới. Tìm mẫu phù hợp với dự án của bạn để chạy trực tiếp, hoặc mở ra trong khung vẽ để tinh chỉnh chỉ với một cú nhấp.",
+      "cta": "Khám phá thêm workflow ↗"
+    },
+    "modelStrip": {
+      "label": "Một không gian làm việc, huy động mọi mô hình hàng đầu thế giới"
+    },
+    "blocks": {
+      "remix": {
+        "title": "Tổng hợp hình ảnh AI chính xác",
+        "lead": "Thông qua công nghệ Image-to-Image (ảnh sang ảnh), hệ thống phân tích chính xác ánh sáng và cấu trúc, hòa trộn hoàn hảo sản phẩm vào bối cảnh để tạo ra hình ảnh chất lượng cao."
+      },
+      "stills": {
+        "title": "Sản xuất hình ảnh quy mô lớn",
+        "lead": "Thông qua quy trình làm việc có cấu trúc, bạn có thể tạo sinh hàng loạt theo dạng ma trận cho nhiều sản phẩm, rút ngắn hàng tuần sản xuất hình ảnh xuống còn vài phút, cho ra hình ảnh chất lượng cao với tốc độ cực nhanh."
+      }
+    },
+    "adDataCore": {
+      "title": "Lõi sáng tạo AI tích hợp dữ liệu lớn quảng cáo",
+      "lead": "Mỗi lần tạo tài nguyên, phía sau hệ thống lập tức truy xuất nội dung viral và điểm nóng, tiêm thẳng «logic chuyển đổi viral» vào copy, tài nguyên và video của bạn.",
+      "userMessage": "Tôi muốn tạo tài nguyên quảng cáo TikTok cho một loại serum kiềm dầu mùa hè.",
+      "aiResponse1": "Đã nhận! Đang khởi động 【Tra cứu Kho dữ liệu viral】...",
+      "retrieval": {
+        "heading": "Đang tra cứu dữ liệu lớn...",
+        "connect": "Đang kết nối kho dữ liệu lớn quảng cáo TikTok",
+        "tagsLabel": "Đã khóa các thẻ hot ngành làm đẹp:",
+        "tags": ["#KiềmDầuMùaHè", "#KhôngTrôiMakeup", "#GiếngDầuTrungĐông"],
+        "decode": "Đang giải cấu trúc logic Skill của top 1% content viral...",
+        "inject": "Đã tiêm thành công «gen viral» vào tài nguyên!"
+      },
+      "aiResponse2": "Tài nguyên quảng cáo của bạn đã hoàn tất! Lần này đã tiêm cho bạn Skill viral «đánh trúng nỗi đau» và «3 giây vàng đầu gây chú ý».",
+      "results": {
+        "script": {
+          "title": "Kịch bản quảng cáo Serum kiềm dầu mùa hè",
+          "note": "Đã tiêm: Hook viral Top 1% từ dữ liệu lớn"
+        },
+        "video": {
+          "title": "Video quảng cáo Serum kiềm dầu mùa hè",
+          "note": "Đã tiêm: yếu tố hình ảnh có tỷ lệ nhấp cao"
+        }
+      },
+      "downloadButton": "Xác nhận tải xuống (2)"
+    },
+    "chat": {
+      "eyebrow": "Trò chuyện là sáng tạo",
+      "title": "Nói ra ý tưởng, phần còn lại để Cluega lo.",
+      "lead": "Ra lệnh phức tạp cho AI trực tiếp bằng ngôn ngữ tự nhiên. Cluega sẽ tự động hoạch định lộ trình thực thi, chọn lọc mô hình phù hợp nhất và render kết quả thẳng lên khung vẽ của bạn — không cần chỉnh tay những tham số rườm rà."
+    },
+    "gallery": {
+      "title": "Sáng tạo trên Cluega",
+      "cta": "Bắt đầu sáng tạo →"
+    },
+    "modelLibrary": {
+      "eyebrow": "Thư viện mô hình",
+      "title": "Quy tụ những mô hình hàng đầu thế giới, điều phối tự do mọi lúc mọi nơi.",
+      "lead": "Tạm biệt những gói đăng ký rườm rà trên nhiều nền tảng. Từ tạo hình ảnh đến chỉnh sửa động, bạn có thể tùy ý chuyển đổi các mô hình cốt lõi ngay trên khung vẽ, để luồng sáng tạo diễn ra liền mạch một hơi."
+    },
+    "howItWorks": {
+      "title": "Từ nét phác cảm hứng đến khung hình hoàn chỉnh.",
+      "lead": "Không cần thao tác rườm rà hay chờ đợi dài dòng. Cứ nhập ý tưởng trực tiếp lên khung vẽ, tinh chỉnh chi tiết bất cứ lúc nào — phần nối cảnh và hoàn thiện chi tiết còn lại, cứ để Cluega lo cho bạn.",
+      "steps": {
+        "s1": { "title": "Khởi động sáng tạo", "body": "Thoải mái phác thảo trên khung vẽ. Dù là một đoạn mô tả, một ảnh tham chiếu phong cách, hay một tệp cục bộ — tất cả đều có thể làm điểm khởi đầu cho sáng tạo của bạn." },
+        "s2": { "title": "Chỉnh sửa tự do", "body": "Kết nối các node để tái tạo phong cách, chỉnh sửa cục bộ, động hóa hoặc mở rộng độ phân giải. Mỗi bước chỉnh sửa đều trực quan, luôn hiển thị và có thể làm lại bất cứ lúc nào." },
+        "s3": { "title": "Xuất và cộng tác", "body": "Xuất thành phẩm độ phân giải cao chỉ với một cú nhấp; nếu cần cộng tác, chỉ việc chia sẻ liên kết khung vẽ để cả nhóm kết nối liền mạch trong cùng một không gian làm việc." }
+      }
+    },
+    "videoPipeline": {
+      "eyebrow": "Phân cảnh thông minh",
+      "title": "Để ý tưởng của bạn tự động mở rộng thành một storyboard mạch lạc.",
+      "lead": "Nhập ý tưởng sáng tạo của bạn, Cluega sẽ chủ động sắp xếp thành một tuyến truyện thị giác có logic. Từ thiết lập phong cách, bố cục phân cảnh cho đến bản dựng cuối, toàn bộ dây chuyền sản xuất được trải phẳng trực quan trong không gian — bạn không cần tốn nhiều công sức, chỉ việc tinh chỉnh trên khung vẽ bất cứ lúc nào.",
+      "promptText": "Một quảng cáo phong cách tối giản dài 30 giây, giới thiệu tai nghe chống ồn thông minh. Bối cảnh là không gian nhà tông trắng tối giản, ánh sáng tự nhiên dịu nhẹ, nhấn mạnh sự tĩnh lặng và chất cảm cao cấp.",
+      "assetsFooter": "4 tư liệu tham khảo",
+      "storyboardFooter": "3 phân cảnh",
+      "videoFooter": "1080p · 4:3 · không hình mờ"
+    },
+    "editInPlace": {
+      "eyebrow": "Vẽ lại có điểm",
+      "title": "Định điểm chính xác, tái tạo cục bộ.",
+      "lead": "Đánh dấu một điểm điều khiển ngay tại vị trí bạn muốn chỉnh sửa, nhập ý tưởng thay đổi, và Cluega sẽ vẽ lại chính xác vùng đó — hoàn tất ngay trên khung vẽ, không cần tạo lại toàn bộ hình ảnh.",
+      "steps": {
+        "s1": { "title": "Đánh dấu vị trí chỉnh sửa", "body": "Nhấp vào đúng khu vực trong ảnh mà bạn muốn điều chỉnh." },
+        "s2": { "title": "Nhập chỉ thị cụ thể", "body": "Mô tả chính xác ý tưởng chỉnh sửa bằng văn bản, ví dụ “thêm logo thương hiệu” hoặc “đổi nền sang màu xanh xám nhạt”." },
+        "s3": { "title": "Hoàn tất vẽ lại cục bộ", "body": "Cluega sẽ vẽ lại ngay tại vị trí chỉ định, đồng thời giữ nguyên hoàn hảo các thành phần khác của khung hình." }
+      }
+    },
+    "engines": {
+      "label": "Engine AI",
+      "title": "Những engine mạnh nhất, hợp nhất dưới một lớp.",
+      "desc": "Cluega sở hữu & điều phối 20+ mô hình hàng đầu — Nano Banana, GPT-Image, Gen-4.5 và hơn thế. Bạn không phải chọn.",
+      "cards": {
+        "nano": { "desc": "Tạo & chỉnh sửa hình ảnh chất lượng cao, bám sát thương hiệu." },
+        "gpt": { "desc": "Định tuyến tự động giữa các mô hình — bạn không cần chọn." },
+        "video": { "desc": "Video quảng cáo có chuyển động & nhịp điệu chuẩn feed." }
+      },
+      "moreModels": "+ và hơn 20 mô hình khác trong hệ thống"
+    },
+    "capabilities": {
+      "label": "Năng lực cốt lõi",
+      "title": "Bảy năng lực, một hệ thống.",
+      "desc": "Mọi thứ một công cụ tạo ảnh không có: intelligence từ dữ liệu thắng, tự định tuyến, tự kiểm soát chất lượng.",
+      "items": {
+        "c41": {
+          "heading": "Được huấn luyện từ những gì đang thắng.",
+          "body": "Cluega đọc cơ sở dữ liệu TikTok Ads và lấy ra creative CTR Top 1% trong ngành của bạn. Phễu truy hồi ba tầng chắt lọc “visual DNA” thắng. Mọi asset bắt đầu từ hiệu suất đã chứng minh."
+        },
+        "c42": {
+          "heading": "Bạn không bao giờ phải chọn mô hình nữa.",
+          "body": "Cluega đọc nhiệm vụ và tự động chọn, chuyển đổi giữa các mô hình phù hợp để đạt kết quả tốt nhất ở chi phí hợp lý."
+        },
+        "c43": {
+          "heading": "Những mô hình đã hiểu sẵn ngành của bạn.",
+          "body": "Các stack chuyên biệt theo ngành — Game, Ecommerce, SaaS — để đầu ra nói đúng ngôn ngữ thị trường ngay từ lần đầu."
+        },
+        "c44": {
+          "heading": "Mọi asset đều được kiểm tra trước khi bạn thấy.",
+          "body": "Vòng lặp khép kín Plan-Act-Check-Reflect: kiểm OCR, hình học và màu, định vị lỗi và sửa tại chỗ. Tối đa ba lượt."
+        },
+        "c45": {
+          "heading": "Đổi mô hình. Giữ nguyên mọi thứ.",
+          "body": "Brand Guideline, sản phẩm, chiến lược, dữ liệu chiến dịch và insight khách hàng đi cùng mọi yêu cầu, dù qua bao nhiêu mô hình."
+        },
+        "c46": {
+          "heading": "Mỗi creative làm cho creative sau thông minh hơn.",
+          "body": "Vòng quay insight học từ lịch sử creative, kết quả chiến dịch và dữ liệu chuyển đổi — và theo dõi đối thủ cùng xu hướng CTR."
+        },
+        "c47": {
+          "heading": "Mô hình thay đổi hàng tuần. Quy trình thì không.",
+          "body": "Cluega là lớp vận hành ổn định giữa bạn và toàn bộ hệ sinh thái AI — tiếp nhận cái mới mà không đổi cách làm việc."
+        }
+      }
+    },
+    "steps": {
+      "label": "Điều phối thực tế",
+      "title": "Từ brief đến sẵn sàng chạy, tự động.",
+      "desc": "Mô tả mục tiêu. Cluega truy hồi cái thắng, điều phối mô hình, tạo, và tự kiểm tra.",
+      "items": {
+        "a": { "title": "Mô tả mục tiêu", "body": "Mục tiêu bằng ngôn ngữ thường; Cluega lập kế hoạch bộ asset." },
+        "b": { "title": "Truy hồi · điều phối · tạo", "body": "Lấy visual DNA thắng, đúng mô hình chạy theo trình tự." },
+        "c": { "title": "Kiểm tra · sửa · giao", "body": "Auto-QA, sửa tại chỗ, xuất cho mọi kênh." }
+      }
+    },
+    "spec": {
+      "items": {
+        "s1": { "body": "Văn bản trên ảnh đúng brief, hiển thị sạch." },
+        "s2": { "body": "VLM kiểm tỉ lệ, hình thể, dáng sản phẩm." },
+        "s3": { "body": "Xác thực màu thương hiệu và gamut." },
+        "s4": { "body": "Định vị lỗi, inpaint tại chỗ, kiểm lại." },
+        "s5": { "body": "Tối đa 3 lượt, rồi giao bản tốt nhất + cờ review." }
+      }
+    },
+    "lifecycle": {
+      "label": "Vòng đời AdOS",
+      "title": "Một hệ điều hành, xuyên suốt vòng đời marketing.",
+      "badge": "bạn ở đây",
+      "more": "Tìm hiểu →",
+      "items": {
+        "l1": { "body": "Hiểu điều gì đang thắng, từ CTR TikTok và đối thủ." },
+        "l2": { "body": "Tạo asset hình ảnh & video chuyển đổi cao." },
+        "l3": { "body": "Tự động hóa đầu tư & quyết định ngân sách." },
+        "l4": { "body": "Quy kết kết quả về từng asset." }
+      }
+    },
+    "trust": {
+      "label": "Bảo mật & tin cậy",
+      "title": "Chuẩn doanh nghiệp ngay từ đầu.",
+      "items": {
+        "t1": { "title": "Ngữ cảnh không rò rỉ", "body": "Dữ liệu thương hiệu, sản phẩm và chiến lược được giới hạn và cô lập qua mọi lần gọi mô hình." },
+        "t2": { "title": "Không mất gì khi chuyển", "body": "Đổi mô hình không bao giờ làm mất dữ liệu, ngữ cảnh hay asset đã tích lũy." },
+        "t3": { "title": "Asset là của bạn", "body": "Mọi creative đều thuộc sở hữu, được lưu trữ và tái sử dụng như tài sản tri thức." }
+      }
+    },
+    "orchestrationLayer": {
+      "label": "Lớp điều phối",
+      "title": "Lớp vận hành giữa doanh nghiệp bạn và mọi mô hình AI."
+    },
+    "quotes": {
+      "q1": { "text": "“Chúng tôi ngừng quản lý công cụ AI và bắt đầu xuất xưởng quảng cáo thắng. Cluega trở thành hệ điều hành mà mọi thứ chạy qua.”" },
+      "q2": { "text": "“Cùng một brief, CTR tăng một bậc.”" },
+      "q3": { "text": "“Model mới chạy ngay ngày đầu, không đổi quy trình.”" }
+    },
+    "stat": {
+      "text": "đội marketing sản xuất creative thắng cùng Cluega — từ startup đến doanh nghiệp lớn."
+    },
+    "closing": {
+      "title": "Xây cho tương lai. Dùng được ngay hôm nay.",
+      "text": "Một hệ điều hành. 20+ mô hình. Huấn luyện từ cái thắng.",
+      "ctaPrimary": "Bắt đầu",
+      "ctaSecondary": "Liên hệ kinh doanh"
+    },
+    "finalCta": {
+      "title": "Cảm hứng không giới hạn, để ý tưởng tiếp theo của bạn tự do bứt phá.",
+      "lead": "Dùng thử miễn phí ngay, mở khoá toàn bộ dòng model.",
+      "ctaPrimary": "Dùng thử ngay",
+      "ctaSecondary": "Liên hệ kinh doanh"
+    }
+  }
+}

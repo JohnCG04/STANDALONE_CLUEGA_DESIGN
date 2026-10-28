@@ -1,0 +1,1680 @@
+{
+  "pills": {
+    "ads": "Run ads",
+    "adVideo": "Video",
+    "design": "Image",
+    "chatMode": "Chat mode",
+    "more": "More",
+    "marketInsights": "Market insights",
+    "managedTasks": "Managed tasks",
+    "imChat": "IM chat",
+    "faceDetect": "Face detect",
+    "faceSwap": "Face swap",
+    "ecommerce": "E-commerce ops",
+    "playbook": "Playbook",
+    "mediaAuto": "Media"
+  },
+  "toolNames": {
+    "creative": "Design"
+  },
+  "imageTool": {
+    "close": "Close",
+    "modeGroupLabel": "Creative type"
+  },
+  "creative": {
+    "tabs": {
+      "agent": "Agent"
+    },
+    "referenceLabel": "Reference",
+    "referenceUsage": "Style & rhythm only",
+    "referenceCoverOnly": "Cover image only — pacing is inferred",
+    "referenceUnusedByMethod": "Not used by this method",
+    "link": {
+      "resolving": "Reading the link…",
+      "unreadable": "Could not read this link — generating without it",
+      "blocked": "This site blocked our read — generating without it",
+      "down": "This site isn't responding — generating without it",
+      "photos": "{count} photos",
+      "retry": "Try again",
+      "removeLink": "Remove this link",
+      "deselectPhoto": "Do not use this photo",
+      "selectPhoto": "Use this photo"
+    },
+    "triState": {
+      "auto": "Let AI decide",
+      "on": "Yes",
+      "off": "No"
+    },
+    "languages": {
+      "en": "English",
+      "vi": "Vietnamese",
+      "zh": "Chinese"
+    },
+    "agent": {
+      "title": "Output options",
+      "videoGroup": "When it renders a video",
+      "imageGroup": "When it renders an image",
+      "music": "Music",
+      "voiceover": "Voiceover",
+      "language": "Language",
+      "duration": "Length",
+      "durationHint": "The delivered total. Longer than one take is planned as scenes and cut together. Leave it unset and a length you type in the prompt wins.",
+      "videoCount": "Number of videos",
+      "videoCountHint": "Defaults to 2. Until you tap a tile, a count you type in the prompt wins.",
+      "videoUnit": "videos",
+      "videoUnitOne": "video"
+    },
+    "audio": {
+      "title": "Audio"
+    },
+    "brand": {
+      "title": "Brand",
+      "none": "No Brand Kit",
+      "off": "Skip the brand",
+      "setUp": "Set up a Brand Kit →",
+      "hint": "The logo and the required lines are composited onto the render, not drawn by a model.",
+      "emptyHint": "Nothing is holding these images to your brand yet. A Brand Kit pins the logo, the exact colours and the required lines."
+    },
+    "style": {
+      "title": "Style",
+      "auto": "No style",
+      "groupIgaming": "iGaming",
+      "groupGeneral": "General"
+    },
+    "image": {
+      "title": "Image options",
+      "imageCount": "Number of images",
+      "imageCountHint": "Generated in parallel — pick your favorite",
+      "imageUnit": "images"
+    },
+    "video": {
+      "methodLabel": "Generation method",
+      "durationLabel": "Duration",
+      "durationSuffix": "s",
+      "methods": {
+        "reference": {
+          "title": "Reference video",
+          "description": "Upload several images and we will carry the product, character and setting in them into the video."
+        },
+        "imageToVideo": {
+          "title": "Image to video",
+          "description": "Add motion to a still. Your image becomes the video's first frame."
+        },
+        "textToVideo": {
+          "title": "Text to video",
+          "description": "Generate a clip from scratch out of your text."
+        },
+        "videoToVideo": {
+          "title": "Video to video",
+          "description": "Restyle the reference clip's own footage. Unlike “Reference video”, this reuses the source frames themselves."
+        }
+      },
+      "durationModelHint": "This model renders {list} in one take",
+      "durationUnknownHint": "Single-take lengths for this model aren't known yet; longer lengths are always delivered as a multi-shot cut",
+      "durationSingleShotLabel": "Single take",
+      "durationStitchedLabel": "Multi-shot cut",
+      "durationStitchedHint": "Longer lengths are shot as several scenes and cut into one video (up to {max})",
+      "durationStitchedTooltip": "{seconds}: shot in scenes, cut into one video",
+      "editUnsupportedHint": "{model} cannot edit an existing clip — it does not accept a source video. Models that can: {models}.",
+      "editUnknownModels": "Runway Aleph 2, Seedance 2.0",
+      "durationAdjusted": "Adjusted to {to} — this model doesn't render {from}",
+      "aspectRatioLabel": "Aspect ratio",
+      "aspectRatioModelHint": "This model frames: {list}",
+      "aspectRatioUnknownHint": "The model has not said which frames it renders.",
+      "aspectRatioAdjusted": "Adjusted to {to}: this model does not render {from}.",
+      "aspectRatioAuto": "Auto"
+    },
+    "addContent": {
+      "trigger": "Add content",
+      "comingSoon": "Coming soon",
+      "groups": {
+        "product": "Product",
+        "trend": "Trend",
+        "avatar": "Avatar",
+        "audio": "Audio",
+        "media": "Media",
+        "styleReference": "Style reference",
+        "template": "Template",
+        "settings": "Settings"
+      },
+      "items": {
+        "uploadImages": "Upload images",
+        "uploadMedia": "Upload media",
+        "assetLibrary": "Choose from asset library",
+        "chooseTrend": "Choose a trend",
+        "uploadVideo": "Upload a video",
+        "avatarLibrary": "Choose from avatar library",
+        "uploadAudio": "Upload reference audio",
+        "chooseStyleReference": "Borrow an ad's look",
+        "chooseTemplate": "Choose a template"
+      },
+      "hint": {
+        "title": "Upload images",
+        "limitPrefix": "Upload up to",
+        "limitSuffix": "images",
+        "sampleLabel": "Image",
+        "doLabel": "Do",
+        "do": "Full product shots, several angles, real usage settings.",
+        "avoidLabel": "Avoid",
+        "avoid": "Human faces, cluttered backgrounds, dense promo text.",
+        "formats": "JPG / PNG / WEBP — ≤ 10MB each"
+      },
+      "errors": {
+        "format": "Only JPG / PNG / WEBP images are accepted.",
+        "count": "You can attach at most {max} images.",
+        "tooLong": "That reference video is too long — pick a clip under 2 minutes."
+      },
+      "methodDisallowed": "The selected generation method does not use this kind of material.",
+      "noBudget": "This tab does not take that kind of material.",
+      "storyboardReference": "Storyboard",
+      "a11y": {
+        "removeImage": "Remove image",
+        "addImage": "Add image",
+        "removeVideo": "Remove reference video",
+        "removeAudio": "Remove reference audio",
+        "removeStoryboardReference": "Remove storyboard reference"
+      }
+    },
+    "samplePrompts": {
+      "a11y": {
+        "shuffle": "Show other examples",
+        "close": "Hide examples",
+        "more": "More prompt ideas",
+        "prevPage": "Previous page",
+        "nextPage": "Next page",
+        "pageOf": "Page {page} of {count}"
+      },
+      "title": "Prompt ideas",
+      "refresh": "Refresh",
+      "videoPreview": "Sample video preview",
+      "previewCaption": "Example output · Video",
+      "kind": {
+        "video": "Video",
+        "image": "Image",
+        "avatar": "Avatar"
+      },
+      "exampleTag": "Example",
+      "forYou": "For you",
+      "use": "Use",
+      "mock": {
+        "industries": {
+          "electronics": "Electronics",
+          "beauty": "Beauty",
+          "fashion": "Fashion",
+          "food": "Food & drink",
+          "gaming": "Gaming"
+        },
+        "scenes": {
+          "demo": "Product demo",
+          "talkingHead": "Talking head",
+          "lookbook": "Lookbook",
+          "unboxing": "Unboxing",
+          "gameplay": "Gameplay"
+        },
+        "ratios": {
+          "vertical": "9:16 vertical",
+          "portrait": "4:5 portrait",
+          "horizontal": "16:9 horizontal"
+        },
+        "stats": "{shots} shots · {seconds}s total · {ratio}",
+        "prompts": {
+          "electronicsDemo": "Create a {tone} product demo video of {product} for {audience}, opening on {selling_point} and showing it in real use.",
+          "beautyTalkingHead": "A creator talks to {audience} about {product}, explaining {selling_point} in a {tone} voice, with close-ups of the texture.",
+          "beautyDemo": "Show {product} being applied step by step, highlighting {selling_point} under {tone} lighting, made for {audience}.",
+          "fashionLookbook": "A {season} lookbook for {product}: three outfits, quick cuts, styled for {audience}.",
+          "foodUnboxing": "Unbox {product} on camera, taste it and call out the {flavor}, for {audience}.",
+          "gamingGameplay": "Open on {hook}, then 30 seconds of {game} gameplay with on-screen callouts, for {audience}."
+        }
+      }
+    },
+    "modelMenu": {
+      "quality": "Quality",
+      "qualities": {
+        "high": { "title": "High", "description": "Best quality, slower renders" },
+        "standard": { "title": "Standard", "description": "Balanced quality and speed" },
+        "fast": { "title": "Fast", "description": "Quick drafts for iteration" }
+      },
+      "videoOptions": "Video options",
+      "imageOptions": "Image options",
+      "mode": "Mode",
+      "aspectRatioHint": "This model frames: {list}",
+      "moreModels": "More models",
+      "comingSoon": "Coming soon",
+      "outputFormat": "Output format",
+      "background": "Background",
+      "backgroundOriginal": "Original",
+      "backgroundTransparent": "Transparent",
+      "tiers": {
+        "base": {
+          "name": "Base",
+          "description": "Quick drafts and A/B variants"
+        },
+        "max": {
+          "name": "Max",
+          "description": "Highest quality, best for final ads"
+        },
+        "gptImage": {
+          "name": "GPT Image 2.5",
+          "description": "Text inside the image, charts and layout"
+        },
+        "nanoBananaPro": {
+          "name": "Nano Banana Pro",
+          "description": "Photoreal product shots and edits"
+        }
+      },
+      "resolution": "Resolution",
+      "referenceImage": "Reference image",
+      "none": "None"
+    }
+  },
+  "adPlatform": {
+    "hoverCard": {
+      "description": "Builds and launches ad campaigns on the platforms you have authorized - pick a platform, pick an objective, then confirm the plan before anything runs.",
+      "provenance": "Runs through each platform's MCP gateway • Nothing is published until you confirm • Remove with ✕ or Backspace"
+    },
+    "steps": {
+      "label": "Step {n} / {total}"
+    },
+    "panels": {
+      "selectPlatform": "Choose your ad platform",
+      "selectGoal": "What do you want to create?",
+      "selectObjective": "Choose your objective",
+      "leadModalTitle": "Choose lead collection type",
+      "selectVariant": "Choose how to run it",
+      "selectPromotionType": "Choose your ad objective",
+      "selectSubType": "Choose a sub-type",
+      "selected": "Selected",
+      "promptIdeas": "Prompt ideas"
+    },
+    "nodeTitles": {
+      "lead-im": "Choose messaging method",
+      "lead-im-click": "Choose platform (Click)",
+      "lead-im-conv": "Choose platform (Conversations)",
+      "ga-web": "Choose a website campaign type"
+    },
+    "nodeLabels": {
+      "meta-awareness": {
+        "label": "Brand awareness",
+        "description": "Increase reach and ad recall."
+      },
+      "meta-awareness-reach": {
+        "label": "Reach more people",
+        "description": "Optimize for unique reach."
+      },
+      "meta-awareness-ad-recall-lift": {
+        "label": "Brand awareness",
+        "description": "Optimize for people remembering your ads."
+      },
+      "meta-traffic": {
+        "label": "Website traffic",
+        "description": "Send more people to your website."
+      },
+      "meta-traffic-link-clicks": {
+        "label": "Website link clicks",
+        "description": "Optimize for clicks on your website link."
+      },
+      "meta-traffic-landing-page-views": {
+        "label": "Landing page views",
+        "description": "Optimize for people loading and viewing your landing page."
+      },
+      "meta-video-views": {
+        "label": "Video views",
+        "description": "Drive video views (ThruPlay or 2-second views)."
+      },
+      "meta-instagram-profile-visits": {
+        "label": "Instagram profile visits",
+        "description": "Drive visits to a connected Instagram profile."
+      },
+      "meta-messenger-click": {
+        "label": "Click to Messenger/WhatsApp",
+        "description": "Open a Messenger or WhatsApp chat when the ad is tapped."
+      },
+      "meta-line-zalo-click": {
+        "label": "External messaging app URL (LINE/Zalo)",
+        "description": "Drive clicks to a LINE OA or Zalo OA chat."
+      },
+      "meta-click-to-call": {
+        "label": "Click to call",
+        "description": "A Call Now button that dials a phone number when tapped."
+      },
+      "meta-engagement": {
+        "label": "Engagement",
+        "description": "Grow engagement on posts, your Page, or messaging."
+      },
+      "meta-engagement-post": {
+        "label": "Post engagement (Likes/Comments/Shares)",
+        "description": "Optimize for likes, comments, and shares on a post."
+      },
+      "meta-page-likes": {
+        "label": "Page likes and follows",
+        "description": "Grow the number of people who like and follow your Page."
+      },
+      "meta-messaging-engagement": {
+        "label": "Messaging conversations (Messenger/Instagram/WhatsApp)",
+        "description": "Optimize for conversations started via Messenger, Instagram, or WhatsApp."
+      },
+      "meta-lead-generation": {
+        "label": "Lead generation",
+        "description": "Collect lead information from prospective customers."
+      },
+      "meta-leads-form": {
+        "label": "Meta Instant Form",
+        "description": "Collect leads via an Instant Form directly on Facebook/Instagram."
+      },
+      "meta-leads-website": {
+        "label": "Website lead conversion",
+        "description": "Drive people to a landing page to submit a lead form."
+      },
+      "meta-leads-messenger": {
+        "label": "Automated lead collection via messaging",
+        "description": "Collect lead info through an automated Messenger conversation."
+      },
+      "meta-leads-phone-call": {
+        "label": "Phone calls",
+        "description": "Encourage prospective leads to call you directly."
+      },
+      "meta-app-promotion": {
+        "label": "App",
+        "description": "Drive app installs and in-app engagement."
+      },
+      "meta-app-install": {
+        "label": "App installs",
+        "description": "Grow the number of installs for your app."
+      },
+      "meta-app-event-retargeting": {
+        "label": "App event retargeting",
+        "description": "Re-engage users who performed an in-app event."
+      },
+      "meta-sales": {
+        "label": "Sales",
+        "description": "Drive sales on your website or from your product catalog."
+      },
+      "meta-conversions": {
+        "label": "Website conversions (Purchase/Add to cart)",
+        "description": "Optimize for purchases or add-to-cart events on your website."
+      },
+      "meta-advantage-plus-app": {
+        "label": "Advantage+ app campaign",
+        "description": "Automated app install campaign that lets Meta optimize audience, placements and creative."
+      },
+      "meta-advantage-plus-shopping": {
+        "label": "Catalog sales (Dynamic ads)",
+        "description": "Dynamic ads that automatically show the right products from your catalog."
+      },
+      "meta-app-sales": {
+        "label": "App sales",
+        "description": "Drive in-app purchase or subscription revenue."
+      },
+      "reach": {
+        "label": "Reach",
+        "description": "Maximize the number of unique users reached"
+      },
+      "traffic": {
+        "label": "Traffic",
+        "description": "Send more people to a destination"
+      },
+      "video-views": {
+        "label": "Video views",
+        "description": "Get more plays from likely viewers"
+      },
+      "community-interaction": {
+        "label": "Community interaction"
+      },
+      "app-promotion": {
+        "label": "App promotion"
+      },
+      "lead-generation": {
+        "label": "Leads",
+        "description": "Collect leads with instant forms"
+      },
+      "sales": {
+        "label": "Sales",
+        "description": "Drive conversions and catalog sales"
+      },
+      "traffic-smartplus": {
+        "label": "Smart+ campaign",
+        "description": "Automated Smart+ traffic series."
+      },
+      "traffic-search": {
+        "label": "Search campaign",
+        "description": "Drive site visits via TikTok Search."
+      },
+      "app-install": {
+        "label": "App install",
+        "description": "Drive new app installs."
+      },
+      "app-retargeting": {
+        "label": "App retargeting",
+        "description": "Re-engage users with in-app events."
+      },
+      "lead-landing": {
+        "label": "Landing page",
+        "description": "Capture leads on a landing page."
+      },
+      "lead-instant-form": {
+        "label": "TikTok Instant Form",
+        "description": "Native in-app instant forms."
+      },
+      "lead-dm": {
+        "label": "TikTok DM",
+        "description": "Capture leads via TikTok direct messages."
+      },
+      "lead-phone": {
+        "label": "Phone call",
+        "description": "Tap-to-call sales hotline."
+      },
+      "lead-im": {
+        "label": "Messaging apps"
+      },
+      "lead-im-click": {
+        "label": "Click",
+        "description": "Drive traffic to a messaging app."
+      },
+      "lead-im-conv": {
+        "label": "Conversations",
+        "description": "Optimize for conversations started."
+      },
+      "lead-im-click-messenger": {
+        "label": "Messenger",
+        "description": "Open a Messenger chat on tap."
+      },
+      "lead-im-click-whatsapp": {
+        "label": "WhatsApp",
+        "description": "Open a WhatsApp chat on tap."
+      },
+      "lead-im-click-zalo": {
+        "label": "Zalo",
+        "description": "Open a Zalo chat on tap."
+      },
+      "lead-im-click-line": {
+        "label": "LINE",
+        "description": "Open a LINE chat on tap."
+      },
+      "lead-im-click-url": {
+        "label": "Messaging URL",
+        "description": "Open a messaging app via URL."
+      },
+      "lead-im-conv-messenger": {
+        "label": "Messenger",
+        "description": "Optimize Messenger conversations."
+      },
+      "lead-im-conv-whatsapp": {
+        "label": "WhatsApp",
+        "description": "Optimize WhatsApp conversations."
+      },
+      "lead-im-conv-zalo": {
+        "label": "Zalo",
+        "description": "Optimize Zalo conversations."
+      },
+      "sales-tiktok-shop": {
+        "label": "TikTok Shop",
+        "description": "Drive orders inside TikTok Shop."
+      },
+      "sales-website": {
+        "label": "Website",
+        "description": "Drive website purchase conversions."
+      },
+      "sales-app": {
+        "label": "App",
+        "description": "Drive in-app purchase events."
+      },
+      "ga-keyword": {
+        "label": "Keyword",
+        "description": "Show on Google search for keywords you choose."
+      },
+      "ga-web": {
+        "label": "Web",
+        "description": "You have a website and images."
+      },
+      "ga-video": {
+        "label": "YouTube video",
+        "description": "You have a YouTube video link."
+      },
+      "ga-app": {
+        "label": "App",
+        "description": "Drive installs of your mobile app."
+      },
+      "ga-leads": {
+        "label": "Leads",
+        "description": "Collect contact details right inside a Search ad."
+      },
+      "ga-shopping": {
+        "label": "Products (Shopping)",
+        "description": "You have a Merchant Center product feed."
+      },
+      "ga-web-pmax": {
+        "label": "Performance Max",
+        "description": "Google places the ads across every channel."
+      },
+      "ga-web-display": {
+        "label": "Display",
+        "description": "Banner ads on partner websites and apps."
+      },
+      "ga-web-demandgen": {
+        "label": "Demand Gen",
+        "description": "Image ads in YouTube, Gmail and Discover feeds."
+      },
+      "ga-web-sales": {
+        "label": "Sales / Website Conversions",
+        "description": "Search ads optimized for purchases and sign-ups on your site."
+      },
+      "openai-views": {
+        "label": "Views (CPM)",
+        "description": "Show your ad to as many people as possible in ChatGPT, billed per 1,000 impressions."
+      },
+      "openai-clicks": {
+        "label": "Clicks (CPC)",
+        "description": "Send people from ChatGPT to your website, billed per click."
+      },
+      "openai-conversions": {
+        "label": "Conversions",
+        "description": "Get more actions on your site, optimised for one conversion event, billed per click."
+      },
+      "openai-product-feed": {
+        "label": "Product feed",
+        "description": "Show products from your catalog feed in ChatGPT."
+      },
+      "openai-views-standard": {
+        "label": "Standard campaign",
+        "description": "Create a campaign with your own ad creatives."
+      },
+      "openai-views-product-feed": {
+        "label": "Product feed",
+        "description": "Promote products from your catalog feed."
+      },
+      "openai-clicks-standard": {
+        "label": "Standard campaign",
+        "description": "Create a campaign with your own ad creatives."
+      },
+      "openai-clicks-product-feed": {
+        "label": "Product feed",
+        "description": "Promote products from your catalog feed."
+      },
+      "openai-conversions-standard": {
+        "label": "Standard campaign",
+        "description": "Create a campaign with your own ad creatives."
+      },
+      "openai-conversions-product-feed": {
+        "label": "Product feed",
+        "description": "Promote products from your catalog feed."
+      }
+    },
+    "metaObjectives": {
+      "awareness": {
+        "label": "Awareness",
+        "description": "Reach people most likely to remember your ads and build brand recall.",
+        "prompt": "Help me set up a Meta Awareness campaign to build brand impression."
+      },
+      "traffic": {
+        "label": "Traffic",
+        "description": "Send people to your website, app, or Messenger conversation.",
+        "prompt": "Help me create a Meta Traffic ad to drive users to my website."
+      },
+      "engagement": {
+        "label": "Engagement",
+        "description": "Increase messages, video views, post engagement, or follows.",
+        "prompt": "Help me set up a Meta Engagement campaign to boost post interactions."
+      },
+      "leads": {
+        "label": "Leads",
+        "description": "Collect leads and contact info via forms or conversations.",
+        "prompt": "Help me create a Meta Leads ad to collect email sign-ups."
+      },
+      "app-promotion": {
+        "label": "App promotion",
+        "description": "Drive app installs and in-app events.",
+        "prompt": "Help me create a Meta App Promotion ad to drive app installs."
+      },
+      "sales": {
+        "label": "Sales",
+        "description": "Target people likely to purchase your products or services.",
+        "prompt": "Help me create a Meta Sales ad to improve website conversions."
+      }
+    },
+    "groups": {
+      "awareness": {
+        "label": "Awareness",
+        "description": "Reach the people most likely to remember your ad and grow brand exposure."
+      },
+      "consideration": {
+        "label": "Consideration",
+        "description": "Lift traffic and engagement to build audience consideration."
+      },
+      "conversion": {
+        "label": "Conversion",
+        "description": "Drive orders, leads, installs and other key conversion actions."
+      }
+    },
+    "objectives": {
+      "awareness": {
+        "label": "Awareness",
+        "description": "Reach people most likely to recall your ad and build brand impression."
+      },
+      "engagement": {
+        "label": "Engagement",
+        "description": "Boost messages, video views, post engagement or followers."
+      },
+      "leads": {
+        "label": "Leads",
+        "description": "Collect contact lists via instant forms or conversations."
+      },
+      "sales": {
+        "label": "Sales",
+        "description": "Target likely buyers and optimize conversions and revenue."
+      },
+      "reach": {
+        "label": "Reach",
+        "description": "Reach the broadest TikTok audience at the lowest CPM to maximize brand exposure."
+      },
+      "traffic": {
+        "label": "Traffic",
+        "description": "Send TikTok users to your site, landing page, or app.",
+        "prompt": "Help me create a TikTok Traffic ad to send users to my website, landing page, or app."
+      },
+      "video-views": {
+        "label": "Video views",
+        "description": "Maximize video completions and views for deeper content penetration.",
+        "prompt": "Help me create a TikTok Video Views ad to maximize completions and views."
+      },
+      "community-interaction": {
+        "label": "Community interaction",
+        "description": "Increase likes, comments, shares, and profile follows.",
+        "prompt": "Help me create a TikTok Community Interaction ad to boost likes, comments, shares, and follows."
+      },
+      "app-promotion": {
+        "label": "App promotion",
+        "description": "Drive app installs and in-app conversion events."
+      },
+      "lead-generation": {
+        "label": "Lead generation",
+        "description": "Collect leads with TikTok Instant Form."
+      },
+      "tiktok-shop": {
+        "label": "TikTok Shop",
+        "description": "Drive orders inside TikTok Shop and optimize GMV."
+      },
+      "website": {
+        "label": "Website",
+        "description": "Send traffic to your standalone site to complete purchases."
+      },
+      "app": {
+        "label": "App",
+        "description": "Drive in-app purchase events and optimize ROAS."
+      },
+      "website-and-app": {
+        "label": "Website and app",
+        "description": "Optimize purchase events across web and app together."
+      },
+      "brand-reach-max": {
+        "label": "Maximize brand reach",
+        "description": "Reach the broadest target audience at the lowest CPM.",
+        "prompt": "Help me create a Google Ads Maximize Brand Reach campaign to reach the broadest audience at the lowest CPM."
+      },
+      "ad-recall-boost": {
+        "label": "Lift ad recall",
+        "description": "Build mindshare with reach and frequency controls.",
+        "prompt": "Help me create a Google Ads Lift Ad Recall campaign using reach + frequency controls."
+      },
+      "product-launch-wave": {
+        "label": "Product launch exposure wave",
+        "description": "Rhythmic exposure scheduling to ensure 6+ frequency.",
+        "prompt": "Help me create a Google Ads Product Launch Exposure Wave campaign with paced scheduling for 6+ frequency."
+      },
+      "brand-term-defense": {
+        "label": "Brand term defense",
+        "description": "Protect branded search terms from competitor conquesting.",
+        "prompt": "Help me create a Google Ads Brand Term Defense campaign to protect branded search."
+      },
+      "high-engagement-audience": {
+        "label": "High-engagement audience nurturing",
+        "description": "Increase post engagement, video views, and content depth.",
+        "prompt": "Help me create a Google Ads High-Engagement Audience Nurturing campaign."
+      },
+      "consideration-retargeting": {
+        "label": "Consideration retargeting",
+        "description": "Re-engage users who interacted but did not convert.",
+        "prompt": "Help me create a Google Ads Consideration Retargeting campaign for warm audiences."
+      },
+      "intent-tag-building": {
+        "label": "Intent tag building",
+        "description": "Build layered intent tags from engagement behavior.",
+        "prompt": "Help me create a Google Ads Intent Tag Building campaign from engagement signals."
+      },
+      "short-video-strategy": {
+        "label": "Short-video seeding strategy",
+        "description": "Plan 15s/30s content to lift audience intent.",
+        "prompt": "Help me create a Google Ads Short-Video Seeding Strategy campaign with 15s/30s creative."
+      },
+      "add-to-cart-boost": {
+        "label": "Add-to-cart lift plan",
+        "description": "Push incentive creative to browsers who did not add to cart.",
+        "prompt": "Help me create a Google Ads Add-to-Cart Lift campaign for non-add-to-cart visitors."
+      },
+      "lead-form-automation": {
+        "label": "Lead form automation",
+        "description": "Lead Ads plus automated follow-up sequences.",
+        "prompt": "Help me create a Google Ads Lead Form Automation campaign with Lead Ads + follow-up."
+      },
+      "signup-funnel-optimization": {
+        "label": "Sign-up funnel optimization",
+        "description": "Find signup funnel bottlenecks and optimize pages.",
+        "prompt": "Help me create a Google Ads Sign-up Funnel Optimization campaign."
+      },
+      "cart-abandonment-recovery": {
+        "label": "Cart abandonment recovery",
+        "description": "Send limited-time offers and reminders to abandoners.",
+        "prompt": "Help me create a Google Ads Cart Abandonment Recovery campaign."
+      },
+      "asc-campaign": {
+        "label": "ASC sales campaign setup",
+        "description": "Advantage+ Shopping fully automated sales campaigns.",
+        "prompt": "Help me create a Google Ads ASC Sales Campaign with Advantage+ Shopping."
+      },
+      "roas-target-bidding": {
+        "label": "ROAS target bidding",
+        "description": "Auto-bid toward target ROAS with dynamic adjustments.",
+        "prompt": "Help me create a Google Ads ROAS Target Bidding campaign."
+      },
+      "dynamic-product-retargeting": {
+        "label": "Dynamic product retargeting",
+        "description": "DPA shows relevant products to cart abandoners.",
+        "prompt": "Help me create a Google Ads Dynamic Product Retargeting (DPA) campaign."
+      },
+      "seasonal-sales-sprint": {
+        "label": "Seasonal sales sprint",
+        "description": "Playbooks for 9.9, 11.11, Black Friday, and more.",
+        "prompt": "Help me create a Google Ads Seasonal Sales Sprint campaign for major sale events."
+      }
+    },
+    "leadTypes": {
+      "tiktok-message-ad": {
+        "label": "TikTok Lead Generation DM",
+        "description": "Users open TikTok DMs after tap; AI welcome message starts the chat.",
+        "prompt": "Hi, I want to run TikTok DM ads to capture leads."
+      },
+      "tiktok-whatsapp-lead-gen": {
+        "label": "TikTok Lead Gen — WhatsApp",
+        "description": "Lead ads via WhatsApp CLICK—routes users into a WhatsApp chat.",
+        "prompt": "Help me create a TikTok lead gen campaign with WhatsApp destination. $50/day budget. Target Vietnam, ages 18–44. WhatsApp number 0938297231—pick a high-converting library video."
+      },
+      "message-ad": {
+        "label": "Message ad",
+        "description": "Cross-platform message ads routing to Messenger, WhatsApp, LINE, and more.",
+        "prompt": "I want lead ads with a DM flow—find top Vietnam finance and real-estate creator hits with the best DM open rates to clone."
+      },
+      "instant-form": {
+        "label": "Instant Form ad",
+        "description": "Native in-app instant forms collect leads without leaving the app.",
+        "prompt": "I want to run TikTok Instant Form ads—please help me connect."
+      },
+      "phone-ad": {
+        "label": "Phone ad",
+        "description": "Tap-to-call sales hotline—great for high-ticket services.",
+        "prompt": "I want to run TikTok form ads—please help me connect."
+      }
+    },
+    "comingSoon": "Coming soon",
+    "loading": "Loading…",
+    "loadError": "Couldn't load ad objectives.",
+    "retry": "Retry",
+    "empty": "No ad objectives available yet.",
+    "connected": "Connected",
+    "connect": "Connect",
+    "back": "Back",
+    "loadingPromptIdeas": "Writing prompt ideas…",
+    "noPromptIdeas": "No prompt ideas for this objective yet.",
+    "accountCount": "{count} account connected"
+  },
+  "videoAd": {
+    "generateVideo": {
+      "title": "Video",
+      "description": "Generate a video from a description — pick mode, frame, duration and music.",
+      "getStarted": "Get started with",
+      "mode": {
+        "label": "Mode",
+        "fast": "Fast",
+        "quality": "Quality"
+      },
+      "orientation": {
+        "label": "Orientation",
+        "landscape": "Landscape",
+        "portrait": "Portrait"
+      },
+      "duration": {
+        "label": "Duration",
+        "hint": "This model renders {list}",
+        "unknownHint": "Clip lengths for this model aren't known yet"
+      },
+      "backgroundMusic": "Background Music",
+      "samplePrompts": {
+        "nba-finals": "Generate an NBA Finals night video",
+        "starry-night": "Animate Vincent van Gogh's Starry Night into cinematic short video",
+        "dress-explosion": "Design and showcase a dress in an explosion scene",
+        "owl-forest": "Generate video of owl's forest adventure",
+        "cartographer": "Generate a video of a cartographer in a historical adventure setting"
+      }
+    },
+    "tryPrompts": {
+      "title": "Try video prompts",
+      "description": "Top feed ad prompt templates for TikTok, Meta, and Instagram—get platform-native creative directions in one click."
+    },
+    "adLibrary": {
+      "title": "Ad library",
+      "description": "Seedance 2.0 combines trending TikTok/Meta ad creatives with market insights. Clone high-performing templates, apply multiple styles, and build on-brand marketing assets fast."
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "{current} / {total}"
+    }
+  },
+  "design": {
+    "hoverCard": {
+      "description": "Generates images, video and digital humans from a written brief, together with any reference material you attach.",
+      "provenance": "Provided by the Cluega Media service • Default model Auto • Remove with ✕ or Backspace"
+    },
+    "generate": {
+      "getStarted": "Get started with",
+      "aspectRatio": {
+        "label": "Aspect ratio"
+      },
+      "resolution": {
+        "label": "Resolution"
+      },
+      "overrideHint": "The frame and size picked here are sent with the job and override any ratio or size described in your prompt."
+    },
+    "footer": "Cluega's design engine automatically uses your product data and brand colors to generate assets that match each social platform's ad specs.",
+    "templates": {
+      "product-concept-packaging": {
+        "title": "Design product concept and packaging for Aura Band",
+        "badge": "Product concept",
+        "description": "Design a slim, screen-free product concept for the Aura Band health-monitoring smart band with eco-friendly minimal packaging..."
+      },
+      "ig-luxury-story": {
+        "title": "Design a premium IG brand visual Story",
+        "badge": "IG 9:16",
+        "description": "Design a 9:16 full-screen ad for fashion, beauty, or lifestyle brands with atmosphere, whitespace, and conversion-focused visuals..."
+      },
+      "tiktok-native-promo": {
+        "title": "Design native TikTok promotional creative",
+        "badge": "TikTok 9:16",
+        "description": "Create a UGC-style unboxing or comparison image for 9:16 TikTok ads that lowers ad resistance..."
+      },
+      "meta-carousel-series": {
+        "title": "Design a Meta Carousel image series",
+        "badge": "Meta 1:1",
+        "description": "Design a consistent 1:1 product card series for Meta carousel ads, suitable for multi-color SKUs or step-by-step display..."
+      },
+      "black-friday-banner": {
+        "title": "Design a Black Friday limited-time banner",
+        "badge": "16:9 / 1.91:1",
+        "description": "Design a 16:9 or 1.91:1 horizontal ad for Meta/Google Display with a strong sale atmosphere and multi-product stacking..."
+      },
+      "before-after-comparison": {
+        "title": "Design a Before/After pain-point comparison",
+        "badge": "Meta / Pinterest 4:5",
+        "description": "Create a 4:5 or 1:1 ad image that shows the consumer pain point on one side and the improved state after using the product on the other..."
+      }
+    }
+  },
+  "marketInsights": {
+    "tabs": {
+      "reach": "Reach",
+      "video": "Video",
+      "community": "Community",
+      "traffic": "Traffic",
+      "leads": "Leads",
+      "sales": "Sales",
+      "app": "App",
+      "risk": "Risk & Anomaly"
+    },
+    "search": {
+      "label": "Search the prompt library",
+      "placeholder": "Search prompts — try ROAS, funnel, cost…",
+      "empty": "No prompt matches that. Try another keyword, or pick a business category above.",
+      "scope": "Search results across all categories",
+      "scopeIn": "Search results in {category}",
+      "emptyFiltered": "No prompt matches that with these filters. Try another keyword, or clear the filters."
+    },
+    "preview": {
+      "caption": "Example snapshot · Last 7 days"
+    },
+    "detail": {
+      "open": "View details",
+      "close": "Close",
+      "run": "Run prompt",
+      "objectiveNote": "Shared guidance for every {objective} prompt",
+      "primary": {
+        "problem": "What this dashboard answers",
+        "metrics": "Key metrics",
+        "inputs": "Data required"
+      },
+      "promptLabel": "Prompt sent",
+      "inputsTemplate": "{sources}, with data for {range}",
+      "provenance": {
+        "golden": "Golden",
+        "authored": "Authored"
+      },
+      "fields": {
+        "name": "Prompt name",
+        "reference": "Reference",
+        "category": "Objective",
+        "problem": "Business problem",
+        "audience": "Written for",
+        "inputs": "Required inputs",
+        "sources": "Data sources",
+        "range": "Time range",
+        "metrics": "Metrics and dimensions",
+        "widgets": "Expected widgets",
+        "followUps": "Follow-up questions",
+        "actions": "Recommended actions"
+      },
+      "widgets": {
+        "kpi_card": "KPI cards",
+        "line_chart": "Line chart",
+        "bar_chart": "Bar chart",
+        "pie_chart": "Donut",
+        "table": "Table",
+        "funnel": "Funnel",
+        "ranking": "Ranking",
+        "scatter_bubble": "Quadrant",
+        "media_card": "Content cards",
+        "goal_gauge": "Goal gauge",
+        "distribution": "Distribution",
+        "heatmap": "Heatmap"
+      },
+      "objectives": {
+        "reach": {
+          "problem": "How many distinct people the money reached, and how often each of them saw it before the spend stopped buying new eyeballs.",
+          "audience": "A brand or media buyer deciding whether to widen the audience or cap frequency.",
+          "followUps": "Which placement is driving the frequency up? Is CPM rising with frequency, or independently of it?",
+          "actions": "Widen the audience, cap frequency, or move budget to the placements still reaching new people."
+        },
+        "traffic": {
+          "problem": "How much of the traffic paid for actually arrives, and where the gap between a click and a landing view opens up.",
+          "audience": "A performance buyer who owns click cost and is judged on qualified sessions, not clicks.",
+          "followUps": "Which campaign loses the most between click and arrival? Is a dear click also a click that never lands?",
+          "actions": "Scale what arrives, fix or pause what is paid for and never lands, and move budget off the dearest clicks."
+        },
+        "video": {
+          "problem": "Whether the creative holds attention long enough to be worth the impressions, and where in the cut viewers leave.",
+          "audience": "A creative lead choosing which cut to scale and which to re-edit.",
+          "followUps": "Where does the drop happen — the hook, the middle, or the call to action? Does a longer watch actually convert?",
+          "actions": "Scale the cuts that hold, re-edit the ones that lose viewers early, and stop the ones that lose them at the hook."
+        },
+        "leads": {
+          "problem": "What a qualified lead actually costs once the forms that never open and the conversations that never reply are counted.",
+          "audience": "A demand-generation owner answerable for cost per lead and for what sales does with them.",
+          "followUps": "Which step loses the most — the open, the submit, or the first reply? Is a cheap lead also a lead that answers?",
+          "actions": "Scale the groups producing answered leads, rewrite the step that loses most, and cut the ones buying silence."
+        },
+        "community": {
+          "problem": "What the account is buying beyond a click — followers, reactions and shares — and what each of those costs.",
+          "audience": "A social or content lead whose target is an audience that stays, not a session that ends.",
+          "followUps": "Which campaign earns engagement rather than only plays? What does a follower cost where it is cheapest?",
+          "actions": "Scale what earns reactions, rework content that is watched and never acted on, and stop the rest."
+        },
+        "app": {
+          "problem": "What an install costs by campaign, and whether the cheap installs are the ones that go on to do anything.",
+          "audience": "A user-acquisition manager holding a CPI target and a budget to place against it.",
+          "followUps": "Which campaign is under the CPI ceiling with volume behind it? Where does a cheap install stop being cheap?",
+          "actions": "Scale under-target campaigns, optimize the ones close to the ceiling, and pause the ones past it."
+        },
+        "sales": {
+          "problem": "What the spend returned — revenue, orders and ROAS — and which part of the path from click to payment is losing the money.",
+          "audience": "An e-commerce or performance owner judged on return, not on volume.",
+          "followUps": "Which campaign is under the ROAS floor? Where between the cart and the payment do the orders go?",
+          "actions": "Scale what returns, fix the step that leaks, and stop the campaigns under the ROAS floor."
+        },
+        "risk": {
+          "problem": "Which campaigns crossed a line the account already set — frequency past its cap, cost per result deteriorating, spend with nothing to show — while the totals still looked acceptable.",
+          "audience": "A performance owner who needs to know what to stop today, before a weekly report turns it into a monthly loss.",
+          "followUps": "Which campaign crossed first, and is it one entity or the whole account? Did cost deteriorate because delivery collapsed, or because the audience stopped responding?",
+          "actions": "Pause what breached, rebuild the creatives that fatigued, and re-check the thresholds the board judged against."
+        }
+      },
+      "overrides": {
+        "traffic-landing-quadrant": {
+          "problem": "TikTok does not report a 0-100 traffic quality score, so this question cannot be answered from the data the platform returns. Ask it and the assistant will say which figure is missing rather than estimate one.",
+          "actions": "No dashboard can be built for this one — a board needs a metric the platform actually reports. The closest served figures are landing page views, CPC and spend, which together show whether arriving traffic is worth what it cost.",
+          "followUps": "Which served metrics come closest? Can landing page views against CPC answer the same question?"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Previous page",
+      "next": "Next page",
+      "indicator": "Page {page} of {total}"
+    },
+    "objectives": {
+      "scrollPrevious": "Scroll objectives left",
+      "scrollNext": "Scroll objectives right"
+    },
+    "cards": {
+      "reach-frequency-daily": {
+        "title": "Reach & frequency daily report",
+        "hint": "Reach · Frequency · CPM · 7 days",
+        "prompt": "My TikTok brand coverage has looked odd these past few days — check what actually happened over the last 7 days: are reach and average frequency better or worse than last week, is the money getting more expensive, and point out which campaigns have frequency high enough that I should cap it."
+      },
+      "video-views-daily": {
+        "title": "Video views daily report",
+        "hint": "Plays · 2s · 6s · Completion rate",
+        "prompt": "Turn the last 7 days of my TikTok video-view campaigns into a daily report: four cards on top for video plays, 2-second plays, 6-second views and cost per 2-second view, each compared with the previous period; below them a line chart of daily plays and 2-second plays; beside it a pie chart of play share by placement, and say plainly if that split has no data source yet; then a wall of the top videos and a ranking of the ones with the most plays; and at the bottom a table per ad with plays, 2s, 6s, completions, completion rate, cost per 2-second view and spend, flagging completion rate below 5% in red."
+      },
+      "video-completion-funnel": {
+        "title": "Play-through & completion funnel",
+        "hint": "Funnel 25% → 50% → 75% → complete",
+        "prompt": "Show me at which second people swipe my videos away. Build a completion funnel: plays → 25% → 50% → 75% → completed, each stage showing the count and the share of plays — use plays as the denominator, not impressions. Put a completion-rate goal card on top with a 10% target. Next to it a bar chart comparing completion rate across content-length buckets. At the bottom a table listing both the \"vs plays\" and \"vs previous stage\" ratios for every milestone, and add 2s and 6s in for reference."
+      },
+      "reach-cost-quadrant": {
+        "title": "Reach cost-efficiency positioning",
+        "hint": "Reach × CPM × Spend · quadrant",
+        "prompt": "Build an efficiency positioning chart for my ad groups: X axis reach, Y axis CPM, bubble size spend, label the four quadrants \"High efficiency high volume / High efficiency low volume / Low efficiency high volume / Low efficiency low volume\", and flag bubbles with CPM above $4 in red. Add three cards on top: total spend, total reach, average CPM."
+      },
+      "traffic-landing-daily": {
+        "title": "Traffic & landing daily report",
+        "hint": "Clicks · CTR · CPC · Landing page views",
+        "prompt": "Turn the last 7 days of my TikTok traffic campaigns into a live dashboard: four cards on top for clicks, CTR, cost per click and landing page views, each compared with the previous period; below them a daily line chart of clicks and landing page views. Then show me where the clicks were sent — a pie chart of click share by destination type and a table per destination with clicks, landing page views, arrival rate, CPC and spend — and say plainly if that breakdown has no data source yet. Finally the same question against what the data can answer: a ranking of the campaigns whose clicks actually arrive, and a table per campaign with clicks, landing page views, CTR, arrival rate, CPC and spend. Flag arrival rate below 50% in red."
+      },
+      "traffic-hourly-monitor": {
+        "title": "Hourly traffic monitor",
+        "hint": "Hourly · Clicks · Landing views · today",
+        "prompt": "Open a real-time traffic monitor for today: a live status bar on top, then four cards for clicks, landing page views, landing rate and live CPC so far today. In the middle a two-hourly line chart of clicks and landing page views, next to it a ranking of the landing pages with the highest live landing rate. Then a row of three thumbnails for the creatives with the highest CTR, and at the bottom a table of the last six time slots, flagging abnormal load seconds in red."
+      },
+      "traffic-landing-quadrant": {
+        "title": "Landing page efficiency positioning",
+        "hint": "Landing views × CPC × Spend · quadrant",
+        "prompt": "Build me a landing page efficiency positioning chart: X axis the landing rate, Y axis a \"traffic quality score\" you work out for me — the kind that rolls landing rate, seconds on page and bounce rate into a 0–100 scale, bubble size is spend, label the four quadrants with what to do about each, and flag the ugly scores in red. Add three cards on top: total clicks, total landing views, overall landing rate. Beside it a ranking of the lowest landing rates, and at the bottom a table saying which quadrant each landing page falls in and the recommended action."
+      },
+      "click-to-lpv-funnel": {
+        "title": "Click-to-landing drop-off funnel",
+        "hint": "Funnel Clicks → Landing → 15s → 50% scroll",
+        "prompt": "I keep feeling that all my clicks leak away. Build a click-to-landing drop-off funnel: clicks → landing page views → stayed longer than 15 seconds → scrolled past half, each stage with count and conversion rate. Put a landing-rate goal card on top with a 75% target. Next to it a bar chart comparing landing rate across the four destination types, and at the bottom a table with landing rate, median load seconds and bounce rate per landing page, flagging landing rate below 55% or load above 3 seconds in red."
+      },
+      "traffic-multisource-compare": {
+        "title": "Cross-source traffic comparison",
+        "hint": "TikTok + Meta + GA · 30 days",
+        "prompt": "Add TikTok Ads clicks and Google Analytics sessions together into one big total-traffic card; then rank CPC with the highest CPC first, so I can tell which groups are buying the best-quality traffic. Below that a line chart overlaying TikTok, Meta and GA to compare the last 30 days, and finally a table with volume and cost per unit for each source."
+      },
+      "cpl-volume-quadrant": {
+        "title": "CPL × lead volume positioning",
+        "hint": "CPL × Lead volume · quadrant · 7 days",
+        "prompt": "CPL went up again this week and the money seems to be going to the wrong place — show me how I should adjust the budget. Ad group level, last 7 days."
+      },
+      "instant-form-daily": {
+        "title": "Instant form leads daily report",
+        "hint": "Leads · CPL · Qualified rate · 7 days",
+        "prompt": "A lead operations board for my TikTok Lead Generation campaigns using instant forms only — leave every other objective out — last 7 days, at ad group level. Four cards on top: spend, leads, cost per result and CTR against the previous period. Then a daily line of clicks and leads; leads by ad group; the ad-group table with spend, leads and cost per result; and a heatmap of leads by ad group and day. My goal this month is 1,500 leads."
+      },
+      "form-submit-funnel": {
+        "title": "Form submission funnel diagnosis",
+        "hint": "CPL target $3 · ad group level",
+        "prompt": "Lead cost suddenly got more expensive this week — show me where the problem is. My CPL target is under $3.00, mark whether I held it. The last 7 days of data is enough, I need to see down to ad group level, and flag the group that is unusually expensive."
+      },
+      "dm-conversation-daily": {
+        "title": "TikTok messages daily report",
+        "hint": "Conversations · Cost per conversation · 7 days",
+        "prompt": "Turn my TikTok message-objective campaigns into a daily report for the last 7 days: four cards on top for spend, conversations opened, cost per conversation and CTR, all compared with the previous period. In the middle a daily line for clicks and conversations opened. Below that rank the campaigns by cost per conversation, most expensive first, then a per-campaign table with spend, impressions, clicks, CTR, CPC, conversations and cost per conversation. I would also like customer reply rate and first response time, if the source has them."
+      },
+      "sales-app-daily": {
+        "title": "In-app purchase daily report",
+        "hint": "Purchases · Purchase value · ROAS · Cost per purchase · last 7 days",
+        "prompt": "Build a dashboard of in-app purchases for the last 7 days with five KPI cards for purchases, purchase value, ROAS, cost per purchase and spend, each compared with the previous period, two daily line charts of purchases and purchase value, a daily table and a table comparing campaigns."
+      },
+      "web-sales-daily": {
+        "title": "Own-site sales daily report",
+        "hint": "Spend · Revenue · ROAS · Purchases · this month",
+        "prompt": "Show me a dashboard of this month's website ads: six KPI cards on top for spend, revenue, ROAS, purchases, CPA and conversion rate, each compared with the previous period; below them a daily line chart of spend and revenue trend; beside it a pie chart of revenue share per campaign; at the bottom a table per campaign with spend, impressions, clicks, purchases, revenue, ROAS and CPA, flagging campaigns whose ROAS is below 2 or whose CPA is above $22."
+      },
+      "gmv-max-daily": {
+        "title": "GMV Max sales daily report",
+        "hint": "GMV · Orders · AOV · ROAS · 7 days",
+        "prompt": "Build a GMV Max sales report for the last 7 days. Show KPIs for spend, impressions, clicks, orders, GMV, ROAS, AOV and CTR, each compared with the previous period. Chart the daily trend of GMV, spend and ROAS; show GMV share by campaign and orders by ad group; surface the top selling creatives; and finish with a per-campaign table of spend, impressions, clicks, CTR, orders, GMV, AOV and ROAS, flagging the campaigns whose ROAS is below the account average."
+      },
+      "checkout-funnel": {
+        "title": "Add-to-cart & checkout funnel diagnosis",
+        "hint": "Funnel Add to cart → Checkout → Purchase",
+        "prompt": "I want to know which stage the money leaks at. Build a checkout funnel dashboard: from landing page clicks, content views, add to cart, checkout initiated through to purchase completed, each stage showing people and the conversion rate \"vs the previous stage\" — do not use total clicks as the denominator for every stage. On top put add-to-cart count and checkout-initiated count, plus a goal gauge for a 40% checkout completion rate. On the right a bar chart comparing add-to-cart rate and checkout completion rate per ad group, and finally a table with the detail."
+      },
+      "live-warroom": {
+        "title": "LIVE real-time war room",
+        "hint": "Live now · Concurrent viewers · Peak viewers",
+        "prompt": "I'm live right now — open me a LIVE war room: a red-dot LIVE status bar on top with the start time and how long I have been live; under it four cards for session viewers, current concurrent viewers, peak concurrent viewers and average watch time per viewer; in the middle a 5-minute concurrent-viewer line with new entrants per slot overlaid, next to it a traffic-source pie chart, and at the bottom a detail table per 5-minute slot, flagging any slot where concurrent viewers dropped more than 10% from the previous one, refreshing once a minute."
+      },
+      "app-install-daily": {
+        "title": "Install acquisition daily report",
+        "hint": "Installs · CPI · Clicks · this month",
+        "prompt": "Show me a dashboard of this month's TikTok mobile-game install campaigns, one I can check daily: four cards on top for installs, CPI, clicks and spend, each compared with the previous period; below them a daily line chart of clicks and installs; beside it a pie chart of install share per campaign; and at the bottom a table of install detail per campaign with spend, impressions, CPM, clicks, CTR, CPC, installs, click-to-install rate and CPI, flagging CPI above $2.50 in red to remind me."
+      },
+      "retargeting-daily": {
+        "title": "Retargeting daily report",
+        "hint": "App retargeting · 14 days",
+        "prompt": "Give me the last 14 days of my TikTok app retargeting: four cards on top for spend, results, cost per result and ROAS, each compared with the previous period; below them a daily line chart of spend and ROAS; a quadrant of results against ROAS per campaign; a ranking of the biggest-spending campaigns; a pie chart of spend share per campaign; and at the bottom a table per campaign with spend, revenue, results, cost per result and ROAS."
+      },
+      "holdout-incrementality": {
+        "title": "Holdout incrementality analysis",
+        "hint": "10% holdout · Incremental ROAS · lift",
+        "prompt": "Retargeting ROAS is over four times and I don't quite believe it; we kept a 10% holdout control group. Build me an incrementality dashboard: four cards on top for direct ROAS, incremental ROAS, lift and organic-return share; in the middle a grouped bar chart comparing the conversion rate of the exposed group against the control group per audience; next to it an explainer card on how those two ROAS numbers differ; at the bottom a table with people exposed, people in control, control conversions, both conversion rates, the confidence interval and p-value of the lift, incremental orders and incremental ROAS — I want to know when incremental ROAS falls below 1."
+      },
+      "skan-latency-monitor": {
+        "title": "SKAN postback delay monitor",
+        "hint": "SKAN · Postback delay · iOS ROAS",
+        "prompt": "Keep an eye on SKAN postbacks for me: a gauge showing postback completeness, two cards for events not yet returned and events masked by the privacy threshold, a pie chart of how the postback delay is distributed across hours, a table on the right listing each iOS ad group's currently reported figure, its estimated final figure and how far current ROAS is from the matured estimate, and finally a note reminding me not to conclude anything today. Also split SKAN postbacks by age group and gender, and list iOS ROAS per creative."
+      },
+      "reach-quality-distribution": {
+        "title": "Frequency & reach quality distribution",
+        "hint": "Frequency · CPM · Frequency health · 7 days",
+        "prompt": "Build me a \"frequency health\" dashboard: a funnel chart showing reach stepping down across the 1+ / 2+ / 3+ / 5+ tiers, next to it a bar chart comparing average frequency and CPM per ad group, a goal card on top with the target of keeping average frequency under 3, and at the bottom a ranking of the ad groups whose frequency has run too high."
+      },
+      "reach-creative-wall": {
+        "title": "Placement & brand-coverage content wall",
+        "hint": "Content wall · Reach · Decay · 14 days",
+        "prompt": "Build me a content wall: a row of 6 vertical (9:16) content cards showing the 6 videos with the highest reach, each with a reach badge and the content name, below it a reach ranking per content, plus a \"content freshness\" table showing days live, frequency and the decay of each video, flagging decay above 30% in red."
+      },
+      "video-engagement-quadrant": {
+        "title": "Watch-time × engagement quadrant",
+        "hint": "Watch time × Engagement · quadrant",
+        "prompt": "I want to know which videos are worth more budget. Look at my recent video performance — how long people watch on average, whether they like, comment and share, which videos both hold attention and earn engagement, and which ones I should pull. Ask me which chart to use first, I'm not sure which shows it clearest."
+      },
+      "video-hourly-monitor": {
+        "title": "Hourly video views monitor",
+        "hint": "Hourly · Views · 2s · 6s · today",
+        "prompt": "Open a real-time video-views monitor for today: a live bar on top, then four cards for views, 2-second plays, 6-second plays and cost per 2-second play so far today. In the middle a two-hourly line chart of views and 2-second plays, next to it a goal card for 6-second views with today's target of 250k. Add a bar chart of completion rate by age group, and at the bottom a table of the last six time slots, flagging a clear drop in 2-second rate in red."
+      },
+      "community-daily": {
+        "title": "Community interaction daily report",
+        "hint": "Followers · Page views · Engagement · 7 days",
+        "prompt": "Build me a community-interaction daily report for the last 7 days: four cards on top for followers gained, net follower growth, page views and cost per paid follower, all compared with last week. While you're at it, list the 2,862 accounts that unfollowed this week and the distribution of unfollow reasons — I want to know who left. The line chart in the middle overlays followers gained and net growth by day, so I can see at a glance how much unfollows ate. On the right a pie chart of the engagement mix — likes, comments, shares. At the bottom a table per campaign: optimization goal, followers gained, unfollows, net growth, cost per follower, page views, engagement rate and 7-day cohort retention."
+      },
+      "community-efficiency-matrix": {
+        "title": "Engagement efficiency matrix",
+        "hint": "Page views × Cost/follower · quadrant",
+        "prompt": "Build me an efficiency matrix by ad group, only the follower-optimized groups (page-view optimization is off-scale and squashes the chart): X axis page views, Y axis cost per follower, bubble size spend, and label the four quadrants with whether to scale budget or turn off. Add three cards on top: total spend, page views, cost per paid follower. Next to it the five groups with the lowest cost per follower, and at the bottom a table of all nine groups with their quadrant and landing-page type."
+      },
+      "instant-page-vs-web": {
+        "title": "Instant Page vs external site",
+        "hint": "Instant Page vs Web · Load time · 7 days",
+        "prompt": "Lately the external-site traffic looks off no matter how I slice it — check whether the page is too slow and eating my landing rate. How exactly do the in-app Instant Page and the external site differ, and by how much? Confirm with me which chart types to use first, I don't know what to look at — as long as the numbers reconcile."
+      },
+      "gmv-roi-quadrant": {
+        "title": "ROAS quadrant diagnosis",
+        "hint": "Spend × ROAS · creative · this month",
+        "prompt": "Analyse TikTok Shop ad performance this month to decide which creatives and campaigns to scale, keep watching, optimise or stop. Show KPIs for spend, impressions, clicks, orders, GMV, ROAS, cost per conversion and CVR. Use a quadrant chart plotting spend against ROAS per creative, with bubble size showing GMV; rank campaigns by ROAS; show spend share by campaign; display a representative creative for each decision group; and provide a per-campaign table of spend, impressions, clicks, orders, cost per conversion, GMV and ROAS."
+      },
+      "app-install-video-wall": {
+        "title": "Install-performance video wall",
+        "hint": "Video wall · Installs · CPI · D7 retention",
+        "prompt": "Build me an install video wall: the top 6 videos in a three-column grid, each thumbnail with an install-count and CPI badge; below it a bubble chart for positioning, X axis installs, Y axis D7 retention and bubble size spend, with the four quadrants labeled scale-budget or pull; on the right a ranking of cost per retained user. For the two iOS videos I want to treat the numbers as measured, ranked together with Android on CPI to decide budget up or down."
+      },
+      "traffic-campaign-efficiency": {
+        "title": "Traffic efficiency by campaign",
+        "hint": "Clicks · LPV · CPC · 7 days",
+        "prompt": "Build me a TikTok Ads traffic efficiency dashboard for the last 7 days, from real data, broken down by campaign. If the source only returns per-ad rows, use ads and say plainly in the titles and the table which dimension you actually used. Show KPIs for clicks, landing page views (LPV), CTR, CPC and spend, compared with the previous 7 days where that data exists. Use a bar chart to compare clicks against LPV across campaigns, a ranking of the campaigns with high CPC or high spend but few LPV, and a detail table with campaign, clicks, LPV, CTR, CPC and spend. Finish with which to scale, keep watching, optimize or cut. If there is no breakdown at all, show the totals and say plainly which part is missing; do not invent figures."
+      },
+      "traffic-ad-arrival-quality": {
+        "title": "Creative arrival quality, 30 days",
+        "hint": "Ad grain · Arrival rate · Cost per landing view · 30 days",
+        "prompt": "Build me a TikTok Ads creative arrival-quality dashboard for the last 30 days, from real data, broken down by ad. Only use figures TikTok Ads actually reports: impressions, clicks, landing page views, CTR, CPC and spend. Show KPIs for clicks, landing page views, arrival rate (landing page views divided by clicks) and cost per landing view, and state that the last two are computed from the figures beside them. Draw a funnel from impressions to clicks to landing page views so the two drop-offs are visible, a ranking of ads by arrival rate, and a detail table with ad, impressions, clicks, landing page views, CTR, arrival rate, CPC, cost per landing view and spend. Finish with which creatives to keep funding and which are buying clicks that never arrive. Do not use any web analytics, GA4 or Meta data, do not report dwell time, scroll depth or destination URL, and if a breakdown is missing show the totals and say which part is missing; do not invent figures."
+      },
+      "community-engagement-ranking": {
+        "title": "Engagement ranking by campaign",
+        "hint": "Likes · Comments · Shares · 14 days",
+        "prompt": "Build me a dashboard ranking how much engagement my TikTok ads earned over the last 14 days, from real data, broken down by campaign. If the payload actually comes back per ad, use ads and say which dimension that is. Show totals for likes, comments, shares, video plays and spend; use a bar chart and a ranking to pick out where engagement is highest, where it costs a lot for little, and where there is room to scale. The detail table needs the campaign name, video plays, likes, comments, shares and spend. Do not require creative thumbnails. Finish with what to scale, what creative to rework and which tests to stop."
+      },
+      "community-share-propagation-matrix": {
+        "title": "Community propagation matrix",
+        "hint": "Page views × Shares × Spend · 7 days",
+        "prompt": "Build me a TikTok Ads dashboard for how well traffic turns into sharing over the last 7 days, broken down by campaign; if the source only has per-ad rows, use ads and say which dimension that is. Show KPIs for page views, likes, comments, shares and spend. Use a bubble chart with page views on the X axis, shares on the Y axis and spend as the bubble size; split it into four groups at the medians: high traffic-high sharing, low traffic-high sharing, high traffic-low sharing and low traffic-low sharing. Add a detail table and a ranking of where the most shares came from. Finish with what to scale, keep testing, rework or cut. Do not infer reach, follower retention or organic figures the source does not provide."
+      },
+      "app-install-efficiency-matrix": {
+        "title": "Install efficiency matrix",
+        "hint": "Installs × CPI × Spend · 14 days",
+        "prompt": "Build me a TikTok Ads dashboard for app install efficiency over the last 14 days, from real data, broken down by campaign; if per-ad is the breakdown the source returns, use ads and say so. Show KPIs for installs, CPI, clicks and spend. Use a bubble chart with installs on the X axis, CPI on the Y axis and spend as the bubble size; lower CPI is better. Split it into four zones: many installs-low CPI, few installs-low CPI, many installs-high CPI and few installs-high CPI. Add a CPI ranking and a detail table with campaign, clicks, installs, CPI and spend. Finish with what to scale, keep testing, optimize or pause. Do not ask for an Android/iOS split, D7 retention or MMP data the current source does not provide."
+      },
+      "risk-anomaly-overview": {
+        "title": "Risk & anomaly overview",
+        "hint": "Spend · CPM · CTR · Cost per result · 7 days",
+        "prompt": "Build me a risk review dashboard for my TikTok Ads account over the last 7 days, from real data, broken down by campaign — if the source only returns ad-level rows, use ads and say so. Show KPIs for spend, CPM, CTR, cost per result and results, each with its prior-period value and the change. Plot spend and cost per result as a daily trend line. Add a ranking and a detail table with campaign name, spend, CPM, CTR, cost per result and results, and clearly mark every row whose cost per result rose more than 20% against the prior period. Where there is no prior data, leave the cell blank rather than showing zero. Finish by naming which campaigns I should look at first and why."
+      },
+      "risk-cost-efficiency-alert": {
+        "title": "Cost efficiency alert",
+        "hint": "CPM · CPC · Cost per result · 14 days",
+        "prompt": "Build me a cost efficiency alert dashboard for TikTok Ads over the last 14 days, from real data, broken down by campaign — use ads and say so if that is the dimension the source returns. Show KPIs for CPM, CPC, cost per result and spend with their prior-period values and changes. Use a bubble chart with results on the X axis, cost per result on the Y axis and spend as the bubble size, where a lower cost per result is better. Add a ranking by current cost per result and a detail table with campaign, spend, CPM, CPC, results and cost per result alongside its prior-period value and change. Clearly mark every row that deteriorated by more than 20% against the prior period, on the ranking, the bubble chart and the table alike. Do not assign a severity where prior data is missing. Finish by recommending whether to cut budget, optimise or pause."
+      },
+      "risk-delivery-health": {
+        "title": "Delivery health",
+        "hint": "Spend · Impressions · Results · 7 days",
+        "prompt": "Build me a TikTok Ads delivery health check for the last 7 days, from real data, broken down by campaign. Show KPIs for spend, impressions, results and conversions with their prior-period values and changes. The detail table needs campaign name, operation status and secondary status taken straight from the account data, alongside spend, impressions, results and conversions. Clearly mark campaigns that spent money but recorded no results at all, and campaigns with no impressions despite being enabled. Add a ranking of spend that produced no result. Use only the statuses the data source returns — never infer a status. Finish by naming which campaigns need their delivery checked first."
+      },
+      "risk-creative-fatigue": {
+        "title": "Creative fatigue risk",
+        "hint": "Frequency · CTR · Spend · 14 days",
+        "prompt": "Analyse creative fatigue across my TikTok ads over the last 14 days, from real ad-level data. Show KPIs for frequency, CTR, spend and impressions with their prior-period values and changes. For each ad, give its frequency, how far CTR has fallen against the prior period, the status the data puts it in — new, watch, fatigued or healthy — and a recommendation that follows from that status; never invent a severity. Add a ranking by frequency, a strip of creative thumbnails, and a detail table with ad name, frequency, CTR, CTR change, spend, impressions, status and recommendation. Clearly mark ads whose frequency is past the threshold or whose CTR dropped sharply against the prior period. Finish by recommending whether to rotate the creative, leave it running or pause it."
+      }
+    },
+    "footer": "Cluega AI Agent analyzes based on data. Combine important decisions with business judgment.",
+    "platformEmpty": "No prompt in this category uses that data source. Pick another source, or choose All platforms.",
+    "filterEmpty": "No prompt matches these filters. Clear a filter, or choose All.",
+    "hoverCard": {
+      "notConnected": "Not connected",
+      "description": "Generates dashboards and market analysis from the live data of your authorized ad accounts - continuously updated.",
+      "provenance": "Provided by the Cluega Insights MCP • Default model Auto • Remove with ✕ or Backspace"
+    }
+  },
+  "managedTasks": {
+    "selectPlatformTitle": "Choose your ad platform",
+    "selectTaskTitle": "Choose a managed task",
+    "step1": "Step 1 / 2",
+    "step2": "Step 2 / 2",
+    "footer": "Cluega managed services are executed by a dedicated team plus AI. You can pause, upgrade, or downgrade at any time.",
+    "tasks": {
+      "meta-high-roas-scale": {
+        "title": "Auto-scale high ROAS",
+        "description": "Monitor same-day ROAS and increase budget by 20% when ROAS reaches 250% and conversions meet the target."
+      },
+      "meta-low-ctr-pause": {
+        "title": "Auto-pause low CTR",
+        "description": "Automatically pause and notify when an ad set has ≥ 5,000 impressions but CTR < 0.8%."
+      },
+      "meta-audience-refresh": {
+        "title": "Audience fatigue refresh",
+        "description": "When frequency > 4 and CPM rises > 25%, switch automatically to backup audiences."
+      },
+      "meta-budget-redistribution": {
+        "title": "Automatic budget redistribution",
+        "description": "Redistribute campaign budget daily toward the top 30% ad sets by ROAS."
+      },
+      "tiktok-policy-pause": {
+        "title": "Policy-risk creative pause",
+        "description": "If the same creative is rejected more than twice in 24 hours, automatically remove it to protect the account."
+      },
+      "tiktok-creative-fatigue": {
+        "title": "Creative fatigue rotation",
+        "description": "When CPA rises > 30% for 3 consecutive days, pause the creative and enable backup assets."
+      },
+      "tiktok-live-boost": {
+        "title": "Live-session budget boost",
+        "description": "Increase budget by 50% 30 minutes after a live session starts, then restore it 30 minutes after it ends."
+      },
+      "tiktok-high-cpa-breaker": {
+        "title": "High CPA breaker",
+        "description": "Automatically pause an ad when CPA > $10 and conversions remain 0 for 6 consecutive hours."
+      },
+      "google-negative-keywords": {
+        "title": "Auto-add negative search terms",
+        "description": "Search terms with no conversions and spend > $20 over the last 30 days are added as negative keywords."
+      },
+      "google-keyword-bidding": {
+        "title": "Keyword bid optimization",
+        "description": "Adjust keyword bids automatically by 7-day ROAS, within ±15%."
+      },
+      "google-asset-cleanup": {
+        "title": "Low-performing asset cleanup",
+        "description": "Automatically pause RSA assets marked Low and suggest replacements."
+      },
+      "google-quality-score": {
+        "title": "Quality Score protection",
+        "description": "When keyword QS drops to ≤ 4, lower bids automatically and mark optimization directions."
+      },
+      "ga-conversion-alert": {
+        "title": "Conversion anomaly alert",
+        "description": "Send a Slack alert when today's conversion rate drops > 25% vs. the 7-day average."
+      },
+      "ga-traffic-daily-report": {
+        "title": "Traffic structure daily report",
+        "description": "Automatically generate a Source/Medium structure change report every day at 09:00."
+      },
+      "ga-audience-decay": {
+        "title": "Audience decay alert",
+        "description": "Alert when GA4 audience size drops > 20% over 7 days and suggest condition updates."
+      },
+      "ga-funnel-bottleneck": {
+        "title": "Funnel bottleneck detection",
+        "description": "Automatically identify the largest drop-off stage in the conversion funnel and propose hypotheses."
+      },
+      "gsc-index-alert": {
+        "title": "Indexing anomaly alert",
+        "description": "Alert when new pages appear as Excluded or Discovered - currently not indexed."
+      },
+      "gsc-core-web-vitals": {
+        "title": "Core Web Vitals protection",
+        "description": "Alert when LCP / INP / CLS leaves the green range and list affected pages."
+      },
+      "gsc-keyword-rank": {
+        "title": "Keyword ranking tracking",
+        "description": "Alert when core keywords fall out of the Top 10 and provide competitor comparison."
+      },
+      "gsc-sitemap-sync": {
+        "title": "Sitemap sync check",
+        "description": "Validate sitemap submission status and indexed ratio daily, with alerts for anomalies."
+      }
+    }
+  },
+  "faceDetect": {
+    "title": "Face detection",
+    "description": "Upload an image or paste an image URL, then detect faces with bounding boxes and labels.",
+    "upload": {
+      "button": "Upload image",
+      "hint": "PNG, JPG or WebP",
+      "uploading": "Uploading…"
+    },
+    "url": {
+      "label": "Or paste a public image URL",
+      "placeholder": "https://example.com/photo.jpg"
+    },
+    "detect": "Detect faces",
+    "detecting": "Detecting…",
+    "result": {
+      "title": "Detected faces",
+      "empty": "No faces detected."
+    },
+    "errors": {
+      "badImage": "Could not load that image. Check the URL and try again.",
+      "artifactNotFound": "The uploaded image was not found. Upload it again.",
+      "invalidRequest": "Provide exactly one image: an upload or a URL.",
+      "modelFailed": "The face detection model failed. Try again.",
+      "serviceUnavailable": "Face detection is unavailable right now.",
+      "generic": "Face detection failed. Try again.",
+      "uploadFailed": "Upload failed. Try again.",
+      "imageLoadFailed": "The preview image failed to load; the face list is still shown."
+    }
+  },
+  "faceSwap": {
+    "title": "Face swap",
+    "description": "Upload a photo and a face image, detect the faces, pick which ones to swap, then run the swap.",
+    "target": {
+      "label": "Target photo",
+      "hint": "The photo whose face(s) will be replaced"
+    },
+    "source": {
+      "label": "Face image",
+      "hint": "The face to put into the photo"
+    },
+    "upload": {
+      "button": "Upload image",
+      "uploading": "Uploading…"
+    },
+    "detect": "Detect faces",
+    "detecting": "Detecting…",
+    "swap": "Swap face",
+    "swapping": "Swapping…",
+    "pick": {
+      "title": "Pick the faces to swap",
+      "hint": "Tap a box to pick a face. With nothing picked, the most prominent face is swapped.",
+      "empty": "No faces detected in the target photo.",
+      "count": "{count} face(s) picked."
+    },
+    "result": {
+      "title": "Result"
+    },
+    "errors": {
+      "uploadFailed": "Upload failed. Try again.",
+      "generic": "Face swap failed. Try again."
+    }
+  },
+  "composer": {
+    "placeholder": "Assign a task or ask anything",
+    "attachment": {
+      "addLocalFile": "Add from local files",
+      "addFilesOrPhotos": "Add files or photos",
+      "recordSkill": "Record a skill",
+      "skills": "Skills",
+      "connectors": "Connectors",
+      "addConnector": "Add connector",
+      "manageConnectors": "Manage connectors",
+      "browseConnectors": "Browse connectors",
+      "addCustomConnector": "Add custom connector",
+      "browser": "Browser",
+      "designSystem": "Design system",
+      "plugins": "Plugins",
+      "pluginComingSoon": "Coming soon",
+      "manageDesignSystems": "Manage design systems",
+      "newDesignSystem": "New design system",
+      "designSystemUsingCluega": "Using Cluega",
+      "designSystemUsingCluegaHint": "Upload brand files, pull from design connectors, or describe it",
+      "designSystemFromAdAccounts": "From ad accounts",
+      "designSystemFromAdAccountsHint": "Extract colors, logos & type from connected ad assets",
+      "managePlugins": "Manage plugins",
+      "browsePlugins": "Browse plugins",
+      "useSkill": "Use a skill",
+      "mySkills": "MY SKILLS",
+      "installFromGithub": "Install skill from GitHub",
+      "manageMySkills": "Manage my skills",
+      "scopeVideo": "Video",
+      "scopeImage": "Image",
+      "scopeAll": "Video · Image",
+      "scopeChat": "Chat",
+      "noSkills": "No skills yet",
+      "noMatchingSkills": "No matching skills",
+      "noSkillsEnabled": "No skills enabled",
+      "filter": {
+        "clear": "Clear",
+        "apply": "Apply"
+      },
+      "mediaScope": {
+        "filterLabel": "Filter by lane"
+      },
+      "skillKind": {
+        "filterLabel": "Filter by kind",
+        "agentKinds": "Official and Personal",
+        "agent": "Agent skills",
+        "official": "Official",
+        "personal": "Personal",
+        "strategy": "Strategies"
+      },
+      "addSkills": "Add skills",
+      "addSkillsShort": "Add",
+      "strategies": {
+        "loadError": "Couldn't load your delivery strategies",
+        "retry": "Try again",
+        "empty": "No delivery strategies saved yet",
+        "noMatch": "No matching delivery strategies",
+        "remove": "Remove delivery strategy",
+        "scoped": "Fits this campaign",
+        "scopedEmpty": "None of your strategies fit this campaign type — they're still in Settings › Skills."
+      },
+      "autoSelect": "Auto-pick skills",
+      "autoSelectHint": "AI picks the relevant enabled skills for each prompt",
+      "alwaysApply": "Always apply",
+      "autoPickBadge": "Auto"
+    },
+    "directory": {
+      "title": "Directory",
+      "search": "Search connectors",
+      "filter": "Filter: {value}",
+      "all": "All",
+      "showAll": "Show all",
+      "showLess": "Show less",
+      "add": "Add {name}",
+      "connected": "Connected",
+      "comingSoon": "Coming soon",
+      "empty": "No connectors match",
+      "close": "Close"
+    },
+    "workMode": {
+      "label": "Mode",
+      "chat": "Chat",
+      "cowork": "Cowork"
+    },
+    "integration": {
+      "searchPlaceholder": "Search app authorizations",
+      "authorized": "Authorized",
+      "unauthorized": "Not authorized",
+      "extensionRequired": "Extension required",
+      "myBrowserSwitchLabel": "Enable Browser Agent",
+      "myBrowserCapabilityHint": "Cluega runs web tasks in your browser or on its cloud browser — the AI picks the best fit per task.",
+      "notFound": "No app authorizations found",
+      "addConnector": "Add connector",
+      "myBrowserHintDescription": "Works out of the box on Cluega's cloud browser. Install the extension to also let Cluega work in your own browser.",
+      "myBrowserHintLearnMore": "Learn more",
+      "myBrowserHintInstall": "Install"
+    },
+    "model": {
+      "selectTitle": "Select model",
+      "lockedHint": "Pinned to Auto so the sample prompt's aspect ratio renders as designed. Open the list to pick a model anyway.",
+      "sessionLockedHint": "This conversation runs on one model. Start a new conversation to use a different one.",
+      "generationLockedHint": "The model can't be changed while this dashboard is being generated. It unlocks when the turn finishes, fails or is stopped.",
+      "cost": {
+        "low": "Low cost",
+        "medium": "Medium cost",
+        "high": "High cost"
+      }
+    },
+    "models": {
+      "auto": {
+        "name": "Auto",
+        "description": "Smart matching for everyday tasks"
+      },
+      "cluega-game": {
+        "name": "Cluega Game Model",
+        "description": "Cluega's in-house gaming model for gameplay scripts, ops assets, and UA copy"
+      },
+      "claude-opus-4-7": {
+        "name": "Claude Opus 4.7",
+        "description": "Anthropic flagship model for deep reasoning and long-form content"
+      },
+      "claude-sonnet-4-6": {
+        "name": "Claude Sonnet 4.6",
+        "description": "Balanced speed and quality for most tasks"
+      },
+      "gpt-5": {
+        "name": "GPT-5",
+        "description": "OpenAI flagship model with strong general capabilities"
+      },
+      "gpt-5-mini": {
+        "name": "GPT-5 mini",
+        "description": "Lightweight and fast for real-time interaction"
+      },
+      "gemini-3-flash": {
+        "name": "Gemini 3 Flash",
+        "description": "Balanced and versatile, ideal for most tasks"
+      },
+      "gemini-3-1-pro": {
+        "name": "Gemini 3.1 Pro",
+        "description": "Stronger analysis and generation for complex tasks"
+      },
+      "qwen-3-6-plus": {
+        "name": "Qwen 3.6 Plus",
+        "description": "Stable and versatile for daily workflows"
+      },
+      "deepseek-v3": {
+        "name": "DeepSeek V3",
+        "description": "Cost-effective open model for high-volume processing"
+      },
+      "grok-3": {
+        "name": "Grok 3",
+        "description": "xAI reasoning model with real-time information integration"
+      }
+    },
+    "skills": {
+      "tiktok-ads-generator": {
+        "name": "TikTok Ads Generator",
+        "description": "High-converting TikTok short-video ad scripts and storyboards with platform-native hooks, pain points, and CTAs..."
+      },
+      "meta-creative-matrix": {
+        "name": "Meta Creative Matrix",
+        "description": "Multi-variant Meta ad copy and visual matrix planner for cold, warm, and hot audiences..."
+      },
+      "google-search-optimizer": {
+        "name": "Google Search Optimizer",
+        "description": "RSA expert that generates high-relevance headlines and descriptions while filtering low-intent terms..."
+      },
+      "omni-ad-brief-compiler": {
+        "name": "Omni Ad Brief Compiler",
+        "description": "Turn product features into cross-platform creative briefs for TikTok and Meta production teams..."
+      },
+      "pmax-asset-shaper": {
+        "name": "PMax Asset Shaper",
+        "description": "Performance Max asset group planner covering text, image, and video specs for YouTube, Gmail, and Display..."
+      },
+      "tiktok-trend-aligner": {
+        "name": "TikTok Trend Aligner",
+        "description": "Align brand pain points with trending TikTok sounds, memes, and formats for native-feeling scripts..."
+      },
+      "meta-hook-variant": {
+        "name": "Meta Hook Variant",
+        "description": "Batch generator of Feed and Reels ad hooks using five psychology frameworks to reduce drop-off..."
+      },
+      "cross-channel-copywriter": {
+        "name": "Cross-Channel Copywriter",
+        "description": "One brief adapted into TikTok conversational, Meta story-driven, and Google high-intent copy..."
+      },
+      "ad-audience-persona": {
+        "name": "Ad Audience Persona",
+        "description": "Derive audience motivations and Meta/TikTok targeting tag recommendations from campaign logic..."
+      },
+      "landing-page-aligner": {
+        "name": "Landing Page Aligner",
+        "description": "Review TikTok/Meta creatives against landing page above-the-fold messaging to reduce bounce..."
+      }
+    },
+    "integrationCategories": {
+      "browser": "Browser",
+      "marketing": "Marketing & Ads",
+      "collaboration": "Work & Collaboration",
+      "ecommerce": "E-commerce",
+      "messaging": "Messaging",
+      "crm": "CRM & Sales",
+      "analytics": "Analytics & SEO",
+      "email": "Email Marketing",
+      "content": "Content & Design",
+      "tools": "Marketing Tools"
+    },
+    "screenContext": {
+      "addFolder": "Add local folder",
+      "manageFolders": "Manage folders"
+    },
+    "executionMode": {
+      "selectTitle": "Execution Mode",
+      "auto": {
+        "name": "Auto",
+        "description": "Bypass confirmation gates in workflows"
+      },
+      "plan": {
+        "name": "Plan",
+        "description": "AI reviews and proposes config before executing"
+      },
+      "quant": {
+        "name": "Quant",
+        "description": "Force confirmation checkpoints for safety"
+      }
+    },
+    "autonomy": {
+      "label": "Autonomy",
+      "autopilot": {
+        "name": "Autopilot",
+        "description": "Fully automatic to completion, incl. high-risk actions"
+      },
+      "copilot": {
+        "name": "Copilot",
+        "description": "Automatic; pauses for approval on high risk actions"
+      },
+      "manual": {
+        "name": "Manual",
+        "description": "Approve every key step one by one"
+      }
+    },
+    "recentAsks": {
+      "label": "Try one of these to start",
+      "q1": "Which TikTok ad creative had the worst CPA yesterday?",
+      "q2": "Which ad groups are 30% over target CPA in the last 3 days?",
+      "q3": "Compare ROAS of my top 5 campaigns this week vs last week",
+      "history": {
+        "label": "Based on your recent asks",
+        "q1": "How did the last TikTok Reach campaign perform? Summarize the highlights",
+        "q2": "Compare Meta vs TikTok CPM trends over the past two weeks",
+        "q3": "Which permissions are still missing for the golden test set Excel?"
+      }
+    }
+  },
+  "workflowCatalog": {
+    "tiktok-dm-lead-gen": {
+      "label": "TikTok Lead Generation DM",
+      "description": "Lead generation and DM follow-up for TikTok Ads."
+    },
+    "tiktok-whatsapp-lead-gen": {
+      "label": "TikTok Lead Gen — WhatsApp",
+      "description": "Lead generation via WhatsApp CLICK."
+    }
+  }
+}

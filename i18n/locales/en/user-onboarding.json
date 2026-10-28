@@ -1,0 +1,165 @@
+{
+  "title": "Let's personalize your workspace",
+  "subtitle": "A few quick questions so the assistant works the way you do. This is just for you — your teammates set up their own.",
+  "progress": {
+    "label": "Personalization progress"
+  },
+  "steps": {
+    "you": {
+      "title": "About you",
+      "description": "Tell us who you are so the assistant can tailor its help."
+    },
+    "goals": {
+      "title": "Your goals",
+      "description": "What do you want to get done? This personalizes your assistant."
+    }
+  },
+  "fields": {
+    "role": {
+      "label": "Your role",
+      "customPlaceholder": "Type your role"
+    },
+    "honorific": {
+      "label": "How should Cluega address you?",
+      "hint": "Just the word you like to be called by — change it any time."
+    },
+    "preferredLanguage": {
+      "label": "Preferred language"
+    },
+    "goals": {
+      "label": "What do you want to focus on?"
+    },
+    "customInstructions": {
+      "label": "Anything the assistant should always keep in mind? (optional)",
+      "placeholder": "e.g. Keep replies concise. I mostly run TikTok ads for a beauty brand."
+    }
+  },
+  "options": {
+    "role": {
+      "founder_owner": "Founder / Owner",
+      "marketing_manager": "Marketing Manager",
+      "performance_marketer": "Performance Marketer",
+      "content_creator": "Content Creator",
+      "designer": "Designer",
+      "data_analyst": "Data Analyst",
+      "agency_account": "Agency / Account Manager",
+      "ecommerce_operator": "E-commerce Operator",
+      "sales": "Sales",
+      "other": "Other"
+    },
+    "honorific": {
+      "anh": "Anh",
+      "chi": "Chị",
+      "ban": "Bạn",
+      "name_only": "Just my name"
+    },
+    "goal": {
+      "launch_campaigns": "Launch campaigns",
+      "optimize_performance": "Optimize performance",
+      "create_content": "Create content",
+      "analyze_reporting": "Analyze reporting",
+      "manage_audiences": "Manage audiences",
+      "automate_workflows": "Automate workflows",
+      "learn_platform": "Learn the platform"
+    }
+  },
+  "actions": {
+    "back": "Back",
+    "next": "Continue",
+    "submit": "Continue",
+    "add": "Add"
+  },
+  "errors": {
+    "validation": "Please choose your role to continue.",
+    "submitFailed": "Something went wrong saving your answers. Please try again."
+  },
+  "finishing": {
+    "title": "Personalizing your workspace",
+    "lines": [
+      "Tailoring your assistant to how you work…",
+      "Loading your skills and tools…",
+      "Applying your preferences…",
+      "Setting up your channels…",
+      "Warming up the AI agent…",
+      "Almost ready…"
+    ]
+  },
+  "tour": {
+    "steps": {
+      "composer": {
+        "title": "Start here",
+        "body": "Type what you need — draft an ad, analyze performance, or ask anything. Pick a model and tools right from the composer."
+      },
+      "skills": {
+        "title": "Add skills",
+        "body": "Attach skills to give the assistant extra expertise for a task. Your team's official skills and your own uploads live here."
+      },
+      "sidebar": {
+        "title": "Your conversations",
+        "body": "Every chat is saved here. Jump back into past work or start something new anytime."
+      },
+      "nav-cluega-ai": {
+        "title": "Cluega AI",
+        "body": "The chat workspace, and where you already are. Every conversation is saved, reopens from the sidebar, and can be shared as a read-only link."
+      },
+      "nav-capabilities": {
+        "title": "Capabilities",
+        "body": "Connect the platforms Cluega works on, and deploy assistants into your chat channels. Start here — most other features need a connected account first."
+      },
+      "nav-paid-ads": {
+        "title": "Paid Ads",
+        "body": "Read your connected ad accounts and build campaign structures. Account View shows what is running; Create Plan turns a goal into a plan."
+      },
+      "nav-marketing-reports": {
+        "title": "Marketing Reports",
+        "body": "Live dashboards and saved reports across every connected channel. Describe what you want to know and the board is built around the question."
+      },
+      "nav-community": {
+        "title": "Community",
+        "body": "Reusable prompts, skills, agent templates and service plans. Take something that already works instead of starting from an empty box."
+      },
+      "nav-insights": {
+        "title": "Insights",
+        "body": "A browsable library of market assets and creators, for reference and for ideas before you commit budget."
+      },
+      "nav-knowledge-base": {
+        "title": "Knowledge Base",
+        "body": "The facts about your business that Cluega answers from — pricing, policies, product names, brand rules. Write them once and every later answer is built on them."
+      },
+      "nav-new-project": {
+        "title": "Projects",
+        "body": "A project groups related tasks, and carries its own standing instructions and connected tools. Deleting one never deletes the work inside it."
+      },
+      "nav-settings": {
+        "title": "Settings",
+        "body": "Everything that applies across your work rather than to one task: account, credits and billing, team access, connectors, and scheduled runs."
+      },
+      "integrations": {
+        "title": "Connect your platforms",
+        "body": "This is App Authorization. Connect Meta, Google Ads, TikTok and the rest here — an account has to be connected before Cluega can read its data or act on it. You can come back and add more at any time."
+      },
+      "suggestion-ads": {
+        "title": "Run ads from the chat box",
+        "body": "This shortcut starts the paid-ads flow without leaving the conversation: pick a platform and an account, and Cluega takes it from there."
+      },
+      "account-view": {
+        "title": "Account View",
+        "body": "Everything running on your connected ad accounts in one place — spend, results and the metrics behind them. This is where you find out whether something is working before you change it."
+      },
+      "create-ad-plan": {
+        "title": "Create Ad Plan",
+        "body": "Describe the objective, budget and audience, and Cluega drafts the campaign structure for you to review. Nothing is published until you approve it."
+      },
+      "create-ad-plan-platforms": {
+        "title": "Pick a launch platform",
+        "body": "Each card opens the campaign flow for that platform and shows how many accounts you have authorized on it. Pick one and Cluega walks you through objective, creative and schedule."
+      }
+    },
+    "actions": {
+      "next": "Next",
+      "back": "Back",
+      "last": "Got it",
+      "skip": "Skip tour"
+    }
+  }
+}

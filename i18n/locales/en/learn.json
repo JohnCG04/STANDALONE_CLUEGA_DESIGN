@@ -1,0 +1,646 @@
+{
+  "button": {
+    "label": "Learn",
+    "aria": "Open the step guide",
+    "workflowLabel": "Learn Workflow"
+  },
+  "drawer": {
+    "kicker": "Step guide",
+    "close": "Close",
+    "progress": "Progress",
+    "completed": "Guide completed — nice work!",
+    "start": "Start step guide",
+    "continue": "Continue guide",
+    "restart": "Restart guide",
+    "helpArticle": "Open help article",
+    "remaining": "{count} steps left",
+    "minutes": "about {count} min",
+    "showMe": "Show me",
+    "skip": "Skip the guide",
+    "help": "Help",
+    "readyTitle": "You're all set",
+    "readyBody": "You know your way around — jump in and put Cluega AI to work.",
+    "ctaFallback": "Start working",
+    "review": "Review the {count} steps"
+  },
+  "tour": {
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "close": "Close",
+    "helpLink": "Learn more in Help"
+  },
+  "inline": {
+    "howItWorks": "How it works"
+  },
+  "guides": {
+    "home": {
+      "title": "Chat with Cluega AI",
+      "intro": "Your home base: ask anything about your marketing, attach files and skills, and decide how far Cluega may go on its own.",
+      "completedCta": "Ask your first question",
+      "steps": {
+        "composer": {
+          "title": "Ask Cluega AI anything",
+          "body": "Type a question or task here — analyze performance, draft creatives, plan campaigns. Enter sends, Shift+Enter adds a line."
+        },
+        "skills": {
+          "title": "Add files, skills and tools",
+          "body": "The ＋ menu: add files or photos, then choose the skills, connectors, browser, design system or plugins this task may use."
+        },
+        "model": {
+          "title": "Choose the AI model",
+          "body": "This pill shows the model and the effort in use, for example Auto · Medium. Open it for two rows — Effort, with Off, Low, Medium and High, and Model, which has a searchable list where each entry shows its cost tier. Auto lets Cluega route the turn itself."
+        },
+        "suggestions": {
+          "title": "Start from a ready-made tool",
+          "body": "Each pill opens a different flow. Pick one when you already know the kind of work you want; the next steps walk through them one by one."
+        },
+        "suggestion-ads": {
+          "title": "Run ads",
+          "body": "Choose an ad platform, then an objective, and Cluega prepares or operates the campaign for you. Platforms that are not ready yet show Coming soon instead of being selectable."
+        },
+        "suggestion-image": {
+          "title": "Design",
+          "body": "The creative tool. It opens with tabs for Agent, Video, Image and Avatar; the Image and Video tabs collect the settings for what you want generated. Sample cards fill the composer for you."
+        },
+        "sidebar": {
+          "title": "Navigate your workspace",
+          "body": "Every area of Cluega lives here — New chat, Pulse (Inbox), App Authorization, Paid Ads, Marketing Reports and Library, then your projects and tasks below them."
+        }
+      }
+    },
+    "pulse": {
+      "title": "Pulse Bot",
+      "intro": "Pulse Bot is your workspace of bots and channels: pick one, tell it what to do in plain words, and watch it work on its own computer beside the conversation.",
+      "steps": {
+        "bot-list": {
+          "title": "Your bots and channels",
+          "body": "Everything you can talk to lives in this column — one row per bot or channel, click to open it. A new workspace starts empty, so this is also where your first one appears."
+        },
+        "add-menu": {
+          "title": "Add a bot or a channel",
+          "body": "New bot creates a bot for one platform or job. New Channel is a room where several bots and people work on the same thread."
+        },
+        "composer": {
+          "title": "Tell the bot what to do",
+          "body": "A bot's conversation fills this panel, and you write the task at the bottom of it the way you would say it — attach a file, @mention another bot, or type / to run one of its routines."
+        },
+        "computer-panel": {
+          "title": "Watch its computer",
+          "body": "This toggles the right column, where the bot's own screen, its outputs and its routines are. Open it while a task runs to see each step as it happens."
+        },
+        "plugins": {
+          "title": "Plugins",
+          "body": "Plugins are the tools and connected accounts your bots may use. Add one here and every bot that needs it can reach it."
+        }
+      }
+    },
+    "integrations": {
+      "title": "App Authorization",
+      "intro": "Connect your advertising and data platforms so Cluega AI can analyze accounts and act on your behalf.",
+      "steps": {
+        "my-browser": {
+          "title": "Connect your browser",
+          "body": "Web tasks already run on Cluega's cloud browser. Install the browser extension as well and Cluega can work in your own signed-in browser too; the AI picks whichever fits the task."
+        },
+        "app-catalog": {
+          "title": "Browse available apps",
+          "body": "Platforms are grouped by category — ads, analytics, commerce and more. Connected apps show their status here."
+        },
+        "connect-card": {
+          "title": "Connect an app",
+          "body": "Each card shows one platform. Use Connect to authorize it; once connected, click the card to manage its accounts."
+        }
+      }
+    },
+    "agent": {
+      "title": "Agent",
+      "intro": "Cluega Agent works across your connected platforms on your behalf — replying, optimizing and executing tasks.",
+      "steps": {
+        "hero": {
+          "title": "Meet the Agent",
+          "body": "The Agent runs marketing work for you across channels, using the context of your accounts and knowledge base."
+        },
+        "features": {
+          "title": "What it can do",
+          "body": "Each card is a capability — from auto-replies to campaign optimization. New abilities appear here as they ship."
+        },
+        "start-trial": {
+          "title": "Start a trial",
+          "body": "Pick the platforms you want the Agent on and start a trial from here whenever you're ready."
+        }
+      }
+    },
+    "account-view": {
+      "title": "Paid Ads account view",
+      "intro": "Get a read on your ad accounts in minutes: pick accounts, set the date range, then follow performance from the KPI cards down to the optimization issues.",
+      "steps": {
+        "select-account": {
+          "title": "Choose advertising accounts",
+          "body": "Pick which ad accounts to analyze. Select all of them for a cross-channel view, or narrow down to a single account."
+        },
+        "date-range": {
+          "title": "Set the date range",
+          "body": "Every KPI, chart and comparison on this page follows this range. Compare like-for-like periods when judging performance."
+        },
+        "kpi-cards": {
+          "title": "Read the KPI cards",
+          "body": "Spend, ROAS, Conversions, Conv. rate, Clicks and CTR, each with its change versus the previous period. Choose metrics decides which of them the cards show."
+        },
+        "performance-charts": {
+          "title": "Scan the performance trends",
+          "body": "Mini charts show how each metric moved across the range, so spikes and dips stand out before you dig deeper."
+        },
+        "channel-comparison": {
+          "title": "Compare advertising channels",
+          "body": "Spend, ROAS, conversions, CPA and conversion rate side by side for every channel. Use Go to open a channel's full report."
+        },
+        "tabs": {
+          "title": "Account View or Ad Plan",
+          "body": "Account View reports on what your accounts already spent; Ad Plan is where new plans are drafted."
+        }
+      }
+    },
+    "create-ad-plan": {
+      "title": "Create Plan",
+      "intro": "Plan campaigns per platform and keep every plan you've made in one searchable place.",
+      "steps": {
+        "platform-cards": {
+          "title": "Pick a platform",
+          "body": "Only TikTok can be planned here today — the Meta and Google Ads cards are greyed out and read Coming soon."
+        },
+        "search": {
+          "title": "Find existing plans",
+          "body": "Search your plans by name to jump back into work in progress."
+        },
+        "date-range": {
+          "title": "Filter by date",
+          "body": "Limit the list to plans created in a specific period."
+        },
+        "plans-list": {
+          "title": "Manage your plans",
+          "body": "All plans live here with their status — open one to continue editing or review what the AI proposed."
+        }
+      }
+    },
+    "marketing-dashboard": {
+      "title": "Marketing Dashboard",
+      "intro": "Operational boards built from a template or by chat, filled with real-time data from the platforms you authorized.",
+      "steps": {
+        "my-dashboards": {
+          "title": "Your saved boards",
+          "body": "Every dashboard you created lives in this rail, newest first, with when it last changed and its version. Click one to open it; hover or right-click a row to rename, duplicate or delete it."
+        },
+        "search": {
+          "title": "Find a board",
+          "body": "Filter the rail by name once you have more boards than fit on screen."
+        },
+        "new": {
+          "title": "New blank board",
+          "body": "Creates an empty board and opens it straight away, ready for you to add modules."
+        },
+        "templates": {
+          "title": "Start from a template",
+          "body": "Each ShowCase template is a ready-made board. Pick one and the Agent fills it with real-time data from your authorized platforms."
+        },
+        "template-card": {
+          "title": "What a card tells you",
+          "body": "The source platform sits at the top, then what the board tracks. Badges mark the exceptions: 'High-frequency refresh' updates more often, 'Coming soon' means the connector is not ready yet."
+        },
+        "create-blank": {
+          "title": "Or build it yourself",
+          "body": "Skip the templates and start from an empty board when none of them matches what you want to watch."
+        }
+      }
+    },
+    "dashboard-templates": {
+      "title": "Dashboard templates",
+      "intro": "Ready-made boards grouped by objective. Preview one with sample data, then build it from the platforms you authorized.",
+      "steps": {
+        "tabs": {
+          "title": "Templates and your boards",
+          "body": "Templates holds the ready-made boards. My dashboards lists the boards you built, and Saved keeps the ones you starred."
+        },
+        "search": {
+          "title": "Search templates",
+          "body": "Type a template name or a metric to narrow the gallery. It combines with the objective and platform you pick below."
+        },
+        "categories": {
+          "title": "Pick an objective",
+          "body": "All previews the first four matches of each objective, with the full count beside its name; See all opens the rest. Pick an objective to see every template in it."
+        },
+        "platforms": {
+          "title": "Filter by platform",
+          "body": "Show only the templates that read from one platform. Press the same chip again to clear it."
+        },
+        "view": {
+          "title": "Grid or list",
+          "body": "Grid shows each template's preview. List shows compact rows with the platform and how many modules the board has."
+        },
+        "template-card": {
+          "title": "Open a template",
+          "body": "Click a card to see the full board with sample data and use it from there; its ⋯ menu can also start a dashboard. If no card shows, the message here says why — usually a search or filter to clear."
+        }
+      }
+    },
+    "marketing-reports": {
+      "title": "Marketing Reports",
+      "intro": "The report center: recent reports, your saved ones, templates, and scheduled deliveries — all in one place.",
+      "steps": {
+        "tabs": {
+          "title": "Switch report views",
+          "body": "Move between recent reports, your own, ready-made templates and scheduled runs."
+        },
+        "search": {
+          "title": "Search reports",
+          "body": "Find any report by name instead of scrolling."
+        },
+        "data-source": {
+          "title": "Pick the data source",
+          "body": "Choose which connected accounts feed the report before creating it."
+        }
+      }
+    },
+    "community": {
+      "title": "Community",
+      "intro": "Prompts, skills, managed services and models shared by the Cluega community — ready to use in your workspace.",
+      "steps": {
+        "tabs": {
+          "title": "Explore the categories",
+          "body": "Switch between community prompts, skills, managed offerings and models."
+        },
+        "content": {
+          "title": "Use what you find",
+          "body": "Open any item to see the details and add it to your own workspace."
+        }
+      }
+    },
+    "insights": {
+      "title": "Insights",
+      "intro": "Market and creative intelligence: winning ad assets, trends and recommendations tailored to your accounts.",
+      "steps": {
+        "search": {
+          "title": "Search the market",
+          "body": "Look up brands, products or keywords to find relevant ad assets and insights."
+        },
+        "filters": {
+          "title": "Narrow by market",
+          "body": "Filter by country and label to focus on the markets and segments you sell in."
+        },
+        "tabs": {
+          "title": "Switch insight types",
+          "body": "Each tab is a different lens — recommendations, assets and more."
+        },
+        "platform-filters": {
+          "title": "Focus on a platform",
+          "body": "Limit results to the ad platform you're researching right now."
+        }
+      }
+    },
+    "knowledge": {
+      "title": "Knowledge Base",
+      "intro": "The trusted information Cluega answers from, so it works off your business instead of guessing.",
+      "steps": {
+        "intro": {
+          "title": "What goes in here",
+          "body": "Anything Cluega should be able to answer from: documents, spreadsheets, images, links, or notes you write yourself. Each source is processed into searchable knowledge and shows its own status while that happens."
+        },
+        "add": {
+          "title": "Add knowledge",
+          "body": "One button for everything. Choose files, paste a link, or write text or Markdown — add a single source or several at once, then add them together."
+        }
+      }
+    },
+    "knowledge-base": {
+      "title": "Library",
+      "intro": "The workspace file store: everything you upload and most of what a run produces, filtered by type and analysed so you can find it by meaning.",
+      "steps": {
+        "filters": {
+          "title": "Filter by type",
+          "body": "Seven chips: All, Design, Video, Ad spreadsheet, Files, Products and Scripts. You can also filter by analysis status, or keep only favourites — though favourites are not offered for every type."
+        },
+        "upload": {
+          "title": "Upload files",
+          "body": "Images, video and audio, plus documents and spreadsheets — PDF, Word, Excel, CSV, text and Markdown. Cluega analyses each upload so you can find it by meaning rather than by filename."
+        },
+        "toggle-panel": {
+          "title": "Open the side panel",
+          "body": "The side panel shows the analysis report of whatever you select — insights, transcripts and tags."
+        }
+      }
+    },
+    "flow": {
+      "title": "Workflow projects",
+      "intro": "Visual workflow projects for creative production — organize, search and jump back into any canvas.",
+      "steps": {
+        "toolbar": {
+          "title": "Search and arrange",
+          "body": "Find projects by name, sort them, and switch between grid and list view."
+        },
+        "create-new": {
+          "title": "Create a new project",
+          "body": "Start a fresh workflow canvas from here. Each project keeps its own assets and version history."
+        },
+        "projects": {
+          "title": "Open a project",
+          "body": "Click any project to open its canvas. Use the card menu to rename, duplicate or delete."
+        }
+      }
+    },
+    "flow-home": {
+      "title": "Flow Home",
+      "intro": "The new Home page helps you start from a blank project or a ready technique, then scale it into a reusable creative workflow.",
+      "completedCta": "Create a new project",
+      "steps": {
+        "workspace-switcher": {
+          "title": "Check the current workspace",
+          "body": "The workspace name and member count live at the top of the sidebar. If you belong to multiple workspaces, open this menu before creating or opening a project."
+        },
+        "sidebar-create": {
+          "title": "Create quickly from the sidebar",
+          "body": "Create in the sidebar makes a new project and opens the canvas, whether you are on Home, Projects, or Techniques."
+        },
+        "sidebar-main-nav": {
+          "title": "Move through the main areas",
+          "body": "Home is the starting screen, Projects holds every workflow, Techniques is the technique library, and Usage Analytics tracks usage. Community stays disabled until it is ready."
+        },
+        "sidebar-favorites": {
+          "title": "Track favorites",
+          "body": "Favorites gathers projects you starred. When there are none yet, the sidebar shows the empty state so the list does not look broken."
+        },
+        "sidebar-recent": {
+          "title": "Return to recent projects",
+          "body": "Recent Projects shows workflows you opened or edited most recently, so you can jump back into an unfinished canvas."
+        },
+        "sidebar-workspace": {
+          "title": "Open the full workspace",
+          "body": "All Workspace returns you to the full project list in the current workspace, especially after filtering Favorites or viewing a smaller group."
+        },
+        "sidebar-footer": {
+          "title": "Upgrade, settings, and help",
+          "body": "The footer shows remaining credits, opens Billing for upgrades, and keeps Settings and Help close by."
+        },
+        "create-new": {
+          "title": "Create a new project",
+          "body": "This opens a fresh workflow canvas. Use it when you want to build a creative process from scratch."
+        },
+        "techniques": {
+          "title": "Explore techniques",
+          "body": "This area lists curated workflow techniques. Pick one to create a project with a structure already in place."
+        },
+        "techniques-search": {
+          "title": "Find a technique quickly",
+          "body": "Type a keyword to filter the Home technique list."
+        },
+        "view-all-techniques": {
+          "title": "Open the full library",
+          "body": "This moves to the Techniques page for more categories, results, and techniques that are not shown on Home."
+        },
+        "technique-gallery": {
+          "title": "Use a technique",
+          "body": "Each technique card can create a new workflow project. If no techniques have been published yet, this area shows the empty state."
+        }
+      }
+    },
+    "flow-templates": {
+      "title": "Techniques",
+      "intro": "A library of reusable creative techniques — open one to start a project already wired, instead of building from a blank canvas.",
+      "steps": {
+        "tabs": {
+          "title": "Pick a library",
+          "body": "Community is everything published by Cluega and other makers. Social media pulls in trending videos, Workspace and My Techniques hold your team's and your own, and Favorites keeps the ones you starred."
+        },
+        "search": {
+          "title": "Search techniques",
+          "body": "Type to narrow Community by name, description or author. It filters the topics already loaded, so an empty result is a real result, not an error."
+        },
+        "gallery": {
+          "title": "Use a technique",
+          "body": "Featured rows sit on top, the rest are grouped by topic below. Each card is a finished workflow — opening one creates a project from it, already connected, so you edit instead of starting from nothing."
+        }
+      }
+    },
+    "workflow-canvas": {
+      "title": "Workflow canvas",
+      "intro": "The canvas is where you build: connect nodes for images, video and text, then run the flow to produce creatives.",
+      "steps": {
+        "project-header": {
+          "title": "Name and save the workflow",
+          "body": "The title, autosave status and project menu live here, so you always know which workflow you are editing."
+        },
+        "nodes-rail": {
+          "title": "Add workflow nodes",
+          "body": "The + button opens the node palette — image, video, text and utility blocks. Pick one and it lands on the canvas."
+        },
+        "assets-rail": {
+          "title": "Use your assets",
+          "body": "Open Assets to bring uploaded media and previous creations into this workflow."
+        },
+        "canvas": {
+          "title": "Build on the canvas",
+          "body": "Drag nodes from the rail, connect them into a flow, and run it. Double-click a node to edit its settings."
+        },
+        "tools": {
+          "title": "Pick a tool, undo a change",
+          "body": "Switch between the select and pan tools here, and step back or forward through what you just changed."
+        },
+        "flow-toolbar": {
+          "title": "Fit and tidy the flow",
+          "body": "Fit the whole graph back into view, or let the editor lay the nodes out for you as the workflow grows."
+        },
+        "policy": {
+          "title": "Check content policy",
+          "body": "Review the content rules your generated creatives must follow before publishing anywhere."
+        },
+        "shortcuts": {
+          "title": "Learn the keyboard shortcuts",
+          "body": "Open the shortcut sheet for selecting, duplicating, zooming and panning without leaving the canvas."
+        },
+        "runs": {
+          "title": "Follow your runs",
+          "body": "The runs dock lists every generation this project started, with its progress, and jumps you back to the node that made it."
+        },
+        "share": {
+          "title": "Share and manage access",
+          "body": "Share the workflow with collaborators, then use the profile menu for account and workspace settings."
+        }
+      }
+    },
+    "account-view-ad-plan": {
+      "title": "Ad Plan",
+      "intro": "Draft a campaign plan — budget, schedule and review status — before anything goes live.",
+      "steps": {
+        "create-plan": {
+          "title": "Start a new plan",
+          "body": "Give Cluega a budget and a goal; it drafts the plan for you to review."
+        },
+        "plans-table": {
+          "title": "Track every plan",
+          "body": "Budget, run dates and review status for each plan. Open one to see its detail."
+        }
+      }
+    },
+    "marketing-reports-my-reports": {
+      "title": "My reports",
+      "intro": "Everything you created or own, with its type, source and who last opened it.",
+      "steps": {
+        "list": {
+          "title": "Your report list",
+          "body": "Each row is a report you own — click it to open the full report."
+        },
+        "search": {
+          "title": "Find one fast",
+          "body": "Search by name when the list gets long."
+        }
+      }
+    },
+    "marketing-reports-templates": {
+      "title": "Templates",
+      "intro": "Ready-made report layouts, so you start from a structure instead of a blank page.",
+      "steps": {
+        "gallery": {
+          "title": "Pick a starting point",
+          "body": "Each card is a layout with its report type and how often it gets used. Click one to build from it."
+        }
+      }
+    },
+    "marketing-reports-schedule": {
+      "title": "Schedules",
+      "intro": "Reports that run on their own and get delivered to the channels you choose.",
+      "steps": {
+        "table": {
+          "title": "What runs, and when",
+          "body": "Cadence, delivery channels and the next run time for every scheduled report."
+        },
+        "toggle": {
+          "title": "Pause without deleting",
+          "body": "Switch a schedule off to stop delivery; the report and its settings stay put."
+        }
+      }
+    },
+    "community-skills": {
+      "title": "Community skills",
+      "intro": "Packaged abilities you can add to your workspace for Cluega AI to use.",
+      "steps": {
+        "toolbar": {
+          "title": "Find the right skill",
+          "body": "Search by name, or filter to your own skills and the official ones."
+        },
+        "add": {
+          "title": "Bring your own",
+          "body": "Create a skill with Cluega, upload a file or import one from GitHub."
+        }
+      }
+    },
+    "community-managed": {
+      "title": "Fully managed",
+      "intro": "Services run end to end for you, for the work you would rather hand over than operate.",
+      "steps": {
+        "filters": {
+          "title": "Narrow the offering",
+          "body": "Filter by platform and by category to see only what applies to you."
+        },
+        "list": {
+          "title": "What is included",
+          "body": "Each card explains the scope of one service and how to get started with it."
+        }
+      }
+    },
+    "community-models": {
+      "title": "AI model ranking",
+      "intro": "How the available models compare, so you can pick one that fits the task and the budget.",
+      "steps": {
+        "chart": {
+          "title": "Usage over time",
+          "body": "Which models the community is actually running, and how that is shifting."
+        },
+        "ranking": {
+          "title": "The leaderboard",
+          "body": "Ranked by usage, with the week-over-week change next to each model."
+        }
+      }
+    },
+    "insights-creators": {
+      "title": "Creators",
+      "intro": "The same market search pointed at people instead of ads — find creators to partner with.",
+      "steps": {
+        "search": {
+          "title": "Search for creators",
+          "body": "Describe the niche or the audience you are after; results update as you type."
+        },
+        "filters": {
+          "title": "Narrow by market",
+          "body": "Country and category cut the list down to creators who match where you sell."
+        },
+        "grid": {
+          "title": "Open a profile",
+          "body": "Each card shows a creator's reach and recent work. Open one for the full profile."
+        }
+      }
+    },
+    "flow-templates-social": {
+      "title": "Social media trends",
+      "intro": "Trending TikTok ads from the Cluega insight module — browse them, then start a workflow from the one you want to build on.",
+      "steps": {
+        "tabs": {
+          "title": "Switch library shelf",
+          "body": "Community holds curated techniques; this shelf holds live ads. Workspace, My Techniques and Favorites fill up as your team publishes and stars things."
+        },
+        "filters": {
+          "title": "Narrow the ads",
+          "body": "Search by keyword, or filter by industry and region, to reach the ads that look like the market you sell into."
+        },
+        "grid": {
+          "title": "Start from an ad",
+          "body": "Open a card to watch it in full, or use it to create a new workflow project seeded from that video."
+        }
+      }
+    },
+    "flow-insights": {
+      "title": "Insights",
+      "intro": "Trending TikTok ads from the Cluega insight module — browse them, then start a workflow from the one you want to build on.",
+      "steps": {
+        "filters": {
+          "title": "Narrow the ads",
+          "body": "Search by keyword, or filter by industry and region, to reach the ads that look like the market you sell into."
+        },
+        "grid": {
+          "title": "Start from an ad",
+          "body": "Open a card to watch it in full, or use it to create a new workflow project seeded from that video."
+        }
+      }
+    },
+    "flow-templates-empty": {
+      "title": "Your own shelves",
+      "intro": "Workspace, My Techniques and Favorites are yours to fill — they stay empty until something is shared, published or starred.",
+      "steps": {
+        "tabs": {
+          "title": "Switch library shelf",
+          "body": "Community and Social media are ready to browse now. These three shelves are the ones you and your team build up."
+        },
+        "empty": {
+          "title": "What lands here",
+          "body": "The message on this shelf says what it collects and how something gets here. It fills in on its own — nothing to set up."
+        }
+      }
+    },
+    "flow-trends": {
+      "title": "Trend galleries",
+      "intro": "Saved templates grouped by what they produce — video on Video Trends, images on Image Trends. Open one to run it on your own product.",
+      "steps": {
+        "search": {
+          "title": "Search by name",
+          "body": "Type a product or template name to narrow the gallery. Every language a template was authored in is searched, not just the one on screen."
+        },
+        "industry": {
+          "title": "Filter by industry",
+          "body": "Pick one or more markets. A template shows up when it serves any of them, and picking a parent industry also brings in everything under it."
+        },
+        "gallery": {
+          "title": "Start from a trend",
+          "body": "Each card is a saved template. Open one to fill in your own inputs and run it."
+        }
+      }
+    }
+  }
+}

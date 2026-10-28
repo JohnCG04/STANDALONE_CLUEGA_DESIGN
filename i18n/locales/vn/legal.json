@@ -1,0 +1,45 @@
+{
+  "legal": {
+    "footer": {
+      "servicesAgreement": "Thỏa thuận Dịch vụ Cluega",
+      "privacyPolicy": "Chính sách Bảo mật & Phụ lục Xử lý Dữ liệu của Cluega",
+      "cookieSettings": "Cài đặt cookie"
+    },
+    "cookie": {
+      "banner": {
+        "ariaLabel": "Sự đồng ý cookie",
+        "body": "Chúng tôi dùng cookie trên website và sản phẩm này. Cookie thiết yếu giữ bạn đăng nhập và bảo đảm an toàn nền tảng — luôn bật. Nếu bạn đồng ý, chúng tôi còn dùng cookie chức năng để ghi nhớ tuỳ chọn như ngôn ngữ, và cookie phân tích để đo lường cách site được sử dụng. Bấm “Quản lý cookie” để đặt tuỳ chọn, hoặc “Từ chối cookie không thiết yếu” để từ chối. Xem thêm tại [Chính sách Cookie](/legal/cookies).",
+        "acceptAll": "Chấp nhận tất cả",
+        "reject": "Từ chối cookie không thiết yếu",
+        "manage": "Quản lý cookie"
+      },
+      "center": {
+        "brand": "Cluega",
+        "title": "Trung tâm Tùy chọn Cookie",
+        "body": "Khi bạn truy cập website hoặc sử dụng sản phẩm của chúng tôi, chúng tôi lưu cookie trên thiết bị của bạn. Cookie thực sự cần thiết bảo đảm website hoạt động đúng như thiết kế — bạn không thể từ chối nhóm này vì nền tảng cần chúng để vận hành. Nhấn vào từng nhóm bên dưới để tìm hiểu thêm, và dùng công tắc để thay đổi tùy chọn của bạn. Xem thêm tại [Chính sách Cookie](/legal/cookies) của chúng tôi.",
+        "manageTitle": "Quản lý Tùy chọn Đồng ý",
+        "confirm": "Xác nhận lựa chọn của tôi",
+        "close": "Đóng",
+        "expand": "Xem chi tiết",
+        "collapse": "Ẩn chi tiết",
+        "categories": {
+          "necessary": {
+            "name": "Thực sự cần thiết",
+            "status": "Luôn hoạt động",
+            "description": "Giữ bạn ở trạng thái đăng nhập và bảo vệ nền tảng."
+          },
+          "functionality": {
+            "name": "Chức năng",
+            "status": "Bật/tắt",
+            "description": "Ghi nhớ tùy chọn của bạn, chẳng hạn như ngôn ngữ."
+          },
+          "analytics": {
+            "name": "Phân tích",
+            "status": "Cookie phân tích",
+            "description": "Đo lường cách website được sử dụng — những trang nào được xem và người dùng đến từ đâu — để chúng tôi cải thiện. Nạp qua Google Tag Manager, và hoàn toàn không nạp cho tới khi bạn bật mục này. Mặc định tắt."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "careers": {
+    "meta": {
+      "title": "Careers / Open roles | Cluega",
+      "description": "Join Cluega and help build the team defining the next generation of AI marketing. Explore open roles, benefits, and our team culture across regions."
+    },
+    "hero": {
+      "eyebrow": "Careers / Open roles",
+      "title": "We're redefining the future of AI-driven marketing",
+      "subtitle": "Join the core team building the world's first Outcome-as-a-Service advertising intelligence platform.",
+      "cta": "View open roles"
+    },
+    "mission": {
+      "eyebrow": "Our mission",
+      "statement": "Build an AI-native, full-funnel marketing operating system that moves brands from \"paying for tools\" to \"paying for outcomes.\"",
+      "body1": "Cluega AI is the world's first outcome-driven advertising decision platform (AdOS). We're the first to bring the Model Context Protocol (MCP) to marketing, turning insight, creative, delivery, and attribution from tedious manual work into second-by-second automated decisions.",
+      "body2": "Rooted in R&D out of Ho Chi Minh City, Vietnam, we're building commercial teams across Southeast Asia, Greater China, Europe, and North America to construct the next generation of global marketing infrastructure.",
+      "stats": {
+        "gmv": { "value": "$800M+", "label": "Target annual ad GMV under management" },
+        "engineers": { "value": "300+", "label": "Engineers at the Ho Chi Minh City tech center" },
+        "regions": { "value": "4 continents", "label": "Regions covered globally" },
+        "experience": { "value": "14 years", "label": "Core team's digital marketing experience" }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Our benefits",
+      "items": {
+        "pay": { "name": "Competitive pay + equity", "description": "A salary structure benchmarked against global AI companies at the same stage; early employees receive substantial equity, with pay set to each local market's benchmark." },
+        "globalVision": { "name": "Global exposure & travel", "description": "Attend the world's top expos — GDC, Gamescom, Affiliate World — and work directly with core brands and media agencies across Europe, the Americas, and APAC." },
+        "growth": { "name": "Fast-track growth", "description": "Outcome-driven, not seniority-driven. At a first-tier company in the AdOS space, your impact is the speed of your growth." },
+        "aiTech": { "name": "Frontier AI environment", "description": "A company-wide MCP-protocol architecture puts you first in line for the most cutting-edge LLM applications in marketing: creative generation, delivery automation, and attribution modeling." },
+        "localCare": { "name": "Localized employee care", "description": "Differentiated benefits by location: a Grade A office + meal allowance in Ho Chi Minh City; flexible remote work + wellness stipend in Europe and the Americas." },
+        "learning": { "name": "A learning organization", "description": "Regular cross-border tech talks and AI-tool training; core innovations like the Dogclaw attribution model are incubated in-house — everyone is encouraged to be a real problem-solver." }
+      }
+    },
+    "roles": {
+      "title": "We're looking for kindred minds around the world",
+      "subtitle": "Join Cluega AI and become a definer, not a follower, in the golden window of the AdOS space.",
+      "tableNote": "Table note: R&D base = primarily Ho Chi Minh City, Vietnam + small local branches; global business / local branches = region-by-region localized sales.",
+      "empty": "No roles match these filters. Try adjusting them.",
+      "allDepartments": "All departments",
+      "allLocations": "All regions",
+      "columns": {
+        "position": "Position",
+        "rdBase": "R&D Base",
+        "globalLocal": "Global Business / Local Branch"
+      },
+      "groups": {
+        "aiProduct": {
+          "title": "AI Product & Strategy",
+          "items": {
+            "aiPm": {
+              "title": "AI Product Manager — AdOS Platform",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Singapore · Hong Kong · New York (remote)"
+            },
+            "marketingStrategist": {
+              "title": "Marketing AI Strategist",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Shanghai · Kuala Lumpur · London (remote)"
+            },
+            "promptEngineer": {
+              "title": "Prompt Engineer / LLM Application Engineer",
+              "rdBase": "Ho Chi Minh City (primary) + small teams across branches",
+              "globalLocal": "Fully remote available"
+            }
+          }
+        },
+        "engineering": {
+          "title": "Engineering",
+          "items": {
+            "backend": {
+              "title": "Backend Engineer — AI Agent Systems",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "London · New York, small local R&D"
+            },
+            "fullstack": {
+              "title": "Fullstack Engineer — Ad Delivery Platform",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Shanghai · Taipei, small local R&D"
+            },
+            "dataEngineer": {
+              "title": "Data Engineer — CDP User Data Platform",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Singapore, small local R&D"
+            },
+            "mcpEngineer": {
+              "title": "MCP Protocol Integration Engineer",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Deployable at any branch"
+            },
+            "complianceEngineer": {
+              "title": "Compliance Engineer — GDPR / Data Security",
+              "rdBase": "Ho Chi Minh City (collaboration)",
+              "globalLocal": "London (required) · New York, local R&D"
+            }
+          }
+        },
+        "dataScience": {
+          "title": "Data Science & Attribution",
+          "items": {
+            "attributionScientist": {
+              "title": "Ad Attribution Scientist — Dogclaw Model",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Hong Kong · New York, remote collaboration"
+            },
+            "mlEngineer": {
+              "title": "Machine Learning Engineer — Marketing Models",
+              "rdBase": "Ho Chi Minh City (primary) + small Toronto team",
+              "globalLocal": "Fully remote available"
+            },
+            "biAnalyst": {
+              "title": "Business Intelligence Analyst",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Shanghai · Taipei · Kuala Lumpur"
+            }
+          }
+        },
+        "business": {
+          "title": "Global Business Development",
+          "items": {
+            "salesDirector": {
+              "title": "Global Sales Director — Europe & Americas",
+              "rdBase": "",
+              "globalLocal": "New York · London (local)"
+            },
+            "accountManager": {
+              "title": "Key Account Manager — Media Agencies",
+              "rdBase": "",
+              "globalLocal": "Kuala Lumpur · Shanghai · London (local)"
+            },
+            "bdManager": {
+              "title": "BD Manager — APAC Brand Direct",
+              "rdBase": "",
+              "globalLocal": "Singapore · Hong Kong · Taipei (local)"
+            },
+            "partnerManager": {
+              "title": "Partner Manager — TikTok MMT",
+              "rdBase": "",
+              "globalLocal": "Ho Chi Minh City · Kuala Lumpur · Shanghai (local)"
+            },
+            "greaterChinaSales": {
+              "title": "Greater China Sales Manager",
+              "rdBase": "",
+              "globalLocal": "Shanghai · Hong Kong (local)"
+            },
+            "naCustomerSuccess": {
+              "title": "North America Customer Success Manager",
+              "rdBase": "",
+              "globalLocal": "New York · Toronto (local)"
+            }
+          }
+        },
+        "creative": {
+          "title": "Creative & Design",
+          "items": {
+            "creativeStrategist": {
+              "title": "AI Creative Strategist",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Taipei · London, remote"
+            },
+            "uxDesigner": {
+              "title": "Brand & UX Designer",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Remote anywhere"
+            }
+          }
+        },
+        "marketing": {
+          "title": "Marketing & Growth",
+          "items": {
+            "cmo": {
+              "title": "Global Head of Marketing / CMO",
+              "rdBase": "Ho Chi Minh City or remote",
+              "globalLocal": "Singapore · New York (preferred)"
+            },
+            "overseasMarketing": {
+              "title": "Overseas Marketing Manager — KOL/KOC Ops",
+              "rdBase": "Ho Chi Minh City (primary)",
+              "globalLocal": "Shanghai · Taipei, remote"
+            },
+            "contentSeo": {
+              "title": "Europe & Americas Content Marketing & SEO",
+              "rdBase": "",
+              "globalLocal": "London · New York, local"
+            },
+            "greaterChinaContent": {
+              "title": "Greater China Content Marketing",
+              "rdBase": "",
+              "globalLocal": "Shanghai · Taipei, local"
+            }
+          }
+        }
+      },
+      "callout": {
+        "title": "Didn't find a matching role?",
+        "description": "Wherever you are, if you care about outcomes, love technology, and think globally, we want to meet you. Tell us who you are.",
+        "cta": "Send us your resume"
+      }
+    },
+    "places": {
+      "hcmc": "Ho Chi Minh City",
+      "kl": "Kuala Lumpur",
+      "sg": "Singapore",
+      "sh": "Shanghai",
+      "hk": "Hong Kong",
+      "tw": "Taipei",
+      "london": "London",
+      "berlin": "Berlin",
+      "nyc": "New York",
+      "la": "Los Angeles",
+      "toronto": "Toronto",
+      "remote": "Remote"
+    },
+    "global": {
+      "title": "Our roots are in Asia, our stage is the world",
+      "subtitle": "Whether you're in Ho Chi Minh City, Shanghai, London, or New York, you work under one mission — redefining how global brands make advertising decisions with AI.",
+      "stats": {
+        "engineers": { "value": "300+", "label": "Ho Chi Minh City core tech center" },
+        "offices": { "value": "4 continents, 9 cities", "label": "Global office footprint" },
+        "customers": { "value": "100+", "label": "Core global brand clients served" },
+        "experience": { "value": "14 years", "label": "Core team's industry experience" }
+      },
+      "photosAlt": "The Cluega team",
+      "locationsEyebrow": "Our locations",
+      "locationsTitle": "Rooted in Asia, strategic worldwide",
+      "locationsSubtitle": "Vietnam is our R&D heart and the world is our market stage. We build localized teams across 4 continents, embedding AdOS capabilities into every core advertising market.",
+      "estPrefix": "est.",
+      "locations": {
+        "hcmc": { "name": "Ho Chi Minh City", "role": "Global R&D HQ · Product · AI Engineering · Platform Architecture", "headcount": "300+ core engineers" },
+        "kl": { "name": "Kuala Lumpur", "role": "Business development · Customer success · Local R&D (compliance/integration)", "headcount": "20–40 people" },
+        "sg": { "name": "Singapore", "role": "Regional HQ · Financial/enterprise client relations · Compliance-registered entity", "headcount": "10–20 people" },
+        "sh": { "name": "Shanghai / Hong Kong", "role": "Mainland brand-client BD · Media agency partnerships · Local R&D (China platform integration)", "headcount": "20–40 people" },
+        "tw": { "name": "Taipei", "role": "Creative technology · Content marketing · Global-brand services", "headcount": "10–20 people" },
+        "london": { "name": "London", "role": "Europe HQ · Media agency BD · Local R&D (GDPR compliance)", "headcount": "20–30 people" },
+        "berlin": { "name": "Berlin", "role": "Gaming/e-commerce client development · Gamescom event hub", "headcount": "5–15 people" },
+        "nyc": { "name": "New York", "role": "North America HQ · Major direct brands · Media agencies · Local R&D", "headcount": "20–40 people" },
+        "la": { "name": "Los Angeles", "role": "North America HQ · Major direct brands · Media agencies · Local R&D", "headcount": "20–40 people" },
+        "toronto": { "name": "Toronto", "role": "North America spillover market · Tech talent expansion", "headcount": "5–15 people" }
+      }
+    },
+    "values": {
+      "title": "This is how we operate at Cluega",
+      "subtitle": "The core values that guide us across regions and drive global growth.",
+      "items": {
+        "results": { "name": "Outcomes are everything", "description": "We don't charge tool fees; we let brands pay for outcomes. Every decision points to measurable growth, not the completion of a process — no matter which city you work in." },
+        "speed": { "name": "Speed is competitiveness", "description": "Second-by-second automated decisions from insight to delivery are our core promise. In the AdOS space, first movers define the rules — we aim to be a step ahead in every market." },
+        "globalLocal": { "name": "Global thinking, local execution", "description": "Rooted in R&D in Southeast Asia, with Europe, the Americas, and APAC as our market stage. Cross-cultural collaboration is our daily norm — we believe the best answers come from diverse perspectives." }
+      }
+    },
+    "ecosystem": {
+      "title": "Our ecosystem partners",
+      "subtitle": "Advertising channels, commerce data, messaging touchpoints, and frontier AI models connected across the Cluega growth operating system.",
+      "gridLabel": "Cluega ecosystem partner logos"
+    },
+    "cta": {
+      "title": "Ready to build with us?",
+      "subtitle": "Explore our open roles and find your place.",
+      "button": "View open roles"
+    }
+  }
+}

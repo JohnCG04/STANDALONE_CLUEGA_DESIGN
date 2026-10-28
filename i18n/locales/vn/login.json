@@ -1,0 +1,81 @@
+{
+  "login": {
+    "welcomeBack": "Chào mừng trở lại",
+    "title": "Đăng nhập hoặc đăng ký",
+    "subtitle": "Bắt đầu sáng tạo với Cluega",
+    "google": "Tiếp tục với Google",
+    "apple": "Tiếp tục với Apple",
+    "sso": "Tiếp tục với SSO",
+    "or": "Hoặc",
+    "emailLabel": "Email",
+    "passwordLabel": "Mật khẩu",
+    "emailPlaceholder": "Nhập địa chỉ email",
+    "passwordPlaceholder": "Nhập mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "forgotPasswordUnavailable": "Chức năng khôi phục mật khẩu chưa khả dụng",
+    "signIn": "Đăng nhập",
+    "continue": "Tiếp tục",
+    "showPassword": "Hiện mật khẩu",
+    "hidePassword": "Ẩn mật khẩu",
+    "comingSoon": "Coming soon",
+    "registerPrompt": "Chưa có tài khoản?",
+    "register": "Đăng ký",
+    "signingIn": "Đang quay lại ứng dụng...",
+    "signingInWeb": "Đang đăng nhập...",
+    "loading": "Đang tải trang đăng nhập...",
+    "demoHint": "Tài khoản demo: demo@cluega.com / cluega-demo",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách quyền riêng tư",
+    "footerFrom": "from",
+    "chooseOrganization": "Chọn tổ chức",
+    "chooseOrganizationHint": "Chọn tổ chức bạn muốn tiếp tục đăng nhập.",
+    "chooseOrganizationBack": "Dùng tài khoản khác",
+    "errors": {
+      "missingNonce": "Thiếu nonce đăng nhập. Vui lòng mở trang này từ ứng dụng native của Cluega.",
+      "unsupportedPlatform": "Nền tảng client không xác định. Vui lòng đăng nhập bằng ứng dụng Cluega được hỗ trợ.",
+      "platformNotReady": "Nền tảng này chưa được bật. Hiện chỉ hỗ trợ desktop; iOS và Android sẽ ra mắt sau.",
+      "unsupportedFlow": "Luồng đăng nhập này không được hỗ trợ.",
+      "invalidCredentials": "Email hoặc mật khẩu không chính xác. Vui lòng dùng tài khoản do hệ thống tạo.",
+      "loginFailed": "Không thể đăng nhập. Vui lòng xác nhận CDP API và Mid-platform có thể kết nối.",
+      "organizationChallengeExpired": "Lựa chọn tổ chức đã hết hạn. Vui lòng đăng nhập lại.",
+      "googleNotSupported": "Chưa hỗ trợ đăng nhập Google. Vui lòng dùng email và mật khẩu.",
+      "captchaRequired": "Vui lòng hoàn tất xác minh bảo mật trước.",
+      "captchaFailed": "Xác minh bảo mật không thành công. Vui lòng xác minh lại rồi đăng nhập.",
+      "captchaUnavailable": "Không tải được phần xác minh bảo mật. Vui lòng tải lại trang hoặc tắt trình chặn quảng cáo rồi thử lại."
+    }
+  },
+  "setupPassword": {
+    "title": "Tạo mật khẩu",
+    "subtitle": "Kích hoạt tài khoản Cluega để tiếp tục.",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "showPassword": "Hiện mật khẩu",
+    "hidePassword": "Ẩn mật khẩu",
+    "submit": "Tạo mật khẩu",
+    "submitting": "Đang kích hoạt...",
+    "successTitle": "Tài khoản đã được kích hoạt",
+    "successBody": "Mật khẩu đã được thiết lập. Bạn có thể đăng nhập ngay.",
+    "goToLogin": "Đi tới đăng nhập",
+    "openDesktop": "Mở Cluega Desktop",
+    "continue": "Tiếp tục",
+    "errors": {
+      "missingToken": "Thiếu token lời mời.",
+      "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự.",
+      "passwordMismatch": "Hai mật khẩu không khớp.",
+      "invalidToken": "Link lời mời không hợp lệ hoặc đã hết hạn.",
+      "weakPassword": "Mật khẩu quá yếu.",
+      "policyRequired": "Vui lòng đọc và đồng ý tất cả chính sách để tiếp tục.",
+      "unknown": "Không thể kích hoạt lời mời này."
+    },
+    "policies": {
+      "agree": "Tôi đã đọc và đồng ý với",
+      "view": "Xem",
+      "hide": "Ẩn",
+      "types": {
+        "tos": "Điều khoản dịch vụ",
+        "privacy": "Chính sách bảo mật",
+        "generic": "chính sách"
+      }
+    }
+  }
+}

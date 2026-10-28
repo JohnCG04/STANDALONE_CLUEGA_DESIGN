@@ -1,0 +1,213 @@
+{
+  "compareStoreclaw": {
+    "meta": {
+      "title": "Cluega AI vs StoreClaw | Cluega",
+      "description": "StoreClaw 的 AI Agent 停在店內日常；Cluega AI 同樣接管 TikTok Shop／Amazon／Shopify 的店舖運營，並在同一個數據底座上接上 L4 全託管增長引擎。"
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. STORECLAW",
+      "title": "會顧店只是標配，會把店做大才是差異",
+      "subtitle": "StoreClaw 的 AI Agent 停在店內日常——診斷、Listing、SEO、社群內容。Cluega AI 同樣接管 TikTok Shop／Amazon／Shopify 的店舖運營，並在同一個數據底座上接上增長引擎：L4 全託管自主投放、私域歸因、按廣告消耗提成、過程成本全包。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo",
+      "cluegaLabel": "Cluega AI",
+      "storeclawLabel": "StoreClaw",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "StoreClaw vs Cluega AI",
+      "colDimension": "對比維度",
+      "colStoreclaw": "StoreClaw",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "定位差異",
+          "storeclaw": "電商店鋪運營 AI Agent：診斷、Listing 優化、SEO、社群內容（僅店內）",
+          "cluega": "AI 營銷基礎設施：店舖運營內建，再加 L4 全託管自主投放＋私域歸因"
+        },
+        {
+          "dimension": "作用範圍",
+          "storeclaw": "Shopify／Amazon／TikTok Shop／Wix 等店鋪後台（店內）",
+          "cluega": "TikTok Shop／Amazon／Shopify 店舖運營與成交數據＋Meta／Google／TikTok 廣告帳戶＋LINE／Zalo／WhatsApp 私域（店內到店外一體）"
+        },
+        {
+          "dimension": "自主程度",
+          "storeclaw": "低風險任務自動執行；價格、庫存、預算變更需逐項人工批准",
+          "cluega": "AAIGS 分級授權：M0–M5 成熟度＋T0–T3 階梯，數據越成熟 AI 花錢權限越大"
+        },
+        {
+          "dimension": "計費模式",
+          "storeclaw": "積分訂閱 $0–199.9／月，單項任務積分消耗未公開定義",
+          "cluega": "積分透明錨定（1 積分＝$0.001）；全託管按廣告消耗 4%→2.5%→1.5% 提成"
+        },
+        {
+          "dimension": "廣告能力",
+          "storeclaw": "無廣告投放與優化能力",
+          "cluega": "AI 自主管理出價／預算／受眾／開關，素材產出含在提成內"
+        },
+        {
+          "dimension": "歸因能力",
+          "storeclaw": "無廣告歸因",
+          "cluega": "私域成交回推廣告：Pixel 看不到的轉化也歸得到"
+        },
+        {
+          "dimension": "目標客戶",
+          "storeclaw": "中小賣家、單人店主",
+          "cluega": "成效型廣告主、品牌增長團隊、代理商"
+        },
+        {
+          "dimension": "最適使用情境",
+          "storeclaw": "店鋪日常維運的自動化省力",
+          "cluega": "店舖運營＋獲客放量一體：AI 顧店，同時規模化、可審計地花錢增長"
+        }
+      ],
+      "footnote": "＊競品資訊整理自其官網與公開第三方資料（2026-07 查核），實際以對方官方公布為準。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "為什麼增長團隊不停在店鋪 Agent，直接選擇 Cluega AI？",
+      "items": [
+        {
+          "title": "店舖運營，Cluega AI 本來就會做——但不止於此",
+          "body": "TikTok Shop／Amazon／Shopify 接入後，Listing 優化、商品與訂單數據、店舖診斷同樣由 Cluega 的 Agent 與 Skill 執行。差別在天花板：Listing 再優化、SEO 再乾淨，上限是既有流量；真正決定增長曲線的是獲客。Cluega 把店舖運營和投放增長放在同一套系統裡，省時間的事照做，放大營收的事接著做。"
+        },
+        {
+          "title": "放權花錢，需要的是風控閘門而非逐項批准",
+          "body": "店鋪 Agent 對高風險動作要求逐項人工批准——動到錢的事尤其如此，規模一大就是批准疲勞。Cluega 用 AAIGS 解這道題：帳戶成熟度 M0–M5 與授權階梯 T0–T3 決定 AI 能自主動用多少預算，新帳戶從低授權起步、隨數據累積放權，激進與失控之間有制度性的閘門。"
+        },
+        {
+          "title": "提成計費：一筆可預期，成本全包",
+          "body": "積分制的痛點是「不知道這個任務要燒多少」。Cluega 全託管只收「廣告消耗 × 提成」一筆（4%→2.5%→1.5%，隨規模遞減）：過程中的 token、圖片、短視頻、優化決策全包，另有 $149／月託管底費與公平用量護欄，小戶大戶都算得清。"
+        },
+        {
+          "title": "私域歸因，接住店鋪看不到的成交",
+          "body": "全球有大量成交不在購物車裡，而在 WhatsApp／LINE／Zalo 的私聊裡。StoreClaw 的世界止於店鋪後台；Cluega 把私域對話的留資與成交回推到廣告來源，廣告到成交的全鏈路第一次算得清。"
+        }
+      ]
+    },
+    "panels": {
+      "accountMaturity": {
+        "title": "Ad Accounts Overview",
+        "stages": ["M0 冷啟動", "M1 學習期", "M2 成長期", "M3 優化期", "M4 規模化", "M5 飛輪期"]
+      },
+      "agentChat": {
+        "connected": "Sophia 已將 Cluega 連接至 SHOP-2026",
+        "examining": "🔍 正在深度診斷 TikTok 流量與 Facebook 直播抓單轉化率...",
+        "worked": "深度診斷完成，耗時 7 秒",
+        "pushed": "🚀 執行跨渠道日常營運：",
+        "change1Label": "TikTok_Shop_Batch",
+        "change1Body": "批量替換高轉化直播主圖，並自動更新上下架",
+        "change2Label": "Social_Media_Push",
+        "change2Body": "自動生成印尼/越南熱搜詞貼文，準備群發至 FB 粉專、Zalo 與 LINE",
+        "inventory": "庫存水位：14 款爆品週轉天數 < 3 天",
+        "output": "產出：東南亞爆款營運文案與素材包.zip",
+        "placeholder": "指派任務或提出任何問題…"
+      },
+      "mmtStatus": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "創建時間",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "事件總數",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "成交平均成本",
+        "legend": "全部"
+      },
+      "radar": {
+        "labelBrand": "品牌",
+        "brandValue": "品牌 Alpha",
+        "labelChange": "變化",
+        "changeValue": "+28%",
+        "labelActivity": "動態",
+        "activityValue": "新增 12 條廣告素材",
+        "actionLabel": "生成對標創意",
+        "approvedBy": "已跟進",
+        "resultPill": "已生成對標創意並通知增長團隊"
+      },
+      "thread": {
+        "messages": [
+          { "sender": "Sarah", "time": "1 min ago", "body": "請問這個商品還有折扣嗎？" },
+          { "sender": "Cluega", "time": "1 min ago", "body": "💡已識別買家高意向考慮行為" },
+          {
+            "sender": "Cluega",
+            "time": "Just now",
+            "body": "親愛的 Sarah 您好！看您非常喜歡這款商品，特別為您申請了一張【限定 85 折優惠券】！可以直接點擊下方連結領取。"
+          }
+        ]
+      },
+      "billing": {
+        "steps": ["買家入店諮詢商品", "MMT 識別猶豫意圖", "自動發券促成下單"],
+        "success": "成功轉化：有效付款",
+        "outcome": "Outcome 達成：收費$0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "E-COMMERCE & IM PRIVATE FLYWHEEL",
+      "title": "不只自動化店務，更把「花錢增長」變成可託管的系統",
+      "items": [
+        {
+          "title": "店舖運營內建",
+          "body": "TikTok Shop／Amazon／Shopify 接入，Listing、商品與訂單數據、店舖診斷由 400+ 模型驅動的 Agent 執行。"
+        },
+        {
+          "title": "L4 全託管",
+          "body": "AI 自主投放，按消耗提成、過程成本全包；手動操作的 campaign 以 AD 指紋歸屬排除，不多收。"
+        },
+        {
+          "title": "AAIGS 風控",
+          "body": "帳戶分級（M0–M5）＋授權階梯（T0–T3），每個決策附審計日誌，放權有據。"
+        },
+        {
+          "title": "IM 私域歸因",
+          "body": "私聊成交回推廣告，補上店鋪報表與廣告平台之間的斷層。"
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "我該如何選擇？",
+      "storeclaw": {
+        "label": "選擇 StoreClaw",
+        "body": "你是中小賣家或單人店主，只需要店內日常維運的自動化——庫存提醒、Listing 優化、社群貼文——完全不打算投放廣告，獲客全靠自然流量。"
+      },
+      "cluega": {
+        "label": "選擇 Cluega AI",
+        "body": "你要的是一套系統管到底：店舖運營照顧好，同時讓 AI 可審計地自主投放、素材產能綁進預算、私域成交歸因閉環——收費與你的廣告成效直接掛鉤，而不是為店務和增長各養一個工具。"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "常見問題",
+      "subtitle": "在與我們團隊聯繫之前，您可能想了解的所有細節。",
+      "contact": "聯繫銷售",
+      "items": [
+        {
+          "q": "Cluega AI 也能做 StoreClaw 那些店舖運營的事嗎？",
+          "a": "能。接入 TikTok Shop／Amazon／Shopify 後，Listing 優化、商品與訂單數據同步、店舖診斷等運營工作由 Cluega 的 Agent 與 Skill 執行。差異在架構：Cluega 把店舖數據、廣告帳戶與私域對話放在同一個數據底座上，店務不是孤島，而是歸因與投放決策的一部分。"
+        },
+        {
+          "q": "L4 全託管到底是什麼？",
+          "a": "L4 指 AI 自主投放層級：你把廣告帳戶交給 AI，它自主決策出價、預算、受眾與素材汰換，按 AI 實際管理的廣告消耗分級提成（4%→2.5%→1.5%）。期間所有 token 與素材生成成本全包，你只付一筆。"
+        },
+        {
+          "q": "AI 會不會亂花錢？",
+          "a": "有三道保險：AAIGS 授權階梯讓新帳戶從低權限起步；所有決策附審計日誌可回溯；計費只認 Cluega AD 指紋歸屬的消耗，你手動開的 campaign 不計提成。AI 的花錢權限永遠與帳戶數據成熟度掛鉤。"
+        },
+        {
+          "q": "小團隊、沒有專職投手，起步門檻高嗎？",
+          "a": "不高。$12／週即可試用，$99／月 Pro 起即可開啟全託管（4% 提成、$149／月託管底費）；相比自聘投手或人類 agency 的 10–15% 服務費，是數量級的差距。"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "以 Cluega AI 把增長預算，交給不會累的操盤手。",
+      "ctaStart": "開始試用",
+      "ctaDemo": "預約 Demo"
+    }
+  }
+}

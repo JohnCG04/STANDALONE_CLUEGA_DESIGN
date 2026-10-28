@@ -1,0 +1,489 @@
+{
+  "callIntelligence": {
+    "hero": {
+      "badge": "AI Advertising Agent",
+      "headline": "Complete complex multi-platform ad campaigns with simple instructions.",
+      "description": "Say goodbye to tedious campaign setup. Just tell Cluega AI your campaign keywords, and it will automatically create ads for you across platforms (TikTok, Meta, Google). From recommending ad accounts and audience targeting to budget allocation, everything is handled with ease.",
+      "primaryCta": "Use now",
+      "secondaryCta": "Contact us",
+      "emailLabel": "Your email address",
+      "emailPlaceholder": "Your email address",
+      "demo": {
+        "ariaLabel": "Cluega AI ad account recommendation animation",
+        "userCommand": "Hi, I want to run TikTok direct message ads to get customer leads.",
+        "initialResponse": "Before starting delivery, we need to confirm which ad accounts to use. Would you like me to recommend accounts, or would you prefer to choose from the full list yourself?",
+        "suggestButton": "Recommend ad accounts",
+        "chooseFromListButton": "Choose from account list",
+        "scanResult": "I have scanned the ad accounts under your name. The following accounts had actual spend in the past 7 days and have been pre-selected. Please confirm:",
+        "idLabel": "ID",
+        "confirmButton": "Confirm selection (2)"
+      }
+    },
+    "insights": {
+      "titleMain": "One spoken instruction unlocks unlimited traffic.",
+      "titleMuted": "Every campaign detail and data change across platforms stays fully traceable.",
+      "chapters": {
+        "focus": {
+          "title": "Quickly analyze golden audiences",
+          "description": "Enter audience focus mode. AI automatically identifies your golden audience and stops wasted budget."
+        },
+        "action-plan": {
+          "title": "Launch across platforms in one click",
+          "description": "Synchronize full-channel campaign launches and open a new era of efficient marketing in seconds."
+        },
+        "global-transcript": {
+          "title": "Localize multilingual creatives in one click",
+          "description": "Generate multilingual Hook ad copy in one click and automatically adapt campaigns for global markets, with support for 100+ languages."
+        },
+        "account-dashboard": {
+          "title": "Know the full account picture in one click",
+          "description": "Log in to Cluega and see core advertising metric trends at a glance. It also lists pending issues, avoiding vague optimization advice and instead giving specific, data-backed instructions you can execute with one click.",
+          "visual": {
+            "headerTitle": "Account List",
+            "metrics": {
+              "cost": { "label": "Cost", "value": "$15,632", "delta": "+18%", "caption": "Total spend & growth" },
+              "roas": { "label": "ROAS", "value": "2.35x", "delta": "-12%", "caption": "Return & goal rate" },
+              "conversions": { "label": "Conversions", "value": "650", "delta": "+5%", "caption": "Conversions & rate" }
+            },
+            "chart": { "startDate": "Apr 22", "endDate": "May 22" },
+            "issues": {
+              "title": "Top Issues to Fix",
+              "analyze": "Analyze",
+              "action": "Review and Apply",
+              "items": {
+                "materialFatigue": "Tumbler ad creative fatigue — CTR down 5 days straight...",
+                "budgetImbalance": "Advantage+ Shopping campaign budget allocation is imbalanced...",
+                "landingPage": "Landing page load time is hurting mobile conversions..."
+              }
+            }
+          }
+        }
+      }
+    },
+    "triptych": {
+      "header": {
+        "title": "From one instruction to efficient revenue — all made easy with Cluega.",
+        "description": "Search, adjust, and optimize with precision — let AI handle every ad set for you."
+      },
+      "cards": {
+        "preciseTargeting": {
+          "title": "Precise targeting",
+          "description": "Cluega AI interprets spoken conversations perfectly and automatically turns your ideas into the most precise audience targeting and budget allocation across every platform."
+        },
+        "crossPlatform": {
+          "title": "Seamless cross-platform integration",
+          "description": "Say goodbye to fragmented dashboards! Cluega automatically connects every channel and manages all campaigns and review statuses in one place."
+        },
+        "intuitiveEdits": {
+          "title": "Intuitive edits, second-level sync",
+          "description": "This is more than a data dashboard. Toggle ads and adjust budgets directly in a unified table, with changes synced to every media platform in real time."
+        }
+      }
+    },
+    "integration": {
+      "title": "Real-time sync, zero-friction setup.",
+      "description": "Cluega connects directly to your official Meta Ads, TikTok Ads, and Google Ads marketing accounts."
+    },
+    "templates": {
+      "header": {
+        "title": "Multiple delivery methods.",
+        "description": "Precisely match the growth path best suited to your product."
+      },
+      "tabsLabel": "Delivery methods",
+      "more": "More→",
+      "advantagesLabel": "Cluega delivery advantages:",
+      "cardDescription": "Use Cluega AI to automate setup, review assistance, and delivery pacing.",
+      "tabs": {
+        "productPromotion": {
+          "label": "Product promotion",
+          "title": "Product promotion",
+          "advantages": [
+            "One-click cross-platform deployment",
+            "Intelligent review assistance",
+            "Data hits target, AI fully takes over"
+          ]
+        },
+        "appPromotion": {
+          "label": "App promotion",
+          "title": "App promotion",
+          "advantages": [
+            "Unified one-click app acquisition",
+            "Deep paid-event review optimization",
+            "Two-way event and value custody"
+          ]
+        },
+        "leadCollection": {
+          "label": "Lead collection",
+          "title": "Lead collection",
+          "advantages": [
+            "Private-message ads",
+            "Form ads"
+          ]
+        }
+      }
+    },
+    "allInOne": {
+      "header": {
+        "titleLead": "The advertising brain of the AI era, ",
+        "titleRest": "with full-lifecycle tracking and automated decision-making."
+      },
+      "connect": {
+        "title": "Account Intelligence — starts the moment you authorize",
+        "description": "Whenever you connect an ad account, Cluega automatically analyzes its full history in the background — from conversion volume and cost trends to creative performance and audience saturation. No tedious setup required: once authorization is complete, deep analysis starts running immediately.",
+        "linkLabel": "+ Connect",
+        "tiles": {
+          "tiktok": { "name": "TikTok Ads", "description": "Run and track TikTok ad performance" },
+          "meta": { "name": "Meta", "description": "Manage Facebook and Instagram ads" },
+          "google": { "name": "Google Ads", "description": "Google Search and Display Network campaigns" }
+        }
+      },
+      "accounts": {
+        "title": "Ad Accounts Overview",
+        "rows": {
+          "tiktok": { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Setup" },
+          "meta": { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Cold Start" },
+          "instagram": { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Optimization" },
+          "google": { "name": "Google_HQ_Flagship_Flywheel_Main", "stage": "M5 Flywheel" }
+        }
+      },
+      "maturity": {
+        "title": "Account Maturity Stages (M0–M5) — master the account lifecycle precisely",
+        "description": "Not every account should be run with the same strategy. An account that just launched and one that has been running for two years need completely different strategies. Cluega automatically classifies accounts into six maturity stages, M0–M5 (from cold start to the flywheel phase), filtering out the noise at each stage so it only analyzes the truly critical core metrics for you."
+      },
+      "grading": {
+        "title": "Ad Set Grading (S / A / B / C / D) — instantly know which ad set is worth backing",
+        "description": "Cluega evaluates both data credibility and performance momentum to score every ad set precisely. From S tier (rising star, add budget in one click) to D tier (pause candidate), it helps you put spend where it matters most.",
+        "rows": {
+          "lookalikePurchase": {
+            "name": "AdSet_Lookalike_Purchase_1%",
+            "platform": "TikTok Ads",
+            "date": "May 22"
+          },
+          "broadInterest": {
+            "name": "AdSet_Broad_Interest_Fashion",
+            "platform": "Meta Ads",
+            "date": "May 22"
+          },
+          "retargeting": {
+            "name": "AdSet_Retargeting_VV_30D",
+            "platform": "Google Ads",
+            "date": "May 22"
+          },
+          "sportswear": {
+            "name": "AdSet_Interests_Sportswear",
+            "platform": "Instagram Ads",
+            "date": "May 22"
+          }
+        }
+      },
+      "features": {
+        "mcpReady": {
+          "title": "AI-managed delivery decisions",
+          "description": "Cluega is an ad platform built for AI agents, turning ad analysis into executable instructions in an instant. Turn on managed mode for precise execution with no second round of reasoning."
+        },
+        "burstDetection": {
+          "title": "Never miss a new account's surge",
+          "description": "If a new account bursts into conversions within 24 hours, Cluega instantly starts a 72-hour observation mode: locking budget to avoid misjudgment while monitoring continuously, and the moment it qualifies, promoting it to a \"rising star\" and notifying you."
+        },
+        "fatigueIntelligence": {
+          "title": "Early warning for aging accounts",
+          "description": "Cluega recalculates each ad set's momentum score daily and keeps tracking decline signals. The moment a rating drops to Tier C (decline warning), the system proactively diagnoses the cause and gives concrete optimization directions."
+        },
+        "alwaysCurrent": {
+          "title": "Auto-updated every day",
+          "description": "An ad account's state changes every day. Cluega recalculates the tiering of every account in the early hours each day, so that when your AI or optimizer makes delivery decisions, they always hold the latest, up-to-the-moment status."
+        }
+      }
+    },
+    "finalCta": {
+      "heading": "Say goodbye to tedious multi-platform setup — drive high-performance delivery with a single command.",
+      "demo": "Book a Demo",
+      "start": "Start for free"
+    },
+    "management": {
+      "header": {
+        "title": "Management without effort.",
+        "description": "Every detail after your ads start running stays fully under your control."
+      },
+      "cards": {
+        "planMonitoring": {
+          "title": "Real-time ad plan monitoring",
+          "description": "A global view built for cross-platform custody. The real-time status and review progress of every plan are clear at a glance, with no need to switch platforms."
+        },
+        "accountDashboard": {
+          "title": "Cross-platform account integration and real-time data dashboard",
+          "description": "Switch across your cross-platform promotion accounts from a single entry point at any time, call up core funnel data in real time, and keep the most valuable growth metrics under control."
+        },
+        "manualAdjustments": {
+          "title": "Manual adjustments from an intuitive panel",
+          "description": "Control down to the ad group level. You can pause ads with a one-click toggle at any time, manually edit bids and budgets, and sync changes to major media platforms within milliseconds."
+        },
+        "autoDiagnosis": {
+          "title": "The human–AI campaign command center",
+          "description": "Bring AI actions, team operations, and media data onto a single timeline. Whether GPT adjusts budgets, Claude generates optimization suggestions, or a teammate bids manually, every record is fully tracked — so anyone who takes over instantly grasps the whole picture.",
+          "visual": {
+            "headerTitle": "Cluega Managed Log",
+            "entries": {
+              "budgetPlan": {
+                "action": "planned the ad budget",
+                "text": "Based on the last 7 days of ROAS, suggests lowering the Meta budget by 12% and raising Google by 18%."
+              },
+              "optimization": {
+                "action": "generated optimization suggestions",
+                "text": "For 3 underperforming ad sets, suggests pausing and reallocating budget to high-ROAS ad sets."
+              },
+              "manualBid": {
+                "action": "manually adjusted the bidding strategy",
+                "text": "Raised the cost-per-conversion bid for the “Spring Sale – Conversion” ad set from $8 to $12."
+              }
+            }
+          }
+        }
+      },
+      "quote": "With a single integrated interface, I can not only track ad progress across every platform at any time, but also make manual adjustments directly. This has improved delivery efficiency by more than tenfold!",
+      "quoteAuthor": "Sarah Chen",
+      "quoteTitle": "VP of Digital Marketing"
+    },
+    "quote": {
+      "title": "Advertising workflow testimonial",
+      "content": "Cluega AI completely transformed our campaign workflow. We used to manually adjust bids and swap creatives across three ad dashboards every day. Now AI optimizes everything automatically and saves us 80% of our work time!",
+      "headline": "Yating Lin",
+      "description": "Director of Performance Marketing"
+    },
+    "visuals": {
+      "adPlanTable": {
+        "ariaLabel": "AD plan table preview",
+        "title": "My AD Plans",
+        "createPlan": "Create plan",
+        "view": "View",
+        "headers": {
+          "name": "Plan name",
+          "budget": "Budget",
+          "period": "Delivery time",
+          "status": "Review status",
+          "action": "Action"
+        },
+        "rows": {
+          "springSummer": {
+            "name": "EcoSip Thermos — Spring/Summer Recommendation",
+            "budget": "$180/day",
+            "period": "2026-04-17 ~ 2026-05-31",
+            "status": "Live"
+          },
+          "lookalike": {
+            "name": "EcoSip Thermos — Lookalike 3% Test",
+            "budget": "$80/day",
+            "period": "2026-05-15 ~ 2026-05-29",
+            "status": "In review"
+          },
+          "mothersDay": {
+            "name": "EcoSip Thermos — Mother's Day Limited Offer",
+            "budget": "$120/day",
+            "period": "2026-05-05 ~ 2026-05-12",
+            "status": "Ended"
+          }
+        }
+      },
+      "adPlanDetailCard": {
+        "ariaLabel": "AD plan detail preview",
+        "title": "My AD Plans",
+        "tabDetails": "Details",
+        "fields": {
+          "planName": "Plan name",
+          "budget": "Budget",
+          "period": "Delivery period",
+          "status": "Review status"
+        },
+        "sample": {
+          "planName": "EcoSip Thermos — Spring/Summer Campaign",
+          "budget": "$180/day",
+          "period": "2026-04-17 ~ 2026-05-31",
+          "status": "Delivering"
+        }
+      },
+      "audiencePie": {
+        "slices": {
+          "age18_24": "18–24 yrs",
+          "age25_34": "25–34 yrs",
+          "age35_44": "35–44 yrs",
+          "age45plus": "45+ yrs"
+        }
+      },
+      "transcript": {
+        "tabLabel": "Cluega AI",
+        "messages": {
+          "user": {
+            "sender": "Audrey",
+            "content": "My product is baby bottles"
+          },
+          "ai": {
+            "sender": "Cluega AI",
+            "content": "Based on your product, the system recommends your audience as: women 25–38, budget: $100/day"
+          }
+        }
+      },
+      "adsTable": {
+        "ariaLabel": "Ad toggle table preview",
+        "headers": {
+          "toggle": "On/Off",
+          "name": "Name",
+          "campaignBudget": "Campaign budget"
+        },
+        "statuses": {
+          "enabled": "Enabled",
+          "paused": "Paused"
+        },
+        "rows": {
+          "row1": { "name": "0506-TH-Paid Goal...", "budget": "25 USD" },
+          "row2": { "name": "0421-TH-Paid Goal...", "budget": "47 USD" },
+          "row3": { "name": "0424-TH-Paid Goal...", "budget": "30 USD" },
+          "row4": { "name": "0421-TH-Paid Goal...", "budget": "30 USD" }
+        }
+      },
+      "accountDashboard": {
+        "seriesTitle": "EcoSip double-wall vacuum thermos — Spring/Summer recommendation · Product SKU: ECO-TM-500ML · Target market: UK",
+        "selector": {
+          "emptyTitle": "No account selected",
+          "emptySubtitle": "0 platforms",
+          "selectAll": "Select all"
+        },
+        "metrics": {
+          "spend": "Spend",
+          "roas": "Return on ad spend"
+        },
+        "chart": {
+          "cost": "COST",
+          "roas": "ROAS"
+        },
+        "table": {
+          "headers": {
+            "channel": "Channel",
+            "adSpend": "Ad spend",
+            "roas": "ROAS"
+          }
+        },
+        "channels": {
+          "meta": "Meta Ads",
+          "tiktok": "TikTok Ads"
+        }
+      },
+      "aiDiagnosisRadar": {
+        "ariaLabel": "AI diagnosis radar preview",
+        "diagnosisLine1": "Diagnosed Meta Ads thermos",
+        "diagnosisLine2": "ad creative fatigue, frequency at",
+        "diagnosisLine3": "4.8 causing CPM to rise.",
+        "leftAction": "Pause fatigued ad sets",
+        "rightAction": "Launch two new short-form angles"
+      },
+      "promoCards": {
+        "product": {
+          "multiPlatform": {
+            "title": "One-click cross-platform deployment",
+            "body": "Connect TikTok Shop, Amazon, Shopify, and more. With one command, automatically sync ECO-TM-500ML product assets and specs to generate multi-platform ads — the algorithm takes over bidding.",
+            "footerLabel": "📊 EcoSip data snapshot",
+            "metrics": {
+              "budget": { "label": "Budget:", "value": "$180/day" },
+              "roas": { "label": "ROAS:", "value": "4.21x" },
+              "gmv": { "label": "GMV:", "value": "$12,480" }
+            }
+          },
+          "reviewAssist": {
+            "title": "Intelligent review assistance",
+            "body": "AI automatically pre-checks product hero images and detail page compliance, avoids common e-commerce rejection keywords, shortens average review time by 60%, and speeds up approval.",
+            "footerLabel": "📊 EcoSip data snapshot",
+            "metrics": {
+              "passRate": { "label": "Pre-review pass rate:", "value": "98.4%" }
+            }
+          },
+          "budgetSchedule": {
+            "title": "Data hits target, AI fully takes over",
+            "body": "Once the account data reaches your set goals, activate managed mode—Cluega takes over ad decisions. Increase budget, pause ad groups, rotate creatives—AI executes directly. You set the boundaries, and AI operates autonomously within those boundaries.",
+            "footerLabel": "📊 EcoSip data snapshot",
+            "metrics": {
+              "conversions": { "label": "Conversions:", "value": "1,284" },
+              "cpa": { "label": "CPA:", "value": "$9.72" }
+            }
+          }
+        },
+        "app": {
+          "unifiedAcquisition": {
+            "title": "Unified one-click user acquisition",
+            "body": "Supports app acquisition and re-engagement. One-click sync for download and Deep Linking setup.",
+            "footerLabel": "📊 Local data",
+            "metrics": {
+              "downloads": { "label": "Total downloads:", "value": "8,432" },
+              "installCost": { "label": "Cost per install:", "value": "$1.20" },
+              "ctr": { "label": "CTR:", "value": "3.15%" }
+            }
+          },
+          "reviewOptimization": {
+            "title": "Review optimization",
+            "body": "Pre-checks Deep Linking compliance paths to prevent app takedowns when App Store / Google Play policies change.",
+            "footerLabel": "📊 Local data",
+            "metrics": {
+              "complianceRate": { "label": "Compliance approval rate:", "value": "98%" }
+            }
+          },
+          "eventValueCustody": {
+            "title": "Two-way event and value custody",
+            "body": "AEO (event optimization) / VO (value optimization) dual custody lets the algorithm target high-value whale users with large top-ups and high-weight subscriptions.",
+            "footerLabel": "📊 Local data",
+            "metrics": {
+              "deepPayments": { "label": "Deep payments:", "value": "342" },
+              "roas": { "label": "ROAS:", "value": "5.12x" },
+              "aov": { "label": "AOV:", "value": "$85.00" }
+            }
+          }
+        },
+        "lead": {
+          "dmAds": {
+            "title": "Private-message ads",
+            "body": "Build high-trust one-on-one interactions instantly. Whether through in-platform DMs or handoff to WhatsApp and other messaging tools, sales teams can offer warm, real-time consultation, resolve purchase doubts flexibly, and retain customers as private-domain traffic for long-term remarketing.",
+            "footerLabel": "📊 Local data",
+            "metrics": {
+              "conversations": { "label": "Conversations started:", "value": "1,342" },
+              "conversationCost": { "label": "Cost per conversation:", "value": "$0.89" },
+              "spend": { "label": "Budget spent:", "value": "$1,194.38" },
+              "replyRate": { "label": "Reply rate:", "value": "98.5%" }
+            }
+          },
+          "formAds": {
+            "title": "Form ads",
+            "body": "A minimal, high-efficiency conversion flow. After a tap, a pre-filled form opens in-app — no webpage redirect drop-off. Basic info is auto-filled to remove manual entry, attracting willing leads with low friction. Ideal for standardized products or industries that follow up by phone.",
+            "footerLabel": "📊 Local showcase data",
+            "metrics": {
+              "formSubmissions": { "label": "Forms collected:", "value": "142" },
+              "leadCost": { "label": "Cost per lead:", "value": "$4.20" },
+              "conversionRate": { "label": "Conversion rate:", "value": "12.4%" },
+              "accuracyRate": { "label": "Lead info accuracy estimate:", "value": "94.2%" }
+            }
+          }
+        }
+      },
+      "cluegaLiteCard": {
+        "ariaLabel": "Cluega 1.2 Lite cross-platform delivery chat preview",
+        "appTitle": "Cluega 1.2 Lite",
+        "userCommand": "Hi, I want to run TikTok direct message ads to get customer leads.",
+        "initialResponse": "Before starting delivery, we need to confirm which ad accounts to use.\n\nWould you like me to suggest accounts, or choose from the full list yourself?",
+        "userReply": "Choose from account list",
+        "accountListIntro": "📋 Below are all ad accounts under your name. Please select the accounts to use this time:",
+        "idLabel": "ID",
+        "confirmButton": "Confirm selection (3)",
+        "accounts": {
+          "outdoorLisa": {
+            "name": "OutdoorLisa Official",
+            "id": "7412933288821"
+          },
+          "kirkbadwaik": {
+            "name": "Kirkbadwaik Kirkbadwaik",
+            "id": "act_1379890938736"
+          },
+          "ecoSipUk": {
+            "name": "EcoSip UK Shopping",
+            "id": "924-836-1257"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "about": {
+    "meta": {
+      "title": "About us | Cluega",
+      "description": "Money goes out every day — but who can say which part actually drove the sale? We built Cluega to trace results all the way to where they truly happen."
+    },
+    "hero": {
+      "logoAlt": "Cluega",
+      "headline": "Building the AI infrastructure for global advertising",
+      "subhead": "Money goes out every day — but who can say which part actually drove the sale? It doesn't have to be this way. We built Cluega to trace results all the way to where they truly happen."
+    },
+    "story": {
+      "title": "Our story",
+      "p1": "We've done what you're doing right now. For years, we ran ads for cross-border brands — gaming, finance, e-commerce — across markets spanning Southeast Asia, South America, and Africa. The late nights, the budgets that were never enough, the targets set just a notch too high — we know them all too well.",
+      "p2": "Which is why we're willing to say what few in this industry say out loud: most ad budgets are quietly being discounted. The problem isn't that people aren't skilled — it's that the work has turned into endless manual repetition, running faster and faster on a set of numbers no one fully trusts. The money goes out, and yet almost no one can say with confidence which part of it actually brought in the sale.",
+      "p3": "Platforms grow less transparent every year, the value of manual bid tweaking keeps eroding, and the job gets compressed into a single thing: make more creative, make it faster. Most of the tools that claim to help simply moved the same labour online. Not one of them answers the question clients actually care about — did this money earn back the return it should have?",
+      "p4": "In our markets the gap is even wider. Deals rarely close on a landing page — they close in a WhatsApp message, a Zalo conversation. Most tools stop before they ever get there.",
+      "p5": "Gaming shows the problem most clearly. A player sees an ad, downloads, registers, and days later completes a payment deep inside the game — and lined up along that path are a dozen third-party platforms, each counting that purchase as its own win. But each of them sees only one segment, so the numbers they report are their own account of events, not the whole picture. And the moment that actually matters — when the money changes hands — is one almost none of them can follow.",
+      "p6": "We believe this is exactly what AI is suited for. It has no segment to defend — it can stitch back together the fragments scattered across ads, clicks, in-game events, conversations, and CRM, and restore the real chain of cause and effect: which impression actually turned into revenue. It has no credit to claim; it just completes the stretch of the journey no platform was ever built to see.",
+      "p7": "So we stopped waiting for someone else to build it, and built it ourselves."
+    },
+    "believe": {
+      "title": "What we believe",
+      "intro": "These principles shape how we build our product — and why you can trust the numbers Cluega gives you.",
+      "cards": {
+        "traceResults": {
+          "author": "Mark",
+          "role": "Co-founder & CEO",
+          "date": "Jun 24, 2026",
+          "title": "There's no shortage of noise in this era.",
+          "body": [
+            "Almost everyone has some version of “AI marketing,” and most of them dazzle you for a moment, then change nothing once the real work starts.",
+            "For the past fourteen years I've stood on the side that has to deliver results. That taught me to meet any new technology with just two questions, and set the rest aside for now: what can this era actually do that couldn't be done before? And what is it that users truly want?",
+            "The answer to the second question has never really changed. No marketer actually wants “AI.” They want customers. They want to know which money worked and which was wasted. They want out of the busywork and back to the craft that is genuinely their own.",
+            "What has changed is the answer to the first. For the first time, AI can carry real weight instead of just advising from the sidelines — taking on more of the buying, producing creative, chasing a deal all the way up to the conversation where the money changes hands, and then telling you honestly what actually happened.",
+            "That is why Cluega exists: not to add one more voice to the noise, but to quiet it — with results you can see."
+          ]
+        },
+        "builtByOperators": {
+          "author": "Yoyo Wu",
+          "role": "Co-founder & CFO",
+          "date": "Jun 13, 2026",
+          "title": "What this era hands marketers is a dividend, not a threat.",
+          "body": [
+            "There's so much anxiety out there, and I don't think any of it is necessary.",
+            "Of course, I understand that anxiety. In the years I ran an agency, I had plenty of sleepless nights — today some large model shipped an update, tomorrow it was something else, change coming so fast it left you short of breath.",
+            "What settled me was the grounding I came from: auditing. Auditing teaches you exactly one thing — a number either holds up or it doesn't; there is no middle ground. So when we decided to build Cluega — an idea that had been with me all along — I was clear-eyed about it: once we committed, this would not be a short-term business but a long-term investment that takes time. Just as it was when we founded Mosaic, the point was never to catch every wave, but to read the one direction worth trading years for.",
+            "Marketing has always been complex. In the past, media buyers spent most of their time on manual bid changes and watching dashboards, while what was genuinely scarce was strategy, insight, faster decisions. The significance of large language models isn't that they replace anyone — it's that they release people from the busywork, and turn the media buyer back into a trader. If TikTok changed the way content meets people through interest-based recommendation, then in marketing, large language models change the way a decision gets made: from being capped by the speed of human hands to keeping pace with machines — while the direction stays in human hands throughout.",
+            "This is what Cluega does, too. Across different tasks it dispatches different models — when to reach for the strongest and when for the most economical is the system's call to make; so marketers no longer have to spend attention on “which model,” and can simply scale efficiency and effectiveness together.",
+            "In a world that keeps getting louder, marketing can still become clearer and more composed. That is our answer."
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "The team behind it",
+      "body": "A cross-border team spanning Hong Kong, Shenzhen, and Vietnam, building the operating system for global advertising.",
+      "cta": "Join us",
+      "photoAlt": "The Cluega team"
+    },
+    "members": {
+      "title": "Cluega core members",
+      "subtitle": "We bring together full-chain experts — from high-level strategy and foundational engineering to frontier AI research and global customer success — devoted to turning complex technology into stable, reliable business value."
+    },
+    "hiring": {
+      "title": "Join us",
+      "body": "From pioneering MCP-based AI agent architecture to second-level automated decisions, we're building the next generation of global marketing infrastructure. Join us and create the most challenging work of your career.",
+      "cta": "See open positions"
+    }
+  }
+}

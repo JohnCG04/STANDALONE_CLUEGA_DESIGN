@@ -1,0 +1,274 @@
+{
+  "compareMadgicx": {
+    "meta": {
+      "title": "Cluega AI vs Madgicx | Cluega",
+      "description": "Cluega AI integrates the global TikTok and Meta ad libraries, continuously and automatically detects competitor moves, and generates images and short video directly with 400+ models — and every creative is judged by real private-domain sales."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. MADGICX",
+      "title": "Creative shouldn't just be a variant of an old ad — it should be commercial semantics that sell",
+      "subtitle": "Madgicx gives you a Meta ad library to search and save, producing variants from existing ads and library assets, mostly as static images; Cluega AI integrates the global TikTok and Meta ad libraries, continuously and automatically detects competitor moves, reads the product's selling points, the audience's funnel stage and local context, and generates images and short video directly with 400+ models — and every creative is judged by real private-domain sales.",
+      "ctaStart": "Start free trial",
+      "ctaDemo": "Book a demo",
+      "cluegaLabel": "Cluega AI",
+      "pancakeLabel": "Madgicx",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "Madgicx vs Cluega AI",
+      "colDimension": "Dimension",
+      "colPancake": "Madgicx",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "Positioning",
+          "pancake": "AI optimisation and creative analytics tool for Meta ad accounts",
+          "cluega": "AI marketing infrastructure for brand teams: creative generation, media buying and attribution in one"
+        },
+        {
+          "dimension": "Supported platforms",
+          "pancake": "Buying management on Meta only (FB／IG); Google／TikTok are reporting integrations only",
+          "cluega": "Meta／Google／TikTok buying + TikTok Shop／Amazon／Shopify commerce ecosystem + private-domain IM attribution"
+        },
+        {
+          "dimension": "Creative generation logic",
+          "pancake": "Variant generation based on existing ads, product pages and ad-library assets, mostly static images",
+          "cluega": "Commercial-semantic generation: understands selling points, audience and funnel stage, producing images and short video from scratch"
+        },
+        {
+          "dimension": "Competitor insight",
+          "pancake": "The Meta ad library lets you search advertisers, filter by industry／format and save to a Board — manual browsing research; no automatic continuous monitoring or insight generation, and no TikTok coverage",
+          "cluega": "Integrates the global TikTok／Meta ad libraries, continuously and automatically detecting competitor creatives, narratives and buying moves, with insights feeding straight into the generation flow"
+        },
+        {
+          "dimension": "Available models",
+          "pancake": "In-house AI Ad Generator (a single closed pipeline)",
+          "cluega": "FLUX・Imagen・Midjourney・Kling・Veo・Sora and 400+ more models, with Auto routing"
+        },
+        {
+          "dimension": "Creative validation basis",
+          "pancake": "Historical creative performance labels (Creative Insights on CTR／spend dimensions)",
+          "cluega": "Semantics × attribution: creative maps directly onto private-domain sales data, so you know which selling line actually closes"
+        },
+        {
+          "dimension": "Video capability",
+          "pancake": "Limited; human design service (Sparkle) is a separate subscription",
+          "cluega": "Fully managed includes roughly 3 short videos + 30 images per $1,000 of ad spend, with overage at cost"
+        },
+        {
+          "dimension": "Entry threshold",
+          "pancake": "Pro Complete is tiered by Meta ad spend: from $99／month at the lowest tier up to roughly $329／month at the $20–30K spend tier; quarterly／annual is roughly 20–30% cheaper, and Tracking Pro is a paid add-on",
+          "cluega": "From $12／week to trial; $99／month for Pro; in fully managed mode creative output is included in the revenue share"
+        },
+        {
+          "dimension": "Best fit",
+          "pancake": "Account health checks and creative performance analysis on Meta alone",
+          "cluega": "Brand teams producing multi-platform, multi-language commercial creative at scale, validated by real sales"
+        }
+      ],
+      "footnote": "＊Competitor information is compiled from their official sites and public third-party sources (verified 2026-07); their own official announcements take precedence.",
+      "ctaStart": "Start free trial",
+      "ctaDemo": "Book a demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Why brand teams move from Madgicx to Cluega AI",
+      "items": [
+        {
+          "title": "Commercial semantics, not creative variants",
+          "body": "The ceiling on variant generation is yesterday's creative library. Cluega AI starts from commercial semantics: what this product's core selling point is, which funnel layer this audience sits in, which narrative each market responds to — and only then decides the visuals and the script. What comes out isn't an image that \"looks like a winner\", it's a creative that \"names the pain\"."
+        },
+        {
+          "title": "Being able to look up competitor creative vs. automatically seeing the market turn",
+          "body": "Madgicx's Meta ad library genuinely lets you search advertisers and save the creatives you like — but that's manual browsing: you have to look it up yourself and judge for yourself which narrative is scaling, and you only ever see Meta. Cluega AI integrates the global TikTok and Meta ad libraries and continuously scans the competitors and categories you nominate: new creatives going live, narrative angles shifting, buying intensity rising or falling are all detected automatically into insights that feed straight into commercial-semantic generation — the difference isn't whether there's an ad library, it's whether the insight requires you to sit and watch for it."
+        },
+        {
+          "title": "Whether a creative is good is decided by the sale",
+          "body": "A high-CTR creative doesn't necessarily close. Cluega wires private-domain IM attribution down to creative granularity: which creative brought a conversation that moved to lead capture, order and payment — visible the whole way. For the first time a brand team can iterate creative strategy on \"sales\" rather than \"clicks\"."
+        },
+        {
+          "title": "A complete loop from creative to media buying",
+          "body": "After Madgicx produces a creative, launching, testing and iterating still fall to people. Cluega AI's fully managed L4 (autonomous AI buying tier) joins creative generation, launch, budget allocation and retirement into one line; AAIGS tiering decides how much autonomy the AI has, and performance data flows automatically into the next round of generation."
+        }
+      ]
+    },
+    "panels": {
+      "attribution": {
+        "rows": [
+          {
+            "type": "field",
+            "label": "Ad account ID",
+            "value": "7535737911069753842"
+          },
+          {
+            "type": "field",
+            "label": "Ad name",
+            "value": "0609-DM Ad-EcoSip"
+          },
+          {
+            "type": "field",
+            "label": "Ad ID",
+            "value": "1866940736964473"
+          },
+          {
+            "type": "field",
+            "label": "Creative ID",
+            "value": "1867515992671681"
+          },
+          {
+            "type": "preview",
+            "label": "Creative preview",
+            "brand": "EcoSip",
+            "value": "Insulated bottle promo video"
+          },
+          {
+            "type": "field",
+            "label": "Social account ID",
+            "value": "EcoSip"
+          }
+        ]
+      },
+      "personal": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Created",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Total events",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Avg. cost per conversion",
+        "legend": "All"
+      },
+      "identity": {
+        "keyword": "Phone number",
+        "lead": "High-value lead"
+      },
+      "billing": {
+        "steps": [
+          "Prospect's first product inquiry",
+          "AI identifies pain points, keeps engaging",
+          "AI delivers a tailored solution"
+        ],
+        "success": "Converted: qualified lead",
+        "outcome": "Outcome reached: $0.99 charged"
+      },
+      "monitor": {
+        "threadName": "Cluega",
+        "close": "Close",
+        "source": "Auto monitoring · TikTok / Meta / IG",
+        "when": "Today at 10:11",
+        "active": "Active",
+        "analyzing": "Analyzing"
+      },
+      "creativeTracking": {
+        "header": "Creative performance tracking",
+        "rows": [
+          {
+            "name": "Anti-aging serum_Short video_Pain-point compare",
+            "metric": "Consultations",
+            "value": "128",
+            "unit": ""
+          },
+          {
+            "name": "AM vitamin C／PM retinol_Image post_Ingredient breakdown",
+            "metric": "Orders created",
+            "value": "86",
+            "unit": ""
+          },
+          {
+            "name": "Repair cream_KOL review_Limited bundle",
+            "metric": "Paid conversions",
+            "value": "45",
+            "unit": ""
+          }
+        ]
+      },
+      "hostingLog": {
+        "headerTitle": "Cluega Managed Log",
+        "entries": {
+          "budgetPlan": {
+            "action": "planned the ad budget",
+            "text": "Based on the last 7 days of ROAS, suggests lowering the Meta budget by 12% and raising Google by 18%."
+          },
+          "optimization": {
+            "action": "generated optimization suggestions",
+            "text": "For 3 underperforming ad sets, suggests pausing and reallocating budget to high-ROAS ad sets."
+          },
+          "manualBid": {
+            "action": "manually adjusted the bidding strategy",
+            "text": "Raised the cost-per-conversion bid for the “Spring Sale – Conversion” ad set from $8 to $12."
+          }
+        }
+      }
+    },
+    "highlights": {
+      "eyebrow": "MULTI-CHANNEL AGENTIC SYSTEM",
+      "title": "Not just optimising existing ads — giving brands a closed loop of \"creative → buying → attribution\"",
+      "items": [
+        {
+          "title": "Commercial-semantic engine",
+          "body": "Generation driven by selling points, audience, funnel stage and each market's context; supports multi-language commercial creative and covers global markets."
+        },
+        {
+          "title": "Global competitor insight",
+          "body": "Integrates the TikTok／Meta ad libraries, automatically detects competitor creative and buying moves, and lets insight drive the next round of generation directly."
+        },
+        {
+          "title": "400+ models included",
+          "body": "Mainstream image and video models work out of the box (FLUX・Kling・Veo and more), Auto routing picks the most cost-effective option, and fully managed includes roughly 3 short videos + 30 images per $1,000 of ad spend."
+        },
+        {
+          "title": "Private-domain IM attribution",
+          "body": "Creative performance is traced to the private-domain sales tier — which video brought conversations that actually paid, at a glance; under fully managed L4, creative output is included in the revenue share and iterates automatically."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Which one should I choose?",
+      "pancake": {
+        "label": "Choose Madgicx",
+        "body": "You buy Meta only with budget concentrated on a single platform, what you need is automated account health checks, creative performance analysis, manual creative research in the Meta ad library and fast variants of existing assets, and your team already has stable creative output."
+      },
+      "cluega": {
+        "label": "Choose Cluega AI",
+        "body": "You want to generate multi-platform, multi-language commercial creative at scale, you want creative validated and iterated by real sales data, and you want \"creative capacity\" wired straight into the ad budget instead of hiring another design team."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you might want to know before you reach out to our team.",
+      "contact": "Contact sales",
+      "items": [
+        {
+          "q": "How is commercial-semantic creative different from ordinary AI image generation?",
+          "a": "Ordinary AI image generation answers \"what to draw\"; commercial-semantic creative first answers \"why we sell it this way\" — selling point, audience stage and local context come first, then the model produces the visuals and the script, and afterwards every creative can validate that semantic hypothesis against private-domain sales data."
+        },
+        {
+          "q": "Can we specify which model to use?",
+          "a": "Yes. Auto routing picks the most cost-effective model by default, and you can also pin a specific model (say Veo for video, FLUX for images); credits are deducted back from cost, so pricier models deduct more, and the billing structure stays transparent."
+        },
+        {
+          "q": "How are creative costs calculated?",
+          "a": "Self-serve mode is billed in credits (1 credit＝$0.001); in fully managed mode creative is included in the revenue share — every $1,000 of managed ad spend includes a fair-use allowance of roughly 3 short videos + 30 images, with overage at cost, so day to day you never feel it."
+        },
+        {
+          "q": "How does competitor insight work?",
+          "a": "Cluega AI continuously scans the global TikTok and Meta ad libraries, tracking the competitors and category keywords you nominate: new creatives going live, narrative angles shifting, buying intensity rising or falling are all detected automatically and formed into insights that serve directly as input to the next round of commercial-semantic generation — no one has to sit and mine the library by hand."
+        },
+        {
+          "q": "We already have a design team — how do they fit in?",
+          "a": "The common pattern is to let the design team define brand semantics and layout boundaries while Cluega AI handles production at scale and validation through buying; the best-performing directions then go back to the design team for polish, with people and machines each doing the half they're good at."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "With Cluega AI, every creative takes the field carrying proof that it sells.",
+      "ctaStart": "Start free trial",
+      "ctaDemo": "Book a demo"
+    }
+  }
+}

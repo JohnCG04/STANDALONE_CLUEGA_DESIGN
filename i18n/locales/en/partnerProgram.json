@@ -1,0 +1,224 @@
+{
+  "partnerProgram": {
+    "meta": {
+      "title": "Cluega AI Partner Program | Cluega",
+      "description": "Cluega's global local-partner program. We're recruiting local marketing agencies, software & technology partners, and individual referrers to bring AI ad execution to their markets — together."
+    },
+    "hero": {
+      "pill": "Recruiting local partners worldwide",
+      "title": "Cluega AI Partner Program",
+      "subhead": "We're recruiting local marketing agencies, software & technology partners, and individual referrers to bring AI ad execution to their markets — together.",
+      "applyCta": "Apply to partner",
+      "secondaryCta": "Explore partner types"
+    },
+    "stats": {
+      "items": {
+        "models": { "num": "400+", "label": "models included · Auto-routing" },
+        "billing": { "num": "Dual-track", "label": "Credits + managed commission" },
+        "attribution": { "num": "IM attribution", "label": "e.g. WhatsApp · local moat" },
+        "engine": { "num": "M0–M5 · T0–T3", "label": "AAIGS authorization engine" }
+      }
+    },
+    "about": {
+      "title": "About Cluega AI",
+      "body": "Cluega AI is a marketing app that uses AI to create ad creative and run ad campaigns. You don't design images, cut videos, or babysit dashboards — AI generates the creative (images, videos, copy) and autonomously handles bidding, budget, audience and on/off decisions. It includes 400+ models with Auto-routing, bills on a dual track — credits (self-serve) plus managed commission (performance) — and builds a local moat with IM private-domain attribution (e.g. WhatsApp) and the AAIGS authorization engine (M0–M5 account maturity, T0–T3 authority)."
+    },
+    "why": {
+      "eyebrow": "Why partner with Cluega",
+      "title": "Easier to sell, deliver, and earn",
+      "cards": {
+        "turnkey": {
+          "title": "Turnkey AI ads + creative",
+          "body": "AI designs images, cuts videos, writes copy and runs the campaigns; 400+ models included with Auto-routing, zero setup, no BYO API — while competitors ship a single BYO model, you sell on day one."
+        },
+        "billing": {
+          "title": "Performance-aligned billing",
+          "body": "Credits + managed commission; clients hand accounts to AI and pay on results — an order-of-magnitude discount vs. a human agency."
+        },
+        "moat": {
+          "title": "A local moat",
+          "body": "IM attribution captures conversions platform pixels miss; a compliance-first execution layer built for your local market — a structural edge generic tools can't match."
+        }
+      }
+    },
+    "types": {
+      "title": "Three partner types",
+      "intro": "Whether you're a local agency, a software reseller, or an individual with a network, there's a path that fits.",
+      "cards": {
+        "agency": {
+          "tag": "Solution Partner",
+          "name": "Local Marketing & Media-Buying Agencies",
+          "who": "For: performance agencies, media buyers, e-commerce ad teams",
+          "body": "Use Cluega to let AI auto-generate creative and run ads across many clients, scale delivery with AI, and earn a competitive revenue share."
+        },
+        "tech": {
+          "tag": "Technology Partner",
+          "name": "Software Resellers & Technology Partners",
+          "who": "For: SaaS resellers, software agencies, system integrators, connector builders",
+          "body": "Resell Cluega licenses bundled into your existing product, co-build connectors via custom MCP, and share in custom-Skill / storage projects."
+        },
+        "referral": {
+          "tag": "Referral Partner",
+          "name": "Individual & Referral Partners",
+          "who": "For: consultants, freelancers, KOLs, community leaders",
+          "body": "Refer clients and earn recurring share — no tech team or upfront cost; dedicated links, assets and tracking provided."
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Partner benefits",
+      "title": "Win · Deliver · Grow",
+      "groups": {
+        "win": {
+          "k": "Win",
+          "items": [
+            "Qualified lead flow & co-selling",
+            "Localized sales enablement & messaging",
+            "Market exclusivity available to discuss",
+            "Demo accounts & ROI calculators to close on the spot"
+          ]
+        },
+        "deliver": {
+          "k": "Deliver",
+          "items": [
+            "AI-generated ad creative (images / videos / copy) + fully-managed autonomous ads, process costs bundled",
+            "400+ models included · Auto-routing",
+            "AAIGS engine (governed autonomy + data flywheel)",
+            "Priority support with dedicated Lark / Slack + SLA"
+          ]
+        },
+        "grow": {
+          "k": "Grow",
+          "items": [
+            "Competitive recurring revenue share",
+            "Co-marketing & partner directory listing",
+            "Customer-success resources & CSM support",
+            "High-margin custom-Skill & private-storage projects"
+          ]
+        }
+      }
+    },
+    "model": {
+      "title": "How you earn",
+      "intro": "Three revenue lines, negotiated by role, scale and managed volume. The principle: the deeper the usage and the bigger the managed spend, the more you earn.",
+      "cards": {
+        "subscription": {
+          "h": "Subscription reselling",
+          "nature": "Recurring · negotiated",
+          "body": "Recurring share on the credit-based monthly subscriptions you resell — you keep earning as clients renew."
+        },
+        "managed": {
+          "h": "Managed performance share",
+          "nature": "Scales with spend",
+          "body": "Billed on ad-spend × commission; your share scales with managed volume — still far below a human agency for the client."
+        },
+        "project": {
+          "h": "Project share",
+          "nature": "One-off · high-margin",
+          "body": "One-off share on enterprise custom-Skill builds (buy-out on delivery) and private-storage deployments."
+        }
+      },
+      "note": "Exact tiers aren't published; the full schedule is provided during onboarding after your application."
+    },
+    "eligibility": {
+      "title": "Partner eligibility",
+      "intro": "Meet the criteria below to apply. We value real capability and market fit over size — individual referral partners have the lowest bar.",
+      "cards": {
+        "solution": {
+          "name": "Solution Partner",
+          "req": "A locally registered marketing / media-buying company or team; proven digital-ad experience with active clients (suggested ≥ 3 active ad accounts or steady monthly spend); capacity to serve multiple clients; and completion of Cluega platform certification."
+        },
+        "technology": {
+          "name": "Technology Partner",
+          "req": "Software development or reselling capability with an integrable product or customer base; willingness to integrate via custom MCP connectors / API; and passing Cluega's technical and security review."
+        },
+        "referral": {
+          "name": "Referral Partner",
+          "req": "A client network or influence in your target market (consultants, freelancers, KOLs, community leaders); no technical skills or upfront investment required; agreement to the referral terms and a dedicated tracking link."
+        }
+      },
+      "common": {
+        "label": "Common requirements",
+        "body": "Sign the partnership agreement and comply with local data regulations (PDPL / data residency); assign a dedicated point of contact; and share Cluega's performance-first, compliance-first principles."
+      }
+    },
+    "how": {
+      "title": "How it works",
+      "steps": {
+        "apply": { "name": "Apply", "body": "Submit the application with your market, client base and partner type." },
+        "evaluate": { "name": "Evaluate & enable", "body": "A 30-minute call; we open your sandbox, enablement assets and terms." },
+        "launch": { "name": "Launch", "body": "Onboard first clients; we co-sell and co-deliver alongside you." },
+        "grow": { "name": "Grow", "body": "Your share scales with managed volume; regular reviews to optimize." }
+      }
+    },
+    "fit": {
+      "title": "Who it's for",
+      "items": [
+        "You have local clients & media-buying experience in your own market.",
+        "You serve e-commerce, brands or performance clients and understand the ROAS game.",
+        "You want AI to generate creative and run your ads to scale delivery — without building models or infrastructure.",
+        "You value local compliance & IM private-domain (e.g. WhatsApp) conversions."
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": {
+        "q1": {
+          "q": "Do I need to bring my own models or API?",
+          "a": "No. Cluega includes 400+ models with Auto-routing out of the box; neither you nor your clients bring an API."
+        },
+        "q2": {
+          "q": "Which markets & countries are supported?",
+          "a": "Global. IM attribution and the compliance layer are designed for local markets and can be configured for yours; we keep working with local partners in more countries and open markets progressively — let's talk."
+        },
+        "q3": {
+          "q": "Can I join without a technical team?",
+          "a": "Yes. Individual / referral partners need no technical skills — you refer, we deliver and support."
+        },
+        "q4": {
+          "q": "How is my share calculated?",
+          "a": "Three revenue lines negotiated by role, scale and managed volume; exact tiers are shared during onboarding after your application."
+        },
+        "q5": {
+          "q": "Who owns the clients I bring in?",
+          "a": "Clients you bring in are attributed to you; private ClickHouse deployment and in-region data residency are available, supporting PDPL compliance."
+        }
+      }
+    },
+    "apply": {
+      "title": "Apply & contact",
+      "intro": "Ready to scale performance together? Apply online or email us, and we'll reach out within 2 business days to schedule a 30-minute partner call.",
+      "form": {
+        "name": "Full name",
+        "namePh": "Your name",
+        "company": "Company / brand",
+        "companyPh": "Company (optional for individuals)",
+        "email": "Email",
+        "emailPh": "you@company.com",
+        "market": "Market / country",
+        "marketPh": "The market / country you serve",
+        "type": "Partner type",
+        "typeOptions": {
+          "agency": "Local marketing / media-buying agency",
+          "tech": "Software reseller / technology partner",
+          "referral": "Individual / referral partner"
+        },
+        "scale": "Client base / monthly ad spend",
+        "scalePh": "e.g. 20 e-commerce clients · $80K/mo spend",
+        "message": "Anything you'd like to tell us",
+        "messagePh": "Your clients, current tools, what you want to achieve…",
+        "consent": "By submitting you agree to be contacted about partnering with Cluega. We won't use your details for anything else.",
+        "submit": "Submit application",
+        "subject": "Cluega Partner Application",
+        "error": "Submission failed. Please try again later, or email us directly at"
+      },
+      "done": "✓ Application received — we'll be in touch within 2 business days.",
+      "contact": {
+        "emailLabel": "Email",
+        "email": "partners@cluega.com",
+        "webLabel": "Web",
+        "web": "cluega.com/partners"
+      }
+    }
+  }
+}

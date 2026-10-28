@@ -1,0 +1,146 @@
+{
+  "solutionsCreatives": {
+    "meta": {
+      "title": "創意團隊 | Cluega",
+      "description": "設計師、剪輯師與創作者用 Cluega——前沿 AI 模型、圖層控制與團隊協作融為一體；從概念生成、重組變體到細節精修，一切都在同一個無邊界畫布完成，且每一次生成都注入真實爆款轉換邏輯。"
+    },
+    "hero": {
+      "kicker": "Cluega for Creatives",
+      "title": "讓創作，追上思考的速度",
+      "subtitle": "設計師、剪輯師與創作者用 Cluega——前沿 AI 模型、圖層控制與團隊協作融為一體；從概念生成、重組變體到細節精修，一切都在同一個無邊界畫布完成，且每一次生成都注入真實爆款轉換邏輯。",
+      "ctaStart": "免費開始使用",
+      "ctaContact": "聯繫銷售"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "匯聚智能的無邊界創作畫布",
+          "body": "所有素材直觀平鋪，徹底終結找不到檔案的資料夾地獄。你可以隨時縮小鳥瞰專案全貌，也能瞬間放大到像素級調整細節——概念生成、重組變體到細節精修，一切在同一個地方完成。"
+        },
+        {
+          "title": "不再盲目生成，每一次點擊都有跡可循",
+          "body": "ART 引擎不再盲目生成。它深度對接 CDP 廣告表現與 IM 客戶成交數據，自動識別高轉換基因，並將其批量裂變為更強大的素材矩陣——讓創意站在真實 ROI 上生長。"
+        },
+        {
+          "title": "與行業領導者並肩",
+          "body": "接入 400+ 模型、監測 184+ 語言廣告市場、sub-50ms 反應——把最重的生成與檢索運算，交給經規模驗證的創作核心。"
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "一個平台，跑完從靈感到成片的創作全流程",
+      "learnMore": "了解更多",
+      "tabs": [
+        {
+          "tab": "內置爆款大數據的創作核心",
+          "subtitle": "每一次生成，都注入爆款轉換邏輯",
+          "body": "每一次生成素材，系統背後即時檢索爆款與熱點——鎖定熱點標籤、解構 Top 1% 爆款文案的邏輯，為你的文案、素材與影片直接注入「爆款轉換邏輯」。"
+        },
+        {
+          "tab": "AI 視覺精準合成",
+          "subtitle": "把產品完美融合進任何場景",
+          "body": "透過圖生圖技術，精準解析光源與結構，將產品完美融合至場景中，打造高品質影像——無需手動調整繁瑣參數。"
+        },
+        {
+          "tab": "規模化視覺生產",
+          "subtitle": "數週的影像製作，縮短到數分鐘",
+          "body": "透過結構化工作流，針對多款產品進行矩陣式批量生成，極速產出高品質素材——一個月的社群內容，幾分鐘搞定並跨渠道自動排程。"
+        },
+        {
+          "tab": "競品素材雷達",
+          "subtitle": "你睡覺時，AI 為你找到對手昨晚的底牌",
+          "body": "你與 AI 對話時提到的每一條 TikTok、Meta、Instagram 鏈接，Cluega 在背景自動入庫分析。關閉窗口後，凌晨引擎持續運轉——清晨你將收到昨日結果與對標創意簡報。"
+        }
+      ]
+    },
+    "built": {
+      "title": "為創意團隊而生",
+      "overview": "Cluega 讓創作者把重複的製作交給 AI，把時間留給真正的創意。",
+      "cards": [
+        {
+          "title": "對話即創作",
+          "body": "用自然語言給 AI 下達複雜指令，Cluega 自動規劃執行路徑、篩選最契合的模型，並將結果直接渲染在你的畫布上。"
+        },
+        {
+          "title": "實時在線協作",
+          "body": "支援團隊滑鼠軌跡動態、實時評論反饋與並行生成，你和整個團隊在同一個創意空間同步激發靈感。"
+        },
+        {
+          "title": "局部精確重繪",
+          "body": "告別整張圖重新生成的漫長等待！只需標記調整區域，Cluega 就能精準修飾細節，並完美保留原有畫面元素。"
+        }
+      ]
+    },
+    "quote": {
+      "text": "我們把光源合成、局部重繪這些繁瑣的體力活丟給 AI，就是想讓大家從無意義的「改圖地獄」裡解脫出來，把腦力留給真正有價值的創意。",
+      "name": "Zerix",
+      "role": "Head of AI Engineering @ Cluega"
+    },
+    "finalCta": {
+      "title": "你的靈感，直接調用全球領先的生成模型",
+      "coverage": "GPT · Claude · Gemini · runway · Wan · Luma AI · Stability.ai · Black Forest Labs · Hailuo AI · Pika · KlingAI · RECRAFT · ByteDance Seed · Moonvalley",
+      "subtitle": "一個工作空間，調用全球領先模型——Cluega 依任務自動切換最適模型，你只需說出構思，剩下的交給它。",
+      "ctaStart": "免費開始使用",
+      "ctaDemo": "預約 Demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "跨帳號投放健康度",
+        "updated": "每小時更新",
+        "cost": "花費",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "投放中" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "投放中" },
+          { "name": "Nova HK — Google Ads", "status": "待審核" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "檢視並套用",
+        "rows": [
+          "保留高曝光組合並放大預算，CTR 連續 5 天高於基準 32%",
+          "Advantage+ 受眾重疊過高，建議合併 3 組廣告組省下 18% 成本",
+          "TikTok 素材疲勞，7 日內頻次破 3.2，建議輪替 2 支新素材"
+        ]
+      },
+      "accounts": {
+        "title": "帳號總覽",
+        "subtitle": "授權即分析",
+        "stageLabel": "成熟度",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 建置" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 冷啟動" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 優化中" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 飛輪期" }
+        ]
+      },
+      "maturity": {
+        "title": "帳號成熟度分級（M0–M5）",
+        "note": "系統依歷史數據自動判定當前階段，並過濾與該階段無關的雜訊指標。",
+        "stages": ["M0 冷啟動", "M1 學習期", "M2 成長期", "M3 優化期", "M4 規模化", "M5 飛輪期"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 學習期"
+      },
+      "grading": {
+        "title": "廣告組評級（S / A / B / C / D）",
+        "legend": "S 潛力明星，一鍵加預算 · D 停投候選",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Cluega 托管記錄",
+        "channels": "被拒時推送到",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "依 7 日 ROAS 表現，建議調降 Meta 預算 12%、Google 上調 18%。", "time": "2 分鐘前" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "已生成 3 組節慶素材文案，並套用至冷啟動廣告組。", "time": "14 分鐘前" },
+          { "actor": "Ethan Chen", "tag": "手動", "text": "將「春季促銷—轉化」出價上調至 $12。", "time": "1 小時前" }
+        ]
+      }
+    }
+  }
+}

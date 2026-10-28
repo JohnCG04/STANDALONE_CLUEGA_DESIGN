@@ -1,0 +1,146 @@
+{
+  "solutionsAgency": {
+    "meta": {
+      "title": "代理商團隊 | Cluega",
+      "description": "全球頂尖代理商用 Cluega 管理客戶的跨平台投放——多帳號、大預算、24/7 自動優化，一個入口全掌控，最終決策權 100% 保留在你手中。"
+    },
+    "hero": {
+      "kicker": "Cluega for Agencies",
+      "title": "賦能每一個客戶帳號，交給會自動盯盤的 AI",
+      "subtitle": "全球頂尖代理商用 Cluega 管理客戶的跨平台投放——多帳號、大預算、24/7 自動優化，一個入口全掌控，最終決策權 100% 保留在你手中。",
+      "ctaStart": "免費開始使用",
+      "ctaContact": "聯繫銷售"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "完整的跨帳號可視性",
+          "body": "每小時刷新你名下所有客戶帳號的廣告狀態，橫跨 TikTok、Meta、Google——不必在十幾個後台間切換，全客戶的投放健康度一屏盡覽。"
+        },
+        {
+          "title": "能直接落地為動作的數據",
+          "body": "不給空泛的優化建議。系統把每個問題精煉為附帶數據支持的具體指令，讓你點擊即執行，或一鍵交給 AI 托管——投放效率提升不止十倍。"
+        },
+        {
+          "title": "與行業領導者並肩",
+          "body": "800,000,000+ 每週處理的營銷數據信令、5,200,000+ 每月自動執行的協議任務、sub-50ms 反應延遲、99.98% 全天候在線——把最重的跨平台運算，交給經規模驗證的投放引擎。"
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "用一個平台，管理所有客戶的投放全生命週期",
+      "learnMore": "了解更多",
+      "tabs": [
+        {
+          "tab": "即時監控中心",
+          "subtitle": "授權即啟動的帳號情報",
+          "body": "每連接一個廣告帳號，Cluega 就在背景自動分析完整歷史——從轉換量、成本趨勢到素材表現與受眾飽和度。無需任何繁瑣設定，深度分析即刻運轉。"
+        },
+        {
+          "tab": "帳號成熟度分級",
+          "subtitle": "每個帳號，配對應階段的策略",
+          "body": "剛起跑的帳號和跑了兩年的帳號，需要完全不同的策略。Cluega 自動將帳號歸類為 M0–M5 六大成熟度階段（從冷啟動到飛輪期），各階段過濾雜訊，只為你分析真正關鍵的核心指標。"
+        },
+        {
+          "tab": "廣告組評級",
+          "subtitle": "秒知哪個廣告組值得押注",
+          "body": "綜合評估「數據可信度」與「表現動能」兩大維度，為每個廣告組精準打分。從 S 級（潛力明星，一鍵加預算）到 D 級（停投候選），讓每一分客戶預算都花在刀口上。"
+        },
+        {
+          "tab": "AI 托管投放",
+          "subtitle": "設定邊界，AI 在邊界內自主運作",
+          "body": "帳號數據達到你設定的目標後開啟托管——加預算、暫停廣告組、輪替素材，AI 直接執行。廣告被拒時推送到 Lark / Line，手機上確認即可，不必盯後台。"
+        }
+      ]
+    },
+    "built": {
+      "title": "為代理機構而生",
+      "overview": "Cluega 讓代理商用更少的人力，服務更多的客戶帳號，並把投放結果變得可預測、可交付。",
+      "cards": [
+        {
+          "title": "多客戶集中管理",
+          "body": "所有客戶帳號、計劃與過審狀態，透過單一整合介面集中管理，不再多後台來回切換。"
+        },
+        {
+          "title": "人機協作指揮室",
+          "body": "GPT 調預算、Claude 生成建議、夥伴手動出價，全記錄在同一時間軸——任何人接手都能秒知全局。"
+        },
+        {
+          "title": "一句話生成客戶報表",
+          "body": "輸入你想看的指標，Cluega 自動從授權平台取數、建圖並即時同步，客戶週報幾分鐘交付。"
+        }
+      ]
+    },
+    "quote": {
+      "text": "以前光是切換各家後台就花掉半天，現在一個畫面看完全部狀態，連過審進度都一目了然，投放效率真的提升超多",
+      "name": "Marcus Vance",
+      "role": "Senior Performance Marketer @ Cluega"
+    },
+    "finalCta": {
+      "title": "你客戶投放的每一個平台，一個入口全打通",
+      "coverage": "TikTok Ads · Meta · Google Ads · Google Analytics · Shopify · TikTok Shop · Shopee · Lazada · Amazon · WhatsApp · Zalo · LINE · Lark",
+      "subtitle": "授權即連結，讓 Cluega 代理你存取資料，開啟最流暢的多客戶增長協作。",
+      "ctaStart": "免費開始使用",
+      "ctaDemo": "預約 Demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "跨帳號投放健康度",
+        "updated": "每小時更新",
+        "cost": "花費",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "投放中" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "投放中" },
+          { "name": "Nova HK — Google Ads", "status": "待審核" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "檢視並套用",
+        "rows": [
+          "保留高曝光組合並放大預算，CTR 連續 5 天高於基準 32%",
+          "Advantage+ 受眾重疊過高，建議合併 3 組廣告組省下 18% 成本",
+          "TikTok 素材疲勞，7 日內頻次破 3.2，建議輪替 2 支新素材"
+        ]
+      },
+      "accounts": {
+        "title": "帳號總覽",
+        "subtitle": "授權即分析",
+        "stageLabel": "成熟度",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 建置" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 冷啟動" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 優化中" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 飛輪期" }
+        ]
+      },
+      "maturity": {
+        "title": "帳號成熟度分級（M0–M5）",
+        "note": "系統依歷史數據自動判定當前階段，並過濾與該階段無關的雜訊指標。",
+        "stages": ["M0 冷啟動", "M1 學習期", "M2 成長期", "M3 優化期", "M4 規模化", "M5 飛輪期"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 學習期"
+      },
+      "grading": {
+        "title": "廣告組評級（S / A / B / C / D）",
+        "legend": "S 潛力明星，一鍵加預算 · D 停投候選",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Cluega 托管記錄",
+        "channels": "被拒時推送到",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "依 7 日 ROAS 表現，建議調降 Meta 預算 12%、Google 上調 18%。", "time": "2 分鐘前" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "已生成 3 組節慶素材文案，並套用至冷啟動廣告組。", "time": "14 分鐘前" },
+          { "actor": "Ethan Chen", "tag": "手動", "text": "將「春季促銷—轉化」出價上調至 $12。", "time": "1 小時前" }
+        ]
+      }
+    }
+  }
+}

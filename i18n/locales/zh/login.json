@@ -1,0 +1,81 @@
+{
+  "login": {
+    "welcomeBack": "歡迎回來",
+    "title": "登入或註冊",
+    "subtitle": "開始使用 Cluega 創作",
+    "google": "使用 Google 登錄",
+    "apple": "使用 Apple 登錄",
+    "sso": "使用 SSO 登錄",
+    "or": "或",
+    "emailLabel": "郵箱",
+    "passwordLabel": "密碼",
+    "emailPlaceholder": "輸入郵箱地址",
+    "passwordPlaceholder": "輸入密碼",
+    "forgotPassword": "忘記密碼？",
+    "forgotPasswordUnavailable": "密碼復原功能尚未開放",
+    "signIn": "登錄",
+    "continue": "繼續",
+    "showPassword": "顯示密碼",
+    "hidePassword": "隱藏密碼",
+    "comingSoon": "Coming soon",
+    "registerPrompt": "還沒有帳戶？",
+    "register": "註冊",
+    "signingIn": "正在返回應用程式…",
+    "signingInWeb": "正在登入…",
+    "loading": "正在載入登入頁…",
+    "demoHint": "演示帳號：demo@cluega.com / cluega-demo",
+    "terms": "服務條款",
+    "privacy": "隱私政策",
+    "footerFrom": "from",
+    "chooseOrganization": "選擇組織",
+    "chooseOrganizationHint": "請選擇您要登入的組織。",
+    "chooseOrganizationBack": "使用其他帳號",
+    "errors": {
+      "missingNonce": "缺少登入 nonce。請從 Cluega 原生應用開啟此頁面。",
+      "unsupportedPlatform": "未知的用戶端平台。請使用支援的 Cluega 應用登入。",
+      "platformNotReady": "此平台尚未啟用。目前僅支援桌面版；iOS 與 Android 即將推出。",
+      "unsupportedFlow": "不支援此登入流程。",
+      "invalidCredentials": "電子郵件或密碼不正確。請使用系統建立的帳號。",
+      "loginFailed": "無法登入。請確認 CDP API 與 Mid-platform 可連線。",
+      "organizationChallengeExpired": "組織選擇已過期，請重新登入。",
+      "googleNotSupported": "尚未支援 Google 登入，請使用電子郵件與密碼。",
+      "captchaRequired": "請先完成人機驗證。",
+      "captchaFailed": "人機驗證失敗，請重新驗證後再登入。",
+      "captchaUnavailable": "無法載入人機驗證，請重新整理頁面或關閉廣告封鎖後再試。"
+    }
+  },
+  "setupPassword": {
+    "title": "設定密碼",
+    "subtitle": "啟用你的 Cluega 帳號以繼續。",
+    "password": "密碼",
+    "confirmPassword": "確認密碼",
+    "showPassword": "顯示密碼",
+    "hidePassword": "隱藏密碼",
+    "submit": "設定密碼",
+    "submitting": "正在啟用...",
+    "successTitle": "帳號已啟用",
+    "successBody": "你的密碼已設定完成，現在可以登入。",
+    "goToLogin": "前往登入",
+    "openDesktop": "打開 Cluega 桌面版",
+    "continue": "繼續",
+    "errors": {
+      "missingToken": "缺少邀請 token。",
+      "passwordTooShort": "密碼至少需要 8 個字元。",
+      "passwordMismatch": "兩次輸入的密碼不一致。",
+      "invalidToken": "此邀請連結無效或已過期。",
+      "weakPassword": "密碼強度不足。",
+      "policyRequired": "請先閱讀並同意所有政策才能繼續。",
+      "unknown": "無法啟用此邀請。"
+    },
+    "policies": {
+      "agree": "我已閱讀並同意",
+      "view": "查看",
+      "hide": "收起",
+      "types": {
+        "tos": "服務條款",
+        "privacy": "隱私政策",
+        "generic": "政策"
+      }
+    }
+  }
+}

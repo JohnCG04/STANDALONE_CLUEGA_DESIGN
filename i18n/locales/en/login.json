@@ -1,0 +1,81 @@
+{
+  "login": {
+    "welcomeBack": "Welcome back",
+    "title": "Log in or sign up",
+    "subtitle": "Start creating with Cluega",
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "sso": "Continue with SSO",
+    "or": "Or",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "emailPlaceholder": "Enter your email address",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot password?",
+    "forgotPasswordUnavailable": "Password recovery is not available yet",
+    "signIn": "Sign in",
+    "continue": "Continue",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "comingSoon": "Coming soon",
+    "registerPrompt": "Don't have an account?",
+    "register": "Sign up",
+    "signingIn": "Returning to the app...",
+    "signingInWeb": "Signing in...",
+    "loading": "Loading sign-in page...",
+    "demoHint": "Demo account: demo@cluega.com / cluega-demo",
+    "terms": "Terms of service",
+    "privacy": "Privacy policy",
+    "footerFrom": "from",
+    "chooseOrganization": "Choose an organization",
+    "chooseOrganizationHint": "Select the organization you'd like to continue to.",
+    "chooseOrganizationBack": "Use a different account",
+    "errors": {
+      "missingNonce": "Missing sign-in nonce. Please open this page from the Cluega native app.",
+      "unsupportedPlatform": "Unknown client platform. Please sign in with a supported Cluega app.",
+      "platformNotReady": "This platform is not enabled yet. Only desktop is currently supported; iOS and Android are coming soon.",
+      "unsupportedFlow": "This sign-in flow is not supported.",
+      "invalidCredentials": "The email or password is incorrect. Please use an account created by the system.",
+      "loginFailed": "Unable to sign in. Please confirm that the CDP API and Mid-platform are reachable.",
+      "organizationChallengeExpired": "Your organization selection expired. Please sign in again.",
+      "googleNotSupported": "Google sign-in is not supported yet. Please use email and password.",
+      "captchaRequired": "Please complete the security check first.",
+      "captchaFailed": "Security check failed. Please verify again before signing in.",
+      "captchaUnavailable": "The security check could not load. Please reload the page or disable your ad blocker and try again."
+    }
+  },
+  "setupPassword": {
+    "title": "Set your password",
+    "subtitle": "Activate your Cluega account to continue.",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "submit": "Set password",
+    "submitting": "Activating...",
+    "successTitle": "Account activated",
+    "successBody": "Your password has been set. You can now sign in.",
+    "goToLogin": "Go to login",
+    "openDesktop": "Open Cluega Desktop",
+    "continue": "Continue",
+    "errors": {
+      "missingToken": "Invitation token is missing.",
+      "passwordTooShort": "Password must be at least 8 characters.",
+      "passwordMismatch": "Passwords do not match.",
+      "invalidToken": "This invitation link is invalid or expired.",
+      "weakPassword": "Password is too weak.",
+      "policyRequired": "Please review and accept all policies to continue.",
+      "unknown": "Unable to activate this invitation."
+    },
+    "policies": {
+      "agree": "I have read and agree to the",
+      "view": "View",
+      "hide": "Hide",
+      "types": {
+        "tos": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "generic": "policy"
+      }
+    }
+  }
+}

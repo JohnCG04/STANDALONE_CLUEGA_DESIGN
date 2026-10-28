@@ -1,0 +1,124 @@
+{
+  "title": "歡迎使用 Cluega",
+  "subtitle": "告訴我們您的行銷狀況，讓 AI 助理能依您的業務量身打造每一個回覆。",
+  "progress": {
+    "label": "設定進度"
+  },
+  "steps": {
+    "company": {
+      "title": "關於您的業務",
+      "description": "您的公司名稱是什麼？屬於哪個產業？"
+    },
+    "goals": {
+      "title": "您的行銷",
+      "description": "您想達成什麼目標？在哪些管道投放？"
+    },
+    "audience": {
+      "title": "受眾與市場",
+      "description": "您想觸及哪些受眾？在哪些市場？"
+    },
+    "referral": {
+      "title": "最後一個問題",
+      "description": "您是如何得知 Cluega 的？"
+    }
+  },
+  "fields": {
+    "companyName": {
+      "label": "公司名稱",
+      "placeholder": "例如：Acme Beauty"
+    },
+    "brand": {
+      "label": "品牌名稱（選填）",
+      "placeholder": "例如：Acme — AI 回覆時使用的品牌名稱"
+    },
+    "industry": {
+      "label": "產業（可選擇多項，或自行新增）",
+      "customPlaceholder": "新增其他產業…"
+    },
+    "marketingGoals": {
+      "label": "主要行銷目標"
+    },
+    "channels": {
+      "label": "您使用的管道"
+    },
+    "audience": {
+      "label": "目標受眾",
+      "placeholder": "例如：東南亞地區、對護膚有興趣的 18–34 歲女性"
+    },
+    "region": {
+      "label": "主要市場／地區",
+      "placeholder": "例如：越南、東南亞"
+    },
+    "tone": {
+      "label": "品牌語氣／風格（選填）",
+      "placeholder": "例如：親切簡潔、專業但易於親近"
+    },
+    "hearAboutUs": {
+      "label": "您是如何得知我們的？（可選擇多項，或自行新增）",
+      "customPlaceholder": "新增其他來源…"
+    }
+  },
+  "options": {
+    "industry": {
+      "ecommerce": "電子商務",
+      "retail": "零售",
+      "beauty_cosmetics": "美妝與化妝品",
+      "fashion_apparel": "時尚與服飾",
+      "food_beverage": "食品與飲料",
+      "health_wellness": "健康與保健",
+      "education": "教育",
+      "saas_technology": "SaaS 與科技",
+      "finance": "金融",
+      "real_estate": "房地產",
+      "travel_hospitality": "旅遊與住宿",
+      "entertainment_media": "娛樂與媒體",
+      "gaming_slots": "博弈 — 老虎機",
+      "gaming_livecasino": "博弈 — 真人娛樂城",
+      "gaming_sportsbook": "博弈 — 體育博彩",
+      "gaming_lottery": "博弈 — 彩票",
+      "agency": "代理商",
+      "other": "其他"
+    },
+    "marketingGoal": {
+      "sales_conversions": "銷售與轉換",
+      "lead_generation": "開發潛在客戶",
+      "brand_awareness": "品牌知名度",
+      "audience_growth": "受眾成長",
+      "app_installs": "應用程式安裝",
+      "customer_retention": "顧客留存",
+      "website_traffic": "網站流量"
+    },
+    "channel": {
+      "tiktok": "TikTok",
+      "meta": "Meta（Facebook 與 Instagram）",
+      "google": "Google Ads",
+      "youtube": "YouTube",
+      "line": "LINE",
+      "email": "電子郵件",
+      "seo_content": "SEO 與內容",
+      "influencer": "網紅",
+      "offline": "線下",
+      "not_running_yet": "尚未投放廣告"
+    },
+    "hearAboutUs": {
+      "search_engine": "搜尋引擎",
+      "social_media": "社群媒體",
+      "friend_colleague": "朋友或同事",
+      "online_ad": "線上廣告",
+      "event_webinar": "活動或網路研討會",
+      "blog_article": "部落格或文章",
+      "other": "其他"
+    }
+  },
+  "actions": {
+    "back": "返回",
+    "next": "繼續",
+    "submit": "完成",
+    "submitting": "儲存中…",
+    "add": "新增"
+  },
+  "errors": {
+    "validation": "請填寫必填欄位後再試一次。",
+    "submitFailed": "無法儲存您的答案，請再試一次。"
+  }
+}

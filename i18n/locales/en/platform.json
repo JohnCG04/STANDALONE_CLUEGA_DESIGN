@@ -1,0 +1,1880 @@
+{
+  "platformDevelopers": {
+    "common": {
+      "viewDocs": "Book a Demo",
+      "browseApps": "Browser apps"
+    },
+    "hero": {
+      "eyebrow": "DogClaw · Browser Connector",
+      "title": "Connect. Authorize. Run.",
+      "description": "Connect Cluega's AI to your already logged-in, authorized browser. Run cross-page marketing insights on your own environment and egress IP—model, execution mode, and browser environment are all your call."
+    },
+    "modules": {
+      "title": "One task. Three dimensions. Your call.",
+      "description": "Model, mode, and browser environment—fully decoupled, mix freely.",
+      "cards": {
+        "agent": "Model-agnostic: Claude, GPT, Gemini, or even your own self-hosted model—freely swap the “decision brain.” Adding a model never means relearning the interface.",
+        "tools": "DOM mode (default) reads structured page text—fast and token-efficient. Hit a Canvas, image-based, or non-standard UI? Switch to visual mode in one click—with a clear notice that it costs more.",
+        "systems": "Local browser, remote cloud browser, or bring your own proxy—pick one. Egress IP and proxy are entirely yours to provide and manage; Cluega ships no IP pool and no built-in proxy.",
+        "oauth": "Preset templates for competitor pricing monitoring, your own account performance, and more—come with a suggested model and mode already filled in. Pick a template, and the task skeleton is ready to run.",
+        "clients": "Based on model, mode, and estimated steps, we estimate a cost range before you send; after the run, get the actual token usage, time spent, and cost."
+      },
+      "visualLabels": {
+        "localModel": "Local model",
+        "localBrowser": "Local browser",
+        "remoteBrowser": "Remote browser",
+        "customProxyEnv": "Custom proxy",
+        "templateMonitoring": "Template monitoring active"
+      }
+    },
+    "api": {
+      "title": "Use the browser you're already in.",
+      "description": "Cluega uses your existing sessions. Install once, authorize once—no repeat setup.",
+      "intro": {
+        "title": "Use the browser you're already signed into.",
+        "descriptionPrefix": "DogClaw reuses your browser's ",
+        "descriptionHighlight": "existing login session and local environment",
+        "descriptionSuffix": ". Install the extension once, authorize once, then just run—no more repeated setup and re-login every time."
+      },
+      "quote": "We used to maintain a separate monitoring script for every competitor; now we pick a model, pick DOM, apply a template, and run—cutting out a whole layer of engineering.",
+      "quoteLabel": "Lucas Miller",
+      "quoteCaption": "Cluega",
+      "cta": "Installation guide",
+      "cards": {
+        "rest": "Install and authorize once. Download the DogClaw Chrome extension → sign in to Cluega → authorize this browser → run a connection test to confirm the connection, egress IP, and latency. When it's done, the DogClaw icon shows up in your toolbar.",
+        "webhooks": "Trigger from any device. Start a task from your phone or another device, and your authorized, always-on desktop browser runs it in the background.",
+        "oauth": "Offline has a fallback. If your usual browser goes offline, we proactively notify you—switch to a Cluega-managed environment, or bring that device back online. No silent failures."
+      },
+      "installLog": {
+        "header": "Download the DogClaw extension → sign in to Cluega",
+        "step1": "Authorizing this browser environment... success",
+        "step2": "Running connection test (Connection Test)...",
+        "status": "Connection status: Confirmed (Connected)",
+        "egressIp": "Egress IP: 210.XX.XX.XX",
+        "latency": "Latency: 15ms",
+        "step3": "DogClaw icon now shows in the toolbar"
+      }
+    },
+    "sdk": {
+      "title": "Watch every step. Stop anytime.",
+      "description": "Every step streams live, sensitive actions need your explicit sign-off, and a full audit trail is kept throughout. You stay in control.",
+      "cta": "Security & control",
+      "cards": {
+        "entry": "Watch every agent action live, rendered as a running progress stream; a taken-over tab is always clearly marked, so you always know which tab is being controlled.",
+        "forms": "Sensitive actions always require manual confirmation. Anything involving spend, account setting changes, or data deletion—the agent always pauses, waiting for your explicit approval in the panel before continuing; if you don't confirm in time, it terminates safely.",
+        "functions": "One-click stop. Click the extension icon to immediately end the takeover—no need to wait for the task to finish."
+      },
+      "quoteLabel": "Lucas Miller",
+      "quote": "DogClaw runs on your own already-authorized session and environment. We don't offer features to bypass platform detection, crack CAPTCHAs, or spoof identity—infrastructure is yours to bring and manage, and we stay neutral and compliant.",
+      "quoteCaption": "DogClaw Team Lead · Cluega",
+      "modernQuote": "What puts our team most at ease is the “one-click stop” and having to sign off on sensitive actions—the AI runs in our own dashboard, but we've never lost control.",
+      "modernQuoteLabel": "Alexander Cross",
+      "modernQuoteCaption": "Cluega",
+      "entryMockup": {
+        "step1": "Precisely locating the click target",
+        "step2": "Reading the page's DOM structure",
+        "step3": "Auto-typing the target keywords"
+      },
+      "formsMockup": {
+        "alertLabel": "Sensitive action detected",
+        "alertValue": "Attempting to delete database account settings",
+        "confirmLabel": "Continue only with explicit approval in the panel",
+        "confirmTitle": "Choose an authorization action:",
+        "timeout": "Terminates if not confirmed in time",
+        "approve": "Approve — let the Agent continue",
+        "reject": "Reject — terminate the task now",
+        "debug": "Enter debug mode — take over manually",
+        "toggle": "Auto-intercept all sensitive actions"
+      },
+      "functionsMockup": {
+        "step1": "Click \"Stop\"",
+        "step2": "Force-stop the Agent takeover",
+        "step3": "Release control"
+      }
+    },
+    "apps": {
+      "visualLabels": {
+        "securityIsolation": "Security isolation: treated as data only"
+      },
+      "features": {
+        "04": {
+          "description": "Page content is just data, never an instruction. Built-in prompt-injection protection: any “instructions” hidden in a page can't trigger sensitive actions or data exfiltration."
+        },
+        "05": {
+          "description": "We never touch your credentials. DogClaw doesn't handle, store, or transmit your account passwords—it only operates inside your existing browser session."
+        },
+        "06": {
+          "description": "Traces are replayable and deletable. Operation metadata is kept 30 days by default before auto-deleting; page-content snapshots are kept only briefly (or not at all) by default—delete manually anytime, or turn off snapshots and keep only metadata."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Ready to hand your browser to AI?",
+      "description": "Install DogClaw, pick model, mode, and environment, and send your first insight task.",
+      "button": "Browser app",
+      "ui": {
+        "configTitle": "AI core parameters",
+        "configModel": "model / claude",
+        "configMode": "mode: insights",
+        "configMonth": "February",
+        "configYear": "2026",
+        "toggleOff": "Offline",
+        "toggleOn": "DogClaw enabled",
+        "envLabel": "Select execution environment",
+        "envSelected": "Dedicated IP node (Taipei)",
+        "envSearch": "Search other available environments...",
+        "envOptions": ["AWS-US-East-01 (192.168.1.10)", "GCP-JP-Tokyo-02 (10.0.4.25)", "Local-Residential-01 (own residential IP)"],
+        "checkOn": "Enable cookie-isolated transport",
+        "checkOff": "Disable canvas fingerprinting",
+        "logTitle": "DogClaw execution log",
+        "logSteps": ["DogClaw mounted successfully", "Target page DOM simulated and loaded", "Analyzing content, extracting key features", "Insight task sent, report generated"],
+        "badgeTitle": "Task security profile",
+        "badgeRows": [
+          { "label": "Comms security", "desc": "Secure handshake with host environment." },
+          { "label": "Injection guard", "desc": "Malicious commands blocked, 0 triggered." },
+          { "label": "Compliance", "badges": ["Compliant path", "Zero-risk", "Text-only"] }
+        ],
+        "stopButton": "Force stop task"
+      }
+    },
+    "trust": {
+      "title": "Neutral infrastructure, built to last.",
+      "description": "We don't crack CAPTCHAs, evade bot detection, or ship built-in fingerprint spoofing. Infrastructure is yours to provide and manage—Cluega always stays on the side of neutrality and compliance. Tools that gamble against platform risk controls fall behind the moment a platform tightens up; neutral infrastructure is what goes the distance.",
+      "stat": "10,800 NEUTRAL INFRA RUNS IN THE PAST YEAR"
+    },
+    "scenarios": {
+      "title": "Built for marketing insight.",
+      "description": "DogClaw is the hand Cluega's insight product reaches into the web with. The same three-dimensional capability, applied across six marketing insight scenarios.",
+      "items": {
+        "pricing": "Competitor content & pricing monitoring",
+        "sentiment": "Reviews & sentiment insight",
+        "creative": "Ad creative & landing page inspiration",
+        "ownedAccounts": "Owned-account performance insight",
+        "search": "Search placement & keyword insight",
+        "audience": "Audience & trend research"
+      }
+    }
+  },
+  "promptLibraryQuote": {
+    "title": "Prompt library testimonial",
+    "lines": [
+      "In the past, our advertising data, newsletter conversations, and store orders were like isolated pieces. Cluega has completely broken down these data silos and unified them into a single brand brain. Now, I just give vernacular instructions in a text box like a chat, and the algorithm performs all optimization decisions across platforms, in milliseconds, automatically."
+    ],
+    "caption": "Cluega AI Systems",
+    "role": "AI Marketing System"
+  },
+  "platformAsk": {
+    "finalCta": {
+      "heading": "Say goodbye to tedious data analysis — let AI generate optimization proposals for you in real time.",
+      "demo": "Book a Demo",
+      "start": "Start for free"
+    },
+    "askAiFlow": {
+      "thinking": "Thinking...",
+      "userPrompt": "Hi, I want to run TikTok DM ads to capture customer leads.",
+      "intro": {
+        "p1": "Before launching, we need to confirm which ad accounts to use.",
+        "p2": "Would you like me to suggest accounts, or pick from the full list yourself?",
+        "chipSuggest": "Suggest ad accounts",
+        "chipManual": "Choose from account list"
+      },
+      "scan": {
+        "title": "🔍 Scanned the ad accounts under your name. Below are the accounts with **actual spend in the past 7 days** (pre-selected), please confirm:",
+        "confirm": "Confirm selection (2)",
+        "selectedBubble": "✅ Selected: OutdoorLisa Official, Kirkbadwaik Kirkbadwaik"
+      },
+      "diagnosis": {
+        "linked": "✅ Linked your TikTok ad account (OutdoorLisa Official).",
+        "title": "📊 Historical delivery diagnosis:",
+        "b1": "• $2,418 spent in the last 30 days, 312 DMs accumulated",
+        "b2": "• Average CPA: $8.4 USD (industry benchmark $9.6)",
+        "b3": "• Suggested target CPA: $7.0 USD (17% lower)",
+        "choose": "Please choose the TikTok publishing account to use:",
+        "bubble": "@OutdoorLisa Official"
+      },
+      "category": {
+        "scanned": "🔍 Scanned this account's creative library — 18 videos in total.",
+        "verdict": "📔 Content category detected: **Bluetooth Earphones Wholesale**",
+        "confirmMode": "To match the best delivery strategy, please confirm your business model:",
+        "chipB2B": "B2B wholesale",
+        "chipB2C": "B2C single-item retail"
+      },
+      "locked": {
+        "p1": "👍 Locked in **B2B wholesale** mode.",
+        "p2": "Would you like to expand the creative pool via the Cluega Market Library to reach more overseas buyers?",
+        "chipYes": "Yes, expand creative pool",
+        "chipNo": "Not for now"
+      },
+      "subcategory": {
+        "title": "Please choose a high-converting B2B subcategory:",
+        "chipFactory": "Factory footage / supply chain",
+        "chipExpo": "Overseas trade shows / client meetings",
+        "chipQc": "Product testing / quality certification"
+      },
+      "videos": {
+        "p1": "🎬 Pulled 3 trending high-inquiry videos from the overseas market library (avg. inquiry rate 6.8%).",
+        "p2": "Choose one for AI smart cloning / rewriting (avoiding copyright issues):",
+        "pick": "Use",
+        "bubble": "#2 OEM Production Line"
+      },
+      "script": {
+        "p1": "📝 AI has generated an optimized script:",
+        "copy": "**Ad copy:** “Direct from a Shenzhen source factory — TWS Bluetooth earphone wholesale quotes within 24h, MOQ from 100.”",
+        "videoPrompt": "**Video Prompt:** Factory floor wide shot → SMT line close-up → overseas buyer nodding → shipping warehouse → CTA.",
+        "storyboard": "**Storyboard:** 0–2s pain-point hook / 2–6s factory strength / 6–10s certifications / 10–15s CTA.",
+        "confirmQ": "Confirm video generation?",
+        "chipConfirm": "Confirm & generate",
+        "chipAdjust": "Adjust once more"
+      },
+      "preset": {
+        "done": "✅ Video generated (4K, 15s, H.264).",
+        "title": "📔 Quant presets applied:",
+        "b1": "• Daily budget: $50 USD",
+        "b2": "• Regions: VN / TH / MY (core Southeast Asia trade circle)",
+        "b3": "• Audience: e-commerce / wholesale / 3C electronics, ages 25–45",
+        "confirmQ": "Please confirm the configuration above:",
+        "chipPush": "Confirm, push to publishing account",
+        "chipAdjust": "Adjust budget / regions"
+      },
+      "cta": {
+        "welcome": "💬 Instant-message greeting: “Hi! Want today's factory price list?”",
+        "cardTitle": "🎯 CTA card title: “Get Today's Factory Price List”",
+        "button": "🔘 CTA button: “Send Message”",
+        "covers": "Generated 3 AI cover images, please pick one:",
+        "chip1": "Image #1 Factory exterior",
+        "chip2": "Image #2 Product stack",
+        "chip3": "Image #3 Buyer meeting"
+      },
+      "deploy": {
+        "success": "🎉 Quant ad engine deployed — the dynamic quant dashboard has been generated.",
+        "synced": "🔗 [Cluega Account Assets] Synced the following 3 social accounts:",
+        "dashboard": "UK - Bluetooth earphones DM campaign dynamic dashboard"
+      }
+    },
+    "hero": {
+      "subtitle": "Let data speak and insights act. Move beyond manual analysis and into millisecond-level decision making."
+    },
+    "askAnything": {
+      "examples": {
+        "analysisPrompt": "Analyze EcoSip insulated cup spend, ROAS, and best placements on Meta and TikTok over the past 7 days.",
+        "analysisThought": "Analyzing...",
+        "visualizationThought": "Building chart...",
+        "okPrompt": "Visualize as chart",
+        "diagnosisPrompt": "Why did conversion rate drop in Malaysia this week? Diagnose the cause and give recommendations.",
+        "diagnosisThought": "Diagnosing...",
+        "diagnosisActionPrompt": "Diagnostic",
+        "diagnosisActionThought": "Building diagnostic table...",
+        "planLaunchPrompt": "Following the recommendation, publish the EcoSip spring promotion plan with a budget of $180/day and enable full autopilot.",
+        "planLaunchThought": "Publishing plan...",
+        "planListPrompt": "Plan list",
+        "planListThought": "Loading campaign plans..."
+      },
+      "chart": {
+        "ariaLabel": "Ad spend and ROAS chart for the last 7 days",
+        "cost": "COST",
+        "roas": "ROAS"
+      },
+      "performanceTable": {
+        "headers": {
+          "placement": "Ad placement",
+          "platform": "Platform",
+          "cvr": "Conversion rate",
+          "cpc": "Cost per click",
+          "rating": "Rating"
+        },
+        "ratings": {
+          "conversionKing": "🏆 Conversion king",
+          "lowestTrafficCost": "💰 Lowest traffic cost",
+          "stableGrowthPoint": "Stable growth point"
+        }
+      },
+      "analysis": {
+        "intro": "I have pulled the last 7 days of full-funnel data and analyzed your question:",
+        "spendLabel": "Ad spend (Spend):",
+        "spendBody": "Total spend across platforms is $6,450.00. Meta accounts for $2,050.00, TikTok accounts for $2,800.00, and Google Ads covers the remaining gap.",
+        "roasLabel": "Performance return (ROAS):",
+        "roasBody": "Overall ROAS is up 12% from last week. TikTok is strongest (3.4x), Google Ads follows closely (4.1x), and Meta needs structural optimization (2.9x).",
+        "placementLabel": "Best placement (Best Placement):",
+        "placementBody": "The data shows TikTok Feed has the highest conversion rate (4.2%), while Instagram Reels has the lowest cost per click ($0.42).",
+        "chartPrompt": "Would you like me to visualize this data as a chart?",
+        "chartPromptCta": "Visualize as chart"
+      },
+      "visualization": {
+        "intro": "Sure, here is the visualization of ad spend and ROAS across platforms for the last 7 days:",
+        "recommendation": "Based on CDP attribution data, TikTok Feed still has room to scale. Would you like me to move budget from underperforming Meta conversion campaigns to that placement and provide scaling creative recommendations for these two best placements?",
+        "replyPrefix": "Reply",
+        "execute": "Budget transfer",
+        "executeSuffix": "and I will prepare a budget reallocation plan; reply",
+        "creative": "Creative recommendation",
+        "creativeSuffix": "and I will provide scaling creative recommendations for these two top placements."
+      },
+      "diagnosis": {
+        "intro": "Diagnosis complete. Based on real-time CDP tracking for Malaysia (Region 3), I found 3 core issues causing conversion rate to decline:",
+        "issues": [
+          "Creative fatigue: primary video creative frequency has reached 4.8, and CTR dropped from 2.4% to 1.9%.",
+          "Budget mismatch: 68% of the Advantage+ budget is being allocated to high-cost audiences.",
+          "Loading delay: mobile landing page LCP is 4.2s, causing 71% traffic loss."
+        ],
+        "prompt": "Do you want to view the detailed diagnostic checklist and repair actions?",
+        "promptCta": "Diagnostic"
+      },
+      "diagnosisAction": {
+        "intro": "Here is the",
+        "introCta": "issues-to-fix checklist",
+        "recommendation": "I have the repair scripts ready. Should I automatically run the optimizations above for you?",
+        "execute": "Execute"
+      },
+      "diagnosticTable": {
+        "title": "📊 Data component: Smart diagnostic list",
+        "headers": {
+          "target": "Diagnostic target",
+          "metric": "Abnormal key metric",
+          "baseline": "Baseline",
+          "current": "Current value",
+          "action": "AI recommended action"
+        },
+        "rows": {
+          "creative": {
+            "target": "Creative VID_05",
+            "metric": "Click-through rate (CTR)",
+            "baseline": "2.4%",
+            "current": "1.9%",
+            "action": "Pause and replace with new ART creative"
+          },
+          "budget": {
+            "target": "Budget allocation",
+            "metric": "Conversion cost (CPA)",
+            "baseline": "$8.40",
+            "current": "$14.20",
+            "action": "Shift budget toward male high-conversion segments"
+          },
+          "page": {
+            "target": "Page performance",
+            "metric": "Load time (LCP)",
+            "baseline": "2.5s",
+            "current": "4.2s",
+            "action": "Enable WebP compression and lazy-load"
+          }
+        }
+      },
+      "planLaunch": {
+        "intro": "Plan publishing request received. I am syncing the EcoSip spring promotion plan to Meta, TikTok, and Google Ads accounts.",
+        "items": {
+          "status": {
+            "label": "Status:",
+            "body": "API handshake request submitted."
+          },
+          "optimization": {
+            "label": "Optimization:",
+            "body": "AI has completed creative pre-review and is expected to reduce platform review time by 60%."
+          },
+          "monitoring": {
+            "label": "Monitoring:",
+            "body": "24/7 automatic stop-loss strategy is enabled. When CPA exceeds $4.80, spending will pause automatically."
+          }
+        },
+        "prompt": "Do you want to view the real-time campaign delivery list?",
+        "promptCta": "Plan list"
+      },
+      "planList": {
+        "intro": "Sure, here is the real-time delivery list currently managed by me:",
+        "recommendation": "The system has locked the target ROAS. Do you want me to generate a dedicated real-time marketing dashboard so you can monitor progress at any time? Reply",
+        "dashboard": "Dashboard"
+      },
+      "adPlanTable": {
+        "title": "My AD Campaign Plans",
+        "headers": {
+          "name": "Plan name",
+          "budget": "Daily budget ($)",
+          "period": "Flight period",
+          "status": "Status"
+        },
+        "rows": {
+          "spring": {
+            "name": "EcoSip Spring Promotion Plan",
+            "budget": "$180.00",
+            "period": "04.17 - 05.31",
+            "status": "Live"
+          },
+          "scenario": {
+            "name": "EcoSip Camping Scenario Plan",
+            "budget": "$80.00",
+            "period": "05.01 - 05.21",
+            "status": "Approved"
+          },
+          "test": {
+            "name": "EcoSip 3% Test Plan",
+            "budget": "$80.00",
+            "period": "05.15 - 05.29",
+            "status": "In review"
+          }
+        }
+      }
+    },
+    "footer": {
+      "line1": "Built for decision efficiency. Unified by full-stack data.",
+      "line2": "Powered by the Cluega AI decision engine.",
+      "contact": "Contact a solutions expert",
+      "signup": "Sign up now for 1000 Tokens"
+    },
+    "promptLibrary": {
+      "title": "Turn the expertise of top global media buyers into marketing playbooks you can launch in one click.",
+      "description": "Use Cluega community prompts, model skills, self-running agents, and fully managed modules out of the box, so complex ad launches and optimization become routine work.",
+      "cards": {
+        "tiktok-ads": {
+          "title": "TikTok Ads",
+          "description": "Run and track TikTok ad performance",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "meta": {
+          "title": "Meta",
+          "description": "Manage Facebook and Instagram ads",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "shopify": {
+          "title": "Shopify",
+          "description": "Orders and global e-commerce data management",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "WhatsApp Business messaging and global support",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "google-sheets": {
+          "title": "Google Sheets",
+          "description": "Read and write spreadsheets in real time with cloud collaboration",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "google-ads": {
+          "title": "Google Ads",
+          "description": "Google Search and Display Network campaigns worldwide",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "zalo": {
+          "title": "Zalo",
+          "description": "Zalo Official Account global messaging and engagement",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "tiktok-shop": {
+          "title": "TikTok Shop",
+          "description": "TikTok commerce orders and global product sync",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "line": {
+          "title": "LINE",
+          "description": "LINE Official Account messaging and global customer engagement",
+          "badgeLabel": "Cluega app authorization"
+        },
+        "lark": {
+          "title": "Lark",
+          "description": "Cross-border team collaboration, messaging, and calendar management",
+          "badgeLabel": "Cluega app authorization"
+        }
+      }
+    },
+    "universalContext": {
+      "poweredBy": "Powered by Brand",
+      "whyTitle": "Why can Cluega do all this?",
+      "features": {
+        "semanticIntent": {
+          "title": "Semantic intent parsing",
+          "description": "Translates an advertiser’s natural language directly into system API instructions. Even as full-funnel data scales, retrieval stays millisecond-fast."
+        },
+        "brandAssets": {
+          "title": "Seed brand-owned assets",
+          "description": "Embeds your brand voice, core product details, and sales methodology into the system foundation so AI Agent outputs never drift from positioning."
+        },
+        "patternRecognition": {
+          "title": "Intelligent fluctuation and pattern recognition",
+          "description": "Automatically traces marginal performance and interaction data across platforms. Cluega AI focuses on global peaks and abnormal trends, not only single ad group profit and loss."
+        },
+        "appConnections": {
+          "title": "Seamless global app connections",
+          "description": "Connects WhatsApp, Zalo, TikTok Ads, Shopify, and more. Break data silos and bring omnichannel conversations and ad performance into one brand nervous system."
+        },
+        "localization": {
+          "title": "Cross-border multilingual localization",
+          "description": "Command local languages with precision. Speak to global customers in native cultural nuance, or generate localized creative in batches."
+        }
+      }
+    },
+    "customerIntelligence": {
+      "title": "Simple to operate, yet a high-efficiency all-in-one agent.",
+      "tabs": {
+        "media-buyer": {
+          "label": "Media buyer",
+          "headline": "Turn precise data signals into millisecond-level profit decisions.",
+          "description": "AI monitors cross-platform marginal costs so every dollar of ad budget converts into profit at the optimal moment."
+        },
+        "creative-director": {
+          "label": "Creative director",
+          "headline": "Extract breakout DNA so visual output never outruns business logic.",
+          "description": "Anchor performance data to visual traits and drive the ART engine to generate a matrix of creatives with conversion life."
+        },
+        "customer-success": {
+          "label": "Customer success",
+          "headline": "Give every global conversation brand ownership and conversion power.",
+          "description": "Unify IM attribution so every DM reply lands on the customer’s true purchase intent."
+        },
+        "founders": {
+          "label": "Founder / CEO",
+          "headline": "Build the single source of truth for your brand stack and feel global growth in real time.",
+          "description": "Extract brand assets from fragmented data silos so every strategic expansion is grounded in evidence."
+        },
+        "market-consultant": {
+          "label": "Market consultant",
+          "headline": "Distill strategy paths for the next growth point from massive market noise.",
+          "description": "Using CDP full-funnel modeling, deliver objective, scientific, and executable end-to-end market guidance."
+        }
+      },
+      "preview": {
+        "common": {
+          "addObject": "Add target"
+        },
+        "media-buyer": {
+          "conversation": {
+            "userPrompt": "Help me optimize my ad plan: EcoSip Thermos — Spring/Summer Promotion, and allocate the budget.",
+            "reply1": {
+              "searching": "🔍 Searching global plans...",
+              "locked": "Locked: \"EcoSip Thermos — Spring/Summer Promotion\"",
+              "diagnosis": "📊 Smart diagnostic analysis: CPA is 23% above benchmark due to Meta main creative fatigue and budget misallocation."
+            },
+            "labels": {
+              "attribute": "Attribute:",
+              "value": "Value:"
+            },
+            "plans": {
+              "plan1": {
+                "header": "Cluega AI // Budget allocation",
+                "title": "Execution plan 1:",
+                "attribute": "Cross-channel budget reallocation",
+                "value": "Meta -$1,200.00 ➡ Increase TikTok Feed +$1,800.00"
+              },
+              "plan2": {
+                "header": "Meta Ads // Creative optimization",
+                "title": "Execution plan 2:",
+                "attribute": "Auto swap creative",
+                "value": "Pause fatigued creative VID_05 ➡ Replace with ART new VID_v14_Hook"
+              },
+              "plan3": {
+                "header": "TikTok Ads // Bid cap optimization",
+                "title": "Execution plan 3:",
+                "attribute": "Adjust bid cap",
+                "value": "Target CPA $4.80 ➡ $4.12"
+              }
+            },
+            "reply3": {
+              "oldPrompt": "Reply \"Execute\" to immediately and fully automatically sync all accepted parameter changes to the TikTok and Meta backend APIs.",
+              "modifiedLabel": "Modified to:",
+              "prompt": "Please confirm whether to execute the above actions?",
+              "execute": "Execute",
+              "imageButton": "[Image]"
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Campaign plan",
+              "items": [
+                "Campaign ID",
+                "Target CPA",
+                "Budget cap",
+                "+ 12 more dimensions"
+              ]
+            },
+            "center": {
+              "title": "AI execution agent",
+              "items": [
+                "Rule-based deployment",
+                "API budget signals",
+                "Exception handling"
+              ]
+            },
+            "right": {
+              "title": "Performance feedback",
+              "items": [
+                "Assist ROAS",
+                "Token consumption",
+                "Conversion count"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Plan name",
+              "Strategy goal",
+              "Live status",
+              "Budget authority",
+              "(Interactive add-on) Alert trigger"
+            ],
+            "rows": [
+              {
+                "name": "TikTok_APAC_New_Product",
+                "goal": "CPA < $4.5",
+                "status": "AI auto-optimizing",
+                "permission": "System",
+                "interaction": "0 alerts"
+              },
+              {
+                "name": "Meta_Global_Growth",
+                "goal": "Maximize conversions",
+                "status": "Target achieved (CPA $3.2)",
+                "permission": "Admin",
+                "interaction": "1 alert (auto bid adjustment)"
+              },
+              {
+                "name": "Google_Keyword_Matrix",
+                "goal": "Maintain ROAS",
+                "status": "Auto-paused for efficiency",
+                "permission": "System",
+                "interaction": "0 alerts"
+              },
+              {
+                "name": "X Ads_Promo_Push",
+                "goal": "Maximize reach",
+                "status": "Delayed data return",
+                "permission": "Admin",
+                "interaction": "2 alerts"
+              }
+            ]
+          }
+        },
+        "creative-director": {
+          "conversation": {
+            "userPrompt": "What were the best-performing creative genes last week?",
+            "taskHeader": "Cluega AI: Conversion paths analyzed — 3 visual components stand out:",
+            "suggestedLabel": "Suggested action",
+            "suggestedAction": "Would you like to create variant assets based on these video patterns?"
+          },
+          "geneCard": {
+            "title": "🧬 ART winning-pattern library",
+            "playAll": "Play all",
+            "rows": {
+              "hook": {
+                "title": "3-second suspense hook",
+                "assetId": "(VID_V14_Hook)",
+                "metric": "(42% higher retention)",
+                "playLabel": "Play 3-second suspense hook"
+              },
+              "closeup": {
+                "title": "Product detail macro close-up",
+                "assetId": "(VID_S05_CloseUp)",
+                "metric": "(CTR 3.8%)",
+                "playLabel": "Play product detail macro close-up"
+              },
+              "scenario": {
+                "title": "Scenario contrast pain-point solve",
+                "assetId": "(VID_W21_Scenario)",
+                "metric": "(ROAS 4.2x)",
+                "playLabel": "Play scenario contrast pain-point solve"
+              }
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Winning pattern DNA",
+              "items": [
+                "Visual components",
+                "High-frequency keywords",
+                "Watch time",
+                "+ 7 more dimensions"
+              ]
+            },
+            "center": {
+              "title": "ART generation engine",
+              "items": [
+                "Brand context",
+                "Asset matrix variables",
+                "Style transfer"
+              ]
+            },
+            "right": {
+              "title": "Distribution center",
+              "items": [
+                "TikTok media library",
+                "FB Creative Hub",
+                "Asset scheduling"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Asset type",
+              "Winning signal tag",
+              "AI generation progress",
+              "ROI potential",
+              "(Interactive add-on) Recommended audience"
+            ],
+            "rows": [
+              {
+                "asset": "Short_Video_Variant_V14",
+                "signal": "Shock opener + reversal",
+                "progress": "Completed (1,000 sets)",
+                "roi": "High potential",
+                "audience": "Gen Z"
+              },
+              {
+                "asset": "Static_Poster_S05",
+                "signal": "High contrast + promo UI",
+                "progress": "Rendering (45/100)",
+                "roi": "Medium potential",
+                "audience": "Early-career professionals"
+              },
+              {
+                "asset": "Script_Series_W21",
+                "signal": "Emotion-led storytelling",
+                "progress": "Synced to media library",
+                "roi": "Excellent",
+                "audience": "High-intent women"
+              },
+              {
+                "asset": "UGV_Analog_Video",
+                "signal": "Human review perspective",
+                "progress": "Waiting for data feed",
+                "roi": "To be evaluated",
+                "audience": "Cross-border shoppers"
+              }
+            ]
+          }
+        },
+        "customer-success": {
+          "conversation": {
+            "userPrompt": "Write a recovery message for WhatsApp customers who asked about tariffs and then dropped off.",
+            "taskHeader": "Cluega CS Agent: Draft ready. Click the card to preview and edit:",
+            "suggestedLabel": "Suggested action",
+            "suggestedAction": "Reply \"Send\" to deploy this personalized template directly to WhatsApp and batch-send it now."
+          },
+          "draftCard": {
+            "previewLabel": "WhatsApp batch-send content:",
+            "previewTitle": "EcoSip VIP first-order offer & full tariff subsidy notice",
+            "previewBody": "Hi, thank you for your interest in EcoSip. We noticed you hesitated at checkout. To make the experience risk-free, we prepared an exclusive discount code for you. Order today and we will fully cover the tariff...",
+            "channel": "WhatsApp",
+            "batchLabel": "batch send content:",
+            "subject": "EcoSip VIP first-order offer & full tariff subsidy notice",
+            "message": {
+              "line1": "Hi, thank you for your interest in EcoSip. We noticed you hesitated at checkout.",
+              "line2": "To make the experience risk-free, we prepared an exclusive discount code for you. Order today and we will fully cover",
+              "line3": "the tariff..."
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Direct message leads",
+              "items": [
+                "Customer ID",
+                "Channel source",
+                "Interaction summary",
+                "+ 6 more dimensions"
+              ]
+            },
+            "center": {
+              "title": "IM attribution center",
+              "items": [
+                "Matched asset ID",
+                "Keyword hit",
+                "Intent scoring"
+              ]
+            },
+            "right": {
+              "title": "Conversion dashboard",
+              "items": [
+                "Order amount",
+                "Projected LTV",
+                "Close velocity"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Customer ID",
+              "Consultation channel",
+              "Attributed ad source / asset",
+              "Purchase intent score",
+              "(Interactive add-on) AI intervention"
+            ],
+            "rows": [
+              {
+                "customerId": "User_SJ_9981",
+                "channel": "WhatsApp",
+                "source": "[VID_02] Summer dress",
+                "intent": "High intent",
+                "aiAction": "Send coupon"
+              },
+              {
+                "customerId": "User_DC_7362",
+                "channel": "Zalo",
+                "source": "[IMG_05] Promo campaign image",
+                "intent": "In consultation",
+                "aiAction": "Product QA"
+              },
+              {
+                "customerId": "User_KL_4430",
+                "channel": "TikTok DM",
+                "source": "Organic traffic from brand page",
+                "intent": "Early understanding",
+                "aiAction": "None"
+              },
+              {
+                "customerId": "User_RT_5512",
+                "channel": "Messenger",
+                "source": "[VID_12] Influencer lookalike recommendation",
+                "intent": "Considering",
+                "aiAction": "Schedule a call"
+              }
+            ]
+          }
+        },
+        "founders": {
+          "conversation": {
+            "userPrompt": "How are my current market share and competitive barriers in APAC and North America?",
+            "suggestedLabel": "Suggested action",
+            "suggestedAction": "APAC real-time growth dashboard."
+          },
+          "search": {
+            "label": "Searched: CDP local database & competitors, 8 data sources"
+          },
+          "sources": {
+            "shopify": {
+              "label": "shopify",
+              "short": "S"
+            },
+            "stripe": {
+              "label": "stripe",
+              "short": "St"
+            },
+            "meta": {
+              "label": "meta",
+              "short": "M"
+            },
+            "tiktok": {
+              "label": "tiktok",
+              "short": "T"
+            }
+          },
+          "summary": {
+            "intro": "Here's what you should know:",
+            "body": "Our insulated-cup category has exceeded 54.2% full-channel impression share in APAC, leading the next brand by more than 15%. After connecting payments with the IM attribution ledger, LTV is up 28% and budget reuse efficiency has reached a record high. In North America, high AOV signals suggest strengthening coverage of mid-income lifestyle segments."
+          },
+          "metrics": {
+            "share": {
+              "value": "54.2%",
+              "label": "APAC share"
+            },
+            "ltv": {
+              "value": "+28%",
+              "label": "LTV lift"
+            },
+            "lead": {
+              "value": "+15%",
+              "label": "lead"
+            }
+          },
+          "cards": {
+            "left": {
+              "title": "Organizational assets",
+              "items": [
+                "Regional teams",
+                "Project count",
+                "Token balance",
+                "+ 4 more dimensions"
+              ]
+            },
+            "center": {
+              "title": "Global monitoring",
+              "items": [
+                "API health",
+                "Strategy coverage",
+                "Execution logs"
+              ]
+            },
+            "right": {
+              "title": "Financial reports",
+              "items": [
+                "Real-time burn rate",
+                "CPA margin",
+                "Projected return"
+              ]
+            }
+          },
+          "table": {
+            "headers": [
+              "Monitoring item",
+              "Coverage scope",
+              "Live run state",
+              "Alert level",
+              "(Interactive add-on) Connectivity"
+            ],
+            "rows": [
+              {
+                "item": "APAC full-funnel management",
+                "scope": "TikTok / Meta",
+                "status": "Running normally (Stable)",
+                "alert": "Normal",
+                "connectivity": "Slack connected"
+              },
+              {
+                "item": "Token billing",
+                "scope": "Global AI program",
+                "status": "Healthy balance (85%)",
+                "alert": "Ignore",
+                "connectivity": "Email synced"
+              },
+              {
+                "item": "API connection hub",
+                "scope": "Unified messaging routes",
+                "status": "Meta API fluctuation",
+                "alert": "Medium",
+                "connectivity": "System self-healing"
+              },
+              {
+                "item": "Brand content monitoring",
+                "scope": "AI asset library",
+                "status": "100% brand-aligned",
+                "alert": "Low",
+                "connectivity": "Security certificate updated"
+              }
+            ]
+          }
+        },
+        "market-consultant": {
+          "conversation": {
+            "userPrompt": "Which Southeast Asia e-commerce ad categories have the highest return potential next month?",
+            "taskHeader": "Cluega Planner: Detected 2 high-potential strategic upside windows. Recommended interventions:",
+            "suggestedLabel": "Suggested action",
+            "suggestedAction": "Would you like me to generate an APAC full-cycle market strategy analysis white paper?"
+          },
+          "tasks": {
+            "festival": {
+              "title": "Malaysia holiday promotion period (expected 14-day full-funnel traffic cost trough)",
+              "status": "Strategy window / Focus"
+            },
+            "green": {
+              "title": "Run cross-overlap ad testing for the \"green healthy lifestyle\" audience",
+              "status": "Suggested test / Trial"
+            }
+          }
+        }
+      }
+    },
+    "intelligence": {
+      "title": "Intelligence built for how you work and what you do.",
+      "cards": {
+        "real": {
+          "title": "Real stream, zero hallucination.",
+          "description": "Every diagnosis, analysis, and decision basis from the system is synced in real time from your connected social platform APIs, store order streams, and verified historical performance."
+        },
+        "permissions": {
+          "title": "Enforced safelands, total privacy.",
+          "description": "Cluega strictly follows your API node permissions and Token budget guardrails. It operates proactively inside a secure sandbox network, never crossing permissions or limits."
+        },
+        "suggestions": {
+          "title": "Prepped by AI. Ruled by humans.",
+          "description": "You stay at the command center. The system refines complex parameters into concrete decisions, while final approval, adjustment, or rejection remains 100% in your hands."
+        }
+      },
+      "integrations": {
+        "tiktokAds": {
+          "name": "TikTok Ads",
+          "description": "Launch and track TikTok ad performance"
+        },
+        "meta": {
+          "name": "Meta",
+          "description": "Manage Facebook and Instagram ads"
+        },
+        "googleAds": {
+          "name": "Google Ads",
+          "description": "Run Google Search and Display ads"
+        },
+        "googleAnalytics": {
+          "name": "Google Analytics",
+          "description": "Analyze website traffic and conversions"
+        }
+      }
+    },
+    "capabilities": {
+      "breakDown": {
+        "title": "Break down problems together",
+        "description": "Cluega builds on your ideas, expands on your logic, and simplifies complexity one step at a time."
+      },
+      "tackle": {
+        "title": "Tackle your toughest work",
+        "description": "Cluega provides expert-level collaboration on the things you need to get done—from coding a product to critical data analysis."
+      },
+      "explore": {
+        "title": "Explore what's next",
+        "description": "Like an expert in your pocket, collaborating with Cluega expands what you can build on your own or with teams."
+      }
+    }
+  },
+  "platformAi": {
+    "hero": {
+      "eyebrow": "The Model Layer for Marketing",
+      "titleLead": "One gateway,",
+      "titleHighlight": "orchestrating every model in the world.",
+      "subtitle": "Plug into 400+ models, with a single unified gateway on the front end. Cluega automatically switches to the best model for each marketing task, and turns every interaction into an asset that belongs to your company.",
+      "primaryCta": "Start for free",
+      "secondaryCta": "Book a demo",
+      "badge": "Auto · 400+ models · Marketing-native",
+      "widget": {
+        "title": "Cluega AI",
+        "cycles": [
+          {
+            "prompt": "Forecast my Meta ad bids for next week's big sale — how should I set the CPA?",
+            "result": "Best estimated CPA for next week is $18. A CPA-managed model is configured for you — one tap to auto-optimize and cut it 12.4%...",
+            "model": "GPT-4o"
+          },
+          {
+            "prompt": "Copy for the new EcoSip launch — which angle fits the brand's tone?",
+            "result": "Social sentiment monitoring shows the public cares most about material safety. Recommend anchoring on '100% medical-grade stainless steel' and 'long-lasting cold,' already auto-generated...",
+            "model": "Claude 3.5"
+          },
+          {
+            "prompt": "Grab the hottest meme on social right now and turn it straight into a TikTok ad to publish.",
+            "result": "Organic social reach unlocked! Fresh creative is generated end-to-end and pushed live, projected to save you 18%...",
+            "model": "Gemini 1.5 Pro"
+          }
+        ]
+      }
+    },
+    "logoWall": {
+      "transition": "Plug into 400+ models — we orchestrate solely for marketing.",
+      "capsule": "+ 400 models"
+    },
+    "auto": {
+      "titleLead": "Auto model:",
+      "titleRest": "the right model for the right task.",
+      "subtitle": "Cluega understands the marketing logic behind digital ad campaigns—what should go to a high-IQ model for decisions, and what should be handed to a small model for data cleaning. Through dynamic routing and prompt caching, we cut 90% of your system’s compute cost.",
+      "cards": {
+        "flagship": {
+          "title": "High-IQ tasks go to flagship models",
+          "body": "Campaign strategy, bid prediction, creative decisions—tasks that require \"deep thinking\" are automatically routed to top-tier models, so decision quality is never compromised.",
+          "visual": {
+            "bubble": "Plan the overall strategy for EcoSip's Black Friday mega-sale.",
+            "midLabel": "Strategy decision hub",
+            "midTitle": "Market-wide costs are set to rise—recommend setting CPA to $22-$25.",
+            "midStatus": "Budget split: Meta 60% / Google 40%",
+            "lowLabel": "Brand context alignment",
+            "lowTitle": "Material trending across the web; copy locked on \"medical-grade stainless steel.\"",
+            "lowSubtitle": "Aligned to brand tone, filtered out ineffective extensions",
+            "button": "View all"
+          }
+        },
+        "small": {
+          "title": "Grunt work goes to small models",
+          "body": "Data cleaning, tagging, bulk classification, asset processing—high-frequency, low-complexity tasks are batch-processed by small models. This is where the 90% cost savings come from.",
+          "visual": {
+            "bubble": "Batch-classify last month's 500 historical creatives by high/low click-through rate.",
+            "line1": "GPT-4o-mini has finished processing.",
+            "line2": "High-frequency tasks are auto-routed, saving you 90% in compute cost.",
+            "cardLabel": "Batch classification report",
+            "cardTitle": "500 ad creatives auto-grouped by high/low CTR",
+            "highGroup": "High performers",
+            "highCount": "120 classified",
+            "lowGroup": "Low performers",
+            "lowCount": "380 classified..."
+          }
+        },
+        "cache": {
+          "title": "Prompt caching, millisecond hits",
+          "body": "Marketing scenarios are highly repetitive. Cached prompts return instantly, so you never burn compute on the same thing twice.",
+          "visual": {
+            "bubble": "The Meta ad audience seems fatigued—today the tumbler's CTR fell below 1% and ROAS dropped to 1.2. The campaign is still running. How do we save it now?",
+            "statusLabel": "Prompt cache hit",
+            "solutionsLabel": "Solution:",
+            "sol1Lead": "Stop the bleeding:",
+            "sol1Text": "immediately turn off the 2 worst-performing old image-text ads with frequency above 3.5 today, and shift 30% of budget to backup \"unboxing short-video\" creatives.",
+            "sol2Lead": "Clean the audience:",
+            "sol2Text": "check custom audiences, make sure \"buyers from the past 30 days\" are strictly excluded, and widen the pool by scaling the Lookalike ratio from 1% to 3%–5%.",
+            "sol3Lead": "Defend the budget:",
+            "sol3Text": "if CPM (cost per thousand impressions) still hasn't come down by 4 PM, the auction is overheated—immediately cut this campaign's budget by 50% and launch a new one running \"add to cart\" to warm up."
+          }
+        },
+        "token": {
+          "title": "One token on the front end, dynamic optimization on the back end",
+          "body": "The client only consumes a unified \"marketing token,\" while on the back end we run real-time compute arbitrage (Token Arbitrage) across 400+ models. Simple billing, optimal cost.",
+          "visual": {
+            "bubble": "Make 10 American-English TikTok shoppable short videos for the new EcoSip product, with voiceover and visuals generated automatically.",
+            "hint": "Front end settled as one:",
+            "hintStrong": "3,200 Tokens",
+            "cardHeader": "Multi-model video generation line",
+            "cardButton": "Preview",
+            "row1Title": "GPT-4o-mini (300 Tokens) | Script writing",
+            "row2Title": "ElevenLabs (900 Tokens) | Voice synthesis",
+            "row3Title": "Runway Gen-3 (2,000 Tokens) | Shoppable video generation"
+          }
+        }
+      },
+      "quote": {
+        "text": "With the same budget, Cluega saves every bit of compute it can, and turns all of it into campaign performance.",
+        "author": "Ryan",
+        "role": "Media Buying Manager, Cluega"
+      }
+    },
+    "industry": {
+      "titleLead": "More than routing,",
+      "titleRest": "with in-house industry models.",
+      "subtitle": "General models miss the unwritten rules of each vertical — gaming user acquisition, e-commerce mega-sales, and more. Cluega builds a dedicated marketing model for every industry.",
+      "tabs": {
+        "game": {
+          "title": "Game industry marketing model",
+          "description": "Built-in understanding of ROAS, LTV, payback periods, user-acquisition creative language, and channel mix. It’s not a \"model that chats better\"—it’s a \"model that understands user acquisition better.\"",
+          "visual": {
+            "prompt": "For a hybrid-monetization casual game's TikTok creatives in the US, which art style drives a lower CPI while still guaranteeing next-day retention?",
+            "model": "Cluega-GameLLM"
+          }
+        },
+        "library": {
+          "title": "An extensible library of industry models",
+          "description": "E-commerce · consumer finance · app subscriptions · local IM customer acquisition… Industry models keep expanding, and each one inherits Cluega’s orchestration and context capabilities.",
+          "visual": {
+            "cards": [
+              {
+                "text": "Built-in GMV forecasting model that precisely optimizes cross-border e-commerce ROI",
+                "model": "Cluega-EcomLLM"
+              },
+              {
+                "text": "Deeply understands bad-debt rates and risk routing to lift consumer-finance installment conversion",
+                "model": "Cluega-FinLLM"
+              },
+              {
+                "text": "Dynamically analyzes first-week paying behavior to reduce app subscription churn",
+                "model": "Cluega-SubLLM"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "context": {
+      "titleLead": "Switch as many models as you like,",
+      "titleRest": "they always remember your brand.",
+      "subtitle": "Cluega builds a dedicated knowledge base for your enterprise, fully preserving the core brand assets, creative context, and data assets generated as every employee interacts across different models. No matter which model is called underneath, the context always belongs to you.",
+      "cards": {
+        "store": {
+          "title": "Automated brand-tone alignment",
+          "body": "Upload your company materials and Cluega instantly reads and deeply understands them. No matter which underlying model your team calls, the system auto-calibrates so every line of copy and every visual precisely matches your brand settings.",
+          "visual": {
+            "tabLabel": "Cluega",
+            "user1Name": "Cluega 1.2 Lite",
+            "user1Text": "Successfully read and parsed your uploaded 《2026 Brand Visual & Copy Whitepaper.pdf》. Core tone auto-locked: tech-crafted, calm and objective, refined and professional.",
+            "user2Name": "Sarah Chen"
+          }
+        },
+        "switch": {
+          "title": "Intelligent retention and forecasting of business data",
+          "body": "Fully preserve your core data assets. Cluega not only securely locks historical data, but—based on past performance—automatically spots current campaign issues and precisely forecasts where things are heading.",
+          "visual": {
+            "headerTitle": "2026 Q1 EcoSip New Product Campaign",
+            "tab1Label": "Data retention",
+            "tab2Label": "Smart diagnosis",
+            "row1Label": "Retention status",
+            "row1Value": "Synced",
+            "row2Label": "Campaign period",
+            "row2Value": "2026.01.01 - 2026.03.31",
+            "row3Label": "Project owner",
+            "row3Value": "Alex Wong"
+          }
+        },
+        "compound": {
+          "title": "Cross-model context continuity",
+          "body": "A complete record of how creatives and copy evolve. When people across departments switch to different models, the AI still picks up the prior context precisely, letting creative and marketing strategy hand off seamlessly.",
+          "visual": {
+            "centerTitle": "EcoSip script library",
+            "centerSubtitle": "Script evolution history",
+            "centerItem0": "v1.0_Nordic Minimalist Concept",
+            "centerItem1": "v1.1_Office Pain-Point Scenario",
+            "centerItem2": "v1.2_Pure Titanium Deep Review",
+            "centerItem3": "v2.0_Summer Iced-Drink Outdoor Visual",
+            "centerItem4": "v2.1_Limited Early-Bird Unlock Perk",
+            "rightTitle": "Smart coffee machine script library",
+            "rightSubtitle": "Script evolution history",
+            "rightItem0": "v1.0_Morning Wake-Up Aesthetic",
+            "rightItem1": "v2.0_Weekend Home Café",
+            "rightItem2": "v2.1_Latte Art Beginner Tutorial"
+          }
+        }
+      },
+      "flywheel": {
+        "body": "When employees call AI inside Cluega, run campaigns, and see \"clear results\" through the attribution system, the process forms a closed loop. Every batch of campaign data feeds back into Cluega’s context, making the next AI generation understand your brand even better.",
+        "center": "Universal Context",
+        "outerLabel": "Models can change, context is never lost.",
+        "steps": {
+          "generate": "Call AI to generate",
+          "execute": "Run campaigns",
+          "attribute": "See clear results via attribution",
+          "settle": "Settle back into context"
+        }
+      }
+    },
+    "security": {
+      "titleLead": "Enterprise-grade security,",
+      "titleRest": "built in at the foundation.",
+      "subtitle": "Multiple models, multiple employees, multiple tenants—all orchestration runs on top of enterprise-grade isolation and permissions. Security isn’t an add-on option; it’s Cluega’s default.",
+      "cards": {
+        "isolation": {
+          "title": "Multi-tenant data isolation",
+          "body": "Physical data isolation between tenants (at the ClickHouse level), so enterprise assets never leak or cross over."
+        },
+        "rbac": {
+          "title": "Fine-grained permissions (RBAC / IAM)",
+          "body": "Role-based permissions and identity management—who can call which model and view which data is fully controllable and auditable."
+        },
+        "compliance": {
+          "title": "Compliance and authorization",
+          "body": "OAuth authorization, user-scoped permissions, and local data compliance (including PDPL)—security design runs through every single model call."
+        }
+      },
+      "trustStrip": "Multi-tenant · RBAC · OAuth · PDPL-ready"
+    },
+    "platformShelf": {
+      "titleLead": "Models are just the starting point.",
+      "subtitle": "From model orchestration to a complete marketing intelligence platform. Every module shares the same context and security foundation.",
+      "items": {
+        "ai": "Know Cluega AI",
+        "im": "IM instant messaging system",
+        "adOptimization": "Ad delivery & optimization",
+        "marketingDashboard": "Real-time marketing dashboard",
+        "marketInsights": "Market insights",
+        "ecommerce": "E-commerce operations",
+        "agent": "Agent",
+        "aiVisual": "AI visual design"
+      }
+    },
+    "cta": {
+      "heading": "Put the right task on the right model — the backend saves your compute automatically.",
+      "demo": "Book a Demo",
+      "start": "Start for free"
+    }
+  },
+  "partners": {
+    "announcement": "New: modular creative remix × multi-day async orchestration — buying decisions run inside the guardrails.",
+    "hero": {
+      "eyebrow": "Fully-Managed Ad-Buying Agent",
+      "title": "You set the goal. The system buys.",
+      "subtitle": "Define your 7-day target volume and CPA. Creative refresh, launch and budget moves are decided by a team of agents inside hard guardrails — reported to you proactively on Lark. Not rule-based automation: we encode a senior media buyer's judgment into a system you can hand the wheel to.",
+      "primaryCta": "Book a demo",
+      "secondaryCta": "See how it works"
+    },
+    "team": {
+      "title": "An always-on AI buying team",
+      "subtitle": "Not a chatbot — a multi-agent control loop where each role does one job well.",
+      "items": {
+        "diagnostician": {
+          "name": "Diagnostician",
+          "description": "reads the data and names the cause: creative fatigue, audience saturation, stuck learning phase."
+        },
+        "strategist": {
+          "name": "Strategist",
+          "description": "decides the next move, and how much, within the category playbook's bounds."
+        },
+        "creative": {
+          "name": "Creative",
+          "description": "remixes proven assets (hook × clip × CTA) into challengers, instead of generating from scratch."
+        },
+        "critic": {
+          "name": "Critic",
+          "description": "reviews every spend before it happens, blocking hallucinations and unsafe moves."
+        },
+        "executor": {
+          "name": "Executor",
+          "description": "calls only whitelisted, parameter-validated actions, and enforces tenant boundaries."
+        },
+        "reflector": {
+          "name": "Reflector",
+          "description": "builds per-account memory and feeds each round's results back into the next decision."
+        }
+      }
+    },
+    "ladder": {
+      "title": "Autonomy is earned, not granted",
+      "subtitle": "Start at L1 advisory. Climb to L3 full autonomy as decision-agreement is proven, level by level.",
+      "items": {
+        "l1": {
+          "name": "L1 Advisory",
+          "scope": [
+            "full diagnosis & proposals",
+            "every action needs your approval",
+            "builds the decision log and agreement rate",
+            "start on day one."
+          ],
+          "footer": "Upgrade: ≥70% agreement for 2 weeks."
+        },
+        "l2": {
+          "name": "L2 Semi-managed",
+          "scope": [
+            "low-risk moves (swap creative, small budget tweaks) run automatically",
+            "high-risk still needs sign-off",
+            "brand gate included."
+          ],
+          "footer": "Upgrade: ≥80% for 3 weeks, zero major incidents."
+        },
+        "l3": {
+          "name": "L3 Fully managed (guardrailed)",
+          "scope": [
+            "fully automatic under hard caps and risk control",
+            "auto-rollback to last-known-good on anomalies",
+            "full Lark interaction + health monitoring."
+          ],
+          "footer": "Above: L4 cross-account portfolio orchestration."
+        }
+      },
+      "ctaText": "Want to know which level your accounts qualify for? Talk to us.",
+      "ctaButton": "Book a demo"
+    },
+    "onboarding": {
+      "title": "Four steps to hand over your buying",
+      "subtitle": "From connection to full autonomy — risk released level by level.",
+      "steps": {
+        "connect": {
+          "title": "Connect & set goals",
+          "description": "link your ad platforms and MMP; set 7-day target volume and CPA."
+        },
+        "advisory": {
+          "title": "Advisory run (L1)",
+          "description": "the system diagnoses and proposes, you approve, agreement rate starts building."
+        },
+        "semi": {
+          "title": "Semi-managed (L2)",
+          "description": "low-risk automatic, high-risk approved by you, brand gate live."
+        },
+        "full": {
+          "title": "Full autonomy (L3)",
+          "description": "fully automatic once thresholds are met, hard guardrails and auto-rollback fully on."
+        }
+      },
+      "cta": "Start step one"
+    },
+    "demo": {
+      "title": "Want to see it run on your accounts?",
+      "subtitle": "Leave your details — we'll walk one full decision loop on a real vertical.",
+      "fields": {
+        "name": "Name",
+        "company": "Company",
+        "platform": "Main ad platform",
+        "spend": "Monthly spend",
+        "email": "Email"
+      },
+      "submit": "Book a demo"
+    },
+    "trust": {
+      "title": "Why you can trust it with real money",
+      "subtitle": "Under outcome-based pricing, Cluega carries the decision risk — so guardrails, compliance and isolation aren't features, they're the foundation.",
+      "items": {
+        "guardrails": {
+          "name": "Hard guardrails",
+          "description": "non-overridable budget caps, rate limits, a circuit breaker that auto-pauses and rolls back, a DRS gate, an action whitelist, and a full audit log for every decision."
+        },
+        "brand": {
+          "name": "Brand gate",
+          "description": "logo and fixed elements are composited by code, never sent through a generative model, so they can't be hallucinated; pre-launch QA auto-checks brand palette and platform policy."
+        },
+        "isolation": {
+          "name": "Tenant isolation",
+          "description": "every task is strictly scoped to one tenant with enforced boundary checks; creative and ad data are stored and encrypted per tenant (keys in OCI Vault)."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": {
+        "q1": {
+          "question": "Will full autonomy overspend?",
+          "answer": "No. Non-overridable budget caps, rate limits and a circuit breaker auto-pause and roll back on anomalies; every spend passes risk control first."
+        },
+        "q2": {
+          "question": "Can I start without full autonomy?",
+          "answer": "Yes. Begin at L1 advisory and approve every action — you control how fast autonomy is granted."
+        },
+        "q3": {
+          "question": "Can it hold CPA with little data?",
+          "answer": "That's a physical limit — no one can, human or AI. When reliability (DRS) is too low, it switches to leading indicators or holds still, rather than guessing."
+        },
+        "q4": {
+          "question": "Is the creative AI-generated? Will the brand drift?",
+          "answer": "Logo and fixed elements are composited by code, never generated; pre-launch checks verify palette and platform policy, and block anything that fails."
+        },
+        "q5": {
+          "question": "Will it fight Advantage+/Smart+?",
+          "answer": "No. Bidding is left to the platform; the agent works the portfolio and creative-strategy layers, avoids the platform's learning phase, and won't duplicate same-direction changes."
+        }
+      }
+    },
+    "explore": {
+      "title": "Explore more of Cluega",
+      "items": {
+        "im": {
+          "title": "Cluega IM Attribution",
+          "description": "connect deep conversions across TikTok → Web → Zalo/LINE, an attribution capability few can match.",
+          "cta": "Learn more →"
+        },
+        "mosaic": {
+          "title": "Cluega Customer Success Ops",
+          "description": "don't want to run accounts yourself? Hand operations to a Cluega Customer Success Manager.",
+          "cta": "Learn more →"
+        }
+      }
+    }
+  },
+  "commerceOps": {
+    "hero": {
+      "newPill": "New · Commerce Ops Agent",
+      "title": "One agent that runs your store, every day.",
+      "subtitle": "Connect Shopee, Lazada, TikTok Shop and Zalo/LINE. Cluega diagnoses your store, grows traffic, produces content and manages listings across channels — reported to you on Lark. We encode SEA commerce judgment into a system that acts on its own.",
+      "primaryCta": "Start free",
+      "secondaryCta": "See it run"
+    },
+    "platforms": {
+      "heading": "One agent · all your commerce & IM channels"
+    },
+    "values": {
+      "title": "A new way to run commerce",
+      "items": {
+        "commerce": {
+          "fig": "0.2",
+          "title": "Built for commerce",
+          "description": "shaped by real SEA commerce ops, not a generic chatbot."
+        },
+        "agents": {
+          "fig": "0.3",
+          "title": "Powered by agents",
+          "description": "specialists collaborate: diagnose, grow, create, operate."
+        },
+        "speed": {
+          "fig": "0.4",
+          "title": "Designed for speed",
+          "description": "always on, instant diagnosis, one instruction runs end-to-end."
+        }
+      }
+    },
+    "features": {
+      "items": {
+        "diagnose": {
+          "eyebrow": "1.0 Diagnose",
+          "title": "Know what's wrong before it costs you",
+          "subtitle": "Cluega watches orders, inventory and conversion around the clock. When something shifts, it doesn't just alert you — it diagnoses the cause and tells you how to fix it, before you open the dashboard.",
+          "subpages": [
+            "1.1 Health monitor",
+            "1.2 Anomaly diagnosis",
+            "1.3 Fix suggestions",
+            "1.4 Lark reports"
+          ]
+        },
+        "grow": {
+          "eyebrow": "2.0 Grow",
+          "title": "Show up everywhere buyers search",
+          "subtitle": "Get your products found on Google and TikTok search, and recommended by AI search like ChatGPT and Perplexity — without learning the difference between SEO and GEO.",
+          "subpages": [
+            "2.1 SEO",
+            "2.2 GEO",
+            "2.3 Product copy",
+            "2.4 On-site optimization"
+          ]
+        },
+        "content": {
+          "eyebrow": "3.0 Content",
+          "title": "A month of content in minutes",
+          "subtitle": "Cluega generates a full month of social content, schedules it across channels, and tracks performance — learning what works and adapting over time, cutting manual work dramatically.",
+          "subpages": [
+            "3.1 Generation",
+            "3.2 Scheduling",
+            "3.3 Performance",
+            "3.4 Asset library"
+          ]
+        },
+        "expand": {
+          "eyebrow": "4.0 Expand",
+          "title": "Every channel has a playbook. You have them all",
+          "subtitle": "Built-in skills for Shopee, Lazada, TikTok Shop and Shopify. Expand to new channels without starting from scratch, and track every channel's performance in one place.",
+          "subpages": [
+            "4.1 Shopee",
+            "4.2 Lazada",
+            "4.3 TikTok Shop",
+            "4.4 Unified reporting"
+          ]
+        },
+        "operate": {
+          "eyebrow": "5.0 Operate",
+          "title": "One instruction runs end-to-end",
+          "subtitle": "Give an instruction in chat and Cluega executes across steps on your store: conversational ops, automated skills, channel connectors and scheduled autonomy — four modules, one ops engine.",
+          "subpages": [
+            "5.1 Chat ops",
+            "5.2 Skills",
+            "5.3 Connectors",
+            "5.4 Scheduled autonomy"
+          ]
+        }
+      }
+    },
+    "proof": {
+      "quote": "(real customer quote)",
+      "author": "Name · Brand",
+      "scale": "Cluega powers daily ops for thousands of SEA stores"
+    },
+    "finalCta": {
+      "title": "Built for the next generation of sellers. Available today.",
+      "primaryCta": "Start free",
+      "secondaryCta": "Contact sales"
+    }
+  },
+  "agentBlog": {
+    "announcement": {
+      "text": "New IM Attribution is live: connect every conversation in LINE and Zalo back to your ad ROI",
+      "cta": "Learn more"
+    },
+    "hero": {
+      "category": "Product",
+      "date": "June 2026",
+      "readTime": "4 min read",
+      "author": "[Author name]",
+      "title": "Cluega Agent is live: collaborate with an Agent to manage ad spend inside chat",
+      "excerpt": "No switching dashboards, no new tools to learn. Inside the messaging apps you already use every day, give an instruction in one sentence and the Agent runs your campaigns, replies to customers and pulls data for you. Once you hand spend over to it, it proactively reports performance, flags anomalies early, and DMs you when a call is needed — like a 24/7 marketing partner, with every step attributable."
+    },
+    "featured": {
+      "product": {
+        "category": "Product",
+        "date": "Feb 2026",
+        "title": "More than commands — hand spend to the Agent and it reports back to you",
+        "excerpt": "Once you hand spend to Cluega, it keeps reporting performance in chat, flags anomalies first, and DMs you when a decision is needed. Reply in one sentence to adjust — the whole collaboration stays in one conversation.",
+        "author": "[Name]",
+        "role": "Product"
+      },
+      "perspective": {
+        "category": "Perspectives",
+        "date": "Apr 2026",
+        "title": "In Southeast Asia, the real point of sale is messaging apps, not websites",
+        "excerpt": "Purchase decisions in Vietnam and Thailand happen heavily on LINE OA and Zalo. Miss that, and you miss half your conversions.",
+        "author": "[Name]",
+        "role": "Founder"
+      },
+      "company": {
+        "category": "Company",
+        "date": "Aug 2025",
+        "title": "Cluega's mission: the attribution infrastructure for SEA performance marketing",
+        "excerpt": "We're not building another dashboard. We're filling the layer the whole industry is missing — attributable messaging-app marketing.",
+        "author": "[Name]",
+        "role": "CEO & Co-founder"
+      }
+    },
+    "latest": {
+      "title": "Latest insights",
+      "categories": {
+        "all": "All",
+        "product": "Product",
+        "guides": "Guides",
+        "inside": "Inside Cluega",
+        "perspectives": "Perspectives",
+        "company": "Company"
+      }
+    },
+    "articles": {
+      "p1": {
+        "title": "Cluega Agent is live: collaborate with an Agent to manage ad spend inside chat",
+        "excerpt": "No dashboards — give instructions in chat to run marketing and sales, fully attributable."
+      },
+      "p2": {
+        "title": "Hand spend to the Agent and it reports back to you",
+        "excerpt": "After handover it keeps pushing performance digests, anomaly alerts and pending decisions in chat; reply in one sentence to adjust, all in one conversation."
+      },
+      "p3": {
+        "title": "IM Attribution: connect Zalo and LINE conversations back to your ad ROI",
+        "excerpt": "Repair the broken link in DMs, so conversations and conversions return to the attribution chain."
+      },
+      "p4": {
+        "title": "TikTok → Web → IM: full-path deep attribution",
+        "excerpt": "Track the complete path from ad click to messaging-app conversion across platforms."
+      },
+      "p5": {
+        "title": "Custom Skills: equip your Agent with industry knowledge",
+        "excerpt": "Give the assistant domain-specific expertise and scripts."
+      },
+      "p6": {
+        "title": "Persistent memory + cloud computer: a 24/7 always-on marketing assistant",
+        "excerpt": "Keeps all context, working continuously across conversations and days."
+      },
+      "p7": {
+        "title": "A consistent brand AI identity",
+        "excerpt": "Trained on your workflows and integrated with your existing tools."
+      },
+      "g1": {
+        "title": "How to read the IM conversion funnel in SEA performance marketing",
+        "excerpt": "Turn DM interactions into actionable signals and catch every opportunity in the moment."
+      },
+      "g2": {
+        "title": "From founder-led buying to a scalable buying engine",
+        "excerpt": "After the founder buys hands-on, how to hand the process to systems and Agents."
+      },
+      "g3": {
+        "title": "How media-buying teams automate busywork with Agents",
+        "excerpt": "Research, replies, follow-ups — so people focus on deals that actually close."
+      },
+      "g4": {
+        "title": "5 AI marketing workflows worth running right away",
+        "excerpt": "With command examples you can try directly in Cluega Agent."
+      },
+      "i1": {
+        "title": "Why we're called Cluega",
+        "excerpt": "The story behind the brand name."
+      },
+      "i2": {
+        "title": "We held our first internal Agent Hackathon",
+        "excerpt": "One weekend, putting Agent capabilities in the team's hands to see what grows."
+      },
+      "v1": {
+        "title": "In Southeast Asia, the real point of sale is messaging apps, not websites",
+        "excerpt": "Purchase decisions in Vietnam and Thailand happen heavily on LINE OA and Zalo."
+      },
+      "v2": {
+        "title": "AI-native next-gen marketing: attribution gets rewritten",
+        "excerpt": "Agents don't just summarize — they actually get the work done for you."
+      },
+      "v3": {
+        "title": "Why yet another dashboard won't save your ad spend",
+        "excerpt": "You don't need more charts; you're missing a layer of attributable IM marketing."
+      },
+      "c1": {
+        "title": "Cluega's mission: the attribution infrastructure for SEA performance marketing",
+        "excerpt": "We fill the layer the whole industry is missing."
+      }
+    }
+  },
+  "collab": {
+    "hero": {
+      "chip": "Sarah Lin is collaborating on this session",
+      "h1Lead": "Collaborate, ",
+      "h1Highlight": "without compromising",
+      "h1Rest": " any asset's security.",
+      "subtitle": "Share conversations, invite your team to co-create, and finely control who sees what — one permission system that lets agencies and brands collaborate seamlessly.",
+      "primaryCta": "Start free",
+      "secondaryCta": "Book a demo"
+    },
+    "preview": {
+      "title": "Step into the Cluega collaboration space.",
+      "subtitle": "In one sentence, turn a conversation into a space the whole team can contribute to."
+    },
+    "share": {
+      "title": "Frictionless sharing — visible only to the right people.",
+      "points": {
+        "link": {
+          "title": "Generate a share link in one click.",
+          "desc": "Click share to send an invite; the other party sees only this conversation's scope, and data from your other ad accounts is never leaked — isolation happens at the data layer, not just hidden on the front end."
+        },
+        "session": {
+          "title": "One session, any number of people.",
+          "desc": "Agency partners, brand managers, designers — invite them all into the same conversation; swapping people needs no re-authorization, and revocation takes effect instantly."
+        },
+        "data": {
+          "title": "Data rights follow the account.",
+          "desc": "Unauthorized ad data is fully masked even within the same session; the AI analyzed your account, yet the other party sees nothing beyond their authorized scope."
+        }
+      },
+      "seatLabels": {
+        "operator": "Operator seat",
+        "collaborator": "Collaborator seat"
+      },
+      "members": {
+        "sarah": "Joined 3 min ago · Agency",
+        "chris": "Joined 12 min ago · Brand",
+        "mike": "Joined 24 min ago · Agency",
+        "jenny": "Invite pending · Brand",
+        "kevin": "Joined 1 hr ago · Agency",
+        "lisa": "Joined 2 hr ago · Brand",
+        "alex": "Joined 3 hr ago · Agency"
+      }
+    },
+    "quote": {
+      "text": "Cross-company collaboration used to mean resetting a pile of accounts every time someone new took over; now we just authorize the partner company, and whoever takes over needs no resetup — it saved us half our handover time.",
+      "name": "VP Zhang",
+      "title": "Director of Digital Marketing · A consumer goods group",
+      "avatar": "Z"
+    },
+    "tabs": {
+      "label": "Co-create · Download · Edit",
+      "title": "AI drafts, you refine, take it away in one click.",
+      "items": {
+        "cocreate": {
+          "title": "Co-create: instruct the AI together",
+          "desc": "Invite any member into the conversation; everyone can add instructions and feedback to the AI, every action logs who ran it, fully traceable."
+        },
+        "download": {
+          "title": "Download conversation docs in one click",
+          "desc": "Analysis reports, ad scripts and strategy summaries the AI generates download straight to PDF, Word or Markdown with full formatting — meeting-ready."
+        },
+        "edit": {
+          "title": "Edit assets on the spot",
+          "desc": "Not happy with a generated ad image? Remove the background, resize or regenerate part of it right inside Cluega, then launch."
+        },
+        "video": {
+          "title": "Rework videos and copy",
+          "desc": "Ad videos can be re-timed and re-captioned; copy can be edited again right in the conversation, and the AI remembers your intent so next time is sharper."
+        }
+      }
+    },
+    "bento": {
+      "title": "Every collaboration action is fully recorded inside Cluega.",
+      "items": {
+        "audit": {
+          "h3": "Track every authorization.",
+          "desc": "Who did what to which ad account and when — a complete audit trail that meets compliance in one go."
+        },
+        "credit": {
+          "h3": "Spend at a glance.",
+          "desc": "Who triggered which AI tasks and burned how many credits — a transparent ledger, no overspending."
+        },
+        "matrix": {
+          "h3": "Clear roles, no overstepping.",
+          "desc": "One matrix shows exactly what each person can do — high-risk actions auto-require approval, deletion is always forbidden."
+        },
+        "expiry": {
+          "h3": "Contracts end, access auto-expires.",
+          "desc": "Cross-company grants can carry an expiry; when the contract ends the system reclaims access automatically — no manual tracking, no loose ends."
+        }
+      }
+    },
+    "features": {
+      "title": "Collaboration is just the beginning. Cluega connects your whole workflow.",
+      "items": {
+        "chat": {
+          "title": "AI ad chat",
+          "desc": "Analyze ad data and generate strategy reports directly with AI"
+        },
+        "accounts": {
+          "title": "Ad account connect",
+          "desc": "One-click OAuth sync for Meta, Google, TikTok"
+        },
+        "assets": {
+          "title": "Asset generation",
+          "desc": "AI generates images, videos and copy, ready to run"
+        },
+        "dashboard": {
+          "title": "Spend dashboard",
+          "desc": "Ad spend and credit usage, fully grasped in one screen"
+        },
+        "collab": {
+          "title": "Collaboration & permissions",
+          "desc": "Shared conversations, co-creation, fine-grained authorization, asset security"
+        },
+        "automation": {
+          "title": "Automated buying",
+          "desc": "An AI Agent runs ad optimization in place of manual work"
+        },
+        "security": {
+          "title": "Audit & security",
+          "desc": "Full traceability, auditable actions, effortless compliance"
+        },
+        "billing": {
+          "title": "Credits & billing",
+          "desc": "A transparent credit ledger, pay for what you use, clear margins"
+        }
+      }
+    },
+    "cta": {
+      "title": "Invite the whole team, starting today.",
+      "subtitle": "Collaborator seats are free forever. 14-day Pro trial, no credit card.",
+      "primaryCta": "Start free",
+      "secondaryCta": "Book a sales demo"
+    }
+  },
+  "platformAgent": {
+    "hero": {
+      "eyebrow": "Cluega for IM Agent Teams",
+      "h1Line1": "Deploy your Agent into",
+      "h1Line2": "your daily-use IM",
+      "subtitle": "Marketing shouldn't only happen inside the Cluega web app. Deploy your Agent to Telegram, LINE, Lark — chat anytime, assign tasks anytime, receive results anytime. Purpose-built for marketing operations.",
+      "primaryCta": "Deploy Now →",
+      "secondaryCta": "Contact us for more"
+    },
+    "logoStrip": {
+      "label": "One gateway, orchestrating 400+ of the world's top models"
+    },
+    "valueProp1": {
+      "eyebrow": "Seamless IM Integration",
+      "label": "Command your Agent directly in your most familiar IM",
+      "description": "No need to open a browser or switch tools. Send a message on Telegram and your Agent instantly understands your intent, triggers skills, and returns results. Chat is command. IM is your workspace.",
+      "chart": {
+        "tooltipLabel": "Tasks executed",
+        "tooltipValue": "238 tasks"
+      }
+    },
+    "valueProp2": {
+      "eyebrow": "Persistent Execution",
+      "label": "Persistent cloud hosting — an assistant that never stops, even offline.",
+      "description": "Your Agent runs in Cluega's cloud-persistent workspace. Long tasks execute asynchronously — disconnections don't interrupt — results are pushed back to your IM when done. Memory persists across tasks, making your Agent smarter over time.",
+      "cards": {
+        "statusRunning": "Running",
+        "statusDone": "Completed",
+        "task1Name": "Deep market research",
+        "task2Name": "Competitor data analysis",
+        "task3Name": "User persona generation"
+      }
+    },
+    "valueProp3": {
+      "eyebrow": "Custom Skill Layer",
+      "label": "Built-in core skill packs, seamlessly fused with your business logic",
+      "description": "Equip your Agent with vertical skill packs: ad reporting, competitor monitoring, creative generation, AAIGS managed optimization... Your business logic is your Agent's domain expertise.",
+      "list": {
+        "unit": "runs",
+        "name1": "Ad reporting",
+        "name2": "Competitor monitoring",
+        "name3": "Creative generation",
+        "name4": "AIGS managed",
+        "name5": "Data analysis",
+        "name6": "Auto optimization"
+      }
+    },
+    "testimonial": {
+      "quote": "\"First thing every morning used to be opening a dozen tabs to pull data manually. Now I send one Telegram message and my Agent delivers a complete report within 10 minutes. Cluega lets my team spend our time on real decisions.\"",
+      "author": "Marcus Vance",
+      "role": "Growth Marketing Director",
+      "cta": "Book a Demo"
+    },
+    "featureA": {
+      "eyebrow": "IM Channel Integration",
+      "title": "Deploy your Agent for Sales & Marketing",
+      "description": "Cluega Agent natively integrates with Telegram, LINE, and Lark. One-click binding via QR code — no technical background needed. Operators can chat with their Agent and issue task commands from anywhere, at any time.",
+      "cta": "Learn more"
+    },
+    "featureB": {
+      "eyebrow": "Long-Task Async Protocol",
+      "title": "Task takes minutes? Close your phone, just wait for the notification.",
+      "description": "Cluega's persistent runtime: cross-task filesystem / terminal / long-lived state. Agent acknowledges (ACKs) tasks immediately and continues running in the cloud — with milestone updates pushed in real time. Operator disconnection doesn't affect execution at all.",
+      "cta": "Learn more",
+      "notification": {
+        "sender": "Cluega Agent",
+        "time": "now",
+        "title": "Task completed",
+        "body": "Your North America apparel hourly report is ready — tap to view"
+      }
+    },
+    "featureC": {
+      "eyebrow": "Skill Layer",
+      "title": "Not a general assistant — your industry's dedicated command system",
+      "description": "Cluega's Skill Layer follows the Agent Registry model, allowing operators to equip Agents with vertical know-how. Includes a built-in core marketing skill pack, plus support for uploading custom business rules. Permission tiers L0–L3 with double confirmation for spend actions — safe and controlled.",
+      "cta": "Learn more",
+      "picker": {
+        "title": "Choose a skill template",
+        "newBadge": "New",
+        "card1": "New skill",
+        "card2": "Ad reporting",
+        "card3": "Competitor monitoring",
+        "card4": "Creative generation",
+        "card5": "Data analysis",
+        "card6": "Auto optimization"
+      }
+    },
+    "caseStudy": {
+      "title": "A cross-border e-commerce team can finish deploying its Agent and receive its first task report within 30 minutes",
+      "description": "With Cluega Agent, daily data-pulling shrinks from '2 hours of manual work' to 'send one Telegram message, auto-delivered in 10 minutes' — while plugging into AAIGS managed optimization to fully activate ad performance and drive steady, sustainable business growth."
+    },
+    "channelBand": {
+      "title": "Let your Agent work on",
+      "subtitle": "Command your Agent to complete marketing tasks directly in your team's daily IM",
+      "comingSoon": "Coming soon"
+    },
+    "finalCta": {
+      "headingPrefix": "Power your Agent with",
+      "subtitle": "Deploy Cluega Agent to your IM — wherever you are, the task is there.",
+      "primaryCta": "Deploy Now →",
+      "secondaryCta": "Book a Demo"
+    }
+  }
+}

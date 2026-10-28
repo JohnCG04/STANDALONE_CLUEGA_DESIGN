@@ -1,0 +1,651 @@
+{
+  "pricingAi": {
+    "meta": {
+      "title": "Bảng giá · Cluega AI",
+      "description": "Hạ tầng tăng trưởng AI cho media buyer hiệu suất ở Đông Nam Á: tín dụng tự phục vụ, vận hành hiệu suất, tùy chỉnh doanh nghiệp."
+    },
+    "hero": {
+      "title": "Từ dùng thử đến quy mô",
+      "lead": "Hệ điều hành tự động hóa toàn diện hoạt động marketing toàn cầu vận hành bởi AI Agent (AdOS), xây dựng hạ tầng AI thực thi marketing toàn cầu theo mô hình 'trả phí theo kết quả'.",
+      "billing": {
+        "monthly": "Hàng tháng",
+        "annual": "Hàng năm",
+        "annualSave": "tiết kiệm {percent}%"
+      }
+    },
+    "plans": {
+      "cta": {
+        "start": "Bắt đầu",
+        "sales": "Liên hệ tư vấn",
+        "startWith": "Bắt đầu với {plan}"
+      },
+      "unit": {
+        "month": "/ tháng",
+        "monthStart": "/ tháng trở lên"
+      },
+      "audienceLabel": {
+        "pro": "Người chạy quảng cáo độc lập, studio nhỏ",
+        "max": "Đội ngũ đang mở rộng, nhiều thương hiệu",
+        "ultra": "Agency, vận hành số lượng tài khoản lớn",
+        "ent": "Trung đài gộp tài khoản, đơn hàng và ghế về một chỗ"
+      },
+      "items": {
+        "pro": {
+          "name": "Pro",
+          "tag": "Pro",
+          "subMonthly": "6.000 credit / tháng (cố định)",
+          "subAnnual": "Trả năm · tiết kiệm 20%",
+          "features": [
+            "6.000 credit mỗi tháng",
+            "1 ghế",
+            "≤ 10 tài khoản quảng cáo",
+            "≤ 3 tài khoản social",
+            "Toàn bộ kênh quảng cáo và affiliate"
+          ]
+        },
+        "max": {
+          "name": "Max",
+          "tag": "Max",
+          "subMonthly": "40.000–110.000 credit / tháng",
+          "subAnnual": "Trả năm · tiết kiệm 20%",
+          "features": [
+            "Tự chọn bậc credit, 40K đến 110K",
+            "1 ghế",
+            "≤ 50 tài khoản quảng cáo",
+            "≤ 15 tài khoản social",
+            "Tự chọn mô hình"
+          ]
+        },
+        "ultra": {
+          "name": "Ultra",
+          "tag": "Ultra",
+          "subMonthly": "170.000–5.000.000 credit / tháng",
+          "subAnnual": "Trả năm · tiết kiệm 20%",
+          "features": [
+            "Tự chọn bậc credit, 170K đến 5M",
+            "1 ghế",
+            "≤ 300 tài khoản quảng cáo",
+            "≤ 50 tài khoản social",
+            "Tích hợp Agency Router hai chiều"
+          ]
+        },
+        "ent": {
+          "name": "Cluega Agency Router",
+          "tag": "Agency Router",
+          "subMonthly": "500.000 credit / tháng + phí chi tiêu theo bậc",
+          "subAnnual": "Phí chi tiêu giảm 10%",
+          "features": [
+            "Gồm 10 ghế Ultra",
+            "Có thể mua thêm chỗ ngồi",
+            "500.000 credit vào pool chung",
+            "300+ tài khoản quảng cáo",
+            "Trung đài: tài khoản, đơn hàng, pool credit"
+          ]
+        }
+      },
+      "unavailableTitle": "Hiện chưa lấy được bảng giá",
+      "unavailableBody": "Chưa tải được bảng giá hiện hành. Bạn tải lại sau một lát, hoặc liên hệ đội bán hàng để được báo giá trực tiếp.",
+      "quoteOnly": "Báo giá riêng",
+      "tierLabel": "Credit mỗi tháng",
+      "creditsPerMonth": "{credits} credit / tháng",
+      "perThousand": "{price} cho 1K credit",
+      "perThousandAnnual": "{price} cho 1K credit · thu theo năm",
+      "badgePopular": "Phổ biến nhất",
+      "allInclude": "Mọi gói đều có báo cáo không tốn credit, quy tắc giám sát AI không giới hạn, và kết nối mọi mạng quảng cáo lẫn affiliate.",
+      "tierOption": "{credits} credit"
+    },
+    "logos": {
+      "caption": "Bao gồm 400+ mô hình · Định tuyến Auto tự chọn năng lực tính toán"
+    },
+    "compare": {
+      "title": "So sánh các gói",
+      "billingLabel": "Cách tính phí",
+      "columns": {
+        "pro": {
+          "name": "Pro",
+          "cta": "Bắt đầu"
+        },
+        "max": {
+          "name": "Max",
+          "cta": "Bắt đầu"
+        },
+        "ultra": {
+          "name": "Ultra",
+          "cta": "Bắt đầu"
+        },
+        "ent": {
+          "name": "Cluega Agency Router",
+          "sub": "Liên hệ bộ phận kinh doanh",
+          "cta": "Liên hệ tư vấn"
+        }
+      },
+      "groups": [
+        {
+          "title": "Giá và credit",
+          "rows": [
+            {
+              "label": "Trả tháng",
+              "cells": [
+                "USD 129",
+                "Từ USD 200",
+                "Từ USD 750",
+                "Liên hệ kinh doanh"
+              ],
+              "tooltip": "Bản Agency Router được báo giá riêng theo từng hub thay vì công bố: hãy liên hệ kinh doanh, chúng tôi sẽ báo giá theo số tài khoản, chỗ ngồi và mức chi thực tế của bạn."
+            },
+            {
+              "label": "Trả năm (mỗi tháng)",
+              "cells": [
+                "USD 103",
+                "Từ USD 160",
+                "Từ USD 600",
+                "Liên hệ kinh doanh"
+              ]
+            },
+            {
+              "label": "Credit AI mỗi tháng",
+              "cells": [
+                "6.000 (cố định)",
+                "40.000 đến 110.000",
+                "170.000 đến 5.000.000",
+                "500,000 (đã bao gồm)"
+              ],
+              "tooltip": "Credit của gói reset mỗi tháng và không cộng dồn. Gói nạp thêm tính riêng, có hạn 180 ngày."
+            },
+            {
+              "label": "Bậc credit → giá tháng (trả tháng)",
+              "cells": [
+                "6.000 credit → USD 129",
+                "40.000 credit → USD 200\n63.000 credit → USD 300\n85.000 credit → USD 390\n110.000 credit → USD 500",
+                "170.000 credit → USD 750\n230.000 credit → USD 1.000\n350.000 credit → USD 1.490\n480.000 credit → USD 2.030\n1.200.000 credit → USD 5.000\n2.400.000 credit → USD 9.740\n5.000.000 credit → USD 20.000",
+                "Liên hệ kinh doanh"
+              ],
+              "tooltip": "Max và Ultra cho tự chọn bậc credit; giá gói đi theo bậc bạn chọn, nên con số hiển thị là bậc thấp nhất."
+            },
+            {
+              "label": "Bậc credit → giá tháng (trả năm)",
+              "cells": [
+                "USD 103",
+                "40.000 credit → USD 160\n63.000 credit → USD 240\n85.000 credit → USD 310\n110.000 credit → USD 400",
+                "170.000 credit → USD 600\n230.000 credit → USD 800\n350.000 credit → USD 1.190\n480.000 credit → USD 1.620\n1.200.000 credit → USD 4.000\n2.400.000 credit → USD 7.790\n5.000.000 credit → USD 16.000",
+                "Liên hệ kinh doanh"
+              ]
+            },
+            {
+              "label": "Số ghế bao gồm",
+              "cells": [
+                "1",
+                "1",
+                "1",
+                "10 (ghế Ultra)"
+              ]
+            },
+            {
+              "label": "Ghế thêm (USD / ghế / tháng)",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "200 (quyền lợi Ultra)"
+              ],
+              "tooltip": "Mỗi ghế có đầy đủ quyền lợi Ultra và mang 50.000 credit vào pool chung. Lần đầu mua tối thiểu 10 ghế, sau đó thêm lẻ được."
+            }
+          ]
+        },
+        {
+          "title": "Cấp quyền tài khoản",
+          "rows": [
+            {
+              "label": "Kênh quảng cáo (Meta / Google / TikTok / Kwai / X / Snap)",
+              "cells": [
+                "Toàn bộ",
+                "Toàn bộ",
+                "Toàn bộ",
+                "Toàn bộ"
+              ]
+            },
+            {
+              "label": "Kênh video / affiliate (Mintegral / Unity / AppLovin / Vungle / ironSource)",
+              "cells": [
+                "Toàn bộ",
+                "Toàn bộ",
+                "Toàn bộ",
+                "Toàn bộ"
+              ]
+            },
+            {
+              "label": "Giới hạn tài khoản quảng cáo / cửa hàng",
+              "cells": [
+                "10",
+                "50",
+                "300",
+                "300+"
+              ],
+              "tooltip": "Hạn mức tính theo tài khoản có hoạt động trong tháng, không phải mọi tài khoản từng kết nối."
+            },
+            {
+              "label": "Giới hạn tài khoản social",
+              "cells": [
+                "3",
+                "15",
+                "50",
+                "51+"
+              ]
+            },
+            {
+              "label": "Khi vượt giới hạn",
+              "cells": [
+                "Nâng gói",
+                "Nâng gói",
+                "Thêm Cluega Agency Router, không giới hạn tài khoản",
+                "Theo bảng giá"
+              ],
+              "tooltip": "Trên 300 tài khoản quảng cáo thì chỉ áp dụng bản Agency Router."
+            }
+          ],
+          "note": "Hạn mức tính theo tài khoản có hoạt động trong tháng"
+        },
+        {
+          "title": "AI và tự động hoá",
+          "rows": [
+            {
+              "label": "Mô hình Cluega AI",
+              "cells": [
+                "Toàn bộ tính năng · mô hình Auto",
+                "Toàn bộ tính năng · tự chọn mô hình",
+                "Toàn bộ tính năng · tự chọn mô hình",
+                "Tự chọn mô hình + mô hình riêng"
+              ]
+            },
+            {
+              "label": "Tác vụ DogClaw quản lý hoàn toàn (máy cục bộ + trình duyệt, đồng thời)",
+              "cells": [
+                "1",
+                "3",
+                "10",
+                "30+"
+              ]
+            },
+            {
+              "label": "DogClaw chạy bằng một câu lệnh, chọn được mô hình",
+              "cells": [
+                "—",
+                "✓",
+                "✓",
+                "✓ + mô hình riêng"
+              ]
+            },
+            {
+              "label": "Số hành động tự động mỗi tháng (AdOS / DogClaw)",
+              "cells": [
+                "1.000",
+                "10.000",
+                "50.000",
+                "Theo thoả thuận"
+              ]
+            },
+            {
+              "label": "Quy tắc giám sát AI",
+              "cells": [
+                "Không giới hạn",
+                "Không giới hạn",
+                "Không giới hạn",
+                "Không giới hạn"
+              ]
+            },
+            {
+              "label": "Chẩn đoán tài khoản bằng AI",
+              "cells": [
+                "✓",
+                "✓",
+                "✓",
+                "✓ + chỉ số riêng"
+              ]
+            },
+            {
+              "label": "Thẻ vấn đề / đề xuất khắc phục",
+              "cells": [
+                "✓",
+                "✓",
+                "✓",
+                "✓ + SOP riêng"
+              ]
+            },
+            {
+              "label": "Sửa quảng cáo / tạo campaign hàng loạt",
+              "cells": [
+                "✓",
+                "✓",
+                "✓",
+                "Hàng loạt + mẫu + API"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Báo cáo và attribution",
+          "rows": [
+            {
+              "label": "Báo cáo campaign, báo cáo theo giờ",
+              "cells": [
+                "✓ Không tính credit",
+                "✓ Không tính credit",
+                "✓ Không tính credit",
+                "✓ Không tính credit + white label"
+              ]
+            },
+            {
+              "label": "Báo cáo đầy đủ (mọi kênh + gợi ý ngân sách)",
+              "cells": [
+                "Tính credit",
+                "✓",
+                "✓",
+                "✓ + white label"
+              ]
+            },
+            {
+              "label": "Bản tin nền tảng Pulse Agent",
+              "cells": [
+                "Tính credit",
+                "3 nền tảng",
+                "Toàn bộ nền tảng",
+                "Toàn bộ nền tảng + white label"
+              ]
+            },
+            {
+              "label": "Báo cáo theo lịch",
+              "cells": [
+                "3",
+                "15",
+                "Không giới hạn",
+                "Không giới hạn"
+              ]
+            },
+            {
+              "label": "Báo cáo kênh con / app",
+              "cells": [
+                "2",
+                "10",
+                "Không giới hạn",
+                "Không giới hạn"
+              ]
+            },
+            {
+              "label": "Nền tảng attribution (AppsFlyer / Adjust / Tenjin / Singular)",
+              "cells": [
+                "—",
+                "1 nền tảng (báo cáo đối chiếu)",
+                "Toàn bộ",
+                "Toàn bộ + S2S riêng"
+              ]
+            },
+            {
+              "label": "API báo cáo chuẩn",
+              "cells": [
+                "—",
+                "Mua thêm",
+                "✓",
+                "✓"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sáng tạo và thương hiệu",
+          "rows": [
+            {
+              "label": "Tạo sáng tạo (Cluega Design)",
+              "cells": [
+                "—",
+                "✓ Quảng cáo playable, ma trận hit",
+                "✓ Video, workflow riêng",
+                "✓ Workflow sáng tạo riêng"
+              ]
+            },
+            {
+              "label": "Gắn thẻ / cắt sửa / test tự động sáng tạo",
+              "cells": [
+                "—",
+                "✓",
+                "✓",
+                "✓"
+              ]
+            },
+            {
+              "label": "Dung lượng kho tài nguyên",
+              "cells": [
+                "50 GB",
+                "500 GB",
+                "2.000 GB",
+                "Từ 10.000 GB"
+              ]
+            },
+            {
+              "label": "Bộ nhớ thương hiệu (BMA)",
+              "cells": [
+                "1 thương hiệu",
+                "5 thương hiệu",
+                "20 thương hiệu",
+                "Không giới hạn"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tính năng trung đài (chỉ bản Agency Router)",
+          "rows": [
+            {
+              "label": "Quản lý và nạp tiền tài khoản quảng cáo tập trung",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "✓"
+              ]
+            },
+            {
+              "label": "Quản lý đơn hàng / đơn chạy quảng cáo thuê ngoài",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "✓"
+              ]
+            },
+            {
+              "label": "Bảng hiệu suất media buyer",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "✓"
+              ]
+            },
+            {
+              "label": "Trung tâm token (pool credit chia cho từng ghế)",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "✓"
+              ],
+              "tooltip": "Quản trị viên đặt trần credit theo tháng cho từng ghế trong trung đài, hoặc để không trần. Credit theo ghế tiêu trước gói nạp thêm."
+            },
+            {
+              "label": "Quản lý đa kênh hợp nhất",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "✓"
+              ]
+            },
+            {
+              "label": "Dữ liệu sử dụng và hiệu suất theo ghế",
+              "cells": [
+                "—",
+                "—",
+                "—",
+                "✓"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tích hợp, bảo mật và hỗ trợ",
+          "rows": [
+            {
+              "label": "Tích hợp Cluega Agency Router",
+              "cells": [
+                "—",
+                "Chỉ đọc",
+                "Hai chiều",
+                "Tích hợp sâu"
+              ]
+            },
+            {
+              "label": "Attribution private-domain của Cluega IM",
+              "cells": [
+                "—",
+                "—",
+                "Mua thêm",
+                "Đã tích hợp"
+              ]
+            },
+            {
+              "label": "SSO / audit / không lưu dữ liệu / triển khai riêng",
+              "cells": [
+                "—",
+                "—",
+                "SSO, audit",
+                "Toàn bộ (triển khai riêng: xem “Triển khai riêng”)"
+              ]
+            },
+            {
+              "label": "Hỗ trợ",
+              "cells": [
+                "Email",
+                "Hỗ trợ ưu tiên",
+                "CSM riêng",
+                "CSM + SLA"
+              ]
+            }
+          ]
+        }
+      ],
+      "footnote": "AAIGS (Ad Account Intelligence Grading System): đánh giá độ trưởng thành tài khoản M0–M5 và điểm nhóm quảng cáo DRS / MS. Cấp độ quyết định mức ủy quyền AI T0–T3 — cấp càng cao, ngân sách AI tự quản lý càng lớn. Tín dụng cơ bản theo hạn mức tháng, vượt mức thì mua thêm; tín dụng mua thêm không hết hạn và được cộng dồn.",
+      "showFull": "Xem bảng so sánh đầy đủ",
+      "hideFull": "Ẩn bảng so sánh đầy đủ",
+      "essentialsLead": "Những mục quyết định trước. Mở ra để xem đủ {rows} dòng.",
+      "columnSubOne": "{price} / tháng · {credits} credit",
+      "columnSubLadder": "từ {price} / tháng · {credits}",
+      "columnSubPriceOnly": "{price} / tháng"
+    },
+    "credits": {
+      "title": "Tăng trưởng, không chỉ ở mức dùng.",
+      "titleMuted": "Mua thêm tín dụng, Skill tùy chỉnh cho doanh nghiệp và lưu trữ riêng — ba nguồn doanh thu tách khỏi biên token.",
+      "items": {
+        "credit": {
+          "unit": "1 credit",
+          "value": "$0,005",
+          "badge": "Gói có hạn 180 ngày · credit của gói reset mỗi tháng",
+          "heading": "Gói credit",
+          "desc": "Một credit là $0,005. Gói nạp thêm từ $5,50 mỗi 1.000 credit, xuống $4,00 ở bậc lớn nhất, và có hạn 180 ngày từ ngày mua. Credit của gói reset mỗi tháng và không cộng dồn; credit theo ghế tiêu trước gói nạp thêm."
+        },
+        "skill": {
+          "value": "$8–90K",
+          "badge": "Mua đứt một lần · không phí năm",
+          "heading": "Tùy chỉnh Skill riêng cho doanh nghiệp",
+          "desc": "Bàn giao theo cấp độ phức tạp của yêu cầu tùy chỉnh, khách hàng được quyền sử dụng vĩnh viễn Skill đó trên nền tảng này. Khi tầng nền tảng cập nhật mô hình trong tương lai, Skill sẽ tự động được hưởng lợi nâng cấp."
+        },
+        "storage": {
+          "value": "Triển khai riêng",
+          "badge": "ClickHouse · < 5TB → 20TB+",
+          "heading": "Triển khai ClickHouse riêng",
+          "desc": "Hỗ trợ triển khai ClickHouse riêng chuyên dụng cho doanh nghiệp, giữ 100% toàn bộ dữ liệu marketing và quảng cáo trong ranh giới an toàn của doanh nghiệp bạn. Đồng thời cung cấp tùy chọn lưu trữ đa vùng và lưu trữ nguội chi phí thấp cho dữ liệu ít dùng, đảm bảo an toàn, hiệu quả và tuân thủ tối đa."
+        }
+      }
+    },
+    "models": {
+      "title": "Danh mục mô hình · toàn bộ 400+ mở",
+      "note": "Định tuyến Auto tự tối ưu, khách hàng cũng có thể chỉ định",
+      "cards": {
+        "llmEco": {
+          "label": "Mô hình lớn · Tiết kiệm",
+          "models": "DeepSeek V4 Flash · Qwen3.5 · Gemini 3.1 Flash-Lite · GLM-4.7"
+        },
+        "llmStd": {
+          "label": "Mô hình lớn · Tiêu chuẩn",
+          "models": "Claude Sonnet 4.6 · Gemini 3.1 Pro · GPT-5 · DeepSeek V4 Pro"
+        },
+        "llmFlag": {
+          "label": "Mô hình lớn · Cao cấp",
+          "models": "Claude Opus 4.8 · GPT-5.5 · OpenAI o3 · Gemini 3.1 Ultra"
+        },
+        "image": {
+          "label": "Mô hình ảnh",
+          "models": "FLUX.1 · Stable Diffusion XL · Imagen 3 · GPT Image · Midjourney v7 · Ideogram 3"
+        },
+        "videoValue": {
+          "label": "Video · Hiệu quả chi phí",
+          "models": "Kling 3.0 · Seedance 2 · Wan 2.7 · Hailuo (MiniMax)"
+        },
+        "videoFlag": {
+          "label": "Video · Cao cấp",
+          "models": "Google Veo 3.1 · Runway Gen-4.5 · Sora 2"
+        }
+      },
+      "footnote": "Ảnh / video tính vào tín dụng theo sản lượng (giá gốc nhân hệ số); ở chế độ trọn gói, tư liệu và video tạo ra khi dùng đã gồm trong phí. Các mô hình chủ lực được cập nhật liên tục."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "items": [
+        {
+          "q": "Có thể dùng thử Cluega miễn phí không?",
+          "a": "Pro là {pro} / tháng, gồm phần credit của gói, một chỗ ngồi và tối đa 10 tài khoản quảng cáo. Max và Ultra cho bạn chọn bậc credit, nên giá khởi điểm lần lượt là {max} và {ultra}."
+        },
+        {
+          "q": "Tín dụng tự phục vụ khác gì phí vận hành trọn gói?",
+          "a": "Tự phục vụ tính theo tín dụng (gồm thực thi, theo mức dùng); trọn gói tính theo phí (giao cho vận hành, phí phân bậc theo chi tiêu quảng cáo, đã gồm chi phí sử dụng). Hai cái bổ trợ, không xung đột."
+        },
+        {
+          "q": "Tín dụng được tính phí thế nào?",
+          "a": "1 tín dụng = $0.001 USD. Tín dụng tiêu = chi phí Token ×(1 + phụ phí), mô hình càng đắt tự trừ càng nhiều tín dụng. Tín dụng mua thêm không hết hạn, cộng dồn."
+        },
+        {
+          "q": "Chi phí vận hành trọn gói có dự đoán được không?",
+          "a": "Chỉ trả một khoản 'chi tiêu quảng cáo × phí'. Token, tính toán, tạo video đã gồm; ngoài ra có phí sàn $149 / tháng và dùng sáng tạo công bằng làm hai rào chắn bảo vệ."
+        },
+        {
+          "q": "Hỗ trợ những mô hình nào? Có thể tự mang không?",
+          "a": "Toàn bộ 400+ mô hình đều mở. Pro tự động chọn mô hình; Max và Ultra cho tự chọn, còn bản Agency Router chạy được cả mô hình riêng."
+        },
+        {
+          "q": "Skill tùy chỉnh là thuê bao hay mua đứt?",
+          "a": "Trả một lần, bàn giao là mua đứt, không phí năm, không phí tiếp theo. Tự động hưởng cập nhật mô hình ở tầng nền tảng; chỉnh sửa/mở rộng về sau là phát triển một lần mới."
+        },
+        {
+          "q": "Tôi có cần lưu trữ riêng không?",
+          "a": "Ultra và bản Agency Router có thể thêm ClickHouse riêng; Pro và Max dùng môi trường multi-tenant của nền tảng là đủ, không mất phí lưu trữ riêng."
+        },
+        {
+          "q": "Có tích hợp API / MCP không?",
+          "a": "Bản Agency Router hỗ trợ tích hợp MCP riêng, kèm trung đài quản lý tài khoản, đơn hàng và pool credit dùng chung cho các ghế."
+        },
+        {
+          "q": "Gói đại lý tính phí thế nào?",
+          "a": "Thương lượng thực tế theo quy mô và khối lượng vận hành, gồm đa người thuê, T3 tự chủ, MCP tùy chỉnh và Lark riêng + CSM."
+        },
+        {
+          "q": "Quy kết tin nhắn IM là gì?",
+          "a": "Quy kết chốt đơn thực từ tin nhắn Zalo / WhatsApp — chuyển đổi mà pixel nền tảng không theo dõi được vẫn quy về được, đây là khác biệt cấu trúc không thể xem nhẹ ở Đông Nam Á."
+        }
+      ]
+    },
+    "bottomCta": {
+      "title": "Một chạm mở phân phối thông minh AI toàn cầu, nâng hiệu quả tức thì",
+      "demo": "Đặt lịch Demo",
+      "start": "Bắt đầu sử dụng Cluega"
+    }
+  }
+}

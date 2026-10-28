@@ -1,0 +1,28 @@
+{
+  "marketing": {
+    "review": {
+      "leadTable": {
+        "materialOpenVideoPreview": "Phát nội dung này"
+      },
+      "tableGrid": {
+        "deleteCancel": "Huỷ",
+        "entityAd": "quảng cáo",
+        "entityAdgroup": "nhóm quảng cáo",
+        "entityCampaign": "chiến dịch",
+        "entityMaterial": "nội dung",
+        "materialFallbackName": "Nội dung chưa đặt tên",
+        "materialLoading": "Đang tải nội dung…",
+        "statusToggleConfirmTitleDisable": "Tắt {entity} này?",
+        "statusToggleConfirmTitleEnable": "Bật lại {entity} này?",
+        "statusToggleConfirmDescriptionDisable": "{name} sẽ ngừng phân phối ngay khi bạn xác nhận. Bạn bật lại được, nhưng những giờ đã bỏ lỡ thì không lấy lại được.",
+        "statusToggleConfirmDescriptionEnable": "{name} sẽ phân phối trở lại và bắt đầu tiêu ngân sách.",
+        "statusToggleConfirmDisable": "Tắt",
+        "statusToggleConfirmEnable": "Bật",
+        "switchToggleAd": "Bật hoặc tắt quảng cáo này",
+        "switchToggleAdgroup": "Bật hoặc tắt nhóm quảng cáo này",
+        "switchToggleCampaign": "Bật hoặc tắt chiến dịch này",
+        "switchToggleMaterial": "Bật hoặc tắt nội dung này"
+      }
+    }
+  }
+}

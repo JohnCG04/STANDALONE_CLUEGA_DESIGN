@@ -1,0 +1,311 @@
+{
+  "sbc": {
+    "eyebrow": "Industry solution · Real-money gaming",
+    "badge": "SBC SUMMIT LISBON · SEP 29 – OCT 1, 2026 · BOOTH F548",
+    "formTitle": "Talk to Cluega about iGaming",
+    "company": "Company",
+    "companyPlaceholder": "Your operator or agency",
+    "email": "Work email",
+    "emailPlaceholder": "you@company.com",
+    "vertical": "Primary vertical",
+    "budget": "Monthly paid media budget",
+    "submitting": "Sending…",
+    "errorRate": "Too many attempts from here. Wait a moment and try again.",
+    "errorGeneric": "We could not save your details. Try again, or talk to us at Booth F548.",
+    "doneTitle": "Thank you, we have your details.",
+    "doneBody": "A Cluega specialist will follow up by email. Nothing to set up on your side. The next step is a conversation.",
+    "doneBooth": "Come to Booth F548 and we will walk you through the product on a live account.",
+    "doneBackHome": "Back to cluega.com",
+    "doneLeadCode": "You are visitor #{code} — show this at Booth F548.",
+    "nav": {
+      "counter": "OPERATORS WE MET AT SBC",
+      "reset": "Next visitor"
+    },
+    "hero": {
+      "title": "The AI marketing OS for [[real-money gaming]].",
+      "lede": "From ad account to live dashboard: creatives, launch, attribution and reports, all inside a single conversation. Built for slots, live casino, sportsbook and lottery.",
+      "photoAlt": "Cluega iGaming app on phone and tablet, surrounded by roulette, chips, cards and slot reels"
+    },
+    "proof": [
+      {
+        "dt": "Southeast Asia",
+        "dd": "14 years buying",
+        "note": "Performance media across SEA, with our official TikTok agency partner."
+      },
+      {
+        "dt": "Track record",
+        "dd": "400+ clients",
+        "note": "Operators, brands and agencies running TikTok, Meta, Google and Adjust on one methodology."
+      },
+      {
+        "dt": "Reporting",
+        "dd": "Hourly",
+        "note": "Every dollar reports back into Cluega, verified line by line against Adjust."
+      }
+    ],
+    "flow": [
+      "Tell us your vertical",
+      "Pick your markets",
+      "We bring both to the conversation"
+    ],
+    "form": {
+      "step": "Step 1 of 1",
+      "lead": "A few quick answers, so the conversation starts with your vertical and your markets instead of a blank page.",
+      "name": "Your name",
+      "namePlaceholder": "Alex Moreau",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 555 000 0000",
+      "role": "Job title",
+      "rolePlaceholder": "Head of Growth",
+      "painPoints": "Biggest challenge right now (pick any)",
+      "goal": "Main goal",
+      "markets": "Markets you run (pick any)",
+      "submit": "Send my details →",
+      "consent": "We use your details to prepare that conversation and, with your consent, to follow up about Cluega. We never sell your data. See our {privacy}.",
+      "licensedOnly": "For licensed operators in regulated markets only.",
+      "marketingOptIn": "I'd like to hear from Cluega about products and events. Unsubscribe anytime.",
+      "budgetPlaceholder": "Select a range",
+      "submitMissing": {
+        "company": "Add your company",
+        "email": "Add your work email",
+        "vertical": "Pick a vertical",
+        "markets": "Pick a market",
+        "budget": "Pick a budget"
+      },
+      "shareLocation": "Share my location",
+      "locating": "Getting your location…",
+      "locationShared": "Location shared — thanks.",
+      "locationRefused": "No location shared. That's fine, the form still works.",
+      "locationHint": "Optional — it helps us follow up from the right region."
+    },
+    "geos": {
+      "SEA": {
+        "label": "Philippines",
+        "code": "PH"
+      },
+      "LATAM": {
+        "label": "LATAM",
+        "code": "BR · MX · PE"
+      },
+      "EU": {
+        "label": "Europe",
+        "code": "UK · DE · IT"
+      },
+      "TIER1": {
+        "label": "Tier 1",
+        "code": "US · CA · AU"
+      },
+      "AFRICA": {
+        "label": "Africa",
+        "code": "NG · KE · ZA"
+      }
+    },
+    "tour": {
+      "eyebrow": "Inside Cluega",
+      "title": "What we will show you",
+      "lead": "These are screens from the product, not mock-ups. We run them live at the stand, on the vertical and markets you pick above.",
+      "rows": [
+        {
+          "n": "Delivery team",
+          "h": "Your bots and your browser agent, in one thread",
+          "p": "DogClaw sets the TikTok campaign up in a real browser: objective, GEO, age band, daily budget. CreativeBot proposes 9:16 variants. The ads bot reports ROAS, cost per result and CPA. Same channel, same conversation.",
+          "alt": "Cluega Casino Delivery Team channel with DogClaw, CreativeBot and the TikTok Ads bot working on one campaign"
+        },
+        {
+          "n": "iGaming dashboard",
+          "h": "Every creative carries its own cost per lead",
+          "p": "Slots, live casino, sports betting and blackjack creatives ranked by what a valid lead actually costs. Each card is marked Winner, Stable, Watch or Critical, with spend and impressions attached.",
+          "alt": "Cluega iGaming marketing dashboard with spend, leads, deposit rate, ROI and six creatives ranked by cost per lead"
+        },
+        {
+          "n": "Connections",
+          "h": "Runs on the accounts you already have",
+          "p": "TikTok Ads, Meta, Google Ads, Reddit, LinkedIn, Instagram and YouTube authorize from one page. DogClaw runs browser tasks in your own Chrome or on its cloud browser: nothing is rebuilt, nothing is exported by hand.",
+          "alt": "Cluega app authorization page connecting TikTok Ads, Meta, Google Ads, Reddit, LinkedIn, Instagram and YouTube"
+        }
+      ],
+      "logosMore": "+ MORE IN APP"
+    },
+    "cta": {
+      "restart": "Start over",
+      "book": "Book 15 minutes with {rep}",
+      "bookOn": "{rep} · {platform}"
+    },
+    "footer": {
+      "tagline": "See every dollar. Prove every result. Automate to goal.",
+      "meta": "CLUEGA.COM · SALES@CLUEGA.COM · BOOTH F548",
+      "company": "Cluega Engine Information Technology Co., Limited",
+      "privacy": "Privacy Policy",
+      "terms": "Terms",
+      "cookies": "Cookie settings"
+    },
+    "comps": {
+      "slots": [
+        {
+          "n": "Nova Reels",
+          "m": "New crash-title creative set, UGC-led",
+          "w": "1d ago"
+        },
+        {
+          "n": "Vertex Studios",
+          "m": "Weekly tournament leaderboard campaign",
+          "w": "4d ago"
+        },
+        {
+          "n": "Halcyon Play",
+          "m": "Shifted budget into late-night windows, CPM down",
+          "w": "1w ago"
+        }
+      ],
+      "livecasino": [
+        {
+          "n": "Lumen Live",
+          "m": "Dealer-led creative promoted after 21:00 only",
+          "w": "2d ago"
+        },
+        {
+          "n": "Cobalt Club",
+          "m": "Table-limit explainer series across three GEOs",
+          "w": "5d ago"
+        },
+        {
+          "n": "Meridian Tables",
+          "m": "Increased spend on returning-player retargeting",
+          "w": "1w ago"
+        }
+      ],
+      "sportsbook": [
+        {
+          "n": "Aurora Bet",
+          "m": "Scaled TikTok Spark Ads across three markets",
+          "w": "2d ago"
+        },
+        {
+          "n": "Meridian Sports",
+          "m": "Launched bet builder push with six creative variants",
+          "w": "5d ago"
+        },
+        {
+          "n": "Ridge Sports",
+          "m": "Cash-out promo running against weekend fixtures",
+          "w": "1w ago"
+        }
+      ],
+      "lottery": [
+        {
+          "n": "Beacon Draw",
+          "m": "Draw-day bursts replacing always-on spend",
+          "w": "1d ago"
+        },
+        {
+          "n": "Northlight Lotto",
+          "m": "Syndicate creative series with local creators",
+          "w": "4d ago"
+        },
+        {
+          "n": "Quarry Games",
+          "m": "Instant-win scratch format pushed to new markets",
+          "w": "1w ago"
+        }
+      ]
+    },
+    "ticks": [
+      {
+        "geo": "BR",
+        "vertical": "Sportsbook",
+        "text": "accumulator interest",
+        "m": "+42%"
+      },
+      {
+        "geo": "PH",
+        "vertical": "Slots",
+        "text": "crash title searches",
+        "m": "+28%"
+      },
+      {
+        "geo": "UK",
+        "vertical": "Sportsbook",
+        "text": "paid social CPM",
+        "m": "-8%"
+      },
+      {
+        "geo": "MX",
+        "vertical": "Live casino",
+        "text": "dealer creative CTR",
+        "m": "+19%"
+      },
+      {
+        "geo": "NG",
+        "vertical": "Slots",
+        "text": "mobile money deposits",
+        "m": "+27%"
+      },
+      {
+        "geo": "DE",
+        "vertical": "Slots",
+        "text": "tournament entries",
+        "m": "-6%"
+      },
+      {
+        "geo": "US",
+        "vertical": "Sportsbook",
+        "text": "state launch activity",
+        "m": "+11%"
+      },
+      {
+        "geo": "KE",
+        "vertical": "Lottery",
+        "text": "TikTok reach per $1k",
+        "m": "2.6x"
+      }
+    ],
+    "verticals": {
+      "slots": "Slots",
+      "livecasino": "Live casino",
+      "sportsbook": "Sportsbook",
+      "lottery": "Lottery"
+    },
+    "budgets": [
+      "Under USD 50k",
+      "USD 50k - 250k",
+      "USD 250k - 1M",
+      "Over USD 1M"
+    ],
+    "meta": {
+      "title": "Cluega at SBC Summit Lisbon 2026 - Booth F548",
+      "description": "The AI marketing OS for real-money gaming. Meet Cluega at SBC Summit Lisbon, Sep 29 – Oct 1, 2026, Booth F548."
+    },
+    "fieldErrors": {
+      "company": "Add the company name so we know who we are talking to.",
+      "emailMissing": "Add your work email.",
+      "emailShape": "That email address does not look complete. Check it and try again.",
+      "vertical": "Pick the vertical you run.",
+      "markets": "Pick at least one market so the trends can be filtered.",
+      "budget": "Pick your monthly paid media budget."
+    },
+    "reps": {
+      "eyebrow": "At the stand",
+      "title": "Talk to someone who runs iGaming media",
+      "body": "Pick a person and a time. Booking here is the same conversation as the form above, it just skips the wait.",
+      "book": "Book a time"
+    },
+    "telegram": {
+      "eyebrow": "Live demo · Telegram",
+      "title": "Ask the AI a question. [[Right now.]]",
+      "lede": "Point your camera at the code. Tap Start. A working Cluega demo answers you in chat: no signup, no install, nothing to download.",
+      "steps": [
+        "Scan",
+        "Tap Start",
+        "Ask anything"
+      ],
+      "openBot": "Open in Telegram",
+      "qrAlt": "QR code that opens the Cluega AI demo bot on Telegram",
+      "qrCaption": "The same code as the card at the stand.",
+      "showQr": "Show the code for another phone",
+      "hideQr": "Hide the code",
+      "disclaimer": "A shared demo workspace. Don't paste anything you would not say out loud on the show floor."
+    },
+    "errorAlreadyRegistered": "This email is already registered with Cluega. Come to Booth F548, or write to sales@cluega.com and we will pick up where you left off.",
+    "errorValidation": "Some of those answers were not accepted. Check the fields above and try again."
+  }
+}

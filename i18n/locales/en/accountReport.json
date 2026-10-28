@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "chartTitle": "Hourly Ad Group Report",
+    "selectedCountLabel": "Selected ads",
+    "editCardTitlePrefix": "Edit ",
+    "saveSuccess": "Saved",
+    "stat": {
+      "adgroupReportSummary": {
+        "title": "Ad Group Spend",
+        "subLabel": "Total conversions",
+        "footerLabel": "Average CPA"
+      },
+      "accountTotalSpend": {
+        "title": "Account Spend",
+        "subLabel": "Spend this month",
+        "footerLabel": "Spend yesterday"
+      },
+      "formSubmitTotal": {
+        "title": "Form Submissions",
+        "subLabel": "Estimated accuracy",
+        "footerLabel": "Average EPC"
+      },
+      "reportAverageConversionRate": {
+        "title": "Average Conversion Rate",
+        "subLabel": "Estimated ROI",
+        "footerLabel": "Conversion rate yesterday"
+      }
+    },
+    "modal": {
+      "defaultDialogTitle": "Customize Summary Card",
+      "dialogDescription": "Edit the summary card name, format, description, and formula.",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "addMetric": "Add metric",
+      "formulaPlaceholder": "Choose metrics and build a formula",
+      "removeMetricA11y": "Remove item",
+      "formatPlaceholder": "Select format",
+      "formatNumber": "Number",
+      "formatPercent": "Percent",
+      "formatCurrency": "Currency",
+      "tabMainTitle": "Title",
+      "tabSubtitle": "Subtitle",
+      "tabFooter": "Footer",
+      "name": "Name",
+      "namePlaceholder": "Enter a name",
+      "format": "Format",
+      "descriptionOptional": "Description",
+      "descriptionPlaceholder": "Enter a description",
+      "formula": "Formula",
+      "metricPicker": {
+        "searchPlaceholder": "Search metrics",
+        "noMatch": "No matching metrics"
+      }
+    }
+  }
+}

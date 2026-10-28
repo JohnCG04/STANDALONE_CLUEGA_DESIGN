@@ -1,0 +1,45 @@
+{
+  "ui": {
+    "dateRangePicker": {
+      "placeholder": "เลือกช่วงวันที่",
+      "presetsColumn": "ช่วงที่ตั้งไว้",
+      "calendarNav": "การนำทางปฏิทิน",
+      "prevYear": "ปีก่อนหน้า",
+      "prevMonth": "เดือนก่อนหน้า",
+      "nextMonth": "เดือนถัดไป",
+      "nextYear": "ปีถัดไป",
+      "startTime": "เวลาเริ่มต้น",
+      "rangeStartTime": "เวลาเริ่มต้นของช่วง",
+      "rangeEndTime": "เวลาสิ้นสุดของช่วง",
+      "cancel": "ยกเลิก",
+      "confirm": "ใช้",
+      "preset": {
+        "today": "วันนี้",
+        "yesterday": "เมื่อวาน",
+        "last7": "7 วันที่ผ่านมา",
+        "last14": "14 วันที่ผ่านมา",
+        "last30": "30 วันที่ผ่านมา",
+        "thisWeek": "สัปดาห์นี้",
+        "lastWeek": "สัปดาห์ที่แล้ว",
+        "adPublicationPeriod": "ช่วงเวลาที่โฆษณาเผยแพร่"
+      },
+      "time": "เวลา",
+      "hour": "ชั่วโมง",
+      "minute": "นาที",
+      "today": "วันนี้",
+      "clear": "ล้าง"
+    },
+    "reportColumnHeader": {
+      "dragHint": "ลากเพื่อจัดลำดับคอลัมน์",
+      "menuLabel": "การดำเนินการ",
+      "sortAsc": "เรียงจากน้อยไปมาก",
+      "sortDesc": "เรียงจากมากไปน้อย",
+      "clearSort": "ล้างการเรียง",
+      "filter": "ตัวกรอง",
+      "remove": "ลบคอลัมน์",
+      "resizeHint": "ปรับขนาดคอลัมน์",
+      "autoFitHint": "ดับเบิลคลิกเพื่อปรับให้พอดีกับเนื้อหา",
+      "columnFallback": "คอลัมน์"
+    }
+  }
+}

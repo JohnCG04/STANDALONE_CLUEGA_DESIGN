@@ -1,0 +1,45 @@
+{
+  "ui": {
+    "dateRangePicker": {
+      "placeholder": "Chọn khoảng ngày",
+      "presetsColumn": "Cài đặt nhanh",
+      "calendarNav": "Điều hướng lịch",
+      "prevYear": "Năm trước",
+      "prevMonth": "Tháng trước",
+      "nextMonth": "Tháng sau",
+      "nextYear": "Năm sau",
+      "startTime": "Giờ bắt đầu",
+      "rangeStartTime": "Giờ bắt đầu khoảng",
+      "rangeEndTime": "Giờ kết thúc khoảng",
+      "cancel": "Hủy",
+      "confirm": "Áp dụng",
+      "preset": {
+        "today": "Hôm nay",
+        "yesterday": "Hôm qua",
+        "last7": "7 ngày qua",
+        "last14": "14 ngày qua",
+        "last30": "30 ngày qua",
+        "thisWeek": "Tuần này",
+        "lastWeek": "Tuần trước",
+        "adPublicationPeriod": "Thời gian chạy quảng cáo"
+      },
+      "time": "Thời gian",
+      "hour": "Giờ",
+      "minute": "Phút",
+      "today": "Hôm nay",
+      "clear": "Xoá"
+    },
+    "reportColumnHeader": {
+      "dragHint": "Kéo để đổi thứ tự cột",
+      "menuLabel": "Tác vụ",
+      "sortAsc": "Sắp xếp tăng dần",
+      "sortDesc": "Sắp xếp giảm dần",
+      "clearSort": "Bỏ sắp xếp",
+      "filter": "Lọc",
+      "remove": "Xoá cột này",
+      "resizeHint": "Điều chỉnh độ rộng cột",
+      "autoFitHint": "Nhấn đúp để vừa khít nội dung",
+      "columnFallback": "Cột"
+    }
+  }
+}

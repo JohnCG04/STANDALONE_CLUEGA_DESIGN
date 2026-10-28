@@ -1,0 +1,736 @@
+{
+  "homeFinalCta": {
+    "heading": "Xóa bỏ ốc đảo dữ liệu thương hiệu, xây dựng nền tảng vận hành thông minh toàn diện.",
+    "demo": "Đặt lịch Demo",
+    "start": "Bắt đầu miễn phí"
+  },
+  "hero": {
+    "eyebrowBadge": "New",
+    "eyebrow": "Trải nghiệm sớm hệ thống Cluega (Beta)!",
+    "titleLine1": "Cluega là trợ lý làm việc",
+    "titleLine2": "thông minh toàn diện, toàn chu kỳ, hướng kết quả",
+    "description": "Đưa insight, sáng tạo, phân phối quảng cáo và attribution của thương hiệu từ thao tác thủ công phức tạp sang quyết định tự động ở cấp mili giây.",
+    "primaryCta": "Bắt đầu sử dụng",
+    "secondaryCta": "Liên hệ sales"
+  },
+  "platform": {
+    "previewTitle": "Tính năng nền tảng Cluega",
+    "modelsTitle": "Các mô hình lớn CLUEGA hỗ trợ",
+    "panels": {
+      "core": "Hệ thống lõi SaaS",
+      "media": "Ma trận media",
+      "creative": "AIGC Engine"
+    },
+    "eyebrows": {
+      "workspace": "Không gian AI",
+      "omni": "Đa kênh",
+      "creative": "Vận hành sáng tạo"
+    }
+  },
+  "testimonial": {
+    "title": "Đánh giá của khách hàng Cluega",
+    "lines": [
+      "Khi lần đầu sử dụng Cluega,",
+      "tôi cảm thấy đây không chỉ là một công cụ,",
+      "mà còn là thời điểm marketing chính thức bước vào kỷ nguyên tự động vận hành."
+    ],
+    "caption": "Cluega AI Systems",
+    "role": "Hệ thống marketing AI"
+  },
+  "workflow": {
+    "intro": "Cluega đóng gói logic marketing phức tạp vào giao thức full-stack, biến AI thành đầu cuối thực thi của bạn. Bạn chỉ cần định nghĩa mục tiêu, phần còn lại để thuật toán xử lý.",
+    "eyebrow": "AI · CDP Intelligence",
+    "title": "Mỗi cuộc đối thoại đều có dấu vết để truy xuất.",
+    "description": "Không cần xuất báo cáo hay cấu hình quy tắc thủ công. Cluega lắng nghe API toàn nền tảng theo thời gian thực. Khi bạn đặt câu hỏi, AI lập tức tích hợp dữ liệu và báo cáo; khi bạn ra chỉ lệnh, thuật toán lập tức khởi động phân phối và tự động tối ưu.",
+    "link": "Khám phá năng lực cảm nhận AI & CDP",
+    "stats": {
+      "adGroups": "nhóm quảng cáo/phiên",
+      "cpa": "CPA thực tế",
+      "sources": "nguồn dữ liệu"
+    },
+    "chat": {
+      "requestLabel": "Yêu cầu người dùng",
+      "request": "Tổng hợp báo cáo hiệu quả TikTok tuần này, mục tiêu kiểm soát CPA dưới 4.8",
+      "processing": "● Đang xử lý",
+      "response": "Đã hoàn tất phân tích dữ liệu. CPA trung bình hiện tại là",
+      "automation": "Đang tự động kéo dữ liệu 30 ngày và khởi động",
+      "taskStatus": "Trạng thái tác vụ",
+      "running": "Đang thực thi... (45 / 100)",
+      "targetCpa": "CPA mục tiêu",
+      "liveCpa": "CPA thời gian thực",
+      "logTitle": "Nhật ký đồng bộ MCP"
+    }
+  },
+  "aiWorkflow": {
+    "intro": "Cluega đóng gói logic marketing phức tạp vào giao thức full-stack, biến AI thành đầu cuối thực thi của bạn. Bạn chỉ cần định nghĩa mục tiêu, phần còn lại để thuật toán xử lý.",
+    "eyebrow": "AI · CDP Intelligence",
+    "title": "Dữ liệu sinh ra từ chính chỉ lệnh của bạn.",
+    "description": "Không cần xuất báo cáo hay cấu hình quy tắc thủ công. Cluega lắng nghe API toàn nền tảng theo thời gian thực. Khi bạn đặt câu hỏi, AI lập tức tích hợp dữ liệu và báo cáo; khi bạn ra chỉ lệnh, thuật toán lập tức khởi động phân phối và tự động tối ưu.",
+    "link": "Khám phá năng lực cảm nhận AI & CDP",
+    "stats": {
+      "adGroups": "nhóm quảng cáo/phiên",
+      "cpa": "CPA thực tế",
+      "sources": "nguồn dữ liệu"
+    }
+  },
+  "creativeEngine": {
+    "intro": "Cluega nối dữ liệu hiệu quả, giao dịch thật và tạo asset thành một chuỗi tự động, để sản xuất creative không còn phụ thuộc vào việc bóc tách thủ công.",
+    "eyebrow": "AI · CDP Intelligence",
+    "title": "Asset tự nhân rộng theo mục tiêu của bạn.",
+    "description": "Hệ thống tự động đọc hiệu quả quảng cáo và dữ liệu giao dịch thật từ IM, trích xuất tín hiệu creative ROI cao, rồi kết hợp hình ảnh, tiêu đề và điểm bán thành ma trận creative sẵn sàng chạy.",
+    "link": "Khám phá Creative Engine"
+  },
+  "feedback": {
+    "support": "CÔNG CỤ HỖ TRỢ",
+    "crm": "CÔNG CỤ CRM",
+    "titleLine1": "Biến phản hồi khách hàng",
+    "titleLine2": "thành dữ liệu dễ truy cập",
+    "description1": "Thu thập phản hồi từ mọi tương tác với khách hàng, từ cuộc gọi sales đến chat hỗ trợ, rồi biến chúng thành yêu cầu khách hàng liên kết với project hoặc issue trong Cluega.",
+    "description2": "Customer Requests tích hợp liền mạch với các công cụ bạn đang dùng, nên bạn có thể tạo request trực tiếp từ support, email hoặc kênh Slack chung."
+  },
+  "mcp": {
+    "badge": "Cluega MCP · Trợ lý AI toàn chu kỳ",
+    "titleLine1": "Cluega là trợ lý làm việc",
+    "titleLine2": "thông minh toàn diện, toàn chu kỳ, hướng kết quả",
+    "subtitleLine1": "Đưa insight, sáng tạo, phân phối quảng cáo và attribution của thương hiệu",
+    "subtitleLine2": "từ thao tác thủ công phức tạp sang quyết định tự động ở cấp mili giây",
+    "windowTitle": "Giao diện hệ thống Cluega",
+    "userPrompt": "Tạo chiến dịch TikTok cho sản phẩm mới vào ngày mai, ngân sách $5,000, tệp nữ 25-34 tuổi",
+    "agentResponse": "Đã tạo 3 nhóm kế hoạch quảng cáo, đang tự động tải asset và thiết lập chiến lược giá thầu...",
+    "status": "MCP đang chạy nền · dự kiến hoàn tất trong 12 giây"
+  },
+  "sections": {
+    "compatibilityTitleLine1": "Một cửa sổ tương thích",
+    "compatibilityTitleLine2": "mọi mô hình lớn × mọi mạng xã hội × mọi nền tảng nhắn tin",
+    "managedTitleLine1": "Nền tảng bên dưới là giao thức MCP",
+    "managedTitleLine2": "vận hành tự động có quản lý",
+    "managedDescription": "Trang báo cáo quảng cáo tích hợp lịch sử truy cập MCP, có thể truy vết đường đi gọi interface và nhật ký vận hành theo thời gian thực. Sau khi bật project quản lý tự động, hệ thống tự động tiêu thụ Token theo lịch và vận hành không cần người trực 24 giờ.",
+    "launchTitleLine1": "Phân phối tối giản bằng hội thoại",
+    "launchTitleLine2": "một click xử lý toàn bộ quảng cáo social toàn cầu",
+    "launchDescription": "Đơn giản hóa toàn bộ quy trình phân phối. Chỉ cần một khung hội thoại là có thể hoàn tất trọn vẹn thao tác chạy quảng cáo, trong khi giao thức MCP bên dưới bảo đảm độ ổn định và khả năng tương thích đa nền tảng.",
+    "attributionTitleLine1": "Attribution lead IM chính xác",
+    "attributionTitleLine2": "nhìn xuyên suốt nguồn của từng chuyển đổi",
+    "attributionDescription": "Hiển thị chính xác nguồn lead và hành trình tin nhắn riêng của từng chuyển đổi, hỗ trợ trường attribution tùy chỉnh, giúp ad group đối ứng chính xác với chi phí chuyển đổi thực tế.",
+    "roiTitleLine1": "Tự động liên kết dữ liệu",
+    "roiTitleLine2": "trực quan hóa đa chiều để nâng ROI quảng cáo",
+    "roiDescription": "Tự động thu thập hội thoại mạng xã hội và dữ liệu phân phối quảng cáo, rồi tự động liên kết tin nhắn chat, kế hoạch quảng cáo và creative asset. Hệ thống tự tạo báo cáo trực quan, giúp nhanh chóng lọc ra các chiến dịch có giá trị cao."
+  },
+  "enterprise": {
+    "title": "Kiến trúc cấp enterprise, dùng được ngay.",
+    "description": "Cluega tuân thủ các tiêu chuẩn bảo mật dữ liệu cao nhất toàn cầu. Chúng tôi mã hóa ngữ cảnh thương hiệu của bạn và bảo đảm mọi dữ liệu truyền qua giao thức MCP đều đáp ứng yêu cầu quyền riêng tư.",
+    "cta": "Tìm hiểu thêm",
+    "features": {
+      "dataSovereignty": {
+        "title": "Chủ quyền dữ liệu",
+        "description": "Dữ liệu của bạn chỉ phục vụ bạn"
+      },
+      "securitySandbox": {
+        "title": "Sandbox bảo mật",
+        "description": "Quá trình thực thi MCP được mã hóa và cô lập toàn phần"
+      },
+      "rbac": {
+        "title": "RBAC",
+        "description": "Quản lý quyền API chính xác đến từng node"
+      }
+    }
+  },
+  "dataConnection": {
+    "hero": {
+      "kickerLeft": "[04] DATA CONNECTION",
+      "kickerRight": "/ REALTIME OPTIMIZATION",
+      "title": "Kết nối dữ liệu, AI tự động tối ưu.",
+      "description": "Kết nối nền tảng quảng cáo, hệ thống ecommerce và công cụ nhắn tin qua giao thức tiêu chuẩn. Cluega tự động hợp nhất dữ liệu rời rạc trước cả khi bạn ra lệnh, để mô hình tối ưu theo thời gian thực luôn sẵn sàng vận hành.",
+      "cta": "Trải nghiệm ngay"
+    },
+    "bridge": {
+      "events": {
+        "ads": "Giao diện phân phối quảng cáo",
+        "commerce": "Dữ liệu vận hành thương mại điện tử",
+        "messaging": "Dấu vết giao tiếp đa nền tảng",
+        "logs": "Nhật ký thực thi hệ thống"
+      }
+    },
+    "panel": {
+      "videoLabel": "VID_05_SAN_PHAM_HE",
+      "live": "LIVE",
+      "projectTitle": "Dự án sản phẩm hè _VID_05",
+      "managedStatus": "Đang quản lý tối ưu hoàn toàn tự động",
+      "powered": "Powered by MCP",
+      "details": {
+        "platform": {
+          "label": "Nền tảng chạy",
+          "value": "TikTok / Meta toàn cầu",
+          "badge": ""
+        },
+        "status": {
+          "label": "Trạng thái",
+          "value": "Đang thực thi quyết định",
+          "badge": "Optimizing"
+        },
+        "cpa": {
+          "label": "CPA real-time",
+          "value": "$4.12",
+          "badge": "Trần $4.8"
+        },
+        "conversions": {
+          "label": "Chuyển đổi lũy kế",
+          "value": "1,280 đơn",
+          "badge": "↑ 14.5%"
+        },
+        "roi": {
+          "label": "Giám sát ROI",
+          "value": "3.5x",
+          "badge": "Vượt mục tiêu"
+        },
+        "lastAction": {
+          "label": "Hành động cuối",
+          "value": "15 phút trước",
+          "badge": "Tự động chỉnh giá"
+        }
+      },
+      "actions": {
+        "dashboard": "Bảng dữ liệu real-time",
+        "strategy": "Điều chỉnh cường độ"
+      }
+    },
+    "optimization": {
+      "title": "Điểm tối ưu nổi bật của AI",
+      "summaryLabel": "Tóm tắt thông minh từ AI",
+      "summary": {
+        "prefix": "Hệ thống tự động nhận diện: nhóm quảng cáo",
+        "afterCode": "tăng mạnh lượt click tại Malaysia, nhưng đơn hàng Shopify xuất hiện điểm rơi chuyển đổi.",
+        "actionPrefix": "AI đã tự động kích hoạt",
+        "scheme": "phương án hỗ trợ hội thoại",
+        "actionSuffix": ": WhatsApp tự động gửi coupon cá nhân hóa do ART tạo ra, kéo tỷ lệ đặt hàng sau click tăng",
+        "resultSuffix": "."
+      },
+      "platformLabel": "Mức độ liên kết nền tảng",
+      "platformA": "TikTok Ads Manager",
+      "platformB": "Luồng dữ liệu Shopify backend",
+      "connected": "Đã kết nối",
+      "pathLabel": "Luồng quyết định (Ad Outreach)",
+      "steps": {
+        "collect": {
+          "text": "Step 1: Gom tín hiệu dữ liệu toàn phễu",
+          "status": "Done"
+        },
+        "shiftBudget": {
+          "text": "Step 2: Tự động chuyển ngân sách sang creative chuyển đổi cao",
+          "status": "Active"
+        },
+        "monitor": {
+          "text": "Step 3: Duy trì giám sát tự động 24/7",
+          "status": "Running"
+        }
+      }
+    },
+    "activity": {
+      "title": "Luồng hoạt động thực thi real-time",
+      "items": {
+        "bid": {
+          "time": "15 phút trước:",
+          "text": "Cluega AI tự động tăng giá thầu nhóm quảng cáo TikTok [AD_882] thêm 10%."
+        },
+        "creative": {
+          "time": "4 giờ trước:",
+          "text": "Phát hiện người dùng bắt đầu mỏi mắt với creative cũ, Cluega AI dùng ART Engine tự động tạo và thay 3 cover hấp dẫn hơn."
+        },
+        "audience": {
+          "time": "1 ngày trước:",
+          "text": "Số đơn từ tin nhắn riêng của hệ thống IM tăng 40% trong tuần này, Cluega AI đã tự động tối ưu tag tệp quảng cáo."
+        }
+      }
+    }
+  },
+  "growth": {
+    "title": "Tạm biệt thao tác thủ công, đưa marketing vào kỷ nguyên tự động vận hành.",
+    "description": "Đưa insight, sáng tạo, phân phối quảng cáo và attribution của thương hiệu từ thao tác thủ công phức tạp sang quyết định tự động ở cấp mili giây.",
+    "stats": {
+      "signals": "tín hiệu dữ liệu marketing xử lý mỗi tuần",
+      "tasks": "tác vụ giao thức tự động thực thi mỗi tháng",
+      "latency": "độ trễ phản hồi dữ liệu hệ thống",
+      "uptime": "thời gian hoạt động hệ thống 24/7"
+    }
+  },
+  "peopleCta": {
+    "titleLine1": "Kỷ nguyên tăng trưởng toàn cầu tiếp theo",
+    "titleLine2": "đang tự động vận hành trên Cluega.",
+    "primaryCta": "Bắt đầu ngay",
+    "secondaryCta": "Trao đổi với sales",
+    "mobileSubmit": "Liên hệ chúng tôi",
+    "emailPlaceholder": "Địa chỉ email của bạn"
+  },
+  "adaptiveModels": {
+    "title": "Trao cho dữ liệu bối cảnh kinh doanh thật sự",
+    "subtitleLine1": "Mọi chỉ số, creative, hội thoại và quyết định đều hội tụ tại đây.",
+    "subtitleLine2": "Đây không chỉ là việc xếp chồng công cụ, mà là một nền tảng vận hành toàn diện được xây cho đội ngũ của bạn.",
+    "cta": "Tìm hiểu thêm về Cluega AI",
+    "common": {
+      "addObject": "Thêm đối tượng",
+      "moreDimensions": "chiều dữ liệu khác"
+    },
+    "tabs": {
+      "scaleUps": "Nhà quảng cáo",
+      "saasStartups": "Nhà sáng tạo nội dung",
+      "smbs": "Vận hành sales",
+      "investors": "Giám sát thương hiệu"
+    },
+    "panels": {
+      "scaleUps": {
+        "cards": {
+          "plan": {
+            "name": "Kế hoạch phân phối",
+            "attributes": ["Mã quảng cáo", "CPA mục tiêu", "Cảnh báo ngân sách"]
+          },
+          "performance": {
+            "name": "Phản hồi hiệu quả",
+            "attributes": ["ROAS thời gian thực", "Mức dùng Token", "Số lần chuyển đổi"]
+          },
+          "agent": {
+            "name": "AI tác vụ thực thi",
+            "attributes": ["Triển khai chiến lược định lượng", "Kết nối API nền", "Mức bid hiện tại"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Quy tắc cảnh báo tùy chỉnh",
+          "attributes": [
+            "Quy tắc: tự động cắt lỗ khi chi phí cao",
+            "Chỉ số theo dõi: CPA realtime",
+            "Điều kiện kích hoạt: > $6.5",
+            "Hành động: tự giảm 30% ngân sách"
+          ]
+        },
+        "table": {
+          "header": "Tên kế hoạch",
+          "columns": ["Mục tiêu chiến lược", "Trạng thái realtime", "Quyền thực thi ngân sách"],
+          "addObjectColumnLabel": "Kích hoạt cảnh báo",
+          "rows": [
+            {
+              "lead": "TikTok_Á_Thái_Sản_Phẩm_Mới",
+              "goal": "CPA < $4.5",
+              "status": "AI tự động tối ưu toàn phần",
+              "permission": "System",
+              "workspace": "0 lần"
+            },
+            {
+              "lead": "Meta_Tăng_Trưởng_Toàn_Cầu",
+              "goal": "Tối đa hóa chuyển đổi",
+              "status": "Đã đạt mục tiêu (CPA $3.2)",
+              "permission": "Admin",
+              "workspace": "1 lần (tự chỉnh bid)"
+            },
+            {
+              "lead": "Google_Ma_Trận_Từ_Khóa",
+              "goal": "Duy trì ROAS",
+              "status": "Đã tự tạm dừng để tối ưu",
+              "permission": "System",
+              "workspace": "0 lần"
+            },
+            {
+              "lead": "X_Ads_Siêu_Khuyến_Mãi",
+              "goal": "Tối đa độ phủ",
+              "status": "Dữ liệu phản hồi bị chậm",
+              "permission": "Admin",
+              "workspace": "2 lần"
+            }
+          ]
+        }
+      },
+      "saasStartups": {
+        "cards": {
+          "gene": {
+            "name": "DNA nội dung thắng",
+            "attributes": ["Thành phần hình ảnh", "Từ khóa tần suất cao", "Thời lượng xem"]
+          },
+          "distribution": {
+            "name": "Trung tâm phân phối",
+            "attributes": ["Kho media TikTok", "FB creative hub", "Mã asset"]
+          },
+          "art": {
+            "name": "ART engine tạo nội dung",
+            "attributes": ["Ngữ cảnh thương hiệu", "Phân nhánh ma trận asset", "Chuyển phong cách"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Khớp ưu tiên tệp khách hàng",
+          "attributes": [
+            "Nhãn tệp: người dùng yêu phong cách tinh tế",
+            "Pain point cốt lõi: cần chi tiết cao cấp",
+            "Sở thích hình ảnh: sáng, tông lạnh",
+            "Điểm khớp: 8.8 / 10"
+          ]
+        },
+        "table": {
+          "header": "Loại chất liệu",
+          "columns": ["Nhãn gene thắng", "Tiến độ AI tạo nội dung", "Tiềm năng ROI"],
+          "addObjectColumnLabel": "Nhóm phù hợp",
+          "rows": [
+            {
+              "lead": "Biến_Thể_Video_Ngắn_V14",
+              "gene": "Mở đầu gây sốc + đảo chiều",
+              "progress": "Đã hoàn tất (1.000 bộ)",
+              "roi": "Tiềm năng cao",
+              "workspace": "Thế hệ Z"
+            },
+            {
+              "lead": "Poster_Tĩnh_S05",
+              "gene": "Tương phản cao + UI khuyến mãi",
+              "progress": "Đang render (45/100)",
+              "roi": "Tiềm năng trung bình",
+              "workspace": "Người mới đi làm"
+            },
+            {
+              "lead": "Chuỗi_Kịch_Bản_W21",
+              "gene": "Phong cách kể chuyện cảm xúc",
+              "progress": "Đã đồng bộ vào media library",
+              "roi": "Xuất sắc",
+              "workspace": "Nữ có ý định mua cao"
+            },
+            {
+              "lead": "Video_Mô_Phỏng_UGV",
+              "gene": "Góc nhìn review thật",
+              "progress": "Đang chờ dữ liệu feed",
+              "roi": "Đang chờ đánh giá",
+              "workspace": "Cộng đồng mua sắm xuyên biên giới"
+            }
+          ]
+        }
+      },
+      "smbs": {
+        "cards": {
+          "leads": {
+            "name": "Lead từ tin nhắn",
+            "attributes": ["Mã khách hàng", "Nguồn kênh", "Tóm tắt hội thoại"]
+          },
+          "dashboard": {
+            "name": "Bảng điều khiển chốt đơn",
+            "attributes": ["Giá trị đơn hàng", "LTV dự kiến", "Tiến độ chốt"]
+          },
+          "attribution": {
+            "name": "Trung tâm attribution IM",
+            "attributes": ["Asset ID khớp", "Từ khóa trúng", "Điểm ý định"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Kịch bản trả lời tự động",
+          "attributes": [
+            "Từ khóa: giá / miễn phí ship / còn hàng",
+            "Quyết định: xác định là nhạy cảm giá",
+            "Kịch bản gửi xuống: coupon 10%",
+            "Quyền thao tác: đã cấp quyền tự trả lời"
+          ]
+        },
+        "table": {
+          "header": "Mã khách hàng",
+          "columns": ["Kênh tư vấn", "Nguồn quảng cáo / asset quy về", "Điểm ý định chốt đơn"],
+          "addObjectColumnLabel": "AI can thiệp",
+          "rows": [
+            {
+              "lead": "User_SJ_9981",
+              "channel": "WhatsApp",
+              "source": "[VID_02] Váy mùa hè",
+              "intent": "Ý định cao",
+              "workspace": "Gửi coupon"
+            },
+            {
+              "lead": "User_DC_7362",
+              "channel": "Zalo",
+              "source": "[IMG_05] Ảnh khuyến mãi",
+              "intent": "Đang tư vấn",
+              "workspace": "QA sản phẩm"
+            },
+            {
+              "lead": "User_KL_4430",
+              "channel": "TikTok DM",
+              "source": "Traffic tự nhiên từ homepage thương hiệu",
+              "intent": "Mới tìm hiểu",
+              "workspace": "Không"
+            },
+            {
+              "lead": "User_RT_5512",
+              "channel": "Messenger",
+              "source": "[VID_12] Gợi ý kiểu influencer",
+              "intent": "Đang cân nhắc",
+              "workspace": "Đặt lịch gọi"
+            }
+          ]
+        }
+      },
+      "investors": {
+        "cards": {
+          "assets": {
+            "name": "Tài sản tổ chức",
+            "attributes": ["Thành viên đội ngũ", "Số dự án", "Tổng token"]
+          },
+          "finance": {
+            "name": "Báo cáo tài chính",
+            "attributes": ["Tốc độ burn realtime", "Biên CPA còn lại", "Lợi nhuận dự kiến"]
+          },
+          "monitoring": {
+            "name": "Giám sát toàn cục",
+            "attributes": ["Sức khỏe API", "Độ phủ chiến lược", "Nhật ký thực thi"]
+          }
+        },
+        "addObjectCard": {
+          "name": "Kết nối công cụ bên thứ ba",
+          "attributes": [
+            "Trạng thái kết nối: bắt tay thành công (200)",
+            "Tần suất đồng bộ: mỗi 10 phút",
+            "Giao thức bảo mật: AES-256"
+          ]
+        },
+        "table": {
+          "header": "Hạng mục giám sát",
+          "columns": ["Phạm vi phủ", "Trạng thái vận hành realtime", "Cấp độ cảnh báo"],
+          "addObjectColumnLabel": "Khả năng kết nối",
+          "rows": [
+            {
+              "lead": "Quản lý full-service thị trường APAC",
+              "scope": "TikTok/Meta",
+              "status": "Vận hành bình thường (Stable)",
+              "alert": "Bình thường",
+              "workspace": "Slack đã kết nối"
+            },
+            {
+              "lead": "Billing Token",
+              "scope": "Chương trình AI toàn cục",
+              "status": "Số dư an toàn (85%)",
+              "alert": "Bỏ qua",
+              "workspace": "Email đã đồng bộ"
+            },
+            {
+              "lead": "Trung tâm chuyển tiếp API",
+              "scope": "Toàn bộ route liên lạc",
+              "status": "Meta API dao động",
+              "alert": "Trung bình",
+              "workspace": "Hệ thống đang tự phục hồi"
+            },
+            {
+              "lead": "Giám sát nội dung thương hiệu",
+              "scope": "Kho tạo nội dung AI",
+              "status": "Khớp thương hiệu 100%",
+              "alert": "Thấp",
+              "workspace": "Đã cập nhật chứng chỉ bảo mật"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "platformGraphics": {
+    "introLine1": "Cluega đóng gói logic marketing phức tạp vào giao thức full-stack, biến AI thành đầu cuối thực thi của bạn.",
+    "introLine2": "Bạn chỉ cần định nghĩa mục tiêu, phần còn lại để thuật toán xử lý.",
+    "features": {
+      "agents": {
+        "platform": "AI · CDP",
+        "title": "Dữ liệu sinh ra từ chính chỉ lệnh của bạn.",
+        "body": "Không cần xuất báo cáo hay cấu hình quy tắc thủ công. Cluega giám sát API toàn nền tảng theo thời gian thực. Khi bạn đặt câu hỏi, AI lập tức tinh lọc dữ liệu và tích hợp báo cáo; khi bạn ra chỉ lệnh, thuật toán lập tức khởi động phân phối tự động và tối ưu.",
+        "cta": "Khám phá phân phối & tối ưu quảng cáo"
+      },
+      "creative": {
+        "platform": "ART",
+        "title": "Ma trận sáng tạo được dẫn dắt bởi ROI thực.",
+        "body": "ART Engine không còn tạo nội dung một cách mù quáng. Hệ thống kết nối sâu với hiệu quả quảng cáo CDP và dữ liệu giao dịch thực từ IM, tự động nhận diện tín hiệu chuyển đổi cao, rồi nhân rộng chúng thành ma trận sáng tạo mạnh hơn. Mỗi lượt click đều có dấu vết để truy xuất.",
+        "cta": "Khám phá Trò chuyện AI & Mô hình"
+      },
+      "data": {
+        "platform": "IM",
+        "title": "Mỗi cuộc đối thoại đều có dấu vết để truy xuất.",
+        "body": "Xóa bỏ các ốc đảo dữ liệu trong giao tiếp xuyên biên giới. Cluega không chỉ hợp nhất hội thoại trên mọi nền tảng, mà còn tự động liên kết từng lead với nguồn quảng cáo và chi tiết nội dung sáng tạo thông qua giao thức bên dưới. Khách hàng đến từ đâu, đã xem gì và đã trò chuyện gì đều minh bạch trong một cửa sổ.",
+        "cta": "Khám phá hệ thống nhắn tin IM"
+      }
+    },
+    "queueGraphic": {
+      "subtitle": "Cluega AI · đang chạy",
+      "userMessage": "Tổng hợp báo cáo hiệu quả TikTok tuần này, mục tiêu kiểm soát CPA trong mức 4.8.",
+      "assistantMessage": "Đã hoàn tất phân tích dữ liệu. CPA trung bình hiện tại là 4.2. Đang tự động kéo dữ liệu nội dung 30 ngày qua và khởi động 100 kế hoạch phân phối tự động cho bạn.",
+      "dataCardTitle": "Thẻ dữ liệu",
+      "taskStatus": "Trạng thái tác vụ",
+      "running": "Đang thực thi... (đã hoàn tất 45/100)",
+      "targetCpa": "CPA mục tiêu",
+      "liveCpa": "CPA thời gian thực",
+      "performanceLabel": "Chỉ số hiệu suất",
+      "status": "Cluega AI Agent · đang thực thi..."
+    },
+    "recordGraphic": {
+      "ariaLabel": "Biểu đồ hiệu suất so sánh creative ma trận ART với creative thủ công",
+      "title": "Hiệu suất ma trận ART",
+      "artLegend": "Creative ART (CPA -35%)",
+      "manualLegend": "Creative thủ công (baseline)",
+      "axisLabel": "CPA (USD)",
+      "callout": "ROI cao, tiềm năng",
+      "realtime": "Đồng bộ realtime: đang lấy phản hồi chuyển đổi IM...",
+      "dates": {
+        "apr01": "Apr 01",
+        "apr08": "Apr 08",
+        "apr15": "Apr 15",
+        "apr21": "Apr 21",
+        "apr29": "Apr 29"
+      }
+    },
+    "agentsGraphic": {
+      "branch": {
+        "confirmed": "Đã xác nhận lệnh",
+        "pending": "Chờ xác nhận"
+      },
+      "steps": {
+        "trigger": {
+          "title": "Kết nối API toàn nền tảng",
+          "description": "Đồng bộ dữ liệu Meta và TikTok theo thời gian thực",
+          "status": "Đã kích hoạt",
+          "tag": "API"
+        },
+        "condition": {
+          "title": "AI nhận diện ý định",
+          "description": "Phân tích lệnh: tạo 100 nhóm quảng cáo, CPA < 4.8",
+          "status": "Đã hoàn tất",
+          "tag": "AI"
+        },
+        "sequences": {
+          "title": "Chiến lược phân phối tự động",
+          "description": "Truy hồi hiệu quả lịch sử và khởi động phân phối định lượng",
+          "status": "Đã hoàn tất",
+          "tag": "Phân phối"
+        },
+        "analytics": {
+          "title": "Phân tích dữ liệu thông minh",
+          "description": "Phân tích dữ liệu toàn nền tảng chỉ với một chạm, tự động tạo báo cáo trực quan",
+          "tag": "Báo cáo"
+        }
+      }
+    },
+    "creativeGraphic": {
+      "title": "Tạo nội dung sáng tạo hàng loạt",
+      "steps": {
+        "import": {
+          "title": "Nhập dữ liệu lõi",
+          "description": "Hiệu quả quảng cáo + giao dịch IM thực",
+          "status": "Đã kết nối nguồn dữ liệu Meta, TikTok, Line"
+        },
+        "extract": {
+          "title": "Trích xuất tín hiệu ROI cao",
+          "description": "Phân tích quy luật hình ảnh và tiêu đề của nội dung thắng",
+          "status": "Đang nhận diện quy luật nội dung chuyển đổi cao"
+        },
+        "matrix": {
+          "title": "Nhân rộng ma trận hàng loạt",
+          "description": "Tự động tạo 1000+ nội dung từ tín hiệu đã chứng minh",
+          "status": "AI đang tạo nội dung quảng cáo hàng loạt"
+        }
+      },
+      "stats": {
+        "adGroups": "nhóm quảng cáo/phiên",
+        "cpa": "CPA thực tế",
+        "sources": "nguồn dữ liệu"
+      }
+    },
+    "workflowGraphic": {
+      "channelTitle": "Kênh phân phối",
+      "creativeTitle": "Nguồn sáng tạo",
+      "creativeCopy": "SKU_005 (khuyến mãi hè)",
+      "analyticsTitle": "Phân tích nguồn nhóm quảng cáo",
+      "analyticsCopy": "$387.41 · 105 chuyển đổi"
+    }
+  },
+  "showcase": {
+    "askAi": {
+      "sidebar": {
+        "capabilities": "Năng lực",
+        "newBadge": "Mới",
+        "paidAds": "Quảng cáo trả phí",
+        "marketingReports": "Báo cáo marketing",
+        "community": "Cộng đồng",
+        "search": "Tìm kiếm",
+        "library": "Thư viện",
+        "projects": "Dự án",
+        "newProject": "Dự án mới",
+        "allTasks": "Tất cả tác vụ",
+        "emptyTasks": "Tạo một tác vụ để bắt đầu",
+        "shareTitle": "Chia sẻ Cluega với bạn bè",
+        "shareSubtitle": "Cả hai nhận 500 điểm",
+        "fromCluega": "Từ Cluega"
+      },
+      "mainPanel": {
+        "actions": {
+          "ads": "Chạy quảng cáo",
+          "video": "Video quảng cáo",
+          "design": "Thiết kế",
+          "chat": "Chế độ",
+          "more": "Thêm"
+        },
+        "heading": "Tôi có thể giúp bạn làm gì?",
+        "subtitle": "Trợ lý AI của bạn đã sẵn sàng. Giao một tác vụ để bắt đầu.",
+        "placeholder": "Giao tác vụ hoặc hỏi bất cứ điều gì",
+        "connectTools": "Kết nối công cụ của bạn với Cluega"
+      },
+      "chat": {
+        "userPrompt": "Cluega có thể giúp tôi làm gì?",
+        "intro": "Cluega là trợ lý marketing AI toàn năng của bạn. Tôi có thể hỗ trợ xuyên suốt từ lên ý tưởng creative, thiết kế, chạy quảng cáo đến phân tích dữ liệu, giúp doanh nghiệp tăng trưởng nhanh hơn và tiết kiệm thời gian vận hành.",
+        "capabilitiesTitle": "Đây là các năng lực chính tôi có thể cung cấp:",
+        "closing": "Hãy chọn tác vụ bên dưới hoặc hỏi trực tiếp tôi.",
+        "capabilities": {
+          "ads": {
+            "title": "Tạo và tối ưu quảng cáo - ",
+            "text": "Hỗ trợ lập kế hoạch chi tiết, viết nội dung creative và liên tục điều chỉnh chiến dịch để tối đa hóa ROI trên các kênh."
+          },
+          "design": {
+            "title": "Thiết kế và sản xuất video - ",
+            "text": "Tạo template thiết kế chuyên nghiệp, storyboard chi tiết và gợi ý kịch bản video quảng cáo để thu hút khách hàng mục tiêu."
+          },
+          "analytics": {
+            "title": "Phân tích và báo cáo marketing - ",
+            "text": "Theo dõi hiệu quả quảng cáo theo thời gian thực, phân tích chuyển đổi chuyên sâu và xuất báo cáo trực quan dễ hiểu."
+          },
+          "automation": {
+            "title": "Tự động hóa quy trình - ",
+            "text": "Xây dựng workflow tự động thông minh như nhắc việc, gửi email marketing và chăm sóc khách hàng 24/7."
+          },
+          "campaigns": {
+            "title": "Quản lý chiến dịch đa nền tảng - ",
+            "text": "Đồng bộ và điều phối quảng cáo Facebook, Google, TikTok trong cùng một giao diện, giảm việc chuyển đổi qua lại."
+          },
+          "budget": {
+            "title": "Tối ưu ngân sách thông minh - ",
+            "text": "AI phân tích dữ liệu lịch sử và tự động đề xuất phân bổ ngân sách theo hiệu quả thực tế của từng kênh."
+          },
+          "competitors": {
+            "title": "Nghiên cứu đối thủ - ",
+            "text": "Thu thập và phân tích chiến lược quảng cáo của đối thủ để giúp bạn tìm cơ hội khác biệt hóa và không gian tăng trưởng."
+          },
+          "abTesting": {
+            "title": "A/B testing tự động - ",
+            "text": "Chạy thử nghiệm đa biến cho copy, hình ảnh và CTA để tìm phiên bản quảng cáo có hiệu quả tốt nhất."
+          }
+        }
+      },
+      "meetings": {
+        "details": "Chi tiết",
+        "detailsBody": "Thực hiện cuộc gọi demo với đội ngũ Greenleaf, giúp họ tận dụng tối đa bản dùng thử PRO.",
+        "participants": "Người tham gia",
+        "participantOneTitle": "CEO Basepoint",
+        "participantTwoTitle": "Product Manager Greenleaf",
+        "title": "Cuộc họp",
+        "date": "Hôm nay, 16 tháng 5",
+        "timeMorning": "10:00 - 11:00 sáng",
+        "timeLateMorning": "10:20 - 10:40 sáng",
+        "timeAfternoon": "2:30 - 3:00 chiều"
+      },
+      "assistantInput": {
+        "placeholder": "Hỏi bất cứ điều gì...",
+        "auto": "Tự động",
+        "quickMeeting": "Chuẩn bị cuộc họp tiếp theo",
+        "quickSummary": "Tóm tắt cuộc gọi trước"
+      },
+      "topBar": {
+        "upgrade": "Nâng cấp",
+        "share": "Chia sẻ"
+      },
+      "dealCard": {
+        "title": "Giới thiệu Greenleaf",
+        "time": "12 tháng 12, 10:40 - 11:32 sáng",
+        "recorded": "Đã ghi",
+        "duration": " 48 phút"
+      }
+    }
+  }
+}

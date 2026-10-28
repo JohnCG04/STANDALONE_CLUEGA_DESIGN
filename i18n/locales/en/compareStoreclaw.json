@@ -1,0 +1,224 @@
+{
+  "compareStoreclaw": {
+    "meta": {
+      "title": "Cluega AI vs StoreClaw | Cluega",
+      "description": "StoreClaw's AI Agent stops at day-to-day store work; Cluega AI takes over TikTok Shop／Amazon／Shopify store operations too, and on the same data foundation adds an L4 fully managed growth engine."
+    },
+    "hero": {
+      "eyebrow": "CLUEGA AI VS. STORECLAW",
+      "title": "Minding the store is table stakes; growing the store is the difference",
+      "subtitle": "StoreClaw's AI Agent stops at day-to-day store work — diagnostics, listings, SEO, social content. Cluega AI takes over TikTok Shop／Amazon／Shopify store operations just the same, and on the same data foundation connects a growth engine: L4 fully managed autonomous buying, private-domain attribution, a share of ad spend, and process costs included.",
+      "ctaStart": "Start free trial",
+      "ctaDemo": "Book a demo",
+      "cluegaLabel": "Cluega AI",
+      "storeclawLabel": "StoreClaw",
+      "vs": "vs"
+    },
+    "comparison": {
+      "eyebrow": "CORE COMPARISON",
+      "title": "StoreClaw vs Cluega AI",
+      "colDimension": "Dimension",
+      "colStoreclaw": "StoreClaw",
+      "colCluega": "Cluega AI",
+      "rows": [
+        {
+          "dimension": "Positioning",
+          "storeclaw": "E-commerce store operations AI Agent: diagnostics, listing optimisation, SEO, social content (in-store only)",
+          "cluega": "AI marketing infrastructure: store operations built in, plus L4 fully managed autonomous buying + private-domain attribution"
+        },
+        {
+          "dimension": "Scope of action",
+          "storeclaw": "Store back offices such as Shopify／Amazon／TikTok Shop／Wix (in-store)",
+          "cluega": "TikTok Shop／Amazon／Shopify store operations and sales data + Meta／Google／TikTok ad accounts + LINE／Zalo／WhatsApp private domains (in-store and out-of-store as one)"
+        },
+        {
+          "dimension": "Degree of autonomy",
+          "storeclaw": "Low-risk tasks run automatically; price, inventory and budget changes need item-by-item human approval",
+          "cluega": "AAIGS tiered authorisation: M0–M5 maturity + a T0–T3 ladder, so the more mature the data the more the AI is allowed to spend"
+        },
+        {
+          "dimension": "Billing model",
+          "storeclaw": "Credit subscription $0–199.9／month, with per-task credit consumption not publicly defined",
+          "cluega": "Transparently anchored credits (1 credit＝$0.001); fully managed takes 4%→2.5%→1.5% of ad spend"
+        },
+        {
+          "dimension": "Advertising capability",
+          "storeclaw": "No ad buying or optimisation capability",
+          "cluega": "The AI autonomously manages bids／budgets／audiences／on-off states, with creative output included in the revenue share"
+        },
+        {
+          "dimension": "Attribution capability",
+          "storeclaw": "No ad attribution",
+          "cluega": "Private-domain sales pushed back to ads: conversions the Pixel can't see are attributed too"
+        },
+        {
+          "dimension": "Target customer",
+          "storeclaw": "Small-to-mid sellers, solo store owners",
+          "cluega": "Performance advertisers, brand growth teams, agencies"
+        },
+        {
+          "dimension": "Best fit",
+          "storeclaw": "Automating day-to-day store upkeep to save effort",
+          "cluega": "Store operations + acquisition scaling as one: the AI minds the store while spending on growth at scale and auditably"
+        }
+      ],
+      "footnote": "＊Competitor information is compiled from their official sites and public third-party sources (verified 2026-07); their own official announcements take precedence.",
+      "ctaStart": "Start free trial",
+      "ctaDemo": "Book a demo"
+    },
+    "whySwitch": {
+      "eyebrow": "VALUE EVOLUTION",
+      "title": "Why growth teams don't stop at a store Agent and go straight to Cluega AI",
+      "items": [
+        {
+          "title": "Store operations are something Cluega AI already does — but it doesn't stop there",
+          "body": "Once TikTok Shop／Amazon／Shopify are connected, listing optimisation, product and order data, and store diagnostics are carried out by Cluega's Agents and Skills all the same. The difference is the ceiling: however well you optimise listings and however clean your SEO, the limit is the traffic you already have; what really decides the growth curve is acquisition. Cluega puts store operations and paid growth in the same system — the time-saving work still gets done, and the revenue-scaling work gets done next."
+        },
+        {
+          "title": "Delegating spend needs a risk gate, not item-by-item approval",
+          "body": "Store Agents demand item-by-item human approval for high-risk actions — especially anything touching money — and at scale that becomes approval fatigue. Cluega solves it with AAIGS: account maturity M0–M5 and the T0–T3 authorisation ladder determine how much budget the AI can commit on its own, with new accounts starting at low authorisation and earning more as data accumulates — an institutional gate between aggressive and out of control."
+        },
+        {
+          "title": "Revenue-share billing: one predictable line, all costs included",
+          "body": "The pain of a credit system is \"no idea how much this task will burn\". Cluega's fully managed mode charges a single \"ad spend × share\" line (4%→2.5%→1.5%, decreasing with scale): tokens, images, short video and optimisation decisions along the way are all included, plus a $149／month managed base fee and fair-use guardrails, so small and large accounts alike can do the maths."
+        },
+        {
+          "title": "Private-domain attribution catches the sales the store can't see",
+          "body": "A huge share of the world's sales aren't in the cart — they're in WhatsApp／LINE／Zalo DMs. StoreClaw's world ends at the store back office; Cluega pushes captured leads and closed sales from private-domain conversations back to the ad source, so the full chain from ad to sale finally adds up."
+        }
+      ]
+    },
+    "panels": {
+      "accountMaturity": {
+        "title": "Ad Accounts Overview",
+        "stages": [
+          "M0 Cold Start",
+          "M1 Learning",
+          "M2 Growth",
+          "M3 Optimization",
+          "M4 Scaling",
+          "M5 Flywheel"
+        ]
+      },
+      "agentChat": {
+        "connected": "Sophia connected Cluega to SHOP-2026",
+        "examining": "🔍 Deep-diagnosing TikTok traffic and Facebook livestream order-capture conversion...",
+        "worked": "Deep diagnosis complete, took 7s",
+        "pushed": "🚀 Running daily cross-channel operations:",
+        "change1Label": "TikTok_Shop_Batch",
+        "change1Body": "Batch-replace high-conversion livestream main images and auto-update listing status",
+        "change2Label": "Social_Media_Push",
+        "change2Body": "Auto-generate Indonesia/Vietnam trending-keyword posts, ready to broadcast to FB page, Zalo and LINE",
+        "inventory": "Stock level: 14 hot products with turnover < 3 days",
+        "output": "Output: Southeast Asia best-seller ops copy & assets pack.zip",
+        "placeholder": "Assign a task or ask anything…"
+      },
+      "mmtStatus": {
+        "cardTitle": "EcoSip-MMT",
+        "ctmIdLabel": "CTM ID",
+        "ctmIdValue": "7647794429255761927",
+        "createTimeLabel": "Created",
+        "createTimeValue": "2026-06-05 14:37:47",
+        "eventCount": "121",
+        "eventTotalLabel": "Total events",
+        "avgCostValue": "$ 8.96",
+        "avgCostLabel": "Avg. cost per conversion",
+        "legend": "All"
+      },
+      "radar": {
+        "labelBrand": "Brand",
+        "brandValue": "Brand Alpha",
+        "labelChange": "Change",
+        "changeValue": "+28%",
+        "labelActivity": "Activity",
+        "activityValue": "Added 12 ad creatives",
+        "actionLabel": "Generate counter-creatives",
+        "approvedBy": "Followed up",
+        "resultPill": "Generated a counter-creative and notified the growth team"
+      },
+      "thread": {
+        "messages": [
+          { "sender": "Sarah", "time": "1 min ago", "body": "Is there still a discount on this product?" },
+          { "sender": "Cluega", "time": "1 min ago", "body": "💡High-intent consideration behaviour detected" },
+          {
+            "sender": "Cluega",
+            "time": "Just now",
+            "body": "Hi Sarah! You clearly love this product, so we've requested a [limited 15% off coupon] just for you. Tap the link below to claim it."
+          }
+        ]
+      },
+      "billing": {
+        "steps": [
+          "Buyer enters the store and asks",
+          "MMT detects hesitation intent",
+          "Coupon auto-issued to close the order"
+        ],
+        "success": "Converted: valid payment",
+        "outcome": "Outcome met: charge $0.99"
+      }
+    },
+    "highlights": {
+      "eyebrow": "E-COMMERCE & IM PRIVATE FLYWHEEL",
+      "title": "Not just automating store chores — turning \"spending to grow\" into a system you can delegate",
+      "items": [
+        {
+          "title": "Store operations built in",
+          "body": "Connect TikTok Shop／Amazon／Shopify, and listings, product and order data, and store diagnostics are carried out by Agents driven by 400+ models."
+        },
+        {
+          "title": "Fully managed L4",
+          "body": "Autonomous AI buying, with a share of spend covering process costs; manually operated campaigns are excluded by AD fingerprint attribution, so you're never overcharged."
+        },
+        {
+          "title": "AAIGS risk control",
+          "body": "Account tiering (M0–M5) + an authorisation ladder (T0–T3), with an audit log on every decision so delegation always has grounds."
+        },
+        {
+          "title": "Private-domain IM attribution",
+          "body": "DM sales are pushed back to ads, closing the gap between store reporting and the ad platforms."
+        }
+      ]
+    },
+    "pick": {
+      "eyebrow": "HOW TO CHOOSE",
+      "title": "Which one should I choose?",
+      "storeclaw": {
+        "label": "Choose StoreClaw",
+        "body": "You're a small-to-mid seller or a solo store owner who only needs day-to-day store upkeep automated — inventory reminders, listing optimisation, social posts — with no plans to run ads at all and acquisition riding entirely on organic traffic."
+      },
+      "cluega": {
+        "label": "Choose Cluega AI",
+        "body": "You want one system that handles it end to end: store operations well looked after, while the AI buys media autonomously and auditably, creative capacity is wired into the budget, and private-domain sales attribution closes the loop — with fees tied directly to your ad performance instead of maintaining separate tools for store chores and growth."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you might want to know before you reach out to our team.",
+      "contact": "Contact sales",
+      "items": [
+        {
+          "q": "Can Cluega AI do the store-operations work that StoreClaw does?",
+          "a": "It can. Once TikTok Shop／Amazon／Shopify are connected, operational work such as listing optimisation, product and order data sync, and store diagnostics is carried out by Cluega's Agents and Skills. The difference is architectural: Cluega puts store data, ad accounts and private-domain conversations on the same data foundation, so store work isn't an island — it's part of attribution and buying decisions."
+        },
+        {
+          "q": "What exactly is fully managed L4?",
+          "a": "L4 denotes the autonomous AI buying tier: you hand the ad account to the AI and it decides bids, budgets, audiences and creative retirement on its own, with a tiered share of the ad spend it actually manages (4%→2.5%→1.5%). All token and creative-generation costs during that period are included, and you pay a single line."
+        },
+        {
+          "q": "Will the AI spend recklessly?",
+          "a": "There are three safeguards: the AAIGS authorisation ladder starts new accounts at low permissions; every decision carries an audit log you can trace back; and billing only counts spend attributed to Cluega's AD fingerprint, so campaigns you open manually don't count toward the share. The AI's spending authority is always tied to the account's data maturity."
+        },
+        {
+          "q": "Small team, no dedicated media buyer — is the barrier to entry high?",
+          "a": "Not high. $12／week is enough to trial it, and from $99／month on Pro you can switch on fully managed (4% share, $149／month managed base fee); compared with hiring your own media buyer or a human agency's 10–15% service fee, that's an order of magnitude apart."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "With Cluega AI, hand your growth budget to an operator that never gets tired.",
+      "ctaStart": "Start free trial",
+      "ctaDemo": "Book a demo"
+    }
+  }
+}

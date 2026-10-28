@@ -1,0 +1,311 @@
+{
+  "sbc": {
+    "eyebrow": "產業方案 · 真金博弈",
+    "badge": "SBC SUMMIT LISBON 2026 · BOOTH F548",
+    "formTitle": "與 Cluega 聊 iGaming",
+    "company": "公司",
+    "companyPlaceholder": "你的營運商或代理商",
+    "email": "工作信箱",
+    "emailPlaceholder": "you@company.com",
+    "vertical": "主要垂直領域",
+    "budget": "每月付費媒體預算",
+    "submitting": "傳送中…",
+    "errorRate": "來自此處的嘗試過於頻繁，請稍候再試。",
+    "errorGeneric": "無法儲存你的資料。請再試一次，或到 Booth F548 找我們。",
+    "doneTitle": "謝謝你，我們已收到你的資料。",
+    "doneBody": "Cluega 專員會以電子郵件與你聯絡。你這邊不需要設定任何東西，下一步是一場對話。",
+    "doneBooth": "歡迎到 Booth F548，我們用真實帳號帶你看一遍產品。",
+    "doneBackHome": "回到 cluega.com",
+    "doneLeadCode": "您是 #{code} 號訪客 — 請在 Booth F548 出示此號碼。",
+    "nav": {
+      "counter": "SBC 已認識的業者",
+      "reset": "下一位訪客"
+    },
+    "hero": {
+      "title": "為 [[real-money gaming]] 打造的 AI 行銷作業系統。",
+      "lede": "從廣告帳號到即時儀表板，素材、投放、歸因與報表，全部在同一段對話裡完成。專為 slots、live casino、sportsbook 與彩券打造。",
+      "photoAlt": "手機與平板上的 Cluega iGaming 應用程式，周圍是輪盤、籌碼、撲克牌與拉霸捲軸"
+    },
+    "proof": [
+      {
+        "dt": "東南亞",
+        "dd": "14 年投放經驗",
+        "note": "橫跨東南亞的成效媒體投放，與我們的 TikTok 官方代理夥伴合作。"
+      },
+      {
+        "dt": "實績",
+        "dd": "400+ 客戶",
+        "note": "營運商、品牌與代理商以同一套方法論運行 TikTok、Meta、Google 與 Adjust。"
+      },
+      {
+        "dt": "報表",
+        "dd": "每小時",
+        "note": "每一塊錢都回報到 Cluega，逐行與 Adjust 對帳驗證。"
+      }
+    ],
+    "flow": [
+      "告訴我們你的垂直領域",
+      "選擇你的市場",
+      "我們把兩者帶進這場對話"
+    ],
+    "form": {
+      "step": "第 1 步，共 1 步",
+      "lead": "幾個簡短問題，讓這場對話從你的垂直領域與市場開始，而不是從一張白紙開始。",
+      "name": "你的姓名",
+      "namePlaceholder": "Alex Moreau",
+      "phone": "電話",
+      "phonePlaceholder": "+886 900 000 000",
+      "role": "職稱",
+      "rolePlaceholder": "行銷主管",
+      "painPoints": "目前最大的挑戰（可多選）",
+      "goal": "主要目標",
+      "markets": "你經營的市場（可複選）",
+      "submit": "送出我的資料 →",
+      "consent": "我們使用你的資料來準備這場對話，並在你同意的前提下就 Cluega 後續聯繫。我們絕不出售你的資料。請參閱{privacy}。",
+      "licensedOnly": "僅限受規管市場中持牌營運商。",
+      "marketingOptIn": "我希望收到 Cluega 關於產品與活動的消息。可隨時取消訂閱。",
+      "budgetPlaceholder": "選擇級距",
+      "submitMissing": {
+        "company": "請填公司名稱",
+        "email": "請填公司信箱",
+        "vertical": "請選垂直領域",
+        "markets": "請選市場",
+        "budget": "請選預算"
+      },
+      "shareLocation": "分享我的位置",
+      "locating": "正在獲取位置…",
+      "locationShared": "已分享位置 — 謝謝。",
+      "locationRefused": "未分享位置。沒關係，表單仍可提交。",
+      "locationHint": "選填 — 幫助我們從正確的區域與你聯繫。"
+    },
+    "geos": {
+      "SEA": {
+        "label": "菲律賓",
+        "code": "PH"
+      },
+      "LATAM": {
+        "label": "拉丁美洲",
+        "code": "BR · MX · PE"
+      },
+      "EU": {
+        "label": "歐洲",
+        "code": "UK · DE · IT"
+      },
+      "TIER1": {
+        "label": "Tier 1",
+        "code": "US · CA · AU"
+      },
+      "AFRICA": {
+        "label": "非洲",
+        "code": "NG · KE · ZA"
+      }
+    },
+    "tour": {
+      "eyebrow": "Cluega 內部",
+      "title": "我們會帶你看什麼",
+      "lead": "這些是產品的實際畫面，不是模擬圖。我們會在展位現場實機操作，依你在上方選的垂直領域與市場。",
+      "rows": [
+        {
+          "n": "投放團隊",
+          "h": "你的機器人與瀏覽器代理，在同一條對話串裡",
+          "p": "DogClaw 在真實瀏覽器中建立 TikTok 廣告，包含目標、GEO、年齡層與每日預算。CreativeBot 提出 9:16 版本。廣告機器人回報 ROAS、單次成效成本與 CPA。同一個頻道，同一段對話。",
+          "alt": "Cluega Casino Delivery Team 頻道中，DogClaw、CreativeBot 與 TikTok Ads 機器人共同處理同一個廣告活動"
+        },
+        {
+          "n": "iGaming 儀表板",
+          "h": "每個素材都帶著自己的單一名單成本",
+          "p": "slots、live casino、體育博彩與 blackjack 素材，依一筆有效名單的實際成本排序，每張卡標示 Winner、Stable、Watch 或 Critical，並附上花費與曝光。",
+          "alt": "Cluega iGaming 行銷儀表板，含花費、名單、入金率、ROI 與六個依單一名單成本排序的素材"
+        },
+        {
+          "n": "連線",
+          "h": "跑在你既有的帳號上",
+          "p": "TikTok Ads、Meta、Google Ads、Reddit、LinkedIn、Instagram 與 YouTube 在同一頁完成授權。DogClaw 在你自己的 Chrome 或雲端瀏覽器執行任務，不必重建，也不必手動匯出。",
+          "alt": "Cluega 應用程式授權頁面，連接 TikTok Ads、Meta、Google Ads、Reddit、LinkedIn、Instagram 與 YouTube"
+        }
+      ],
+      "logosMore": "+ 應用程式內還有更多"
+    },
+    "cta": {
+      "restart": "重新開始",
+      "book": "預約與 {rep} 的 15 分鐘",
+      "bookOn": "{rep} · {platform}"
+    },
+    "footer": {
+      "tagline": "看見每一塊錢。證明每一項成果。自動化直到達標。",
+      "meta": "CLUEGA.COM · SALES@CLUEGA.COM · BOOTH F548",
+      "privacy": "隱私政策",
+      "terms": "服務條款",
+      "cookies": "Cookie 設定",
+      "company": "Cluega Engine Information Technology Co., Limited"
+    },
+    "comps": {
+      "slots": [
+        {
+          "n": "Nova Reels",
+          "m": "全新 crash 主題素材組，以 UGC 為主",
+          "w": "1 天前"
+        },
+        {
+          "n": "Vertex Studios",
+          "m": "每週錦標賽排行榜活動",
+          "w": "4 天前"
+        },
+        {
+          "n": "Halcyon Play",
+          "m": "預算移往深夜時段，CPM 下降",
+          "w": "1 週前"
+        }
+      ],
+      "livecasino": [
+        {
+          "n": "Lumen Live",
+          "m": "荷官主導的素材只在 21:00 後推廣",
+          "w": "2 天前"
+        },
+        {
+          "n": "Cobalt Club",
+          "m": "牌桌限額說明系列橫跨三個 GEO",
+          "w": "5 天前"
+        },
+        {
+          "n": "Meridian Tables",
+          "m": "加碼投入回訪玩家再行銷",
+          "w": "1 週前"
+        }
+      ],
+      "sportsbook": [
+        {
+          "n": "Aurora Bet",
+          "m": "TikTok Spark Ads 擴量至三個市場",
+          "w": "2 天前"
+        },
+        {
+          "n": "Meridian Sports",
+          "m": "以六個素材版本主打串關功能",
+          "w": "5 天前"
+        },
+        {
+          "n": "Ridge Sports",
+          "m": "提前兌現促銷搭配週末賽程投放",
+          "w": "1 週前"
+        }
+      ],
+      "lottery": [
+        {
+          "n": "Beacon Draw",
+          "m": "以開獎日爆量投放取代常態投放",
+          "w": "1 天前"
+        },
+        {
+          "n": "Northlight Lotto",
+          "m": "與在地創作者合作的合資素材系列",
+          "w": "4 天前"
+        },
+        {
+          "n": "Quarry Games",
+          "m": "即開刮刮樂形式推進新市場",
+          "w": "1 週前"
+        }
+      ]
+    },
+    "ticks": [
+      {
+        "geo": "BR",
+        "vertical": "Sportsbook",
+        "text": "串關關注度",
+        "m": "+42%"
+      },
+      {
+        "geo": "PH",
+        "vertical": "Slots",
+        "text": "crash 遊戲搜尋",
+        "m": "+28%"
+      },
+      {
+        "geo": "UK",
+        "vertical": "Sportsbook",
+        "text": "付費社群 CPM",
+        "m": "-8%"
+      },
+      {
+        "geo": "MX",
+        "vertical": "Live casino",
+        "text": "荷官素材 CTR",
+        "m": "+19%"
+      },
+      {
+        "geo": "NG",
+        "vertical": "Slots",
+        "text": "行動支付入金",
+        "m": "+27%"
+      },
+      {
+        "geo": "DE",
+        "vertical": "Slots",
+        "text": "錦標賽報名數",
+        "m": "-6%"
+      },
+      {
+        "geo": "US",
+        "vertical": "Sportsbook",
+        "text": "各州開放動態",
+        "m": "+11%"
+      },
+      {
+        "geo": "KE",
+        "vertical": "Lottery",
+        "text": "每 $1k 的 TikTok 觸及",
+        "m": "2.6x"
+      }
+    ],
+    "verticals": {
+      "slots": "老虎機",
+      "livecasino": "真人娛樂城",
+      "sportsbook": "體育博彩",
+      "lottery": "彩票"
+    },
+    "budgets": [
+      "低於 USD 50k",
+      "USD 50k - 250k",
+      "USD 250k - 1M",
+      "高於 USD 1M"
+    ],
+    "meta": {
+      "title": "Cluega 進駐 SBC Summit Lisbon 2026 - Booth F548",
+      "description": "為 real-money gaming 打造的 AI 行銷作業系統。2026 年 9 月 29 日至 10 月 1 日，SBC Summit Lisbon，Booth F548。"
+    },
+    "fieldErrors": {
+      "company": "請填公司名稱，讓我們知道在跟誰談。",
+      "emailMissing": "請填你的公司信箱。",
+      "emailShape": "這個信箱看起來不完整，請檢查後再試一次。",
+      "vertical": "請選擇你經營的垂直領域。",
+      "markets": "請至少選一個市場，趨勢才能篩選。",
+      "budget": "請選擇每月付費媒體預算。"
+    },
+    "reps": {
+      "eyebrow": "展位現場",
+      "title": "與真正操盤 iGaming 投放的人聊聊",
+      "body": "挑一個人，選一個時間。這裡預約與上方表單是同一場對話，只是不用等。",
+      "book": "預約時間"
+    },
+    "telegram": {
+      "eyebrow": "現場試用 · Telegram",
+      "title": "直接問 AI 一個問題。[[現在就問。]]",
+      "lede": "用相機對準這個碼，按下 Start，一個真正在運作的 Cluega 示範就會在對話裡回答你，不必註冊、不必安裝、沒有東西要下載。",
+      "steps": [
+        "掃碼",
+        "按 Start",
+        "想問什麼都行"
+      ],
+      "openBot": "在 Telegram 開啟",
+      "qrAlt": "開啟 Cluega AI 示範機器人的 Telegram QR 碼",
+      "qrCaption": "與展位卡片上的是同一個碼。",
+      "showQr": "顯示 QR 碼給另一支手機掃",
+      "hideQr": "隱藏 QR 碼",
+      "disclaimer": "這是共用的示範工作區。不方便在會場大聲說出口的內容，就別貼進去。"
+    },
+    "errorAlreadyRegistered": "這個信箱已在 Cluega 註冊過。歡迎到 Booth F548，或來信 sales@cluega.com，我們接著上次的進度談。",
+    "errorValidation": "有些答案沒有被接受。請檢查上方欄位後再試一次。"
+  }
+}

@@ -1,0 +1,276 @@
+/* App stylesheet. The styles entry brings in Tailwind, the design tokens and
+ * every hand-written rule; this file only declares which source trees Tailwind
+ * scans for class names. */
+@import "../styles/globals.css";
+
+@source "./";
+@source "../components";
+@source "../hooks";
+@source "../lib";
+@source "../resources";
+@source "../types";
+
+.batch-table-scroll {
+  scrollbar-color: transparent transparent;
+}
+
+.batch-table-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  min-width: 32px;
+}
+
+.batch-table-horizontal-scroll {
+  scrollbar-color: transparent transparent;
+}
+
+.batch-table-horizontal-scroll:hover {
+  scrollbar-color: var(--border) transparent;
+}
+
+.batch-table-horizontal-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.batch-table-horizontal-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 9999px;
+}
+
+.batch-table-horizontal-scroll:hover::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+body.app-route-body {
+  --cwf-surface: var(--background);
+  --cwf-surface-sunken: var(--muted);
+  --cwf-text: var(--foreground);
+  --cwf-text-muted: var(--muted-foreground);
+  --cwf-border: var(--border);
+  --cwf-contrast: var(--primary);
+  --cwf-contrast-text: var(--primary-foreground);
+  --cwf-accent: var(--ring);
+  --cwf-error: var(--destructive);
+}
+
+/* Every scrollbar behaves as the sidebar's: thin, invisible at rest, a
+ * --border thumb on no track while its box scrolls (asked for, 2026-10-06).
+ * `.is-scrolling` is put on and taken off by components/layout/
+ * ScrollbarReveal. In @layer base so a utility that hides one —
+ * [scrollbar-width:none], .no-scrollbar — still wins. Chrome 121+ drops the
+ * ::-webkit-scrollbar rules wherever scrollbar-width is set, so a scrollbar
+ * hidden only through [&::-webkit-scrollbar]:hidden needs the standard
+ * property too, as every one in this app already has. */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  .is-scrolling {
+    scrollbar-color: var(--border) transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 3px;
+  }
+  .is-scrolling::-webkit-scrollbar-thumb {
+    background: var(--border);
+  }
+}
+
+/* Vietnamese. The base stack starts at Inter, which is loaded without its
+ * `vietnamese` subset, so every tone-marked glyph came from an OS fallback and
+ * sat visibly wrong next to its neighbours. Roboto ships that subset, so the vi
+ * document renders in Roboto end to end rather than one font per syllable.
+ * Keyed on `:lang(vi)`, which useTranslate keeps on <html> when the language
+ * switches client-side. These sit outside @layer, after the shared sheet, so
+ * they win over the base `body` rule and over the few classes that pin their
+ * own sans stack (`.composer-shell`, the workflow-agent panel and its portals);
+ * scoping them to those leaves `font-mono` and friends alone. */
+body:lang(vi),
+:lang(vi) .composer-shell,
+:lang(vi) .cwa-root,
+:lang(vi) [data-cwa-portal] {
+  font-family:
+    var(--font-roboto), Roboto, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/**
+  * The AI chat tip is a small, animated "new" badge that appears on the AI chat
+  * button when the user has not yet opened the panel. It is hidden when the
+  * panel is open, and it animates in and out of view when the panel is opened or
+  * closed.
+  */
+.cwf-viewdock .cwf-aichat-tip {
+  width: 40px;
+  transition:
+    width 0.2s ease,
+    margin 0.2s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    visibility 0.2s;
+}
+
+[data-agent-chat-open='true'] .cwf-viewdock .cwf-aichat-tip {
+  width: 0;
+  margin-left: -8px;
+  transform: scale(0.4);
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* 3D Builder is not released yet; its palette row is the only one with the cube icon. */
+[data-hide-builder-3d='true'] .cwf-pal__item:has(.cwf-pal__cube) {
+  display: none;
+}
+
+@property --workflow-apply-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+/* Teaching mode's REC light (v70 canvas `@keyframes rec-blink`, 1.2s). Dimmed
+   rather than hidden at the half-beat, so the badge never reads as gone. */
+@keyframes rec-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@keyframes workflow-apply-sweep {
+  to {
+    --workflow-apply-angle: 360deg;
+  }
+}
+
+@keyframes workflow-apply-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes creative-upload-shimmer {
+  from {
+    transform: translateX(-180%);
+  }
+  to {
+    transform: translateX(180%);
+  }
+}
+
+.creative-upload-shimmer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  pointer-events: none;
+  overflow: hidden;
+  box-shadow: inset 0 0 18px rgb(76 147 158 / 0.06);
+}
+
+.creative-upload-shimmer::before {
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  width: 65%;
+  border-radius: inherit;
+  background: linear-gradient(
+    110deg,
+    transparent 8%,
+    rgb(76 147 158 / 0.04) 34%,
+    rgb(255 255 255 / 0.92) 50%,
+    rgb(76 147 158 / 0.12) 66%,
+    transparent 92%
+  );
+  content: "";
+  animation: creative-upload-shimmer 3.2s linear infinite;
+}
+
+.creative-upload-submit {
+  animation: creative-upload-submit 1.5s ease-in-out infinite;
+}
+
+@keyframes creative-upload-submit {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(13 148 136 / 0.12);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgb(13 148 136 / 0.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .creative-upload-shimmer {
+    animation: none;
+  }
+  .creative-upload-shimmer::before {
+    animation: none;
+  }
+  .creative-upload-submit {
+    animation: none;
+  }
+}
+
+.workflow-apply-glow {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  /* Under the Run button and the Share popover, and out of the way of every
+     pointer: the canvas stays fully usable while it is drawn. */
+  pointer-events: none;
+  /* The ring's thickness. The mask below cuts the content box out of the
+     padding box, so this number IS the border width. */
+  padding: 2px;
+  background: conic-gradient(
+    from var(--workflow-apply-angle),
+    transparent 0deg,
+    transparent 186deg,
+    rgb(134 247 237 / 0.35) 232deg,
+    #86f7ed 276deg,
+    #709ff5 312deg,
+    #fcbbfb 340deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  /* The glow proper — the ring alone is a hairline, and what carries "gently"
+     is the light it throws inward. Inset so it never leaves the canvas. */
+  box-shadow: inset 0 0 26px -8px rgb(112 159 245 / 0.55);
+  animation:
+    workflow-apply-sweep 4.5s linear infinite,
+    workflow-apply-in 0.24s ease;
+  transform: translateZ(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Still a lit edge — the message is that something is happening here, and
+     that survives the sweep being removed. */
+  .workflow-apply-glow {
+    animation: workflow-apply-in 0.24s ease;
+    background: linear-gradient(120deg, #86f7ed, #709ff5, #fcbbfb);
+    opacity: 0.7;
+  }
+}

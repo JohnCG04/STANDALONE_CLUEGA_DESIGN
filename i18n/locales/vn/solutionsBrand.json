@@ -1,0 +1,146 @@
+{
+  "solutionsBrand": {
+    "meta": {
+      "title": "Đội ngũ Thương hiệu | Cluega",
+      "description": "Đội ngũ thương hiệu doanh nghiệp dùng Cluega để nối liền các ốc đảo dữ liệu giữa quảng cáo, hội thoại và đơn hàng, xây dựng một trung tâm tăng trưởng doanh thu AI của riêng mình — dù bên dưới gọi mô hình nào, ngữ cảnh vẫn luôn thuộc về bạn."
+    },
+    "hero": {
+      "kicker": "Cluega for Brands",
+      "title": "Cho thương hiệu của bạn một bộ não marketing thực sự của riêng mình",
+      "subtitle": "Đội ngũ thương hiệu doanh nghiệp dùng Cluega để nối liền các ốc đảo dữ liệu giữa quảng cáo, hội thoại và đơn hàng, xây dựng một trung tâm tăng trưởng doanh thu AI của riêng mình — dù bên dưới gọi mô hình nào, ngữ cảnh vẫn luôn thuộc về bạn.",
+      "ctaStart": "Bắt đầu miễn phí",
+      "ctaContact": "Liên hệ kinh doanh"
+    },
+    "valueProps": {
+      "items": [
+        {
+          "title": "Trao cho dữ liệu một «ngữ cảnh kinh doanh» thực sự",
+          "body": "Mọi chỉ số, nội dung sáng tạo, hội thoại và căn cứ ra quyết định đều hội tụ tại đây. Đây không phải là chồng thêm công cụ, mà là một nền tảng vận hành toàn diện được xây riêng cho đội của bạn — mọi lời gọi đều chạy trên ngữ cảnh thương hiệu của bạn."
+        },
+        {
+          "title": "Dữ liệu API thật, loại bỏ ảo giác AI",
+          "body": "Mỗi chẩn đoán, phân tích và căn cứ quyết định hệ thống đưa ra đều được đồng bộ 100% theo thời gian thực từ API các nền tảng mạng xã hội bạn kết nối, luồng đơn hàng cửa hàng và hiệu quả thực tế trong lịch sử — tối ưu không còn phải đoán mò."
+        },
+        {
+          "title": "Sát cánh cùng những người dẫn đầu ngành",
+          "body": "Độ trễ phản hồi sub-50ms, trực tuyến 99.98% 24/7, cách ly vật lý dữ liệu đa khách thuê, tuân thủ bản địa bao gồm PDPL — kiến trúc cấp doanh nghiệp, dùng ngay."
+        }
+      ]
+    },
+    "lifecycle": {
+      "title": "Một nền tảng, gánh trọn tài sản toàn vòng đời của thương hiệu",
+      "learnMore": "Tìm hiểu thêm",
+      "tabs": [
+        {
+          "tab": "Tài sản riêng của thương hiệu",
+          "subtitle": "Cấy thương hiệu vào tận tầng lõi của hệ thống",
+          "body": "Cấy tông giọng thương hiệu, các chi tiết cốt lõi của sản phẩm và phương pháp luận bán hàng vào tận tầng lõi của hệ thống. Đảm bảo đầu ra và câu trả lời của AI không bao giờ chệch khỏi định vị — dù cả đội gọi mô hình lớn nào bên dưới."
+        },
+        {
+          "tab": "Tài sản hóa dữ liệu",
+          "subtitle": "Lead từ IM đóng gói thẳng thành tệp đối tượng chính xác",
+          "body": "Khép kín hoàn hảo vòng lặp lưu lượng. Những lead chính xác tích lũy trong IM có thể đóng gói một chạm thành tệp Đối tượng (Audience) tùy chỉnh, và áp dụng trực tiếp cho việc nhắm quảng cáo chính xác sau đó — một bánh đà dữ liệu thương hiệu hoàn chỉnh."
+        },
+        {
+          "tab": "Nhìn xuyên chi phí toàn chuỗi",
+          "subtitle": "Thấy chuyển đổi thật ngay trong tài khoản quảng cáo",
+          "body": "Trong tài khoản quảng cáo của Cluega, bạn có thể trực tiếp thấy số lượng chuyển đổi MMT và CRM liên động với quảng cáo đầu phễu, và còn biết được chi phí chuyển đổi thật — quy kết không còn đứt gãy."
+        },
+        {
+          "tab": "Bảo mật cấp doanh nghiệp",
+          "subtitle": "Bảo mật không phải tùy chọn thêm, mà là mặc định",
+          "body": "Cách ly vật lý dữ liệu đa khách thuê (cấp ClickHouse), phân quyền chi tiết (RBAC / IAM), ủy quyền OAuth và tuân thủ dữ liệu bản địa (gồm PDPL) — thiết kế bảo mật xuyên suốt mọi lời gọi mô hình."
+        }
+      ]
+    },
+    "built": {
+      "title": "Sinh ra cho đội ngũ thương hiệu",
+      "overview": "Cluega giúp thương hiệu quy tụ dữ liệu, nội dung sáng tạo và hội thoại rải rác khắp nơi về cùng một bộ não thương hiệu, và để từng đồng chi cho quảng cáo đều truy ngược được về doanh thu thật.",
+      "cards": [
+        {
+          "title": "Tự động căn chỉnh tông thương hiệu",
+          "body": "Tài liệu doanh nghiệp tải lên là tự động đọc hiểu và thấu hiểu sâu, đảm bảo mỗi dòng nội dung, mỗi hình ảnh được tạo ra đều khớp chính xác với thiết lập thương hiệu."
+        },
+        {
+          "title": "Liên tục ngữ cảnh xuyên mô hình",
+          "body": "Ghi lại trọn vẹn mạch tiến hóa của tư liệu và nội dung; khi chuyển sang mô hình khác giữa các phòng ban, AI vẫn tiếp nối chính xác phần trước."
+        },
+        {
+          "title": "Trả tiền theo kết quả thực chất",
+          "body": "Tạm biệt cách tính phí Token đắt đỏ và khó lường, chỉ trả cho các trạng thái như «lead hợp lệ» và «đặt hàng», mỗi lượt từ $0.99."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Chúng tôi giúp khách hàng nối liền các ốc đảo dữ liệu giữa quảng cáo và đơn hàng, trình bày quy kết và hiệu quả thật theo thời gian thực, từ đó nâng mạnh hiệu suất quảng cáo và thúc đẩy tăng trưởng doanh thu.",
+      "name": "Marcus Vance",
+      "role": "Senior Performance Marketer @ Cluega"
+    },
+    "finalCta": {
+      "title": "Mọi nền tảng dữ liệu thương hiệu bạn chảy qua, quy về cùng một bộ não",
+      "coverage": "GPT · Claude · Gemini · deepseek · TikTok Ads · Meta · Google Ads · Shopify · WhatsApp · Zalo · LINE · Lark",
+      "subtitle": "Đa mô hình, đa nhân sự, đa khách thuê — mọi điều phối đều chạy trên nền cách ly và phân quyền cấp doanh nghiệp. Bảo mật là mặc định của Cluega.",
+      "ctaStart": "Bắt đầu miễn phí",
+      "ctaDemo": "Đặt lịch Demo"
+    },
+    "mockups": {
+      "monitor": {
+        "title": "Sức khỏe quảng cáo đa tài khoản",
+        "updated": "Cập nhật mỗi giờ",
+        "cost": "Chi phí",
+        "roas": "ROAS",
+        "accounts": [
+          { "name": "EcoSip UK — Meta Ads", "status": "Đang chạy" },
+          { "name": "EcoSip UK — TikTok SS Promo", "status": "Đang chạy" },
+          { "name": "Nova HK — Google Ads", "status": "Chờ duyệt" }
+        ]
+      },
+      "topIssues": {
+        "title": "Top Issues to Fix",
+        "action": "Xem & áp dụng",
+        "rows": [
+          "Giữ tổ hợp hiển thị cao và tăng ngân sách, CTR cao hơn chuẩn 32% suốt 5 ngày liền",
+          "Advantage+ trùng lặp đối tượng quá cao, nên gộp 3 nhóm quảng cáo để tiết kiệm 18% chi phí",
+          "Nội dung TikTok bị bão hòa, tần suất vượt 3.2 trong 7 ngày, nên xoay 2 nội dung mới"
+        ]
+      },
+      "accounts": {
+        "title": "Tổng quan tài khoản",
+        "subtitle": "Cấp quyền là phân tích",
+        "stageLabel": "Độ trưởng thành",
+        "rows": [
+          { "name": "TikTok_TW_Ecom_Standard_01", "stage": "M0 Thiết lập" },
+          { "name": "Meta_HK_LeadGen_Video_Testing", "stage": "M1 Khởi động lạnh" },
+          { "name": "IG_Global_Retargeting_Optimized", "stage": "M3 Đang tối ưu" },
+          { "name": "Google_HQ_Flagship_Pinwheel", "stage": "M5 Bánh đà" }
+        ]
+      },
+      "maturity": {
+        "title": "Phân cấp độ trưởng thành tài khoản (M0–M5)",
+        "note": "Hệ thống tự động xác định giai đoạn hiện tại dựa trên dữ liệu lịch sử, và lọc bỏ những chỉ số nhiễu không liên quan đến giai đoạn đó.",
+        "stages": ["M0 Khởi động lạnh", "M1 Học tập", "M2 Tăng trưởng", "M3 Tối ưu", "M4 Mở rộng", "M5 Bánh đà"],
+        "activeAccount": "Meta_HK_LeadGen_Video_Testing",
+        "activeStage": "M1 Học tập"
+      },
+      "grading": {
+        "title": "Chấm điểm nhóm quảng cáo (S / A / B / C / D)",
+        "legend": "S ngôi sao tiềm năng, một nút tăng ngân sách · D ứng viên ngừng chạy",
+        "rows": [
+          { "name": "adSet_Lookalike_Purchase_1%", "grade": "S", "platform": "TikTok Ads" },
+          { "name": "adSet_Broad_Interest_Fashion", "grade": "A", "platform": "Meta Ads" },
+          { "name": "adSet_Retargeting_VV_ISD", "grade": "B", "platform": "Google Ads" },
+          { "name": "adSet_Interests_Sportswear", "grade": "C", "platform": "Instagram Ads" }
+        ]
+      },
+      "hosting": {
+        "title": "Nhật ký ủy thác Cluega",
+        "channels": "Khi bị từ chối, đẩy sang",
+        "rows": [
+          { "actor": "Cluega AI", "tag": "GPT 4.7", "text": "Theo hiệu quả ROAS 7 ngày, đề xuất giảm ngân sách Meta 12%, tăng Google 18%.", "time": "2 phút trước" },
+          { "actor": "Cluega AI", "tag": "Claude Opus 4.7", "text": "Đã tạo 3 bộ nội dung lễ hội và áp dụng cho nhóm quảng cáo khởi động lạnh.", "time": "14 phút trước" },
+          { "actor": "Ethan Chen", "tag": "Thủ công", "text": "Tăng giá thầu «Khuyến mãi mùa xuân — Chuyển đổi» lên $12.", "time": "1 giờ trước" }
+        ]
+      }
+    }
+  }
+}

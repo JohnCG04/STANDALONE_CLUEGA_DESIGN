@@ -1,0 +1,1448 @@
+{
+  "platformCollab": {
+    "hero": {
+      "eyebrow": "Total Chat-to-Ad Attribution",
+      "title": "每一句對話，有跡可循。\n每一次優化，唯結果論。",
+      "description": "打破投放數據與私信聊天的最大數據斷層。Cluega IM 自動將每一則諮詢與最底層的廣告計劃精準牽線，讓每一分錢都為結果負責。",
+      "primaryCta": "立即開始",
+      "secondaryCta": "聯繫我們",
+      "emailLabel": "您的電子郵件地址",
+      "emailPlaceholder": "您的電子郵件地址",
+      "mobileSubmit": "立即開始",
+      "graphTabs": [
+        "全管道對話接入",
+        "廣告素材即時歸因",
+        "真實成交與自歸因核銷",
+        "預算加碼與自動反哺"
+      ],
+      "workflowCards": {
+        "moreSuffix": "項更多屬性",
+        "cards": {
+          "inboundConsultation": {
+            "title": "點擊進線諮詢"
+          },
+          "adDataAttribution": {
+            "title": "溯源廣告數據"
+          },
+          "aiAssistance": {
+            "title": "AI 多角色輔助"
+          },
+          "leadStatus": {
+            "title": "線索狀態判讀"
+          },
+          "adOptimization": {
+            "title": "反哺投放優化"
+          }
+        },
+        "attributes": {
+          "accountHome": "客戶的帳號主頁一鍵查看",
+          "sourceMedia": "來源社媒（WhatsApp / Tiktok...）",
+          "chatHistory": "歷史聊天記錄",
+          "campaignName": "廣告計畫名稱",
+          "adGroupId": "推廣組編號",
+          "sourceCreative": "來源素材",
+          "translation": "雙向翻譯",
+          "multiRoleChat": "多角色輔助聊天",
+          "aiSummary": "AI 智能智慧總結",
+          "conversionIntent": "客戶成交意向判讀",
+          "coldLeadJudgement": "無意向線索自動判讀",
+          "statusStatistics": "實時狀態列表統計",
+          "budgetBoost": "預算一鍵加碼",
+          "conversionCallback": "成交意向自動回傳廣告帳號",
+          "realRoi": "查看真實成交 ROI"
+        }
+      }
+    },
+    "flexibleModel": {
+      "header": {
+        "prefix": "Cluega團隊構建了",
+        "highlight": "從洞察到創意的全鏈路閉環",
+        "suffix": "，助力品牌在數字營銷實現確定性增長"
+      },
+      "quote": {
+        "body": "過去，我們的廣告數據、私信對話和訂單數據就像各自孤立的碎片。我們根本不知道在 WhatsApp 聊天的客戶到底是點了哪支影片進來的。Cluega IM 徹底打破了這個黑盒！現在，我們只需要讓客服簡單點擊『完成支付』或者讓 ai自動識別 ，就能知道真正的投產比。",
+        "author": "Maya Chen",
+        "role": "Revenue Operations · Cluega 客戶"
+      },
+      "cards": {
+        "utmTracking": {
+          "title": "社媒 UTM 追蹤，流量有跡可循。",
+          "description": "一鍵生成專屬追蹤連結（如TikTok.me）。自動記錄入站管道、時間與用戶地理位置。無論是線上矩陣推廣還是線下掃碼進線，讓私域進流再無盲區。"
+        },
+        "autoAttribution": {
+          "title": "全自動自歸因，免人工標記。 ",
+          "description": "搭載 AI 語意大模型，自動讀取並理解對白的業務上下文。無需客服人工手動修改標籤，系統即刻自歸因並鎖定最底層的廣告、計劃編號與影片素材。"
+        },
+        "knowledgeAgents": {
+          "title": "知識庫定向投喂，派生專屬特工。",
+          "description": "自由創建多個獨立資料庫，分組投入產品描述、常見問答學科等不同文檔或者不同帳號的對話紀錄。Cluega 進行深度學習，精準解讀並定向生成不同服務方向的 AI 客服助理。"
+        },
+        "mmtFeedback": {
+          "title": "成果 MMT 自動回傳，預算精準加強。",
+          "description": "自動將成交數據與 MMT 指標即時回傳 TikTok 算法，改變發布跑量模型。更可在「廣告素材詳情」面板中一鍵點擊加碼預算，讓高收益計劃贏面更大。"
+        }
+      },
+      "visuals": {
+        "utm": {
+          "adLinks": "廣告連結",
+          "socialChat": "社群媒體聊天",
+          "utmParams": "UTM 參數",
+          "manyToMany": "Many to many",
+          "searchPlaceholder": "Search...",
+          "utmItems": [
+            "utm_campaign: Spring_Flask",
+            "utm_source: Offline QR",
+            "utm_medium: Video"
+          ]
+        },
+        "attribution": {
+          "connectors": {
+            "where": "Where",
+            "and": "And"
+          },
+          "is": "is",
+          "fields": {
+            "aiContext": "AI Context（語義）",
+            "adId": "Ad ID（廣告來源）",
+            "matchStatus": "Match Status（匹配）"
+          },
+          "values": {
+            "paymentCompleted": "完成支付",
+            "adIdValue": "1854183913656450",
+            "matchSuccess": "匹配成功 100%"
+          },
+          "autoMatched": "AI Auto-Matched（正在自動檢測）",
+          "removeAll": "Remove All"
+        },
+        "knowledge": {
+          "title": "創建知識庫",
+          "selectContent": "選擇內容",
+          "selectedPlaceholder": "產品規格手冊",
+          "options": {
+            "manual": {
+              "label": "產品規格手冊",
+              "sublabel": "Product Manual PDF"
+            },
+            "faq": {
+              "label": "客服常見問答 FAQ",
+              "sublabel": "Q&A Doc"
+            },
+            "brand": {
+              "label": "品牌風格方法論",
+              "sublabel": "Brand Tone TXT"
+            }
+          }
+        },
+        "relationship": {
+          "title": "Relationship map",
+          "live": "Live",
+          "company": "Company",
+          "deal": "Deal",
+          "person": "Person",
+          "invoice": "Invoice"
+        },
+        "mmt": {
+          "paymentTitle": "完成支付狀態",
+          "recordPrefix": "已歸併統計",
+          "recordSuffix": "筆成交筆數 (Records)",
+          "feedbackTitle": "TikTok MMT 數據反哺",
+          "feedbackDescription": "自動調度優化官方算法",
+          "budgetTitle": "廣告帳戶預算加碼",
+          "clickLabel": "點擊",
+          "budgetButton": "加強廣告預算"
+        }
+      }
+    },
+    "currentContext": {
+      "header": {
+        "highlight": "無縫鏈通，團隊極效協作。",
+        "body": "打破業務部門壁障，讓客服、投手、銷售與 AI 智能體在同一個窗口下實時共享全球增長戰略。"
+      },
+      "items": {
+        "convertToLead": {
+          "title": "轉成線索",
+          "description": "對話完成後可一鍵轉為 CRM 結構化線索，永久保存為社媒線索中的客戶數據資產。"
+        },
+        "teamCollaboration": {
+          "title": "團隊協作",
+          "description": "支援客服、投手與管理人員多人同時讀取與即時交接，告別單打獨鬥的客戶溝通盲區。"
+        },
+        "userNotes": {
+          "title": "使用者筆記",
+          "description": "將備忘筆記直接標註或貼在客戶對白的「特定某一句話」的位置，幫助協作同仁秒懂歷史上下文。"
+        }
+      }
+    },
+    "enrichment": {
+      "header": {
+        "highlight": "知識庫集群，語意自進化。",
+        "body": "自由構建多個隔離資料庫培育不同的客服大腦；日誌自動按帳號分類保存，支持一鍵共享進修；更可隨時手動投餵多態文檔，驅動知識精確遞增。"
+      },
+      "cards": {
+        "knowledgeBases": {
+          "title": "創建多個獨立知識庫。",
+          "description": "創建多維資料庫，分別導入各領域專業知識，迅速將 AI 培育為專職諮詢、售後、或引流等不同專屬客服。"
+        },
+        "accountConversationArchive": {
+          "title": "帳號對話自動分類保存。",
+          "description": "帳號對話信息全自動保存。系統無縫留存與全球客戶的真實對白，並依不同通訊帳號進行智能分類歸檔，支持隨時一鍵共享給指定知識庫，推動 AI 增量進修。"
+        },
+        "manualDocumentFeeding": {
+          "title": "多態文檔手動投餵。",
+          "description": "隨時手動拉取並上傳產品手冊、售後規格等 PDF / DOCX 格式文檔，Cluega 將進行深度學習，杜絕回答幻想與偏差。"
+        }
+      },
+      "visuals": {
+        "knowledgeBases": {
+          "rows": {
+            "productLibrary": {
+              "source": "2026 美容儀產品庫",
+              "target": "訓練為：前線產品 AI 客服"
+            },
+            "faqLibrary": {
+              "source": "常見售後 FAQ 庫",
+              "target": "訓練為：退換貨專職 AI 客服"
+            },
+            "promoDiscountLibrary": {
+              "source": "常規活動折扣庫",
+              "target": "訓練為：促銷引導 AI 客服"
+            }
+          }
+        },
+        "accountConversationArchive": {
+          "headers": {
+            "account": "前端帳號",
+            "source": "媒介來源",
+            "conversations": "有效對話總量",
+            "progress": "學習進度"
+          },
+          "rows": {
+            "usSupport": {
+              "name": "EcoSip_美國站_客服",
+              "id": "5591d31d-d0c...",
+              "source": "TikTok Ads",
+              "sourceKey": "tiktok",
+              "conversations": "1,000 則",
+              "progressCurrent": "1000",
+              "progressTotal": "1000",
+              "roundLabel": "第1輪",
+              "statusLabel": "積累中"
+            },
+            "euConsulting": {
+              "name": "EcoSip_歐洲站_諮詢",
+              "id": "4491331d-1d0...",
+              "source": "WhatsApp",
+              "sourceKey": "whatsapp",
+              "conversations": "450 則",
+              "progressCurrent": "450",
+              "progressTotal": "1000",
+              "roundLabel": "第1輪",
+              "statusLabel": "積累中"
+            },
+            "asiaSupport": {
+              "name": "EcoSip_東南亞_售後",
+              "id": "019dd1f4-bd9...",
+              "source": "Zalo",
+              "sourceKey": "zalo",
+              "conversations": "120 則",
+              "progressCurrent": "120",
+              "progressTotal": "1000",
+              "roundLabel": "第1輪",
+              "statusLabel": "積累中"
+            }
+          }
+        },
+        "manualDocumentFeeding": {
+          "documentLabel": "產品說明書.docx",
+          "learningLabel": "學習中",
+          "successLabel": "驗證完成",
+          "successBadge": "(Success)"
+        }
+      }
+    },
+    "dataSources": {
+      "header": {
+        "highlight": "全模組私信與線索自動化。",
+        "body": "將進線對話與表單數據化繁為簡。Cluega IM 提供靈活的自動化路由規則，無論是私信進線還是廣告表單，都能在瞬時自動指派給最合適的客服坐席並自動發送歡迎語。"
+      },
+      "steps": {
+        "dmAutomation": {
+          "title": "DMs 私信自動化分配。 ",
+          "description": "實時偵測並聚合全管道新進私信。根據客戶國家、時區、客服排班規則自動按比例均分或精準派發，徹底告別手動分流的延遲。"
+        },
+        "formAutomation": {
+          "title": "表單自動化分配。",
+          "description": "毫秒級拉取 TikTok 與 Meta 廣告表單。系統自動讀取表單字段並完成權重評估，無需人工導出表格，第一時間自動流轉分配至各銷售團隊跟進。"
+        },
+        "welcomeAutomation": {
+          "title": "自動發送歡迎語與響應。",
+          "description": "當客戶首次進線、或在對話中命中特定高意向關鍵詞時，AI 特工將突破 48 小時限制，立即發送專屬歡迎語、折扣券或產品手冊。"
+        }
+      },
+      "visuals": {
+        "dmAutomation": {
+          "sourcePrefix": "來源：",
+          "workflowName": "Cluega 工作流",
+          "statusLabel": "已分流",
+          "sources": {
+            "zalo": {
+              "name": "Zalo 訊息",
+              "country": "越南"
+            },
+            "line": {
+              "name": "Line 訊息",
+              "country": "日本"
+            },
+            "whatsapp": {
+              "name": "WhatsApp 訊息",
+              "country": "美國"
+            }
+          },
+          "agents": {
+            "a1": {
+              "label": "客服 01",
+              "team": "VN Team"
+            },
+            "a2": {
+              "label": "客服 02",
+              "team": "JP Team"
+            },
+            "a3": {
+              "label": "客服 03",
+              "team": "Global VIP"
+            }
+          }
+        },
+        "formAutomation": {
+          "workflowName": "Cluega 工作流",
+          "forms": {
+            "tiktok": {
+              "title": "TikTok 廣告表單 #01",
+              "cpa": "預估 CPA: $4.12"
+            },
+            "meta": {
+              "title": "Meta 表單_北美站",
+              "cpa": "預估 CPA: $3.80"
+            }
+          },
+          "assignmentLabels": {
+            "name": "客戶姓名：",
+            "criteria": "分配依據：",
+            "assignee": "分配員工："
+          },
+          "assignments": {
+            "sarah": {
+              "name": "Sarah Johnson",
+              "criteria": "地區 (北美洲)",
+              "assignee": "Lily (US Sales Team)"
+            },
+            "minh": {
+              "name": "Minh Tran",
+              "criteria": "地區 (東南亞)",
+              "assignee": "Alex (VN Sales Team)"
+            }
+          }
+        },
+        "welcomeAutomation": {
+          "entryTitle": "客戶首次訊息進線",
+          "conditionLabel": "中樞判斷（Condition）",
+          "workflowName": "Cluega 工作流",
+          "messageTitle": "自動發送消息",
+          "exampleLabel": "示例回覆",
+          "messageLines": [
+            "您好！感謝您關注 EcoSip，很高興能與您取得聯絡。😊",
+            "為了讓您能第一時間了解我們的服務，請問您目前最想解決的問題是什麼呢？"
+          ],
+          "sentByAi": "已由 AI 自動發出"
+        }
+      }
+    },
+    "reporting": {
+      "header": {
+        "title": "從對白碎片，到終極數據決策。",
+        "description": "用專為全球化貿易打造的數據報表，秒級剖析素材消耗、會話流率與跨平台混合轉化漏斗。用最真實的成交結果，倒逼廣告起量。"
+      },
+      "learnMore": "了解更多",
+      "tabs": {
+        "materialSpendRanking": {
+          "label": "素材消耗排行",
+          "title": "素材消耗排行",
+          "description": "實時卡片化消耗排行與 A/B 測試比對，一秒判定廣告素材的終極轉化率。"
+        },
+        "omnichannelConversationReport": {
+          "label": "全管道會話報表",
+          "title": "全管道會話報表",
+          "description": "實時觀測活躍會話分流，統計負責坐席、會話 ID 與線索動態。"
+        },
+        "adToCrmConversionFunnel": {
+          "label": "廣告至 CRM 轉化漏斗",
+          "title": "廣告至 CRM 轉化漏斗",
+          "description": "點擊、開聊至成交核銷全鏈追溯，杜絕預算浪費，反哺廣告自適應優化。"
+        }
+      },
+      "adCards": {
+        "labels": {
+          "accountId": "廣告帳號ID：",
+          "notificationId": "通知 ID：",
+          "materialId": "素材 ID：",
+          "budgetSpend": "預算消耗：",
+          "totalPrefix": "全",
+          "summary": "廣告文案摘要："
+        },
+        "summaries": {
+          "thermalCup": "保溫杯...",
+          "morning": "每天早...",
+          "test": "別再亂..."
+        },
+        "button": "綜合素材數據"
+      },
+      "leadTable": {
+        "stats": {
+          "active": {
+            "label": "活躍會話數",
+            "value": "71,753"
+          },
+          "history": {
+            "label": "歷史會話數",
+            "value": "10,765"
+          },
+          "total": {
+            "label": "總會話數",
+            "value": "82,571"
+          }
+        },
+        "headers": {
+          "contact": "聯繫人",
+          "owner": "負責人",
+          "status": "線索狀態",
+          "source": "來源"
+        },
+        "owners": {
+          "zhang": "張小明",
+          "li": "李美華"
+        },
+        "statuses": {
+          "validLead": "有效線索",
+          "reserved": "已預約"
+        },
+        "sources": {
+          "facebook": "Facebook 廣告",
+          "tiktok": "TikTok 廣告"
+        }
+      },
+      "conversionFunnel": {
+        "category": "TikTok 廣告",
+        "totalsLabel": "總計",
+        "metrics": {
+          "impressions": {
+            "title": "曝光",
+            "mainNumber": "2,517,417",
+            "metric1Label": "花費",
+            "metric1Value": "$28,979.79",
+            "metric2Label": "CPM",
+            "metric2Value": "$11.51"
+          },
+          "clicks": {
+            "title": "點擊數",
+            "mainNumber": "37,455",
+            "metric1Label": "CTR",
+            "metric1Value": "1.49%",
+            "metric2Label": "CPC",
+            "metric2Value": "$0.77"
+          },
+          "conversions": {
+            "title": "轉化量",
+            "mainNumber": "3,610",
+            "metric1Label": "CVR",
+            "metric1Value": "9.64%",
+            "metric2Label": "CPA",
+            "metric2Value": "$8.03"
+          }
+        },
+        "rates": {
+          "clickRate": "→ 1.5%",
+          "conversionRate": "→ 9.6%"
+        }
+      }
+    },
+    "sequences": {
+      "pillBadge": "團隊協作與權限",
+      "title": "協作，不妥協任何資產安全。",
+      "description": "分享對話、邀請團隊共創、精細控管誰能看到什麼——一套授權體系，讓代投與品牌方無縫協作。",
+      "tag1": "分享對話",
+      "tag2": "邀請共創",
+      "tag3": "精細授權",
+      "enrolledBy": "Sarah Lin",
+      "enrolledAgent": "正在協作此會話",
+      "welcomeYara": "共享會話：EcoSip 投放覆盤",
+      "today": "今天",
+      "yesterday": "剛剛",
+      "after2Days": "邀請待接受",
+      "nextSteps": "權限：操作席",
+      "completed": "已加入協作",
+      "bookedMeeting": "團隊已就位，開始協作",
+      "enrolled3DaysAgo": "3天前加入",
+      "automatedEmailIn2Days": "2天後自動發送郵件",
+      "enrolled2DaysAgo": "智慧判讀中",
+      "automatedEmailIn3Days": "3天後自動發送郵件",
+      "enrolledYesterday": "昨天加入",
+      "automatedEmailIn1Day": "1天後自動發送郵件",
+      "enrolled6HoursAgo": "6小時前加入",
+      "enrolled1HourAgo": "1小時前加入",
+      "bento": {
+        "title": "每一個協作動作，",
+        "description": "都在 Cluega 裡完整記錄。",
+        "cards": {
+          "journey": {
+            "title": "追蹤每一筆授權。",
+            "description": "誰在什麼時間對哪個廣告帳戶做了什麼——完整稽核軌跡，合規要求一次達到。",
+            "tags": [
+              "稽核軌跡",
+              "授權記錄",
+              "合規"
+            ],
+            "visual": {
+              "steps": [
+                "Sarah Lin・授權 EcoSip 廣告帳戶給外部代理商",
+                "Mike Wang・移除外部人員的投放審批權限",
+                "Chris Chen・變更 EcoSip 專案負責人授權"
+              ],
+              "success": "完整稽核軌跡",
+              "outcome": "合規達成",
+              "title": "操作記錄",
+              "times": [
+                "剛剛",
+                "12 分鐘前",
+                "1 小時前"
+              ],
+              "viewFullLog": "查看完整紀錄"
+            }
+          },
+          "performance": {
+            "title": "消耗一眼掌握。",
+            "description": "誰觸發了哪些 AI 任務、燒了多少積分，帳本透明，費用不超支。",
+            "tags": [
+              "積分透明",
+              "用量追蹤",
+              "費用可控"
+            ],
+            "visual": {
+              "cards": {
+                "c1": {
+                  "value": "85,000",
+                  "label": "團隊總消耗",
+                  "pct": "85%"
+                },
+                "c2": {
+                  "value": "40,000",
+                  "label": "Chris (設計部)",
+                  "pct": "40%"
+                },
+                "c3": {
+                  "value": "20,000",
+                  "label": "Alex (行銷部)",
+                  "pct": "20%"
+                },
+                "c4": {
+                  "value": "15,000",
+                  "label": "Bella (營運部)",
+                  "pct": "15%"
+                },
+                "c5": {
+                  "value": "10,000",
+                  "label": "Danny (客服部)",
+                  "pct": "10%"
+                }
+              }
+            }
+          },
+          "control": {
+            "title": "角色清晰，不踩線。",
+            "description": "一張矩陣看清楚每個人能做什麼——高風險操作自動要求審批，刪除一律禁止。",
+            "tags": [
+              "角色矩陣",
+              "審批機制",
+              "刪除禁止"
+            ],
+            "visual": {
+              "card1": {
+                "status": "操作席",
+                "content": "Sarah Lin・代投團隊",
+                "footer": "可編輯・可發布"
+              },
+              "card2": {
+                "status": "協作席",
+                "content": "Chris Chen・品牌方",
+                "footer": "僅查看"
+              },
+              "card3": {
+                "status": "受限",
+                "content": "Jenny Zhang・品牌方",
+                "footer": "刪除已禁止"
+              },
+              "matrix": {
+                "actions": [
+                  "查看",
+                  "編輯",
+                  "發布",
+                  "刪除"
+                ],
+                "note": "高風險操作需審批 · 刪除一律禁止",
+                "rows": {
+                  "r1": {
+                    "name": "Sarah Lin",
+                    "cells": [
+                      "yes",
+                      "yes",
+                      "yes",
+                      "no"
+                    ]
+                  },
+                  "r2": {
+                    "name": "Chris Chen",
+                    "cells": [
+                      "yes",
+                      "no",
+                      "no",
+                      "no"
+                    ]
+                  },
+                  "r3": {
+                    "name": "Mike Wang",
+                    "cells": [
+                      "yes",
+                      "yes",
+                      "no",
+                      "no"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "smart-sending": {
+            "title": "合約到期，授權自動失效。",
+            "description": "跨公司授權可設有效期，合約結束系統自動收回存取——不用手動追蹤，不留後患。",
+            "tags": [
+              "授權到期",
+              "自動收回",
+              "跨公司"
+            ],
+            "visual": {
+              "node1": "外部夥伴權限 (有效期：30天)",
+              "node2": "已到達設定期限",
+              "node3": "系統自動註銷該專案所有授權",
+              "success": "權限收回成功"
+            }
+          }
+        }
+      },
+      "agentShowcase": {
+        "headline": "全自動人工智能會話託管",
+        "subheadline": "全天候 AI 會話託管：一鍵開啟免無效接待",
+        "description": "支持人工智能託管會話，你隨時可以將對話一鍵託管給 AI。讓大模型模型化身為你的金牌客服，替你全天候接待客戶，不錯過任何轉化時機。",
+        "tagsAriaLabel": "人工智能託管功能標籤",
+        "tags": [
+          "人工智能託管",
+          "AI自動接待",
+          "無縫人機切換"
+        ],
+        "chatTitle": "Cluega 1.2 Lite",
+        "chatAriaLabel": "Cluega AI 銷售會話託管預覽",
+        "buyerLabel": "客戶",
+        "agentLabel": "AI 銷售",
+        "inputPlaceholder": "Ask anything...",
+        "chatMessages": [
+          "詢價規格 A 共 5,000 件，下季度分批交貨。首批 FOB 報價和交期多少？請經理對接。",
+          "收到！這符合我們的大客戶階梯定價。已為您預約大客戶總監明天上午 10:00 連線洽談，您方便嗎？",
+          "可以。但這批貨銷往中東，規格 A 耐熱 180°C 不夠。有硬度與抗拉強度報告嗎？不達標我們無法採購。",
+          "理解！已將 SGS 完整測試報告發至您信箱（抗拉 450 MPa）。若有極端耐熱需求，建議改選 Specification A-Plus（現貨，耐熱達 220°C），需要了解嗎？",
+          "A-Plus 更合適。若改訂 5,000 件，你們主要倉庫有足夠現貨嗎？首批 2,000 件下月初必須裝箱上船，交期很死。",
+          "我們主要倉庫現貨 800 件，另有 1,500 件後天下午 QC 下線，共 2,300 件，完全滿足您首批 2,000 件的出貨需求。",
+          "時間很掐邊。這批在跑的產能，沒被別的客戶預訂吧？我不希望臨上船被截單。",
+          "請放心。該批次原為歐洲客戶詢價，因未付定金，系統已為您執行臨時配額保留（Allocation Lock）。明天簽約即轉為您的專屬庫存。",
+          "很好。那後續 3,000 件的滾動排產呢？你們產線吃得下嗎？不能斷貨。",
+          "沒問題。我們多基地聯動排產，月產 5 萬件。剩餘 3,000 件將納入滾動排產計劃，每月固定鎖定 1,000 件海外倉安全庫存。明天總監會提供完整保障協議。",
+          "考慮周到。A-Plus 規格升級了，明天請總監多給點折扣。",
+          "明白，明天會為您爭取最優的首單商務優惠（Introductory Offer）。A-Plus 報價單已更新至您的後台。明天 10:00 見！",
+          "好，明天見！",
+          "明天見，祝您度過愉快的一天！",
+          "好。"
+        ]
+      },
+      "teamWorkflow": {
+        "headline": "Cluega 自動化團隊工作流",
+        "subheadline": "Cluega 工作流：智能分配席位，加速業務轉化",
+        "description": "配合強大的 Cluega 工作流，當線索或會話觸發特定狀態時，系統可以直接將其自動分配給團隊對應的業務席位，由人工或專屬小組進行最終的業務轉化。",
+        "tagsAriaLabel": "自動化團隊工作流功能標籤",
+        "tags": [
+          "自動化工作流",
+          "團隊席位分配",
+          "業務轉化加速"
+        ],
+        "chatTitle": "Cluega 1.2 Lite",
+        "chatAriaLabel": "Cluega AI 團隊工作流預覽",
+        "visual": {
+          "ariaLabel": "Cluega 工作流編輯器畫布",
+          "editorTitle": "Clue 工作流",
+          "newWorkflow": "新工作流",
+          "learn": "學習",
+          "workflowName": "Workflow",
+          "status": "已啟用",
+          "trigger": "TRIGGER",
+          "condition": "條件",
+          "assignStaff": "分配人員",
+          "newLead": "新 Lead",
+          "addTrigger": "新增觸發器",
+          "leftConditionCount": "4 個條件已設定",
+          "rightConditionCount": "3 個條件已設定",
+          "roundRobin": "輪流（Round Robin）",
+          "leftStaffCount": "2 人員",
+          "rightStaffCount": "1 人員",
+          "nextStep": "下一步 >",
+          "zoomOut": "縮小",
+          "zoomIn": "放大",
+          "pan": "拖動畫布",
+          "lock": "鎖定畫布",
+          "fitView": "適合視圖"
+        }
+      },
+      "learningSection": {
+        "title": "絲滑共享，",
+        "description": "只給對的人看見。",
+        "cards": {
+          "signal": {
+            "title": "一鍵生成共享連結。",
+            "description": "點擊共享即發出邀請，對方只能看到這次對話範圍，你其他廣告帳戶的資料不會洩漏——隔離發生在資料層，不只是前端隱藏。",
+            "tags": [
+              "資料層隔離",
+              "範圍限定",
+              "一鍵共享"
+            ],
+            "visual": {
+              "pausedLabel": "已撤銷",
+              "items": {
+                "adAccountId": {
+                  "label": "共享連結",
+                  "value": "cluega.com/s/9f2a1c"
+                },
+                "adName": {
+                  "label": "邀請對象",
+                  "value": "張副總・某消費品集團"
+                },
+                "adId": {
+                  "label": "可見範圍",
+                  "value": "本次對話"
+                },
+                "creativeId": {
+                  "label": "權限等級",
+                  "value": "唯讀・協作席"
+                },
+                "creativePreview": {
+                  "label": "對話預覽",
+                  "value": "EcoSip 投放覆盤"
+                },
+                "socialAccountId": {
+                  "label": "連結狀態",
+                  "value": "已生效"
+                }
+              },
+              "share": {
+                "title": "共享此會話",
+                "linkValue": "cluega.com/s/9f2a1c",
+                "copy": "複製",
+                "scopeLabel": "可見範圍",
+                "scopeValue": "僅本次對話",
+                "invited": "已邀請 3 人",
+                "isolated": "其他帳戶資料已隔離"
+              }
+            }
+          },
+          "sender": {
+            "title": "單一會話，任意人數。",
+            "description": "代投夥伴、品牌方主管、設計師——全部邀請進同一對話，人員替換不需重新發起授權，撤銷即時生效。",
+            "tags": [
+              "任意人數",
+              "即時撤銷",
+              "免重發授權"
+            ],
+            "visual": {
+              "cardTitle": "EcoSip 協作會話",
+              "ctmIdLabel": "會話 ID",
+              "ctmIdValue": "7647794429255761927",
+              "createTimeLabel": "建立時間",
+              "createTimeValue": "2026-06-05 14:37:47",
+              "eventCount": "7",
+              "eventTotalLabel": "協作成員",
+              "avgCostValue": "5",
+              "avgCostLabel": "目前在線",
+              "legend": "全部",
+              "hub": {
+                "center": "本次會話",
+                "count": "邀請成員"
+              }
+            }
+          },
+          "scheduled": {
+            "title": "資料權跟著帳戶走。",
+            "description": "未被授權的廣告數據即使在同一個會話中也完全遮蔽，AI 分析了你的帳戶，對方也看不到超出授權範圍的任何內容。",
+            "tags": [
+              "帳戶級權限",
+              "數據遮蔽",
+              "授權邊界"
+            ],
+            "visual": {
+              "title": "帳戶資料權限",
+              "accountOther": "其他廣告帳戶",
+              "statusOk": "已授權",
+              "statusMasked": "未授權",
+              "note": "資料權跟著帳戶走"
+            }
+          }
+        }
+      },
+      "quoteSection": {
+        "title": "跨公司協作的真實體驗",
+        "content": "以前跨公司協作，換一個負責人就要重新設定一堆帳號；現在只要授權給對方公司，換誰來接手都不用重設，省了我們一半的對接時間。",
+        "headline": "Rachel Green",
+        "description": "Senior Project Manager・Cluega"
+      },
+      "globalI18n": {
+        "title": "全球商機地理透視：線索一鍵轉換分佈地圖",
+        "description": "系統自動透視線索所在的地區，並內建直觀的「商機地圖」功能。你可以直接把現有的所有線索轉化為所屬地區的分佈展示，精準鎖定市場熱區。",
+        "tags": [
+          "地區透視",
+          "商機地圖",
+          "地理線索分析"
+        ],
+        "quote": "“這功能直接解決了跨區分派線索的痛點！系統自動透視地區並生成地圖，哪裡客戶最密集、哪裡是藍海一目了然。團隊看著地圖精準掃街、派單，開發效率提高了 60%！”",
+        "author": "Ethan",
+        "role": "Sales Manager, Cluega",
+        "bottomTitle": "自動語言檢測與切換",
+        "bottomDescription": "智能代理可根據用戶口頭表達實時檢測並切換語言。無需繁瑣配置或手動輸入，非常適合全球服務熱線、旅行、零售等多種場景。",
+        "languages": {
+          "english": "英文",
+          "spanish": "西班牙文",
+          "chinese": "中文",
+          "french": "法文",
+          "german": "德文",
+          "japanese": "日文",
+          "korean": "韓文",
+          "vietnamese": "越南文",
+          "thai": "泰文",
+          "indonesian": "印尼文",
+          "malay": "馬來文",
+          "portuguese": "葡萄牙文",
+          "hindi": "印地文",
+          "italian": "義大利文",
+          "dutch": "荷蘭文"
+        },
+        "marketTable": {
+          "names": [
+            "台灣",
+            "胡志明市",
+            "吉隆坡",
+            "河內",
+            "新加坡"
+          ],
+          "values": [
+            "3,689",
+            "2,150",
+            "1,420",
+            "940",
+            "510"
+          ]
+        }
+      },
+      "adIntegrationBento": {
+        "cards": {
+          "imEcosystem": {
+            "title": "與廣告系統深度融合的 IM 生態",
+            "description": "打破 IM 工具與廣告後台數據不互通的現狀。透過底層串接，線索狀態自動與廣告投放系統對齊，實現流暢的數據流轉。",
+            "visual": {
+              "imTitle": "Cluega IM",
+              "dashboardTitle": "Dashboard",
+              "liveBadge": "即時同步",
+              "chat": {
+                "jessica": {
+                  "name": "Jessica",
+                  "time": "14:00",
+                  "message": "我想要這件產品，請問現在還有現貨嗎？如果是下週出國要穿，今天下單來得及收到嗎？"
+                },
+                "chloe": {
+                  "name": "Chloe",
+                  "time": "14:02",
+                  "message": "我想詢問這款保濕精華液，我是敏感肌也容易泛紅，請問這款成分孕婦或敏感肌可以用嗎？"
+                },
+                "david": {
+                  "name": "David",
+                  "time": "14:05",
+                  "message": "我對你們這台降噪藍牙耳機很有興趣。請問如果左右耳機配對有問題，保修期內可以直接換新嗎？"
+                },
+                "marcus": {
+                  "name": "Marcus",
+                  "time": "14:08",
+                  "message": "我想買這款人體工學辦公椅，請問有提供上門組裝的服務嗎？還是需要自己看說明書組裝？"
+                },
+                "jason": {
+                  "name": "Jason",
+                  "time": "14:15",
+                  "message": "您好，我想從馬來西亞下單這款外套，請問你們網站支援海外信用卡或 PayPal 付款嗎？另外想確認滿多少金額才能享有免國際運費的優惠？"
+                }
+              },
+              "metrics": {
+                "spend": {
+                  "label": "Spend",
+                  "caption": "總花費與增幅"
+                },
+                "conversions": {
+                  "label": "Conversions",
+                  "caption": "轉換數與轉換率"
+                },
+                "roas": {
+                  "label": "ROAS",
+                  "caption": "回報率與達標率"
+                }
+              },
+              "chart": {
+                "startDate": "Jan 26",
+                "endDate": "Feb 2"
+              },
+              "tabs": {
+                "campaigns": "Campaigns",
+                "adSets": "Ad Sets",
+                "ads": "Ads",
+                "channels": "Channels"
+              },
+              "campaigns": {
+                "campaignA": {
+                  "name": "Campaign_A_台灣電商",
+                  "progress": "92% of $9,000"
+                },
+                "campaignB": {
+                  "name": "Campaign_B_服飾新品",
+                  "progress": "99% of $8,000"
+                },
+                "campaignC": {
+                  "name": "Campaign_C_轉化再行銷",
+                  "progress": "89% of $6,000"
+                }
+              }
+            }
+          },
+          "dataAssetization": {
+            "title": "數據資產化：IM 線索直接打包成精準廣告受眾",
+            "description": "完美打通流量閉環！在 IM 中沉澱的精準線索，可以直接在系統內一鍵打包成自定義受眾（Audience），並直接應用於後續的廣告精準投放中。"
+          }
+        }
+      },
+      "adDashboard": {
+        "top": {
+          "title": "廣告帳戶全鏈路轉化成本透視"
+        },
+        "bottom": {
+          "title": "全鏈路數據透明：在廣告帳號直觀 MMT 與 CRM 轉化",
+          "description": "在 Cluega 的廣告帳號中，你可以直接看到 MMT 跟 CRM 的轉化數量與前端廣告的聯動。更能直接知道真實轉化成本（例如“平均下單”的廣告成本），優化不再瞎猜。"
+        },
+        "kpi": {
+          "adSetSpend": "廣告組消耗總金額",
+          "totalConversions": "總轉化數量",
+          "avgCostPerConv": "報表平均轉化成本",
+          "accountSpend": "帳戶總消耗金額",
+          "monthSpend": "本月消耗金額",
+          "yesterdaySpend": "昨日消耗金額",
+          "formSubmissions": "提交表單總數量",
+          "netValue": "預估淨值",
+          "avgEpc": "平均 EPC",
+          "avgCvr": "報表平均轉化率",
+          "roi": "預估 ROI",
+          "yesterdayCvr": "昨日轉化率"
+        },
+        "chart": {
+          "title": "分時監控廣告組報表",
+          "selected": "已選"
+        },
+        "table": {
+          "allSeries": "全部廣告活動",
+          "onOff": "開/關",
+          "name": "名稱",
+          "status": "狀態",
+          "convVolume": "轉化量",
+          "sourceConv": "來源轉化",
+          "avgConvCost": "平均轉化成本",
+          "paidMmt": "完成支付 (MMT)",
+          "paidAmtMmt": "完成支付金額 (MMT)",
+          "paidAvgCostMmt": "完成支付平均轉化成本 (MMT)",
+          "depositMmt": "支付定金 (MMT)",
+          "depositAmtMmt": "支付定金金額 (MMT)",
+          "active": "已啟用"
+        }
+      },
+      "productPreview": {
+        "title": "進入 Cluega 協作空間。",
+        "description": "一句話把對話變成一個讓整個團隊都能貢獻的協作場。",
+        "membersLabel": "協作成員",
+        "collabMembers": {
+          "sarah": "加入 3 分鐘前・代投團隊",
+          "chris": "加入 12 分鐘前・品牌方",
+          "mike": "加入 24 分鐘前・代投團隊",
+          "jenny": "邀請待接受・品牌方",
+          "kevin": "加入 1 小時前・代投團隊"
+        },
+        "seat": {
+          "operator": "操作席",
+          "collaborator": "協作席"
+        },
+        "sessionTitle": "EcoSip 投放覆盤",
+        "sessionMeta": "多人協作・即時同步",
+        "shareAction": "共享",
+        "msgUser": "幫我分析 EcoSip 上週的投放成效，並給出下一步優化建議。",
+        "msgAi": "已彙整 EcoSip 上週數據：ROAS 提升 18%，建議擴大成效最佳的受眾組。對方僅能看到本次對話範圍。",
+        "tagSource": "來源：EcoSip 帳戶",
+        "tagScope": "可見範圍：本次對話",
+        "joinNotice": "Chris Chen 加入了這次協作",
+        "actions": {
+          "share": "共享",
+          "download": "下載",
+          "edit": "編輯",
+          "permissions": "權限控管"
+        },
+        "breadcrumb": {
+          "workspace": "協作空間",
+          "session": "EcoSip 投放覆盤"
+        },
+        "share": "共享",
+        "tabs": {
+          "editor": "編輯器",
+          "members": "成員"
+        },
+        "membersCount": "10",
+        "enableShare": "啟用協作",
+        "invite": "邀請成員",
+        "searchPlaceholder": "搜尋成員",
+        "filter": "篩選",
+        "company": {
+          "agency": "代投團隊",
+          "brand": "品牌方"
+        },
+        "members": {
+          "m1": {
+            "time": "剛剛"
+          },
+          "m2": {
+            "time": "12 分鐘前"
+          },
+          "m3": {
+            "time": "24 分鐘前"
+          },
+          "m4": {
+            "time": "邀請待接受"
+          },
+          "m5": {
+            "time": "1 小時前"
+          },
+          "m6": {
+            "time": "2 小時前"
+          },
+          "m7": {
+            "time": "3 小時前"
+          },
+          "m8": {
+            "time": "昨天"
+          },
+          "m9": {
+            "time": "昨天"
+          },
+          "m10": {
+            "time": "2 天前"
+          }
+        },
+        "detail": {
+          "manage": "管理權限",
+          "remove": "移除",
+          "enrolledPrefix": "由",
+          "owner": "你",
+          "enrolledSuffix": "邀請加入",
+          "enrolledTime": "6 天前",
+          "card1": {
+            "label": "加入協作",
+            "time": "6 天前",
+            "title": "Sarah Lin 已加入 EcoSip 投放覆盤",
+            "preview": "可見範圍：本次對話 · 其他廣告帳戶資料已隔離"
+          },
+          "wait1": {
+            "title": "等待操作審批",
+            "desc": "編輯投放策略需操作席確認，等待中"
+          },
+          "card2": {
+            "label": "操作記錄",
+            "attach": "2",
+            "time": "今天",
+            "title": "查看 EcoSip 帳戶成效",
+            "preview": "ROAS 提升 18%，已匯出分析報告…"
+          },
+          "wait2": {
+            "title": "資料層隔離生效"
+          },
+          "card3": {
+            "label": "授權記錄",
+            "time": "2026-06-05",
+            "title": "編輯投放策略 · 由 Sarah Lin 觸發",
+            "preview": "每筆改動記錄執行者，全程可追溯…"
+          }
+        }
+      },
+      "warmth": {
+        "title": "AI 快速生成，你隨時動手精修，",
+        "description": "一鍵下載即用。",
+        "tabs": {
+          "details": {
+            "title": "共創：一起對 AI 下指令。",
+            "description": "邀請任意成員進入對話，大家都能對 AI 補充指令、回饋意見，每筆操作記錄執行者，全程可追溯。"
+          },
+          "assist": {
+            "title": "對話文件，一鍵下載。",
+            "description": "AI 生成的分析報告、廣告腳本、策略摘要，直接下載為 PDF、Word 或 Markdown，保留完整格式，開會即用。"
+          },
+          "accuracy": {
+            "title": "素材即時編輯。",
+            "description": "生成的廣告圖片不滿意？在 Cluega 裡直接去背、調整尺寸、重新生成局部，改完即可投放。"
+          }
+        },
+        "visual": {
+          "headers": {
+            "cocreate": "多人對話",
+            "download": "下載格式",
+            "edit": "素材編輯"
+          },
+          "ready": "就緒",
+          "messageLead": "由",
+          "tokenMember": "Sarah Lin",
+          "messageMid": " 觸發指令，可見範圍",
+          "tokenScope": "本次對話",
+          "messageTail": "，全程記錄執行者。",
+          "fields": {
+            "executor": {
+              "label": "執行者",
+              "value": "Sarah Lin"
+            },
+            "seat": {
+              "label": "席位",
+              "value": "操作席"
+            },
+            "status": {
+              "label": "狀態",
+              "value": "可追溯"
+            }
+          },
+          "trackLabel": "最近操作",
+          "trackValue": "3 分鐘前",
+          "cocreate": {
+            "onlineCount": "3 人在線",
+            "msgA": "幫我分析 EcoSip 的受眾表現",
+            "msgB": "補充：聚焦近 7 天的轉化",
+            "aiReply": "已彙整，ROAS 提升 18%，建議擴大成效最佳的受眾組。",
+            "trigger": "由 Sarah Lin 觸發 · 3 分鐘前",
+            "sessionName": "EcoSip 投放覆盤",
+            "timeA": "3 分鐘前",
+            "timeB": "1 分鐘前",
+            "typing": "Mike Wang 正在輸入…"
+          },
+          "download": {
+            "docTitle": "EcoSip 投放分析報告",
+            "badge": "就緒",
+            "download": "下載",
+            "meta": "PDF · 12 頁 · 2.4 MB",
+            "pageFooter": "第 1 / 12 頁",
+            "exportedBy": "由 Sarah Lin 匯出",
+            "files": {
+              "f1": "競品分析報告 (PDF)",
+              "f2": "廣告腳本 (Word)",
+              "f3": "策略摘要 (Markdown)",
+              "f4": "會議記錄與決議 (Word)",
+              "f5": "市場洞察簡報 (PDF)",
+              "f6": "專案執行企劃 (Word)"
+            },
+            "status": "正在下載..."
+          },
+          "edit": {
+            "label": "素材編輯",
+            "ready": "就緒",
+            "tools": {
+              "cutout": "去背",
+              "resize": "調整尺寸",
+              "regen": "重新生成",
+              "download": "下載"
+            },
+            "badge": "AI 局部重繪"
+          }
+        }
+      },
+      "platformShelf": {
+        "title": "協作只是開始。",
+        "description": "Cluega 完整連接你的工作流。",
+        "items": {
+          "aiChat": "IM 即時通訊系統",
+          "adAccounts": "廣告投放與優化",
+          "creative": "即時營銷儀錶盤",
+          "dashboard": "市場洞察",
+          "collaboration": "Agent",
+          "automation": "電商運營",
+          "audit": "AI 對話與模型",
+          "billing": "AI 視覺設計"
+        }
+      },
+      "finalCta": {
+        "heading": "安全不洩漏的團隊協作空間",
+        "demo": "預約 Demo",
+        "start": "免費開始使用"
+      },
+      "heroCtaStart": "免費開始使用",
+      "heroCtaDemo": "預約 Demo"
+    },
+    "platformSequences": {
+      "header": {
+        "banner": "Orchestrate revenue agents with the new Workflows",
+        "closeBanner": "Close announcement",
+        "logoLabel": "Go to Cluega home",
+        "navLabel": "Sequences navigation",
+        "menu": "Open menu",
+        "signIn": "Sign in",
+        "startFree": "Start for free",
+        "nav": {
+          "platform": "Platform",
+          "resources": "Resources",
+          "customers": "Customers",
+          "pricing": "Pricing"
+        },
+        "resources": {
+          "customers": "Stories from teams building with Cluega.",
+          "guides": "Ideas, playbooks, and product updates.",
+          "support": "Find answers and get help fast."
+        }
+      },
+      "hero": {
+        "badge": "Sequences",
+        "title": "Signal, sequence, success.",
+        "description": "Go from first touch to final signature with perfectly crafted emails delivered right on cue.",
+        "emailLabel": "Your email address",
+        "emailPlaceholder": "Your email address",
+        "demoCta": "Send me a demo",
+        "timeline": {
+          "sequence": "Sequence",
+          "title": "Warm lead follow-up",
+          "live": "Live",
+          "enrolled": {
+            "meta": "Enrolled by PQL Triage",
+            "title": "Welcome Yara",
+            "description": "New product signal matched this contact automatically."
+          },
+          "welcome": {
+            "meta": "Today",
+            "title": "Welcome Yara",
+            "description": "A personalized first touch lands while intent is fresh."
+          },
+          "wait": {
+            "meta": "After 2 business days",
+            "title": "Next steps",
+            "description": "The sequence waits for the right window before following up."
+          },
+          "next": {
+            "meta": "Yesterday",
+            "title": "Completed",
+            "description": "No reply needed from your team unless the signal changes."
+          },
+          "complete": {
+            "meta": "Booked meeting with Yara",
+            "title": "Success",
+            "description": "Replies, meetings, and outcomes stay tied to the record."
+          }
+        }
+      },
+      "preview": {
+        "eyebrow": "Step inside Sequences",
+        "title": "Step inside Sequences.",
+        "description": "Convert warm signals into outreach that closes itself.",
+        "imageAlt": "Cluega Sequences product preview"
+      },
+      "zeroTouch": {
+        "eyebrow": "Automation",
+        "title": "Zero-touch follow-ups.",
+        "description": "Cluega keeps conversations moving while your team focuses on winning.",
+        "cards": {
+          "signals": {
+            "title": "Signal based enrollment.",
+            "description": "Pick the cues-account created, form filled, RSVP-to enroll the contact."
+          },
+          "sender": {
+            "title": "One sequence, any sender.",
+            "description": "Set up a single email sequence and auto-assign the right sender."
+          },
+          "schedule": {
+            "title": "Automate scheduled sending.",
+            "description": "Skip the CSVs and manual syncs. Reclaim hours every week."
+          }
+        }
+      },
+      "quote": {
+        "body": "With Cluega, we are able to conduct highly targeted and customized outreach.",
+        "author": "Margaret Shen",
+        "role": "Head of Business Operations · Modal"
+      },
+      "warmth": {
+        "eyebrow": "Handwritten warmth",
+        "title": "Handwritten warmth.",
+        "description": "Every touch feels 1-to-1, even when juggling 100 accounts.",
+        "visualLabel": "Personalization visuals",
+        "steps": {
+          "details": {
+            "title": "Customer details, auto-filled.",
+            "description": "Drop in first names, renewal dates, or any field so each contact gets what is most relevant."
+          },
+          "ai": {
+            "title": "AI assist.",
+            "description": "Need a hand? AI riffs the perfect phrase for every message."
+          },
+          "accuracy": {
+            "title": "Live accuracy.",
+            "description": "Field updates flow straight into drafts, keeping the important details like numbers and dates spot-on."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Live context",
+        "title": "Every interaction in Cluega.",
+        "description": "Track enrollment, replies, meetings, and status for every contact.",
+        "cards": {
+          "journey": {
+            "title": "Track the journey.",
+            "description": "See who progresses through each step."
+          },
+          "performance": {
+            "title": "Performance.",
+            "description": "Track engagement to exit in one glance."
+          },
+          "control": {
+            "title": "One-click control.",
+            "description": "Pause, revive, or remove recipients with one click."
+          },
+          "sending": {
+            "title": "Smart sending.",
+            "description": "Land in their inbox when they are ready."
+          }
+        }
+      },
+      "shelf": {
+        "eyebrow": "Cluega platform",
+        "title": "Cluega plugs in. You take off.",
+        "description": "Work your way, from outreach to outcomes.",
+        "items": {
+          "askCluega": {
+            "title": "Ask Cluega",
+            "description": "Ask questions and get answers from your customer data."
+          },
+          "ai": {
+            "title": "AI",
+            "description": "Turn every record into a smarter next action."
+          },
+          "dataModel": {
+            "title": "Data model",
+            "description": "Model the objects, relationships, and signals you need."
+          },
+          "apps": {
+            "title": "Apps & integrations",
+            "description": "Connect the tools already running your revenue team."
+          },
+          "callIntelligence": {
+            "title": "Call Intelligence",
+            "description": "Capture context from conversations automatically."
+          },
+          "workflows": {
+            "title": "Workflows",
+            "description": "Automate handoffs, tasks, and routing."
+          },
+          "sequences": {
+            "title": "Sequences",
+            "description": "Nurture every warm signal with perfect timing."
+          },
+          "reporting": {
+            "title": "Reporting",
+            "description": "Measure pipeline, revenue, and team performance live."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Start today",
+        "title": "Start with a 14-day free trial of Pro.",
+        "description": "Build your first signal-aware sequence and see every touch in Cluega.",
+        "primary": "Start for free",
+        "secondary": "Talk to sales"
+      },
+      "footer": {
+        "tagline": "Cluega brings every customer interaction, workflow, and signal into one AI-native revenue workspace.",
+        "platform": {
+          "title": "Platform",
+          "items": {
+            "one": "Ask Cluega",
+            "two": "AI",
+            "three": "Data model",
+            "four": "Sequences"
+          }
+        },
+        "company": {
+          "title": "Company",
+          "items": {
+            "one": "About",
+            "two": "Customers",
+            "three": "Careers",
+            "four": "Contact"
+          }
+        },
+        "importFrom": {
+          "title": "Import from",
+          "items": {
+            "one": "Salesforce",
+            "two": "HubSpot",
+            "three": "Pipedrive",
+            "four": "CSV"
+          }
+        },
+        "cluegaFor": {
+          "title": "Cluega for",
+          "items": {
+            "one": "Startups",
+            "two": "Sales teams",
+            "three": "Marketing teams",
+            "four": "RevOps"
+          }
+        },
+        "apps": {
+          "title": "Apps",
+          "items": {
+            "one": "Gmail",
+            "two": "Slack",
+            "three": "Zapier",
+            "four": "API"
+          }
+        },
+        "resources": {
+          "title": "Resources",
+          "items": {
+            "one": "Customers",
+            "two": "Guides",
+            "three": "Help center",
+            "four": "Blog",
+            "customers": "Customers",
+            "guides": "Guides",
+            "helpCenter": "Help center"
+          }
+        },
+        "legal": {
+          "privacy": "Privacy",
+          "terms": "Terms"
+        },
+        "copyright": "© 2026 Cluega. All rights reserved."
+      }
+    }
+  }
+}

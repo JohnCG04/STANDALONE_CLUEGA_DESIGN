@@ -1,0 +1,200 @@
+{
+  "platformResources": {
+    "hero": {
+      "badge": "Community",
+      "title": "Cluega brings together every marketing skill, prompt, and model",
+      "subtitle": "Prompts, skills, fully-managed tasks, AI model rankings — everything you need, all in one place.",
+      "primaryCta": "Start for free",
+      "secondaryCta": "Learn more"
+    },
+    "showcase": {
+      "title": "The community has everything you need.",
+      "subtitle": "Unlock prompts, skills, fully-managed tasks, and model rankings to put your advertising work into high gear.",
+      "tabs": {
+        "prompts": "Prompts",
+        "skills": "Skills",
+        "managed": "Fully managed",
+        "ranking": "AI model rankings"
+      },
+      "platformFilters": {
+        "all": "All",
+        "googleAds": "Google Ads",
+        "metaAds": "Meta Ads",
+        "googleAnalytics": "Google Analytics",
+        "searchConsole": "Search Console",
+        "tiktokAds": "TikTok Ads"
+      },
+      "prompts": {
+        "title": "Prompts",
+        "description": "The most practical prompts — copy and paste them into Cluega, then replace everything inside the square brackets [ ] with your own information.",
+        "categoryFilters": {
+          "all": "All categories",
+          "quickAnalysis": "Quick analysis",
+          "keywords": "Keywords",
+          "creative": "Creative",
+          "costBidding": "Cost & bidding",
+          "reporting": "Reporting",
+          "scheduling": "Scheduling"
+        },
+        "cards": {
+          "accountHealth": {
+            "platform": "Google Ads",
+            "title": "Account health audit",
+            "body": "Scan every ad account and surface the top 5 issues ranked by estimated dollar impact — including budget waste, quality score, and creative match — with the expected gain from fixing each one."
+          },
+          "weeklyDiagnosis": {
+            "platform": "Meta Ads",
+            "title": "Weekly diagnosis",
+            "body": "Compare the last 7 days against the previous 7 across every platform, find the biggest swings in ROAS, CPA, and CPC, analyze the root causes, and separate branded from non-branded traffic."
+          },
+          "threeOpportunities": {
+            "platform": "Google Ads",
+            "title": "Ten big opportunities",
+            "body": "Look across Google + Meta to find the top 10 optimization opportunities, ranked by estimated dollar impact, each with concrete next steps and an expected improvement range."
+          },
+          "negativeKeywords": {
+            "platform": "Google Analytics",
+            "title": "Negative keyword scan",
+            "body": "Pull the last 30 days of search-term reports, find the 20 keywords wasting the most budget, analyze why conversions are low, and return a recommended negative-keyword list."
+          }
+        }
+      },
+      "skills": {
+        "title": "Skills",
+        "description": "Turn on built-in skills so Cluega automatically applies the right capability to each task.",
+        "searchPlaceholder": "Search skills",
+        "filterOfficial": "Official",
+        "bannerTitle": "Add a custom skill",
+        "bannerDescription": "Add a skill to unlock new capabilities for you or your team.",
+        "bannerButton": "＋ Add",
+        "badgeOfficial": "Official",
+        "badgeEnabled": "Enabled",
+        "updatedLabel": "Updated Apr 23, 2026",
+        "cards": {
+          "tiktok": {
+            "name": "tiktok-ads-generator",
+            "body": "A high-conversion short-video ad script and storyboard generator built for TikTok. It automatically produces scroll-stopping hooks, layered pain points, and strong CTAs to lift creative quality across the board."
+          },
+          "meta": {
+            "name": "meta-creative-matrix",
+            "body": "A multi-variant ad copy and visual matrix planner for Meta (Facebook / Instagram). It automatically derives the best copy combinations based on audience warmth."
+          },
+          "google": {
+            "name": "google-search-optimizer",
+            "body": "A Google search ad optimization expert. It automatically gauges industry competitiveness, batch-generates highly relevant headlines and descriptions, and intelligently filters out low-performing traffic terms."
+          },
+          "omni": {
+            "name": "omni-ad-brief-compiler",
+            "body": "A cross-platform creative brief automation tool. With one click it turns product selling points into shooting directions and design notes that match each platform's specs."
+          }
+        }
+      },
+      "managed": {
+        "title": "About managed tasks",
+        "description": "For ad delivery, analysis, and reporting scenarios, pick the matching fully-managed skill module — once configured, the AI runs it automatically 7×24.",
+        "categoryFilters": {
+          "all": "All categories",
+          "creativeGen": "Creative generation",
+          "audienceInsights": "Audience insights",
+          "budgetBidding": "Budget & bidding",
+          "reporting": "Reporting"
+        },
+        "manageButton": "Manage",
+        "manageHint": "Click [Manage] to start automatic execution",
+        "cards": {
+          "highRoas": {
+            "platform": "Meta Ads",
+            "category": "Budget & bidding",
+            "title": "High-ROAS auto bid-up",
+            "body": "Monitor same-day ROAS; when it hits 250% and conversion volume is on target, automatically increase the ad set's budget by 20% to capture high-performing windows."
+          },
+          "creativeViolation": {
+            "platform": "TikTok Ads",
+            "category": "Creative generation",
+            "title": "Creative violation auto-pause",
+            "body": "If the same creative is rejected by the platform more than twice within 24 hours, the system automatically takes it down and instantly notifies the account owner."
+          },
+          "keywordRoas": {
+            "platform": "Google Ads",
+            "category": "Budget & bidding",
+            "title": "Keyword ROAS breach strategy",
+            "body": "Detect when a core keyword's ROAS drops below 100% over the past 3 days, automatically lower the bid and switch strategy — stopping losses while preserving traffic."
+          },
+          "pixelAlert": {
+            "platform": "Meta Ads",
+            "category": "Reporting",
+            "title": "Pixel data outage alert",
+            "body": "Detect in real time when Pixel conversion event volume drops to 0, and automatically send a repair notice before it affects the ad's learning phase."
+          }
+        }
+      },
+      "ranking": {
+        "title": "AI model rankings",
+        "description": "Based on benchmark tests and real usage data from millions of users accessing models through Cluega. Updated weekly.",
+        "chartTitle": "Top models",
+        "chartSubtitle": "Weekly model usage on Cluega",
+        "leaderboardTitle": "LLM leaderboard",
+        "leaderboardSubtitle": "Compare the most popular models on Cluega",
+        "filterButton": "This week",
+        "rows": {
+          "r1": { "name": "DeepSeek V4 Flash", "provider": "DeepSeek", "usage": "3.29T tokens" },
+          "r2": { "name": "GLM-4.6", "provider": "Zhipu AI", "usage": "3.01T tokens" },
+          "r3": { "name": "Claude Sonnet 4.6", "provider": "Anthropic", "usage": "2.87T tokens" },
+          "r4": { "name": "GPT-5", "provider": "OpenAI", "usage": "2.64T tokens" },
+          "r5": { "name": "Llama 4 Maverick", "provider": "Meta", "usage": "1.92T tokens" },
+          "r6": { "name": "Gemini 2.5 Pro", "provider": "Google", "usage": "1.48T tokens" },
+          "r7": { "name": "Grok 3 Turbo", "provider": "xAI", "usage": "1.21T tokens" },
+          "r8": { "name": "Moonshot v2", "provider": "Moonshot AI", "usage": "948B tokens" },
+          "r9": { "name": "Qwen 3 Max", "provider": "Alibaba Cloud", "usage": "704B tokens" },
+          "r10": { "name": "Cohere Command R+", "provider": "Cohere", "usage": "683B tokens" },
+          "r11": { "name": "Mistral Large 3", "provider": "Mistral", "usage": "602B tokens" },
+          "r12": { "name": "Nemotron 3 Super (Free)", "provider": "NVIDIA", "usage": "595B tokens" },
+          "r13": { "name": "Phi-4 Vision", "provider": "Microsoft", "usage": "521B tokens" },
+          "r14": { "name": "Falcon 3", "provider": "TII", "usage": "487B tokens" },
+          "r15": { "name": "Inflection 3", "provider": "Inflection", "usage": "431B tokens" },
+          "r16": { "name": "MiniMax M1", "provider": "MiniMax", "usage": "371B tokens" }
+        }
+      }
+    },
+    "discover": {
+      "title": "Explore community resources.",
+      "subtitle": "Search prompts, skills, and fully-managed tasks in one place to find the AI way of working that fits your advertising scenario best.",
+      "searchPlaceholder": "Search prompts, skills, or tasks…",
+      "categories": {
+        "all": "All resources",
+        "prompts": "Prompts",
+        "skills": "Skills",
+        "managed": "Fully managed",
+        "ranking": "AI model rankings"
+      },
+      "badgeOfficial": "Official",
+      "cards": {
+        "p1": { "platform": "Google Ads", "title": "Account health audit", "body": "Scan every ad account, surface the top 5 issues ranked by estimated dollar impact, and give the expected gain from fixing each one." },
+        "p2": { "platform": "Meta Ads", "title": "Weekly diagnosis", "body": "Compare the last 7 days against the previous 7, automatically find the biggest swings in ROAS, CPA, and CPC, and analyze the root causes." },
+        "p3": { "platform": "Google Ads", "title": "Ten big opportunities", "body": "Look across Google + Meta to find the top 10 optimization opportunities, ranked by estimated dollar impact, each with concrete next steps and an expected improvement range." },
+        "p4": { "platform": "Google Analytics", "title": "Negative keyword scan", "body": "Pull the last 30 days of search-term reports, find the 20 keywords wasting the most budget, analyze why conversions are low, and return a recommended negative-keyword list." },
+        "s1": { "name": "tiktok-ads-generator", "body": "A high-conversion short-video script and storyboard generator that automatically produces scroll-stopping hooks, layered pain points, and strong CTAs." },
+        "s2": { "name": "meta-creative-matrix", "body": "Automatically derives ad copy and visual matrices by audience warmth, outputting the best combinations for cold / warm / hot audiences." },
+        "s3": { "name": "google-search-optimizer", "body": "A Google search ad optimization expert. It automatically gauges industry competitiveness, batch-generates highly relevant headlines and descriptions, and intelligently filters out low-performing traffic terms." },
+        "s4": { "name": "omni-ad-brief-compiler", "body": "A cross-platform creative brief automation tool. With one click it turns product selling points into shooting directions and design notes that match each platform's specs." },
+        "s5": { "name": "pmax-asset-shaper", "body": "A Google Performance Max (PMax) asset-group planner. It fully covers the specs and script configuration for text, image, and video assets, helping the algorithm optimize delivery across YouTube, Gmail, and the Display Network..." },
+        "s6": { "name": "tiktok-trend-aligner", "body": "A creative aligner that tracks trending TikTok sounds, memes, and jokes in real time. It quickly blends current trends with your brand's ad angles to output native-feeling scripts that reduce the ad feel and lift watch time..." },
+        "s7": { "name": "meta-hook-variant", "body": "A batch generator for golden ad hooks on Meta Feed and Reels. It offers 5 psychological frameworks — question-led, data-shock, counterintuitive claims and more — to sharply cut creative bounce rates..." },
+        "s8": { "name": "cross-channel-copywriter", "body": "A cross-channel copy tool that turns one draft into many placements in a click. Enter your core selling points and it adapts them to TikTok's conversational tone, Meta's story-led flow, and Google's high-relevance copy..." },
+        "s9": { "name": "Targeting ad-audience-persona", "body": "An audience-persona and tag recommender built on ad-delivery logic. It dissects your target audience's motivations and pain points, then outputs matching Meta interest-and-niche tag sets and TikTok behavior-tag suggestions for precise..." },
+        "s10": { "name": "landing-page-aligner", "body": "A consistency checker between ad creatives and single-page landing copy. It makes sure your TikTok/Meta creative and the page's above-the-fold value proposition match perfectly, reducing high bounce..." },
+        "m1": { "platform": "Meta Ads", "category": "Budget & bidding", "title": "High-ROAS auto bid-up", "body": "When ROAS is on target, automatically raise the budget by 20% to capture high-performing windows — no manual monitoring needed." },
+        "m2": { "platform": "TikTok Ads", "category": "Creative generation", "title": "Creative violation auto-pause", "body": "When the same creative is rejected more than twice in 24 hours, automatically take it down and instantly notify the owner." },
+        "m3": { "platform": "Google Ads", "category": "Budget & bidding", "title": "Keyword ROAS collapse strategy", "body": "When a core keyword's ROAS falls below 100% over the past 3 days, automatically lower bids and switch strategy." },
+        "m4": { "platform": "Meta Ads", "category": "Reporting", "title": "Pixel data outage alert", "body": "Detect when Pixel conversion events drop to zero and automatically send a system-repair alert." },
+        "m5": { "platform": "Search Console", "category": "Reporting", "title": "Search query report scan", "body": "Compile the last 30 days of search-term reports and flag high-bounce, zero-conversion terms with negative-keyword recommendations." },
+        "m6": { "platform": "Meta Ads", "category": "Audience insights", "title": "Audience interest-tag inference", "body": "Infer Meta niche interest tags from your product positioning and output TikTok behavior-tag suggestions." }
+      }
+    },
+    "cta": {
+      "title": "Join the Cluega community now.",
+      "subtitle": "Here you'll find prompts, skills, and fully-managed tasks prepared by the Cluega team — and you can upload your own skills to build your personal AI workbench.",
+      "primaryCta": "Join the community for free"
+    }
+  }
+}

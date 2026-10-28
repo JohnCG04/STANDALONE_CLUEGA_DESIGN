@@ -1,0 +1,311 @@
+{
+  "sbc": {
+    "eyebrow": "Giải pháp ngành · Real-money gaming",
+    "badge": "SBC SUMMIT LISBON 2026 · BOOTH F548",
+    "formTitle": "Trao đổi với Cluega về iGaming",
+    "company": "Công ty",
+    "companyPlaceholder": "Nhà vận hành hoặc agency của bạn",
+    "email": "Email công việc",
+    "emailPlaceholder": "ban@congty.com",
+    "vertical": "Vertical chính",
+    "budget": "Ngân sách media hàng tháng",
+    "submitting": "Đang gửi…",
+    "errorRate": "Quá nhiều lần thử từ đây. Đợi một chút rồi thử lại.",
+    "errorGeneric": "Chưa lưu được thông tin của bạn. Thử lại, hoặc gặp chúng tôi tại Booth F548.",
+    "doneTitle": "Cảm ơn bạn, chúng tôi đã nhận được thông tin.",
+    "doneBody": "Chuyên viên Cluega sẽ liên hệ lại qua email. Bạn không phải cài đặt gì. Bước tiếp theo là một buổi trao đổi.",
+    "doneBooth": "Ghé Booth F548, chúng tôi sẽ dẫn bạn xem sản phẩm trên một tài khoản thật.",
+    "doneBackHome": "Về cluega.com",
+    "doneLeadCode": "Bạn là khách #{code} — cho xem mã này tại Booth F548.",
+    "nav": {
+      "counter": "ĐƠN VỊ ĐÃ GẶP TẠI SBC",
+      "reset": "Khách tiếp theo"
+    },
+    "hero": {
+      "title": "Hệ điều hành marketing AI cho [[real-money gaming]].",
+      "lede": "Từ tài khoản quảng cáo tới dashboard trực tiếp: creative, khởi chạy, attribution và báo cáo, tất cả trong một cuộc hội thoại. Dành cho slots, live casino, sportsbook và xổ số.",
+      "photoAlt": "Ứng dụng Cluega iGaming trên điện thoại và máy tính bảng, bao quanh là bàn roulette, phỉnh, bài và cuộn slot"
+    },
+    "proof": [
+      {
+        "dt": "Đông Nam Á",
+        "dd": "14 năm mua quảng cáo",
+        "note": "Performance media khắp Đông Nam Á, với đối tác agency chính thức của TikTok."
+      },
+      {
+        "dt": "Thành tích",
+        "dd": "400+ khách hàng",
+        "note": "Nhà vận hành, thương hiệu và agency chạy TikTok, Meta, Google và Adjust trên cùng một phương pháp."
+      },
+      {
+        "dt": "Báo cáo",
+        "dd": "Theo giờ",
+        "note": "Mọi đồng chi tiêu đều báo cáo ngược về Cluega, đối soát từng dòng với Adjust."
+      }
+    ],
+    "flow": [
+      "Cho biết mảng sản phẩm",
+      "Chọn thị trường",
+      "Chúng tôi mang cả hai vào buổi trao đổi"
+    ],
+    "form": {
+      "step": "Bước 1 / 1",
+      "lead": "Vài câu trả lời nhanh, để buổi trao đổi bắt đầu từ mảng sản phẩm và thị trường của bạn thay vì từ con số không.",
+      "name": "Tên của bạn",
+      "namePlaceholder": "Alex Moreau",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "+84 900 000 000",
+      "role": "Chức danh",
+      "rolePlaceholder": "Trưởng phòng Marketing",
+      "painPoints": "Vấn đề lớn nhất hiện tại (chọn nhiều)",
+      "goal": "Mục tiêu chính",
+      "markets": "Thị trường bạn đang chạy (chọn nhiều)",
+      "submit": "Gửi thông tin của tôi →",
+      "consent": "Chúng tôi dùng thông tin của bạn để chuẩn bị cho buổi trao đổi và, nếu bạn đồng ý, để liên hệ lại về Cluega. Chúng tôi không bao giờ bán dữ liệu của bạn. Xem {privacy}.",
+      "licensedOnly": "Chỉ dành cho nhà vận hành có giấy phép tại các thị trường được điều tiết.",
+      "marketingOptIn": "Tôi muốn nhận thông tin từ Cluega về sản phẩm và sự kiện. Có thể huỷ bất cứ lúc nào.",
+      "budgetPlaceholder": "Chọn khoảng ngân sách",
+      "submitMissing": {
+        "company": "Nhập tên công ty",
+        "email": "Nhập email công việc",
+        "vertical": "Chọn mảng sản phẩm",
+        "markets": "Chọn thị trường",
+        "budget": "Chọn ngân sách"
+      },
+      "shareLocation": "Chia sẻ vị trí của tôi",
+      "locating": "Đang lấy vị trí…",
+      "locationShared": "Đã chia sẻ vị trí — cảm ơn bạn.",
+      "locationRefused": "Chưa chia sẻ vị trí. Không sao, biểu mẫu vẫn gửi được.",
+      "locationHint": "Không bắt buộc — giúp chúng tôi liên hệ lại từ đúng khu vực."
+    },
+    "geos": {
+      "SEA": {
+        "label": "Philippines",
+        "code": "PH"
+      },
+      "LATAM": {
+        "label": "Mỹ Latinh",
+        "code": "BR · MX · PE"
+      },
+      "EU": {
+        "label": "Châu Âu",
+        "code": "UK · DE · IT"
+      },
+      "TIER1": {
+        "label": "Tier 1",
+        "code": "US · CA · AU"
+      },
+      "AFRICA": {
+        "label": "Châu Phi",
+        "code": "NG · KE · ZA"
+      }
+    },
+    "tour": {
+      "eyebrow": "Bên trong Cluega",
+      "title": "Những gì chúng tôi sẽ cho bạn xem",
+      "lead": "Đây là màn hình thật của sản phẩm, không phải mock-up. Chúng tôi chạy trực tiếp tại gian hàng, theo mảng và thị trường bạn chọn ở trên.",
+      "rows": [
+        {
+          "n": "Đội vận hành",
+          "h": "Bot của bạn và browser agent, trong cùng một luồng",
+          "p": "DogClaw dựng chiến dịch TikTok trong trình duyệt thật: mục tiêu, GEO, nhóm tuổi, ngân sách ngày. CreativeBot đề xuất các biến thể 9:16. Bot quảng cáo báo ROAS, chi phí mỗi kết quả và CPA. Cùng một kênh, cùng một cuộc hội thoại.",
+          "alt": "Kênh Cluega Casino Delivery Team với DogClaw, CreativeBot và bot TikTok Ads cùng làm một chiến dịch"
+        },
+        {
+          "n": "Dashboard iGaming",
+          "h": "Mỗi creative mang theo chi phí mỗi lead của chính nó",
+          "p": "Creative slots, live casino, cá cược thể thao và blackjack xếp hạng theo chi phí thật của một lead hợp lệ. Mỗi thẻ gắn nhãn Winner, Stable, Watch hoặc Critical, kèm chi tiêu và lượt hiển thị.",
+          "alt": "Dashboard marketing iGaming của Cluega với chi tiêu, lead, tỷ lệ nạp, ROI và sáu creative xếp theo chi phí mỗi lead"
+        },
+        {
+          "n": "Kết nối",
+          "h": "Chạy trên chính các tài khoản bạn đang có",
+          "p": "TikTok Ads, Meta, Google Ads, Reddit, LinkedIn, Instagram và YouTube cấp quyền từ một trang. DogClaw chạy tác vụ trình duyệt trên Chrome của bạn hoặc trên cloud browser: không phải dựng lại, không phải xuất tay.",
+          "alt": "Trang cấp quyền ứng dụng Cluega kết nối TikTok Ads, Meta, Google Ads, Reddit, LinkedIn, Instagram và YouTube"
+        }
+      ],
+      "logosMore": "+ CÒN NỮA TRONG APP"
+    },
+    "cta": {
+      "restart": "Làm lại từ đầu",
+      "book": "Đặt 15 phút với {rep}",
+      "bookOn": "{rep} · {platform}"
+    },
+    "footer": {
+      "tagline": "Thấy từng đồng. Chứng minh từng kết quả. Tự động hoá tới mục tiêu.",
+      "meta": "CLUEGA.COM · SALES@CLUEGA.COM · BOOTH F548",
+      "privacy": "Chính sách Bảo mật",
+      "terms": "Điều khoản",
+      "cookies": "Cài đặt cookie",
+      "company": "Cluega Engine Information Technology Co., Limited"
+    },
+    "comps": {
+      "slots": [
+        {
+          "n": "Nova Reels",
+          "m": "Bộ creative game crash mới, dẫn dắt bởi UGC",
+          "w": "1 ngày trước"
+        },
+        {
+          "n": "Vertex Studios",
+          "m": "Chiến dịch bảng xếp hạng giải đấu hàng tuần",
+          "w": "4 ngày trước"
+        },
+        {
+          "n": "Halcyon Play",
+          "m": "Dịch ngân sách sang khung đêm khuya, CPM giảm",
+          "w": "1 tuần trước"
+        }
+      ],
+      "livecasino": [
+        {
+          "n": "Lumen Live",
+          "m": "Chỉ đẩy creative dẫn bởi dealer sau 21:00",
+          "w": "2 ngày trước"
+        },
+        {
+          "n": "Cobalt Club",
+          "m": "Chuỗi giải thích hạn mức bàn trên ba GEO",
+          "w": "5 ngày trước"
+        },
+        {
+          "n": "Meridian Tables",
+          "m": "Tăng chi cho retarget người chơi quay lại",
+          "w": "1 tuần trước"
+        }
+      ],
+      "sportsbook": [
+        {
+          "n": "Aurora Bet",
+          "m": "Mở rộng TikTok Spark Ads trên ba thị trường",
+          "w": "2 ngày trước"
+        },
+        {
+          "n": "Meridian Sports",
+          "m": "Đẩy bet builder với sáu biến thể creative",
+          "w": "5 ngày trước"
+        },
+        {
+          "n": "Ridge Sports",
+          "m": "Khuyến mãi cash-out chạy theo lịch thi đấu cuối tuần",
+          "w": "1 tuần trước"
+        }
+      ],
+      "lottery": [
+        {
+          "n": "Beacon Draw",
+          "m": "Bùng nổ ngày quay số thay cho chi tiêu always-on",
+          "w": "1 ngày trước"
+        },
+        {
+          "n": "Northlight Lotto",
+          "m": "Chuỗi creative chơi nhóm cùng creator bản địa",
+          "w": "4 ngày trước"
+        },
+        {
+          "n": "Quarry Games",
+          "m": "Đẩy định dạng cào trúng liền sang thị trường mới",
+          "w": "1 tuần trước"
+        }
+      ]
+    },
+    "ticks": [
+      {
+        "geo": "BR",
+        "vertical": "Sportsbook",
+        "text": "quan tâm kèo xiên",
+        "m": "+42%"
+      },
+      {
+        "geo": "PH",
+        "vertical": "Slots",
+        "text": "lượt tìm game crash",
+        "m": "+28%"
+      },
+      {
+        "geo": "UK",
+        "vertical": "Sportsbook",
+        "text": "CPM paid social",
+        "m": "-8%"
+      },
+      {
+        "geo": "MX",
+        "vertical": "Live casino",
+        "text": "CTR creative dealer",
+        "m": "+19%"
+      },
+      {
+        "geo": "NG",
+        "vertical": "Slots",
+        "text": "nạp qua mobile money",
+        "m": "+27%"
+      },
+      {
+        "geo": "DE",
+        "vertical": "Slots",
+        "text": "lượt tham gia giải đấu",
+        "m": "-6%"
+      },
+      {
+        "geo": "US",
+        "vertical": "Sportsbook",
+        "text": "hoạt động mở cửa theo bang",
+        "m": "+11%"
+      },
+      {
+        "geo": "KE",
+        "vertical": "Lottery",
+        "text": "reach TikTok trên mỗi $1k",
+        "m": "2.6x"
+      }
+    ],
+    "verticals": {
+      "slots": "Slots",
+      "livecasino": "Live casino",
+      "sportsbook": "Cá cược thể thao",
+      "lottery": "Xổ số"
+    },
+    "budgets": [
+      "Dưới USD 50k",
+      "USD 50k - 250k",
+      "USD 250k - 1M",
+      "Trên USD 1M"
+    ],
+    "meta": {
+      "title": "Cluega tại SBC Summit Lisbon 2026 - Booth F548",
+      "description": "Hệ điều hành marketing AI cho real-money gaming. Gặp Cluega tại SBC Summit Lisbon, 29/09 – 01/10/2026, Booth F548."
+    },
+    "fieldErrors": {
+      "company": "Nhập tên công ty để chúng tôi biết đang trao đổi với ai.",
+      "emailMissing": "Nhập email công việc của bạn.",
+      "emailShape": "Địa chỉ email trông chưa đầy đủ. Kiểm tra lại giúp nhé.",
+      "vertical": "Chọn mảng sản phẩm bạn đang chạy.",
+      "markets": "Chọn ít nhất một thị trường để lọc xu hướng.",
+      "budget": "Chọn khoảng ngân sách media hàng tháng."
+    },
+    "reps": {
+      "eyebrow": "Tại gian hàng",
+      "title": "Nói chuyện với người trực tiếp chạy media iGaming",
+      "body": "Chọn người và chọn giờ. Đặt lịch ở đây cũng là cuộc trò chuyện như form bên trên, chỉ là không phải chờ.",
+      "book": "Đặt lịch"
+    },
+    "telegram": {
+      "eyebrow": "Dùng thử ngay · Telegram",
+      "title": "Hỏi AI một câu. [[Ngay bây giờ.]]",
+      "lede": "Đưa camera vào mã. Bấm Start. Một bản demo Cluega thật sẽ trả lời bạn ngay trong khung chat: không đăng ký, không cài đặt, không tải gì cả.",
+      "steps": [
+        "Quét mã",
+        "Bấm Start",
+        "Hỏi bất cứ điều gì"
+      ],
+      "openBot": "Mở trong Telegram",
+      "qrAlt": "Mã QR mở bot demo Cluega AI trên Telegram",
+      "qrCaption": "Cùng một mã với tấm thẻ ở gian hàng.",
+      "showQr": "Hiện mã cho máy khác quét",
+      "hideQr": "Ẩn mã",
+      "disclaimer": "Đây là workspace demo dùng chung. Đừng dán vào đó thứ bạn không tiện nói to giữa hội trường."
+    },
+    "errorAlreadyRegistered": "Email này đã đăng ký với Cluega. Ghé Booth F548, hoặc gửi thư tới sales@cluega.com để chúng tôi tiếp tục từ chỗ đang dở.",
+    "errorValidation": "Một vài câu trả lời chưa được chấp nhận. Kiểm tra lại các ô phía trên rồi thử lại."
+  }
+}

@@ -1,0 +1,284 @@
+@layer components {
+  /* App-wide surfaces. Prefer these over hard-coded bg/text color pairs. */
+  .app-shell {
+    @apply h-dvh w-full overflow-hidden bg-white text-foreground;
+  }
+
+  .app-layout {
+    @apply flex size-full bg-background font-semibold text-foreground;
+  }
+
+  .page-surface {
+    @apply bg-background text-foreground;
+  }
+
+  /* The canvas board's panel.
+   *
+   * Every full-height surface on the chat pages is one of these — the
+   * conversation itself, the file preview, the generation canvas, the live
+   * dashboard. Flat and edge to edge since 2026-09-24: the main area covers the
+   * screen instead of standing framed on a grey ground, and a side panel
+   * beside it is set off by one hairline on its leading edge (the panels carry
+   * that `border-s` themselves), not by a card of its own.
+   */
+  .canvas-panel {
+    @apply min-h-0 overflow-hidden bg-pulse-panel;
+  }
+
+  /*
+   * The panel toggles — the sidebar's collapse key and the chat header's drawer
+   * key — to the toggle redline.
+   *
+   * One class because the redline's whole point is that they are one control in
+   * two places: 30x30 of hit area (the old 15px icon was a third of the 44px
+   * touch minimum), a 15px glyph, and the same hover, pressed and focus in both.
+   * Which glyph and whether it rests filled is the only thing each may decide:
+   * the divider in the glyph mirrors the side that control opens, and shipping
+   * the same glyph on both is the thing the redline calls out by name.
+   */
+  .panel-toggle-key {
+    @apply flex size-[30px] shrink-0 items-center justify-center rounded-[7px] text-pulse-ink transition-colors;
+    @apply hover:bg-[#F4F4F5] active:bg-[#E9E9EB];
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB] focus-visible:ring-offset-2;
+  }
+
+  .dark .panel-toggle-key {
+    @apply text-foreground hover:bg-muted active:bg-muted/80;
+  }
+
+  /* The drawer key and the sidebar's EXPAND key rest filled (2026-09-25); the
+   * rail's own key, inside the open rail, rests bare. */
+  .panel-toggle-key-filled {
+    @apply bg-[#F4F4F5];
+  }
+
+  .dark .panel-toggle-key-filled {
+    @apply bg-muted;
+  }
+
+  /* The row a set of canvas panels stands on — no ground, no gutters. */
+  .canvas-row {
+    @apply bg-pulse-panel;
+  }
+
+  /* …except inside a TASK (2026-09-24: "đang trong task thì có khung viền như
+   * cũ"). There the panels stand on the grey ground again, 10px apart and 10px
+   * in, each with its 14px radius and hairline — the board it was. Only the
+   * home landing stays flat. The side panels draw their own cards (they only
+   * ever open inside a task), so this rule has only the conversation to frame. */
+  .canvas-row-framed {
+    @apply gap-[10px] bg-pulse-canvas p-[10px];
+  }
+
+  .canvas-row-framed .canvas-panel {
+    @apply rounded-[14px] border border-pulse-panel-border;
+  }
+
+  /* Typography tokens. Use these for reusable text styles like className="header-1". */
+  .header-1 {
+    @apply text-[30px] font-semibold leading-[1.1] tracking-tight text-foreground;
+  }
+
+  .header-2 {
+    @apply text-3xl font-bold text-foreground;
+  }
+
+  .body-1 {
+    @apply text-[14px] font-semibold text-muted-foreground;
+  }
+
+  .body-2 {
+    @apply text-sm font-semibold leading-6 text-muted-foreground;
+  }
+
+  .nav-section-label {
+    @apply text-[11px] font-bold tracking-wide text-muted-foreground;
+  }
+
+  /* Sidebar tokens. Keep layout-only utilities in components, keep repeated style here. */
+  .sidebar-shell {
+    @apply flex h-dvh shrink-0 flex-col overflow-hidden border-r border-sidebar-border border-neutral-200/70 bg-neutral-50/60 transition-[width] duration-200 ease-out;
+  }
+
+  /* 768px and below the rail is a layer over the page, not a column beside it
+     (AppSidebarLayer owns the positioning). Its width stops being the drag
+     width the reader picked on a desktop — that one is an inline style, which
+     is why this has to shout — and becomes what a phone can spare.
+
+     Only inside the drawer slot, which is now every view at this width — the
+     same class dresses both rails, and neither is a column on a phone any
+     more. The attribute is still what selects it, so a surface that opts out of
+     the drawer keeps its column without this rule reaching in. */
+  @media (max-width: 768px) {
+    [data-sidebar-layer="drawer"] .sidebar-shell {
+      width: min(84vw, 300px) !important;
+      max-width: min(84vw, 300px) !important;
+      box-shadow: 0 10px 40px rgb(0 0 0 / 0.18);
+    }
+  }
+
+  .sidebar-body {
+    @apply flex min-h-0 flex-1 flex-col overflow-hidden;
+  }
+
+  .sidebar-nav-block {
+    @apply shrink-0;
+  }
+
+  .sidebar-nav-scroll {
+    @apply shrink-0 overflow-x-hidden overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+  }
+
+  .sidebar-pinned {
+    @apply relative flex min-h-0 flex-1 flex-col border-t border-neutral-200/60 bg-neutral-50/60 pt-0;
+  }
+
+  /* Colour, width and the shown-while-scrolling rule belong to every
+     scrollbar, in apps/app/app/globals.css (asked for, 2026-10-06). The scroll
+     classes here keep only what is theirs: the box, a stable gutter, the fade,
+     and a thumb that does not shrink to a speck. */
+  .sidebar-pinned-scroll {
+    @apply min-h-0 flex-1 overflow-x-hidden overflow-y-auto;
+    scrollbar-gutter: stable;
+    transition: scrollbar-color 160ms ease;
+  }
+
+  .sidebar-pinned-scroll::-webkit-scrollbar-thumb,
+  .panel-thin-scroll::-webkit-scrollbar-thumb {
+    min-height: 40px;
+  }
+
+  /* The sideways twin of `.sidebar-pinned-scroll`, for a row that scrolls
+     horizontally (the model-selection provider pills). */
+  .sidebar-pinned-scroll-x {
+    @apply min-w-0 shrink-0 overflow-x-auto overflow-y-hidden;
+    scrollbar-gutter: stable;
+    transition: scrollbar-color 160ms ease;
+  }
+
+  .sidebar-pinned-scroll-x::-webkit-scrollbar-thumb {
+    min-width: 40px;
+  }
+
+  .sidebar-sessions {
+    @apply pl-3 pb-2;
+  }
+
+  .sidebar-item {
+    @apply flex h-auto! min-h-9 w-full items-center justify-start! gap-2.5 whitespace-normal rounded-lg! border border-transparent px-2.5! py-1.5! text-[13px] font-bold text-sidebar-foreground/80 transition-colors hover:bg-[#F5F5F5]! dark:hover:bg-sidebar-accent!;
+  }
+
+  /* The selected row does not react to the pointer: hovered, it keeps its own
+     #e5e5e5 (asked for, 2026-10-06). Stated HERE, after `.sidebar-item` in the
+     same layer: an !important in this layer beats the row's
+     `hover:bg-[#e5e5e5]!` utility, so `.sidebar-item`'s #F5F5F5 — and before
+     that a beige --sidebar-accent — used to win. */
+  .sidebar-item-active {
+    @apply text-sidebar-foreground hover:bg-[#e5e5e5]! dark:hover:bg-sidebar-accent!;
+  }
+
+  .sidebar-icon {
+    @apply size-[18px] text-sidebar-foreground/75;
+  }
+
+  .sidebar-sub-icon {
+    @apply size-3.5 text-sidebar-foreground/60;
+  }
+
+  .icon-muted {
+    @apply text-muted-foreground;
+  }
+
+  .icon-button-muted {
+    @apply justify-center rounded text-muted-foreground hover:bg-muted;
+  }
+
+  .icon-button-ghost {
+    @apply justify-center text-muted-foreground transition-colors hover:bg-muted hover:text-foreground;
+  }
+
+  .badge-new {
+    @apply rounded bg-blue-50 px-1.5 py-0.5 font-semibold text-[10px] text-blue-600 dark:bg-blue-500/15 dark:text-blue-300;
+  }
+
+  /* Composer and chat tokens. */
+  /* The shell's stroke is one left-to-right gradient, orange through green to
+   * blue. `border-image` cannot paint it: that property ignores
+   * `border-radius`, so the stroke would square off the shell's 16px corners.
+   * Two stacked backgrounds are the way round it — the first layer fills the
+   * padding box with the surface colour, the second fills the border box with
+   * the gradient, and a transparent border leaves the gradient visible in just
+   * the 1px ring between them. Order matters: the surface layer must come
+   * first so it paints over the gradient everywhere except that ring. */
+  .composer-shell {
+    @apply relative mx-auto min-h-0 w-full max-w-[776px] rounded-[14px] border border-[#E4E4E7] bg-white shadow-[0_1px_2px_rgba(0,0,0,0.03)] transition-colors dark:border-border dark:bg-card dark:shadow-[0_18px_60px_-28px_rgba(0,0,0,0.9)];
+    font-family:
+      var(--font-inter), Inter, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  /* The gradient ring, kept for the surfaces that still want it.
+   *
+   * `.composer-shell` NO LONGER wears it: chat, design and the focused tool
+   * shells all draw the design file's plain #E5E5E5 hairline now, so the ring
+   * would have been the one thing telling them apart. Pulse's composer applies
+   * `.composer-gradient-ring` beside its own radius and padding and is the only
+   * caller left — one gradient, one definition, one shell. */
+  .composer-gradient-ring {
+    border: 1px solid transparent;
+    background-image:
+      linear-gradient(
+        var(--composer-shell-surface, #fff),
+        var(--composer-shell-surface, #fff)
+      ),
+      linear-gradient(90deg, #e9912a 0%, #82e42f 45%, #0e89f9 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+
+  /* Only the surface layer follows the theme; the gradient ring is the same in
+   * both, which is what the design shows. */
+  .dark .composer-gradient-ring {
+    --composer-shell-surface: var(--card);
+  }
+
+  /* The account table's checkbox (App Authorization › Manage account board):
+   * 16px at radius 4 on a #D6D6D6 edge; checked, #2E90FA with a white tick.
+   * Drawn rather than left native, because a native box takes neither the
+   * board's edge colour nor its radius. */
+  .account-checkbox {
+    @apply size-4 shrink-0 cursor-pointer appearance-none rounded-[4px] border border-[#D6D6D6] bg-white align-middle transition-colors disabled:cursor-not-allowed disabled:opacity-50 dark:border-border dark:bg-background;
+  }
+  .account-checkbox:checked {
+    border-color: #2e90fa;
+    background: #2e90fa url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 8.5l3 3 6-7'/%3E%3C/svg%3E") center / 16px no-repeat;
+  }
+  .account-checkbox:focus-visible {
+    @apply outline-none ring-2 ring-[#2E90FA]/40 ring-offset-1;
+  }
+
+  .composer-input {
+    @apply block max-h-[200px] w-full resize-none overflow-y-auto bg-transparent text-[15px] font-normal leading-relaxed text-foreground outline-none placeholder:text-ink-tertiary;
+  }
+
+  /* Shown while scrolling, as every scrollbar is (see `.sidebar-pinned-scroll`). */
+  .conversation-scroll-area {
+    scrollbar-gutter: stable;
+    transition: scrollbar-color 160ms ease;
+  }
+
+  .conversation-scroll-area::-webkit-scrollbar-thumb {
+    min-height: 48px;
+  }
+
+  /* Pulse alert rows need their active background to reach the column edge. */
+  .pulse-inbox-alert-list {
+    scrollbar-gutter: auto;
+    scrollbar-width: none;
+  }
+
+  .pulse-inbox-alert-list::-webkit-scrollbar {
+    display: none;
+  }
+
+}

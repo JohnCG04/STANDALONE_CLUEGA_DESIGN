@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "chartTitle": "分時監控廣告組報表",
+    "selectedCountLabel": "勾選廣告數",
+    "editCardTitlePrefix": "編輯 ",
+    "saveSuccess": "保存成功",
+    "stat": {
+      "adgroupReportSummary": {
+        "title": "廣告組消耗金額",
+        "subLabel": "總轉化數量",
+        "footerLabel": "報表平均轉化成本"
+      },
+      "accountTotalSpend": {
+        "title": "帳戶消耗金額",
+        "subLabel": "本月消耗金額",
+        "footerLabel": "昨日消耗金額"
+      },
+      "formSubmitTotal": {
+        "title": "提交表單數量",
+        "subLabel": "預估準確",
+        "footerLabel": "平均 EPC"
+      },
+      "reportAverageConversionRate": {
+        "title": "帳戶平均轉化率",
+        "subLabel": "預估 ROI",
+        "footerLabel": "昨日轉化率"
+      }
+    },
+    "modal": {
+      "defaultDialogTitle": "自定義摘要卡片",
+      "dialogDescription": "編輯摘要卡片的名稱、格式、說明和公式。",
+      "save": "保存",
+      "cancel": "取消",
+      "confirm": "確定",
+      "addMetric": "添加指標",
+      "formulaPlaceholder": "請選擇指標並組合公式",
+      "removeMetricA11y": "移除此項",
+      "formatPlaceholder": "選擇格式",
+      "formatNumber": "數字",
+      "formatPercent": "百分比",
+      "formatCurrency": "金額",
+      "tabMainTitle": "主標題",
+      "tabSubtitle": "副標題",
+      "tabFooter": "底部",
+      "name": "名稱",
+      "namePlaceholder": "請輸入名稱",
+      "format": "格式",
+      "descriptionOptional": "說明",
+      "descriptionPlaceholder": "請輸入補充說明",
+      "formula": "公式",
+      "metricPicker": {
+        "searchPlaceholder": "搜索指標",
+        "noMatch": "沒有匹配的指標"
+      }
+    }
+  }
+}

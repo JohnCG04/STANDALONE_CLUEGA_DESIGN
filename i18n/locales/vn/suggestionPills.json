@@ -1,0 +1,1680 @@
+{
+  "pills": {
+    "ads": "Chạy quảng cáo",
+    "adVideo": "Video",
+    "design": "Hình ảnh",
+    "chatMode": "Chế độ",
+    "more": "Thêm",
+    "marketInsights": "Thông tin thị trường",
+    "managedTasks": "Tác vụ được quản lý",
+    "imChat": "Chat IM",
+    "faceDetect": "Nhận diện khuôn mặt",
+    "faceSwap": "Hoán đổi khuôn mặt",
+    "ecommerce": "Vận hành thương mại điện tử",
+    "playbook": "Playbook",
+    "mediaAuto": "Media"
+  },
+  "toolNames": {
+    "creative": "Thiết kế"
+  },
+  "imageTool": {
+    "close": "Đóng",
+    "modeGroupLabel": "Loại nội dung"
+  },
+  "creative": {
+    "tabs": {
+      "agent": "Trợ lý AI"
+    },
+    "referenceLabel": "Tham chiếu",
+    "referenceUsage": "Chỉ lấy phong cách / nhịp",
+    "referenceCoverOnly": "Chỉ có ảnh bìa — nhịp phim là suy đoán",
+    "referenceUnusedByMethod": "Cách tạo này không dùng",
+    "link": {
+      "resolving": "Đang đọc liên kết…",
+      "unreadable": "Không đọc được liên kết này — vẫn tạo mà không dùng nó",
+      "blocked": "Trang này chặn không cho đọc — vẫn tạo mà không dùng nó",
+      "down": "Trang này không phản hồi — vẫn tạo mà không dùng nó",
+      "photos": "{count} ảnh",
+      "retry": "Thử lại",
+      "removeLink": "Bỏ liên kết này",
+      "deselectPhoto": "Không dùng ảnh này",
+      "selectPhoto": "Dùng ảnh này"
+    },
+    "triState": {
+      "auto": "AI quyết định",
+      "on": "Có",
+      "off": "Không"
+    },
+    "languages": {
+      "en": "Tiếng Anh",
+      "vi": "Tiếng Việt",
+      "zh": "Tiếng Trung"
+    },
+    "agent": {
+      "title": "Tuỳ chọn đầu ra",
+      "videoGroup": "Khi lượt này ra video",
+      "imageGroup": "Khi lượt này ra ảnh",
+      "music": "Nhạc",
+      "voiceover": "Lồng tiếng",
+      "language": "Ngôn ngữ",
+      "duration": "Độ dài",
+      "durationHint": "Tổng độ dài giao ra. Dài hơn một cú máy sẽ được lên phân cảnh rồi ghép lại. Để trống thì độ dài bạn viết trong câu lệnh sẽ được dùng.",
+      "videoCount": "Số lượng video",
+      "videoCountHint": "Mặc định là 2. Khi bạn chưa chọn ô nào, số lượng bạn gõ trong câu lệnh sẽ được dùng.",
+      "videoUnit": "video",
+      "videoUnitOne": "video"
+    },
+    "audio": {
+      "title": "Âm thanh"
+    },
+    "brand": {
+      "title": "Thương hiệu",
+      "none": "Chưa có Brand Kit",
+      "off": "Bỏ qua thương hiệu",
+      "setUp": "Khai báo Brand Kit →",
+      "hint": "Logo và các dòng bắt buộc được ghép lên ảnh, không do model vẽ.",
+      "emptyHint": "Hiện chưa có gì ràng buộc ảnh theo thương hiệu của bạn. Brand Kit khoá logo, mã màu chính xác và các dòng bắt buộc."
+    },
+    "style": {
+      "title": "Phong cách",
+      "auto": "Không dùng",
+      "groupIgaming": "iGaming",
+      "groupGeneral": "Chung"
+    },
+    "image": {
+      "title": "Tuỳ chọn ảnh",
+      "imageCount": "Số lượng ảnh",
+      "imageCountHint": "Tạo song song — chọn ảnh bạn ưng ý",
+      "imageUnit": "ảnh"
+    },
+    "video": {
+      "methodLabel": "Phương thức tạo",
+      "durationLabel": "Thời lượng",
+      "durationSuffix": "giây",
+      "methods": {
+        "reference": {
+          "title": "Tham chiếu video",
+          "description": "Tải lên nhiều hình ảnh, chúng tôi sẽ đưa sản phẩm, nhân vật và bối cảnh trong ảnh vào video."
+        },
+        "imageToVideo": {
+          "title": "Ảnh thành video",
+          "description": "Thêm hiệu ứng chuyển động cho hình ảnh. Hình ảnh của bạn sẽ là khung hình đầu tiên của video."
+        },
+        "textToVideo": {
+          "title": "Văn bản thành video",
+          "description": "Tạo đoạn video từ đầu bằng văn bản."
+        },
+        "videoToVideo": {
+          "title": "Video thành video",
+          "description": "Giữ nguyên thước phim của video tham chiếu và chỉ đổi phong cách. Khác với “Tham chiếu video”, cách này dùng lại chính hình ảnh trong video gốc."
+        }
+      },
+      "durationModelHint": "Mô hình này tạo {list} trong một cảnh",
+      "durationUnknownHint": "Chưa biết thời lượng một cảnh của mô hình này; thời lượng dài hơn luôn được ghép từ nhiều cảnh",
+      "durationSingleShotLabel": "Một cảnh",
+      "durationStitchedLabel": "Ghép nhiều cảnh",
+      "durationStitchedHint": "Thời lượng dài hơn sẽ được chia thành nhiều cảnh rồi ghép thành một video (tối đa {max})",
+      "durationStitchedTooltip": "{seconds}: quay nhiều cảnh rồi ghép thành một video",
+      "editUnsupportedHint": "{model} không sửa được video có sẵn — model này không nhận video nguồn. Model dùng được: {models}.",
+      "editUnknownModels": "Runway Aleph 2, Seedance 2.0",
+      "durationAdjusted": "Đã đổi thành {to} — mô hình này không tạo {from}",
+      "aspectRatioLabel": "Tỉ lệ khung",
+      "aspectRatioModelHint": "Model này dựng được: {list}",
+      "aspectRatioUnknownHint": "Model chưa cho biết nó dựng được tỉ lệ nào.",
+      "aspectRatioAdjusted": "Đã đổi sang {to}: model này không dựng được {from}.",
+      "aspectRatioAuto": "Tự động"
+    },
+    "addContent": {
+      "trigger": "Thêm nội dung",
+      "comingSoon": "Sắp ra mắt",
+      "groups": {
+        "product": "Sản phẩm",
+        "trend": "Xu hướng",
+        "avatar": "Đại diện",
+        "audio": "Âm thanh",
+        "media": "Phương tiện",
+        "styleReference": "Tham chiếu phong cách",
+        "template": "Mẫu",
+        "settings": "Cài đặt"
+      },
+      "items": {
+        "uploadImages": "Tải ảnh lên",
+        "uploadMedia": "Tải ảnh hoặc video lên",
+        "assetLibrary": "Chọn từ thư viện tài sản",
+        "chooseTrend": "Chọn xu hướng",
+        "uploadVideo": "Tải video lên",
+        "avatarLibrary": "Chọn từ thư viện avatar",
+        "uploadAudio": "Tải audio tham chiếu",
+        "chooseStyleReference": "Mượn phong cách một quảng cáo",
+        "chooseTemplate": "Chọn mẫu"
+      },
+      "hint": {
+        "title": "Tải ảnh lên",
+        "limitPrefix": "Tải lên tối đa",
+        "limitSuffix": "ảnh",
+        "sampleLabel": "Ảnh",
+        "doLabel": "Nên",
+        "do": "Ảnh sản phẩm đầy đủ, nhiều góc độ, bối cảnh sử dụng thực tế.",
+        "avoidLabel": "Tránh",
+        "avoid": "Khuôn mặt người, nền lộn xộn, chữ khuyến mãi dày đặc.",
+        "formats": "JPG / PNG / WEBP — mỗi ảnh ≤ 10MB"
+      },
+      "errors": {
+        "format": "Chỉ chấp nhận ảnh JPG / PNG / WEBP.",
+        "count": "Bạn chỉ có thể đính kèm tối đa {max} ảnh.",
+        "tooLong": "Video tham chiếu quá dài — hãy chọn clip ngắn hơn 2 phút."
+      },
+      "methodDisallowed": "Cách tạo video đang chọn không dùng loại tài nguyên này.",
+      "noBudget": "Tab này không nhận loại tài nguyên đó.",
+      "storyboardReference": "Kịch bản phân cảnh",
+      "a11y": {
+        "removeImage": "Xoá ảnh",
+        "addImage": "Thêm ảnh",
+        "removeVideo": "Xoá video tham chiếu",
+        "removeAudio": "Xoá audio tham chiếu",
+        "removeStoryboardReference": "Bỏ tham chiếu kịch bản phân cảnh"
+      }
+    },
+    "samplePrompts": {
+      "a11y": {
+        "shuffle": "Xem các ví dụ khác",
+        "close": "Ẩn ví dụ",
+        "more": "Thêm gợi ý prompt",
+        "prevPage": "Trang trước",
+        "nextPage": "Trang sau",
+        "pageOf": "Trang {page} / {count}"
+      },
+      "title": "Gợi ý câu lệnh",
+      "refresh": "Làm mới",
+      "videoPreview": "Xem trước video mẫu",
+      "previewCaption": "Kết quả mẫu · Video",
+      "kind": {
+        "video": "Video",
+        "image": "Hình ảnh",
+        "avatar": "Avatar"
+      },
+      "exampleTag": "Mẫu",
+      "forYou": "Dành cho bạn",
+      "use": "Dùng",
+      "mock": {
+        "industries": {
+          "electronics": "Điện tử",
+          "beauty": "Làm đẹp",
+          "fashion": "Thời trang",
+          "food": "Đồ ăn & thức uống",
+          "gaming": "Game"
+        },
+        "scenes": {
+          "demo": "Demo sản phẩm",
+          "talkingHead": "Người thật nói",
+          "lookbook": "Lookbook",
+          "unboxing": "Đập hộp",
+          "gameplay": "Gameplay"
+        },
+        "ratios": {
+          "vertical": "9:16 dọc",
+          "portrait": "4:5 dọc",
+          "horizontal": "16:9 ngang"
+        },
+        "stats": "{shots} cảnh · tổng {seconds}s · {ratio}",
+        "prompts": {
+          "electronicsDemo": "Tạo video demo {product} với giọng {tone} cho {audience}, mở đầu bằng {selling_point} và cho thấy sản phẩm khi dùng thật.",
+          "beautyTalkingHead": "Một creator nói với {audience} về {product}, giải thích {selling_point} bằng giọng {tone}, kèm cận cảnh chất sản phẩm.",
+          "beautyDemo": "Quay {product} được dùng từng bước, làm nổi bật {selling_point} dưới ánh sáng {tone}, dành cho {audience}.",
+          "fashionLookbook": "Lookbook {season} cho {product}: ba bộ trang phục, cắt cảnh nhanh, phối cho {audience}.",
+          "foodUnboxing": "Đập hộp {product} trước ống kính, nếm thử và nhấn mạnh vị {flavor}, dành cho {audience}.",
+          "gamingGameplay": "Mở đầu bằng {hook}, sau đó 30 giây gameplay {game} kèm chú thích trên màn hình, dành cho {audience}."
+        }
+      }
+    },
+    "modelMenu": {
+      "quality": "Chất lượng",
+      "qualities": {
+        "high": { "title": "Cao", "description": "Chất lượng tốt nhất, render chậm hơn" },
+        "standard": { "title": "Tiêu chuẩn", "description": "Cân bằng giữa chất lượng và tốc độ" },
+        "fast": { "title": "Nhanh", "description": "Bản nháp nhanh để thử nghiệm" }
+      },
+      "videoOptions": "Tuỳ chọn video",
+      "imageOptions": "Tuỳ chọn ảnh",
+      "mode": "Chế độ",
+      "aspectRatioHint": "Model này hỗ trợ: {list}",
+      "moreModels": "Model khác",
+      "comingSoon": "Sắp ra mắt",
+      "outputFormat": "Định dạng xuất",
+      "background": "Nền",
+      "backgroundOriginal": "Gốc",
+      "backgroundTransparent": "Trong suốt",
+      "tiers": {
+        "base": {
+          "name": "Base",
+          "description": "Bản nháp nhanh và biến thể A/B"
+        },
+        "max": {
+          "name": "Max",
+          "description": "Chất lượng cao nhất, hợp cho quảng cáo hoàn chỉnh"
+        },
+        "gptImage": {
+          "name": "GPT Image 2.5",
+          "description": "Chữ trong ảnh, biểu đồ và bố cục"
+        },
+        "nanoBananaPro": {
+          "name": "Nano Banana Pro",
+          "description": "Ảnh sản phẩm chân thực và chỉnh sửa"
+        }
+      },
+      "resolution": "Độ phân giải",
+      "referenceImage": "Ảnh tham chiếu",
+      "none": "Không có"
+    }
+  },
+  "adPlatform": {
+    "hoverCard": {
+      "description": "Tạo và triển khai chiến dịch quảng cáo trên các nền tảng bạn đã cấp quyền - chọn nền tảng, chọn mục tiêu, rồi xác nhận kế hoạch trước khi chạy.",
+      "provenance": "Chạy qua MCP gateway của từng nền tảng • Không đăng gì trước khi bạn xác nhận • Xoá bằng ✕ hoặc Backspace"
+    },
+    "steps": {
+      "label": "Bước {n} / {total}"
+    },
+    "panels": {
+      "selectPlatform": "Chọn nền tảng quảng cáo của bạn",
+      "selectGoal": "Bạn muốn tạo gì?",
+      "selectObjective": "Chọn mục tiêu của bạn",
+      "leadModalTitle": "Chọn loại thu thập khách hàng tiềm năng",
+      "selectVariant": "Chọn cách triển khai",
+      "selectPromotionType": "Chọn mục tiêu quảng cáo",
+      "selectSubType": "Chọn loại chi tiết",
+      "selected": "Đã chọn",
+      "promptIdeas": "Gợi ý câu lệnh"
+    },
+    "nodeTitles": {
+      "lead-im": "Chọn phương thức nhắn tin",
+      "lead-im-click": "Chọn nền tảng (Nhấp)",
+      "lead-im-conv": "Chọn nền tảng (Hội thoại)",
+      "ga-web": "Chọn loại chiến dịch từ website"
+    },
+    "nodeLabels": {
+      "meta-awareness": {
+        "label": "Nhận diện thương hiệu",
+        "description": "Tăng phạm vi tiếp cận và khả năng ghi nhớ quảng cáo."
+      },
+      "meta-awareness-reach": {
+        "label": "Tăng số người tiếp cận",
+        "description": "Tối ưu để tiếp cận nhiều người duy nhất hơn."
+      },
+      "meta-awareness-ad-recall-lift": {
+        "label": "Mức độ nhận biết thương hiệu",
+        "description": "Tối ưu khả năng mọi người ghi nhớ quảng cáo."
+      },
+      "meta-traffic": {
+        "label": "Lưu lượng truy cập",
+        "description": "Đưa nhiều người hơn đến website của bạn."
+      },
+      "meta-traffic-link-clicks": {
+        "label": "Lượt nhấp vào liên kết trang web",
+        "description": "Tối ưu số lượt nhấp vào liên kết website."
+      },
+      "meta-traffic-landing-page-views": {
+        "label": "Lượt xem trang đích",
+        "description": "Tối ưu số người tải và xem trang đích."
+      },
+      "meta-video-views": {
+        "label": "Lượt xem video",
+        "description": "Tăng lượt xem video (ThruPlay hoặc xem 2 giây)."
+      },
+      "meta-instagram-profile-visits": {
+        "label": "Lượt truy cập trang cá nhân Instagram",
+        "description": "Tăng lượt truy cập trang cá nhân Instagram đã liên kết."
+      },
+      "meta-messenger-click": {
+        "label": "Nhấp để chuyển đến Messenger/WhatsApp",
+        "description": "Mở cuộc trò chuyện Messenger hoặc WhatsApp khi nhấp vào quảng cáo."
+      },
+      "meta-line-zalo-click": {
+        "label": "URL ứng dụng nhắn tin bên ngoài (LINE/Zalo)",
+        "description": "Dẫn nhấp sang cuộc trò chuyện LINE OA hoặc Zalo OA."
+      },
+      "meta-click-to-call": {
+        "label": "Lượt nhấp để gọi điện thoại",
+        "description": "Nút Gọi ngay quay số điện thoại khi nhấp vào quảng cáo."
+      },
+      "meta-engagement": {
+        "label": "Tương tác",
+        "description": "Tăng lượt tương tác với bài viết, Trang hoặc tin nhắn."
+      },
+      "meta-engagement-post": {
+        "label": "Tương tác với bài viết trên mạng xã hội (Thích/Bình luận/Chia sẻ)",
+        "description": "Tối ưu lượt thích, bình luận và chia sẻ bài viết."
+      },
+      "meta-page-likes": {
+        "label": "Lượt thích và theo dõi Trang",
+        "description": "Tăng số người thích và theo dõi Trang Facebook của bạn."
+      },
+      "meta-messaging-engagement": {
+        "label": "Số cuộc trò chuyện qua ứng dụng nhắn tin (Messenger/Instagram/WhatsApp)",
+        "description": "Tối ưu số cuộc trò chuyện được bắt đầu qua Messenger, Instagram hoặc WhatsApp."
+      },
+      "meta-lead-generation": {
+        "label": "Khách hàng tiềm năng",
+        "description": "Thu thập thông tin khách hàng tiềm năng."
+      },
+      "meta-leads-form": {
+        "label": "Biểu mẫu tức thì của Meta",
+        "description": "Thu thập khách hàng tiềm năng qua Instant Form ngay trên Facebook/Instagram."
+      },
+      "meta-leads-website": {
+        "label": "Chuyển đổi khách hàng tiềm năng trên trang đích",
+        "description": "Dẫn người dùng đến trang đích để điền biểu mẫu khách hàng tiềm năng."
+      },
+      "meta-leads-messenger": {
+        "label": "Tự động thu thập khách hàng tiềm năng qua tin nhắn",
+        "description": "Thu thập thông tin khách hàng tiềm năng qua hội thoại Messenger tự động."
+      },
+      "meta-leads-phone-call": {
+        "label": "Cuộc gọi điện thoại",
+        "description": "Khuyến khích khách hàng tiềm năng gọi điện trực tiếp cho bạn."
+      },
+      "meta-app-promotion": {
+        "label": "Ứng dụng",
+        "description": "Thúc đẩy lượt cài đặt và tương tác trong ứng dụng."
+      },
+      "meta-app-install": {
+        "label": "Số lượt cài đặt ứng dụng",
+        "description": "Tăng số lượt cài đặt ứng dụng của bạn."
+      },
+      "meta-app-event-retargeting": {
+        "label": "Tiếp thị lại dựa trên sự kiện trong ứng dụng",
+        "description": "Tái tiếp cận người dùng đã thực hiện sự kiện trong ứng dụng."
+      },
+      "meta-sales": {
+        "label": "Doanh số",
+        "description": "Thúc đẩy doanh số bán hàng trên website hoặc danh mục sản phẩm."
+      },
+      "meta-conversions": {
+        "label": "Chuyển đổi trên trang web (Mua hàng/Thêm vào giỏ hàng)",
+        "description": "Tối ưu chuyển đổi mua hàng hoặc thêm vào giỏ hàng trên website."
+      },
+      "meta-advantage-plus-app": {
+        "label": "Chiến dịch ứng dụng Advantage+",
+        "description": "Chiến dịch cài đặt ứng dụng tự động, để Meta tối ưu đối tượng, vị trí và nội dung quảng cáo."
+      },
+      "meta-advantage-plus-shopping": {
+        "label": "Bán hàng theo danh mục sản phẩm (Quảng cáo động)",
+        "description": "Quảng cáo động tự động hiển thị sản phẩm phù hợp từ danh mục."
+      },
+      "meta-app-sales": {
+        "label": "Doanh số ứng dụng",
+        "description": "Thúc đẩy doanh thu mua hàng hoặc đăng ký (subscription) trong ứng dụng."
+      },
+      "reach": {
+        "label": "Tiếp cận",
+        "description": "Tiếp cận nhiều người dùng khác nhau nhất có thể"
+      },
+      "traffic": {
+        "label": "Lưu lượng",
+        "description": "Đưa thêm người đến trang đích"
+      },
+      "video-views": {
+        "label": "Lượt xem video",
+        "description": "Tăng lượt xem từ những người có khả năng xem"
+      },
+      "community-interaction": {
+        "label": "Tương tác cộng đồng"
+      },
+      "app-promotion": {
+        "label": "Quảng bá ứng dụng"
+      },
+      "lead-generation": {
+        "label": "Khách hàng tiềm năng",
+        "description": "Thu thập khách hàng tiềm năng bằng biểu mẫu tức thì"
+      },
+      "sales": {
+        "label": "Doanh số",
+        "description": "Thúc đẩy chuyển đổi và doanh số danh mục sản phẩm"
+      },
+      "traffic-smartplus": {
+        "label": "Chiến dịch Smart+",
+        "description": "Chuỗi traffic Smart+ tự động."
+      },
+      "traffic-search": {
+        "label": "Chiến dịch Tìm kiếm",
+        "description": "Đưa lưu lượng qua vị trí Tìm kiếm TikTok."
+      },
+      "app-install": {
+        "label": "Cài đặt ứng dụng",
+        "description": "Thúc đẩy cài đặt ứng dụng mới."
+      },
+      "app-retargeting": {
+        "label": "Tiếp thị lại ứng dụng",
+        "description": "Tiếp thị lại người dùng với sự kiện trong app."
+      },
+      "lead-landing": {
+        "label": "Trang đích",
+        "description": "Thu lead trên trang đích."
+      },
+      "lead-instant-form": {
+        "label": "Biểu mẫu tức thì TikTok",
+        "description": "Biểu mẫu tức thì gốc của TikTok."
+      },
+      "lead-dm": {
+        "label": "Tin nhắn TikTok",
+        "description": "Thu lead qua tin nhắn trực tiếp TikTok."
+      },
+      "lead-phone": {
+        "label": "Cuộc gọi điện thoại",
+        "description": "Nhấn để gọi hotline bán hàng."
+      },
+      "lead-im": {
+        "label": "Ứng dụng nhắn tin"
+      },
+      "lead-im-click": {
+        "label": "Nhấp",
+        "description": "Đưa lưu lượng tới ứng dụng nhắn tin."
+      },
+      "lead-im-conv": {
+        "label": "Hội thoại",
+        "description": "Tối ưu số cuộc hội thoại bắt đầu."
+      },
+      "lead-im-click-messenger": {
+        "label": "Messenger",
+        "description": "Mở cuộc trò chuyện Messenger khi nhấp."
+      },
+      "lead-im-click-whatsapp": {
+        "label": "WhatsApp",
+        "description": "Mở cuộc trò chuyện WhatsApp khi nhấp."
+      },
+      "lead-im-click-zalo": {
+        "label": "Zalo",
+        "description": "Mở cuộc trò chuyện Zalo khi nhấp."
+      },
+      "lead-im-click-line": {
+        "label": "LINE",
+        "description": "Mở cuộc trò chuyện LINE khi nhấp."
+      },
+      "lead-im-click-url": {
+        "label": "Messaging URL",
+        "description": "Mở ứng dụng nhắn tin qua URL khi nhấp."
+      },
+      "lead-im-conv-messenger": {
+        "label": "Messenger",
+        "description": "Tối ưu hội thoại trên Messenger."
+      },
+      "lead-im-conv-whatsapp": {
+        "label": "WhatsApp",
+        "description": "Tối ưu hội thoại trên WhatsApp."
+      },
+      "lead-im-conv-zalo": {
+        "label": "Zalo",
+        "description": "Tối ưu hội thoại trên Zalo."
+      },
+      "sales-tiktok-shop": {
+        "label": "TikTok Shop",
+        "description": "Thúc đẩy đặt hàng trong TikTok Shop."
+      },
+      "sales-website": {
+        "label": "Website",
+        "description": "Thúc đẩy chuyển đổi mua hàng trên website."
+      },
+      "sales-app": {
+        "label": "Ứng dụng",
+        "description": "Thúc đẩy sự kiện mua hàng trong app."
+      },
+      "ga-keyword": {
+        "label": "Từ khoá",
+        "description": "Hiện trên Google tìm kiếm theo từ khoá bạn chọn."
+      },
+      "ga-web": {
+        "label": "Web",
+        "description": "Bạn có website và hình ảnh."
+      },
+      "ga-video": {
+        "label": "Video YouTube",
+        "description": "Bạn có link video YouTube."
+      },
+      "ga-app": {
+        "label": "App",
+        "description": "Tăng lượt cài đặt ứng dụng của bạn."
+      },
+      "ga-leads": {
+        "label": "Khách hàng tiềm năng",
+        "description": "Thu thông tin khách ngay trong quảng cáo tìm kiếm."
+      },
+      "ga-shopping": {
+        "label": "Sản phẩm (Shopping)",
+        "description": "Bạn có feed sản phẩm trên Merchant Center."
+      },
+      "ga-web-pmax": {
+        "label": "Performance Max",
+        "description": "Google tự phân phối trên mọi kênh."
+      },
+      "ga-web-display": {
+        "label": "Display",
+        "description": "Quảng cáo banner trên website và app đối tác."
+      },
+      "ga-web-demandgen": {
+        "label": "Demand Gen",
+        "description": "Quảng cáo hình ảnh trên feed YouTube, Gmail, Discover."
+      },
+      "ga-web-sales": {
+        "label": "Sales / Chuyển đổi website",
+        "description": "Quảng cáo tìm kiếm tối ưu cho đơn hàng và đăng ký trên website."
+      },
+      "openai-views": {
+        "label": "Lượt xem (CPM)",
+        "description": "Hiển thị quảng cáo cho nhiều người nhất trên ChatGPT, tính phí theo 1.000 lượt hiển thị."
+      },
+      "openai-clicks": {
+        "label": "Lượt nhấp (CPC)",
+        "description": "Đưa người dùng từ ChatGPT tới website của bạn, tính phí theo lượt nhấp."
+      },
+      "openai-conversions": {
+        "label": "Chuyển đổi",
+        "description": "Tăng hành động trên website, tối ưu cho một sự kiện chuyển đổi, tính phí theo lượt nhấp."
+      },
+      "openai-product-feed": {
+        "label": "Feed sản phẩm",
+        "description": "Hiển thị sản phẩm từ feed sản phẩm của bạn trên ChatGPT."
+      },
+      "openai-views-standard": {
+        "label": "Chiến dịch tiêu chuẩn",
+        "description": "Tạo chiến dịch với nội dung quảng cáo của riêng bạn."
+      },
+      "openai-views-product-feed": {
+        "label": "Nguồn cấp sản phẩm",
+        "description": "Quảng bá sản phẩm từ nguồn cấp danh mục của bạn."
+      },
+      "openai-clicks-standard": {
+        "label": "Chiến dịch tiêu chuẩn",
+        "description": "Tạo chiến dịch với nội dung quảng cáo của riêng bạn."
+      },
+      "openai-clicks-product-feed": {
+        "label": "Nguồn cấp sản phẩm",
+        "description": "Quảng bá sản phẩm từ nguồn cấp danh mục của bạn."
+      },
+      "openai-conversions-standard": {
+        "label": "Chiến dịch tiêu chuẩn",
+        "description": "Tạo chiến dịch với nội dung quảng cáo của riêng bạn."
+      },
+      "openai-conversions-product-feed": {
+        "label": "Nguồn cấp sản phẩm",
+        "description": "Quảng bá sản phẩm từ nguồn cấp danh mục của bạn."
+      }
+    },
+    "metaObjectives": {
+      "awareness": {
+        "label": "Nhận biết thương hiệu",
+        "description": "Tiếp cận người có khả năng nhớ quảng cáo của bạn và xây dựng ấn tượng thương hiệu.",
+        "prompt": "Giúp tôi thiết lập chiến dịch Meta Nhận biết để xây dựng ấn tượng thương hiệu."
+      },
+      "traffic": {
+        "label": "Lưu lượng",
+        "description": "Đưa người dùng đến website, app hoặc hội thoại Messenger.",
+        "prompt": "Giúp tôi tạo quảng cáo Meta Lưu lượng để đưa người dùng đến website của tôi."
+      },
+      "engagement": {
+        "label": "Tương tác",
+        "description": "Tăng tin nhắn, lượt xem video, tương tác bài viết hoặc lượt theo dõi.",
+        "prompt": "Giúp tôi thiết lập chiến dịch Meta Tương tác để tăng tương tác bài viết."
+      },
+      "leads": {
+        "label": "Khách hàng tiềm năng",
+        "description": "Thu thập danh sách và thông tin liên hệ qua form hoặc hội thoại.",
+        "prompt": "Giúp tôi tạo quảng cáo Meta Khách hàng tiềm năng để thu thập email."
+      },
+      "app-promotion": {
+        "label": "Quảng bá ứng dụng",
+        "description": "Thúc đẩy cài đặt app và sự kiện trong app.",
+        "prompt": "Giúp tôi tạo quảng cáo Meta Quảng bá ứng dụng để tăng lượt cài đặt."
+      },
+      "sales": {
+        "label": "Doanh số",
+        "description": "Nhắm người có khả năng mua sản phẩm hoặc dịch vụ của bạn.",
+        "prompt": "Giúp tôi tạo quảng cáo Meta Doanh số để cải thiện chuyển đổi trên website."
+      }
+    },
+    "groups": {
+      "awareness": {
+        "label": "Nhận biết",
+        "description": "Tiếp cận người dễ nhớ quảng cáo nhất, mở rộng độ phủ thương hiệu."
+      },
+      "consideration": {
+        "label": "Cân nhắc",
+        "description": "Tăng lưu lượng và tương tác, nuôi dưỡng ý định cân nhắc."
+      },
+      "conversion": {
+        "label": "Chuyển đổi",
+        "description": "Thúc đẩy đặt hàng, thu lead, cài đặt và hành động chuyển đổi."
+      }
+    },
+    "objectives": {
+      "awareness": {
+        "label": "Nhận biết (Awareness)",
+        "description": "Tiếp cận người dễ ghi nhớ quảng cáo, xây dựng ấn tượng thương hiệu."
+      },
+      "engagement": {
+        "label": "Tương tác (Engagement)",
+        "description": "Tăng tin nhắn, lượt xem video, tương tác bài viết hoặc người theo dõi."
+      },
+      "leads": {
+        "label": "Khách tiềm năng (Leads)",
+        "description": "Thu thập danh sách và thông tin liên hệ qua biểu mẫu hoặc hội thoại."
+      },
+      "sales": {
+        "label": "Doanh số (Sales)",
+        "description": "Nhắm người có khả năng mua, tối ưu chuyển đổi và doanh thu."
+      },
+      "reach": {
+        "label": "Tiếp cận (Reach)",
+        "description": "Tiếp cận đông đảo khán giả TikTok với CPM thấp nhất, tối đa hóa hiển thị thương hiệu."
+      },
+      "traffic": {
+        "label": "Lưu lượng (Traffic)",
+        "description": "Đưa người dùng TikTok đến website, landing page hoặc app.",
+        "prompt": "Giúp tôi tạo quảng cáo TikTok Lưu lượng để đưa người dùng đến website, landing page hoặc app."
+      },
+      "video-views": {
+        "label": "Lượt xem video (Video Views)",
+        "description": "Tối đa hóa lượt xem hết và lượt xem, tăng độ thấm nội dung.",
+        "prompt": "Giúp tôi tạo quảng cáo TikTok Lượt xem video để tối đa hóa lượt xem hết và lượt xem."
+      },
+      "community-interaction": {
+        "label": "Tương tác cộng đồng (Community Interaction)",
+        "description": "Tăng lượt thích, bình luận, chia sẻ và theo dõi tài khoản.",
+        "prompt": "Giúp tôi tạo quảng cáo TikTok Tương tác cộng đồng để tăng thích, bình luận, chia sẻ và theo dõi."
+      },
+      "app-promotion": {
+        "label": "Quảng bá ứng dụng (App Promotion)",
+        "description": "Thúc đẩy cài đặt app và sự kiện chuyển đổi trong app."
+      },
+      "lead-generation": {
+        "label": "Thu thập khách hàng tiềm năng (Lead Generation)",
+        "description": "Thu thập lead bằng TikTok Instant Form."
+      },
+      "tiktok-shop": {
+        "label": "TikTok Shop",
+        "description": "Thúc đẩy đặt hàng trong TikTok Shop, tối ưu GMV."
+      },
+      "website": {
+        "label": "Website",
+        "description": "Đưa lưu lượng đến site độc lập để hoàn tất mua hàng."
+      },
+      "app": {
+        "label": "Ứng dụng (App)",
+        "description": "Thúc đẩy sự kiện mua trong app, tối ưu ROAS."
+      },
+      "website-and-app": {
+        "label": "Website và ứng dụng (Website and App)",
+        "description": "Tối ưu sự kiện mua trên web và app cùng lúc."
+      },
+      "brand-reach-max": {
+        "label": "Tối đa hóa hiển thị thương hiệu",
+        "description": "Tiếp cận đông đảo đối tượng mục tiêu với CPM thấp nhất.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Tối đa hóa hiển thị thương hiệu với CPM thấp nhất."
+      },
+      "ad-recall-boost": {
+        "label": "Tăng độ nhớ quảng cáo",
+        "description": "Xây dựng vị trí tâm trí bằng kiểm soát Reach + Frequency.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Tăng độ nhớ quảng cáo với Reach + Frequency."
+      },
+      "product-launch-wave": {
+        "label": "Sóng hiển thị ra mắt sản phẩm",
+        "description": "Lịch hiển thị có nhịp điệu, đảm bảo tần suất 6+.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Sóng hiển thị ra mắt sản phẩm với tần suất 6+."
+      },
+      "brand-term-defense": {
+        "label": "Bảo vệ từ khóa thương hiệu",
+        "description": "Giữ từ khóa tìm kiếm thương hiệu, tránh đối thủ cướp traffic.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Bảo vệ từ khóa thương hiệu."
+      },
+      "high-engagement-audience": {
+        "label": "Nuôi dưỡng khán giả tương tác cao",
+        "description": "Tăng tương tác bài viết, lượt xem video và độ sâu nội dung.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Nuôi dưỡng khán giả tương tác cao."
+      },
+      "consideration-retargeting": {
+        "label": "Retargeting giai đoạn cân nhắc",
+        "description": "Tiếp cận lại người đã tương tác nhưng chưa chuyển đổi.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Retargeting giai đoạn cân nhắc."
+      },
+      "intent-tag-building": {
+        "label": "Xây dựng nhãn ý định",
+        "description": "Tạo nhãn ý định phân tầng theo hành vi tương tác.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Xây dựng nhãn ý định."
+      },
+      "short-video-strategy": {
+        "label": "Chiến lược gieo hạt video ngắn",
+        "description": "Lên kế hoạch nội dung 15s/30s để nâng ý định khán giả.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Chiến lược video ngắn 15s/30s."
+      },
+      "add-to-cart-boost": {
+        "label": "Kế hoạch tăng thêm giỏ hàng",
+        "description": "Đẩy creative khuyến khích cho người xem chưa thêm giỏ.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Tăng thêm giỏ hàng."
+      },
+      "lead-form-automation": {
+        "label": "Tự động hóa form khách hàng tiềm năng",
+        "description": "Lead Ads kèm chuỗi theo dõi tự động.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Tự động hóa form lead."
+      },
+      "signup-funnel-optimization": {
+        "label": "Tối ưu phễu đăng ký",
+        "description": "Tìm nút thắt phễu đăng ký và tối ưu trang.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Tối ưu phễu đăng ký."
+      },
+      "cart-abandonment-recovery": {
+        "label": "Khôi phục giỏ bỏ dở",
+        "description": "Gửi ưu đãi có hạn và nhắc nhở cho người bỏ thanh toán.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Khôi phục giỏ bỏ dở."
+      },
+      "asc-campaign": {
+        "label": "Thiết lập chiến dịch bán ASC",
+        "description": "Chiến dịch bán Advantage+ Shopping tự động hoàn toàn.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads ASC với Advantage+ Shopping."
+      },
+      "roas-target-bidding": {
+        "label": "Đấu giá theo mục tiêu ROAS",
+        "description": "Tự động đấu giá theo ROAS mục tiêu và điều chỉnh động.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Đấu giá ROAS mục tiêu."
+      },
+      "dynamic-product-retargeting": {
+        "label": "Retargeting sản phẩm động",
+        "description": "DPA hiển thị sản phẩm phù hợp cho người bỏ giỏ.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Retargeting sản phẩm động (DPA)."
+      },
+      "seasonal-sales-sprint": {
+        "label": "Sprint bán theo mùa sự kiện",
+        "description": "Blueprint cho 9.9, 11.11, Black Friday và các đợt lớn.",
+        "prompt": "Giúp tôi tạo chiến dịch Google Ads Sprint bán theo mùa sự kiện."
+      }
+    },
+    "leadTypes": {
+      "tiktok-message-ad": {
+        "label": "TikTok Lead Generation DM",
+        "description": "Người dùng vào DM TikTok sau khi nhấn; lời chào AI mở hội thoại hiệu quả.",
+        "prompt": "Chào, tôi muốn chạy quảng cáo DM TikTok để thu lead."
+      },
+      "tiktok-whatsapp-lead-gen": {
+        "label": "TikTok Lead Gen — WhatsApp",
+        "description": "Thu lead qua WhatsApp CLICK, dẫn người dùng mở chat WhatsApp.",
+        "prompt": "Giúp tôi tạo TikTok lead gen, đích đến WhatsApp. Ngân sách ngày $50. Nhắm Việt Nam, 18–44 tuổi. Số WhatsApp 0938297231, chọn video chuyển đổi cao từ thư viện."
+      },
+      "message-ad": {
+        "label": "Quảng cáo tin nhắn",
+        "description": "Quảng cáo tin nhắn đa nền tảng dẫn đến Messenger, WhatsApp, LINE...",
+        "prompt": "Tôi muốn quảng cáo lead nhưng luồng qua DM—tìm creator hit tài chính và bất động sản Việt Nam có tỷ lệ mở chat cao nhất để nhân bản."
+      },
+      "instant-form": {
+        "label": "Quảng cáo form (Instant Form)",
+        "description": "Form tức thì trong app thu lead mà không cần rời app.",
+        "prompt": "Tôi muốn chạy quảng cáo form TikTok, giúp tôi kết nối."
+      },
+      "phone-ad": {
+        "label": "Quảng cáo gọi điện",
+        "description": "Nhấn để gọi hotline bán hàng—phù hợp dịch vụ giá trị cao.",
+        "prompt": "Tôi muốn chạy quảng cáo form TikTok, giúp tôi kết nối."
+      }
+    },
+    "comingSoon": "Sắp ra mắt",
+    "loading": "Đang tải…",
+    "loadError": "Không tải được mục tiêu quảng cáo.",
+    "retry": "Thử lại",
+    "empty": "Chưa có mục tiêu quảng cáo nào.",
+    "connected": "Đã kết nối",
+    "connect": "Kết nối",
+    "back": "Quay lại",
+    "loadingPromptIdeas": "Đang viết gợi ý prompt…",
+    "noPromptIdeas": "Chưa có gợi ý cho mục tiêu này.",
+    "accountCount": "{count} tài khoản đã kết nối"
+  },
+  "videoAd": {
+    "generateVideo": {
+      "title": "Video",
+      "description": "Tạo video từ mô tả — chọn chế độ, khung hình, thời lượng và nhạc nền.",
+      "getStarted": "Bắt đầu với",
+      "mode": {
+        "label": "Chế độ",
+        "fast": "Nhanh",
+        "quality": "Chất lượng"
+      },
+      "orientation": {
+        "label": "Khung hình",
+        "landscape": "Ngang",
+        "portrait": "Dọc"
+      },
+      "duration": {
+        "label": "Thời lượng",
+        "hint": "Mô hình này tạo {list}",
+        "unknownHint": "Chưa biết thời lượng khả dụng của mô hình này"
+      },
+      "backgroundMusic": "Nhạc nền",
+      "samplePrompts": {
+        "nba-finals": "Tạo video đêm chung kết NBA",
+        "starry-night": "Chuyển bức Đêm đầy sao của Van Gogh thành video ngắn điện ảnh",
+        "dress-explosion": "Thiết kế và trình diễn một chiếc váy trong cảnh nổ",
+        "owl-forest": "Tạo video cuộc phiêu lưu trong rừng của chú cú",
+        "cartographer": "Tạo video về một nhà vẽ bản đồ trong bối cảnh phiêu lưu lịch sử"
+      }
+    },
+    "tryPrompts": {
+      "title": "Thử gợi ý video",
+      "description": "Tích hợp gợi ý quảng cáo bảng tin phổ biến trên TikTok, Meta và Instagram—lấy hướng sáng tạo theo từng nền tảng chỉ với một cú nhấp."
+    },
+    "adLibrary": {
+      "title": "Thư viện quảng cáo",
+      "description": "Seedance 2.0 kết hợp creative quảng cáo TikTok/Meta đang thịnh hành với insight thị trường. Nhân bản mẫu hiệu suất cao, áp dụng nhiều phong cách và xây tài sản marketing đúng thương hiệu nhanh chóng."
+    },
+    "pagination": {
+      "previous": "Trước",
+      "next": "Sau",
+      "page": "{current} / {total}"
+    }
+  },
+  "design": {
+    "hoverCard": {
+      "description": "Tạo ảnh, video và người số từ một bản mô tả, cùng với tư liệu tham chiếu bạn đính kèm.",
+      "provenance": "Cung cấp bởi dịch vụ Cluega Media • Model mặc định Auto • Xoá bằng ✕ hoặc Backspace"
+    },
+    "generate": {
+      "getStarted": "Bắt đầu với",
+      "aspectRatio": {
+        "label": "Tỉ lệ khung hình"
+      },
+      "resolution": {
+        "label": "Độ phân giải"
+      },
+      "overrideHint": "Tỉ lệ và độ phân giải chọn ở đây được gửi kèm job và sẽ ưu tiên hơn mọi tỉ lệ hay kích thước mô tả trong prompt của bạn."
+    },
+    "footer": "Design engine của Cluega tự động đưa dữ liệu sản phẩm và màu thương hiệu vào asset đúng ad specs của từng nền tảng xã hội.",
+    "templates": {
+      "product-concept-packaging": {
+        "title": "Thiết kế concept sản phẩm và bao bì cho Aura Band",
+        "badge": "Concept sản phẩm",
+        "description": "Thiết kế concept vòng tay sức khỏe Aura Band mỏng, không màn hình, cùng bao bì tối giản thân thiện môi trường..."
+      },
+      "ig-luxury-story": {
+        "title": "Thiết kế IG Story thị giác thương hiệu cao cấp",
+        "badge": "IG 9:16",
+        "description": "Thiết kế quảng cáo full-screen 9:16 cho thời trang, làm đẹp hoặc lifestyle, nhấn mạnh không khí cao cấp và khoảng trắng chuyển đổi..."
+      },
+      "tiktok-native-promo": {
+        "title": "Thiết kế creative khuyến mãi native TikTok",
+        "badge": "TikTok 9:16",
+        "description": "Tạo ảnh unboxing hoặc so sánh kiểu UGC cho quảng cáo TikTok 9:16 để giảm cảm giác phòng thủ với quảng cáo..."
+      },
+      "meta-carousel-series": {
+        "title": "Thiết kế bộ ảnh Meta Carousel",
+        "badge": "Meta 1:1",
+        "description": "Thiết kế bộ card sản phẩm 1:1 đồng bộ cho Meta carousel, phù hợp nhiều màu SKU hoặc hiển thị theo từng bước..."
+      },
+      "black-friday-banner": {
+        "title": "Thiết kế banner Black Friday giới hạn thời gian",
+        "badge": "16:9 / 1.91:1",
+        "description": "Thiết kế quảng cáo ngang 16:9 hoặc 1.91:1 cho Meta/Google Display, nhấn mạnh không khí đại tiệc sale và nhiều sản phẩm..."
+      },
+      "before-after-comparison": {
+        "title": "Thiết kế ảnh Before/After so sánh pain point",
+        "badge": "Meta / Pinterest 4:5",
+        "description": "Tạo ảnh quảng cáo 4:5 hoặc 1:1 đánh trực diện pain point, một bên là vấn đề và một bên là trạng thái sau khi dùng sản phẩm..."
+      }
+    }
+  },
+  "marketInsights": {
+    "tabs": {
+      "reach": "Tiếp cận",
+      "video": "Lượt xem",
+      "community": "Cộng đồng",
+      "traffic": "Lưu lượng",
+      "leads": "Lead",
+      "sales": "Bán hàng",
+      "app": "Ứng dụng",
+      "risk": "Rủi ro & Bất thường"
+    },
+    "search": {
+      "label": "Tìm prompt trong thư viện",
+      "placeholder": "Tìm prompt, ví dụ ROAS, phễu, chi phí…",
+      "empty": "Không có prompt nào khớp. Hãy thử từ khoá khác, hoặc chọn một nhóm mục tiêu ở trên.",
+      "scope": "Kết quả tìm kiếm trên tất cả nhóm",
+      "scopeIn": "Kết quả tìm kiếm trong nhóm {category}",
+      "emptyFiltered": "Không có prompt nào khớp với bộ lọc hiện tại. Hãy thử từ khoá khác, hoặc xoá bộ lọc."
+    },
+    "preview": {
+      "caption": "Ảnh chụp ví dụ · 7 ngày gần nhất"
+    },
+    "detail": {
+      "open": "Xem chi tiết",
+      "close": "Đóng",
+      "run": "Chạy prompt",
+      "objectiveNote": "Hướng dẫn chung cho mọi prompt thuộc nhóm {objective}",
+      "primary": {
+        "problem": "Dashboard giúp trả lời gì",
+        "metrics": "Các chỉ số chính",
+        "inputs": "Dữ liệu cần có"
+      },
+      "promptLabel": "Prompt sẽ gửi",
+      "inputsTemplate": "{sources}, có dữ liệu trong {range}",
+      "provenance": {
+        "golden": "Golden",
+        "authored": "Nội bộ"
+      },
+      "fields": {
+        "name": "Tên prompt",
+        "reference": "Mã tham chiếu",
+        "category": "Mục tiêu",
+        "problem": "Vấn đề kinh doanh",
+        "audience": "Dành cho",
+        "inputs": "Dữ liệu cần có",
+        "sources": "Nguồn dữ liệu",
+        "range": "Khoảng thời gian",
+        "metrics": "Chỉ số và chiều dữ liệu",
+        "widgets": "Widget dự kiến",
+        "followUps": "Câu hỏi tiếp theo",
+        "actions": "Hành động đề xuất"
+      },
+      "widgets": {
+        "kpi_card": "Thẻ KPI",
+        "line_chart": "Biểu đồ đường",
+        "bar_chart": "Biểu đồ cột",
+        "pie_chart": "Biểu đồ tròn",
+        "table": "Bảng",
+        "funnel": "Phễu",
+        "ranking": "Bảng xếp hạng",
+        "scatter_bubble": "Góc phần tư",
+        "media_card": "Thẻ nội dung",
+        "goal_gauge": "Đồng hồ mục tiêu",
+        "distribution": "Phân bổ",
+        "heatmap": "Bản đồ nhiệt"
+      },
+      "objectives": {
+        "reach": {
+          "problem": "Tiền đã tiếp cận bao nhiêu người khác nhau, và mỗi người thấy quảng cáo bao nhiêu lần trước khi chi phí không còn mua thêm người mới.",
+          "audience": "Người mua media hoặc phụ trách thương hiệu đang cân nhắc mở rộng tệp hay giới hạn tần suất.",
+          "followUps": "Vị trí nào đang đẩy tần suất lên? CPM tăng theo tần suất hay tăng độc lập?",
+          "actions": "Mở rộng tệp, giới hạn tần suất, hoặc dời ngân sách sang vị trí vẫn còn tiếp cận người mới."
+        },
+        "traffic": {
+          "problem": "Bao nhiêu phần lưu lượng đã trả tiền thực sự đến nơi, và khoảng cách giữa click và lượt xem trang đích mở ra ở đâu.",
+          "audience": "Người chạy performance chịu trách nhiệm chi phí click và được đánh giá bằng phiên truy cập thật, không phải click.",
+          "followUps": "Chiến dịch nào mất nhiều nhất giữa click và lượt đến? Click đắt có phải cũng là click không bao giờ đến nơi?",
+          "actions": "Tăng ngân sách cho phần đến nơi, sửa hoặc dừng phần trả tiền mà không đến, và rút ngân sách khỏi những click đắt nhất."
+        },
+        "video": {
+          "problem": "Nội dung có giữ được sự chú ý đủ lâu để xứng đáng với lượt hiển thị không, và người xem rời đi ở đoạn nào.",
+          "audience": "Người phụ trách sáng tạo đang chọn bản cắt nào để mở rộng và bản nào cần dựng lại.",
+          "followUps": "Người xem rớt ở đâu — mở đầu, phần giữa hay lời kêu gọi? Xem lâu hơn có thực sự chuyển đổi hơn không?",
+          "actions": "Mở rộng bản giữ được người xem, dựng lại bản mất người sớm, và dừng bản mất người ngay ở mở đầu."
+        },
+        "leads": {
+          "problem": "Một lead đạt chuẩn thực sự tốn bao nhiêu, sau khi tính cả những form không bao giờ mở và những hội thoại không bao giờ được trả lời.",
+          "audience": "Người phụ trách demand-gen chịu trách nhiệm chi phí mỗi lead và cả việc sales làm gì với chúng.",
+          "followUps": "Bước nào mất nhiều nhất — mở form, gửi form, hay lần trả lời đầu? Lead rẻ có phải cũng là lead có trả lời?",
+          "actions": "Tăng ngân sách cho nhóm tạo ra lead có phản hồi, viết lại bước mất nhiều nhất, và cắt nhóm chỉ mua được sự im lặng."
+        },
+        "community": {
+          "problem": "Tài khoản đang mua được gì ngoài một cú click — follower, tương tác và lượt chia sẻ — và mỗi thứ đó tốn bao nhiêu.",
+          "audience": "Người phụ trách social hoặc nội dung, với mục tiêu là tệp khán giả ở lại chứ không phải một phiên truy cập kết thúc.",
+          "followUps": "Chiến dịch nào tạo được tương tác chứ không chỉ lượt phát? Một follower rẻ nhất đang có giá bao nhiêu?",
+          "actions": "Mở rộng phần tạo được tương tác, làm lại nội dung được xem nhưng không ai hành động, và dừng phần còn lại."
+        },
+        "app": {
+          "problem": "Một lượt cài đặt tốn bao nhiêu theo từng chiến dịch, và liệu những lượt cài rẻ có phải là những lượt sau đó thực sự làm gì đó.",
+          "audience": "Người phụ trách user acquisition đang giữ mục tiêu CPI và ngân sách để phân bổ theo nó.",
+          "followUps": "Chiến dịch nào vừa dưới trần CPI vừa có quy mô? Lượt cài rẻ ngừng rẻ ở đâu?",
+          "actions": "Tăng ngân sách cho chiến dịch dưới mục tiêu, tối ưu phần sát trần, và tạm dừng phần đã vượt."
+        },
+        "sales": {
+          "problem": "Chi tiêu đã mang lại gì — doanh thu, đơn hàng và ROAS — và đoạn nào trên đường từ click đến thanh toán đang làm mất tiền.",
+          "audience": "Người phụ trách thương mại điện tử hoặc performance, được đánh giá bằng hiệu quả chứ không phải quy mô.",
+          "followUps": "Chiến dịch nào dưới ngưỡng ROAS? Đơn hàng biến mất ở đâu giữa giỏ hàng và thanh toán?",
+          "actions": "Mở rộng phần có hiệu quả, sửa bước đang rò rỉ, và dừng các chiến dịch dưới ngưỡng ROAS."
+        },
+        "risk": {
+          "problem": "Chiến dịch nào đã vượt ngưỡng mà tài khoản tự đặt ra — tần suất vượt mức, chi phí mỗi kết quả xấu đi, tiền chạy mà không ra kết quả — trong khi số tổng vẫn trông ổn.",
+          "audience": "Người phụ trách hiệu suất cần biết phải dừng cái gì ngay hôm nay, trước khi báo cáo tuần biến nó thành khoản lỗ cả tháng.",
+          "followUps": "Chiến dịch nào vượt ngưỡng trước, và đó là một đối tượng hay cả tài khoản? Chi phí xấu đi vì phân phối sụt giảm hay vì tệp đã ngừng phản hồi?",
+          "actions": "Tạm dừng nhóm đã vượt ngưỡng, làm lại creative đã bão hòa, và xem lại chính các ngưỡng mà bảng đã dùng để đánh giá."
+        }
+      },
+      "overrides": {
+        "traffic-landing-quadrant": {
+          "problem": "TikTok không trả về điểm chất lượng traffic 0-100, nên câu hỏi này không thể trả lời từ dữ liệu nền tảng cung cấp. Nếu bạn hỏi, trợ lý sẽ nói rõ thiếu chỉ số nào thay vì tự ước lượng.",
+          "actions": "Không dựng được dashboard cho mẫu này — một bảng cần chỉ số mà nền tảng thật sự trả về. Các chỉ số gần nhất đang có là lượt xem trang đích, CPC và chi phí; ghép lại sẽ cho thấy traffic đổ về có xứng với số tiền đã bỏ ra không.",
+          "followUps": "Chỉ số nào đang có là gần nhất? Lượt xem trang đích so với CPC có trả lời được cùng câu hỏi không?"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Trang trước",
+      "next": "Trang sau",
+      "indicator": "Trang {page} / {total}"
+    },
+    "objectives": {
+      "scrollPrevious": "Cuộn danh mục sang trái",
+      "scrollNext": "Cuộn danh mục sang phải"
+    },
+    "cards": {
+      "reach-frequency-daily": {
+        "title": "Báo cáo ngày tiếp cận & tần suất",
+        "hint": "Tiếp cận · Tần suất · CPM · 7 ngày",
+        "prompt": "Mấy hôm nay độ phủ thương hiệu TikTok của tôi thấy hơi lạ, xem giúp tôi 7 ngày gần đây rốt cuộc có chuyện gì: tiếp cận với tần suất trung bình so tuần trước là tốt lên hay tệ đi, tiền có bị đắt hơn không, rồi chiến dịch nào tần suất cao tới mức phải giảm tần thì chỉ ra giúp tôi."
+      },
+      "video-views-daily": {
+        "title": "Báo cáo ngày tổng quan lượt xem video",
+        "hint": "Lượt phát · 2s · 6s · Tỷ lệ xem hết",
+        "prompt": "Gom các chiến dịch mục tiêu lượt xem 7 ngày gần đây của tài khoản TikTok thành một bảng báo cáo ngày giúp tôi: trên cùng bốn thẻ lượt phát, lượt xem 2 giây, lượt xem 6 giây và chi phí mỗi lượt xem 2 giây, đều so với kỳ trước; bên dưới là biểu đồ đường lượt phát và lượt xem 2 giây theo ngày; cạnh đó là biểu đồ tròn tỷ trọng lượt phát theo vị trí, nếu phần bóc tách theo vị trí chưa có nguồn dữ liệu thì nói thẳng ra giúp tôi; tiếp đến là tường video nổi bật và bảng xếp hạng video nhiều lượt phát nhất; dưới cùng là bảng theo từng quảng cáo gồm lượt phát, 2 giây, 6 giây, lượt xem hết, tỷ lệ xem hết, chi phí mỗi lượt xem 2 giây và chi tiêu, tỷ lệ xem hết dưới 5% thì tô đỏ."
+      },
+      "video-completion-funnel": {
+        "title": "Phễu tiến độ xem và xem hết",
+        "hint": "Phễu 25% → 50% → 75% → xem hết",
+        "prompt": "Xem giúp tôi video bị vuốt bỏ ở giây thứ mấy. Làm một cái phễu xem hết: lượt xem → 25% → 50% → 75% → xem hết, mỗi tầng ghi số lần và tỷ lệ so lượt xem, mẫu số nhớ dùng lượt xem chứ đừng dùng lượt hiển thị. Phía trên để một thẻ đạt mục tiêu tỷ lệ xem hết, mục tiêu 10%. Bên cạnh biểu đồ cột so tỷ lệ xem hết của các nhóm độ dài nội dung. Dưới cùng bảng liệt kê cả hai tỷ lệ \"so lượt xem\" và \"so tầng trên\" cho từng mốc, tiện thể chèn thêm 2 giây với 6 giây vào để đối chiếu."
+      },
+      "reach-cost-quadrant": {
+        "title": "Định vị hiệu quả chi phí tiếp cận",
+        "hint": "Tiếp cận × CPM × Chi tiêu · góc phần tư",
+        "prompt": "Làm một biểu đồ định vị hiệu quả cho các nhóm quảng cáo: trục X là tiếp cận, trục Y là CPM, kích thước bong bóng là chi phí, bốn góc phần tư ghi \"Hiệu quả cao lượng lớn / Hiệu quả cao lượng nhỏ / Hiệu quả thấp lượng lớn / Hiệu quả thấp lượng nhỏ\", bong bóng nào CPM cao hơn 4 đô thì tô đỏ. Phía trên bổ sung ba thẻ: tổng chi phí, tổng tiếp cận, CPM trung bình."
+      },
+      "traffic-landing-daily": {
+        "title": "Báo cáo ngày lưu lượng & đến nơi",
+        "hint": "Click · CTR · CPC · Xem trang đích",
+        "prompt": "Gom các chiến dịch mục tiêu lưu lượng 7 ngày gần đây của tài khoản TikTok thành một dashboard thời gian thực giúp tôi: trên cùng để bốn thẻ click, tỷ lệ click, chi phí mỗi click và lượt xem trang đích, đều so với kỳ trước; bên dưới là biểu đồ đường click và lượt xem trang đích theo ngày. Tiếp đó cho tôi xem click được gửi đi đâu — biểu đồ tròn tỷ trọng click theo loại điểm đến và bảng theo điểm đến gồm click, lượt xem trang đích, tỷ lệ đến nơi, CPC và chi tiêu — nếu phần bóc tách đó chưa có nguồn dữ liệu thì nói thẳng ra giúp tôi. Cuối cùng là cùng câu hỏi đó trên dữ liệu thật sự có: bảng xếp hạng những chiến dịch có click thật sự đến nơi, và bảng theo chiến dịch gồm click, lượt xem trang đích, CTR, tỷ lệ đến nơi, CPC và chi tiêu. Tỷ lệ đến nơi dưới 50% thì tô đỏ."
+      },
+      "traffic-hourly-monitor": {
+        "title": "Giám sát lưu lượng theo khung giờ",
+        "hint": "Theo giờ · Click · Đến trang đích · hôm nay",
+        "prompt": "Mở một bảng giám sát lưu lượng thời gian thực của hôm nay: trên cùng một thanh trạng thái trực tiếp, dưới là bốn thẻ click, đến trang đích, tỷ lệ đến nơi, CPC thời gian thực tính tới giờ. Giữa là biểu đồ đường theo khung giờ xem click và lượt đến mỗi hai tiếng, bên cạnh xếp một bảng trang đích có tỷ lệ đến nơi cao nhất theo thời gian thực. Thêm một hàng ba ảnh thu nhỏ của ba nội dung có tỷ lệ click cao nhất, dưới cùng bảng liệt kê chi tiết sáu khung giờ gần nhất, số giây tải bất thường thì tô đỏ."
+      },
+      "traffic-landing-quadrant": {
+        "title": "Định vị hiệu quả trang đích",
+        "hint": "Đến trang đích × CPC × Chi tiêu · góc phần tư",
+        "prompt": "Làm giúp tôi một biểu đồ định vị hiệu quả trang đích: trục X là tỷ lệ đến trang đích, trục Y là \"điểm chất lượng lưu lượng\" mà bạn tính giúp tôi — kiểu gộp tỷ lệ đến nơi, số giây ở lại, tỷ lệ thoát thành thang 0–100 điểm ấy, kích thước bong bóng là chi phí, bốn góc phần tư ghi rõ nên xử lý thế nào, điểm nào xấu thì tô đỏ. Phía trên bổ sung ba thẻ: tổng click, tổng đến nơi, tỷ lệ đến nơi tổng thể. Bên cạnh để xếp hạng tỷ lệ đến nơi thấp nhất, dưới cùng bảng ghi rõ từng trang đích thuộc góc phần tư nào và hành động đề xuất."
+      },
+      "click-to-lpv-funnel": {
+        "title": "Phễu rơi rớt từ click đến nơi",
+        "hint": "Phễu Click → Trang đích → 15s → cuộn 50%",
+        "prompt": "Tôi cứ thấy click của mình rơi rớt hết. Làm một cái phễu rơi rớt từ click tới trang đích: click → đến trang đích → ở lại quá 15 giây → cuộn quá một nửa, mỗi tầng ghi số và tỷ lệ chuyển đổi. Phía trên để một thẻ đạt mục tiêu tỷ lệ đến nơi, mục tiêu 75%. Bên cạnh biểu đồ cột so tỷ lệ đến nơi của bốn loại điểm đến, dưới cùng bảng liệt kê tỷ lệ đến nơi, số giây tải trung vị và tỷ lệ thoát của từng trang đích, tỷ lệ đến nơi dưới 55% hoặc tải quá 3 giây thì tô đỏ."
+      },
+      "traffic-multisource-compare": {
+        "title": "Đối chiếu lưu lượng đa nguồn",
+        "hint": "TikTok + Meta + GA · 30 ngày",
+        "prompt": "Cộng số click của TikTok Ads với số phiên của Google Analytics lại, làm một thẻ lớn tổng lưu lượng; rồi xếp giúp tôi một bảng xếp hạng CPC, CPC càng cao càng đứng trước, như vậy sẽ biết nhóm nào mua được lưu lượng chất lượng nhất. Dưới là biểu đồ đường chồng ba đường TikTok, Meta, GA để so xu hướng 30 ngày gần đây, cuối cùng bảng liệt kê lượng và chi phí mỗi lượt của từng nguồn."
+      },
+      "cpl-volume-quadrant": {
+        "title": "Định vị CPL × lượng lead",
+        "hint": "CPL × Lượng lead · góc phần tư · 7 ngày",
+        "prompt": "Tuần này CPL lại tăng, tiền hình như tiêu sai chỗ, xem giúp tôi nên chỉnh ngân sách thế nào. Ở tầng nhóm quảng cáo, 7 ngày gần đây."
+      },
+      "instant-form-daily": {
+        "title": "Báo cáo ngày lead form tức thì",
+        "hint": "Lead · CPL · Tỷ lệ hợp lệ · 7 ngày",
+        "prompt": "Làm bảng vận hành lead cho riêng các chiến dịch TikTok objective Lead Generation dùng form tức thì — bỏ qua mọi objective khác — 7 ngày gần đây, tầng nhóm quảng cáo. Bốn thẻ trên cùng: chi tiêu, lead, chi phí mỗi kết quả, CTR, so với kỳ trước. Thêm đường click và lead theo ngày; biểu đồ lead theo nhóm quảng cáo; bảng nhóm quảng cáo với chi tiêu, lead, chi phí mỗi kết quả; heatmap lead theo nhóm quảng cáo và ngày. Mục tiêu tháng này của tôi là 1.500 lead."
+      },
+      "form-submit-funnel": {
+        "title": "Chẩn đoán phễu gửi form",
+        "hint": "CPL mục tiêu $3 · tầng nhóm quảng cáo",
+        "prompt": "Tuần này chi phí lead đột nhiên đắt lên, xem giúp tôi vấn đề nằm ở đâu. Mục tiêu CPL của tôi là ép xuống dưới $3.00, tiện thể đánh dấu xem có giữ được không. Dữ liệu 7 ngày gần đây là đủ, phải nhìn được tới tầng nhóm quảng cáo, nhóm nào đắt bất thường thì chỉ ra giúp tôi."
+      },
+      "dm-conversation-daily": {
+        "title": "Báo cáo ngày tin nhắn TikTok",
+        "hint": "Hội thoại · Chi phí mỗi hội thoại · 7 ngày",
+        "prompt": "Làm giúp tôi một dashboard báo cáo ngày 7 ngày gần đây cho các chiến dịch mục tiêu tin nhắn TikTok: phía trên đặt bốn thẻ chi phí, số hội thoại đã mở, chi phí mỗi hội thoại và tỷ lệ click, tất cả đều so kỳ trước. Ở giữa đặt đường theo ngày của lượt click và số hội thoại đã mở. Bên dưới xếp hạng các chiến dịch theo chi phí mỗi hội thoại, đắt nhất lên đầu, rồi một bảng chi tiết từng chiến dịch gồm chi phí, lượt hiển thị, lượt click, CTR, CPC, số hội thoại và chi phí mỗi hội thoại. Tôi cũng muốn xem tỷ lệ khách trả lời và thời gian phản hồi lần đầu, nếu nguồn dữ liệu có."
+      },
+      "sales-app-daily": {
+        "title": "Báo cáo ngày mua hàng trong app",
+        "hint": "Lượt mua · Doanh thu · ROAS · Chi phí mỗi lượt mua · 7 ngày qua",
+        "prompt": "Vẽ dashboard mua hàng trong app 7 ngày qua gồm năm thẻ KPI cho lượt mua, doanh thu, ROAS, chi phí mỗi lượt mua và chi tiêu, đều so với kỳ trước, hai biểu đồ đường theo ngày của lượt mua và doanh thu, một bảng theo ngày và một bảng so sánh các chiến dịch."
+      },
+      "web-sales-daily": {
+        "title": "Báo cáo ngày bán hàng website riêng",
+        "hint": "Chi tiêu · Doanh thu · ROAS · Lượt mua · tháng này",
+        "prompt": "Vẽ dashboard bán hàng website tháng này: trên cùng sáu thẻ KPI cho chi tiêu, doanh thu, ROAS, lượt mua, CPA và tỷ lệ chuyển đổi, đều so với kỳ trước; bên dưới là biểu đồ đường theo ngày của chi tiêu và doanh thu; cạnh đó là biểu đồ tròn tỷ trọng doanh thu theo chiến dịch; dưới cùng là bảng theo chiến dịch gồm chi tiêu, lượt hiển thị, click, lượt mua, doanh thu, ROAS và CPA, đánh dấu chiến dịch có ROAS dưới 2 hoặc CPA trên 22 $."
+      },
+      "gmv-max-daily": {
+        "title": "Báo cáo ngày bán hàng GMV Max",
+        "hint": "GMV · Đơn hàng · AOV · ROAS · 7 ngày",
+        "prompt": "Hãy tạo báo cáo bán hàng GMV Max trong 7 ngày gần đây. Hiển thị các KPI gồm chi tiêu, lượt hiển thị, lượt click, số đơn hàng, GMV, ROAS, AOV và CTR, đồng thời so sánh với kỳ trước. Vẽ xu hướng GMV, chi tiêu và ROAS theo ngày; thể hiện tỷ trọng GMV theo chiến dịch và số đơn hàng theo nhóm quảng cáo; hiển thị các creative bán hàng nổi bật; cuối cùng cung cấp bảng chi tiết theo chiến dịch gồm chi tiêu, lượt hiển thị, click, CTR, đơn hàng, GMV, AOV và ROAS, đồng thời đánh dấu các chiến dịch có ROAS dưới mức trung bình tài khoản."
+      },
+      "checkout-funnel": {
+        "title": "Chẩn đoán phễu thêm giỏ & thanh toán",
+        "hint": "Phễu Thêm giỏ → Thanh toán → Mua",
+        "prompt": "Tôi muốn biết tiền rò rỉ ở tầng nào. Làm một dashboard phễu thanh toán: từ click trang đích, xem nội dung, thêm vào giỏ, bắt đầu thanh toán cho tới hoàn tất mua, mỗi tầng hiện số người và tỷ lệ chuyển đổi \"so với tầng trên\", đừng lấy tổng click làm mẫu số cho mọi tầng. Trên để số lượt thêm giỏ, số lượt bắt đầu thanh toán, thêm một đồng hồ mức đạt mục tiêu tỷ lệ hoàn tất thanh toán 40%. Bên phải biểu đồ cột so tỷ lệ thêm giỏ với tỷ lệ hoàn tất thanh toán của từng nhóm quảng cáo, cuối cùng dùng bảng liệt kê chi tiết."
+      },
+      "live-warroom": {
+        "title": "Bàn tác chiến LIVE thời gian thực",
+        "hint": "LIVE trực tiếp · Người xem đồng thời · Đỉnh người xem",
+        "prompt": "Tôi đang phát trực tiếp, mở giúp tôi một bàn tác chiến LIVE: trên cùng để thanh trạng thái chấm đỏ đang LIVE, ghi giờ lên sóng và đã phát bao lâu; dưới đó bốn thẻ đặt người xem trong phiên, người xem đồng thời hiện tại, đỉnh người xem đồng thời và thời lượng xem trung bình mỗi người; ở giữa vẽ một đường người xem đồng thời theo từng 5 phút rồi chồng thêm số người mới vào mỗi khung, bên cạnh để biểu đồ tròn nguồn lưu lượng, dưới cùng liệt kê bảng chi tiết từng khung 5 phút, khung nào người xem đồng thời rơi hơn 10% so với khung trước thì tô đỏ, một phút làm mới một lần."
+      },
+      "app-install-daily": {
+        "title": "Báo cáo ngày thu hút cài đặt",
+        "hint": "Cài đặt · CPI · Click · tháng này",
+        "prompt": "Vẽ dashboard chiến dịch cài đặt game mobile trên TikTok tháng này, xem được mỗi ngày: trên cùng để bốn thẻ số cài đặt, CPI, lượt click và chi phí, đều so với kỳ trước; bên dưới để biểu đồ đường click và cài đặt theo ngày; cạnh đó để biểu đồ tròn tỷ trọng cài đặt của từng chiến dịch; dưới cùng liệt kê chi tiết cài đặt của từng chiến dịch gồm chi phí, hiển thị, CPM, click, CTR, CPC, cài đặt, tỷ lệ click → cài đặt và CPI, CPI vượt 2.5 đô thì tô đỏ nhắc tôi luôn."
+      },
+      "retargeting-daily": {
+        "title": "Báo cáo ngày tiếp thị lại",
+        "hint": "Tiếp thị lại app · 14 ngày",
+        "prompt": "Cho tôi xem 14 ngày gần đây của tiếp thị lại app TikTok: trên cùng bốn thẻ chi tiêu, kết quả, chi phí mỗi kết quả và ROAS, đều so với kỳ trước; bên dưới để biểu đồ đường chi tiêu và ROAS theo ngày; kèm góc phần tư kết quả với ROAS của từng chiến dịch; một bảng xếp hạng các chiến dịch chi nhiều nhất; một biểu đồ tròn tỷ trọng chi tiêu theo chiến dịch; dưới cùng là bảng theo chiến dịch gồm chi tiêu, doanh thu, kết quả, chi phí mỗi kết quả và ROAS."
+      },
+      "holdout-incrementality": {
+        "title": "Phân tích incremental Holdout",
+        "hint": "Holdout 10% · ROAS incremental · lift",
+        "prompt": "ROAS tiếp thị lại hơn bốn lần, tôi không tin lắm, bên mình có để lại nhóm đối chứng holdout 10%. Làm giúp tôi một dashboard incremental: trên cùng bốn thẻ để ROAS trực tiếp, ROAS incremental, lift và tỷ trọng khách tự nhiên quay lại; ở giữa biểu đồ cột xếp cạnh nhau tỷ lệ chuyển đổi của nhóm hiển thị với nhóm đối chứng theo từng tệp; bên cạnh để một thẻ giải thích hai ROAS này khác nhau ở đâu; dưới cùng bảng liệt kê số người được hiển thị, số người đối chứng, số chuyển đổi của nhóm đối chứng, tỷ lệ chuyển đổi hai bên, khoảng tin cậy và p-value của lift, đơn incremental và ROAS incremental; tệp nào ROAS incremental dưới 1 thì tôi phải biết."
+      },
+      "skan-latency-monitor": {
+        "title": "Giám sát độ trễ trả về SKAN",
+        "hint": "SKAN · Độ trễ postback · ROAS iOS",
+        "prompt": "Giúp tôi canh tình hình trả về của SKAN: một đồng hồ hiển thị mức hoàn tất postback, hai thẻ đặt số sự kiện chưa về và số bị ngưỡng riêng tư che mất, biểu đồ tròn xem phân bố độ trễ trả về là mấy giờ, bảng bên phải liệt kê từng nhóm quảng cáo iOS hiện đã báo bao nhiêu, ước tính cuối cùng bao nhiêu, ROAS hiện tại chênh với ước tính khi chín bao nhiêu, cuối cùng thêm một đoạn ghi chú nhắc tôi hôm nay đừng vội kết luận. Tiện thể tách postback của SKAN theo nhóm tuổi và giới tính cho tôi xem, ROAS iOS của từng nội dung cũng liệt kê luôn."
+      },
+      "reach-quality-distribution": {
+        "title": "Phân bố tần suất & chất lượng tiếp cận",
+        "hint": "Tần suất · CPM · Sức khỏe tần suất · 7 ngày",
+        "prompt": "Dựng giúp tôi một dashboard \"sức khỏe tần suất\": dùng biểu đồ phễu cho thấy tiếp cận ở các mức 1+ / 2+ / 3+ / 5+ giảm dần từng tầng, bên cạnh đặt biểu đồ cột so tần suất trung bình với CPM của từng nhóm quảng cáo, phía trên để một thẻ mục tiêu, mục tiêu là giữ tần suất trung bình dưới 3; dưới cùng liệt kê xếp hạng các nhóm quảng cáo bị tần suất quá cao."
+      },
+      "reach-creative-wall": {
+        "title": "Tường vị trí & nội dung phủ thương hiệu",
+        "hint": "Tường nội dung · Tiếp cận · Suy giảm · 14 ngày",
+        "prompt": "Làm giúp tôi một bức tường nội dung: một hàng 6 thẻ nội dung dọc (9:16) hiện 6 video có tiếp cận cao nhất, mỗi thẻ gắn huy hiệu tiếp cận và tên nội dung, phía dưới kèm một bảng xếp hạng tiếp cận của từng nội dung, thêm một bảng \"độ tươi nội dung\" hiện số ngày lên sóng, tần suất và mức suy giảm của mỗi video, suy giảm quá 30% thì tô đỏ."
+      },
+      "video-engagement-quadrant": {
+        "title": "Góc phần tư thời lượng xem & tương tác",
+        "hint": "Thời lượng xem × Tương tác · góc phần tư",
+        "prompt": "Tôi muốn biết mấy video nào đáng tăng ngân sách. Xem giúp tôi hiệu quả video gần đây — mọi người xem trung bình bao lâu, có chịu thích bình luận chia sẻ không, video nào vừa xem lâu vừa chịu tương tác, video nào nên gỡ xuống. Định dùng biểu đồ gì thì bạn hỏi tôi trước, tôi không chắc loại nào nhìn rõ nhất."
+      },
+      "video-hourly-monitor": {
+        "title": "Giám sát lượt xem theo khung giờ",
+        "hint": "Theo giờ · Lượt xem · 2s · 6s · hôm nay",
+        "prompt": "Mở một bảng giám sát lượt xem thời gian thực của hôm nay: trên cùng một thanh trực tiếp, dưới là bốn thẻ lượt xem, xem 2 giây, xem 6 giây và chi phí 2 giây thời gian thực tính tới giờ. Giữa là biểu đồ đường theo khung giờ xem lượt xem và xem 2 giây mỗi hai tiếng, bên cạnh để một thẻ đạt mục tiêu xem 6 giây, mục tiêu hôm nay 25 vạn. Thêm một biểu đồ cột tỷ lệ xem hết theo nhóm tuổi, dưới cùng bảng liệt kê sáu khung giờ gần nhất, tỷ lệ 2 giây tụt rõ thì tô đỏ."
+      },
+      "community-daily": {
+        "title": "Báo cáo ngày tương tác cộng đồng",
+        "hint": "Follower · Lượt xem trang · Tương tác · 7 ngày",
+        "prompt": "Làm giúp tôi báo cáo ngày tương tác cộng đồng của 7 ngày gần đây: bốn thẻ trên cùng để follower thu được, tăng ròng follower, lượt xem trang và chi phí mỗi follower trả phí, tất cả đều so tuần trước. Tiện thể liệt kê luôn danh sách 2,862 tài khoản đã bỏ theo dõi tuần này cùng phân bố lý do bỏ theo dõi, tôi muốn biết ai đã đi. Biểu đồ đường ở giữa thì chồng hai đường follower thu được và tăng ròng theo từng ngày, tôi muốn nhìn phát thấy ngay bỏ theo dõi ăn mất bao nhiêu. Bên phải biểu đồ tròn xem cơ cấu tương tác gồm thích, bình luận, chia sẻ. Dưới cùng bảng liệt kê từng chiến dịch: mục tiêu tối ưu, follower thu được, bỏ theo dõi, tăng ròng, chi phí mỗi follower, lượt xem trang, tỷ lệ tương tác và giữ chân 7 ngày theo cohort."
+      },
+      "community-efficiency-matrix": {
+        "title": "Ma trận hiệu quả tương tác",
+        "hint": "Lượt xem trang × Chi phí/follower · góc phần tư",
+        "prompt": "Làm một biểu đồ ma trận hiệu quả theo nhóm quảng cáo, chỉ để các nhóm tối ưu người theo dõi thôi (tối ưu xem trang lệch thang đo quá, nhét vào là đồ thị bị bẹp): trục X là số lượt xem trang, trục Y là chi phí/follower, kích thước bong bóng là chi phí, bốn góc phần tư ghi rõ nên tăng ngân sách hay nên tắt. Phía trên thêm ba thẻ: tổng chi phí, lượt xem trang, chi phí/follower trả phí. Bên cạnh đặt năm nhóm có chi phí/follower thấp nhất, dưới cùng bảng liệt kê cả chín nhóm và ghi rõ góc phần tư cùng loại trang đích."
+      },
+      "instant-page-vs-web": {
+        "title": "Instant Page so với website ngoài",
+        "hint": "Instant Page vs Web · Tốc độ tải · 7 ngày",
+        "prompt": "Dạo này lưu lượng bên website ngoài nhìn kiểu gì cũng thấy sai sai, xem giúp tôi có phải trang quá chậm nên ăn mất phần đến nơi không — Instant Page trong app với website ngoài rốt cuộc khác nhau ở đâu, khác bao nhiêu. Định dùng mấy loại biểu đồ nào thì bạn xác nhận với tôi trước, tôi không biết nên xem dạng gì, số liệu khớp nhau là được."
+      },
+      "gmv-roi-quadrant": {
+        "title": "Chẩn đoán góc phần tư theo ROAS",
+        "hint": "Chi tiêu × ROAS · creative · tháng này",
+        "prompt": "Hãy phân tích hiệu quả quảng cáo TikTok Shop trong tháng này để xác định creative và chiến dịch nào nên tăng ngân sách, tiếp tục theo dõi, tối ưu hoặc dừng. Hiển thị các KPI gồm chi tiêu, lượt hiển thị, lượt click, số đơn hàng, GMV, ROAS, chi phí mỗi chuyển đổi và CVR. Dùng biểu đồ góc phần tư để so sánh chi tiêu với ROAS theo creative, với kích thước điểm thể hiện GMV; xếp hạng chiến dịch theo ROAS; thể hiện tỷ trọng chi tiêu theo chiến dịch; hiển thị creative đại diện cho từng nhóm quyết định; và cung cấp bảng theo chiến dịch gồm chi tiêu, hiển thị, click, đơn hàng, chi phí mỗi chuyển đổi, GMV và ROAS."
+      },
+      "app-install-video-wall": {
+        "title": "Tường hiệu quả cài đặt của video",
+        "hint": "Tường video · Cài đặt · CPI · Giữ chân D7",
+        "prompt": "Làm giúp tôi một tường video cài đặt: phía trên xếp 6 video hàng đầu theo lưới ba cột, mỗi ảnh gắn huy hiệu số cài đặt và CPI; bên dưới dùng biểu đồ bong bóng để định vị, trục X là số cài đặt, trục Y là tỷ lệ giữ chân D7 còn kích thước bong bóng là chi phí, bốn góc phần tư ghi rõ nên tăng ngân sách hay nên gỡ; bên phải xếp một bảng xếp hạng chi phí mỗi user giữ chân. Số liệu của hai video iOS thì tôi muốn dùng như số đo thực, cứ xếp chung với Android mà tính CPI để quyết định tăng giảm ngân sách."
+      },
+      "traffic-campaign-efficiency": {
+        "title": "So sánh hiệu quả traffic theo chiến dịch",
+        "hint": "Click · LPV · CPC · 7 ngày",
+        "prompt": "Hãy tạo dashboard phân tích hiệu quả traffic TikTok Ads trong 7 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo chiến dịch. Nếu nguồn chỉ trả về dữ liệu theo quảng cáo thì dùng quảng cáo và ghi rõ chiều dữ liệu thực tế đang dùng trong tiêu đề và bảng. Hiển thị các KPI gồm lượt click, lượt xem trang đích (LPV), CTR, CPC và chi phí; so sánh với 7 ngày trước nếu có dữ liệu. Dùng biểu đồ cột để so sánh click và LPV giữa các chiến dịch, bảng xếp hạng các chiến dịch có CPC cao hoặc chi nhiều nhưng tạo ít LPV, cùng bảng chi tiết gồm chiến dịch, click, LPV, CTR, CPC và chi phí. Cuối cùng, đề xuất nên tăng ngân sách, tiếp tục theo dõi, tối ưu hoặc giảm ngân sách. Nếu không có dữ liệu phân rã, hãy hiển thị số liệu tổng và thông báo rõ phần dữ liệu còn thiếu; không tự tạo số liệu."
+      },
+      "traffic-ad-arrival-quality": {
+        "title": "Chất lượng đến trang đích theo quảng cáo, 30 ngày",
+        "hint": "Cấp quảng cáo · Tỷ lệ đến nơi · Chi phí mỗi lượt xem trang đích · 30 ngày",
+        "prompt": "Hãy tạo dashboard đánh giá chất lượng đến trang đích của quảng cáo TikTok Ads trong 30 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo từng quảng cáo. Chỉ dùng những chỉ số TikTok Ads thực sự trả về: lượt hiển thị, lượt click, lượt xem trang đích, CTR, CPC và chi phí. Hiển thị các KPI gồm lượt click, lượt xem trang đích, tỷ lệ đến nơi (lượt xem trang đích chia cho lượt click) và chi phí mỗi lượt xem trang đích, đồng thời ghi rõ hai chỉ số sau được tính từ các số liệu bên cạnh. Vẽ phễu từ lượt hiển thị đến lượt click rồi đến lượt xem trang đích để thấy rõ hai mức rơi rớt, bảng xếp hạng quảng cáo theo tỷ lệ đến nơi, và bảng chi tiết gồm quảng cáo, lượt hiển thị, click, lượt xem trang đích, CTR, tỷ lệ đến nơi, CPC, chi phí mỗi lượt xem trang đích và chi phí. Cuối cùng, chỉ ra nên tiếp tục chi cho quảng cáo nào và quảng cáo nào đang mua click không bao giờ đến nơi. Không dùng dữ liệu web analytics, GA4 hay Meta, không báo cáo thời gian ở lại trang, độ sâu cuộn hoặc URL điểm đến; nếu thiếu dữ liệu phân rã thì hiển thị số liệu tổng và nói rõ thiếu phần nào, không tự tạo số liệu."
+      },
+      "community-engagement-ranking": {
+        "title": "Xếp hạng chiến dịch tạo tương tác",
+        "hint": "Thích · Bình luận · Chia sẻ · 14 ngày",
+        "prompt": "Hãy tạo dashboard xếp hạng hiệu quả tương tác của quảng cáo TikTok trong 14 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo chiến dịch. Nếu payload thực tế trả về theo quảng cáo thì dùng quảng cáo và ghi rõ chiều dữ liệu đó. Hiển thị tổng lượt thích, bình luận, chia sẻ, lượt phát video và chi phí; dùng biểu đồ cột và bảng xếp hạng để xác định nơi tạo nhiều tương tác nhất, nơi có chi phí cao nhưng ít tương tác và nơi có tiềm năng mở rộng. Bảng chi tiết cần gồm tên chiến dịch, lượt phát video, lượt thích, bình luận, chia sẻ và chi phí. Không yêu cầu thumbnail nội dung. Cuối cùng, đề xuất nên tăng ngân sách, tối ưu nội dung hoặc dừng thử nghiệm."
+      },
+      "community-share-propagation-matrix": {
+        "title": "Ma trận lan truyền cộng đồng",
+        "hint": "Lượt xem trang × Chia sẻ × Chi phí · 7 ngày",
+        "prompt": "Hãy tạo dashboard TikTok Ads đánh giá khả năng chuyển lượt truy cập thành hành vi chia sẻ trong 7 ngày gần nhất, phân tích theo chiến dịch; nếu nguồn chỉ có dữ liệu theo quảng cáo thì dùng quảng cáo và ghi rõ chiều dữ liệu đó. Hiển thị các KPI gồm lượt xem trang, lượt thích, bình luận, chia sẻ và chi phí. Dùng biểu đồ bong bóng với lượt xem trang trên trục X, lượt chia sẻ trên trục Y và chi phí làm kích thước bong bóng; chia thành bốn nhóm theo trung vị: nhiều truy cập–nhiều chia sẻ, ít truy cập–nhiều chia sẻ, nhiều truy cập–ít chia sẻ và ít truy cập–ít chia sẻ. Bổ sung bảng chi tiết và ranking nơi có nhiều lượt chia sẻ nhất. Cuối cùng, đề xuất nên mở rộng, tiếp tục thử nghiệm, cải thiện nội dung hoặc giảm ngân sách. Không tự suy diễn thêm reach, follower retention hoặc dữ liệu organic nếu nguồn không cung cấp."
+      },
+      "app-install-efficiency-matrix": {
+        "title": "Ma trận hiệu quả cài đặt",
+        "hint": "Cài đặt × CPI × Chi phí · 14 ngày",
+        "prompt": "Hãy tạo dashboard TikTok Ads phân tích hiệu quả cài đặt ứng dụng trong 14 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo chiến dịch; nếu đó là chiều phân rã mà nguồn trả về thì dùng quảng cáo và ghi rõ. Hiển thị các KPI gồm số lượt cài đặt, CPI, lượt click và chi phí. Dùng biểu đồ bong bóng với số lượt cài đặt trên trục X, CPI trên trục Y và chi phí làm kích thước bong bóng; CPI càng thấp càng tốt. Chia thành bốn vùng: nhiều cài đặt–CPI thấp, ít cài đặt–CPI thấp, nhiều cài đặt–CPI cao và ít cài đặt–CPI cao. Bổ sung bảng xếp hạng CPI và bảng chi tiết gồm chiến dịch, click, cài đặt, CPI và chi phí. Cuối cùng, đề xuất nên tăng ngân sách, tiếp tục thử nghiệm, tối ưu hoặc tạm dừng. Không yêu cầu phân tách Android/iOS, D7 retention hoặc dữ liệu MMP nếu nguồn hiện tại không cung cấp."
+      },
+      "risk-anomaly-overview": {
+        "title": "Tổng quan rủi ro & bất thường",
+        "hint": "Chi phí · CPM · CTR · Chi phí/kết quả · 7 ngày",
+        "prompt": "Hãy tạo dashboard rà soát rủi ro cho tài khoản TikTok Ads trong 7 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo chiến dịch; nếu nguồn chỉ trả về theo quảng cáo thì dùng quảng cáo và ghi rõ chiều dữ liệu đó. Hiển thị KPI gồm chi phí, CPM, CTR, chi phí trên mỗi kết quả và số kết quả, mỗi chỉ số kèm giá trị kỳ trước và mức thay đổi. Vẽ biểu đồ đường cho chi phí và chi phí trên mỗi kết quả để thấy xu hướng theo ngày. Thêm bảng xếp hạng và bảng chi tiết gồm tên chiến dịch, chi phí, CPM, CTR, chi phí trên mỗi kết quả và số kết quả; đánh dấu rõ những dòng có chi phí trên mỗi kết quả tăng hơn 20% so với kỳ trước. Nếu kỳ trước không có dữ liệu thì để trống, không điền số 0. Cuối cùng, nêu những chiến dịch cần xem xét trước và lý do."
+      },
+      "risk-cost-efficiency-alert": {
+        "title": "Cảnh báo hiệu quả chi phí",
+        "hint": "CPM · CPC · Chi phí/kết quả · 14 ngày",
+        "prompt": "Hãy tạo dashboard cảnh báo hiệu quả chi phí cho TikTok Ads trong 14 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo chiến dịch; nếu nguồn trả về theo quảng cáo thì dùng quảng cáo và ghi rõ. Hiển thị KPI gồm CPM, CPC, chi phí trên mỗi kết quả và chi phí, kèm giá trị kỳ trước và mức thay đổi. Dùng biểu đồ bong bóng với số kết quả trên trục X, chi phí trên mỗi kết quả trên trục Y và chi phí làm kích thước bong bóng; chi phí trên mỗi kết quả càng thấp càng tốt. Thêm bảng xếp hạng theo chi phí trên mỗi kết quả hiện tại và bảng chi tiết gồm chiến dịch, chi phí, CPM, CPC, số kết quả và chi phí trên mỗi kết quả kèm giá trị kỳ trước và mức thay đổi. Đánh dấu rõ mọi dòng xấu đi hơn 20% so với kỳ trước, trên cả bảng xếp hạng, biểu đồ bong bóng và bảng chi tiết. Không suy đoán mức độ nghiêm trọng nếu dữ liệu kỳ trước không có. Cuối cùng, đề xuất nên giảm ngân sách, tối ưu hay tạm dừng."
+      },
+      "risk-delivery-health": {
+        "title": "Sức khoẻ phân phối",
+        "hint": "Chi phí · Hiển thị · Kết quả · 7 ngày",
+        "prompt": "Hãy tạo dashboard kiểm tra sức khoẻ phân phối TikTok Ads trong 7 ngày gần nhất, dựa trên dữ liệu thực, phân tích theo chiến dịch. Hiển thị KPI gồm chi phí, lượt hiển thị, số kết quả và số chuyển đổi, kèm giá trị kỳ trước và mức thay đổi. Bảng chi tiết cần gồm tên chiến dịch, trạng thái vận hành và trạng thái phụ lấy trực tiếp từ dữ liệu tài khoản, cùng chi phí, lượt hiển thị, số kết quả và số chuyển đổi. Đánh dấu rõ những chiến dịch có chi tiêu nhưng không ghi nhận kết quả nào, và những chiến dịch không có lượt hiển thị dù đang bật. Thêm bảng xếp hạng chi phí không tạo ra kết quả. Chỉ dùng trạng thái do nguồn dữ liệu trả về, không tự suy luận trạng thái. Cuối cùng, nêu những chiến dịch cần kiểm tra phân phối trước."
+      },
+      "risk-creative-fatigue": {
+        "title": "Rủi ro nội dung bị bão hoà",
+        "hint": "Tần suất · CTR · Chi phí · 14 ngày",
+        "prompt": "Hãy phân tích mức độ bão hoà nội dung quảng cáo TikTok trong 14 ngày gần nhất, dựa trên dữ liệu thực ở cấp quảng cáo. Hiển thị KPI gồm tần suất, CTR, chi phí và lượt hiển thị, kèm giá trị kỳ trước và mức thay đổi. Với mỗi quảng cáo, đưa ra tần suất, mức CTR giảm so với kỳ trước, trạng thái mà dữ liệu xếp vào — mới, cần theo dõi, đã bão hoà hay ổn định — và khuyến nghị đi theo trạng thái đó; không tự đặt ra mức độ nghiêm trọng. Thêm bảng xếp hạng theo tần suất, dải thumbnail nội dung và bảng chi tiết gồm tên quảng cáo, tần suất, CTR, mức thay đổi CTR, chi phí, lượt hiển thị, trạng thái và khuyến nghị. Đánh dấu rõ những quảng cáo có tần suất vượt ngưỡng hoặc CTR giảm mạnh so với kỳ trước. Cuối cùng, đề xuất nên thay nội dung, giữ nguyên hay tạm dừng."
+      }
+    },
+    "footer": "Cluega AI Agent sẽ phân tích dựa trên dữ liệu. Với quyết định quan trọng, hãy kết hợp thêm phán đoán kinh doanh.",
+    "platformEmpty": "Không có prompt nào trong nhóm này dùng nguồn dữ liệu đó. Hãy chọn nguồn khác, hoặc chọn Tất cả nền tảng.",
+    "filterEmpty": "Không có prompt nào khớp bộ lọc hiện tại. Hãy bỏ bớt một điều kiện, hoặc chọn Tất cả.",
+    "hoverCard": {
+      "notConnected": "Chưa kết nối",
+      "description": "Tạo dashboard và phân tích thị trường từ dữ liệu trực tiếp của các tài khoản quảng cáo bạn đã cấp quyền - cập nhật liên tục.",
+      "provenance": "Cung cấp bởi Cluega Insights MCP • Model mặc định Auto • Xoá bằng ✕ hoặc Backspace"
+    }
+  },
+  "managedTasks": {
+    "selectPlatformTitle": "Chọn nền tảng quảng cáo",
+    "selectTaskTitle": "Chọn tác vụ được quản lý",
+    "step1": "Bước 1 / 2",
+    "step2": "Bước 2 / 2",
+    "footer": "Dịch vụ quản lý của Cluega được vận hành bởi đội ngũ chuyên trách kết hợp AI. Bạn có thể tạm dừng, nâng cấp hoặc hạ cấp bất cứ lúc nào.",
+    "tasks": {
+      "meta-high-roas-scale": {
+        "title": "Tự động tăng ngân sách ROAS cao",
+        "description": "Theo dõi ROAS trong ngày, khi đạt 250% và conversion đạt chuẩn sẽ tự động tăng ngân sách 20%."
+      },
+      "meta-low-ctr-pause": {
+        "title": "Tự động dừng CTR thấp",
+        "description": "Ad set có impression ≥ 5.000 nhưng CTR < 0,8% sẽ tự động tạm dừng và gửi thông báo."
+      },
+      "meta-audience-refresh": {
+        "title": "Thay mới audience suy giảm",
+        "description": "Khi frequency > 4 và CPM tăng > 25%, tự động chuyển sang audience dự phòng."
+      },
+      "meta-budget-redistribution": {
+        "title": "Tự động phân bổ lại ngân sách",
+        "description": "Mỗi ngày phân bổ ngân sách campaign nghiêng về top 30% ad set theo ROAS."
+      },
+      "tiktok-policy-pause": {
+        "title": "Tạm dừng creative vi phạm",
+        "description": "Trong 24 giờ nếu cùng một creative bị từ chối hơn 2 lần, tự động gỡ để tránh ảnh hưởng tài khoản."
+      },
+      "tiktok-creative-fatigue": {
+        "title": "Luân phiên creative bị fatigue",
+        "description": "CPA tăng > 30% trong 3 ngày liên tiếp sẽ tự động tạm dừng và bật creative dự phòng."
+      },
+      "tiktok-live-boost": {
+        "title": "Tăng ngân sách theo phiên live",
+        "description": "Sau khi live 30 phút tự động tăng ngân sách 50%, sau khi kết thúc 30 phút sẽ khôi phục."
+      },
+      "tiktok-high-cpa-breaker": {
+        "title": "Ngắt bảo vệ CPA cao",
+        "description": "Khi CPA quảng cáo > $10 và conversion bằng 0 trong 6 giờ liên tiếp, tự động tạm dừng."
+      },
+      "google-negative-keywords": {
+        "title": "Tự động thêm negative search terms",
+        "description": "Search terms không có conversion nhưng spend > $20 trong 30 ngày sẽ tự động thêm vào negative keywords."
+      },
+      "google-keyword-bidding": {
+        "title": "Tối ưu bid keyword",
+        "description": "Tự động điều chỉnh bid theo ROAS 7 ngày của từng keyword trong biên độ ±15%."
+      },
+      "google-asset-cleanup": {
+        "title": "Dọn asset kém hiệu quả",
+        "description": "Asset RSA có trạng thái Low sẽ tự động tạm dừng và gợi ý thay thế."
+      },
+      "google-quality-score": {
+        "title": "Bảo vệ Quality Score",
+        "description": "Keyword có QS giảm xuống ≤ 4 sẽ tự động giảm bid và đánh dấu hướng tối ưu."
+      },
+      "ga-conversion-alert": {
+        "title": "Cảnh báo bất thường conversion",
+        "description": "Khi conversion rate hôm nay giảm > 25% so với trung bình 7 ngày, gửi cảnh báo Slack ngay."
+      },
+      "ga-traffic-daily-report": {
+        "title": "Báo cáo cấu trúc traffic hằng ngày",
+        "description": "Tự động tạo báo cáo biến động Source/Medium mỗi ngày lúc 09:00."
+      },
+      "ga-audience-decay": {
+        "title": "Cảnh báo audience suy giảm",
+        "description": "Audience GA4 giảm > 20% trong 7 ngày sẽ tự động cảnh báo và đề xuất cập nhật điều kiện."
+      },
+      "ga-funnel-bottleneck": {
+        "title": "Phát hiện bottleneck funnel",
+        "description": "Tự động xác định bước giảm mạnh nhất trong conversion funnel và đưa giả thuyết."
+      },
+      "gsc-index-alert": {
+        "title": "Cảnh báo bất thường index",
+        "description": "Tự động cảnh báo khi có trang mới ở trạng thái Excluded hoặc Discovered - currently not indexed."
+      },
+      "gsc-core-web-vitals": {
+        "title": "Bảo vệ Core Web Vitals",
+        "description": "Cảnh báo khi LCP / INP / CLS rời vùng xanh và liệt kê các trang bị ảnh hưởng."
+      },
+      "gsc-keyword-rank": {
+        "title": "Theo dõi thứ hạng keyword",
+        "description": "Cảnh báo khi keyword cốt lõi rơi khỏi Top 10 và cung cấp so sánh đối thủ."
+      },
+      "gsc-sitemap-sync": {
+        "title": "Kiểm tra đồng bộ Sitemap",
+        "description": "Mỗi ngày xác thực trạng thái submit sitemap và tỷ lệ đã index, cảnh báo khi bất thường."
+      }
+    }
+  },
+  "faceDetect": {
+    "title": "Nhận diện khuôn mặt",
+    "description": "Tải ảnh lên hoặc dán URL ảnh, sau đó nhận diện khuôn mặt với khung viền và nhãn mô tả.",
+    "upload": {
+      "button": "Tải ảnh lên",
+      "hint": "PNG, JPG hoặc WebP",
+      "uploading": "Đang tải lên…"
+    },
+    "url": {
+      "label": "Hoặc dán URL ảnh công khai",
+      "placeholder": "https://example.com/photo.jpg"
+    },
+    "detect": "Nhận diện khuôn mặt",
+    "detecting": "Đang nhận diện…",
+    "result": {
+      "title": "Khuôn mặt đã phát hiện",
+      "empty": "Không phát hiện khuôn mặt nào."
+    },
+    "errors": {
+      "badImage": "Không tải được ảnh. Kiểm tra URL và thử lại.",
+      "artifactNotFound": "Không tìm thấy ảnh đã tải lên. Hãy tải lại.",
+      "invalidRequest": "Chỉ cung cấp một nguồn ảnh: tải lên hoặc URL.",
+      "modelFailed": "Mô hình nhận diện gặp lỗi. Vui lòng thử lại.",
+      "serviceUnavailable": "Dịch vụ nhận diện khuôn mặt hiện không khả dụng.",
+      "generic": "Nhận diện khuôn mặt thất bại. Vui lòng thử lại.",
+      "uploadFailed": "Tải lên thất bại. Vui lòng thử lại.",
+      "imageLoadFailed": "Không hiển thị được ảnh xem trước; danh sách khuôn mặt vẫn hiển thị."
+    }
+  },
+  "faceSwap": {
+    "title": "Hoán đổi khuôn mặt",
+    "description": "Tải lên một ảnh và một ảnh khuôn mặt, nhận diện khuôn mặt, chọn khuôn mặt muốn thay, rồi chạy hoán đổi.",
+    "target": {
+      "label": "Ảnh gốc",
+      "hint": "Ảnh có khuôn mặt sẽ bị thay thế"
+    },
+    "source": {
+      "label": "Ảnh khuôn mặt",
+      "hint": "Khuôn mặt sẽ được ghép vào ảnh"
+    },
+    "upload": {
+      "button": "Tải ảnh lên",
+      "uploading": "Đang tải lên…"
+    },
+    "detect": "Nhận diện khuôn mặt",
+    "detecting": "Đang nhận diện…",
+    "swap": "Hoán đổi khuôn mặt",
+    "swapping": "Đang hoán đổi…",
+    "pick": {
+      "title": "Chọn khuôn mặt muốn thay",
+      "hint": "Chạm vào khung để chọn khuôn mặt. Không chọn gì thì khuôn mặt nổi bật nhất sẽ được thay.",
+      "empty": "Không tìm thấy khuôn mặt nào trong ảnh gốc.",
+      "count": "Đã chọn {count} khuôn mặt."
+    },
+    "result": {
+      "title": "Kết quả"
+    },
+    "errors": {
+      "uploadFailed": "Tải lên thất bại. Hãy thử lại.",
+      "generic": "Hoán đổi khuôn mặt thất bại. Hãy thử lại."
+    }
+  },
+  "composer": {
+    "placeholder": "Giao nhiệm vụ hoặc hỏi bất cứ điều gì",
+    "attachment": {
+      "addLocalFile": "Thêm từ tệp cục bộ",
+      "addFilesOrPhotos": "Thêm tệp hoặc ảnh",
+      "recordSkill": "Ghi lại một kỹ năng",
+      "skills": "Kỹ năng",
+      "connectors": "Trình kết nối",
+      "addConnector": "Thêm trình kết nối",
+      "manageConnectors": "Quản lý trình kết nối",
+      "browseConnectors": "Xem chợ trình kết nối",
+      "addCustomConnector": "Thêm trình kết nối tự định nghĩa",
+      "browser": "Trình duyệt",
+      "designSystem": "Hệ thống thiết kế",
+      "plugins": "Tiện ích mở rộng",
+      "pluginComingSoon": "Sắp có",
+      "manageDesignSystems": "Quản lý hệ thống thiết kế",
+      "newDesignSystem": "Hệ thống thiết kế mới",
+      "designSystemUsingCluega": "Dùng Cluega",
+      "designSystemUsingCluegaHint": "Tải tệp thương hiệu lên, lấy từ connector thiết kế hoặc mô tả bằng lời",
+      "designSystemFromAdAccounts": "Từ tài khoản quảng cáo",
+      "designSystemFromAdAccountsHint": "Trích màu, logo và kiểu chữ từ tài sản quảng cáo đã kết nối",
+      "managePlugins": "Quản lý tiện ích mở rộng",
+      "browsePlugins": "Duyệt tiện ích mở rộng",
+      "useSkill": "Dùng kỹ năng",
+      "mySkills": "SKILLS CỦA TÔI",
+      "installFromGithub": "Cài Skill từ GitHub",
+      "manageMySkills": "Quản lý Skills của tôi",
+      "scopeVideo": "Video",
+      "scopeImage": "Hình ảnh",
+      "scopeAll": "Video · Hình ảnh",
+      "scopeChat": "Trò chuyện",
+      "noSkills": "Chưa có skill nào",
+      "noMatchingSkills": "Không có skill phù hợp",
+      "noSkillsEnabled": "Chưa bật skill nào",
+      "filter": {
+        "clear": "Xoá",
+        "apply": "Áp dụng"
+      },
+      "mediaScope": {
+        "filterLabel": "Lọc theo nhóm"
+      },
+      "skillKind": {
+        "filterLabel": "Lọc theo loại",
+        "agentKinds": "Chính thức và Cá nhân",
+        "agent": "Skill Agent",
+        "official": "Chính thức",
+        "personal": "Cá nhân",
+        "strategy": "Chiến lược"
+      },
+      "addSkills": "Thêm skills",
+      "addSkillsShort": "Thêm",
+      "strategies": {
+        "loadError": "Không tải được chiến lược phân phối",
+        "retry": "Thử lại",
+        "empty": "Chưa lưu chiến lược phân phối nào",
+        "noMatch": "Không có chiến lược phân phối phù hợp",
+        "remove": "Bỏ chiến lược phân phối",
+        "scoped": "Phù hợp chiến dịch này",
+        "scopedEmpty": "Không có kỹ năng nào phù hợp loại chiến dịch này — chúng vẫn ở Cài đặt › Kỹ năng."
+      },
+      "autoSelect": "Tự chọn skill",
+      "autoSelectHint": "AI tự chọn skill phù hợp trong các skill đã bật cho từng prompt",
+      "alwaysApply": "Luôn áp dụng",
+      "autoPickBadge": "Tự động"
+    },
+    "directory": {
+      "title": "Thư mục",
+      "search": "Tìm connector",
+      "filter": "Lọc: {value}",
+      "all": "Tất cả",
+      "showAll": "Xem tất cả",
+      "showLess": "Thu gọn",
+      "add": "Thêm {name}",
+      "connected": "Đã kết nối",
+      "comingSoon": "Sắp có",
+      "empty": "Không có connector phù hợp",
+      "close": "Đóng"
+    },
+    "workMode": {
+      "label": "Chế độ",
+      "chat": "Chat",
+      "cowork": "Cowork"
+    },
+    "integration": {
+      "searchPlaceholder": "Tìm ủy quyền ứng dụng",
+      "authorized": "Đã ủy quyền",
+      "unauthorized": "Chưa ủy quyền",
+      "extensionRequired": "Cần cài extension",
+      "myBrowserSwitchLabel": "Bật Browser Agent",
+      "myBrowserCapabilityHint": "Cluega chạy tác vụ web trên trình duyệt của bạn hoặc trình duyệt đám mây của Cluega — AI tự chọn theo từng tác vụ.",
+      "notFound": "Không tìm thấy ủy quyền ứng dụng",
+      "addConnector": "Thêm connector",
+      "myBrowserHintDescription": "Hoạt động ngay trên trình duyệt đám mây của Cluega. Cài extension để Cluega còn làm việc được trên trình duyệt của bạn.",
+      "myBrowserHintLearnMore": "Tìm hiểu thêm",
+      "myBrowserHintInstall": "Cài đặt"
+    },
+    "model": {
+      "selectTitle": "Chọn mô hình",
+      "lockedHint": "Đang ghim ở Auto để giữ đúng tỉ lệ khung hình của prompt mẫu. Mở danh sách nếu bạn vẫn muốn tự chọn model.",
+      "sessionLockedHint": "Cuộc hội thoại này chạy trên một model duy nhất. Mở hội thoại mới nếu bạn muốn dùng model khác.",
+      "generationLockedHint": "Không thể đổi model trong lúc đang tạo dashboard này. Bộ chọn sẽ mở lại khi lượt này hoàn tất, lỗi hoặc bị dừng.",
+      "cost": {
+        "low": "Chi phí thấp",
+        "medium": "Chi phí trung bình",
+        "high": "Chi phí cao"
+      }
+    },
+    "models": {
+      "auto": {
+        "name": "Auto",
+        "description": "Ghép thông minh, phù hợp công việc hàng ngày"
+      },
+      "cluega-game": {
+        "name": "Mô hình Game Cluega",
+        "description": "Mô hình game nội bộ của Cluega, mạnh về kịch bản gameplay, tài sản vận hành và copy UA"
+      },
+      "claude-opus-4-7": {
+        "name": "Claude Opus 4.7",
+        "description": "Mô hình flagship của Anthropic, mạnh về suy luận sâu và nội dung dài"
+      },
+      "claude-sonnet-4-6": {
+        "name": "Claude Sonnet 4.6",
+        "description": "Cân bằng tốc độ và chất lượng cho hầu hết tác vụ"
+      },
+      "gpt-5": {
+        "name": "GPT-5",
+        "description": "Mô hình flagship của OpenAI với khả năng tổng quát mạnh"
+      },
+      "gpt-5-mini": {
+        "name": "GPT-5 mini",
+        "description": "Nhẹ và nhanh, phù hợp tương tác thời gian thực"
+      },
+      "gemini-3-flash": {
+        "name": "Gemini 3 Flash",
+        "description": "Cân bằng và đa năng, lý tưởng cho hầu hết tác vụ"
+      },
+      "gemini-3-1-pro": {
+        "name": "Gemini 3.1 Pro",
+        "description": "Phân tích và tạo nội dung mạnh hơn cho tác vụ phức tạp"
+      },
+      "qwen-3-6-plus": {
+        "name": "Qwen 3.6 Plus",
+        "description": "Ổn định và đa năng cho quy trình làm việc hàng ngày"
+      },
+      "deepseek-v3": {
+        "name": "DeepSeek V3",
+        "description": "Mô hình mã nguồn mở hiệu quả chi phí, phù hợp xử lý khối lượng lớn"
+      },
+      "grok-3": {
+        "name": "Grok 3",
+        "description": "Mô hình suy luận xAI, mạnh tích hợp thông tin thời gian thực"
+      }
+    },
+    "skills": {
+      "tiktok-ads-generator": {
+        "name": "Trình tạo quảng cáo TikTok",
+        "description": "Trình tạo kịch bản và storyboard quảng cáo video ngắn TikTok chuyển đổi cao với hook, pain point và CTA theo nhịp nền tảng..."
+      },
+      "meta-creative-matrix": {
+        "name": "Ma trận sáng tạo Meta",
+        "description": "Công cụ lập kế hoạch copy và ma trận hình ảnh đa biến thể cho Meta theo độ nóng audience lạnh/ấm/nóng..."
+      },
+      "google-search-optimizer": {
+        "name": "Tối ưu Google Search",
+        "description": "Chuyên gia RSA tạo tiêu đề và mô tả liên quan cao, loại bỏ từ khóa ý định thấp..."
+      },
+      "omni-ad-brief-compiler": {
+        "name": "Biên soạn Brief đa kênh",
+        "description": "Chuyển điểm bán hàng thành brief sáng tạo đa nền tảng cho TikTok và Meta..."
+      },
+      "pmax-asset-shaper": {
+        "name": "Lập kế hoạch tài sản PMax",
+        "description": "Lập nhóm tài sản Performance Max gồm text, hình ảnh, video cho YouTube, Gmail và Display..."
+      },
+      "tiktok-trend-aligner": {
+        "name": "Đồng bộ xu hướng TikTok",
+        "description": "Kết hợp pain point thương hiệu với nhạc, meme và format TikTok đang hot..."
+      },
+      "meta-hook-variant": {
+        "name": "Biến thể Hook Meta",
+        "description": "Tạo hàng loạt hook quảng cáo Feed và Reels theo 5 khung tâm lý giảm tỷ lệ thoát..."
+      },
+      "cross-channel-copywriter": {
+        "name": "Copywriter đa kênh",
+        "description": "Một brief chuyển thành copy TikTok đời thường, Meta kể chuyện và Google ý định cao..."
+      },
+      "ad-audience-persona": {
+        "name": "Persona audience quảng cáo",
+        "description": "Suy luận động cơ audience và gợi ý tag targeting Meta/TikTok từ logic chiến dịch..."
+      },
+      "landing-page-aligner": {
+        "name": "Đối chiếu landing page",
+        "description": "Rà soát creative TikTok/Meta với messaging above-the-fold trên landing page..."
+      }
+    },
+    "integrationCategories": {
+      "browser": "Trình duyệt",
+      "marketing": "Marketing & Quảng cáo",
+      "collaboration": "Làm việc & Cộng tác",
+      "ecommerce": "Thương mại điện tử",
+      "messaging": "Nhắn tin",
+      "crm": "CRM & Bán hàng",
+      "analytics": "Phân tích & SEO",
+      "email": "Email Marketing",
+      "content": "Nội dung & Thiết kế",
+      "tools": "Công cụ Marketing"
+    },
+    "screenContext": {
+      "addFolder": "Thêm thư mục cục bộ",
+      "manageFolders": "Quản lý thư mục"
+    },
+    "executionMode": {
+      "selectTitle": "Chế độ thực thi",
+      "auto": {
+        "name": "Auto",
+        "description": "Bỏ qua các bước xác nhận trong workflow"
+      },
+      "plan": {
+        "name": "Plan",
+        "description": "AI xem xét và đề xuất cấu hình trước khi thực thi"
+      },
+      "quant": {
+        "name": "Quant",
+        "description": "Yêu cầu bước xác nhận để đảm bảo an toàn"
+      }
+    },
+    "autonomy": {
+      "label": "Mức tự chủ",
+      "autopilot": {
+        "name": "Autopilot",
+        "description": "Tự động hoàn toàn đến khi xong, gồm cả hành động rủi ro cao"
+      },
+      "copilot": {
+        "name": "Copilot",
+        "description": "Tự động; dừng chờ phê duyệt ở hành động rủi ro cao"
+      },
+      "manual": {
+        "name": "Manual",
+        "description": "Phê duyệt từng bước quan trọng một"
+      }
+    },
+    "recentAsks": {
+      "label": "Thử bắt đầu với một trong các câu sau",
+      "q1": "Mẫu quảng cáo TikTok nào có CPA tệ nhất hôm qua?",
+      "q2": "Nhóm quảng cáo nào vượt CPA mục tiêu 30% trong 3 ngày qua?",
+      "q3": "So sánh ROAS của 5 chiến dịch hàng đầu tuần này với tuần trước",
+      "history": {
+        "label": "Dựa trên các yêu cầu gần đây của bạn",
+        "q1": "Chiến dịch TikTok Reach gần nhất chạy thế nào? Tóm tắt các điểm nổi bật",
+        "q2": "So sánh xu hướng CPM của Meta và TikTok trong hai tuần qua",
+        "q3": "Những quyền nào vẫn còn thiếu cho file Excel bộ test chuẩn?"
+      }
+    }
+  },
+  "workflowCatalog": {
+    "tiktok-dm-lead-gen": {
+      "label": "TikTok Lead Generation DM",
+      "description": "Thu lead và theo dõi qua TikTok DM."
+    },
+    "tiktok-whatsapp-lead-gen": {
+      "label": "TikTok Lead Gen — WhatsApp",
+      "description": "Thu lead qua WhatsApp CLICK"
+    }
+  }
+}

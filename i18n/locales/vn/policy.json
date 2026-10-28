@@ -1,0 +1,130 @@
+{
+  "links": {
+    "terms": "Điều khoản",
+    "aiUsage": "Chính sách dùng AI",
+    "privacy": "Quyền riêng tư",
+    "termsAndPolicy": "Điều khoản & Chính sách"
+  },
+  "pageTitle": "Điều khoản, chính sách và cảnh báo khi dùng AI",
+  "lastUpdated": "Cập nhật lần cuối: 03/08/2026",
+  "intro": "Các điều khoản này áp dụng cho việc bạn sử dụng Cluega và các mô hình AI được cung cấp qua nền tảng. Hãy đọc kỹ phần cảnh báo khi dùng AI — bạn chịu trách nhiệm cho mọi prompt bạn gửi và mọi nội dung bạn công bố.",
+  "tocTitle": "Nội dung trang",
+  "rail": {
+    "label": "Chính sách",
+    "tooltip": "Điều khoản, chính sách và cảnh báo khi dùng AI"
+  },
+  "back": "Quay lại canvas",
+  "banner": {
+    "title": "Vi phạm có thể dẫn tới khóa tài khoản",
+    "body": "Yêu cầu vi phạm các quy định này có thể bị chặn trước khi chạy hoặc thất bại giữa chừng. Vi phạm nhiều lần hoặc nghiêm trọng — đặc biệt là nội dung liên quan tới trẻ em — sẽ dẫn tới đình chỉ hoặc khóa vĩnh viễn, và bị báo cáo cho cơ quan có thẩm quyền khi pháp luật yêu cầu."
+  },
+  "sections": {
+    "acceptance": {
+      "title": "1. Chấp nhận điều khoản",
+      "body": "Khi tạo dự án, gửi prompt hoặc tạo bất kỳ hình ảnh, video, âm thanh hay văn bản nào trên Cluega, bạn đồng ý với các điều khoản và chính sách dưới đây.",
+      "bullets": [
+        "Bạn phải có đủ năng lực pháp lý để giao kết hợp đồng tại nơi bạn cư trú và phải đủ độ tuổi tối thiểu được phép sử dụng dịch vụ số theo luật địa phương.",
+        "Nếu bạn dùng Cluega thay mặt cho công ty hoặc khách hàng, bạn xác nhận mình được ủy quyền chấp nhận các điều khoản này thay cho họ.",
+        "Chúng tôi có thể cập nhật điều khoản khi tính năng, mô hình và quy định pháp luật thay đổi. Việc bạn tiếp tục sử dụng sau khi cập nhật đồng nghĩa với việc chấp nhận bản mới."
+      ]
+    },
+    "aiUsage": {
+      "title": "2. Dùng mô hình AI — điều bạn phải biết",
+      "body": "Cluega chuyển yêu cầu của bạn tới các mô hình AI của bên thứ ba. Kết quả được sinh ra theo xác suất chứ không được kiểm chứng. Hãy coi đó là bản nháp, không phải sự thật.",
+      "bullets": [
+        "Kết quả có thể sai, lỗi thời, thiên lệch hoặc bịa đặt hoàn toàn — bao gồm tên riêng, số liệu, trích dẫn, giá và tuyên bố về sản phẩm. Hãy kiểm chứng mọi thông tin sự thật trước khi công bố.",
+        "Cùng một prompt có thể cho kết quả khác nhau ở mỗi lần chạy. Không có gì bảo đảm kết quả là duy nhất, lặp lại được hay không trùng lặp với tác phẩm đã có.",
+        "Bạn chịu trách nhiệm rà soát, chỉnh sửa và phê duyệt nội dung trước khi đưa tới khách hàng, nền tảng quảng cáo hoặc công chúng.",
+        "Nếu pháp luật yêu cầu, bạn phải công bố rằng nội dung được tạo hoặc hỗ trợ bởi AI.",
+        "Khả năng phục vụ, chất lượng, tốc độ và giá của mô hình phụ thuộc nhà cung cấp thượng nguồn, có thể thay đổi hoặc lỗi bất cứ lúc nào.",
+        "Không dùng kết quả AI cho các quyết định có hệ quả pháp lý, y tế, an toàn hay tài chính nếu chưa có người đủ chuyên môn xem xét."
+      ]
+    },
+    "prohibited": {
+      "title": "3. Hành vi bị cấm và trục lợi",
+      "body": "Các mục đích sau bị nghiêm cấm. Yêu cầu có thể bị từ chối hoặc thất bại, và việc cố tình lặp lại có thể dẫn tới đình chỉ hoặc chấm dứt tài khoản.",
+      "bullets": [
+        "Lừa đảo, chiếm đoạt tài sản, phishing, minigame/quà tặng giả, đánh giá và cảm nhận khách hàng giả, mọi hình thức quảng cáo gian dối.",
+        "Mạo danh người thật, thương hiệu hoặc cơ quan nhà nước; tạo deepfake hay nhân bản giọng nói của người nhận dạng được mà không có sự đồng ý bằng văn bản.",
+        "Nội dung tình dục, quấy rối, thù ghét, miệt thị, kích động bạo lực hoặc nhắm vào một cá nhân, nhóm được pháp luật bảo vệ.",
+        "Nội dung về tự hại, tự tử, rối loạn ăn uống, hướng dẫn chế tạo vũ khí hoặc ma túy.",
+        "Mã độc, mã khai thác lỗ hổng, trang đánh cắp thông tin đăng nhập, hạ tầng phát tán spam, hoặc nội dung nhằm né kiểm duyệt của nền tảng.",
+        "Cố tình vượt rào an toàn: prompt jailbreak, prompt injection, moi system prompt, rút trích dữ liệu từ công cụ và nguồn đã kết nối.",
+        "Cào dữ liệu tự động, dội tải khi chưa được phép, chia sẻ API key, hoặc bán lại quyền truy cập mô hình như dịch vụ của bạn.",
+        "Tải lên dữ liệu cá nhân của người khác khi không có căn cứ hợp pháp, hoặc tài liệu mật mà bạn không được phép xử lý."
+      ]
+    },
+    "financial": {
+      "title": "4. Nội dung tài chính — không phải tư vấn",
+      "body": "Cluega là công cụ sáng tạo và marketing, không phải đơn vị tư vấn tài chính. Không nội dung nào tạo ra ở đây là tư vấn đầu tư, thuế, kế toán hay pháp lý.",
+      "bullets": [
+        "Không dùng kết quả làm căn cứ cho quyết định đầu tư, giao dịch, cho vay, bảo hiểm hay thuế.",
+        "Không tạo nội dung hứa hẹn lợi nhuận, cam kết sinh lời, \"không rủi ro\", hay tín hiệu giao dịch; không trình bày kết quả AI như khuyến nghị của chuyên gia.",
+        "Quảng cáo tài chính, tiền mã hóa, cho vay, cờ bạc và bảo hiểm bị quản lý chặt ở hầu hết các nước. Nếu bạn quảng cáo trong các ngành này, việc tuân thủ quy định công bố, giấy phép và chính sách của nền tảng quảng cáo hoàn toàn thuộc trách nhiệm của bạn.",
+        "Mọi con số về giá, chi phí hay hiệu quả xuất hiện trong nội dung được tạo đều phải được kiểm chứng độc lập trước khi công bố."
+      ]
+    },
+    "minors": {
+      "title": "5. Trẻ em và người chưa thành niên — tuyệt đối không khoan nhượng",
+      "body": "Không có ngoại lệ, không có lý do nghệ thuật và không có trường hợp \"thử nghiệm\" nào cho nội dung tình dục hóa hoặc gây nguy hại cho trẻ em.",
+      "bullets": [
+        "Nghiêm cấm mọi hành vi tạo, tải lên, mô tả hoặc yêu cầu nội dung tình dục, khỏa thân, gợi dục hay bóc lột liên quan tới người chưa thành niên.",
+        "Hành vi này dẫn tới chấm dứt tài khoản ngay lập tức; chúng tôi sẽ lưu giữ và báo cáo hồ sơ liên quan cho cơ quan có thẩm quyền khi pháp luật yêu cầu.",
+        "Không tải ảnh trẻ em lên làm ảnh tham chiếu để tạo nội dung.",
+        "Cluega không dành cho trẻ em. Không để trẻ em dùng tài khoản của bạn và không tạo tài khoản cho người chưa đủ tuổi tối thiểu theo luật nước bạn.",
+        "Quảng cáo hướng tới trẻ em phải tuân thủ các quy định bảo vệ bổ sung áp dụng tại thị trường của bạn."
+      ]
+    },
+    "adultContent": {
+      "title": "6. Nội dung người lớn và 18+",
+      "body": "Cluega không phải nền tảng nội dung người lớn. Việc tạo nội dung khiêu dâm nằm ngoài phạm vi dịch vụ.",
+      "bullets": [
+        "Không được tạo nội dung khiêu dâm, tình dục lộ liễu, bạo lực hay máu me phản cảm — kể cả bằng cách nói tránh, dùng từ mã hóa hoặc ảnh tham chiếu.",
+        "Nhà cung cấp mô hình có hệ thống kiểm duyệt riêng. Yêu cầu bị họ đánh giá là không an toàn sẽ bị từ chối và job thất bại — điều này nằm ngoài kiểm soát của chúng tôi và không phải lỗi dịch vụ.",
+        "Cố tình lặp lại việc tạo nội dung bị cấm được coi là hành vi lạm dụng và có thể bị giới hạn tốc độ, đình chỉ hoặc chấm dứt tài khoản.",
+        "Sản phẩm hạn chế độ tuổi (rượu bia, thuốc lá, cờ bạc, hàng hóa người lớn) chỉ được quảng cáo ở nơi luật địa phương và nền tảng quảng cáo đích cho phép, kèm thiết lập nhắm đối tượng bắt buộc."
+      ]
+    },
+    "ipRights": {
+      "title": "7. Sở hữu trí tuệ và tài nguyên tải lên",
+      "body": "Bạn chịu trách nhiệm về quyền đối với mọi thứ bạn đưa vào Cluega và mọi thứ bạn lấy ra.",
+      "bullets": [
+        "Chỉ tải lên hình ảnh, video, âm thanh, phông chữ hoặc văn bản mà bạn sở hữu hoặc được cấp phép sử dụng.",
+        "Không dùng nhãn hiệu, logo, nhân vật của bên thứ ba hay hình ảnh cá nhân của người khác khi chưa được phép. Một số mô hình từ chối thẳng nội dung có thương hiệu.",
+        "Bản quyền đối với nội dung do AI tạo ra chưa được xác lập rõ và khác nhau theo từng quốc gia — ở một số nơi, nội dung thuần túy do máy tạo có thể không được bảo hộ.",
+        "Điều khoản của mô hình và nhà cung cấp bên thứ ba áp dụng bổ sung, bao gồm các hạn chế về sử dụng thương mại đối với kết quả của từng mô hình cụ thể."
+      ]
+    },
+    "enforcement": {
+      "title": "8. Thực thi, chặn và tính sẵn sàng",
+      "body": "Chúng tôi vận hành các cơ chế kiểm soát nội dung và an toàn ở lớp định tuyến và trong pipeline media; nhà cung cấp áp dụng thêm cơ chế của họ.",
+      "bullets": [
+        "Yêu cầu có thể bị từ chối trước khi chạy, hoặc thất bại giữa chừng, khi bị gắn cờ bởi chính sách an toàn của chúng tôi hoặc hệ thống kiểm duyệt của nhà cung cấp.",
+        "Cơ chế an toàn không hoàn hảo theo cả hai chiều: nội dung bị cấm vẫn có thể lọt qua, và yêu cầu hợp lệ đôi khi bị chặn nhầm. Cả hai trường hợp đều không làm thay đổi phạm vi được phép trong điều khoản này.",
+        "Chúng tôi có thể giới hạn tốc độ, đình chỉ hoặc chấm dứt quyền truy cập khi có vi phạm chính sách, tải bất thường, chậm thanh toán hoặc nghi ngờ gian lận.",
+        "Dịch vụ được cung cấp theo hiện trạng. Chúng tôi không cam kết hoạt động không gián đoạn, thời gian hoạt động của một mô hình cụ thể, hay sự phù hợp cho một mục đích riêng.",
+        "Hãy báo cáo hành vi lạm dụng hoặc vấn đề chính sách theo thông tin liên hệ bên dưới."
+      ]
+    },
+    "dataPrivacy": {
+      "title": "9. Dữ liệu và quyền riêng tư",
+      "body": "Chúng tôi chỉ lưu những gì cần thiết để vận hành, tính phí và bảo vệ dịch vụ.",
+      "bullets": [
+        "Nội dung prompt và phản hồi không được lưu trong nhật ký sử dụng và chi phí — chế độ lưu nội dung đã bị tắt ở lớp định tuyến.",
+        "Chúng tôi có ghi lại metadata của yêu cầu: thời điểm, mô hình, số token, chi phí, mã tenant và người dùng, trạng thái lỗi. Dữ liệu này dùng cho tính phí, hạn mức, phòng chống lạm dụng và xử lý sự cố.",
+        "Tài nguyên bạn tải lên và tệp được tạo cho bạn được lưu trong kho lưu trữ Cluega để bạn mở lại dự án, và sẽ bị xóa cùng dự án.",
+        "Prompt của bạn được gửi tới nhà cung cấp mô hình bên thứ ba phục vụ yêu cầu đó; điều khoản xử lý và lưu trữ của họ sẽ áp dụng.",
+        "Không nhập thông tin thẻ thanh toán, mật khẩu, hồ sơ y tế hay số giấy tờ tùy thân vào prompt."
+      ]
+    },
+    "contact": {
+      "title": "10. Liên hệ",
+      "body": "Câu hỏi về điều khoản, yêu cầu gỡ nội dung và báo cáo lạm dụng có thể gửi tới đội hỗ trợ của chúng tôi để chuyển tới bộ phận phụ trách.",
+      "bullets": [
+        "Hỗ trợ và câu hỏi về chính sách: support@cluega.com",
+        "Báo cáo lạm dụng, an toàn và an toàn trẻ em: abuse@cluega.com",
+        "Vui lòng kèm tên dự án, thời điểm gần đúng và mô hình đã dùng để chúng tôi tra cứu yêu cầu."
+      ]
+    }
+  }
+}

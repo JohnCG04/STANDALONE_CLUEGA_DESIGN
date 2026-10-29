@@ -46,6 +46,7 @@ export async function createCaptionsJob(
       options: {
         video_edit_op: CAPTIONS_EDIT_OP,
         caption_script: req.scriptText,
+        ...(req.source ? { caption_source: req.source } : {}),
         ...(req.burnIn ? { caption_burn_in: true } : {}),
         ...(req.language ? { caption_language: req.language } : {}),
       },
@@ -57,11 +58,14 @@ export async function createCaptionsJob(
   return readCreatedJobId(response, CAPTIONS_FEATURE);
 }
 
+/** The finished job's video urls plus the subtitle files it wrote. */
+type CaptionsJobOutput = { urls: string[]; srtUrl?: string; assUrl?: string };
+
 /** A near-twin of `pollVideoFaceSwapUrls` with the captions budget. */
 export async function pollCaptionsUrl(
   jobId: string,
   signal?: AbortSignal,
-): Promise<string[]> {
+): Promise<CaptionsJobOutput> {
   const startedAt = Date.now();
   let consecutiveErrors = 0;
 
@@ -84,9 +88,13 @@ export async function pollCaptionsUrl(
 
     const status = job.status ?? "";
     if (status === "succeeded") {
-      return job.result
-        ? outputUrlsFromResult(job.result).map(resolveVideoUrl)
-        : [];
+      if (!job.result) return { urls: [] };
+      const files = job.result as { caption_srt_url?: string; caption_ass_url?: string };
+      return {
+        urls: outputUrlsFromResult(job.result).map(resolveVideoUrl),
+        srtUrl: files.caption_srt_url ? resolveVideoUrl(files.caption_srt_url) : undefined,
+        assUrl: files.caption_ass_url ? resolveVideoUrl(files.caption_ass_url) : undefined,
+      };
     }
     if (status === "failed") {
       throw new Error(job.error || CAPTIONS_MESSAGES.jobFailed);
@@ -99,7 +107,8 @@ export async function pollCaptionsUrl(
   }
 }
 
-/** Write timed captions for a clip, optionally burned in. `req.video.transforms` aren't applied. */
+/** Timed captions for a clip — heard from its speech (`source: "auto"`) or a typed script —
+ *  optionally burned in; `raw` carries the subtitle files. `req.video.transforms` aren't applied. */
 export async function burnCaptions(
   req: BurnCaptionsRequest,
   workflowId?: string,
@@ -109,14 +118,16 @@ export async function burnCaptions(
     ? toJobInputUrl(unproxyImageInput(req.video).url)
     : undefined;
   if (!video) throw new Error(CAPTIONS_MESSAGES.noVideo);
-  if (!req.scriptText?.trim()) throw new Error(CAPTIONS_MESSAGES.noScript);
+  if (req.source !== "auto" && !req.scriptText?.trim()) {
+    throw new Error(CAPTIONS_MESSAGES.noScript);
+  }
 
   assertPubliclyFetchable([video], CAPTIONS_FEATURE);
 
   const jobId = await createCaptionsJob(video, req, workflowId, track?.target);
   track?.onCreated?.([jobId], jobId);
 
-  const urls = await pollCaptionsUrl(jobId);
+  const { urls, srtUrl, assUrl } = await pollCaptionsUrl(jobId);
   if (urls.length === 0) throw new Error(CAPTIONS_MESSAGES.noVideoUrl);
 
   const asset = {
@@ -124,5 +135,5 @@ export async function burnCaptions(
     url: urls[0],
     kind: "video" as const,
   };
-  return { asset, assets: [asset] } as GenResult;
+  return { asset, assets: [asset], raw: { srtUrl, assUrl } } as GenResult;
 }

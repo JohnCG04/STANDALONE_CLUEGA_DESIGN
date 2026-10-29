@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dogclaw-ad/workflow": "6.0.0-dev-d2a0535-40650342723",
+    "@dogclaw-ad/workflow": "6.2.0",
     "@dogclaw-ad/workflow-agent": "0.2.7-dev-7b5b311-35421694273",
     "@lobehub/icons": "^5.10.0",
     "@paddlejs-models/ocr": "^1.2.4",
